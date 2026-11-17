@@ -1,0 +1,2057 @@
+[
+  {
+    "path": "archive/opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-træ.xlsx",
+    "sheets": [
+      {
+        "name": "beregner",
+        "state": "visible",
+        "rows": 37,
+        "columns": 11,
+        "formula_count": 15,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-træ.xlsx/01-beregner.json",
+        "formula_examples": [
+          {
+            "cell": "D10",
+            "formula": "=_xlfn.XLOOKUP(D7,H24:H25,J24:J25)"
+          },
+          {
+            "cell": "E10",
+            "formula": "=_xlfn.XLOOKUP(D7,H24:H25,K24:K25)"
+          },
+          {
+            "cell": "D11",
+            "formula": "=D5+D10"
+          },
+          {
+            "cell": "E11",
+            "formula": "=D5+E10"
+          },
+          {
+            "cell": "B16",
+            "formula": "=MONTH(D3)"
+          },
+          {
+            "cell": "B17",
+            "formula": "=måned"
+          },
+          {
+            "cell": "J24",
+            "formula": "=J17*D5/1000*E36"
+          },
+          {
+            "cell": "K24",
+            "formula": "=K17*D5/1000*7"
+          }
+        ]
+      },
+      {
+        "name": "license",
+        "state": "visible",
+        "rows": 25,
+        "columns": 3,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-træ.xlsx/02-license.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [
+      "xl/externalLinks/externalLink1.xml",
+      "xl/externalLinks/_rels/externalLink1.xml.rels"
+    ],
+    "calculated": false
+  },
+  {
+    "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm",
+    "sheets": [
+      {
+        "name": "forside",
+        "state": "visible",
+        "rows": 51,
+        "columns": 16,
+        "formula_count": 18,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/01-forside.json",
+        "formula_examples": [
+          {
+            "cell": "H26",
+            "formula": "=v_navn & \" i forhold til '60 cases' (SBI2020:04)\""
+          },
+          {
+            "cell": "C29",
+            "formula": "=_xlfn.XLOOKUP(category,beregning!$T$7:$T$15,beregning!U$7:U$15,\"-\")"
+          },
+          {
+            "cell": "D29",
+            "formula": "=_xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!L$5:L$13,\"\") &\" \"& _xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!K$5:K$13,\"\") &\" /m2/år\""
+          },
+          {
+            "cell": "C30",
+            "formula": "=_xlfn.XLOOKUP(category,beregning!$T$7:$T$15,beregning!W$7:W$15,\"-\")"
+          },
+          {
+            "cell": "D30",
+            "formula": "=_xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!M$5:M$13,\"\") &\" \"& _xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!K$5:K$13,\"\") &\" /år\""
+          },
+          {
+            "cell": "C31",
+            "formula": "=_xlfn.XLOOKUP(category,beregning!$T$7:$T$15,beregning!X$7:X$15,\"-\")"
+          },
+          {
+            "cell": "D31",
+            "formula": "=_xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!M$5:M$13,\"\") &\" \"& _xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!K$5:K$13,\"\") &\" / \"&aar&\"år\""
+          },
+          {
+            "cell": "C33",
+            "formula": "=beregning!J7"
+          }
+        ]
+      },
+      {
+        "name": "license",
+        "state": "visible",
+        "rows": 25,
+        "columns": 3,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/02-license.json",
+        "formula_examples": []
+      },
+      {
+        "name": "db_LCA",
+        "state": "hidden",
+        "rows": 65,
+        "columns": 50,
+        "formula_count": 1080,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/03-db_LCA.json",
+        "formula_examples": [
+          {
+            "cell": "V6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!C:C)"
+          },
+          {
+            "cell": "W6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!C:C)"
+          },
+          {
+            "cell": "Y6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!F:F)"
+          },
+          {
+            "cell": "Z6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!F:F)"
+          },
+          {
+            "cell": "AB6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!I:I)"
+          },
+          {
+            "cell": "AC6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!I:I)"
+          },
+          {
+            "cell": "AE6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!L:L)"
+          },
+          {
+            "cell": "AF6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!L:L)"
+          }
+        ]
+      },
+      {
+        "name": "db_LCA50",
+        "state": "hidden",
+        "rows": 62,
+        "columns": 28,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/04-db_LCA50.json",
+        "formula_examples": []
+      },
+      {
+        "name": "db_LCA80",
+        "state": "hidden",
+        "rows": 62,
+        "columns": 28,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/05-db_LCA80.json",
+        "formula_examples": []
+      },
+      {
+        "name": "diagram",
+        "state": "hidden",
+        "rows": 43,
+        "columns": 24,
+        "formula_count": 173,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/06-diagram.json",
+        "formula_examples": [
+          {
+            "cell": "U1",
+            "formula": "=_xlfn.XLOOKUP($B$2,B$4:S$4,B5:S5)"
+          },
+          {
+            "cell": "V1",
+            "formula": "=A5"
+          },
+          {
+            "cell": "W1",
+            "formula": "=VLOOKUP(X1,U$1:V$6,2,FALSE)"
+          },
+          {
+            "cell": "X1",
+            "formula": "=SMALL(U:U,ROW(U1))"
+          },
+          {
+            "cell": "B2",
+            "formula": "=category&\"\"&aar"
+          },
+          {
+            "cell": "U2",
+            "formula": "=_xlfn.XLOOKUP($B$2,B$4:S$4,B6:S6)"
+          },
+          {
+            "cell": "V2",
+            "formula": "=A6"
+          },
+          {
+            "cell": "W2",
+            "formula": "=VLOOKUP(X2,U$1:V$6,2,FALSE)"
+          }
+        ]
+      },
+      {
+        "name": "menuer",
+        "state": "hidden",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/07-menuer.json",
+        "formula_examples": []
+      },
+      {
+        "name": "beregning",
+        "state": "hidden",
+        "rows": 15,
+        "columns": 29,
+        "formula_count": 154,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/08-beregning.json",
+        "formula_examples": [
+          {
+            "cell": "Z4",
+            "formula": "=C7"
+          },
+          {
+            "cell": "V6",
+            "formula": "=\"/m2/\"&aar&\" år\""
+          },
+          {
+            "cell": "AA6",
+            "formula": "=\"/m2/\"&aar&\" år\""
+          },
+          {
+            "cell": "J7",
+            "formula": "=SQRT((300-(D8+F8+H8))/300)"
+          },
+          {
+            "cell": "K7",
+            "formula": "=_xlfn.VAR.S(M7,O7,Q7)"
+          },
+          {
+            "cell": "L7",
+            "formula": "=T7"
+          },
+          {
+            "cell": "M7",
+            "formula": "=_xlfn.XLOOKUP(C$7,db_names,INDIRECT(\"db_\"&$L7&\"\"&aar),\"\")"
+          },
+          {
+            "cell": "N7",
+            "formula": "=M7*($D$7)"
+          }
+        ]
+      },
+      {
+        "name": "andel bygningsdele",
+        "state": "hidden",
+        "rows": 15,
+        "columns": 7,
+        "formula_count": 20,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm/09-andel_bygningsdele.json",
+        "formula_examples": [
+          {
+            "cell": "F5",
+            "formula": "=E5/E$15"
+          },
+          {
+            "cell": "G5",
+            "formula": "=ROUND(F5*100,0)"
+          },
+          {
+            "cell": "F6",
+            "formula": "=E6/E$15"
+          },
+          {
+            "cell": "G6",
+            "formula": "=ROUND(F6*100,0)"
+          },
+          {
+            "cell": "F7",
+            "formula": "=E7/E$15"
+          },
+          {
+            "cell": "G7",
+            "formula": "=ROUND(F7*100,0)"
+          },
+          {
+            "cell": "F8",
+            "formula": "=E8/E$15"
+          },
+          {
+            "cell": "G8",
+            "formula": "=ROUND(F8*100,0)"
+          }
+        ]
+      }
+    ],
+    "has_vba": true,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx",
+    "sheets": [
+      {
+        "name": "InputData",
+        "state": "visible",
+        "rows": 50,
+        "columns": 23,
+        "formula_count": 67,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx/01-InputData.json",
+        "formula_examples": [
+          {
+            "cell": "C5",
+            "formula": "=b_length*b_width*b_num_floors"
+          },
+          {
+            "cell": "F5",
+            "formula": "=IF(E5>1,\"years\",\"year\")"
+          },
+          {
+            "cell": "F10",
+            "formula": "=Results!E30"
+          },
+          {
+            "cell": "G10",
+            "formula": "=F10/b_grossarea_fin"
+          },
+          {
+            "cell": "H10",
+            "formula": "=F10/b_grossarea_fin/study_period"
+          },
+          {
+            "cell": "C11",
+            "formula": "=IF(AND(b_grossarea,b_length),b_grossarea/b_num_floors/b_length,\"\")"
+          },
+          {
+            "cell": "F11",
+            "formula": "=Results!F30"
+          },
+          {
+            "cell": "G11",
+            "formula": "=F11/b_grossarea_fin"
+          }
+        ]
+      },
+      {
+        "name": "Results",
+        "state": "visible",
+        "rows": 47,
+        "columns": 13,
+        "formula_count": 299,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx/02-Results.json",
+        "formula_examples": [
+          {
+            "cell": "A3",
+            "formula": "=InputData!B27"
+          },
+          {
+            "cell": "B3",
+            "formula": "=InputData!I27"
+          },
+          {
+            "cell": "D3",
+            "formula": "=study_period"
+          },
+          {
+            "cell": "E3",
+            "formula": "=_xlfn.XLOOKUP($A3,con_name,INDIRECT(E$1&\"_\"&$D3),0,0)*$B3"
+          },
+          {
+            "cell": "F3",
+            "formula": "=_xlfn.XLOOKUP($A3,con_name,INDIRECT(F$1&\"_\"&$D3),0,0)*$B3"
+          },
+          {
+            "cell": "G3",
+            "formula": "=_xlfn.XLOOKUP($A3,con_name,INDIRECT(G$1&\"_\"&$D3),0,0)*$B3"
+          },
+          {
+            "cell": "H3",
+            "formula": "=_xlfn.XLOOKUP($A3,con_name,INDIRECT(H$1&\"_\"&$D3),0,0)*$B3"
+          },
+          {
+            "cell": "I3",
+            "formula": "=_xlfn.XLOOKUP($A3,con_name,INDIRECT(I$1&\"_\"&$D3),0,0)*$B3"
+          }
+        ]
+      },
+      {
+        "name": "Calc",
+        "state": "hidden",
+        "rows": 41,
+        "columns": 6,
+        "formula_count": 25,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx/03-Calc.json",
+        "formula_examples": [
+          {
+            "cell": "B11",
+            "formula": "=b_grossarea_fin"
+          },
+          {
+            "cell": "A14",
+            "formula": "=A2"
+          },
+          {
+            "cell": "F14",
+            "formula": "=SUM(B14:E14)"
+          },
+          {
+            "cell": "A15",
+            "formula": "=A3"
+          },
+          {
+            "cell": "F15",
+            "formula": "=SUM(B15:E15)"
+          },
+          {
+            "cell": "A16",
+            "formula": "=A4"
+          },
+          {
+            "cell": "F16",
+            "formula": "=SUM(B16:E16)"
+          },
+          {
+            "cell": "B19",
+            "formula": "=InputData!B16/b_gable"
+          }
+        ]
+      },
+      {
+        "name": "Database",
+        "state": "visible",
+        "rows": 49,
+        "columns": 42,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx/04-Database.json",
+        "formula_examples": []
+      },
+      {
+        "name": "license",
+        "state": "visible",
+        "rows": 25,
+        "columns": 3,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx/05-license.json",
+        "formula_examples": []
+      },
+      {
+        "name": "menu",
+        "state": "hidden",
+        "rows": 8,
+        "columns": 2,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx/06-menu.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [
+      "xl/externalLinks/externalLink1.xml",
+      "xl/externalLinks/_rels/externalLink1.xml.rels"
+    ],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015/oekobaudat_import_2015.xlsm",
+    "sheets": [
+      {
+        "name": "oekobaudat",
+        "state": "visible",
+        "rows": 7311,
+        "columns": 32,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015/oekobaudat_import_2015.xlsm/01-oekobaudat.json",
+        "formula_examples": []
+      },
+      {
+        "name": "oekobaudat_excel",
+        "state": "visible",
+        "rows": 238,
+        "columns": 37,
+        "formula_count": 192,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015/oekobaudat_import_2015.xlsm/02-oekobaudat_excel.json",
+        "formula_examples": [
+          {
+            "cell": "C4",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/8db05fa1-3205-438f-908d-bf722cef9c7e\",\"OEKOBAU.DAT: 1.4.04 Mineralische Baustoffe / Mörtel und Beton / Putz und Putzmörtel\")"
+          },
+          {
+            "cell": "C5",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/8db05fa1-3205-438f-908d-bf722cef9c7e\",\"OEKOBAU.DAT: 1.4.04 Mineralische Baustoffe / Mörtel und Beton / Putz und Putzmörtel\")"
+          },
+          {
+            "cell": "C6",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/c5b2dab0-b97b-483d-bba5-5233fa8b1a96\",\"OEKOBAU.DAT: 5.8.01 Beschichtungen / Reaktionsharze / Reaktionsharze auf Epoxidharzbasis\")"
+          },
+          {
+            "cell": "C7",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/7aa42e9d-a21e-465b-b26c-a3e78dc7ce04\",\"OEKOBAU.DAT: 6.2.02 Kunststoffe / Bodenbeläge / Gummi-/Kautschuk-Bodenbeläge\")"
+          },
+          {
+            "cell": "C8",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/7aa42e9d-a21e-465b-b26c-a3e78dc7ce04\",\"OEKOBAU.DAT: 6.2.02 Kunststoffe / Bodenbeläge / Gummi-/Kautschuk-Bodenbeläge\")"
+          },
+          {
+            "cell": "C9",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/6838b26f-3649-41d1-b9cc-97c72c0407ec\",\"OEKOBAU.DAT: 6.2.02 Kunststoffe / Bodenbeläge / Gummi-/Kautschuk-Bodenbeläge\")"
+          },
+          {
+            "cell": "C10",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/017a97cf-5a02-4567-aad2-f5590da97351\",\"OEKOBAU.DAT: 3.2.06 Holz / Holzwerkstoffe / Spanplatten\")"
+          },
+          {
+            "cell": "C11",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/dafaea88-49ff-4e9c-b34c-2c8f843f1077\",\"OEKOBAU.DAT: 3.2.06 Holz / Holzwerkstoffe / Spanplatten\")"
+          }
+        ]
+      },
+      {
+        "name": "oekobaudat_eol",
+        "state": "visible",
+        "rows": 242,
+        "columns": 37,
+        "formula_count": 94,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015/oekobaudat_import_2015.xlsm/03-oekobaudat_eol.json",
+        "formula_examples": [
+          {
+            "cell": "C6",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/c5b2dab0-b97b-483d-bba5-5233fa8b1a96\",\"OEKOBAU.DAT: 5.8.01 Beschichtungen / Reaktionsharze / Reaktionsharze auf Epoxidharzbasis\")"
+          },
+          {
+            "cell": "C7",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/7aa42e9d-a21e-465b-b26c-a3e78dc7ce04\",\"OEKOBAU.DAT: 6.2.02 Kunststoffe / Bodenbeläge / Gummi-/Kautschuk-Bodenbeläge\")"
+          },
+          {
+            "cell": "C9",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/6838b26f-3649-41d1-b9cc-97c72c0407ec\",\"OEKOBAU.DAT: 6.2.02 Kunststoffe / Bodenbeläge / Gummi-/Kautschuk-Bodenbeläge\")"
+          },
+          {
+            "cell": "C10",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/017a97cf-5a02-4567-aad2-f5590da97351\",\"OEKOBAU.DAT: 3.2.06 Holz / Holzwerkstoffe / Spanplatten\")"
+          },
+          {
+            "cell": "C11",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/dafaea88-49ff-4e9c-b34c-2c8f843f1077\",\"OEKOBAU.DAT: 3.2.06 Holz / Holzwerkstoffe / Spanplatten\")"
+          },
+          {
+            "cell": "C12",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/52c729d3-0d01-4c2a-8551-e3162db97fbc\",\"OEKOBAU.DAT: 3.2.07 Holz / Holzwerkstoffe / Holzfaserplatten\")"
+          },
+          {
+            "cell": "C13",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/c267046e-5c65-4063-8c9e-b25ffa2cbfba\",\"OEKOBAU.DAT: 3.2.07 Holz / Holzwerkstoffe / Holzfaserplatten\")"
+          },
+          {
+            "cell": "C14",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/c8a09d3e-e024-4a1a-8414-17e8d3d02b9e\",\"OEKOBAU.DAT: 3.2.06 Holz / Holzwerkstoffe / Spanplatten\")"
+          }
+        ]
+      },
+      {
+        "name": "temp",
+        "state": "visible",
+        "rows": 128,
+        "columns": 8,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015/oekobaudat_import_2015.xlsm/04-temp.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": true,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/New_Material_Names_VK.xlsx",
+    "sheets": [
+      {
+        "name": "Materials",
+        "state": "visible",
+        "rows": 350,
+        "columns": 5,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/New_Material_Names_VK.xlsx/01-Materials.json",
+        "formula_examples": []
+      },
+      {
+        "name": "constructNewNames",
+        "state": "visible",
+        "rows": 378,
+        "columns": 14,
+        "formula_count": 1,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/New_Material_Names_VK.xlsx/02-constructNewNames.json",
+        "formula_examples": [
+          {
+            "cell": "A1",
+            "formula": "=Materials!A1"
+          }
+        ]
+      },
+      {
+        "name": "refList",
+        "state": "visible",
+        "rows": 54,
+        "columns": 27,
+        "formula_count": 333,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/New_Material_Names_VK.xlsx/03-refList.json",
+        "formula_examples": [
+          {
+            "cell": "A6",
+            "formula": "=$A$2"
+          },
+          {
+            "cell": "C6",
+            "formula": "=B6&A6"
+          },
+          {
+            "cell": "E6",
+            "formula": "=$A$2"
+          },
+          {
+            "cell": "G6",
+            "formula": "=F6&E6"
+          },
+          {
+            "cell": "I6",
+            "formula": "=$A$2"
+          },
+          {
+            "cell": "K6",
+            "formula": "=J6&I6"
+          },
+          {
+            "cell": "M6",
+            "formula": "=$A$2"
+          },
+          {
+            "cell": "O6",
+            "formula": "=N6&M6"
+          }
+        ]
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Results.xlsx",
+    "sheets": [
+      {
+        "name": "Links",
+        "state": "visible",
+        "rows": 75,
+        "columns": 2,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Results.xlsx/01-Links.json",
+        "formula_examples": []
+      },
+      {
+        "name": "LCI",
+        "state": "visible",
+        "rows": 505,
+        "columns": 32,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Results.xlsx/02-LCI.json",
+        "formula_examples": []
+      },
+      {
+        "name": "LCI per Unit",
+        "state": "visible",
+        "rows": 500,
+        "columns": 38,
+        "formula_count": 15936,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Results.xlsx/03-LCI_per_Unit.json",
+        "formula_examples": [
+          {
+            "cell": "A3",
+            "formula": "=LCI!A3"
+          },
+          {
+            "cell": "B3",
+            "formula": "=LCI!B3"
+          },
+          {
+            "cell": "C3",
+            "formula": "=LCI!C3"
+          },
+          {
+            "cell": "D3",
+            "formula": "=LCI!D3"
+          },
+          {
+            "cell": "E3",
+            "formula": "=LCI!E3"
+          },
+          {
+            "cell": "F3",
+            "formula": "=LCI!F3/'LCI per Unit'!$D3"
+          },
+          {
+            "cell": "G3",
+            "formula": "=LCI!G3/'LCI per Unit'!$D3"
+          },
+          {
+            "cell": "H3",
+            "formula": "=LCI!H3/'LCI per Unit'!$D3"
+          }
+        ]
+      },
+      {
+        "name": "GWP_rel",
+        "state": "visible",
+        "rows": 212,
+        "columns": 4,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Results.xlsx/04-GWP_rel.json",
+        "formula_examples": []
+      },
+      {
+        "name": "GWP_abs",
+        "state": "visible",
+        "rows": 131,
+        "columns": 6,
+        "formula_count": 31,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Results.xlsx/05-GWP_abs.json",
+        "formula_examples": [
+          {
+            "cell": "E5",
+            "formula": "=GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",31,\"Type\",\"31_0810 x 2134mm\")+GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",31,\"Type\",\"31_0810 x 2134mm\")"
+          },
+          {
+            "cell": "E7",
+            "formula": "=GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",22,\"Type\",\"22_Indervægge 120mm\")+GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",22,\"Type\",\"22_Indervægge 120mm\")"
+          },
+          {
+            "cell": "E8",
+            "formula": "=GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",31,\"Type\",\"31_0864 x 2134mm\")+GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",31,\"Type\",\"31_0864 x 2134mm\")"
+          },
+          {
+            "cell": "F8",
+            "formula": "=E8+E5"
+          },
+          {
+            "cell": "E9",
+            "formula": "=GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",21,\"Type\",\"21_Endevæg lister - 262mm\")+GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",21,\"Type\",\"21_Endevæg lister - 262mm\")+GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",21,\"Type\",\"21_Endevæg skiffer - 262mm\")+GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",21,\"Type\",\"21_Endevæg skiffer - 262mm\")"
+          },
+          {
+            "cell": "E10",
+            "formula": "=GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",27,\"Type\",\"27_Tag - (udhæng) 213mm\")+GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",27,\"Type\",\"27_Tag - (udhæng) 213mm\")"
+          },
+          {
+            "cell": "E11",
+            "formula": "=GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",31,\"Type\",\"31_0915 x 2032mm\")+GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",31,\"Type\",\"31_0915 x 2032mm\")"
+          },
+          {
+            "cell": "E13",
+            "formula": "=GETPIVOTDATA(\"Sum of GWP\",$A$3,\"SfB code\",23,\"Type\",\"23_Etagedæk 550mm\")+GETPIVOTDATA(\"Sum of GWP11\",$A$3,\"SfB code\",23,\"Type\",\"23_Etagedæk 550mm\")"
+          }
+        ]
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/oekobaudat_concept_v6.xlsm",
+    "sheets": [
+      {
+        "name": "oekobaudat_excel",
+        "state": "visible",
+        "rows": 706,
+        "columns": 49,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/oekobaudat_concept_v6.xlsm/01-oekobaudat_excel.json",
+        "formula_examples": []
+      },
+      {
+        "name": "EOL",
+        "state": "visible",
+        "rows": 12,
+        "columns": 30,
+        "formula_count": 5,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/oekobaudat_concept_v6.xlsm/02-EOL.json",
+        "formula_examples": [
+          {
+            "cell": "C8",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/b9c90ea7-8813-4332-8ea2-ccc145ef562c\",\"OEKOBAU.DAT: 9.5.04 Sonstige / Abfallaufbereitung und -entsorgung (EoL) / Müllverbrennung\")"
+          },
+          {
+            "cell": "C9",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/736d3257-597c-4d9d-aebd-1ac3e868113d\",\"OEKOBAU.DAT: 9.5.01 Sonstige / Abfallaufbereitung und -entsorgung (EoL) / Bauschuttaufbereitung\")"
+          },
+          {
+            "cell": "C10",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/78f73e90-0c67-4ddb-8b17-5c354f7c699c\",\"OEKOBAU.DAT: 9.5.02 Sonstige / Abfallaufbereitung und -entsorgung (EoL) / Bauschuttdeponierung\")"
+          },
+          {
+            "cell": "C11",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/97219667-b687-4ee3-8a73-434f534892b5\",\"OEKOBAU.DAT: 9.5.03 Sonstige / Abfallaufbereitung und -entsorgung (EoL) / Regeldeponie\")"
+          },
+          {
+            "cell": "C12",
+            "formula": "=HYPERLINK(\"http://oekobaudat.online-now.de/OEKOBAU.DAT/resource/processes/b9c90ea7-8813-4332-8ea2-ccc145ef562c\",\"OEKOBAU.DAT: 9.5.04 Sonstige / Abfallaufbereitung und -entsorgung (EoL) / Müllverbrennung\")"
+          }
+        ]
+      },
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 2,
+        "columns": 30,
+        "formula_count": 30,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/oekobaudat_concept_v6.xlsm/03-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "A2",
+            "formula": "=oekobaudat_excel!#REF!"
+          },
+          {
+            "cell": "B2",
+            "formula": "=oekobaudat_excel!#REF!"
+          },
+          {
+            "cell": "C2",
+            "formula": "=oekobaudat_excel!#REF!"
+          },
+          {
+            "cell": "D2",
+            "formula": "=oekobaudat_excel!#REF!"
+          },
+          {
+            "cell": "E2",
+            "formula": "=oekobaudat_excel!#REF!"
+          },
+          {
+            "cell": "F2",
+            "formula": "=oekobaudat_excel!#REF!"
+          },
+          {
+            "cell": "G2",
+            "formula": "=oekobaudat_excel!#REF!"
+          },
+          {
+            "cell": "H2",
+            "formula": "=oekobaudat_excel!#REF!"
+          }
+        ]
+      },
+      {
+        "name": "Translator",
+        "state": "visible",
+        "rows": 18,
+        "columns": 12,
+        "formula_count": 26,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/oekobaudat_concept_v6.xlsm/04-Translator.json",
+        "formula_examples": [
+          {
+            "cell": "A4",
+            "formula": "=COLUMN(INDIRECT(A3&1))-1"
+          },
+          {
+            "cell": "B4",
+            "formula": "=COLUMN(INDIRECT(B3&1))-1"
+          },
+          {
+            "cell": "C4",
+            "formula": "=COLUMN(INDIRECT(C3&1))-1"
+          },
+          {
+            "cell": "D4",
+            "formula": "=COLUMN(INDIRECT(D3&1))-1"
+          },
+          {
+            "cell": "A9",
+            "formula": "=COLUMN(INDIRECT(A8&1))-1"
+          },
+          {
+            "cell": "B9",
+            "formula": "=COLUMN(INDIRECT(B8&1))-1"
+          },
+          {
+            "cell": "C9",
+            "formula": "=COLUMN(INDIRECT(C8&1))-1"
+          },
+          {
+            "cell": "D9",
+            "formula": "=COLUMN(INDIRECT(D8&1))-1"
+          }
+        ]
+      }
+    ],
+    "has_vba": true,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/MaterialIDs/MatID1.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 34,
+        "columns": 3,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/MaterialIDs/MatID1.xlsx/01-Ark1.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/MaterialIDs/MatID1.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/MaterialIDs/MatID1.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/SfB script/TypeRename.xls.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 29,
+        "columns": 5,
+        "formula_count": 58,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/SfB script/TypeRename.xls.xlsx/01-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "D1",
+            "formula": "=IF(C1<>\"\",\"_\",\"\")"
+          },
+          {
+            "cell": "E1",
+            "formula": "=C1&D1&B1"
+          },
+          {
+            "cell": "D2",
+            "formula": "=IF(C2<>\"\",\"_\",\"\")"
+          },
+          {
+            "cell": "E2",
+            "formula": "=C2&D2&B2"
+          },
+          {
+            "cell": "D3",
+            "formula": "=IF(C3<>\"\",\"_\",\"\")"
+          },
+          {
+            "cell": "E3",
+            "formula": "=C3&D3&B3"
+          },
+          {
+            "cell": "D4",
+            "formula": "=IF(C4<>\"\",\"_\",\"\")"
+          },
+          {
+            "cell": "E4",
+            "formula": "=C4&D4&B4"
+          }
+        ]
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/SfB script/TypeRename.xls.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/SfB script/TypeRename.xls.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/Tomt excel ark.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/Tomt excel ark.xlsx/01-Sheet1.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Sheet2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/Tomt excel ark.xlsx/02-Sheet2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Sheet3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/Tomt excel ark.xlsx/03-Sheet3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm",
+    "sheets": [
+      {
+        "name": "forside",
+        "state": "visible",
+        "rows": 51,
+        "columns": 16,
+        "formula_count": 18,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/01-forside.json",
+        "formula_examples": [
+          {
+            "cell": "H26",
+            "formula": "=v_navn & \" i forhold til '60 cases' (SBI2020:04)\""
+          },
+          {
+            "cell": "C29",
+            "formula": "=_xlfn.XLOOKUP(category,beregning!$T$7:$T$15,beregning!U$7:U$15,\"-\")"
+          },
+          {
+            "cell": "D29",
+            "formula": "=_xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!L$5:L$13,\"\") &\" \"& _xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!K$5:K$13,\"\") &\" /m2/år\""
+          },
+          {
+            "cell": "C30",
+            "formula": "=_xlfn.XLOOKUP(category,beregning!$T$7:$T$15,beregning!W$7:W$15,\"-\")"
+          },
+          {
+            "cell": "D30",
+            "formula": "=_xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!M$5:M$13,\"\") &\" \"& _xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!K$5:K$13,\"\") &\" /år\""
+          },
+          {
+            "cell": "C31",
+            "formula": "=_xlfn.XLOOKUP(category,beregning!$T$7:$T$15,beregning!X$7:X$15,\"-\")"
+          },
+          {
+            "cell": "D31",
+            "formula": "=_xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!M$5:M$13,\"\") &\" \"& _xlfn.XLOOKUP(category,menuer!J$5:J$13,menuer!K$5:K$13,\"\") &\" / \"&aar&\"år\""
+          },
+          {
+            "cell": "C33",
+            "formula": "=beregning!J7"
+          }
+        ]
+      },
+      {
+        "name": "license",
+        "state": "visible",
+        "rows": 25,
+        "columns": 3,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/02-license.json",
+        "formula_examples": []
+      },
+      {
+        "name": "db_LCA",
+        "state": "hidden",
+        "rows": 65,
+        "columns": 50,
+        "formula_count": 1080,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/03-db_LCA.json",
+        "formula_examples": [
+          {
+            "cell": "V6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!C:C)"
+          },
+          {
+            "cell": "W6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!C:C)"
+          },
+          {
+            "cell": "Y6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!F:F)"
+          },
+          {
+            "cell": "Z6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!F:F)"
+          },
+          {
+            "cell": "AB6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!I:I)"
+          },
+          {
+            "cell": "AC6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!I:I)"
+          },
+          {
+            "cell": "AE6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA50!$A:$A,db_LCA50!L:L)"
+          },
+          {
+            "cell": "AF6",
+            "formula": "=_xlfn.XLOOKUP($A6,db_LCA80!$A:$A,db_LCA80!L:L)"
+          }
+        ]
+      },
+      {
+        "name": "db_LCA50",
+        "state": "hidden",
+        "rows": 62,
+        "columns": 28,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/04-db_LCA50.json",
+        "formula_examples": []
+      },
+      {
+        "name": "db_LCA80",
+        "state": "hidden",
+        "rows": 62,
+        "columns": 28,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/05-db_LCA80.json",
+        "formula_examples": []
+      },
+      {
+        "name": "diagram",
+        "state": "hidden",
+        "rows": 43,
+        "columns": 24,
+        "formula_count": 173,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/06-diagram.json",
+        "formula_examples": [
+          {
+            "cell": "U1",
+            "formula": "=_xlfn.XLOOKUP($B$2,B$4:S$4,B5:S5)"
+          },
+          {
+            "cell": "V1",
+            "formula": "=A5"
+          },
+          {
+            "cell": "W1",
+            "formula": "=VLOOKUP(X1,U$1:V$6,2,FALSE)"
+          },
+          {
+            "cell": "X1",
+            "formula": "=SMALL(U:U,ROW(U1))"
+          },
+          {
+            "cell": "B2",
+            "formula": "=category&\"\"&aar"
+          },
+          {
+            "cell": "U2",
+            "formula": "=_xlfn.XLOOKUP($B$2,B$4:S$4,B6:S6)"
+          },
+          {
+            "cell": "V2",
+            "formula": "=A6"
+          },
+          {
+            "cell": "W2",
+            "formula": "=VLOOKUP(X2,U$1:V$6,2,FALSE)"
+          }
+        ]
+      },
+      {
+        "name": "menuer",
+        "state": "hidden",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/07-menuer.json",
+        "formula_examples": []
+      },
+      {
+        "name": "beregning",
+        "state": "visible",
+        "rows": 15,
+        "columns": 29,
+        "formula_count": 154,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/08-beregning.json",
+        "formula_examples": [
+          {
+            "cell": "Z4",
+            "formula": "=C7"
+          },
+          {
+            "cell": "V6",
+            "formula": "=\"/m2/\"&aar&\" år\""
+          },
+          {
+            "cell": "AA6",
+            "formula": "=\"/m2/\"&aar&\" år\""
+          },
+          {
+            "cell": "J7",
+            "formula": "=SQRT((300-(D8+F8+H8))/300)"
+          },
+          {
+            "cell": "K7",
+            "formula": "=_xlfn.VAR.S(M7,O7,Q7)"
+          },
+          {
+            "cell": "L7",
+            "formula": "=T7"
+          },
+          {
+            "cell": "M7",
+            "formula": "=_xlfn.XLOOKUP(C$7,db_names,INDIRECT(\"db_\"&$L7&\"\"&aar),\"\")"
+          },
+          {
+            "cell": "N7",
+            "formula": "=M7*($D$7)"
+          }
+        ]
+      },
+      {
+        "name": "andel bygningsdele",
+        "state": "hidden",
+        "rows": 15,
+        "columns": 7,
+        "formula_count": 20,
+        "extracted": "extracted/workbooks/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCA_estimatorV2.xlsm/09-andel_bygningsdele.json",
+        "formula_examples": [
+          {
+            "cell": "F5",
+            "formula": "=E5/E$15"
+          },
+          {
+            "cell": "G5",
+            "formula": "=ROUND(F5*100,0)"
+          },
+          {
+            "cell": "F6",
+            "formula": "=E6/E$15"
+          },
+          {
+            "cell": "G6",
+            "formula": "=ROUND(F6*100,0)"
+          },
+          {
+            "cell": "F7",
+            "formula": "=E7/E$15"
+          },
+          {
+            "cell": "G7",
+            "formula": "=ROUND(F7*100,0)"
+          },
+          {
+            "cell": "F8",
+            "formula": "=E8/E$15"
+          },
+          {
+            "cell": "G8",
+            "formula": "=ROUND(F8*100,0)"
+          }
+        ]
+      }
+    ],
+    "has_vba": true,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/sample files/TT_Toolbox_ExcelListener.xlsx",
+    "sheets": [
+      {
+        "name": "Points for Mesh",
+        "state": "visible",
+        "rows": 101,
+        "columns": 6,
+        "formula_count": 302,
+        "extracted": "extracted/workbooks/unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/sample files/TT_Toolbox_ExcelListener.xlsx/01-Points_for_Mesh.json",
+        "formula_examples": [
+          {
+            "cell": "A1",
+            "formula": "=COS(E1) * E1"
+          },
+          {
+            "cell": "B1",
+            "formula": "=SIN(E1)*E1"
+          },
+          {
+            "cell": "A2",
+            "formula": "=COS(E2) * E2"
+          },
+          {
+            "cell": "B2",
+            "formula": "=SIN(E2)*E2"
+          },
+          {
+            "cell": "C2",
+            "formula": "=$F$1*C1"
+          },
+          {
+            "cell": "A3",
+            "formula": "=COS(E3) * E3"
+          },
+          {
+            "cell": "B3",
+            "formula": "=SIN(E3)*E3"
+          },
+          {
+            "cell": "C3",
+            "formula": "=$F$1*C2"
+          }
+        ]
+      },
+      {
+        "name": "Sheet2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/sample files/TT_Toolbox_ExcelListener.xlsx/02-Sheet2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Sheet3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/sample files/TT_Toolbox_ExcelListener.xlsx/03-Sheet3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6031.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_6031",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6031.xlsx/01-matrix_6031.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6141.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_6141",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6141.xlsx/01-matrix_6141.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6109.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_stddev_6109",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6109.xlsx/01-matrix_stddev_6109.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6197.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_6197",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6197.xlsx/01-matrix_6197.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6109.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_6109",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6109.xlsx/01-matrix_6109.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6065.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_stddev_6065",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6065.xlsx/01-matrix_stddev_6065.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6031.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_stddev_6031",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6031.xlsx/01-matrix_stddev_6031.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6141.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_stddev_6141",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6141.xlsx/01-matrix_stddev_6141.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6188.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_stddev_6188",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6188.xlsx/01-matrix_stddev_6188.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6065.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_6065",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6065.xlsx/01-matrix_6065.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6188.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_6188",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6188.xlsx/01-matrix_6188.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6197.xlsx",
+    "sheets": [
+      {
+        "name": "matrix_stddev_6197",
+        "state": "visible",
+        "rows": 27,
+        "columns": 13,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6197.xlsx/01-matrix_stddev_6197.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/data/maanedsdef_2001-2010 DRY datasaet.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 3,
+        "columns": 14,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/data/maanedsdef_2001-2010 DRY datasaet.xlsx/01-Ark1.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/data/maanedsdef_2001-2010 DRY datasaet.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/data/maanedsdef_2001-2010 DRY datasaet.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_603100.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 16,
+        "columns": 16,
+        "formula_count": 24,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_603100.xlsx/01-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "P4",
+            "formula": "=H4"
+          },
+          {
+            "cell": "P5",
+            "formula": "=I5"
+          },
+          {
+            "cell": "P6",
+            "formula": "=G6"
+          },
+          {
+            "cell": "P7",
+            "formula": "=K7"
+          },
+          {
+            "cell": "P8",
+            "formula": "=G8"
+          },
+          {
+            "cell": "P9",
+            "formula": "=F9"
+          },
+          {
+            "cell": "P10",
+            "formula": "=J10"
+          },
+          {
+            "cell": "P11",
+            "formula": "=J11"
+          }
+        ]
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_603100.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_603100.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_618800.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 16,
+        "columns": 16,
+        "formula_count": 24,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_618800.xlsx/01-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "P4",
+            "formula": "=H4"
+          },
+          {
+            "cell": "P5",
+            "formula": "=I5"
+          },
+          {
+            "cell": "P6",
+            "formula": "=G6"
+          },
+          {
+            "cell": "P7",
+            "formula": "=K7"
+          },
+          {
+            "cell": "P8",
+            "formula": "=G8"
+          },
+          {
+            "cell": "P9",
+            "formula": "=F9"
+          },
+          {
+            "cell": "P10",
+            "formula": "=J10"
+          },
+          {
+            "cell": "P11",
+            "formula": "=J11"
+          }
+        ]
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_618800.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_618800.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_619700.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 16,
+        "columns": 16,
+        "formula_count": 22,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_619700.xlsx/01-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "P4",
+            "formula": "=H4"
+          },
+          {
+            "cell": "P5",
+            "formula": "=I5"
+          },
+          {
+            "cell": "P6",
+            "formula": "=G6"
+          },
+          {
+            "cell": "P7",
+            "formula": "=K7"
+          },
+          {
+            "cell": "P8",
+            "formula": "=G8"
+          },
+          {
+            "cell": "P9",
+            "formula": "=F9"
+          },
+          {
+            "cell": "P10",
+            "formula": "=J10"
+          },
+          {
+            "cell": "P11",
+            "formula": "=J11"
+          }
+        ]
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_619700.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_619700.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_610900.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 16,
+        "columns": 16,
+        "formula_count": 24,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_610900.xlsx/01-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "P4",
+            "formula": "=H4"
+          },
+          {
+            "cell": "P5",
+            "formula": "=I5"
+          },
+          {
+            "cell": "P6",
+            "formula": "=G6"
+          },
+          {
+            "cell": "P7",
+            "formula": "=K7"
+          },
+          {
+            "cell": "P8",
+            "formula": "=G8"
+          },
+          {
+            "cell": "P9",
+            "formula": "=F9"
+          },
+          {
+            "cell": "P10",
+            "formula": "=J10"
+          },
+          {
+            "cell": "P11",
+            "formula": "=J11"
+          }
+        ]
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_610900.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_610900.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_614100.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 16,
+        "columns": 16,
+        "formula_count": 24,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_614100.xlsx/01-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "P4",
+            "formula": "=H4"
+          },
+          {
+            "cell": "P5",
+            "formula": "=I5"
+          },
+          {
+            "cell": "P6",
+            "formula": "=G6"
+          },
+          {
+            "cell": "P7",
+            "formula": "=K7"
+          },
+          {
+            "cell": "P8",
+            "formula": "=G8"
+          },
+          {
+            "cell": "P9",
+            "formula": "=F9"
+          },
+          {
+            "cell": "P10",
+            "formula": "=J10"
+          },
+          {
+            "cell": "P11",
+            "formula": "=J11"
+          }
+        ]
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_614100.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_614100.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_606500.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 16,
+        "columns": 16,
+        "formula_count": 22,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_606500.xlsx/01-Ark1.json",
+        "formula_examples": [
+          {
+            "cell": "P4",
+            "formula": "=H4"
+          },
+          {
+            "cell": "P5",
+            "formula": "=I5"
+          },
+          {
+            "cell": "P6",
+            "formula": "=G6"
+          },
+          {
+            "cell": "P7",
+            "formula": "=K7"
+          },
+          {
+            "cell": "P8",
+            "formula": "=G8"
+          },
+          {
+            "cell": "P9",
+            "formula": "=F9"
+          },
+          {
+            "cell": "P10",
+            "formula": "=J10"
+          },
+          {
+            "cell": "P11",
+            "formula": "=J11"
+          }
+        ]
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_606500.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_606500.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/zoner_ref.st_31052012.xlsx",
+    "sheets": [
+      {
+        "name": "Ark1",
+        "state": "visible",
+        "rows": 25,
+        "columns": 3,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/zoner_ref.st_31052012.xlsx/01-Ark1.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark2",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/zoner_ref.st_31052012.xlsx/02-Ark2.json",
+        "formula_examples": []
+      },
+      {
+        "name": "Ark3",
+        "state": "visible",
+        "rows": 1,
+        "columns": 1,
+        "formula_count": 0,
+        "extracted": "extracted/workbooks/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/zoner_ref.st_31052012.xlsx/03-Ark3.json",
+        "formula_examples": []
+      }
+    ],
+    "has_vba": false,
+    "external_links": [],
+    "calculated": false
+  }
+]

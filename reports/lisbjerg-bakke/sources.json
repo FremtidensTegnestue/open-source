@@ -1,0 +1,71 @@
+{
+  "source_page": "https://opensource.vandkunsten.com/07_FBABLisbjerg/",
+  "files": [
+    {
+      "id": "F1",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/BIM - IFC-model/ARK-model.ifc",
+      "sha256": "98a8da7c1c323e333d6ecab3c8bd1394e178002a0f77085e0931ebf4ddb1c7c2",
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "F2",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/BIM - IFC-model/KON-model.ifc",
+      "sha256": "190d9eb5049319e5acce347b2df7ab03cc0e5e3c8a16a2a7cf6c9ff5258fe464",
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "D1",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/etagekryds.pdf",
+      "sha256": "75a648f53a0e3d91dd70943c84bc0125960eabdf77719d43c2ae52bd29de58e5",
+      "pages": 2,
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "D2",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/etageplaner.pdf",
+      "sha256": "11fd63bb4e7e387d66077fe4c44926611e078d498a6cab6d7ca22a3fd9670faf",
+      "pages": 17,
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "D3",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/facader.pdf",
+      "sha256": "1a3f67c5d9e297d2a73fbd92b12c22c420272f0629fb9aeba0320bc7f80a267e",
+      "pages": 5,
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "D4",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/konstruktionsdetaljer.pdf",
+      "sha256": "107d9aae917e9c721ee177d9e74e8069e1764ea54bdf46697175a39d8ee05325",
+      "pages": 48,
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "D5",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/situationsplan.pdf",
+      "sha256": "bfc9ea65c358dad4c396b4f6ce2250df81144a18a0263663f3331d536ab26725",
+      "pages": 1,
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "D6",
+      "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/tværsnit og kassettedetaljer.pdf",
+      "sha256": "f7fcf0e1921fed56ba8dc4b1664fcb9ad2b7860ce6fb2376c47ee5faaa4b30cd",
+      "pages": 59,
+      "original_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip"
+    },
+    {
+      "id": "R1",
+      "path": "data/raw/br18/table-7-2025.xlsx",
+      "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "original_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "locators": {
+        "name": "Sheet1!D25",
+        "gwp_A1_A3": "Sheet1!E25",
+        "declared_basis": "Sheet1!I25:J25",
+        "density": "Sheet1!K25:L25"
+      }
+    }
+  ]
+}

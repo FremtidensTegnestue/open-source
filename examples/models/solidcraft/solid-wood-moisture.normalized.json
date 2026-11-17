@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "software": "solidcraft",
+  "software_version": "solidcraft-cli 0.44.0",
+  "model": {
+    "path": "/tmp/materials-solid-integration/examples/models/solidcraft/solid-wood-moisture.sc",
+    "sha256": "3c3dd73df180ad1ade4336c6c91835aa062351914800ef0e7bf6834b6b62323e"
+  },
+  "extraction": {
+    "command": [
+      "solidcraft-cli",
+      "eval",
+      "/tmp/materials-solid-integration/examples/models/solidcraft/solid-wood-moisture.sc"
+    ],
+    "source_unchanged": true,
+    "raw_reply": {
+      "bodies": [
+        {
+          "area_mm2": 14320.0,
+          "bbox": {
+            "max": [
+              232.0,
+              20.0,
+              10.0
+            ],
+            "min": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "center_of_mass": [
+            116.0,
+            9.999999999999998,
+            5.0
+          ],
+          "closed": true,
+          "density_g_cm3": 0.4,
+          "edges": 12,
+          "face_types": {
+            "plane": 6
+          },
+          "faces": 6,
+          "kernel": {
+            "edges": 12,
+            "faces": 6,
+            "shells": 1,
+            "vertices": 8
+          },
+          "mass_g": 18.56,
+          "material": "Fir, white",
+          "measured_by": "smlib",
+          "name": "WoodMoistureControl",
+          "notes": [],
+          "vertices": 8,
+          "volume_mm3": 46400.0
+        }
+      ],
+      "body_count": 1,
+      "params": [],
+      "sketches": [],
+      "timeline": [
+        {
+          "error": null,
+          "id": 1,
+          "ms": 2.061205,
+          "name": "Box1",
+          "rolled_back": false,
+          "suppressed": false,
+          "type": "BoxFeature",
+          "warning": null
+        }
+      ],
+      "total": {
+        "area_mm2": 14320.0,
+        "edges": 12,
+        "faces": 6,
+        "mass_g": 18.56,
+        "open_bodies_skipped": 0,
+        "vertices": 8,
+        "volume_mm3": 46400.0
+      }
+    },
+    "stderr": "",
+    "notes": [
+      "Closed-body volumes are returned by the actual geometry engine.",
+      "area_m2 is unknown: Solidcraft total surface area is exposed separately as surface_area_m2.",
+      "Model-assigned densities/masses remain provenance only; this adapter does not select database density.",
+      "STEP imports without explicit material remain material-unspecified."
+    ]
+  },
+  "elements": [
+    {
+      "id": "solidcraft:WoodMoistureControl",
+      "name": "WoodMoistureControl",
+      "material_name": "Fir, white",
+      "volume_m3": 4.64e-05,
+      "area_m2": null,
+      "surface_area_m2": 0.01432,
+      "dimensions_m": {
+        "x": 0.232,
+        "y": 0.02,
+        "z": 0.01
+      },
+      "source_ref": {
+        "quantity_command": "solidcraft-cli eval",
+        "body_index": 0,
+        "body_name": "WoodMoistureControl",
+        "volume_field": "/bodies/0/volume_mm3",
+        "material_field": "/bodies/0/material",
+        "volume_unit_conversion": "mm3 / 1000000000 = m3",
+        "surface_area_unit_conversion": "mm2 / 1000000 = m2",
+        "dimensions_basis": "world-axis-aligned bounding-box extents, not material-local axes",
+        "measured_by": "smlib",
+        "closed": true,
+        "raw_measurement": {
+          "area_mm2": 14320.0,
+          "bbox": {
+            "max": [
+              232.0,
+              20.0,
+              10.0
+            ],
+            "min": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "center_of_mass": [
+            116.0,
+            9.999999999999998,
+            5.0
+          ],
+          "closed": true,
+          "density_g_cm3": 0.4,
+          "edges": 12,
+          "face_types": {
+            "plane": 6
+          },
+          "faces": 6,
+          "kernel": {
+            "edges": 12,
+            "faces": 6,
+            "shells": 1,
+            "vertices": 8
+          },
+          "mass_g": 18.56,
+          "material": "Fir, white",
+          "measured_by": "smlib",
+          "name": "WoodMoistureControl",
+          "notes": [],
+          "vertices": 8,
+          "volume_mm3": 46400.0
+        }
+      }
+    }
+  ],
+  "warnings": []
+}

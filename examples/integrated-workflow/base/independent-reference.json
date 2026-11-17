@@ -1,0 +1,17 @@
+{
+  "ConcretePanel": {
+    "volume_m3": 0.144,
+    "mass_kg": 323.424,
+    "gwp_A1_A3_kg_CO2eq": 34.704
+  },
+  "Rail_A": {
+    "volume_m3": 0.0008,
+    "mass_kg": 6.28,
+    "gwp_A1_A3_kg_CO2eq": 10.29292
+  },
+  "Rail_B": {
+    "volume_m3": 0.0008,
+    "mass_kg": 6.28,
+    "gwp_A1_A3_kg_CO2eq": 10.29292
+  }
+}

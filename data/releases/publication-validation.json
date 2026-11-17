@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "publication_date": "2026-11-18",
+  "dataset_snapshot": "2026-11-17",
+  "parquet": {
+    "files": 15,
+    "bytes": 90628421,
+    "observations": 1985582,
+    "materials": 11161,
+    "sources": 7135,
+    "datasets": 4,
+    "all_columns_and_logical_row_hashes_preserved": true
+  },
+  "clean_checkout_validation": {
+    "method": "Exported staged Git files without local raw archives or database; installed requirements into a new virtualenv.",
+    "full_sqlite_restored_bytes": 8780214272,
+    "full_row_digest_foreign_keys_and_integrity_check": "passed",
+    "unit_tests_passed": 65,
+    "known_quantity_climate_result": 429.5,
+    "source_original_downloads_checked": 3,
+    "actual_solidcraft_bimcraft_revision_workflow": "passed",
+    "model_cli_versions": {
+      "solidcraft": "0.44.0",
+      "bimcraft": "0.12.0"
+    }
+  },
+  "source_originals_are_separate_from_structured_dataset": true
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "bodies": [
+      "GlassControl"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "GlassControl"
+    ],
+    "feature": 1,
+    "ms": 2.540247,
+    "name": "Box1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": null,
+    "density_g_cm3": 2.5,
+    "name": "Glasbyggesten",
+    "user": true
+  },
+  {
+    "bodies": [
+      "GlassControl"
+    ],
+    "material": "Glasbyggesten"
+  }
+]

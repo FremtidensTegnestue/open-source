@@ -1,0 +1,294 @@
+{
+  "status": "passed",
+  "model_calculation_cases": 10,
+  "mass_checks": 10,
+  "separate_climate_module_checks": 40,
+  "software": [
+    "solidcraft",
+    "bimcraft"
+  ],
+  "material_families": [
+    "wood",
+    "concrete",
+    "steel",
+    "glass",
+    "insulation"
+  ],
+  "cases": [
+    {
+      "case_id": "solid-wood",
+      "software": "solidcraft",
+      "model": "examples/models/solidcraft/solid-wood.sc",
+      "element_id": "solidcraft:WoodControl",
+      "material_id": "br18:t7:B1318:row2",
+      "expected_volume_m3": 0.05,
+      "expected_mass_kg": 23.5,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row2",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": -33.2,
+        "C3": 37.2,
+        "C4": 0.0,
+        "D": -19.35
+      },
+      "status": "passed",
+      "reported_mass_kg": 23.5,
+      "model_quantity_rounding_bound_kg": null,
+      "report": "examples/reports/solidcraft-solid-wood-assessment.json"
+    },
+    {
+      "case_id": "solid-concrete",
+      "software": "solidcraft",
+      "model": "examples/models/solidcraft/solid-concrete.sc",
+      "element_id": "solidcraft:ConcreteControl",
+      "material_id": "br18:t7:B1433:row25",
+      "expected_volume_m3": 0.12,
+      "expected_mass_kg": 269.52,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row25",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 28.92,
+        "C3": 0.8076,
+        "C4": 0.5964,
+        "D": -0.552
+      },
+      "status": "passed",
+      "reported_mass_kg": 269.52,
+      "model_quantity_rounding_bound_kg": null,
+      "report": "examples/reports/solidcraft-solid-concrete-assessment.json"
+    },
+    {
+      "case_id": "solid-steel",
+      "software": "solidcraft",
+      "model": "examples/models/solidcraft/solid-steel.sc",
+      "element_id": "solidcraft:SteelControl",
+      "material_id": "br18:t7:D1591:row129",
+      "expected_volume_m3": 0.0016,
+      "expected_mass_kg": 12.56,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row129",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 20.58584,
+        "C3": 0.6604048,
+        "C4": 0.5761272000000001,
+        "D": -3.5720640000000006
+      },
+      "status": "passed",
+      "reported_mass_kg": 12.56,
+      "model_quantity_rounding_bound_kg": null,
+      "report": "examples/reports/solidcraft-solid-steel-assessment.json"
+    },
+    {
+      "case_id": "solid-glass",
+      "software": "solidcraft",
+      "model": "examples/models/solidcraft/solid-glass.sc",
+      "element_id": "solidcraft:GlassControl",
+      "material_id": "br18:t7:G0954:row410",
+      "expected_volume_m3": 0.00768,
+      "expected_mass_kg": 19.2,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row410",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 29.898428768984754,
+        "C3": 0.0,
+        "C4": 0.3668993083142139,
+        "D": 0.0
+      },
+      "status": "passed",
+      "reported_mass_kg": 19.2,
+      "model_quantity_rounding_bound_kg": null,
+      "report": "examples/reports/solidcraft-solid-glass-assessment.json"
+    },
+    {
+      "case_id": "solid-insulation",
+      "software": "solidcraft",
+      "model": "examples/models/solidcraft/solid-insulation.sc",
+      "element_id": "solidcraft:InsulationControl",
+      "material_id": "br18:t7:G0161:row196",
+      "expected_volume_m3": 0.135,
+      "expected_mass_kg": 2.025,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row196",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 6.610836022935021,
+        "C3": 7.47650156508315,
+        "C4": 0.0,
+        "D": -2.621037931124067
+      },
+      "status": "passed",
+      "reported_mass_kg": 2.0250000000000004,
+      "model_quantity_rounding_bound_kg": null,
+      "report": "examples/reports/solidcraft-solid-insulation-assessment.json"
+    },
+    {
+      "case_id": "bimcraft-wood",
+      "software": "bimcraft",
+      "model": "examples/models/bimcraft/controls.bimc",
+      "element_id": "100002",
+      "material_id": "br18:t7:B1318:row2",
+      "expected_volume_m3": 0.1,
+      "expected_mass_kg": 47.0,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row2",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": -66.4,
+        "C3": 74.4,
+        "C4": 0.0,
+        "D": -38.7
+      },
+      "status": "passed",
+      "reported_mass_kg": 47.0,
+      "model_quantity_rounding_bound_kg": 0.23500000000000001,
+      "report": "examples/reports/bimcraft-controls-assessment.json"
+    },
+    {
+      "case_id": "bimcraft-concrete",
+      "software": "bimcraft",
+      "model": "examples/models/bimcraft/controls.bimc",
+      "element_id": "100003",
+      "material_id": "br18:t7:B1433:row25",
+      "expected_volume_m3": 0.096,
+      "expected_mass_kg": 215.616,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row25",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 23.136,
+        "C3": 0.64608,
+        "C4": 0.47712,
+        "D": -0.4416
+      },
+      "status": "passed",
+      "reported_mass_kg": 215.616,
+      "model_quantity_rounding_bound_kg": 1.123,
+      "report": "examples/reports/bimcraft-controls-assessment.json"
+    },
+    {
+      "case_id": "bimcraft-steel",
+      "software": "bimcraft",
+      "model": "examples/models/bimcraft/controls.bimc",
+      "element_id": "100004",
+      "material_id": "br18:t7:D1591:row129",
+      "expected_volume_m3": 0.005,
+      "expected_mass_kg": 39.25,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row129",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 64.33075000000001,
+        "C3": 2.063765,
+        "C4": 1.8003975,
+        "D": -11.162700000000001
+      },
+      "status": "passed",
+      "reported_mass_kg": 39.25,
+      "model_quantity_rounding_bound_kg": 3.9250000000000003,
+      "report": "examples/reports/bimcraft-controls-assessment.json"
+    },
+    {
+      "case_id": "bimcraft-glass",
+      "software": "bimcraft",
+      "model": "examples/models/bimcraft/controls.bimc",
+      "element_id": "100005",
+      "material_id": "br18:t7:G0954:row410",
+      "expected_volume_m3": 0.006,
+      "expected_mass_kg": 15.0,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row410",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 23.35814747576934,
+        "C3": 0.0,
+        "C4": 0.2866400846204796,
+        "D": 0.0
+      },
+      "status": "passed",
+      "reported_mass_kg": 15.0,
+      "model_quantity_rounding_bound_kg": 1.25,
+      "report": "examples/reports/bimcraft-controls-assessment.json"
+    },
+    {
+      "case_id": "bimcraft-insulation",
+      "software": "bimcraft",
+      "model": "examples/models/bimcraft/controls.bimc",
+      "element_id": "100006",
+      "material_id": "br18:t7:G0161:row196",
+      "expected_volume_m3": 0.144,
+      "expected_mass_kg": 2.16,
+      "source_reference": "data/raw/br18/table-7-2025.xlsx Sheet1 row196",
+      "independent_formula": "dimensions_mm product / 1e9; mass = analytical volume * original workbook density",
+      "gwp_expected": {
+        "A1-A3": 7.051558424464022,
+        "C3": 7.97493500275536,
+        "C4": 0.0,
+        "D": -2.7957737931990048
+      },
+      "status": "passed",
+      "reported_mass_kg": 2.1599999999999997,
+      "model_quantity_rounding_bound_kg": 0.0075,
+      "report": "examples/reports/bimcraft-controls-assessment.json"
+    }
+  ],
+  "extra_checks": {
+    "wood_moisture_model": {
+      "expected_change_mm": 1.7052,
+      "actual_change_mm": 1.7052,
+      "report": "examples/reports/solidcraft-moisture-assessment.json"
+    },
+    "original_ilcd_1000kg_reference": {
+      "expected_kg_co2_eq": 429.5,
+      "actual_kg_co2_eq": 429.5
+    },
+    "missing_material_guards": [
+      {
+        "software": "solidcraft",
+        "model": "examples/models/solidcraft/unknown.sc",
+        "status": "partial",
+        "numeric_calculations": 0,
+        "warnings": [
+          {
+            "code": "material_unspecified",
+            "message": "Body has no explicit material; Solidcraft default density is not used.",
+            "element_id": "solidcraft:Unspecified"
+          }
+        ]
+      },
+      {
+        "software": "bimcraft",
+        "model": "examples/models/bimcraft/missing-material.bimc",
+        "status": "partial",
+        "numeric_calculations": 0,
+        "warnings": [
+          {
+            "code": "missing_material",
+            "message": "No explicit homogeneous material assignment was reported.",
+            "element_id": "100002"
+          },
+          {
+            "code": "quantity_rounding",
+            "severity": "notice",
+            "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+            "element_id": "100002"
+          }
+        ]
+      },
+      {
+        "software": "bimcraft",
+        "model": "examples/models/bimcraft/mixed-layers.bimc",
+        "status": "partial",
+        "numeric_calculations": 0,
+        "warnings": [
+          {
+            "code": "mixed_material_layers",
+            "message": "Mixed-material layers: total volume is not allocated to any single material.",
+            "element_id": "100002"
+          },
+          {
+            "code": "quantity_rounding",
+            "severity": "notice",
+            "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+            "element_id": "100002"
+          }
+        ]
+      }
+    ]
+  },
+  "scope": "Authored homogeneous quantity specimens and explicit source-record scenarios; no full building, product equivalence or regulatory certification; BIMcraft floor quantity rounding retained as bound."
+}

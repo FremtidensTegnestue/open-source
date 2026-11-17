@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "software": "bimcraft",
+  "software_version": "bimcraft-cli 0.12.0",
+  "model": {
+    "path": "/tmp/materials-bim-integration/examples/models/bimcraft/rounded-volume.bimc",
+    "sha256": "2ddb90d93030777fb4aa5b74af7a60a4b4654221eb19f7790f002d672c0519b4"
+  },
+  "extraction": {
+    "commands": [
+      [
+        "bimcraft-cli",
+        "run",
+        "/tmp/materials-bim-integration/examples/models/bimcraft/rounded-volume.bimc",
+        "--cmd",
+        "inspect {}",
+        "--cmd",
+        "elements {\"limit\":1000,\"offset\":0}"
+      ]
+    ],
+    "notes": [
+      "Source model opened without save; inspect/elements report quantities from BIMcraft.",
+      "BIMcraft volume_m3 and area_m2 are retained without further scaling. Floor volume reporting is rounded to 0.001 m3 in the verified version.",
+      "Only explicit homogeneous assignment is resolved; mixed layers remain unresolved.",
+      "Lengths from elements and type layers are millimetres; normalized dimensions divide by 1000.",
+      "Reported area is category-specific and must not be used blindly as a facade/reference area."
+    ]
+  },
+  "elements": [
+    {
+      "id": "100002",
+      "name": "Thin glass specimen",
+      "material_name": "Glass",
+      "volume_m3": 0.005,
+      "area_m2": 0.6,
+      "dimensions_m": {
+        "thickness": 0.008
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100002,
+        "guid": "1164adf1-56b2-495f-967c-b697c0cc86a3",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "Thin glass specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "d18b67b0-37ba-48fa-a004-8dbbd468a4ae",
+              "id": 998940,
+              "material": "Glass",
+              "thickness": 8.0
+            }
+          ],
+          "thickness": 8.0
+        },
+        "element_record": {
+          "area_m2": 0.6,
+          "boundary": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1000.0,
+              0.0
+            ],
+            [
+              1000.0,
+              600.0
+            ],
+            [
+              0.0,
+              600.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "1164adf1-56b2-495f-967c-b697c0cc86a3",
+          "id": 100002,
+          "level": "32d26005-5901-4902-9aca-56386b244d5b",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 8.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "Thin glass specimen",
+          "type_guid": "b51171ed-8266-4b9f-9621-e57d8f05ee0f",
+          "volume_m3": 0.005
+        }
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100002"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "kind": "climate",
+  "material_id": "br18:t7:B1433:row25",
+  "gwp_observation_id": "br18:t7:B1433:row25:gwp:A1-A3",
+  "quantity": {
+    "value": 209.709,
+    "unit": "m3"
+  }
+}

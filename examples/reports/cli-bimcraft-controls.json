@@ -1,0 +1,2393 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "model": {
+    "path": "/home/admin/Fremtidenstegnestue/open-source/examples/models/bimcraft/controls.bimc",
+    "sha256": "cd3f39cf22b61f1556d857e9a63ed1137535d0094f56d89973d5d90b1fb8b619"
+  },
+  "software": "bimcraft",
+  "software_version": "bimcraft-cli 0.12.0",
+  "extraction": {
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/models/bimcraft/controls.bimc",
+      "--cmd",
+      "inspect {}",
+      "--cmd",
+      "elements {\"limit\":1000,\"offset\":0}"
+    ],
+    "commands": [
+      [
+        "bimcraft-cli",
+        "run",
+        "/home/admin/Fremtidenstegnestue/open-source/examples/models/bimcraft/controls.bimc",
+        "--cmd",
+        "inspect {}",
+        "--cmd",
+        "elements {\"limit\":1000,\"offset\":0}"
+      ]
+    ],
+    "notes": [
+      "Source model opened without save; inspect/elements report quantities from BIMcraft.",
+      "BIMcraft volume_m3 and area_m2 are retained without further scaling. Floor volume reporting is rounded to 0.001 m3 in the verified version.",
+      "Only explicit homogeneous assignment is resolved; mixed layers remain unresolved.",
+      "Lengths from elements and type layers are millimetres; normalized dimensions divide by 1000.",
+      "Reported area is category-specific and must not be used blindly as a facade/reference area."
+    ]
+  },
+  "database_input_fingerprint": "44d4e645c67a49aaa7d78dee3ffee0ad9ead671b32514c533db05633314be2a2",
+  "elements": [
+    {
+      "element_id": "100002",
+      "element_name": "wood specimen",
+      "model_material_name": "Krydslamineret træ, CLT (Forbrænding EoL)",
+      "model_quantity_source": {
+        "element_id": 100002,
+        "guid": "30456bd2-f9d2-4efe-ac84-dba1ff283d86",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "wood specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "9264b906-7996-40b1-b47d-1e3a3a680e9e",
+              "id": 998939,
+              "material": "Krydslamineret træ, CLT (Forbrænding EoL)",
+              "thickness": 50.0
+            }
+          ],
+          "thickness": 50.0
+        },
+        "element_record": {
+          "area_m2": 2.0,
+          "boundary": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              2000.0,
+              0.0
+            ],
+            [
+              2000.0,
+              1000.0
+            ],
+            [
+              0.0,
+              1000.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "30456bd2-f9d2-4efe-ac84-dba1ff283d86",
+          "id": 100002,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 50.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "wood specimen",
+          "type_guid": "9a516fbb-4ba8-460a-b121-6b9a15904272",
+          "volume_m3": 0.1
+        }
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 47.0,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.1,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.1,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:B1318:row2:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:B1318:row2",
+              "property": "density",
+              "value": 470.0,
+              "value_text": "470",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K2:L2",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "m³",
+                "original_data_type": "Branche data",
+                "underlying_source_url": "https://www.epddanmark.dk/media/tmwhxyym/md-20007-en_rev1_tr%c3%a6dk.pdf",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K2:L2"
+              }
+            },
+            "density_normalized": {
+              "value": 470.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 470.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          },
+          "model_quantity_rounding_bound_kg": 0.23500000000000001
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": -66.4,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.1,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.1,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1318:row2:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1318:row2",
+                "property": "global_warming_potential",
+                "value": -664.0,
+                "value_text": "-664",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E2",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/tmwhxyym/md-20007-en_rev1_tr%c3%a6dk.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E2"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.1,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.332
+          },
+          {
+            "status": "ok",
+            "value": 74.4,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.1,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.1,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1318:row2:gwp:C3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1318:row2",
+                "property": "global_warming_potential",
+                "value": 744.0,
+                "value_text": "744",
+                "unit": "kg CO2-eq",
+                "module": "C3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!F2",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/tmwhxyym/md-20007-en_rev1_tr%c3%a6dk.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!F2"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.1,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.372
+          },
+          {
+            "status": "ok",
+            "value": 0.0,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.1,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.1,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1318:row2:gwp:C4",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1318:row2",
+                "property": "global_warming_potential",
+                "value": 0.0,
+                "value_text": "0",
+                "unit": "kg CO2-eq",
+                "module": "C4",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!G2",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/tmwhxyym/md-20007-en_rev1_tr%c3%a6dk.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!G2"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.1,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C4",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0
+          },
+          {
+            "status": "ok",
+            "value": -38.7,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.1,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.1,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1318:row2:gwp:D",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1318:row2",
+                "property": "global_warming_potential",
+                "value": -387.0,
+                "value_text": "-387",
+                "unit": "kg CO2-eq",
+                "module": "D",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!H2",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/tmwhxyym/md-20007-en_rev1_tr%c3%a6dk.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!H2"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.1,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "D",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.1935
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:B1318:row2",
+          "name": "Krydslamineret træ, CLT (Forbrænding EoL)",
+          "kind": "generic",
+          "category": "wood"
+        },
+        "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    },
+    {
+      "element_id": "100003",
+      "element_name": "concrete specimen",
+      "model_material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "model_quantity_source": {
+        "element_id": 100003,
+        "guid": "da04b807-506f-4a69-9ccd-29980e09b722",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "concrete specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "234fe25a-3b35-4802-b60b-3683a654c9af",
+              "id": 998936,
+              "material": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+              "thickness": 100.0
+            }
+          ],
+          "thickness": 100.0
+        },
+        "element_record": {
+          "area_m2": 0.96,
+          "boundary": [
+            [
+              3000.0,
+              0.0
+            ],
+            [
+              4200.0,
+              0.0
+            ],
+            [
+              4200.0,
+              800.0
+            ],
+            [
+              3000.0,
+              800.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "da04b807-506f-4a69-9ccd-29980e09b722",
+          "id": 100003,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 100.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "concrete specimen",
+          "type_guid": "2f4c2c4c-4cf4-41b0-92ee-d9642f013b47",
+          "volume_m3": 0.096
+        }
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 215.616,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.096,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.096,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:B1433:row25:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:B1433:row25",
+              "property": "density",
+              "value": 2246.0,
+              "value_text": "2246",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K25:L25",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "m³",
+                "original_data_type": "Branche data",
+                "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K25:L25"
+              }
+            },
+            "density_normalized": {
+              "value": 2246.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 2246.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          },
+          "model_quantity_rounding_bound_kg": 1.123
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 23.136,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.096,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.096,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1433:row25:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1433:row25",
+                "property": "global_warming_potential",
+                "value": 241.0,
+                "value_text": "241",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E25",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E25"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.096,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.1205
+          },
+          {
+            "status": "ok",
+            "value": 0.6460800000000001,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.096,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.096,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1433:row25:gwp:C3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1433:row25",
+                "property": "global_warming_potential",
+                "value": 6.73,
+                "value_text": "6.73",
+                "unit": "kg CO2-eq",
+                "module": "C3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!F25",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!F25"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.096,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0033650000000000004
+          },
+          {
+            "status": "ok",
+            "value": 0.47712,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.096,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.096,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1433:row25:gwp:C4",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1433:row25",
+                "property": "global_warming_potential",
+                "value": 4.97,
+                "value_text": "4.97",
+                "unit": "kg CO2-eq",
+                "module": "C4",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!G25",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!G25"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.096,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C4",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.002485
+          },
+          {
+            "status": "ok",
+            "value": -0.4416,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.096,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.096,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1433:row25:gwp:D",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1433:row25",
+                "property": "global_warming_potential",
+                "value": -4.6,
+                "value_text": "-4.6",
+                "unit": "kg CO2-eq",
+                "module": "D",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!H25",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!H25"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.096,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "D",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0023
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:B1433:row25",
+          "name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+          "kind": "generic",
+          "category": "concrete"
+        },
+        "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    },
+    {
+      "element_id": "100004",
+      "element_name": "steel specimen",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "model_quantity_source": {
+        "element_id": 100004,
+        "guid": "99449d8b-6b08-4c6d-b920-595764fee465",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "steel specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "702b2224-a456-4244-b2b7-816e280b56f3",
+              "id": 998933,
+              "material": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+              "thickness": 10.0
+            }
+          ],
+          "thickness": 10.0
+        },
+        "element_record": {
+          "area_m2": 0.5,
+          "boundary": [
+            [
+              6000.0,
+              0.0
+            ],
+            [
+              7000.0,
+              0.0
+            ],
+            [
+              7000.0,
+              500.0
+            ],
+            [
+              6000.0,
+              500.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "99449d8b-6b08-4c6d-b920-595764fee465",
+          "id": 100004,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 10.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "steel specimen",
+          "type_guid": "3f551d45-d60e-4b8b-ad2b-7257c88ee86a",
+          "volume_m3": 0.005
+        }
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 39.25,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.005,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.005,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:D1591:row129:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:D1591:row129",
+              "property": "density",
+              "value": 7850.0,
+              "value_text": "7850",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K129:L129",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "ton",
+                "original_data_type": "Dansk generisk data",
+                "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K129:L129"
+              }
+            },
+            "density_normalized": {
+              "value": 7850.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 7850.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          },
+          "model_quantity_rounding_bound_kg": 3.9250000000000003
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 64.33075000000001,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 39.25,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 39.25,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 1639.0000000000002,
+                "value_text": "1639.0000000000002",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.03925,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 6.433075000000001
+          },
+          {
+            "status": "ok",
+            "value": 2.063765,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 39.25,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 39.25,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:C3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 52.58,
+                "value_text": "52.58",
+                "unit": "kg CO2-eq",
+                "module": "C3",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!F129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!F129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.03925,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.20637650000000002
+          },
+          {
+            "status": "ok",
+            "value": 1.8003975,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 39.25,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 39.25,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:C4",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 45.870000000000005,
+                "value_text": "45.870000000000005",
+                "unit": "kg CO2-eq",
+                "module": "C4",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!G129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!G129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.03925,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C4",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.18003975000000005
+          },
+          {
+            "status": "ok",
+            "value": -11.162700000000001,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 39.25,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 39.25,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:D",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": -284.40000000000003,
+                "value_text": "-284.40000000000003",
+                "unit": "kg CO2-eq",
+                "module": "D",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!H129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!H129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.03925,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "D",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 1.1162700000000003
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:D1591:row129",
+          "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+          "kind": "generic",
+          "category": "metal"
+        },
+        "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    },
+    {
+      "element_id": "100005",
+      "element_name": "glass specimen",
+      "model_material_name": "Glasbyggesten",
+      "model_quantity_source": {
+        "element_id": 100005,
+        "guid": "c48cc58d-4d0a-47cc-b787-dc2b2cc82a41",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "glass specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "86b346f2-4a10-49e2-a0ae-73f7170b0dae",
+              "id": 998930,
+              "material": "Glasbyggesten",
+              "thickness": 10.0
+            }
+          ],
+          "thickness": 10.0
+        },
+        "element_record": {
+          "area_m2": 0.6,
+          "boundary": [
+            [
+              9000.0,
+              0.0
+            ],
+            [
+              10000.0,
+              0.0
+            ],
+            [
+              10000.0,
+              600.0
+            ],
+            [
+              9000.0,
+              600.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "c48cc58d-4d0a-47cc-b787-dc2b2cc82a41",
+          "id": 100005,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 10.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "glass specimen",
+          "type_guid": "4c6c9c32-5911-4ed7-aaff-af46166a474b",
+          "volume_m3": 0.006
+        }
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 15.0,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.006,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.006,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:G0954:row410:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:G0954:row410",
+              "property": "density",
+              "value": 2500.0,
+              "value_text": "2500",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K410:L410",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "m³",
+                "original_data_type": "Generisk data",
+                "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/bf575960-32e9-47f6-833e-cba96c88dbd2?version=20.23.050",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K410:L410"
+              }
+            },
+            "density_normalized": {
+              "value": 2500.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 2500.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          },
+          "model_quantity_rounding_bound_kg": 1.25
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 23.35814747576934,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.006,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.006,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0954:row410:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0954:row410",
+                "property": "global_warming_potential",
+                "value": 3893.02457929489,
+                "value_text": "3893.02457929489",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E410",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/bf575960-32e9-47f6-833e-cba96c88dbd2?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E410"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.006,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 1.946512289647445
+          },
+          {
+            "status": "ok",
+            "value": 0.0,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.006,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.006,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0954:row410:gwp:C3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0954:row410",
+                "property": "global_warming_potential",
+                "value": 0.0,
+                "value_text": "0",
+                "unit": "kg CO2-eq",
+                "module": "C3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!F410",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/bf575960-32e9-47f6-833e-cba96c88dbd2?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!F410"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.006,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0
+          },
+          {
+            "status": "ok",
+            "value": 0.2866400846204796,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.006,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.006,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0954:row410:gwp:C4",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0954:row410",
+                "property": "global_warming_potential",
+                "value": 47.7733474367466,
+                "value_text": "47.7733474367466",
+                "unit": "kg CO2-eq",
+                "module": "C4",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!G410",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/bf575960-32e9-47f6-833e-cba96c88dbd2?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!G410"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.006,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C4",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0238866737183733
+          },
+          {
+            "status": "ok",
+            "value": 0.0,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.006,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.006,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0954:row410:gwp:D",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0954:row410",
+                "property": "global_warming_potential",
+                "value": 0.0,
+                "value_text": "0",
+                "unit": "kg CO2-eq",
+                "module": "D",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!H410",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/bf575960-32e9-47f6-833e-cba96c88dbd2?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!H410"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.006,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "D",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:G0954:row410",
+          "name": "Glasbyggesten",
+          "kind": "generic",
+          "category": "glass"
+        },
+        "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    },
+    {
+      "element_id": "100006",
+      "element_name": "insulation specimen",
+      "model_material_name": "Polystyren skumfyldning (uden bindemiddel)",
+      "model_quantity_source": {
+        "element_id": 100006,
+        "guid": "57d1c51e-d3a2-4fde-b1e9-b4e74b7509da",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "insulation specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "fe9cc4d7-6945-4a19-96bb-e35590e8154a",
+              "id": 998927,
+              "material": "Polystyren skumfyldning (uden bindemiddel)",
+              "thickness": 120.0
+            }
+          ],
+          "thickness": 120.0
+        },
+        "element_record": {
+          "area_m2": 1.2,
+          "boundary": [
+            [
+              12000.0,
+              0.0
+            ],
+            [
+              13500.0,
+              0.0
+            ],
+            [
+              13500.0,
+              800.0
+            ],
+            [
+              12000.0,
+              800.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "57d1c51e-d3a2-4fde-b1e9-b4e74b7509da",
+          "id": 100006,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 120.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "insulation specimen",
+          "type_guid": "db84364a-32d7-4eb7-a6ba-9e96d3b84799",
+          "volume_m3": 0.144
+        }
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 2.1599999999999997,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.144,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.144,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:G0161:row196:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:G0161:row196",
+              "property": "density",
+              "value": 15.0,
+              "value_text": "15",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K196:L196",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "m³",
+                "original_data_type": "Generisk data",
+                "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/198043f5-de31-4fab-a300-53639b983dd1?version=20.23.050",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K196:L196"
+              }
+            },
+            "density_normalized": {
+              "value": 15.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 15.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          },
+          "model_quantity_rounding_bound_kg": 0.0075
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 7.051558424464022,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.144,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.144,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0161:row196:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0161:row196",
+                "property": "global_warming_potential",
+                "value": 48.9691557254446,
+                "value_text": "48.9691557254446",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E196",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/198043f5-de31-4fab-a300-53639b983dd1?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E196"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.144,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0244845778627223
+          },
+          {
+            "status": "ok",
+            "value": 7.974935002755359,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.144,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.144,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0161:row196:gwp:C3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0161:row196",
+                "property": "global_warming_potential",
+                "value": 55.38149307469,
+                "value_text": "55.38149307469",
+                "unit": "kg CO2-eq",
+                "module": "C3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!F196",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/198043f5-de31-4fab-a300-53639b983dd1?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!F196"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.144,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.027690746537345
+          },
+          {
+            "status": "ok",
+            "value": 0.0,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.144,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.144,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0161:row196:gwp:C4",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0161:row196",
+                "property": "global_warming_potential",
+                "value": 0.0,
+                "value_text": "0",
+                "unit": "kg CO2-eq",
+                "module": "C4",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!G196",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/198043f5-de31-4fab-a300-53639b983dd1?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!G196"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.144,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C4",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0
+          },
+          {
+            "status": "ok",
+            "value": -2.7957737931990043,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.144,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.144,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:G0161:row196:gwp:D",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:G0161:row196",
+                "property": "global_warming_potential",
+                "value": -19.4150957861042,
+                "value_text": "-19.4150957861042",
+                "unit": "kg CO2-eq",
+                "module": "D",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!H196",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Generisk data",
+                  "underlying_source_url": "https://www.oekobaudat.de/OEKOBAU.DAT/resource/processes/198043f5-de31-4fab-a300-53639b983dd1?version=20.23.050",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!H196"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.144,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "D",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion",
+            "model_quantity_rounding_bound_kg_co2_eq": 0.0097075478930521
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:G0161:row196",
+          "name": "Polystyren skumfyldning (uden bindemiddel)",
+          "kind": "generic",
+          "category": "polymer"
+        },
+        "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100002"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100003"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100004"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100005"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100006"
+    }
+  ],
+  "scope": "Selected homogeneous reference scenarios; source context and product equivalence require review; no regulatory or complete building-LCA conclusion"
+}

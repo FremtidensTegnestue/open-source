@@ -1,0 +1,3 @@
+new {"name":"Mixed material control"}
+type {"category":"floor","name":"Mixed specimen","layers":[{"function":"finish","material":"Timber","thickness":20},{"function":"structure","material":"Concrete","thickness":100}]}
+floor {"boundary":[[0,0],[1000,0],[1000,300],[0,300]],"type":"Mixed specimen","level":"Level 1"}

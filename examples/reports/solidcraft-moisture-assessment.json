@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "model": {
+    "path": "/home/admin/Fremtidenstegnestue/open-source/examples/models/solidcraft/solid-wood-moisture.sc",
+    "sha256": "3c3dd73df180ad1ade4336c6c91835aa062351914800ef0e7bf6834b6b62323e"
+  },
+  "software": "solidcraft",
+  "software_version": "solidcraft-cli 0.44.0",
+  "extraction": {
+    "command": [
+      "solidcraft-cli",
+      "eval",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/models/solidcraft/solid-wood-moisture.sc"
+    ],
+    "source_unchanged": true,
+    "raw_reply": {
+      "bodies": [
+        {
+          "area_mm2": 14320.0,
+          "bbox": {
+            "max": [
+              232.0,
+              20.0,
+              10.0
+            ],
+            "min": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "center_of_mass": [
+            116.0,
+            9.999999999999998,
+            5.0
+          ],
+          "closed": true,
+          "density_g_cm3": 0.4,
+          "edges": 12,
+          "face_types": {
+            "plane": 6
+          },
+          "faces": 6,
+          "kernel": {
+            "edges": 12,
+            "faces": 6,
+            "shells": 1,
+            "vertices": 8
+          },
+          "mass_g": 18.56,
+          "material": "Fir, white",
+          "measured_by": "smlib",
+          "name": "WoodMoistureControl",
+          "notes": [],
+          "vertices": 8,
+          "volume_mm3": 46400.0
+        }
+      ],
+      "body_count": 1,
+      "params": [],
+      "sketches": [],
+      "timeline": [
+        {
+          "error": null,
+          "id": 1,
+          "ms": 2.2982139999999998,
+          "name": "Box1",
+          "rolled_back": false,
+          "suppressed": false,
+          "type": "BoxFeature",
+          "warning": null
+        }
+      ],
+      "total": {
+        "area_mm2": 14320.0,
+        "edges": 12,
+        "faces": 6,
+        "mass_g": 18.56,
+        "open_bodies_skipped": 0,
+        "vertices": 8,
+        "volume_mm3": 46400.0
+      }
+    },
+    "stderr": "",
+    "notes": [
+      "Closed-body volumes are returned by the actual geometry engine.",
+      "area_m2 is unknown: Solidcraft total surface area is exposed separately as surface_area_m2.",
+      "Model-assigned densities/masses remain provenance only; this adapter does not select database density.",
+      "STEP imports without explicit material remain material-unspecified."
+    ]
+  },
+  "database_input_fingerprint": "44d4e645c67a49aaa7d78dee3ffee0ad9ead671b32514c533db05633314be2a2",
+  "elements": [
+    {
+      "element_id": "solidcraft:WoodMoistureControl",
+      "element_name": "WoodMoistureControl",
+      "model_material_name": "Fir, white",
+      "model_quantity_source": {
+        "quantity_command": "solidcraft-cli eval",
+        "body_index": 0,
+        "body_name": "WoodMoistureControl",
+        "volume_field": "/bodies/0/volume_mm3",
+        "material_field": "/bodies/0/material",
+        "volume_unit_conversion": "mm3 / 1000000000 = m3",
+        "surface_area_unit_conversion": "mm2 / 1000000 = m2",
+        "dimensions_basis": "world-axis-aligned bounding-box extents, not material-local axes",
+        "measured_by": "smlib",
+        "closed": true,
+        "raw_measurement": {
+          "area_mm2": 14320.0,
+          "bbox": {
+            "max": [
+              232.0,
+              20.0,
+              10.0
+            ],
+            "min": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "center_of_mass": [
+            116.0,
+            9.999999999999998,
+            5.0
+          ],
+          "closed": true,
+          "density_g_cm3": 0.4,
+          "edges": 12,
+          "face_types": {
+            "plane": 6
+          },
+          "faces": 6,
+          "kernel": {
+            "edges": 12,
+            "faces": 6,
+            "shells": 1,
+            "vertices": 8
+          },
+          "mass_g": 18.56,
+          "material": "Fir, white",
+          "measured_by": "smlib",
+          "name": "WoodMoistureControl",
+          "notes": [],
+          "vertices": 8,
+          "volume_mm3": 46400.0
+        }
+      },
+      "calculations": {
+        "moisture": {
+          "status": "ok",
+          "value": 0.0017052,
+          "unit": "m",
+          "method": {
+            "id": "wood.usda_2021_eq13_3.v1",
+            "formula": "delta_dimension = initial_dimension * coefficient_per_percentage_point * (final_MC_percent - initial_MC_percent)",
+            "source": "USDA Wood Handbook 2021 chapter13, printed page13–16, equation13–3; table13–5",
+            "source_file": "data/raw/wood/chapter_13.pdf"
+          },
+          "inputs": {
+            "dimension": {
+              "value": 0.232,
+              "unit": "m",
+              "dimension": "length",
+              "original_value": 0.232,
+              "original_unit": "m",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "coefficient": {
+              "id": "wood:51bdadf283844ea37156000c",
+              "dataset_id": "wood",
+              "material_id": "wood:fir-white",
+              "property": "moisture_dimensional_change_coefficient_tangential",
+              "value": 0.00245,
+              "value_text": "0.00245",
+              "unit": "1/%MC",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": "Published tabulated value in USDA Wood Handbook FPL-GTR-282 (2021)",
+              "data_status": "reported",
+              "source_id": "wood:chapter-13",
+              "source_locator": "PDF page 17; printed page 13–17; table 13-5; row Fir, white",
+              "conditions": {
+                "direction": "tangential",
+                "valid_moisture_content_percent_min": 6,
+                "valid_moisture_content_percent_max": 14,
+                "reference_dimension_moisture_content_percent": 10,
+                "moisture_change_basis": "per one percentage-point change in moisture content",
+                "assumed_shrinkage_start_moisture_content_percent": 30,
+                "source_line": "         Fir, white                       0.00112      0.00245       Spruce, black                            0.00141     0.00237",
+                "column": 1,
+                "source_derivation": "Table coefficients derived by source from total shrinkage; not calculated by this collector."
+              },
+              "citation": {
+                "id": "wood:chapter-13",
+                "title": "Wood Handbook (2021), Chapter 13: Drying and control of moisture content and dimensional changes",
+                "publisher": "USDA Forest Service, Forest Products Laboratory",
+                "url": "https://research.fs.usda.gov/download/treesearch/62261.pdf",
+                "retrieved_at": "2026-11-17T19:41:08.162488+00:00",
+                "local_path": "data/raw/wood/chapter_13.pdf",
+                "sha256": "fdea028873070b1bd857fd3ecd72accc13be051c0508c6a97753ba9914c226cb",
+                "license": "U.S. government publication; third-party cited values/material may need separate rights review. No item-specific license text extracted.",
+                "license_status": "unknown",
+                "source_locator": "PDF page 17; printed page 13–17; table 13-5; row Fir, white"
+              }
+            },
+            "coefficient_normalized": {
+              "value": 0.00245,
+              "unit": "1/%MC",
+              "dimension": "moisture_coefficient",
+              "original_value": 0.00245,
+              "original_unit": "1/%MC",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": [
+                "per one percentage-point change in wood moisture content; coefficient numerical value unchanged"
+              ]
+            },
+            "initial_moisture_percent": 8.0,
+            "final_moisture_percent": 11.0
+          },
+          "final_dimension_m": 0.2337052,
+          "assumptions": [
+            "Approximate source method within its moisture range; percent means percentage points of water mass per oven-dry wood mass",
+            "Explicit radial/tangential direction; geometry alone does not determine grain orientation"
+          ],
+          "orientation_note": "In this authored specimen, world x explicitly represents tangential board width; this is an author assumption, not inferred from geometry."
+        }
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "wood:fir-white",
+          "name": "Fir, white",
+          "kind": "generic",
+          "category": "wood"
+        },
+        "selection_note": "Authored white-fir specimen; explicit species and orientation reference scenario from USDA example, not inferred CLT behavior.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    }
+  ],
+  "warnings": [],
+  "scope": "Selected homogeneous reference scenarios; source context and product equivalence require review; no regulatory or complete building-LCA conclusion"
+}

@@ -1,0 +1,9 @@
+{
+  "kind": "climate",
+  "material_id": "environmental:material:oekobaudat:3428753d-b270-4b13-bbe0-244b981db333@00.04.000",
+  "gwp_observation_id": "environmental:oekobaudat:3428753d-b270-4b13-bbe0-244b981db333@00.04.000:5c075fc772a54566d4",
+  "quantity": {
+    "value": 500,
+    "unit": "kg"
+  }
+}

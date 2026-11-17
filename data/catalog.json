@@ -1,0 +1,2345 @@
+{
+  "counts": {
+    "datasets": 4,
+    "sources": 7135,
+    "materials": 11161,
+    "observations": 1985582
+  },
+  "numeric_observations": 1985582,
+  "datasets": [
+    {
+      "dataset_id": "br18",
+      "observations": 2695,
+      "materials": 586
+    },
+    {
+      "dataset_id": "environmental",
+      "observations": 1962722,
+      "materials": 7067
+    },
+    {
+      "dataset_id": "technical",
+      "observations": 15127,
+      "materials": 3183
+    },
+    {
+      "dataset_id": "wood",
+      "observations": 5038,
+      "materials": 325
+    }
+  ],
+  "categories": [
+    {
+      "category": "other",
+      "records": 3949
+    },
+    {
+      "category": "concrete",
+      "records": 1679
+    },
+    {
+      "category": "wood",
+      "records": 1554
+    },
+    {
+      "category": "metal",
+      "records": 1243
+    },
+    {
+      "category": "insulation",
+      "records": 1182
+    },
+    {
+      "category": "polymer",
+      "records": 656
+    },
+    {
+      "category": "glass",
+      "records": 561
+    },
+    {
+      "category": "masonry",
+      "records": 183
+    },
+    {
+      "category": "gypsum",
+      "records": 135
+    },
+    {
+      "category": "energy",
+      "records": 19
+    }
+  ],
+  "properties": [
+    {
+      "property": "ap",
+      "observations": 60252
+    },
+    {
+      "property": "pert",
+      "observations": 59878
+    },
+    {
+      "property": "penrt",
+      "observations": 59872
+    },
+    {
+      "property": "odp",
+      "observations": 59815
+    },
+    {
+      "property": "nrsf",
+      "observations": 59512
+    },
+    {
+      "property": "pocp",
+      "observations": 59499
+    },
+    {
+      "property": "rwd",
+      "observations": 59457
+    },
+    {
+      "property": "nhwd",
+      "observations": 59419
+    },
+    {
+      "property": "fw",
+      "observations": 59117
+    },
+    {
+      "property": "hwd",
+      "observations": 58971
+    },
+    {
+      "property": "pere",
+      "observations": 58704
+    },
+    {
+      "property": "penre",
+      "observations": 58697
+    },
+    {
+      "property": "sm",
+      "observations": 58597
+    },
+    {
+      "property": "eee",
+      "observations": 58549
+    },
+    {
+      "property": "penrm",
+      "observations": 58483
+    },
+    {
+      "property": "eet",
+      "observations": 58455
+    },
+    {
+      "property": "perm",
+      "observations": 58429
+    },
+    {
+      "property": "mer",
+      "observations": 57982
+    },
+    {
+      "property": "cru",
+      "observations": 57940
+    },
+    {
+      "property": "adpe",
+      "observations": 57741
+    },
+    {
+      "property": "adpf",
+      "observations": 57729
+    },
+    {
+      "property": "rsf",
+      "observations": 55247
+    },
+    {
+      "property": "gwp_fossil",
+      "observations": 47023
+    },
+    {
+      "property": "gwp_total",
+      "observations": 47023
+    },
+    {
+      "property": "wdp",
+      "observations": 47023
+    },
+    {
+      "property": "gwp_biogenic",
+      "observations": 47017
+    },
+    {
+      "property": "ep_terrestrial",
+      "observations": 47015
+    },
+    {
+      "property": "ep_freshwater",
+      "observations": 47014
+    },
+    {
+      "property": "ep_marine",
+      "observations": 47014
+    },
+    {
+      "property": "gwp_luluc",
+      "observations": 46594
+    },
+    {
+      "property": "mfr",
+      "observations": 37734
+    },
+    {
+      "property": "pm",
+      "observations": 21476
+    },
+    {
+      "property": "etp_fw",
+      "observations": 21367
+    },
+    {
+      "property": "htp_c",
+      "observations": 21364
+    },
+    {
+      "property": "htp_nc",
+      "observations": 21364
+    },
+    {
+      "property": "materials_for_recycling_mfr",
+      "observations": 20520
+    },
+    {
+      "property": "sqp",
+      "observations": 20511
+    },
+    {
+      "property": "irp",
+      "observations": 13157
+    },
+    {
+      "property": "gwp",
+      "observations": 10738
+    },
+    {
+      "property": "ep",
+      "observations": 10713
+    },
+    {
+      "property": "ir",
+      "observations": 8315
+    },
+    {
+      "property": "reference_flow_mass",
+      "observations": 4379
+    },
+    {
+      "property": "sf",
+      "observations": 4244
+    },
+    {
+      "property": "thermal_resistance",
+      "observations": 2825
+    },
+    {
+      "property": "gross_density",
+      "observations": 2799
+    },
+    {
+      "property": "thermal_conductivity",
+      "observations": 2617
+    },
+    {
+      "property": "thickness",
+      "observations": 2519
+    },
+    {
+      "property": "density",
+      "observations": 2494
+    },
+    {
+      "property": "specific_heat_capacity",
+      "observations": 2323
+    },
+    {
+      "property": "grammage",
+      "observations": 2201
+    },
+    {
+      "property": "rmi_fossile",
+      "observations": 2163
+    },
+    {
+      "property": "rmi_metals",
+      "observations": 2163
+    },
+    {
+      "property": "rmi_minerals",
+      "observations": 2163
+    },
+    {
+      "property": "tmr_fossile",
+      "observations": 2163
+    },
+    {
+      "property": "tmr_metals",
+      "observations": 2163
+    },
+    {
+      "property": "rmi_agriculture",
+      "observations": 2154
+    },
+    {
+      "property": "rmi_forestry",
+      "observations": 2154
+    },
+    {
+      "property": "tmr_agriculture",
+      "observations": 2154
+    },
+    {
+      "property": "tmr_forestry",
+      "observations": 2154
+    },
+    {
+      "property": "rmi_total",
+      "observations": 2150
+    },
+    {
+      "property": "tmr_total",
+      "observations": 2150
+    },
+    {
+      "property": "rmi_abiotic_subtotal",
+      "observations": 2149
+    },
+    {
+      "property": "tmr_abiotic_subtotal",
+      "observations": 2149
+    },
+    {
+      "property": "tmr_mineral",
+      "observations": 2149
+    },
+    {
+      "property": "eutrophication_terrestrial",
+      "observations": 2148
+    },
+    {
+      "property": "rmi_biotic_subtotal",
+      "observations": 2140
+    },
+    {
+      "property": "tmr_biotic_subtotal",
+      "observations": 2140
+    },
+    {
+      "property": "climate_change",
+      "observations": 2139
+    },
+    {
+      "property": "climate_change_biogenic",
+      "observations": 2139
+    },
+    {
+      "property": "climate_change_fossil",
+      "observations": 2139
+    },
+    {
+      "property": "climate_change_land_use_and_land_use_change",
+      "observations": 2139
+    },
+    {
+      "property": "eutrophication_freshwater",
+      "observations": 2139
+    },
+    {
+      "property": "eutrophication_marine",
+      "observations": 2139
+    },
+    {
+      "property": "resource_use_fossils",
+      "observations": 2139
+    },
+    {
+      "property": "water_use",
+      "observations": 2139
+    },
+    {
+      "property": "resource_use_minerals_and_metals",
+      "observations": 2130
+    },
+    {
+      "property": "reference_flow_number_of_pieces",
+      "observations": 2099
+    },
+    {
+      "property": "global_warming_potential",
+      "observations": 2028
+    },
+    {
+      "property": "weight_per_piece",
+      "observations": 1849
+    },
+    {
+      "property": "reference_flow_area",
+      "observations": 1829
+    },
+    {
+      "property": "layer_thickness",
+      "observations": 1728
+    },
+    {
+      "property": "global_warming_potential_except_emissions_and_uptake_of_biogenic_carbon",
+      "observations": 1680
+    },
+    {
+      "property": "reference_flow_biogenic_carbon_content_in_accompanying_packaging_biog_c_in_packaging",
+      "observations": 1083
+    },
+    {
+      "property": "reference_flow_volume",
+      "observations": 1074
+    },
+    {
+      "property": "conversion_factor_to_1_kg",
+      "observations": 1028
+    },
+    {
+      "property": "reference_flow_biogenic_carbon_content_in_product_biog_c_in_product",
+      "observations": 987
+    },
+    {
+      "property": "reference_flow_carbon_content_biogenic_packaging",
+      "observations": 661
+    },
+    {
+      "property": "reference_flow_carbon_content_biogenic",
+      "observations": 448
+    },
+    {
+      "property": "compression_parallel_to_grain",
+      "observations": 425
+    },
+    {
+      "property": "modulus_of_rupture",
+      "observations": 425
+    },
+    {
+      "property": "equilibrium_moisture_content",
+      "observations": 423
+    },
+    {
+      "property": "modulus_of_elasticity",
+      "observations": 422
+    },
+    {
+      "property": "shear_parallel_to_grain",
+      "observations": 410
+    },
+    {
+      "property": "specific_gravity",
+      "observations": 399
+    },
+    {
+      "property": "reference_flow_masse",
+      "observations": 369
+    },
+    {
+      "property": "reference_flow_non_renewable_primary_energy_resources_used_as_raw_materials_penrm",
+      "observations": 336
+    },
+    {
+      "property": "side_hardness",
+      "observations": 336
+    },
+    {
+      "property": "work_to_maximum_load",
+      "observations": 334
+    },
+    {
+      "property": "mass_factor",
+      "observations": 314
+    },
+    {
+      "property": "solar_absorptance",
+      "observations": 282
+    },
+    {
+      "property": "thermal_absorptance",
+      "observations": 282
+    },
+    {
+      "property": "visible_absorptance",
+      "observations": 282
+    },
+    {
+      "property": "compression_perpendicular_to_grain",
+      "observations": 278
+    },
+    {
+      "property": "reference_flow_length",
+      "observations": 215
+    },
+    {
+      "property": "linear_density",
+      "observations": 208
+    },
+    {
+      "property": "weight_per_unit",
+      "observations": 200
+    },
+    {
+      "property": "impact_bending_failure_drop_height",
+      "observations": 199
+    },
+    {
+      "property": "shrinkage_radial",
+      "observations": 197
+    },
+    {
+      "property": "shrinkage_volumetric",
+      "observations": 197
+    },
+    {
+      "property": "shrinkage_tangential",
+      "observations": 196
+    },
+    {
+      "property": "reference_flow_net_calorific_value",
+      "observations": 189
+    },
+    {
+      "property": "reference_flow_05_en15804_a2_non_renewable_primary_energy_resources_used_as_raw_materials_penrm",
+      "observations": 185
+    },
+    {
+      "property": "tension_perpendicular_to_grain",
+      "observations": 168
+    },
+    {
+      "property": "back_side_infrared_hemispherical_emissivity",
+      "observations": 156
+    },
+    {
+      "property": "back_side_solar_reflectance_at_normal_incidence",
+      "observations": 156
+    },
+    {
+      "property": "back_side_visible_reflectance_at_normal_incidence",
+      "observations": 156
+    },
+    {
+      "property": "front_side_infrared_hemispherical_emissivity",
+      "observations": 156
+    },
+    {
+      "property": "front_side_solar_reflectance_at_normal_incidence",
+      "observations": 156
+    },
+    {
+      "property": "front_side_visible_reflectance_at_normal_incidence",
+      "observations": 156
+    },
+    {
+      "property": "infrared_transmittance_at_normal_incidence",
+      "observations": 156
+    },
+    {
+      "property": "solar_transmittance_at_normal_incidence",
+      "observations": 156
+    },
+    {
+      "property": "visible_transmittance_at_normal_incidence",
+      "observations": 156
+    },
+    {
+      "property": "reference_flow_us_market_price_2002",
+      "observations": 153
+    },
+    {
+      "property": "thermal_resistivity",
+      "observations": 136
+    },
+    {
+      "property": "green_moisture_content",
+      "observations": 129
+    },
+    {
+      "property": "reference_flow_energy_gross_calorific_value",
+      "observations": 116
+    },
+    {
+      "property": "conversion_factor_mass_declared_unit",
+      "observations": 106
+    },
+    {
+      "property": "moisture_dimensional_change_coefficient_radial",
+      "observations": 102
+    },
+    {
+      "property": "moisture_dimensional_change_coefficient_tangential",
+      "observations": 102
+    },
+    {
+      "property": "dirt_correction_factor_for_solar_and_visible_transmittance",
+      "observations": 94
+    },
+    {
+      "property": "reference_flow_price",
+      "observations": 92
+    },
+    {
+      "property": "reference_flow_exergy",
+      "observations": 89
+    },
+    {
+      "property": "energy_supply_reference_gwp",
+      "observations": 75
+    },
+    {
+      "property": "reference_flow_primary_energy_resources_used_as_raw_materials_perm",
+      "observations": 74
+    },
+    {
+      "property": "reference_flow_other_materials_and_material_compounds_unspecified",
+      "observations": 72
+    },
+    {
+      "property": "opd",
+      "observations": 63
+    },
+    {
+      "property": "moisture_content",
+      "observations": 48
+    },
+    {
+      "property": "bulk_density",
+      "observations": 44
+    },
+    {
+      "property": "liquid_transport_coefficient",
+      "observations": 40
+    },
+    {
+      "property": "mass_reference",
+      "observations": 40
+    },
+    {
+      "property": "reference_flow_biogenic_carbon_content_in_accompanying_packaging",
+      "observations": 39
+    },
+    {
+      "property": "reference_flow_biogenic_carbon_content_in_product",
+      "observations": 39
+    },
+    {
+      "property": "conversion_factor_kg_fu",
+      "observations": 38
+    },
+    {
+      "property": "transport_reference_gwp",
+      "observations": 38
+    },
+    {
+      "property": "reference_flow_electrics_unspecified",
+      "observations": 37
+    },
+    {
+      "property": "reference_flow_02_en15804_a2_primary_energy_resources_used_as_raw_materials_perm",
+      "observations": 36
+    },
+    {
+      "property": "reference_flow_weight",
+      "observations": 33
+    },
+    {
+      "property": "reference_flow_energy_net_calorific_value",
+      "observations": 31
+    },
+    {
+      "property": "reference_flow_c_total_wt",
+      "observations": 29
+    },
+    {
+      "property": "reference_flow_modified_organic_natural_materials_unspecified",
+      "observations": 26
+    },
+    {
+      "property": "fuel_reference_gwp",
+      "observations": 25
+    },
+    {
+      "property": "reference_flow_c_biogen_wt",
+      "observations": 20
+    },
+    {
+      "property": "reference_flow_thermoplaste_unfilled_unspecified",
+      "observations": 20
+    },
+    {
+      "property": "productiveness",
+      "observations": 19
+    },
+    {
+      "property": "reference_flow_water_wt",
+      "observations": 19
+    },
+    {
+      "property": "reference_flow_kgkm",
+      "observations": 18
+    },
+    {
+      "property": "reference_flow_meter",
+      "observations": 17
+    },
+    {
+      "property": "water_vapor_diffusion_resistance_factor",
+      "observations": 16
+    },
+    {
+      "property": "reference_flow_lacquers_unspecified",
+      "observations": 15
+    },
+    {
+      "property": "waste_treatment_reference_gwp",
+      "observations": 15
+    },
+    {
+      "property": "rmi_fisheries",
+      "observations": 14
+    },
+    {
+      "property": "tmr_fisheries",
+      "observations": 14
+    },
+    {
+      "property": "tmr_minerals",
+      "observations": 14
+    },
+    {
+      "property": "reference_flow_steel_and_iron_materials_unspecified",
+      "observations": 13
+    },
+    {
+      "property": "conversion_factor",
+      "observations": 12
+    },
+    {
+      "property": "reference_flow_duration",
+      "observations": 12
+    },
+    {
+      "property": "bottom_opening_multiplier",
+      "observations": 11
+    },
+    {
+      "property": "left_side_opening_multiplier",
+      "observations": 11
+    },
+    {
+      "property": "right_side_opening_multiplier",
+      "observations": 11
+    },
+    {
+      "property": "top_opening_multiplier",
+      "observations": 11
+    },
+    {
+      "property": "ecotoxicity_freshwater",
+      "observations": 9
+    },
+    {
+      "property": "ep_fw",
+      "observations": 9
+    },
+    {
+      "property": "ep_m",
+      "observations": 9
+    },
+    {
+      "property": "ep_t",
+      "observations": 9
+    },
+    {
+      "property": "gwp_b",
+      "observations": 9
+    },
+    {
+      "property": "gwp_f",
+      "observations": 9
+    },
+    {
+      "property": "human_toxicity_cancer_effects",
+      "observations": 9
+    },
+    {
+      "property": "human_toxicity_non_cancer_effects",
+      "observations": 9
+    },
+    {
+      "property": "ionising_radiation_human_health",
+      "observations": 9
+    },
+    {
+      "property": "land_use",
+      "observations": 9
+    },
+    {
+      "property": "reference_flow_goods_transport_mass_distance",
+      "observations": 9
+    },
+    {
+      "property": "coating_layer_thickness",
+      "observations": 8
+    },
+    {
+      "property": "coating_layer_water_vapor_diffusion_resistance_factor",
+      "observations": 8
+    },
+    {
+      "property": "deep_layer_penetration_depth",
+      "observations": 8
+    },
+    {
+      "property": "moisture_equation_coefficient_a",
+      "observations": 8
+    },
+    {
+      "property": "moisture_equation_coefficient_b",
+      "observations": 8
+    },
+    {
+      "property": "moisture_equation_coefficient_c",
+      "observations": 8
+    },
+    {
+      "property": "moisture_equation_coefficient_d",
+      "observations": 8
+    },
+    {
+      "property": "reference_flow_gewicht",
+      "observations": 8
+    },
+    {
+      "property": "reference_flow_market_price_us97",
+      "observations": 8
+    },
+    {
+      "property": "surface_layer_penetration_depth",
+      "observations": 8
+    },
+    {
+      "property": "construction_reference_gwp",
+      "observations": 7
+    },
+    {
+      "property": "reference_flow_aluminium_and_aluminium_alloys_unspecified",
+      "observations": 7
+    },
+    {
+      "property": "reference_flow_polymer_materials_unspecified",
+      "observations": 7
+    },
+    {
+      "property": "visible_transmittance",
+      "observations": 7
+    },
+    {
+      "property": "airflow_permeability",
+      "observations": 6
+    },
+    {
+      "property": "average_mass_per_unit_area",
+      "observations": 6
+    },
+    {
+      "property": "infrared_hemispherical_emissivity",
+      "observations": 6
+    },
+    {
+      "property": "infrared_transmittance",
+      "observations": 6
+    },
+    {
+      "property": "initial_water_content_ratio",
+      "observations": 6
+    },
+    {
+      "property": "porosity",
+      "observations": 6
+    },
+    {
+      "property": "reference_flow_elastomers_elastomeric_compounds_unspecified",
+      "observations": 6
+    },
+    {
+      "property": "shade_to_glass_distance",
+      "observations": 6
+    },
+    {
+      "property": "solar_reflectance",
+      "observations": 6
+    },
+    {
+      "property": "solar_transmittance",
+      "observations": 6
+    },
+    {
+      "property": "visible_reflectance",
+      "observations": 6
+    },
+    {
+      "property": "angle_of_resolution_for_screen_transmittance_output_map",
+      "observations": 5
+    },
+    {
+      "property": "diffuse_solar_reflectance",
+      "observations": 5
+    },
+    {
+      "property": "diffuse_visible_reflectance",
+      "observations": 5
+    },
+    {
+      "property": "reference_flow_n_wt",
+      "observations": 5
+    },
+    {
+      "property": "screen_material_diameter",
+      "observations": 5
+    },
+    {
+      "property": "screen_material_spacing",
+      "observations": 5
+    },
+    {
+      "property": "screen_to_glass_distance",
+      "observations": 5
+    },
+    {
+      "property": "thermal_hemispherical_emissivity",
+      "observations": 5
+    },
+    {
+      "property": "reference_flow_as_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_cd_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_cl_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_cr_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_cu_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_mn_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_ni_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_pb_wt",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_standard_volume",
+      "observations": 4
+    },
+    {
+      "property": "reference_flow_zn_wt",
+      "observations": 4
+    },
+    {
+      "property": "back_side_slat_beam_solar_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "back_side_slat_beam_visible_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "back_side_slat_diffuse_solar_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "back_side_slat_diffuse_visible_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "back_side_slat_infrared_hemispherical_emissivity",
+      "observations": 3
+    },
+    {
+      "property": "blind_bottom_opening_multiplier",
+      "observations": 3
+    },
+    {
+      "property": "blind_left_side_opening_multiplier",
+      "observations": 3
+    },
+    {
+      "property": "blind_right_side_opening_multiplier",
+      "observations": 3
+    },
+    {
+      "property": "blind_to_glass_distance",
+      "observations": 3
+    },
+    {
+      "property": "blind_top_opening_multiplier",
+      "observations": 3
+    },
+    {
+      "property": "front_side_slat_beam_solar_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "front_side_slat_beam_visible_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "front_side_slat_diffuse_solar_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "front_side_slat_diffuse_visible_reflectance",
+      "observations": 3
+    },
+    {
+      "property": "front_side_slat_infrared_hemispherical_emissivity",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_ash_wt",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_ceramic_glass_unspecified",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_co_wt",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_duromers_unspecified",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_h_wt",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_hg_wt",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_kilogramm",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_o_wt",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_piece",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_s_wt",
+      "observations": 3
+    },
+    {
+      "property": "reference_flow_se_wt",
+      "observations": 3
+    },
+    {
+      "property": "slat_angle",
+      "observations": 3
+    },
+    {
+      "property": "slat_beam_solar_transmittance",
+      "observations": 3
+    },
+    {
+      "property": "slat_beam_visible_transmittance",
+      "observations": 3
+    },
+    {
+      "property": "slat_conductivity",
+      "observations": 3
+    },
+    {
+      "property": "slat_diffuse_solar_transmittance",
+      "observations": 3
+    },
+    {
+      "property": "slat_diffuse_visible_transmittance",
+      "observations": 3
+    },
+    {
+      "property": "slat_infrared_hemispherical_transmittance",
+      "observations": 3
+    },
+    {
+      "property": "slat_separation",
+      "observations": 3
+    },
+    {
+      "property": "slat_thickness",
+      "observations": 3
+    },
+    {
+      "property": "slat_width",
+      "observations": 3
+    },
+    {
+      "property": "declared_unit",
+      "observations": 2
+    },
+    {
+      "property": "environmental_impact",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_be_wt",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_c3h8_vol",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_ca_wt",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_cast_iron_unspecified",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_edip_1997_bulk_waste",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_f_wt",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_k_wt",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_lead_unspecified",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_mg_wt",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_p_wt",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_steels_cast_steel_sintered_steel_unspecified",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_v_wt",
+      "observations": 2
+    },
+    {
+      "property": "reference_flow_abs_polycarbonate_blend_abs_pc_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_acrylic_resin_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_aluminum_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_aluminum_oxide_al2o3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_antimony_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_antimony_oxide_diantimony_trioxide_sb2o3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_b_wt",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_ba_wt",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_barium_sulfate_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_bariumtitanate_batio3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_beryllium_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_bismuth_oxide_bi2o3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_br_wt",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_c4h10_vol",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_calcium_carbonate_caco3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_calcium_zinc_stearate_ca_zn_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_calciumtitanate_catio3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_carbon_black_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_chromium_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_chromium_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_cobalt_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_cobaltoxide_co3o4_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_colophony_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_copper_alloys_unspecified",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_copper_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_copper_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_copper_unspecified",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_diisononyl_phthalate_dinp_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_dotand_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_electrolyte_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_electronics_unspecified",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_energie_oberer_heizwert",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_epoxy_resin_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_erneuerbare_prim_renergie_zur_stofflichen_nutzung",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_ethylene_glycol_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_ethylene_propylene_diene_terpolymer_epdm_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_exergie",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_ferrites_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_glass_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_glass_fibers_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_gold_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_gold_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_hausmannite_mn2o3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_indium_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_inorganic_flame_retardants_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_iron_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_iron_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_l_nge",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_lead_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_lead_glas_pbo_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_lead_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_lead_titanate_pbtio3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_manganese_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_methanol_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_methylacrylate_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_mo_wt",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_molybdenum_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_n_methyl_2_pyrrolidone_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_na_wt",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_natural_rubber_nr_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_neodymium_oxide_nd2o3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_nicht_erneuerbare_prim_renergie_zur_stofflichen_nutzung",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_nickel_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_nickel_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_nickeloxide_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_nonferrous_heavy_metals_cast_and_wrought_alloys_unspecified",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_nylon_6_6_pa66_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_palladium_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_paper_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_phenol_formaldehyde_resin_pf_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_plastic_unspecified_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_platinum_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyamide_6_pa6_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polybutylene_terephthalate_pbt_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polycarbonate_pc_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyethylene_pe_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyethylene_terephthalate_pet_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyimide_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyoxymethylene_polyacetal_pom_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyphenylene_ether_ppe_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyphenylene_sulfide_pps_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polypropylene_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polystyrene_ps_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polytetrafluorethylene_ptfe_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyurethane_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyurethane_unspecified",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_polyvinyl_chloride_pvc_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_preis",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_preis_aus_fbg",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_price_backup_before_elementary_flow_deletion",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_price_fbg",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_sb_wt",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_silicon_dioxide_sio2_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_silicon_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_silicon_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_silicone_rubber_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_silicone_sl_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_silver_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_silver_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_sn_wt",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_strontiumtitanate_srtio3_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_styrene_butadiene_rubber_sbr_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_tantalum_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_tetrabromobisphenol_a_tbba_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_thermoplastics_unspecified",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_tin_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_tin_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_titanium_dioxide_tio2_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_titanium_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_tricresyl_phosphate_tcp_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_tungsten_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_unalloyed_steel_fe_c_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_underseal_unspecified",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_unsaturated_polyester_up_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_us_marktpreis_2002",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_zinc_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_zinc_in_alloy_e",
+      "observations": 1
+    },
+    {
+      "property": "reference_flow_zincoxide_e",
+      "observations": 1
+    },
+    {
+      "property": "solar_heat_gain_coefficient",
+      "observations": 1
+    },
+    {
+      "property": "u_factor",
+      "observations": 1
+    }
+  ],
+  "rights": [
+    {
+      "license_status": "restricted",
+      "sources": 4
+    },
+    {
+      "license_status": "unknown",
+      "sources": 1562
+    },
+    {
+      "license_status": "verified",
+      "sources": 5569
+    }
+  ],
+  "built_at": "2026-11-17T19:53:28.501714+00:00",
+  "scope": "Source-specific records, not unique canonical materials; no automatic SI conversion, lifecycle totals or BIM/CAD integration",
+  "source_summaries": {
+    "br18": {
+      "dataset": "br18",
+      "sources": 32,
+      "materials": 586,
+      "observations": 2695,
+      "primary_epd_links": 24,
+      "failed_downloads": [],
+      "coverage": "All 507 reference records of table 7 including standard installations; all numeric rows of HTML tables 9–11; all numeric annual energy-supply and fuel factors in original Excel tables 8.1 and 8.2",
+      "limitations": [
+        "Original table 7 repeats some sorting IDs; row-specific IDs preserve all records without merging",
+        "Categories are heuristic, not authoritative classification",
+        "Reference tables are snapshots, not a legal compliance engine",
+        "Source rights not inferred; table and underlying EPD rights remain distinct",
+        "Installation factors per building area/year are not product EPD values"
+      ]
+    },
+    "environmental": {
+      "dataset": "environmental",
+      "started_at": "2026-11-17T19:44:14.343512+00:00",
+      "finished_at": "2026-11-17T19:48:43.240332+00:00",
+      "counts": {
+        "sources": 7084,
+        "materials": 7067,
+        "observations": 1962722
+      },
+      "providers": {
+        "oekobaudat": {
+          "listed": 7067,
+          "materials": 7067,
+          "observations": 1962722,
+          "failed": 0,
+          "reported_total": 7067
+        }
+      },
+      "properties": {
+        "gwp_total": 47023,
+        "gwp_fossil": 47023,
+        "gwp_biogenic": 47017,
+        "gwp_luluc": 46594,
+        "odp": 59815,
+        "ap": 60252,
+        "ep_freshwater": 47014,
+        "ep_marine": 47014,
+        "ep_terrestrial": 47015,
+        "pocp": 59499,
+        "adpe": 57741,
+        "adpf": 57729,
+        "wdp": 47023,
+        "pm": 21476,
+        "ir": 8315,
+        "etp_fw": 21367,
+        "htp_c": 21364,
+        "htp_nc": 21364,
+        "sqp": 20511,
+        "gross_density": 2799,
+        "reference_flow_carbon_content_biogenic_packaging": 661,
+        "reference_flow_mass": 4379,
+        "pere": 58704,
+        "perm": 58429,
+        "pert": 59878,
+        "penre": 58697,
+        "penrm": 58483,
+        "penrt": 59872,
+        "sm": 58597,
+        "rsf": 55247,
+        "nrsf": 59512,
+        "fw": 59117,
+        "hwd": 58971,
+        "nhwd": 59419,
+        "rwd": 59457,
+        "cru": 57940,
+        "mfr": 37734,
+        "mer": 57982,
+        "eee": 58549,
+        "eet": 58455,
+        "layer_thickness": 1728,
+        "grammage": 2201,
+        "reference_flow_area": 1829,
+        "reference_flow_carbon_content_biogenic": 448,
+        "reference_flow_volume": 1074,
+        "gwp": 10738,
+        "ep": 10713,
+        "weight_per_piece": 1849,
+        "reference_flow_number_of_pieces": 2099,
+        "materials_for_recycling_mfr": 20520,
+        "reference_flow_us_market_price_2002": 153,
+        "reference_flow_aluminium_and_aluminium_alloys_unspecified": 7,
+        "irp": 13157,
+        "conversion_factor_to_1_kg": 1028,
+        "rmi_total": 2150,
+        "rmi_abiotic_subtotal": 2149,
+        "rmi_fossile": 2163,
+        "rmi_metals": 2163,
+        "rmi_minerals": 2163,
+        "tmr_total": 2150,
+        "tmr_abiotic_subtotal": 2149,
+        "tmr_fossile": 2163,
+        "tmr_metals": 2163,
+        "tmr_mineral": 2149,
+        "rmi_biotic_subtotal": 2140,
+        "rmi_forestry": 2154,
+        "rmi_agriculture": 2154,
+        "tmr_biotic_subtotal": 2140,
+        "tmr_forestry": 2154,
+        "tmr_agriculture": 2154,
+        "reference_flow_biogenic_carbon_content_in_accompanying_packaging_biog_c_in_packaging": 1083,
+        "reference_flow_biogenic_carbon_content_in_product_biog_c_in_product": 987,
+        "sf": 4244,
+        "linear_density": 208,
+        "reference_flow_thermoplastics_unspecified": 1,
+        "reference_flow_non_renewable_primary_energy_resources_used_as_raw_materials_penrm": 336,
+        "reference_flow_05_en15804_a2_non_renewable_primary_energy_resources_used_as_raw_materials_penrm": 185,
+        "climate_change": 2139,
+        "climate_change_fossil": 2139,
+        "climate_change_biogenic": 2139,
+        "climate_change_land_use_and_land_use_change": 2139,
+        "eutrophication_freshwater": 2139,
+        "eutrophication_marine": 2139,
+        "eutrophication_terrestrial": 2148,
+        "resource_use_minerals_and_metals": 2130,
+        "resource_use_fossils": 2139,
+        "water_use": 2139,
+        "reference_flow_polymer_materials_unspecified": 7,
+        "reference_flow_energy_net_calorific_value": 31,
+        "reference_flow_thermoplaste_unfilled_unspecified": 20,
+        "reference_flow_energy_gross_calorific_value": 116,
+        "global_warming_potential_except_emissions_and_uptake_of_biogenic_carbon": 1680,
+        "reference_flow_length": 215,
+        "reference_flow_market_price_us97": 8,
+        "reference_flow_n_wt": 5,
+        "reference_flow_price": 92,
+        "conversion_factor_mass_declared_unit": 106,
+        "reference_flow_other_materials_and_material_compounds_unspecified": 72,
+        "conversion_factor": 12,
+        "reference_flow_weight": 33,
+        "reference_flow_duromers_unspecified": 3,
+        "conversion_factor_kg_fu": 38,
+        "reference_flow_biogenic_carbon_content_in_accompanying_packaging": 39,
+        "reference_flow_biogenic_carbon_content_in_product": 39,
+        "opd": 63,
+        "reference_flow_gewicht": 8,
+        "declared_unit": 2,
+        "reference_flow_meter": 17,
+        "reference_flow_kilogramm": 3,
+        "reference_flow_masse": 369,
+        "reference_flow_kgkm": 18,
+        "reference_flow_goods_transport_mass_distance": 9,
+        "reference_flow_c_total_wt": 29,
+        "reference_flow_02_en15804_a2_primary_energy_resources_used_as_raw_materials_perm": 36,
+        "reference_flow_modified_organic_natural_materials_unspecified": 26,
+        "reference_flow_water_wt": 19,
+        "reference_flow_primary_energy_resources_used_as_raw_materials_perm": 74,
+        "reference_flow_ca_wt": 2,
+        "reference_flow_pb_wt": 4,
+        "reference_flow_ni_wt": 4,
+        "reference_flow_se_wt": 3,
+        "reference_flow_k_wt": 2,
+        "reference_flow_mn_wt": 4,
+        "reference_flow_zn_wt": 4,
+        "reference_flow_cr_wt": 4,
+        "reference_flow_cu_wt": 4,
+        "reference_flow_p_wt": 2,
+        "reference_flow_mg_wt": 2,
+        "reference_flow_as_wt": 4,
+        "reference_flow_cl_wt": 4,
+        "reference_flow_cd_wt": 4,
+        "reference_flow_c_biogen_wt": 20,
+        "reference_flow_edip_1997_bulk_waste": 2,
+        "reference_flow_steels_cast_steel_sintered_steel_unspecified": 2,
+        "reference_flow_piece": 3,
+        "weight_per_unit": 200,
+        "mass_reference": 40,
+        "bulk_density": 44,
+        "density": 2,
+        "reference_flow_steel_and_iron_materials_unspecified": 13,
+        "thickness": 25,
+        "reference_flow_ceramic_glass_unspecified": 3,
+        "reference_flow_lead_unspecified": 2,
+        "environmental_impact": 2,
+        "reference_flow_elastomers_elastomeric_compounds_unspecified": 6,
+        "rmi_fisheries": 14,
+        "tmr_minerals": 14,
+        "tmr_fisheries": 14,
+        "reference_flow_electrics_unspecified": 37,
+        "reference_flow_copper_unspecified": 1,
+        "reference_flow_lacquers_unspecified": 15,
+        "reference_flow_exergy": 89,
+        "reference_flow_net_calorific_value": 189,
+        "reference_flow_c3h8_vol": 2,
+        "reference_flow_standard_volume": 4,
+        "reference_flow_c4h10_vol": 1,
+        "average_mass_per_unit_area": 6,
+        "reference_flow_cast_iron_unspecified": 2,
+        "reference_flow_br_wt": 1,
+        "reference_flow_sn_wt": 1,
+        "reference_flow_be_wt": 2,
+        "reference_flow_sb_wt": 1,
+        "reference_flow_ba_wt": 1,
+        "reference_flow_ash_wt": 3,
+        "reference_flow_hg_wt": 3,
+        "reference_flow_co_wt": 3,
+        "reference_flow_h_wt": 3,
+        "reference_flow_b_wt": 1,
+        "reference_flow_f_wt": 2,
+        "reference_flow_v_wt": 2,
+        "reference_flow_o_wt": 3,
+        "reference_flow_s_wt": 3,
+        "reference_flow_na_wt": 1,
+        "reference_flow_mo_wt": 1,
+        "gwp_f": 9,
+        "gwp_b": 9,
+        "ep_fw": 9,
+        "ep_m": 9,
+        "ep_t": 9,
+        "ionising_radiation_human_health": 9,
+        "ecotoxicity_freshwater": 9,
+        "human_toxicity_cancer_effects": 9,
+        "human_toxicity_non_cancer_effects": 9,
+        "land_use": 9,
+        "reference_flow_erneuerbare_prim_renergie_zur_stofflichen_nutzung": 1,
+        "reference_flow_nicht_erneuerbare_prim_renergie_zur_stofflichen_nutzung": 1,
+        "reference_flow_nonferrous_heavy_metals_cast_and_wrought_alloys_unspecified": 1,
+        "reference_flow_duration": 12,
+        "reference_flow_polyurethane_unspecified": 1,
+        "productiveness": 19,
+        "reference_flow_underseal_unspecified": 1,
+        "reference_flow_copper_alloys_unspecified": 1,
+        "reference_flow_tungsten_in_alloy_e": 1,
+        "reference_flow_calcium_carbonate_caco3_e": 1,
+        "reference_flow_neodymium_oxide_nd2o3_e": 1,
+        "reference_flow_polyamide_6_pa6_e": 1,
+        "reference_flow_silicon_in_alloy_e": 1,
+        "reference_flow_methanol_e": 1,
+        "reference_flow_electrolyte_e": 1,
+        "reference_flow_polyurethane_e": 1,
+        "reference_flow_nylon_6_6_pa66_e": 1,
+        "reference_flow_tetrabromobisphenol_a_tbba_e": 1,
+        "reference_flow_iron_in_alloy_e": 1,
+        "reference_flow_molybdenum_e": 1,
+        "reference_flow_phenol_formaldehyde_resin_pf_e": 1,
+        "reference_flow_zincoxide_e": 1,
+        "reference_flow_styrene_butadiene_rubber_sbr_e": 1,
+        "reference_flow_bariumtitanate_batio3_e": 1,
+        "reference_flow_lead_in_alloy_e": 1,
+        "reference_flow_diisononyl_phthalate_dinp_e": 1,
+        "reference_flow_titanium_e": 1,
+        "reference_flow_chromium_in_alloy_e": 1,
+        "reference_flow_hausmannite_mn2o3_e": 1,
+        "reference_flow_nickel_in_alloy_e": 1,
+        "reference_flow_methylacrylate_e": 1,
+        "reference_flow_glass_fibers_e": 1,
+        "reference_flow_ethylene_propylene_diene_terpolymer_epdm_e": 1,
+        "reference_flow_palladium_in_alloy_e": 1,
+        "reference_flow_epoxy_resin_e": 1,
+        "reference_flow_polycarbonate_pc_e": 1,
+        "reference_flow_barium_sulfate_e": 1,
+        "reference_flow_paper_e": 1,
+        "reference_flow_antimony_oxide_diantimony_trioxide_sb2o3_e": 1,
+        "reference_flow_silicon_dioxide_sio2_e": 1,
+        "reference_flow_natural_rubber_nr_e": 1,
+        "reference_flow_plastic_unspecified_e": 1,
+        "reference_flow_indium_e": 1,
+        "reference_flow_silicone_rubber_e": 1,
+        "reference_flow_polyimide_e": 1,
+        "reference_flow_calcium_zinc_stearate_ca_zn_e": 1,
+        "reference_flow_polyethylene_pe_e": 1,
+        "reference_flow_unalloyed_steel_fe_c_e": 1,
+        "reference_flow_tin_in_alloy_e": 1,
+        "reference_flow_gold_in_alloy_e": 1,
+        "reference_flow_zinc_e": 1,
+        "reference_flow_copper_in_alloy_e": 1,
+        "reference_flow_calciumtitanate_catio3_e": 1,
+        "reference_flow_lead_glas_pbo_e": 1,
+        "reference_flow_aluminum_oxide_al2o3_e": 1,
+        "reference_flow_carbon_black_e": 1,
+        "reference_flow_lead_titanate_pbtio3_e": 1,
+        "reference_flow_beryllium_in_alloy_e": 1,
+        "reference_flow_nickeloxide_e": 1,
+        "reference_flow_colophony_e": 1,
+        "reference_flow_tin_e": 1,
+        "reference_flow_strontiumtitanate_srtio3_e": 1,
+        "reference_flow_inorganic_flame_retardants_e": 1,
+        "reference_flow_polyphenylene_ether_ppe_e": 1,
+        "reference_flow_tantalum_e": 1,
+        "reference_flow_silicon_e": 1,
+        "reference_flow_polytetrafluorethylene_ptfe_e": 1,
+        "reference_flow_copper_e": 1,
+        "reference_flow_ferrites_e": 1,
+        "reference_flow_polypropylene_e": 1,
+        "reference_flow_polyvinyl_chloride_pvc_e": 1,
+        "reference_flow_antimony_in_alloy_e": 1,
+        "reference_flow_nickel_e": 1,
+        "reference_flow_aluminum_e": 1,
+        "reference_flow_manganese_in_alloy_e": 1,
+        "reference_flow_zinc_in_alloy_e": 1,
+        "reference_flow_ethylene_glycol_e": 1,
+        "reference_flow_platinum_in_alloy_e": 1,
+        "reference_flow_glass_e": 1,
+        "reference_flow_n_methyl_2_pyrrolidone_e": 1,
+        "reference_flow_abs_polycarbonate_blend_abs_pc_e": 1,
+        "reference_flow_polyethylene_terephthalate_pet_e": 1,
+        "reference_flow_gold_e": 1,
+        "reference_flow_polyoxymethylene_polyacetal_pom_e": 1,
+        "reference_flow_silver_in_alloy_e": 1,
+        "reference_flow_polyphenylene_sulfide_pps_e": 1,
+        "reference_flow_silver_e": 1,
+        "reference_flow_silicone_sl_e": 1,
+        "reference_flow_chromium_e": 1,
+        "reference_flow_lead_e": 1,
+        "reference_flow_cobalt_in_alloy_e": 1,
+        "reference_flow_titanium_dioxide_tio2_e": 1,
+        "reference_flow_acrylic_resin_e": 1,
+        "reference_flow_tricresyl_phosphate_tcp_e": 1,
+        "reference_flow_iron_e": 1,
+        "reference_flow_bismuth_oxide_bi2o3_e": 1,
+        "reference_flow_dotand_e": 1,
+        "reference_flow_polybutylene_terephthalate_pbt_e": 1,
+        "reference_flow_polystyrene_ps_e": 1,
+        "reference_flow_cobaltoxide_co3o4_e": 1,
+        "reference_flow_unsaturated_polyester_up_e": 1,
+        "reference_flow_price_backup_before_elementary_flow_deletion": 1,
+        "reference_flow_price_fbg": 1,
+        "reference_flow_preis": 1,
+        "reference_flow_exergie": 1,
+        "reference_flow_energie_oberer_heizwert": 1,
+        "reference_flow_preis_aus_fbg": 1,
+        "reference_flow_us_marktpreis_2002": 1,
+        "reference_flow_l_nge": 1,
+        "reference_flow_electronics_unspecified": 1
+      },
+      "categories": {
+        "concrete": 1192,
+        "polymer": 608,
+        "wood": 573,
+        "other": 3123,
+        "metal": 929,
+        "insulation": 362,
+        "gypsum": 120,
+        "glass": 115,
+        "masonry": 45
+      },
+      "modules": {
+        "A1-A3": 201112,
+        "A4": 126488,
+        "A5": 129844,
+        "C1": 151516,
+        "C2": 194383,
+        "C3": 196286,
+        "C4": 170705,
+        "D": 216007,
+        "technical": 25426,
+        "A1": 21939,
+        "A2": 21940,
+        "A3": 21943,
+        "B2": 74950,
+        "B5": 59581,
+        "B1": 83776,
+        "B3": 62941,
+        "B4": 59825,
+        "B6": 79279,
+        "B7": 64717,
+        "C3/1": 16,
+        "C3/2": 16,
+        "D/1": 16,
+        "D/2": 16
+      },
+      "record_license_fields": {
+        "Free of charge for all users and uses": 5554,
+        "Unknown; see source record and program terms": 1509,
+        "Free of charge for some user types or use types": 3,
+        "Other": 1
+      },
+      "failures": 0,
+      "limitations": [
+        "Published JSON primary source preserved byte-for-byte; referenced PDF attachments have not all been downloaded.",
+        "Historical/expired datasets retained with validity years; not a current-only catalogue.",
+        "No unit normalisation, aggregation or environmental totals calculated.",
+        "Geographic and technical applicability must be evaluated for each project; a material category is a navigation aid.",
+        "Publication license fields are recorded per dataset; no blanket redistribution license inferred.",
+        "Only explicit numeric structured values imported; prose technical data and missing markers remain in originals/unparsed-values.",
+        "Versions are pinned to index version; dataset identifiers retain provider and version, and duplicates across providers are not merged."
+      ],
+      "referenced_attachments": 4685,
+      "excluded_sources": [
+        {
+          "source": "ECO SMDP / ECO Portal",
+          "reason": "Current ECO terms require an API license and restrict redistribution/deconstruction into a new data product; endpoint reachability is not sufficient authorization.",
+          "url": "https://www.eco-platform.org/terms-conditions.html"
+        }
+      ],
+      "index_pages": [
+        {
+          "file": "data/raw/environmental/oekobaudat/index/000000.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/000500.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/001000.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/001500.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/002000.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/002500.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/003000.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/003500.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/004000.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/004500.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/005000.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/005500.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/006000.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/006500.json",
+          "totalCount": 7070,
+          "rows": 500
+        },
+        {
+          "file": "data/raw/environmental/oekobaudat/index/007000.json",
+          "totalCount": 7067,
+          "rows": 67
+        }
+      ],
+      "duplicate_index_entries": 0,
+      "validation": {
+        "status": "pass",
+        "sample_observations": 299,
+        "checks": [
+          "negative module D retained separately",
+          "declared mass 1000 kg retained, not confused with exchange meanAmount 1",
+          "every sample observation resolves to exact original numeric JSON value",
+          "MND remains missing, explicit zero remains zero"
+        ],
+        "original_source_files_checked": 7084,
+        "material_source_references_checked": 7067,
+        "dataset_versions_checked": 7067,
+        "version_mismatches": [],
+        "missing_version_count": 0
+      }
+    },
+    "technical": {
+      "dataset": "technical",
+      "sources": 15,
+      "materials": 3183,
+      "observations": 15127,
+      "distinct_material_names": 1374,
+      "properties": {
+        "thickness": 2494,
+        "thermal_conductivity": 2481,
+        "thermal_resistance": 2825,
+        "density": 2299,
+        "specific_heat_capacity": 2299,
+        "thermal_absorptance": 282,
+        "solar_absorptance": 282,
+        "visible_absorptance": 282,
+        "solar_transmittance_at_normal_incidence": 156,
+        "front_side_solar_reflectance_at_normal_incidence": 156,
+        "back_side_solar_reflectance_at_normal_incidence": 156,
+        "visible_transmittance_at_normal_incidence": 156,
+        "front_side_visible_reflectance_at_normal_incidence": 156,
+        "back_side_visible_reflectance_at_normal_incidence": 156,
+        "infrared_transmittance_at_normal_incidence": 156,
+        "front_side_infrared_hemispherical_emissivity": 156,
+        "back_side_infrared_hemispherical_emissivity": 156,
+        "dirt_correction_factor_for_solar_and_visible_transmittance": 94,
+        "u_factor": 1,
+        "solar_heat_gain_coefficient": 1,
+        "visible_transmittance": 7,
+        "water_vapor_diffusion_resistance_factor": 16,
+        "moisture_equation_coefficient_a": 8,
+        "moisture_equation_coefficient_b": 8,
+        "moisture_equation_coefficient_c": 8,
+        "moisture_equation_coefficient_d": 8,
+        "surface_layer_penetration_depth": 8,
+        "deep_layer_penetration_depth": 8,
+        "coating_layer_thickness": 8,
+        "coating_layer_water_vapor_diffusion_resistance_factor": 8,
+        "porosity": 6,
+        "initial_water_content_ratio": 6,
+        "moisture_content": 48,
+        "liquid_transport_coefficient": 40,
+        "slat_width": 3,
+        "slat_separation": 3,
+        "slat_thickness": 3,
+        "slat_angle": 3,
+        "slat_conductivity": 3,
+        "slat_beam_solar_transmittance": 3,
+        "front_side_slat_beam_solar_reflectance": 3,
+        "back_side_slat_beam_solar_reflectance": 3,
+        "slat_diffuse_solar_transmittance": 3,
+        "front_side_slat_diffuse_solar_reflectance": 3,
+        "back_side_slat_diffuse_solar_reflectance": 3,
+        "slat_beam_visible_transmittance": 3,
+        "front_side_slat_beam_visible_reflectance": 3,
+        "back_side_slat_beam_visible_reflectance": 3,
+        "slat_diffuse_visible_transmittance": 3,
+        "front_side_slat_diffuse_visible_reflectance": 3,
+        "back_side_slat_diffuse_visible_reflectance": 3,
+        "slat_infrared_hemispherical_transmittance": 3,
+        "front_side_slat_infrared_hemispherical_emissivity": 3,
+        "back_side_slat_infrared_hemispherical_emissivity": 3,
+        "blind_to_glass_distance": 3,
+        "blind_top_opening_multiplier": 3,
+        "blind_bottom_opening_multiplier": 3,
+        "blind_left_side_opening_multiplier": 3,
+        "blind_right_side_opening_multiplier": 3,
+        "diffuse_solar_reflectance": 5,
+        "diffuse_visible_reflectance": 5,
+        "thermal_hemispherical_emissivity": 5,
+        "screen_material_spacing": 5,
+        "screen_material_diameter": 5,
+        "screen_to_glass_distance": 5,
+        "top_opening_multiplier": 11,
+        "bottom_opening_multiplier": 11,
+        "left_side_opening_multiplier": 11,
+        "right_side_opening_multiplier": 11,
+        "angle_of_resolution_for_screen_transmittance_output_map": 5,
+        "solar_transmittance": 6,
+        "solar_reflectance": 6,
+        "visible_reflectance": 6,
+        "infrared_hemispherical_emissivity": 6,
+        "infrared_transmittance": 6,
+        "shade_to_glass_distance": 6,
+        "airflow_permeability": 6
+      },
+      "categories": {
+        "concrete": 420,
+        "other": 609,
+        "wood": 611,
+        "masonry": 112,
+        "metal": 261,
+        "glass": 421,
+        "insulation": 745,
+        "polymer": 4
+      },
+      "source_commits": {
+        "openstudio": "0bd835164403285d82654c422e525a9877e3c47e",
+        "energyplus": "fcdda275c87255660bcad034197c03b64af2b0a8"
+      },
+      "openstudio_deduplication": {
+        "total_input_records": 5351,
+        "unique_complete_records": 2809,
+        "duplicate_exact_records": 2542
+      },
+      "energyplus_object_types": {
+        "Material": 210,
+        "Material:AirGap": 2,
+        "Material:NoMass": 64,
+        "MaterialProperty:MoisturePenetrationDepth:Settings": 8,
+        "MaterialProperty:HeatAndMoistureTransfer:Settings": 6,
+        "MaterialProperty:HeatAndMoistureTransfer:SorptionIsotherm": 6,
+        "MaterialProperty:HeatAndMoistureTransfer:Suction": 6,
+        "MaterialProperty:HeatAndMoistureTransfer:Redistribution": 6,
+        "MaterialProperty:HeatAndMoistureTransfer:Diffusion": 6,
+        "MaterialProperty:HeatAndMoistureTransfer:ThermalConductivity": 6,
+        "WindowMaterial:Blind": 3,
+        "WindowMaterial:Gas": 16,
+        "WindowMaterial:Glazing": 62,
+        "WindowMaterial:Screen": 5,
+        "WindowMaterial:Shade": 6
+      },
+      "not_imported_numeric_fields": 685,
+      "original_bytes": 9327731,
+      "attempted_failures": [],
+      "coverage": "All five materials JSON libraries in pinned OpenStudio tree and seven physical/moisture/window material EnergyPlus dataset files. Identical complete OpenStudio records deduplicated, variants kept.",
+      "known_limitations": [
+        "Most records are simulation library inputs, not certified product data or Danish design values.",
+        "Original imperial OpenStudio units preserved; no automatic SI conversion performed.",
+        "EnergyPlus examples may contain model coefficients rather than directly comparable physical properties; object type and field label identify context.",
+        "AirGap resistance unit ambiguity is explicitly marked source_ambiguous.",
+        "Keyword material categories are for discovery only; no equivalence or product matching is asserted.",
+        "The original files contain third-party attributions; repository custom permissive licenses and original notices preserved; no legal review of all cited handbook data."
+      ]
+    },
+    "wood": {
+      "materials": 325,
+      "observations": 5038,
+      "sources": 4,
+      "numeric_observations": 5038,
+      "properties": {
+        "green_moisture_content": 129,
+        "equilibrium_moisture_content": 423,
+        "shrinkage_radial": 197,
+        "shrinkage_tangential": 196,
+        "shrinkage_volumetric": 197,
+        "specific_gravity": 399,
+        "modulus_of_rupture": 425,
+        "modulus_of_elasticity": 422,
+        "work_to_maximum_load": 334,
+        "impact_bending_failure_drop_height": 199,
+        "compression_parallel_to_grain": 425,
+        "compression_perpendicular_to_grain": 278,
+        "shear_parallel_to_grain": 410,
+        "tension_perpendicular_to_grain": 168,
+        "side_hardness": 336,
+        "thermal_conductivity": 136,
+        "thermal_resistivity": 136,
+        "specific_heat_capacity": 24,
+        "moisture_dimensional_change_coefficient_radial": 102,
+        "moisture_dimensional_change_coefficient_tangential": 102
+      },
+      "tables": {
+        "4-1": 129,
+        "4-2": 423,
+        "4-3": 344,
+        "4-4": 246,
+        "5-3a": 2126,
+        "5-3a_rows": 226,
+        "5-4a": 297,
+        "5-4a_rows": 54,
+        "5-5a": 905,
+        "5-5a_rows": 160,
+        "4-7": 340,
+        "4-8": 24,
+        "13-5": 204
+      },
+      "parse_rejections": [],
+      "known_limitations": [
+        "Generic species means, not graded structural design allowables.",
+        "Moisture and thermal reference tables have source-specific qualifications preserved in conditions.",
+        "No missing values are replaced by zero; blank specific gravity not carried forward.",
+        "Species common names have not been globally taxonomically reconciled; imported aliases may remain separate.",
+        "Whole chapters 4, 5 and 13 preserved; only explicitly supported table layouts are parsed.",
+        "Chapter 13 Table 13-5 coefficients are reported values; no dimensional-change calculation is executed.",
+        "Government-publication status noted but item-specific redistribution license not established."
+      ],
+      "attempted_failures": [
+        "Direct www.fpl.fs.usda.gov chapter URLs returned 403; official research.fs.usda.gov download worked."
+      ]
+    }
+  },
+  "raw_bytes": 705724176,
+  "database_bytes": 8780214272
+}

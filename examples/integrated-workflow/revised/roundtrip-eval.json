@@ -1,0 +1,148 @@
+{
+  "bodies": [
+    {
+      "area_mm2": 3599999.98509884,
+      "bbox": {
+        "max": [
+          1500.0,
+          1000.0,
+          119.99999731779099
+        ],
+        "min": [
+          0.0,
+          0.0,
+          -6.123233995736766e-14
+        ]
+      },
+      "center_of_mass": [
+        749.9999999999998,
+        499.9999993791184,
+        59.99999865889545
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 48,
+      "face_types": {
+        "mesh": 32
+      },
+      "faces": 32,
+      "kernel": {
+        "edges": 48,
+        "faces": 32,
+        "shells": 1,
+        "vertices": 16
+      },
+      "mass_g": 222911.9956634046,
+      "material": "Default",
+      "measured_by": "mesh",
+      "name": "100002",
+      "notes": [],
+      "vertices": 16,
+      "volume_mm3": 172799996.63829815
+    },
+    {
+      "area_mm2": 181599.98435676098,
+      "bbox": {
+        "max": [
+          1250.0,
+          129.99999523162842,
+          129.99999523162842
+        ],
+        "min": [
+          250.0,
+          50.00000074505807,
+          119.99999731779097
+        ]
+      },
+      "center_of_mass": [
+        749.9999999999999,
+        89.99999798834321,
+        124.99999627470952
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 18,
+      "face_types": {
+        "mesh": 12
+      },
+      "faces": 12,
+      "kernel": {
+        "edges": 18,
+        "faces": 12,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1031.9997135847982,
+      "material": "Default",
+      "measured_by": "mesh",
+      "name": "100003",
+      "notes": [],
+      "vertices": 8,
+      "volume_mm3": 799999.7779727118
+    },
+    {
+      "area_mm2": 181599.96178150183,
+      "bbox": {
+        "max": [
+          1250.0,
+          949.999988079071,
+          129.99999523162836
+        ],
+        "min": [
+          250.0,
+          870.0000047683716,
+          119.99999731779093
+        ]
+      },
+      "center_of_mass": [
+        749.9999999999994,
+        909.9999964237173,
+        124.99999627470905
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 18,
+      "face_types": {
+        "mesh": 12
+      },
+      "faces": 12,
+      "kernel": {
+        "edges": 18,
+        "faces": 12,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1031.9995694161062,
+      "material": "Default",
+      "measured_by": "mesh",
+      "name": "100004",
+      "notes": [],
+      "vertices": 8,
+      "volume_mm3": 799999.6662140358
+    }
+  ],
+  "body_count": 3,
+  "params": [],
+  "sketches": [],
+  "timeline": [
+    {
+      "error": null,
+      "id": 9,
+      "ms": 0.050784,
+      "name": "roundtrip",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MeshFeature",
+      "warning": null
+    }
+  ],
+  "total": {
+    "area_mm2": 3963199.931237103,
+    "edges": 84,
+    "faces": 56,
+    "mass_g": 224975.99494640552,
+    "open_bodies_skipped": 0,
+    "vertices": 32,
+    "volume_mm3": 174399996.0824849
+  }
+}

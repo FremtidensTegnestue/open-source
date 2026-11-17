@@ -1,0 +1,48 @@
+{
+  "scope": "Abstract homogeneous reference scenario, not a verified supplied product or structural assembly.",
+  "source": {
+    "path": "data/raw/br18/table-7-2025.xlsx",
+    "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18"
+  },
+  "material_records": {
+    "concrete": {
+      "id": "br18:t7:B1433:row25",
+      "row": 25,
+      "name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "density_kg_m3": 2246,
+      "gwp_A1_A3": 241,
+      "declared_unit": "m³"
+    },
+    "steel": {
+      "id": "br18:t7:D1591:row129",
+      "row": 129,
+      "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "density_kg_m3": 7850,
+      "gwp_A1_A3": 1639.0000000000002,
+      "declared_unit": "ton"
+    }
+  },
+  "source_body_to_material": {
+    "ConcretePanel": "concrete",
+    "Rail_A": "steel",
+    "Rail_B": "steel"
+  },
+  "geometry": {
+    "plate_mm": [
+      1500,
+      1000,
+      100
+    ],
+    "opening_mm": [
+      300,
+      200
+    ],
+    "rail_mm": [
+      1000,
+      80,
+      10
+    ],
+    "rail_count": 2,
+    "revision": "plate_thickness100→120mm; rail top positions follow the CAD parameter; rail dimensions unchanged"
+  }
+}

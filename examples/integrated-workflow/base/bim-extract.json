@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "software": "bimcraft",
+  "software_version": "bimcraft-cli 0.12.0",
+  "model": {
+    "path": "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+    "sha256": "a7ba87f40709428c8d18d1eaa2c36d72b6d68a8ad4bf246c0370f15fba35fc66"
+  },
+  "extraction": {
+    "import_summary": null,
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--cmd",
+      "inspect {}",
+      "--cmd",
+      "elements {\"limit\":1000,\"offset\":0}"
+    ],
+    "commands": [
+      [
+        "bimcraft-cli",
+        "run",
+        "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+        "--cmd",
+        "inspect {}",
+        "--cmd",
+        "elements {\"limit\":1000,\"offset\":0}"
+      ],
+      [
+        "bimcraft-cli",
+        "run",
+        "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+        "--cmd",
+        "family {\"name\":\"ConcretePanel\"}",
+        "--cmd",
+        "family {\"name\":\"Rail_A\"}",
+        "--cmd",
+        "family {\"name\":\"Rail_B\"}"
+      ]
+    ],
+    "notes": [
+      "Source model opened without save; inspect/elements report quantities from BIMcraft.",
+      "BIMcraft volume_m3 and area_m2 are retained without further scaling. Floor volume reporting is rounded to 0.001 m3 in the verified version.",
+      "Only explicit homogeneous assignment is resolved; mixed layers remain unresolved.",
+      "Lengths from elements and type layers are millimetres; normalized dimensions divide by 1000.",
+      "Reported area is category-specific and must not be used blindly as a facade/reference area.",
+      "Opt-in mesh quantities: only supported missing-volume generic components use family mesh integration. One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid."
+    ],
+    "mesh_quantities": true
+  },
+  "elements": [
+    {
+      "id": "100002",
+      "name": "Imported",
+      "material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "volume_m3": 0.14400000000000002,
+      "area_m2": null,
+      "dimensions_m": {
+        "height": 0.1
+      },
+      "category": "component",
+      "source_ref": {
+        "element_id": 100002,
+        "guid": "52eff377-155f-44f3-acad-4060b45d3334",
+        "quantity_api": "bimcraft-cli family mesh",
+        "quantity_fields": {
+          "volume": "family.forms[].mesh",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": null,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": null,
+        "type_record": {},
+        "element_record": {
+          "angle": 0.0,
+          "at": [
+            750.0,
+            500.0
+          ],
+          "category": "component",
+          "family": "ConcretePanel",
+          "family_guid": "c6282e21-4eea-40c0-889d-9c438e3e04ee",
+          "guid": "52eff377-155f-44f3-acad-4060b45d3334",
+          "height": 100.0,
+          "id": 100002,
+          "level": "98efd085-b596-4f24-a9df-75c327d0536d",
+          "offset": -0.0,
+          "offset_from_host": -0.0,
+          "shared_east": 750.0,
+          "shared_elevation": 0.0,
+          "shared_north": 500.0,
+          "type": "Imported",
+          "values": {},
+          "work_plane": "Level : Level 1"
+        },
+        "volume_method": "absolute oriented tetrahedron sum about translated origin; math.fsum; mm to m before integration",
+        "family_name": "ConcretePanel",
+        "family_type": "Imported",
+        "source_form_id": 998933,
+        "source_form_guid": "a7e65523-1744-4227-a462-fe8fc4e7eaef",
+        "triangle_count": 32,
+        "vertex_welding_tolerance_mm": 1e-05,
+        "mesh_quantity_limits": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+        "self_intersection_checked": false,
+        "material_assignment": "explicit family form material",
+        "material_source_field": "family.forms[].material"
+      }
+    },
+    {
+      "id": "100003",
+      "name": "Imported",
+      "material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "volume_m3": 0.0008,
+      "area_m2": null,
+      "dimensions_m": {
+        "height": 0.01
+      },
+      "category": "component",
+      "source_ref": {
+        "element_id": 100003,
+        "guid": "8cd47cd4-fd2b-466f-bc58-985afac88783",
+        "quantity_api": "bimcraft-cli family mesh",
+        "quantity_fields": {
+          "volume": "family.forms[].mesh",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": null,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": null,
+        "type_record": {},
+        "element_record": {
+          "angle": 0.0,
+          "at": [
+            750.0,
+            90.0
+          ],
+          "category": "component",
+          "family": "Rail_A",
+          "family_guid": "8a340682-b283-4df8-b881-c0147da4f13a",
+          "guid": "8cd47cd4-fd2b-466f-bc58-985afac88783",
+          "height": 10.0,
+          "id": 100003,
+          "level": "98efd085-b596-4f24-a9df-75c327d0536d",
+          "offset": 100.0,
+          "offset_from_host": 100.0,
+          "shared_east": 750.0,
+          "shared_elevation": 100.0,
+          "shared_north": 90.0,
+          "type": "Imported",
+          "values": {},
+          "work_plane": "Level : Level 1"
+        },
+        "volume_method": "absolute oriented tetrahedron sum about translated origin; math.fsum; mm to m before integration",
+        "family_name": "Rail_A",
+        "family_type": "Imported",
+        "source_form_id": 998932,
+        "source_form_guid": "c98eb5d0-dba9-4ec7-ab49-63cb6d131cb1",
+        "triangle_count": 12,
+        "vertex_welding_tolerance_mm": 1e-05,
+        "mesh_quantity_limits": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+        "self_intersection_checked": false,
+        "material_assignment": "explicit family form material",
+        "material_source_field": "family.forms[].material"
+      }
+    },
+    {
+      "id": "100004",
+      "name": "Imported",
+      "material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "volume_m3": 0.0008,
+      "area_m2": null,
+      "dimensions_m": {
+        "height": 0.01
+      },
+      "category": "component",
+      "source_ref": {
+        "element_id": 100004,
+        "guid": "de790151-2c11-4b4f-a5ca-1b8205e815d1",
+        "quantity_api": "bimcraft-cli family mesh",
+        "quantity_fields": {
+          "volume": "family.forms[].mesh",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": null,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": null,
+        "type_record": {},
+        "element_record": {
+          "angle": 0.0,
+          "at": [
+            750.0,
+            910.0
+          ],
+          "category": "component",
+          "family": "Rail_B",
+          "family_guid": "32acf1fe-ef27-4dce-8a00-70047eff838a",
+          "guid": "de790151-2c11-4b4f-a5ca-1b8205e815d1",
+          "height": 10.0,
+          "id": 100004,
+          "level": "98efd085-b596-4f24-a9df-75c327d0536d",
+          "offset": 100.0,
+          "offset_from_host": 100.0,
+          "shared_east": 750.0,
+          "shared_elevation": 100.0,
+          "shared_north": 910.0,
+          "type": "Imported",
+          "values": {},
+          "work_plane": "Level : Level 1"
+        },
+        "volume_method": "absolute oriented tetrahedron sum about translated origin; math.fsum; mm to m before integration",
+        "family_name": "Rail_B",
+        "family_type": "Imported",
+        "source_form_id": 998931,
+        "source_form_guid": "70d02edc-31aa-4b9c-9fb4-5fafab0299d7",
+        "triangle_count": 12,
+        "vertex_welding_tolerance_mm": 1e-05,
+        "mesh_quantity_limits": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+        "self_intersection_checked": false,
+        "material_assignment": "explicit family form material",
+        "material_source_field": "family.forms[].material"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "mesh_quantity_limits",
+      "severity": "notice",
+      "message": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+      "element_id": "100002"
+    },
+    {
+      "code": "mesh_quantity_limits",
+      "severity": "notice",
+      "message": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+      "element_id": "100003"
+    },
+    {
+      "code": "mesh_quantity_limits",
+      "severity": "notice",
+      "message": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+      "element_id": "100004"
+    }
+  ]
+}

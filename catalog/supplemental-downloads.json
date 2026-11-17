@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://vbn.aau.dk/files/329648206/SBi_2020_04.pdf",
+    "path": "archive/vbn.aau.dk/files/329648206/SBi_2020_04.pdf",
+    "fetched_at": "2026-11-17T18:48:34.913087+00:00",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://orbit.dtu.dk/files/133787517/Sustainable_Design_with_Respect_to_LCA_Using_Parametric_Design_and_BIM_Tools.pdf",
+    "path": "archive/orbit.dtu.dk/files/133787517/Sustainable_Design_with_Respect_to_LCA_Using_Parametric_Design_and_BIM_Tools.pdf",
+    "fetched_at": "2026-11-17T18:48:34.913392+00:00",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/vandkunsten/Daylight_VK-01/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.pdf",
+    "path": "archive/raw.githubusercontent.com/vandkunsten/Daylight_VK-01/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.pdf",
+    "fetched_at": "2026-11-17T18:48:34.913591+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/vandkunsten/Daylight_VK-01/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.pdf",
+    "content_type": "application/octet-stream",
+    "bytes": 1804799,
+    "sha256": "914712079aee9159e497a33a9228542a4694ca11e8b11a7a164d572bc24bd73a"
+  },
+  {
+    "url": "https://www.danskskovforening.dk/wp-content/uploads/2020/03/SBi-2020-04.pdf",
+    "path": "archive/www.danskskovforening.dk/wp-content/uploads/2020/03/SBi-2020-04.pdf",
+    "fetched_at": "2026-11-17T18:49:31.080395+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.wsbe17hongkong.hk/_bin/ckfinder/userfiles/files/PDF/Session%204_11_3.pdf",
+    "path": "archive/www.wsbe17hongkong.hk/_bin/ckfinder/userfiles/files/PDF/Session 4_11_3.pdf",
+    "fetched_at": "2026-11-17T18:49:31.081027+00:00",
+    "status": "error",
+    "error": "HTTP Error 525: <none>"
+  },
+  {
+    "url": "https://vbn.aau.dk/ws/portalfiles/portal/329648206/SBi_2020_04.pdf",
+    "path": "archive/vbn.aau.dk/ws/portalfiles/portal/329648206/SBi_2020_04.pdf",
+    "fetched_at": "2026-11-17T18:50:17.110958+00:00",
+    "status": 200,
+    "final_url": "https://vbn.aau.dk/ws/portalfiles/portal/329648206/SBi_2020_04.pdf",
+    "content_type": "application/pdf",
+    "bytes": 6422947,
+    "sha256": "85c1182166215b079f658421d5266443502394f38e250a505fb3080f42e25ae1"
+  },
+  {
+    "url": "https://orbit.dtu.dk/ws/portalfiles/portal/133787517/Sustainable_Design_with_Respect_to_LCA_Using_Parametric_Design_and_BIM_Tools.pdf",
+    "path": "archive/orbit.dtu.dk/ws/portalfiles/portal/133787517/Sustainable_Design_with_Respect_to_LCA_Using_Parametric_Design_and_BIM_Tools.pdf",
+    "fetched_at": "2026-11-17T18:50:17.111684+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://danskskovforening.dk/wp-content/uploads/2020/03/SBi-2020-04.pdf",
+    "path": "archive/danskskovforening.dk/wp-content/uploads/2020/03/SBi-2020-04.pdf",
+    "fetched_at": "2026-11-17T18:50:17.111489+00:00",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

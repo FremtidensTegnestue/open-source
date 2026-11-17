@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 2000,
+        "width": 300,
+        "height": 200,
+        "body_name": "ConcreteControl"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+        "density_g_cm3": 2.246
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "ConcreteControl"
+        ],
+        "material": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1"
+      }
+    }
+  ]
+}

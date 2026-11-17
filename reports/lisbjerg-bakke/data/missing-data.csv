@@ -1,0 +1,15 @@
+id,priority,owner,topic,missing_or_action,unlocks,gap_kind
+G01,1,Modelansvarlig + projekterende,Udført revision og omfang,"Bekræft hvilke modeller, blokke, tegninger og revisioner der beskriver det udførte byggeri.",Alle projektkonklusioner,input
+G02,1,Udvikler + BIM-ansvarlig,Import og nettomængder,"Gennemgå 342/6 importudeladelser, 145 generiske ARK-objekter og 382/6 kildeobjekter uden GUID-match. Verificér nettoprofilvolumener og åbninger.",Komplet materialemængde,implementation_and_validation
+G03,1,BIM-ansvarlig + ingeniør,Overlap og samlinger,"Afstem koordinater, faggrænser og delobjekter mellem ARK/KON; angiv hvilken model der ejer hver mængde.",Summer uden dobbeltregning,input_and_validation
+G04,1,Projekterende + leverandør,Materiale- og produktkort,"Bind hver type/GUID til præcis vare, producent, sammensætning, dokument og EPD-id eller begrundet generisk reference.",Masse og miljøbidrag,input
+G05,1,Projekterende + leverandør,Træ og densitet,"Træart, massivtræ/limtræ/CLT-produkt, densitetens fugtgrundlag, lag-/fiberretning og dokumenteret fugtinterval. C35 alene er utilstrækkeligt.",Trævægt og fugtbevægelse,input
+G06,1,Ingeniør + betonleverandør,Beton og armering,"Betonstyrke, eksponering, recept/EPD, densitet og faktisk armeringsmængde. Afklar om 2% Steel er masse- eller volumenandel.",Beton- og stålspecifik masse/klima,input
+G07,1,Projekterende + leverandør,Lag og tegningskobling,Knyt lokale opbygninger til modelobjekter. Afklar T1-varianter og Y2 220/240 mm; dokumentér skeletandel og åbninger.,"Isolering, beklædning, membraner",input_and_validation
+G08,2,LCA-ansvarlig,Beregningsgrundlag,"Referenceareal, periode, afgrænsning, valgte indikatorer/metoder og sammenlignelige data med geografi/tidsgrundlag.",Sammenligneligt samlet regnskab,input
+G09,2,LCA-ansvarlig + entreprenør,Transport og byggeplads,"Transportmidler/-afstande, spild, energiforbrug, emballage og øvrige byggepladsdata.",Transport-/udførelsesbidrag,input
+G10,2,Drift + projekterende,"Drift, udskiftning og slutning","Energimodel/forbrug, vedligehold, levetider, udskiftninger, demontering, affald og slutscenarier.",Livscyklus og livscyklusøkonomi,input
+G11,2,Bygningsfysiker + udvikler,Varme og fugt,"Verificeret λ, μ/sd, sorption, samlinger, kuldebroer, klima og randbetingelser; implementér/validér relevante metoder.",R/U-værdier og fugtanalyse,input_and_implementation
+G12,2,Ingeniør / brand / akustik,Faglige beregningsmodeller,"Laster, understøtninger, samlinger, sikkerhedsfaktorer, brand- og akustikdokumentation for den konkrete opbygning.","Styrke, brand og lyd",input_and_implementation
+G13,2,Miljøspecialist + udvikler,Øvrige miljøindikatorer,"Vælg sammenlignelig indikator, metode og modul. Tilføj beregningsmetoder ud over nuværende GWP-skalering.","Vand, ressourcer, affald og andre miljøpåvirkninger",input_and_implementation
+G14,2,Bygherre + drift,Økonomi og genbrug,"Enhedspriser, arbejdsløn, diskontering, tilstand, demonterbarhed og restlevetid.","Pris, LCC og genbrugspotentiale",input_and_implementation

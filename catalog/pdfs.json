@@ -1,0 +1,126 @@
+[
+  {
+    "path": "archive/opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.pdf",
+    "pages": 31,
+    "text_path": "extracted/pdf/archive/opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.txt",
+    "text_characters": 28895
+  },
+  {
+    "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.pdf",
+    "pages": 7,
+    "text_path": "extracted/pdf/archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.txt",
+    "text_characters": 2004
+  },
+  {
+    "path": "archive/sbi.dk/Assets/Klimapaavirkning-fra-60-bygninger/SBi-2020-04.pdf",
+    "error": "Downloaded response is not PDF (HTML or other content)"
+  },
+  {
+    "path": "archive/raw.githubusercontent.com/vandkunsten/Daylight_VK-01/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.pdf",
+    "pages": 10,
+    "text_path": "extracted/pdf/archive/raw.githubusercontent.com/vandkunsten/Daylight_VK-01/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.txt",
+    "text_characters": 1248
+  },
+  {
+    "path": "upstream/Daylight_VK-01/VK_dagslys_Tutorial.pdf",
+    "pages": 10,
+    "text_path": "extracted/pdf/upstream/Daylight_VK-01/VK_dagslys_Tutorial.txt",
+    "text_characters": 1248
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/situationsplan.pdf",
+    "pages": 1,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/situationsplan.txt",
+    "text_characters": 16
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/etageplaner.pdf",
+    "pages": 17,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/etageplaner.txt",
+    "text_characters": 27167
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/etagekryds.pdf",
+    "pages": 2,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/etagekryds.txt",
+    "text_characters": 2474
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/tværsnit og kassettedetaljer.pdf",
+    "pages": 59,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/tværsnit og kassettedetaljer.txt",
+    "text_characters": 52567
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/konstruktionsdetaljer.pdf",
+    "pages": 48,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/konstruktionsdetaljer.txt",
+    "text_characters": 22200
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/facader.pdf",
+    "pages": 5,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/facader.txt",
+    "text_characters": 8042
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/02_DLA-UDI/VK_dagslys_Tutorial.pdf",
+    "pages": 10,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/02_DLA-UDI/VK_dagslys_Tutorial.txt",
+    "text_characters": 1248
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCAestimator-metode.pdf",
+    "pages": 7,
+    "text_path": "extracted/pdf/unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne/01_lca-estimator/VK_LCAestimator-metode.txt",
+    "text_characters": 2004
+  },
+  {
+    "path": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/TT Toolbox_License.pdf",
+    "pages": 1,
+    "text_path": "extracted/pdf/unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/TT Toolbox_License.txt",
+    "text_characters": 4270
+  },
+  {
+    "path": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/Platypus_License.pdf",
+    "pages": 1,
+    "text_path": "extracted/pdf/unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/Platypus_License.txt",
+    "text_characters": 4264
+  },
+  {
+    "path": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/Colibri_GHComponents.pdf",
+    "pages": 5,
+    "text_path": "extracted/pdf/unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9/TT_Toolbox_1-9/Colibri_GHComponents.txt",
+    "text_characters": 2225
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_relative_humidity.pdf",
+    "pages": 1,
+    "text_path": "extracted/pdf/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_relative_humidity.txt",
+    "text_characters": 317
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_wind_speed.pdf",
+    "pages": 1,
+    "text_path": "extracted/pdf/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_wind_speed.txt",
+    "text_characters": 273
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_radiation.pdf",
+    "pages": 1,
+    "text_path": "extracted/pdf/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_radiation.txt",
+    "text_characters": 326
+  },
+  {
+    "path": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_temperature.pdf",
+    "pages": 1,
+    "text_path": "extracted/pdf/unpacked/upstream/Daylight_VK-01/02. Weatherfiles/02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_temperature.txt",
+    "text_characters": 299
+  },
+  {
+    "path": "archive/vbn.aau.dk/ws/portalfiles/portal/329648206/SBi_2020_04.pdf",
+    "pages": 99,
+    "text_path": "extracted/pdf/archive/vbn.aau.dk/ws/portalfiles/portal/329648206/SBi_2020_04.txt",
+    "text_characters": 344659
+  }
+]

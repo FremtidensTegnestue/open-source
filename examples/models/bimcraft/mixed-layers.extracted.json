@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "software": "bimcraft",
+  "software_version": "bimcraft-cli 0.12.0",
+  "model": {
+    "path": "/tmp/materials-bim-integration/examples/models/bimcraft/mixed-layers.bimc",
+    "sha256": "0b3f27eddbb4c8fd7942d08325c862b863446568e30ef0b7acc9b8301079dd57"
+  },
+  "extraction": {
+    "commands": [
+      [
+        "bimcraft-cli",
+        "run",
+        "/tmp/materials-bim-integration/examples/models/bimcraft/mixed-layers.bimc",
+        "--cmd",
+        "inspect {}",
+        "--cmd",
+        "elements {\"limit\":1000,\"offset\":0}"
+      ]
+    ],
+    "notes": [
+      "Source model opened without save; inspect/elements report quantities from BIMcraft.",
+      "BIMcraft volume_m3 and area_m2 are retained without further scaling. Floor volume reporting is rounded to 0.001 m3 in the verified version.",
+      "Only explicit homogeneous assignment is resolved; mixed layers remain unresolved.",
+      "Lengths from elements and type layers are millimetres; normalized dimensions divide by 1000.",
+      "Reported area is category-specific and must not be used blindly as a facade/reference area."
+    ]
+  },
+  "elements": [
+    {
+      "id": "100002",
+      "name": "Mixed specimen",
+      "material_name": null,
+      "volume_m3": 0.036,
+      "area_m2": 0.3,
+      "dimensions_m": {
+        "thickness": 0.12
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100002,
+        "guid": "74205442-3686-4d76-8aff-cd71a89944ae",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "Mixed specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "finish",
+              "guid": "4deb583a-e726-462d-bb85-b864ec32e44f",
+              "id": 998940,
+              "material": "Timber",
+              "thickness": 20.0
+            },
+            {
+              "function": "structure",
+              "guid": "da87bc86-32a9-4e62-8f14-f55b8b603685",
+              "id": 998939,
+              "material": "Concrete",
+              "thickness": 100.0
+            }
+          ],
+          "thickness": 120.0
+        },
+        "element_record": {
+          "area_m2": 0.3,
+          "boundary": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1000.0,
+              0.0
+            ],
+            [
+              1000.0,
+              300.0
+            ],
+            [
+              0.0,
+              300.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "74205442-3686-4d76-8aff-cd71a89944ae",
+          "id": 100002,
+          "level": "733260b5-51ad-4a1e-aa54-19471ac78a8a",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 120.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "Mixed specimen",
+          "type_guid": "d888d4e7-b980-433e-8a4f-afa97bfaef42",
+          "volume_m3": 0.036
+        }
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "mixed_material_layers",
+      "message": "Mixed-material layers: total volume is not allocated to any single material.",
+      "element_id": "100002"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100002"
+    }
+  ]
+}

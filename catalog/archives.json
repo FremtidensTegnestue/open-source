@@ -1,0 +1,6076 @@
+[
+  {
+    "archive": "archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip",
+    "directory": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg",
+    "members": [
+      {
+        "name": "VK_FBABLisbjerg/BIM - IFC-model/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "VK_FBABLisbjerg/BIM - IFC-model/ARK-model.ifc",
+        "bytes": 37853098,
+        "crc32": "4c6f06d3"
+      },
+      {
+        "name": "VK_FBABLisbjerg/BIM - IFC-model/KON-model.ifc",
+        "bytes": 4439592,
+        "crc32": "aad46af7"
+      },
+      {
+        "name": "VK_FBABLisbjerg/etagekryds.pdf",
+        "bytes": 140980,
+        "crc32": "b4536e72"
+      },
+      {
+        "name": "VK_FBABLisbjerg/etageplaner.pdf",
+        "bytes": 719008,
+        "crc32": "6c1889ab"
+      },
+      {
+        "name": "VK_FBABLisbjerg/facader.pdf",
+        "bytes": 982941,
+        "crc32": "c3846b4d"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/3lisbjerg_wood_stock.jpg",
+        "bytes": 1999233,
+        "crc32": "7303c6fb"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1003216.jpg",
+        "bytes": 1665434,
+        "crc32": "9ed258a9"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1003485.jpg",
+        "bytes": 1551375,
+        "crc32": "b71a3c3d"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1006668.jpg",
+        "bytes": 2639563,
+        "crc32": "3979b912"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1006742.jpg",
+        "bytes": 4982374,
+        "crc32": "947011a0"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1006830.jpg",
+        "bytes": 3899034,
+        "crc32": "ac11331e"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1006872.jpg",
+        "bytes": 2227595,
+        "crc32": "76eddecb"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1008168.jpg",
+        "bytes": 1701516,
+        "crc32": "4ca1aadd"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/L1008794.jpg",
+        "bytes": 12599618,
+        "crc32": "df7c0872"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/LB 13.06.17 112.jpg",
+        "bytes": 1675676,
+        "crc32": "6e6bccd9"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/LB 13.07.17 116.jpg",
+        "bytes": 1791709,
+        "crc32": "add0b729"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/LB 16.06.17 106.jpg",
+        "bytes": 1675484,
+        "crc32": "e4c566f0"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/LB 28.03.17 106b punkt6.jpg",
+        "bytes": 1999233,
+        "crc32": "7303c6fb"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/LB 29.03.17 119.jpg",
+        "bytes": 1839914,
+        "crc32": "85374c91"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/LB 4.4.17 114.jpg",
+        "bytes": 787292,
+        "crc32": "ed12c1a1"
+      },
+      {
+        "name": "VK_FBABLisbjerg/fotos - helene h¢yer mikkelsen/lisbjerg-fbab-village-gallery.jpg",
+        "bytes": 1360687,
+        "crc32": "667b65a3"
+      },
+      {
+        "name": "VK_FBABLisbjerg/konstruktionsdetaljer.pdf",
+        "bytes": 397346,
+        "crc32": "464711da"
+      },
+      {
+        "name": "VK_FBABLisbjerg/situationsplan.pdf",
+        "bytes": 402736,
+        "crc32": "82463331"
+      },
+      {
+        "name": "VK_FBABLisbjerg/tværsnit og kassettedetaljer.pdf",
+        "bytes": 13153668,
+        "crc32": "79f6bf58"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten.zip",
+    "directory": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten",
+    "members": [
+      {
+        "name": "Aeforos_Vandkunsten/Aeforos.dyn",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/Aeforos_Combined.dyn",
+        "bytes": 179893,
+        "crc32": "b5153c28"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/Aeforos_PreCheck.dyn",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.0.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.1.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.10.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.11.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.12.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.13.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.14.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.15.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.16.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.17.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.18.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.19.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.2.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.20.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.21.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.22.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.23.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.24.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.25.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.26.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.27.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.28.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.29.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.3.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.30.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.31.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.32.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.4.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.5.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.6.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.7.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.8.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos.dyn.9.backup",
+        "bytes": 143204,
+        "crc32": "74d10fdd"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_Combined.dyn.0.backup",
+        "bytes": 179893,
+        "crc32": "b5153c28"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.0.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.1.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.10.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.11.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.12.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.13.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.14.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.15.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.16.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.17.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.18.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.19.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.2.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.20.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.21.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.22.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.23.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.24.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.25.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.26.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.27.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.28.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.29.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.3.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.30.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.31.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.32.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.33.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.34.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.4.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.5.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.6.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.7.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.8.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/backup/Aeforos_PreCheck.dyn.9.backup",
+        "bytes": 83913,
+        "crc32": "8dc79f0f"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/oekobaudat_concept_v6.xlsm",
+        "bytes": 106967,
+        "crc32": "2a58793b"
+      },
+      {
+        "name": "Aeforos_Vandkunsten/Results.xlsx",
+        "bytes": 326015,
+        "crc32": "cf1bf9e6"
+      },
+      {
+        "name": "AssistingTools/MaterialIDs/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "AssistingTools/MaterialIDs/backup/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "AssistingTools/MaterialIDs/backup/mat_oekobau_id.dyn.0.backup",
+        "bytes": 16706,
+        "crc32": "6f663213"
+      },
+      {
+        "name": "AssistingTools/MaterialIDs/mat_oekobau_id.dyn",
+        "bytes": 16706,
+        "crc32": "6f663213"
+      },
+      {
+        "name": "AssistingTools/MaterialIDs/MatID1.xlsx",
+        "bytes": 9538,
+        "crc32": "f25cf585"
+      },
+      {
+        "name": "AssistingTools/New_Material_Names_VK.xlsx",
+        "bytes": 37303,
+        "crc32": "4253e3c6"
+      },
+      {
+        "name": "AssistingTools/SfB script/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.0.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.1.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.10.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.11.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.2.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.3.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.4.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.5.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.6.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.7.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.8.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/backup/sfb.dyn.9.backup",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/sfb.dyn",
+        "bytes": 17970,
+        "crc32": "4e38eed5"
+      },
+      {
+        "name": "AssistingTools/SfB script/TypeRename.xls.xlsx",
+        "bytes": 10479,
+        "crc32": "b50ae59f"
+      },
+      {
+        "name": "DynamoDefinitions/backup/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.0.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.1.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.10.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.11.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.12.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.2.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.3.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.4.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.5.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.6.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.7.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.8.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/DateTime.Numbers.dyf.9.backup",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/backup/EmptyIndicesToZero.dyf.0.backup",
+        "bytes": 2326,
+        "crc32": "9bd2293f"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.0.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.1.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.10.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.11.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.12.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.2.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.3.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.4.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.5.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.6.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.7.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.8.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/FirstLettersFromString.dyf.9.backup",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/backup/GetStringUntil.dyf.0.backup",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/backup/GetStringUntil.dyf.1.backup",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/backup/GetStringUntil.dyf.2.backup",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/backup/GetStringUntil.dyf.3.backup",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/backup/GetStringUntil.dyf.4.backup",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/backup/GetStringUntil.dyf.5.backup",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/backup/GetStringUntil.dyf.6.backup",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.0.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.1.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.10.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.2.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.3.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.4.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.5.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.6.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.7.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.8.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.ColorSet.dyf.9.backup",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.Element.Materials.dyf.0.backup",
+        "bytes": 6113,
+        "crc32": "dda03e0f"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.Element.Materials.dyf.1.backup",
+        "bytes": 6113,
+        "crc32": "dda03e0f"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.Element.Materials_Type.dyf.0.backup",
+        "bytes": 6694,
+        "crc32": "962c9949"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49).dyf.0.backup",
+        "bytes": 18265,
+        "crc32": "208a0701"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49).dyf.1.backup",
+        "bytes": 18265,
+        "crc32": "208a0701"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49).dyf.2.backup",
+        "bytes": 18265,
+        "crc32": "208a0701"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.0.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.1.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.10.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.2.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.3.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.4.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.5.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.6.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.7.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.8.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf.9.backup",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.0.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.1.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.2.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.3.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.4.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.5.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.6.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.7.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.GetTypeMaterials.dyf.8.backup",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.0.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.1.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.10.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.11.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.12.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.13.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.2.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.3.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.4.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.5.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.6.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.7.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.8.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/backup/LCA.MainBuildingElements.dyf.9.backup",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/DateTime.Numbers.dyf",
+        "bytes": 1669,
+        "crc32": "d0684b9b"
+      },
+      {
+        "name": "DynamoDefinitions/EmptyIndicesToZero.dyf",
+        "bytes": 2326,
+        "crc32": "9bd2293f"
+      },
+      {
+        "name": "DynamoDefinitions/FamilyType.SetCompoundLayerThickness.dyf",
+        "bytes": 11142,
+        "crc32": "dd523b01"
+      },
+      {
+        "name": "DynamoDefinitions/FirstLettersFromString.dyf",
+        "bytes": 2591,
+        "crc32": "b0463f78"
+      },
+      {
+        "name": "DynamoDefinitions/GenerateViewByScopeBox&Level.dyf",
+        "bytes": 16162,
+        "crc32": "c3baa99c"
+      },
+      {
+        "name": "DynamoDefinitions/GetStringUntil.dyf",
+        "bytes": 2886,
+        "crc32": "21b39849"
+      },
+      {
+        "name": "DynamoDefinitions/IsDigit.dyf",
+        "bytes": 2314,
+        "crc32": "b1082b9b"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.All_Elements.dyf",
+        "bytes": 15874,
+        "crc32": "67cf5e25"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.ColorSet.dyf",
+        "bytes": 5135,
+        "crc32": "c62f6599"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.Element.Materials.dyf",
+        "bytes": 6113,
+        "crc32": "dda03e0f"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.Element.Materials_Type.dyf",
+        "bytes": 6694,
+        "crc32": "962c9949"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49).dyf",
+        "bytes": 18265,
+        "crc32": "208a0701"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf",
+        "bytes": 20318,
+        "crc32": "9ba95919"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count_an.dyf",
+        "bytes": 24831,
+        "crc32": "f54bffc2"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49InclPaint).dyf",
+        "bytes": 19509,
+        "crc32": "5f415ec7"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists).dyf",
+        "bytes": 15580,
+        "crc32": "26710ad2"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.GetTypeMaterials.dyf",
+        "bytes": 13224,
+        "crc32": "45abf80e"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.MainBuildingElements.dyf",
+        "bytes": 31297,
+        "crc32": "725079a9"
+      },
+      {
+        "name": "DynamoDefinitions/LCA.MainBuildingElements_an.dyf",
+        "bytes": 38441,
+        "crc32": "3232800b"
+      },
+      {
+        "name": "DynamoDefinitions/MaterialDensity.dyf",
+        "bytes": 5887,
+        "crc32": "2a91491d"
+      },
+      {
+        "name": "DynamoDefinitions/MaterialDensity_FromElementsList.dyf",
+        "bytes": 5139,
+        "crc32": "e5f09339"
+      },
+      {
+        "name": "DynamoDefinitions/MaterialDensity_test.dyf",
+        "bytes": 5846,
+        "crc32": "63a0bdda"
+      },
+      {
+        "name": "DynamoDefinitions/SortByTrue.dyf",
+        "bytes": 2850,
+        "crc32": "ed5eb350"
+      },
+      {
+        "name": "DynamoDefinitions/SumList.Sublists.dyf",
+        "bytes": 2691,
+        "crc32": "d3374257"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015.zip",
+    "directory": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015",
+    "members": [
+      {
+        "name": "oekobaudat_import_2015.xlsm",
+        "bytes": 2117141,
+        "crc32": "56800cc8"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.zip",
+    "directory": "unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit",
+    "members": [
+      {
+        "name": "BIM7AA.dyn",
+        "bytes": 415362,
+        "crc32": "45edae50"
+      },
+      {
+        "name": "Præsentation.webm",
+        "bytes": 76983595,
+        "crc32": "1793a4de"
+      },
+      {
+        "name": "SfB.dyn",
+        "bytes": 314027,
+        "crc32": "c9c88457"
+      },
+      {
+        "name": "Standard LCC-Byg fil.txt",
+        "bytes": 265797,
+        "crc32": "283d5ad1"
+      },
+      {
+        "name": "Tomt dokument.txt",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "Tomt excel ark.xlsx",
+        "bytes": 8746,
+        "crc32": "d570001a"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne.zip",
+    "directory": "unpacked/archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne",
+    "members": [
+      {
+        "name": "_notes/dwsync.xml",
+        "bytes": 183,
+        "crc32": "0fc4a935"
+      },
+      {
+        "name": "01_lca-estimator/_notes/dwsync.xml",
+        "bytes": 323,
+        "crc32": "cc7cc2d2"
+      },
+      {
+        "name": "01_lca-estimator/index.php",
+        "bytes": 3630,
+        "crc32": "e10017bd"
+      },
+      {
+        "name": "01_lca-estimator/Udklip_estimator.JPG",
+        "bytes": 113457,
+        "crc32": "10dbd4d9"
+      },
+      {
+        "name": "01_lca-estimator/Udklip_input.JPG",
+        "bytes": 77015,
+        "crc32": "ce249400"
+      },
+      {
+        "name": "01_lca-estimator/VK_LCA_estimatorV2.xlsm",
+        "bytes": 124623,
+        "crc32": "877f59b6"
+      },
+      {
+        "name": "01_lca-estimator/VK_LCAestimator500x500.jpg",
+        "bytes": 143080,
+        "crc32": "886ec309"
+      },
+      {
+        "name": "01_lca-estimator/VK_LCAestimator-metode.pdf",
+        "bytes": 1692637,
+        "crc32": "c3e62e42"
+      },
+      {
+        "name": "02_DLA-UDI/_notes/dwsync.xml",
+        "bytes": 455,
+        "crc32": "95cd4890"
+      },
+      {
+        "name": "02_DLA-UDI/dagslys_500x500px.jpg",
+        "bytes": 84755,
+        "crc32": "36b1cc1d"
+      },
+      {
+        "name": "02_DLA-UDI/index.php",
+        "bytes": 2017,
+        "crc32": "1412f951"
+      },
+      {
+        "name": "02_DLA-UDI/VK_dagslys_500x500px.jpg",
+        "bytes": 110372,
+        "crc32": "144211fa"
+      },
+      {
+        "name": "02_DLA-UDI/VK_dagslys_Tutorial.pdf",
+        "bytes": 1804799,
+        "crc32": "da378e50"
+      },
+      {
+        "name": "css/_notes/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "css/_notes/dwsync.xml",
+        "bytes": 312,
+        "crc32": "2cc35ecc"
+      },
+      {
+        "name": "css/style.css",
+        "bytes": 3800,
+        "crc32": "536c8381"
+      },
+      {
+        "name": "css/style210513.css",
+        "bytes": 3776,
+        "crc32": "c23e4b33"
+      },
+      {
+        "name": "fonts/_notes/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "fonts/_notes/dwsync.xml",
+        "bytes": 608,
+        "crc32": "b5ff2386"
+      },
+      {
+        "name": "fonts/LaFontaine-DemiBold.eot",
+        "bytes": 81188,
+        "crc32": "47337b4f"
+      },
+      {
+        "name": "fonts/LaFontaine-DemiBold.woff",
+        "bytes": 33972,
+        "crc32": "4bdbf3bc"
+      },
+      {
+        "name": "fonts/LaFontaine-Regular.eot",
+        "bytes": 78716,
+        "crc32": "2143fbea"
+      },
+      {
+        "name": "fonts/LaFontaine-Regular.woff",
+        "bytes": 32404,
+        "crc32": "7b48617d"
+      },
+      {
+        "name": "img/_notes/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "img/_notes/dwsync.xml",
+        "bytes": 810,
+        "crc32": "74225da8"
+      },
+      {
+        "name": "img/download.svg",
+        "bytes": 1564,
+        "crc32": "33aee1eb"
+      },
+      {
+        "name": "img/instagram.svg",
+        "bytes": 3257,
+        "crc32": "a24e63e5"
+      },
+      {
+        "name": "img/link.svg",
+        "bytes": 1861,
+        "crc32": "27ee46ba"
+      },
+      {
+        "name": "img/linkedin.svg",
+        "bytes": 1634,
+        "crc32": "9711fc34"
+      },
+      {
+        "name": "img/skitse.jpg",
+        "bytes": 27566,
+        "crc32": "b4ac9ee2"
+      },
+      {
+        "name": "img/twitter.svg",
+        "bytes": 4765,
+        "crc32": "5d548790"
+      },
+      {
+        "name": "includes/_notes/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "includes/_notes/dwsync.xml",
+        "bytes": 551,
+        "crc32": "f8d7427b"
+      },
+      {
+        "name": "includes/footer.php",
+        "bytes": 675,
+        "crc32": "b704dd1f"
+      },
+      {
+        "name": "includes/header.php",
+        "bytes": 51,
+        "crc32": "ef032749"
+      },
+      {
+        "name": "includes/meta.php",
+        "bytes": 1002,
+        "crc32": "2f31654d"
+      },
+      {
+        "name": "includes/nav.php",
+        "bytes": 1304,
+        "crc32": "0686ac4c"
+      },
+      {
+        "name": "index.php",
+        "bytes": 4490,
+        "crc32": "c9fa285a"
+      },
+      {
+        "name": "tool/_notes/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "tool/_notes/dwsync.xml",
+        "bytes": 305,
+        "crc32": "a17f57a5"
+      },
+      {
+        "name": "tool/index.php",
+        "bytes": 1380,
+        "crc32": "aa5f3dcf"
+      },
+      {
+        "name": "tool/test.jpg",
+        "bytes": 65485,
+        "crc32": "cc4f58bc"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "upstream/Daylight_VK-01/02. Weatherfiles.zip",
+    "directory": "unpacked/upstream/Daylight_VK-01/02. Weatherfiles",
+    "members": [
+      {
+        "name": "02. Weatherfiles/BEL_Brussels.064510_IWEC.epw",
+        "bytes": 1548837,
+        "crc32": "8e10564e"
+      },
+      {
+        "name": "02. Weatherfiles/DNK_DRY2013.epw",
+        "bytes": 1494532,
+        "crc32": "ecb88830"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_2001-2010_epw-fil.epw",
+        "bytes": 1781453,
+        "crc32": "49d32968"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_cloud_cover_hourly_6030.csv",
+        "bytes": 234858,
+        "crc32": "2096f453"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_cloud_cover_hourly_6049.csv",
+        "bytes": 234207,
+        "crc32": "9b5959fc"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_cloud_cover_hourly_6060.csv",
+        "bytes": 234536,
+        "crc32": "7753b1dd"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_cloud_cover_hourly_6141.csv",
+        "bytes": 234040,
+        "crc32": "09266eec"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_cloud_cover_hourly_6184.csv",
+        "bytes": 234564,
+        "crc32": "844b2c98"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_cloud_cover_hourly_6193.csv",
+        "bytes": 235058,
+        "crc32": "359dcd6e"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_illuminance_hourly_6031.csv",
+        "bytes": 262860,
+        "crc32": "041502f0"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_illuminance_hourly_6065.csv",
+        "bytes": 262860,
+        "crc32": "2d78100f"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_illuminance_hourly_6109.csv",
+        "bytes": 262860,
+        "crc32": "ad6da447"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_illuminance_hourly_6141.csv",
+        "bytes": 262860,
+        "crc32": "8c6e80b3"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_illuminance_hourly_6188.csv",
+        "bytes": 262860,
+        "crc32": "f679ae48"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_illuminance_hourly_6197.csv",
+        "bytes": 262860,
+        "crc32": "5609ae81"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_radiation_hourly_6031.csv",
+        "bytes": 231827,
+        "crc32": "1213bb1f"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_radiation_hourly_6065.csv",
+        "bytes": 232026,
+        "crc32": "511ca43c"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_radiation_hourly_6109.csv",
+        "bytes": 231564,
+        "crc32": "82047bce"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_radiation_hourly_6141.csv",
+        "bytes": 232131,
+        "crc32": "4f3465c5"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_radiation_hourly_6188.csv",
+        "bytes": 231929,
+        "crc32": "ef733f6d"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_diffuse_radiation_hourly_6197.csv",
+        "bytes": 232018,
+        "crc32": "535a3d94"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_illuminance_hourly_6031.csv",
+        "bytes": 262866,
+        "crc32": "8c32dec0"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_illuminance_hourly_6065.csv",
+        "bytes": 262866,
+        "crc32": "75aaae57"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_illuminance_hourly_6109.csv",
+        "bytes": 262866,
+        "crc32": "bbd3fcec"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_illuminance_hourly_6141.csv",
+        "bytes": 262866,
+        "crc32": "15f1627e"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_illuminance_hourly_6188.csv",
+        "bytes": 262866,
+        "crc32": "1b5d05b2"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_illuminance_hourly_6197.csv",
+        "bytes": 262866,
+        "crc32": "6612ffd7"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_radiation_hourly_6031.csv",
+        "bytes": 262867,
+        "crc32": "a32561a5"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_radiation_hourly_6065.csv",
+        "bytes": 262867,
+        "crc32": "da2f7245"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_radiation_hourly_6109.csv",
+        "bytes": 262867,
+        "crc32": "e9e79d19"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_radiation_hourly_6141.csv",
+        "bytes": 262867,
+        "crc32": "ab3cd612"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_radiation_hourly_6188.csv",
+        "bytes": 262867,
+        "crc32": "7dc5d1f3"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_radiation_hourly_6197.csv",
+        "bytes": 262867,
+        "crc32": "adcd96ea"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_top_of_atmosphere_radiation_hourly_6031.csv",
+        "bytes": 262884,
+        "crc32": "b543b82c"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_top_of_atmosphere_radiation_hourly_6065.csv",
+        "bytes": 262884,
+        "crc32": "34d3577e"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_top_of_atmosphere_radiation_hourly_6109.csv",
+        "bytes": 262884,
+        "crc32": "8e9ff126"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_top_of_atmosphere_radiation_hourly_6141.csv",
+        "bytes": 262884,
+        "crc32": "45dbb42e"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_top_of_atmosphere_radiation_hourly_6188.csv",
+        "bytes": 262884,
+        "crc32": "9e827f2e"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_direct_normal_top_of_atmosphere_radiation_hourly_6197.csv",
+        "bytes": 262884,
+        "crc32": "01bc1a05"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_global_illuminance_hourly_6031.csv",
+        "bytes": 262859,
+        "crc32": "57f0886d"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_global_illuminance_hourly_6065.csv",
+        "bytes": 262859,
+        "crc32": "6307cc48"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_global_illuminance_hourly_6109.csv",
+        "bytes": 262859,
+        "crc32": "4618a5de"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_global_illuminance_hourly_6141.csv",
+        "bytes": 262859,
+        "crc32": "34145fcd"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_global_illuminance_hourly_6188.csv",
+        "bytes": 262859,
+        "crc32": "07721060"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_global_illuminance_hourly_6197.csv",
+        "bytes": 262859,
+        "crc32": "92adad1d"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_integrated_water_vapour_hourly_6031.csv",
+        "bytes": 271627,
+        "crc32": "bdb223d3"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_integrated_water_vapour_hourly_6065.csv",
+        "bytes": 271627,
+        "crc32": "98d0b6f9"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_integrated_water_vapour_hourly_6109.csv",
+        "bytes": 271627,
+        "crc32": "49d0c9c5"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_integrated_water_vapour_hourly_6141.csv",
+        "bytes": 271627,
+        "crc32": "2d781ab2"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_integrated_water_vapour_hourly_6188.csv",
+        "bytes": 271627,
+        "crc32": "939cbd0c"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_integrated_water_vapour_hourly_6197.csv",
+        "bytes": 271627,
+        "crc32": "ccbb4517"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_pressure_hourly_6030.csv",
+        "bytes": 268457,
+        "crc32": "a22b6d13"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_pressure_hourly_6068.csv",
+        "bytes": 268485,
+        "crc32": "fc391d17"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_pressure_hourly_6110.csv",
+        "bytes": 268594,
+        "crc32": "d1e8ccff"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_pressure_hourly_6141.csv",
+        "bytes": 268692,
+        "crc32": "167bf80f"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_pressure_hourly_6156.csv",
+        "bytes": 268601,
+        "crc32": "17986fd7"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_pressure_hourly_6190.csv",
+        "bytes": 268763,
+        "crc32": "9cbee108"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_radiation_hourly_6031.csv",
+        "bytes": 234869,
+        "crc32": "a2516296"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_radiation_hourly_6065.csv",
+        "bytes": 234807,
+        "crc32": "0cbccca1"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_radiation_hourly_6109.csv",
+        "bytes": 234642,
+        "crc32": "af0ed755"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_radiation_hourly_6141.csv",
+        "bytes": 234932,
+        "crc32": "20c27a9e"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_radiation_hourly_6188.csv",
+        "bytes": 234814,
+        "crc32": "6b04a776"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_radiation_hourly_6197.csv",
+        "bytes": 234757,
+        "crc32": "5c7de3fa"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_relative_humidity_hourly_6060.csv",
+        "bytes": 242333,
+        "crc32": "57c61008"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_relative_humidity_hourly_6080.csv",
+        "bytes": 236840,
+        "crc32": "98d3d826"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_relative_humidity_hourly_6102.csv",
+        "bytes": 237431,
+        "crc32": "0ec1bef8"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_relative_humidity_hourly_6136.csv",
+        "bytes": 236683,
+        "crc32": "6f804b7c"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_relative_humidity_hourly_6156.csv",
+        "bytes": 236838,
+        "crc32": "fefb1b63"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_relative_humidity_hourly_6197.csv",
+        "bytes": 236599,
+        "crc32": "57c4b170"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_sea_temperature_hourly_20303.csv",
+        "bytes": 239349,
+        "crc32": "57ed3eed"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_sea_temperature_hourly_22331.csv",
+        "bytes": 238837,
+        "crc32": "9ff9c563"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_sea_temperature_hourly_23293.csv",
+        "bytes": 238823,
+        "crc32": "420066de"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_sea_temperature_hourly_25149.csv",
+        "bytes": 239095,
+        "crc32": "7e686d96"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_sea_temperature_hourly_29393.csv",
+        "bytes": 239043,
+        "crc32": "5e2ea36c"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_sea_temperature_hourly_30336.csv",
+        "bytes": 239339,
+        "crc32": "18cf6779"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_soil_temperature_daily_6019.csv",
+        "bytes": 9709,
+        "crc32": "0bcf9729"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_soil_temperature_daily_6065.csv",
+        "bytes": 9703,
+        "crc32": "c99ab168"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_soil_temperature_daily_6102.csv",
+        "bytes": 9701,
+        "crc32": "d2597900"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_soil_temperature_daily_6136.csv",
+        "bytes": 9708,
+        "crc32": "f5c25800"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_soil_temperature_daily_6156.csv",
+        "bytes": 9705,
+        "crc32": "27ff232b"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_soil_temperature_daily_6197.csv",
+        "bytes": 9706,
+        "crc32": "4dcd5bf5"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_temperature_hourly_6060.csv",
+        "bytes": 248687,
+        "crc32": "b7499523"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_temperature_hourly_6080.csv",
+        "bytes": 248705,
+        "crc32": "07905248"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_temperature_hourly_6102.csv",
+        "bytes": 248684,
+        "crc32": "18c24388"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_temperature_hourly_6136.csv",
+        "bytes": 248812,
+        "crc32": "32e3d0ce"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_temperature_hourly_6156.csv",
+        "bytes": 248786,
+        "crc32": "c1c4deb7"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_temperature_hourly_6197.csv",
+        "bytes": 248433,
+        "crc32": "fb0909aa"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_top_of_atmosphere_radiation_hourly_6031.csv",
+        "bytes": 262882,
+        "crc32": "c41c024a"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_top_of_atmosphere_radiation_hourly_6065.csv",
+        "bytes": 262882,
+        "crc32": "40d25442"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_top_of_atmosphere_radiation_hourly_6109.csv",
+        "bytes": 262882,
+        "crc32": "70a8b4b6"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_top_of_atmosphere_radiation_hourly_6141.csv",
+        "bytes": 262882,
+        "crc32": "8ea29286"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_top_of_atmosphere_radiation_hourly_6188.csv",
+        "bytes": 262882,
+        "crc32": "9353a705"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_top_of_atmosphere_radiation_hourly_6197.csv",
+        "bytes": 262882,
+        "crc32": "4ff9baa3"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_direction_hourly_6052.csv",
+        "bytes": 244117,
+        "crc32": "b3340294"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_direction_hourly_6060.csv",
+        "bytes": 243921,
+        "crc32": "495316ac"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_direction_hourly_6123.csv",
+        "bytes": 243629,
+        "crc32": "fe3d1c9b"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_direction_hourly_6156.csv",
+        "bytes": 243360,
+        "crc32": "6ef08a2f"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_direction_hourly_6197.csv",
+        "bytes": 243285,
+        "crc32": "c137e32b"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_speed_hourly_6052.csv",
+        "bytes": 244840,
+        "crc32": "c2fdca93"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_speed_hourly_6060.csv",
+        "bytes": 244340,
+        "crc32": "c7ceda90"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_speed_hourly_6123.csv",
+        "bytes": 244056,
+        "crc32": "57e346a3"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_speed_hourly_6156.csv",
+        "bytes": 243111,
+        "crc32": "caa04971"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/hourly/DRY_wind_speed_hourly_6197.csv",
+        "bytes": 243778,
+        "crc32": "8f0cd3fc"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/data/maanedsdef_2001-2010 DRY datasaet.xlsx",
+        "bytes": 9120,
+        "crc32": "2da7ace4"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_radiation.pdf",
+        "bytes": 125751,
+        "crc32": "801e8693"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_relative_humidity.pdf",
+        "bytes": 152669,
+        "crc32": "dad5f978"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_temperature.pdf",
+        "bytes": 172000,
+        "crc32": "8ddae378"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/grafer/DRY_data_wind_speed.pdf",
+        "bytes": 143337,
+        "crc32": "03fded93"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/2001-2010_Aarsvaerdier/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/2001-2010_Aarsvaerdier/globalstraaling_2001-2010_01042012.png",
+        "bytes": 77770,
+        "crc32": "f4a5f63f"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/2001-2010_Aarsvaerdier/rh_2001-2010_01042012.png",
+        "bytes": 73731,
+        "crc32": "51f35643"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/2001-2010_Aarsvaerdier/temperatur_2001-2010_01042012.png",
+        "bytes": 61416,
+        "crc32": "fe9d6b6b"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/2001-2010_Aarsvaerdier/vind_2001-2010_01042012.png",
+        "bytes": 81949,
+        "crc32": "13de7115"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/globalstraaling_zonekort_ref.st_01042012.PNG",
+        "bytes": 105300,
+        "crc32": "42c9781d"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/rh_zonekort_ref.st_01042012.PNG",
+        "bytes": 106797,
+        "crc32": "f8268ea4"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/temperatur_zonekort_ref.st_01042012.PNG",
+        "bytes": 98312,
+        "crc32": "005732d7"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/Thumbs.db",
+        "bytes": 58880,
+        "crc32": "1f178a11"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/vind_zonekort_ref.st_31052012.PNG",
+        "bytes": 81415,
+        "crc32": "af7d3b3a"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/kort/zoner_ref.st/zoner_ref.st_31052012.xlsx",
+        "bytes": 12939,
+        "crc32": "6391b283"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/daily/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/daily/DRY_radiation_daily_603100.csv",
+        "bytes": 7774,
+        "crc32": "cf3e07ef"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/daily/DRY_radiation_daily_606500.csv",
+        "bytes": 7755,
+        "crc32": "75ec8a24"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/daily/DRY_radiation_daily_610900.csv",
+        "bytes": 7792,
+        "crc32": "feb80efe"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/daily/DRY_radiation_daily_614100.csv",
+        "bytes": 7795,
+        "crc32": "96a800a3"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/daily/DRY_radiation_daily_618800.csv",
+        "bytes": 7779,
+        "crc32": "88ca6eb1"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/daily/DRY_radiation_daily_619700.csv",
+        "bytes": 7818,
+        "crc32": "e1d6904f"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6031.xlsx",
+        "bytes": 11456,
+        "crc32": "fedf9f77"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6065.xlsx",
+        "bytes": 11454,
+        "crc32": "d20ff297"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6109.xlsx",
+        "bytes": 11441,
+        "crc32": "01edb9a4"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6141.xlsx",
+        "bytes": 11464,
+        "crc32": "a1f9a0b3"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6188.xlsx",
+        "bytes": 11482,
+        "crc32": "8d608405"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_stddev_6197.xlsx",
+        "bytes": 11468,
+        "crc32": "9af91d17"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6031.xlsx",
+        "bytes": 11486,
+        "crc32": "0c7f581a"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6065.xlsx",
+        "bytes": 11487,
+        "crc32": "c475c7b1"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6109.xlsx",
+        "bytes": 11497,
+        "crc32": "e8f66897"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6141.xlsx",
+        "bytes": 11495,
+        "crc32": "1c673c69"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6188.xlsx",
+        "bytes": 14120,
+        "crc32": "40edad91"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_matrix_values_6197.xlsx",
+        "bytes": 11424,
+        "crc32": "f5bc004d"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_middelaar_6031.csv",
+        "bytes": 3774,
+        "crc32": "976cd9e6"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_middelaar_6065.csv",
+        "bytes": 3792,
+        "crc32": "79df48c7"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_middelaar_6109.csv",
+        "bytes": 3784,
+        "crc32": "007de224"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_middelaar_6141.csv",
+        "bytes": 3789,
+        "crc32": "be810270"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_middelaar_6188.csv",
+        "bytes": 3768,
+        "crc32": "fc1de883"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/DRY_radiation_middelaar_6197.csv",
+        "bytes": 3774,
+        "crc32": "cc7f54ce"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_603100.csv",
+        "bytes": 946,
+        "crc32": "cba6dba1"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_603100.dat",
+        "bytes": 709,
+        "crc32": "848ef463"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_603100.xlsx",
+        "bytes": 13755,
+        "crc32": "f6e20d01"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_606500.csv",
+        "bytes": 963,
+        "crc32": "3a6e2272"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_606500.dat",
+        "bytes": 733,
+        "crc32": "13b895e2"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_606500.xlsx",
+        "bytes": 13704,
+        "crc32": "f953f520"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_610900.csv",
+        "bytes": 950,
+        "crc32": "302ca162"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_610900.dat",
+        "bytes": 710,
+        "crc32": "1901c4b2"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_610900.xlsx",
+        "bytes": 13748,
+        "crc32": "6abedafd"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_614100.csv",
+        "bytes": 950,
+        "crc32": "1f9cebca"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_614100.dat",
+        "bytes": 710,
+        "crc32": "a2febabd"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_614100.xlsx",
+        "bytes": 13786,
+        "crc32": "08478c8c"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_618800.csv",
+        "bytes": 948,
+        "crc32": "3c9eb449"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_618800.dat",
+        "bytes": 708,
+        "crc32": "3f5a0be2"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_618800.xlsx",
+        "bytes": 13755,
+        "crc32": "e7c97e05"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_619700.csv",
+        "bytes": 964,
+        "crc32": "ed381ef2"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_619700.dat",
+        "bytes": 732,
+        "crc32": "28a0539a"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_december_2018_version/statistik/monthly/DRY_radiation_monthly_619700.xlsx",
+        "bytes": 13708,
+        "crc32": "2994f096"
+      },
+      {
+        "name": "02. Weatherfiles/DRY_2001-2010_epw-fil.epw",
+        "bytes": 1781453,
+        "crc32": "49d32968"
+      },
+      {
+        "name": "02. Weatherfiles/FRA_Paris.Orly.071490_IWEC.epw",
+        "bytes": 1547926,
+        "crc32": "d7af61f7"
+      },
+      {
+        "name": "02. Weatherfiles/GBR_London.Gatwick.037760_IWEC.epw",
+        "bytes": 1547758,
+        "crc32": "0f9e7882"
+      },
+      {
+        "name": "02. Weatherfiles/NOR_Oslo.Fornebu.014880_IWEC.epw",
+        "bytes": 1558586,
+        "crc32": "ed6370de"
+      },
+      {
+        "name": "02. Weatherfiles/Other weather files/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "02. Weatherfiles/Other weather files/DEU_Hamburg.101470_IWEC.epw",
+        "bytes": 1548432,
+        "crc32": "cbdc1e32"
+      },
+      {
+        "name": "02. Weatherfiles/Other weather files/DNK_Copenhagen.061800_IWEC.epw",
+        "bytes": 1556586,
+        "crc32": "8739a7ee"
+      },
+      {
+        "name": "02. Weatherfiles/SWE_Stockholm.Arlanda.024600_IWEC.epw",
+        "bytes": 1550263,
+        "crc32": "1032efe4"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "upstream/Daylight_VK-01/01. Add-ins to Grasshopper.zip",
+    "directory": "unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper",
+    "members": [
+      {
+        "name": "Add-ins to Grasshopper/bifocals.gha",
+        "bytes": 27648,
+        "crc32": "55bdfeec"
+      },
+      {
+        "name": "Add-ins to Grasshopper/elefront422.zip",
+        "bytes": 271486,
+        "crc32": "d2dcce54"
+      },
+      {
+        "name": "Add-ins to Grasshopper/honeybee-grasshopper0006.zip",
+        "bytes": 1925754,
+        "crc32": "20b8748e"
+      },
+      {
+        "name": "Add-ins to Grasshopper/huiinstall_1.msi",
+        "bytes": 1134592,
+        "crc32": "700bf462"
+      },
+      {
+        "name": "Add-ins to Grasshopper/human.gha",
+        "bytes": 410112,
+        "crc32": "0825f43b"
+      },
+      {
+        "name": "Add-ins to Grasshopper/Ironbug.LBHB_Legacy.gha",
+        "bytes": 66560,
+        "crc32": "0e65ee97"
+      },
+      {
+        "name": "Add-ins to Grasshopper/ladybug-tools-1-1-0.zip",
+        "bytes": 4331729,
+        "crc32": "4d957486"
+      },
+      {
+        "name": "Add-ins to Grasshopper/lunchbox.installer.application",
+        "bytes": 9775,
+        "crc32": "0ae82643"
+      },
+      {
+        "name": "Add-ins to Grasshopper/metahopper_0.gha",
+        "bytes": 269312,
+        "crc32": "3948ac4b"
+      },
+      {
+        "name": "Add-ins to Grasshopper/pufferfish2-9.zip",
+        "bytes": 1330268,
+        "crc32": "98b2d7e3"
+      },
+      {
+        "name": "Add-ins to Grasshopper/TreeFrog.gha",
+        "bytes": 29696,
+        "crc32": "f1cf8eda"
+      },
+      {
+        "name": "Add-ins to Grasshopper/tttoolbox1-9.zip",
+        "bytes": 2658163,
+        "crc32": "082b999f"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/elefront422.zip",
+    "directory": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/elefront422",
+    "members": [
+      {
+        "name": "elefront421/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "elefront421/Elefront.gha",
+        "bytes": 617984,
+        "crc32": "9845e138"
+      },
+      {
+        "name": "elefront421/ElefrontProperties.rhp",
+        "bytes": 141312,
+        "crc32": "ee1d1cd5"
+      },
+      {
+        "name": "elefront421/Readme.txt",
+        "bytes": 540,
+        "crc32": "3bac6389"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/honeybee-grasshopper0006.zip",
+    "directory": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/honeybee-grasshopper0006",
+    "members": [
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/__init__.py",
+        "bytes": 508,
+        "crc32": "ccc77720"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/_hbanalysissurface.py",
+        "bytes": 27028,
+        "crc32": "db8cb5ee"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/config.json",
+        "bytes": 183,
+        "crc32": "b39802a0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/config.py",
+        "bytes": 9686,
+        "crc32": "5e65affd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/dataoperation.py",
+        "bytes": 3971,
+        "crc32": "c5b5ed64"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/energyplus/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/energyplus/__init__.py",
+        "bytes": 38,
+        "crc32": "e415ab2d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/energyplus/filemanager.py",
+        "bytes": 3092,
+        "crc32": "99106069"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/energyplus/geometryrules.py",
+        "bytes": 413,
+        "crc32": "2c80b529"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/exception.py",
+        "bytes": 1367,
+        "crc32": "8b97d593"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/futil.py",
+        "bytes": 5825,
+        "crc32": "c5733bb7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/geometryoperation.py",
+        "bytes": 3817,
+        "crc32": "e7b45518"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/hbdynamicsurface.py",
+        "bytes": 1952,
+        "crc32": "6d1ae780"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/hbfensurface.py",
+        "bytes": 8082,
+        "crc32": "57b4d094"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/hbobject.py",
+        "bytes": 283,
+        "crc32": "ee2c273c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/hbshadesurface.py",
+        "bytes": 3980,
+        "crc32": "96631720"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/hbsurface.py",
+        "bytes": 11728,
+        "crc32": "16394cfa"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/hbzone.py",
+        "bytes": 8428,
+        "crc32": "9f395f96"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/plus.py",
+        "bytes": 8260,
+        "crc32": "2b8af8c0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/__init__.py",
+        "bytes": 36,
+        "crc32": "4fa9694c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/analysisgrid.py",
+        "bytes": 38132,
+        "crc32": "5476400a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/analysisgridlite.py",
+        "bytes": 5834,
+        "crc32": "2530f339"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/analysispoint.py",
+        "bytes": 38746,
+        "crc32": "ce9f5155"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/analysispointlite.py",
+        "bytes": 4055,
+        "crc32": "fca0e552"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/__init__.py",
+        "bytes": 26,
+        "crc32": "b44a6d8f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/_commandbase.py",
+        "bytes": 9197,
+        "crc32": "058c171f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/dctimestep.py",
+        "bytes": 5297,
+        "crc32": "fe05adc1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/epw2wea.py",
+        "bytes": 2344,
+        "crc32": "f9486ef0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/falsecolor.py",
+        "bytes": 2641,
+        "crc32": "dc1d00c3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/genBSDF.py",
+        "bytes": 6725,
+        "crc32": "50a2a29a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/gendaylit.py",
+        "bytes": 4393,
+        "crc32": "91c64544"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/gendaymtx.py",
+        "bytes": 4320,
+        "crc32": "2ba72efe"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/gensky.py",
+        "bytes": 7060,
+        "crc32": "9dc0d5b9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/genskyvec.py",
+        "bytes": 2932,
+        "crc32": "dc377f3d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/getbbox.py",
+        "bytes": 2062,
+        "crc32": "c138154b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/getinfo.py",
+        "bytes": 1920,
+        "crc32": "8d4c680e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/mkpmap.py",
+        "bytes": 1705,
+        "crc32": "713c7df4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/objview.py",
+        "bytes": 4827,
+        "crc32": "099b0f31"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/oconv.py",
+        "bytes": 4499,
+        "crc32": "7f60cf92"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/pcomb.py",
+        "bytes": 4483,
+        "crc32": "55760c77"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/pyRad/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/pyRad/__init__.py",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/pyRad/objview.py",
+        "bytes": 11017,
+        "crc32": "2a44ec51"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/pyRad/pyRadLib/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/pyRad/pyRadLib/__init__.py",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/pyRad/pyRadLib/pyrad_proc.py",
+        "bytes": 12028,
+        "crc32": "ecc9347a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/raBmp.py",
+        "bytes": 1798,
+        "crc32": "384baf36"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/raTiff.py",
+        "bytes": 2543,
+        "crc32": "8bb12808"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/rcalc.py",
+        "bytes": 2324,
+        "crc32": "39ffa1b5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/rcollate.py",
+        "bytes": 1388,
+        "crc32": "5b9495c7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/rcontrib.py",
+        "bytes": 5384,
+        "crc32": "3f6c59f4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/rfluxmtx.py",
+        "bytes": 16709,
+        "crc32": "f48eb140"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/rmtxop.py",
+        "bytes": 7481,
+        "crc32": "63aea590"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/rpict.py",
+        "bytes": 3904,
+        "crc32": "c8350233"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/rtrace.py",
+        "bytes": 4807,
+        "crc32": "92eb991e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/vwrays.py",
+        "bytes": 2557,
+        "crc32": "60a71e0a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/command/xform.py",
+        "bytes": 7455,
+        "crc32": "3d9ec773"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/datatype.py",
+        "bytes": 33474,
+        "crc32": "1085a740"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/factory.py",
+        "bytes": 4561,
+        "crc32": "0abd49e6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/__init__.py",
+        "bytes": 155,
+        "crc32": "819e60bd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/bubble.py",
+        "bytes": 310,
+        "crc32": "5e4ecbbf"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/cone.py",
+        "bytes": 4873,
+        "crc32": "bf282a6b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/cup.py",
+        "bytes": 648,
+        "crc32": "e394a4d6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/cylinder.py",
+        "bytes": 4317,
+        "crc32": "7c17d728"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/geometrybase.py",
+        "bytes": 955,
+        "crc32": "fa1db6ef"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/instance.py",
+        "bytes": 1552,
+        "crc32": "fbfbf6be"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/mesh.py",
+        "bytes": 1507,
+        "crc32": "5b85684a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/polygon.py",
+        "bytes": 3534,
+        "crc32": "f9179b23"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/ring.py",
+        "bytes": 4685,
+        "crc32": "0f14ba49"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/source.py",
+        "bytes": 3544,
+        "crc32": "d1dd8be7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/sphere.py",
+        "bytes": 3320,
+        "crc32": "3c685fb9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/geometry/tube.py",
+        "bytes": 463,
+        "crc32": "80e2321f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/__init__.py",
+        "bytes": 27,
+        "crc32": "a7837b85"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/antimatter.py",
+        "bytes": 999,
+        "crc32": "5c04ca96"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/ashik2.py",
+        "bytes": 835,
+        "crc32": "30163413"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/brtdfunc.py",
+        "bytes": 2674,
+        "crc32": "253c3052"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/bsdf.py",
+        "bytes": 6651,
+        "crc32": "08dfd4e9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/dielectric.py",
+        "bytes": 974,
+        "crc32": "9d3a857f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/glass.py",
+        "bytes": 7395,
+        "crc32": "d881c067"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/glow.py",
+        "bytes": 4704,
+        "crc32": "b5d4ea3a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/illum.py",
+        "bytes": 849,
+        "crc32": "af28584e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/interface.py",
+        "bytes": 679,
+        "crc32": "89fc58ca"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/light.py",
+        "bytes": 4238,
+        "crc32": "8f8cc3b8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/materialbase.py",
+        "bytes": 641,
+        "crc32": "7441fedc"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/metal.py",
+        "bytes": 7504,
+        "crc32": "a48fe124"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/metal2.py",
+        "bytes": 436,
+        "crc32": "03b48015"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/metdata.py",
+        "bytes": 508,
+        "crc32": "12edbd76"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/metfunc.py",
+        "bytes": 475,
+        "crc32": "c969505b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/mirror.py",
+        "bytes": 5329,
+        "crc32": "c261bdd7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/mist.py",
+        "bytes": 3515,
+        "crc32": "e765f8d5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/plasdata.py",
+        "bytes": 1247,
+        "crc32": "99ab15c4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/plasfunc.py",
+        "bytes": 1486,
+        "crc32": "af86b7be"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/plastic.py",
+        "bytes": 8226,
+        "crc32": "6f4855b7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/plastic2.py",
+        "bytes": 1462,
+        "crc32": "a82d6bd1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/prism1.py",
+        "bytes": 1192,
+        "crc32": "85ce8264"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/prism2.py",
+        "bytes": 576,
+        "crc32": "ef42e12a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/spotlight.py",
+        "bytes": 763,
+        "crc32": "ad50bea7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/trans.py",
+        "bytes": 12644,
+        "crc32": "6b6a9260"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/trans2.py",
+        "bytes": 663,
+        "crc32": "94c9129c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/transdata.py",
+        "bytes": 663,
+        "crc32": "be925bfa"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/material/transfunc.py",
+        "bytes": 885,
+        "crc32": "25f5028e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/mixture/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/mixture/__init__.py",
+        "bytes": 180,
+        "crc32": "47e872eb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/mixture/mixdata.py",
+        "bytes": 572,
+        "crc32": "7a4360e3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/mixture/mixfunc.py",
+        "bytes": 1006,
+        "crc32": "efa3b965"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/mixture/mixpict.py",
+        "bytes": 692,
+        "crc32": "96e0a28f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/mixture/mixtext.py",
+        "bytes": 897,
+        "crc32": "bf56dcd8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/mixture/mixturebase.py",
+        "bytes": 1161,
+        "crc32": "072e00cf"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/__init__.py",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/_advancedparametersbase.py",
+        "bytes": 14458,
+        "crc32": "41251d62"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/_defaultset.py",
+        "bytes": 4995,
+        "crc32": "ad1045c5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/_frozen.py",
+        "bytes": 2220,
+        "crc32": "7c77e71b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/_parametersbase.py",
+        "bytes": 10542,
+        "crc32": "66f162a9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/dctimestep.py",
+        "bytes": 1161,
+        "crc32": "c33bd0a9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/falsecolor.py",
+        "bytes": 5398,
+        "crc32": "89f7320a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/genBsdf.py",
+        "bytes": 3974,
+        "crc32": "d866d096"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/gendaylit.py",
+        "bytes": 6188,
+        "crc32": "c716e155"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/gendaymtx.py",
+        "bytes": 6127,
+        "crc32": "5704dff9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/gensky.py",
+        "bytes": 7841,
+        "crc32": "d45d2df9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/mkpmap.py",
+        "bytes": 3056,
+        "crc32": "fa6ea09a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/oconv.py",
+        "bytes": 4637,
+        "crc32": "72bbc1ee"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/pcomb.py",
+        "bytes": 1990,
+        "crc32": "666c6791"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/raBmp.py",
+        "bytes": 1625,
+        "crc32": "5c53ed8a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/raTiff.py",
+        "bytes": 2154,
+        "crc32": "17fa74cb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/rcalc.py",
+        "bytes": 2067,
+        "crc32": "f2e03ae4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/rcollate.py",
+        "bytes": 3653,
+        "crc32": "f6918865"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/rcontrib.py",
+        "bytes": 4587,
+        "crc32": "bdf077d6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/rfluxmtx.py",
+        "bytes": 723,
+        "crc32": "048e84b7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/rmtxop.py",
+        "bytes": 2248,
+        "crc32": "957b17af"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/rpict.py",
+        "bytes": 23803,
+        "crc32": "3a95d808"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/rtrace.py",
+        "bytes": 18762,
+        "crc32": "3ea783fb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/vwrays.py",
+        "bytes": 1806,
+        "crc32": "55c13877"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/parameters/xform.py",
+        "bytes": 1431,
+        "crc32": "d3796b2c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/__init__.py",
+        "bytes": 152,
+        "crc32": "a1477c2a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/brightdata.py",
+        "bytes": 554,
+        "crc32": "4dfd9c17"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/brightfunc.py",
+        "bytes": 514,
+        "crc32": "80f07b95"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/brighttext.py",
+        "bytes": 2068,
+        "crc32": "e3b149ff"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/colordata.py",
+        "bytes": 1134,
+        "crc32": "6c3f582d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/colorfunc.py",
+        "bytes": 533,
+        "crc32": "cd0b0002"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/colorpict.py",
+        "bytes": 923,
+        "crc32": "f281c3a8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/colortext.py",
+        "bytes": 1339,
+        "crc32": "438df7ed"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/pattern/patternbase.py",
+        "bytes": 1084,
+        "crc32": "d00c1527"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/primitive.py",
+        "bytes": 16991,
+        "crc32": "9ec39090"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/properties.py",
+        "bytes": 5833,
+        "crc32": "b2fa7acc"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/radfile.py",
+        "bytes": 18386,
+        "crc32": "f75c97bb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/radparser.py",
+        "bytes": 1473,
+        "crc32": "9e0a91b3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/__init__.py",
+        "bytes": 86,
+        "crc32": "78bb29e8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/_gridbasedbase.py",
+        "bytes": 6787,
+        "crc32": "71e9cacd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/_imagebasedbase.py",
+        "bytes": 2465,
+        "crc32": "96d968b8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/_recipebase.py",
+        "bytes": 9235,
+        "crc32": "76eab0e5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/annual/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/annual/__init__.py",
+        "bytes": 41,
+        "crc32": "3b77d278"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/annual/gridbased.py",
+        "bytes": 7315,
+        "crc32": "3b4b1cb9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/daylightcoeff/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/daylightcoeff/__init__.py",
+        "bytes": 130,
+        "crc32": "e6e8ed53"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/daylightcoeff/gridbased.py",
+        "bytes": 17260,
+        "crc32": "e3c0bcf2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/daylightcoeff/imagebased.py",
+        "bytes": 26730,
+        "crc32": "52473fb4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/daylightfactor/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/daylightfactor/__init__.py",
+        "bytes": 32,
+        "crc32": "77711878"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/daylightfactor/gridbased.py",
+        "bytes": 5932,
+        "crc32": "207e7823"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/directreflection/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/directreflection/__init__.py",
+        "bytes": 47,
+        "crc32": "22ff776a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/directreflection/gridbased.py",
+        "bytes": 14940,
+        "crc32": "6505f054"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/fivephase/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/fivephase/__init__.py",
+        "bytes": 36,
+        "crc32": "854325ba"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/fivephase/gridbased.py",
+        "bytes": 9857,
+        "crc32": "357ca515"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/id.py",
+        "bytes": 2661,
+        "crc32": "8304b3eb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/parameters.py",
+        "bytes": 8273,
+        "crc32": "74343ba3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/pointintime/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/pointintime/__init__.py",
+        "bytes": 30,
+        "crc32": "b9758878"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/pointintime/gridbased.py",
+        "bytes": 13600,
+        "crc32": "6acb690d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/pointintime/imagebased.py",
+        "bytes": 8763,
+        "crc32": "3f4cb883"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/radiation/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/radiation/__init__.py",
+        "bytes": 33,
+        "crc32": "36e8f308"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/radiation/gridbased.py",
+        "bytes": 10109,
+        "crc32": "d5052d13"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/recipedcutil.py",
+        "bytes": 38539,
+        "crc32": "952d7b44"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/recipeutil.py",
+        "bytes": 6973,
+        "crc32": "123a72c0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/recipexphaseutil.py",
+        "bytes": 19781,
+        "crc32": "2e9a095d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/solaraccess/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/solaraccess/__init__.py",
+        "bytes": 30,
+        "crc32": "b9758878"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/solaraccess/gridbased.py",
+        "bytes": 17330,
+        "crc32": "10ccfa97"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/threephase/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/threephase/__init__.py",
+        "bytes": 37,
+        "crc32": "43fe2e9e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/recipe/threephase/gridbased.py",
+        "bytes": 13712,
+        "crc32": "eb066943"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/resultcollection/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/resultcollection/__init__.py",
+        "bytes": 84,
+        "crc32": "57a83f4b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/resultcollection/database.py",
+        "bytes": 40217,
+        "crc32": "2b6e2393"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/resultcollection/imagecollection.py",
+        "bytes": 21947,
+        "crc32": "478e4142"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/resultcollection/pointintime.py",
+        "bytes": 6228,
+        "crc32": "629e7158"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/resultcollection/resultgrid.py",
+        "bytes": 13295,
+        "crc32": "36ee6159"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/resultcollection/timeseries.py",
+        "bytes": 27958,
+        "crc32": "0b446123"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/scene.py",
+        "bytes": 15240,
+        "crc32": "0774291b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/__init__.py",
+        "bytes": 23,
+        "crc32": "43196733"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/_pointintimesky.py",
+        "bytes": 4930,
+        "crc32": "0a9e69a9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/_skyBase.py",
+        "bytes": 1037,
+        "crc32": "fd27d839"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/analemma.py",
+        "bytes": 10216,
+        "crc32": "5b06d563"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/certainIlluminance.py",
+        "bytes": 3529,
+        "crc32": "695dd297"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/cie.py",
+        "bytes": 5817,
+        "crc32": "40352a99"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/climatebased.py",
+        "bytes": 5539,
+        "crc32": "5d3d868f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/gendaylit.py",
+        "bytes": 19080,
+        "crc32": "ec1f25b4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/skymatrix.py",
+        "bytes": 9805,
+        "crc32": "90306a86"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/skyvector.py",
+        "bytes": 7719,
+        "crc32": "b4efed50"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/sky/sunmatrix.py",
+        "bytes": 11178,
+        "crc32": "26b7a07e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/staticscene.py",
+        "bytes": 3713,
+        "crc32": "db20c8e3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/texture/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/texture/__init__.py",
+        "bytes": 126,
+        "crc32": "5becc1b2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/texture/texdata.py",
+        "bytes": 783,
+        "crc32": "bbaee500"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/texture/texfunc.py",
+        "bytes": 616,
+        "crc32": "25d9efc0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/texture/texturebase.py",
+        "bytes": 1143,
+        "crc32": "0278cc48"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/radiance/view.py",
+        "bytes": 15337,
+        "crc32": "f108e5c8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/room.py",
+        "bytes": 10301,
+        "crc32": "f174dcc3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/schedule.py",
+        "bytes": 5830,
+        "crc32": "1be0bbfd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/server/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/server/__init__.py",
+        "bytes": 34,
+        "crc32": "91150040"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/server/client.py",
+        "bytes": 819,
+        "crc32": "e11bdbf3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/server/mpupload.py",
+        "bytes": 2208,
+        "crc32": "36ce1deb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/surfaceproperties.py",
+        "bytes": 8533,
+        "crc32": "e23055ef"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/surfacetype.py",
+        "bytes": 8159,
+        "crc32": "afe6c78d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/utilcol.py",
+        "bytes": 1121,
+        "crc32": "7fa4b28f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/vectormath/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/vectormath/__init__.py",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/vectormath/euclid.py",
+        "bytes": 77045,
+        "crc32": "8f84e934"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_plus/windowgroup.py",
+        "bytes": 5914,
+        "crc32": "4ce5fa7d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus Installer.ghuser",
+        "bytes": 6397,
+        "crc32": "4e02b8ef"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Analysis Grid.ghuser",
+        "bytes": 4277,
+        "crc32": "0234b70b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Annual Daylight Metrics.ghuser",
+        "bytes": 5025,
+        "crc32": "97ba0606"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Annual Daylight Recipe.ghuser",
+        "bytes": 4585,
+        "crc32": "0b7fd670"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Annual Radiation Recipe.ghuser",
+        "bytes": 4285,
+        "crc32": "f930c204"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Annual Sunlight Exposure.ghuser",
+        "bytes": 5690,
+        "crc32": "32c04daf"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Certain Illuminance.ghuser",
+        "bytes": 4172,
+        "crc32": "b02449f5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_CIE Standard Sky.ghuser",
+        "bytes": 5131,
+        "crc32": "8909ffd4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_ClearSky.ghuser",
+        "bytes": 4340,
+        "crc32": "08663778"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Climatebased Sky.ghuser",
+        "bytes": 4392,
+        "crc32": "c9df2889"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Cumulative Value.ghuser",
+        "bytes": 4464,
+        "crc32": "ba638109"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Custom Sky.ghuser",
+        "bytes": 5441,
+        "crc32": "51e45567"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Daylight Factor Recipe.ghuser",
+        "bytes": 3641,
+        "crc32": "255df3ea"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_DC Grid-based Daylight Recipe.ghuser",
+        "bytes": 4250,
+        "crc32": "833073b7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_DC Image-based Daylight Recipe.ghuser",
+        "bytes": 4535,
+        "crc32": "58fdef4a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Deconstruct Wea.ghuser",
+        "bytes": 4680,
+        "crc32": "87d98500"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Directional Solar.ghuser",
+        "bytes": 4614,
+        "crc32": "54f0b881"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Dynamic Blinds Schedule.ghuser",
+        "bytes": 4656,
+        "crc32": "00fe30a7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Generate Images.ghuser",
+        "bytes": 4438,
+        "crc32": "bb6ef2b4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Grid-Based Five-Phase Daylight Recipe.ghuser",
+        "bytes": 4598,
+        "crc32": "6b59d4bf"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Grid-Based Recipe.ghuser",
+        "bytes": 4224,
+        "crc32": "45de6c33"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Grid-Based Three-Phase Daylight Recipe.ghuser",
+        "bytes": 4544,
+        "crc32": "b5235d4b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_HDR to Tiff.ghuser",
+        "bytes": 3302,
+        "crc32": "3f540435"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Honeybee Surface.ghuser",
+        "bytes": 4105,
+        "crc32": "40160175"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Honeybee Window Group.ghuser",
+        "bytes": 4415,
+        "crc32": "0af0da1b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Honeybee Window Surface.ghuser",
+        "bytes": 3651,
+        "crc32": "d7204f68"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Hourly Values.ghuser",
+        "bytes": 4439,
+        "crc32": "feff6474"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Image-Based Recipe.ghuser",
+        "bytes": 4390,
+        "crc32": "581e97d9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Maximum Value.ghuser",
+        "bytes": 4366,
+        "crc32": "6ca6b053"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Occupancy Schedule from Week.ghuser",
+        "bytes": 4094,
+        "crc32": "5858a7b7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Occupancy Schedule.ghuser",
+        "bytes": 3618,
+        "crc32": "eb41b56c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance BSDF Material.ghuser",
+        "bytes": 4760,
+        "crc32": "5b5cc6f5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Glass Material 3.ghuser",
+        "bytes": 4471,
+        "crc32": "86eb89a9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Glass Material.ghuser",
+        "bytes": 3750,
+        "crc32": "fe86800c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Mirror Material.ghuser",
+        "bytes": 3677,
+        "crc32": "42856a03"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Opaque Material 3.ghuser",
+        "bytes": 5158,
+        "crc32": "08ea1c5d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Opaque Material.ghuser",
+        "bytes": 4569,
+        "crc32": "56b54b6d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Parameters Grid-based.ghuser",
+        "bytes": 6494,
+        "crc32": "6e3f8cae"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Parameters Image-based.ghuser",
+        "bytes": 6253,
+        "crc32": "cf80ded0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Scene.ghuser",
+        "bytes": 4337,
+        "crc32": "1347d075"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Radiance Trans Material.ghuser",
+        "bytes": 5045,
+        "crc32": "346a63c9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Run Radiance Analysis.ghuser",
+        "bytes": 6670,
+        "crc32": "de3e70e9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Sensor from analysis grid.ghuser",
+        "bytes": 3118,
+        "crc32": "d138abc5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Sensor Hourly Values.ghuser",
+        "bytes": 4385,
+        "crc32": "7e45f131"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Sky Matrix.ghuser",
+        "bytes": 4874,
+        "crc32": "85875b17"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Sky Vector.ghuser",
+        "bytes": 4967,
+        "crc32": "f92e998d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Solar Access Recipe.ghuser",
+        "bytes": 4360,
+        "crc32": "18f4641e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Spatial Daylight Autonomy.ghuser",
+        "bytes": 5515,
+        "crc32": "d9262b44"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Tau Clear Sky from STAT.ghuser",
+        "bytes": 5742,
+        "crc32": "c2471602"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_View.ghuser",
+        "bytes": 4408,
+        "crc32": "6d45cae6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_WEA From EPW.ghuser",
+        "bytes": 4180,
+        "crc32": "7157e437"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_WindowGroup State.ghuser",
+        "bytes": 3602,
+        "crc32": "1e48694d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/honeybee_userobjects/HoneybeePlus_Write HBObjects to Radiance.ghuser",
+        "bytes": 3376,
+        "crc32": "02493e8e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/installer.gh",
+        "bytes": 7346,
+        "crc32": "8ab3ac52"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__init__.py",
+        "bytes": 823,
+        "crc32": "c83dd356"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 755,
+        "crc32": "2125dfdc"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/_datacollectionbase.cpython-37.pyc",
+        "bytes": 39422,
+        "crc32": "155af4e0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/analysisperiod.cpython-37.pyc",
+        "bytes": 16254,
+        "crc32": "9a193d55"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/color.cpython-37.pyc",
+        "bytes": 27722,
+        "crc32": "df5c8179"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/compass.cpython-37.pyc",
+        "bytes": 12941,
+        "crc32": "b32285f3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/config.cpython-37.pyc",
+        "bytes": 4881,
+        "crc32": "ebb99e82"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/datacollection.cpython-37.pyc",
+        "bytes": 51638,
+        "crc32": "2498280b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/datacollectionimmutable.cpython-37.pyc",
+        "bytes": 5298,
+        "crc32": "e303694f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/ddy.cpython-37.pyc",
+        "bytes": 8386,
+        "crc32": "6f3168fc"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/designday.cpython-37.pyc",
+        "bytes": 52887,
+        "crc32": "580ea0f7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/dt.cpython-37.pyc",
+        "bytes": 18775,
+        "crc32": "9ee4bd45"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/epw.cpython-37.pyc",
+        "bytes": 61511,
+        "crc32": "f887654f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/futil.cpython-37.pyc",
+        "bytes": 9886,
+        "crc32": "faaa8a77"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/graphic.cpython-37.pyc",
+        "bytes": 7997,
+        "crc32": "de9c6212"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/header.cpython-37.pyc",
+        "bytes": 5140,
+        "crc32": "f3d769f2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/hourlyplot.cpython-37.pyc",
+        "bytes": 21891,
+        "crc32": "dfe2b16e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/legend.cpython-37.pyc",
+        "bytes": 44012,
+        "crc32": "a61c2aa6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/location.cpython-37.pyc",
+        "bytes": 8576,
+        "crc32": "6acf52fb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/logutil.cpython-37.pyc",
+        "bytes": 2089,
+        "crc32": "8377d9d8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/monthlychart.cpython-37.pyc",
+        "bytes": 33419,
+        "crc32": "58ad1e18"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/psychrometrics.cpython-37.pyc",
+        "bytes": 14986,
+        "crc32": "943d0b20"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/rootfinding.cpython-37.pyc",
+        "bytes": 3818,
+        "crc32": "c44ac130"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/skymodel.cpython-37.pyc",
+        "bytes": 51166,
+        "crc32": "4ffc8a97"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/stat.cpython-37.pyc",
+        "bytes": 26214,
+        "crc32": "a49f32de"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/sunpath.cpython-37.pyc",
+        "bytes": 44699,
+        "crc32": "15d40727"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/viewsphere.cpython-37.pyc",
+        "bytes": 19129,
+        "crc32": "006bc601"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/wea.cpython-37.pyc",
+        "bytes": 39056,
+        "crc32": "c1a74701"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/__pycache__/windrose.cpython-37.pyc",
+        "bytes": 28296,
+        "crc32": "ec899ea9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/_datacollectionbase.py",
+        "bytes": 40479,
+        "crc32": "4db1b1ec"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/analysisperiod.py",
+        "bytes": 18320,
+        "crc32": "2bc84a24"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/color.py",
+        "bytes": 22015,
+        "crc32": "96b0b92b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/compass.py",
+        "bytes": 11744,
+        "crc32": "5e1453d1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/config.json",
+        "bytes": 152,
+        "crc32": "7e946e5c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/config.py",
+        "bytes": 5373,
+        "crc32": "024830ae"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datacollection.py",
+        "bytes": 62605,
+        "crc32": "26332541"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datacollectionimmutable.py",
+        "bytes": 4224,
+        "crc32": "e3966cc9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__init__.py",
+        "bytes": 901,
+        "crc32": "74d8a5c8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 1056,
+        "crc32": "ff52f8eb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/angle.cpython-37.pyc",
+        "bytes": 1712,
+        "crc32": "1b0f5c4e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/area.cpython-37.pyc",
+        "bytes": 3773,
+        "crc32": "bf1a6af0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/base.cpython-37.pyc",
+        "bytes": 13487,
+        "crc32": "28b73ca7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/distance.cpython-37.pyc",
+        "bytes": 4167,
+        "crc32": "9ffc0c1c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/energy.cpython-37.pyc",
+        "bytes": 4611,
+        "crc32": "757c6730"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/energyflux.cpython-37.pyc",
+        "bytes": 4376,
+        "crc32": "ca4e2790"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/energyintensity.cpython-37.pyc",
+        "bytes": 4341,
+        "crc32": "e2d85c58"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/fraction.cpython-37.pyc",
+        "bytes": 3925,
+        "crc32": "91c7cf10"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/generic.cpython-37.pyc",
+        "bytes": 3395,
+        "crc32": "1dbe517e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/illuminance.cpython-37.pyc",
+        "bytes": 2119,
+        "crc32": "7620207f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/luminance.cpython-37.pyc",
+        "bytes": 1803,
+        "crc32": "f6c61b27"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/mass.cpython-37.pyc",
+        "bytes": 2760,
+        "crc32": "38672c1b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/massflowrate.cpython-37.pyc",
+        "bytes": 2347,
+        "crc32": "76cd71b8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/power.cpython-37.pyc",
+        "bytes": 3026,
+        "crc32": "7ca086a0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/pressure.cpython-37.pyc",
+        "bytes": 3221,
+        "crc32": "d7602e6c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/rvalue.cpython-37.pyc",
+        "bytes": 2211,
+        "crc32": "c3f4efd7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/specificenergy.cpython-37.pyc",
+        "bytes": 3281,
+        "crc32": "18d7df9b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/speed.cpython-37.pyc",
+        "bytes": 2735,
+        "crc32": "8ae0cad5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/temperature.cpython-37.pyc",
+        "bytes": 3847,
+        "crc32": "7f05b51a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/temperaturedelta.cpython-37.pyc",
+        "bytes": 2426,
+        "crc32": "5ad5dfee"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/temperaturetime.cpython-37.pyc",
+        "bytes": 2981,
+        "crc32": "6d892c7f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/thermalcondition.cpython-37.pyc",
+        "bytes": 4612,
+        "crc32": "57504b41"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/uvalue.cpython-37.pyc",
+        "bytes": 1949,
+        "crc32": "255d9227"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/volume.cpython-37.pyc",
+        "bytes": 4109,
+        "crc32": "75c40dac"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/__pycache__/volumeflowrate.cpython-37.pyc",
+        "bytes": 3400,
+        "crc32": "b53ff6b1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/angle.py",
+        "bytes": 1084,
+        "crc32": "ad71b102"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/area.py",
+        "bytes": 2788,
+        "crc32": "ecfa5be0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/base.py",
+        "bytes": 13164,
+        "crc32": "7e18d61d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/distance.py",
+        "bytes": 2806,
+        "crc32": "4d2bcbf5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/energy.py",
+        "bytes": 2931,
+        "crc32": "690344f6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/energyflux.py",
+        "bytes": 2743,
+        "crc32": "2e8247c5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/energyintensity.py",
+        "bytes": 2666,
+        "crc32": "c9d9bae8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/fraction.py",
+        "bytes": 2253,
+        "crc32": "27f2ec70"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/generic.py",
+        "bytes": 3528,
+        "crc32": "85f2af34"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/illuminance.py",
+        "bytes": 1407,
+        "crc32": "8cf6bf85"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/luminance.py",
+        "bytes": 1281,
+        "crc32": "70ca26ce"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/mass.py",
+        "bytes": 1927,
+        "crc32": "c460a4c3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/massflowrate.py",
+        "bytes": 1684,
+        "crc32": "089d0ee4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/power.py",
+        "bytes": 2084,
+        "crc32": "78092f46"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/pressure.py",
+        "bytes": 2007,
+        "crc32": "3aea883c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/rvalue.py",
+        "bytes": 1535,
+        "crc32": "340385b1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/specificenergy.py",
+        "bytes": 2177,
+        "crc32": "4e29258c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/speed.py",
+        "bytes": 1698,
+        "crc32": "bb6b07a1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/temperature.py",
+        "bytes": 2147,
+        "crc32": "18c53bed"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/temperaturedelta.py",
+        "bytes": 1542,
+        "crc32": "906947d5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/temperaturetime.py",
+        "bytes": 2041,
+        "crc32": "52cea4a5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/thermalcondition.py",
+        "bytes": 3534,
+        "crc32": "3dc39585"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/uvalue.py",
+        "bytes": 1358,
+        "crc32": "90d5be39"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/volume.py",
+        "bytes": 2939,
+        "crc32": "fb58ce81"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/datatype/volumeflowrate.py",
+        "bytes": 2371,
+        "crc32": "747b7490"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/ddy.py",
+        "bytes": 7688,
+        "crc32": "b35af469"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/designday.py",
+        "bytes": 57691,
+        "crc32": "17908b33"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/dt.py",
+        "bytes": 18179,
+        "crc32": "e539d5f9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/epw.py",
+        "bytes": 76898,
+        "crc32": "2d811d13"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/futil.py",
+        "bytes": 11377,
+        "crc32": "4306a821"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/graphic.py",
+        "bytes": 10234,
+        "crc32": "a83f511f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/header.py",
+        "bytes": 4966,
+        "crc32": "699c8c5e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/hourlyplot.py",
+        "bytes": 23631,
+        "crc32": "65d962bb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/legend.py",
+        "bytes": 51908,
+        "crc32": "90a3ecd0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/location.py",
+        "bytes": 8827,
+        "crc32": "ff673d62"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/logutil.py",
+        "bytes": 2362,
+        "crc32": "ba65b04c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/monthlychart.py",
+        "bytes": 43017,
+        "crc32": "18d35000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/psychrometrics.py",
+        "bytes": 17224,
+        "crc32": "24c72396"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/rootfinding.py",
+        "bytes": 3818,
+        "crc32": "0ed0b488"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/skymodel.py",
+        "bytes": 55790,
+        "crc32": "2928ba5f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/stat.py",
+        "bytes": 31851,
+        "crc32": "30b0c55e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/sunpath.py",
+        "bytes": 52045,
+        "crc32": "5bce135a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/viewsphere.py",
+        "bytes": 21960,
+        "crc32": "d57bbedd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/wea.py",
+        "bytes": 50334,
+        "crc32": "e48fc125"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug/windrose.py",
+        "bytes": 34103,
+        "crc32": "3a96be08"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__init__.py",
+        "bytes": 56,
+        "crc32": "923786d0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 222,
+        "crc32": "5aa0b704"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/adaptive.cpython-37.pyc",
+        "bytes": 19853,
+        "crc32": "ae2420a1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/asv.cpython-37.pyc",
+        "bytes": 2130,
+        "crc32": "ccf03a0b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/at.cpython-37.pyc",
+        "bytes": 3186,
+        "crc32": "c689bc64"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/degreetime.cpython-37.pyc",
+        "bytes": 1413,
+        "crc32": "101179a7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/di.cpython-37.pyc",
+        "bytes": 2230,
+        "crc32": "e9ab2b9f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/hi.cpython-37.pyc",
+        "bytes": 3395,
+        "crc32": "182e708f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/humidex.cpython-37.pyc",
+        "bytes": 2671,
+        "crc32": "a31c98e0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/pmv.cpython-37.pyc",
+        "bytes": 17841,
+        "crc32": "2b63b9c3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/solarcal.cpython-37.pyc",
+        "bytes": 31637,
+        "crc32": "9b20371f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/ts.cpython-37.pyc",
+        "bytes": 2397,
+        "crc32": "bdfce76a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/utci.cpython-37.pyc",
+        "bytes": 12694,
+        "crc32": "792a4e76"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/__pycache__/wc.cpython-37.pyc",
+        "bytes": 5436,
+        "crc32": "5311ec26"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/_mannequin/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/_mannequin/seatedspline.csv",
+        "bytes": 95827,
+        "crc32": "06a605a7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/_mannequin/standingspline.csv",
+        "bytes": 95935,
+        "crc32": "9c2f50bf"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/adaptive.py",
+        "bytes": 21945,
+        "crc32": "5015046d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/asv.py",
+        "bytes": 1918,
+        "crc32": "98d95eae"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/at.py",
+        "bytes": 3058,
+        "crc32": "2b5041d0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__init__.py",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 187,
+        "crc32": "0617adfc"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__pycache__/adaptive.cpython-37.pyc",
+        "bytes": 16833,
+        "crc32": "0b37ec3d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__pycache__/base.cpython-37.pyc",
+        "bytes": 3897,
+        "crc32": "af197239"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__pycache__/pmv.cpython-37.pyc",
+        "bytes": 21727,
+        "crc32": "2ab4a57a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__pycache__/solarcal.cpython-37.pyc",
+        "bytes": 20876,
+        "crc32": "09c60c5d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/__pycache__/utci.cpython-37.pyc",
+        "bytes": 20986,
+        "crc32": "75adedf5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/adaptive.py",
+        "bytes": 20487,
+        "crc32": "0a77bdd7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/base.py",
+        "bytes": 3754,
+        "crc32": "a06ac7f1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/pmv.py",
+        "bytes": 24657,
+        "crc32": "4a5fd8eb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/solarcal.py",
+        "bytes": 25508,
+        "crc32": "acf0eb0f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/collection/utci.py",
+        "bytes": 18780,
+        "crc32": "8260fcaa"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/degreetime.py",
+        "bytes": 1146,
+        "crc32": "7eae155f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/di.py",
+        "bytes": 2072,
+        "crc32": "3a1c929c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/hi.py",
+        "bytes": 3354,
+        "crc32": "c42b38e9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/humidex.py",
+        "bytes": 2421,
+        "crc32": "5a070766"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__init__.py",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 186,
+        "crc32": "2e92e552"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__pycache__/_base.cpython-37.pyc",
+        "bytes": 858,
+        "crc32": "0de99b80"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__pycache__/adaptive.cpython-37.pyc",
+        "bytes": 10467,
+        "crc32": "4e39ce2a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__pycache__/pmv.cpython-37.pyc",
+        "bytes": 6112,
+        "crc32": "6704af57"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__pycache__/solarcal.cpython-37.pyc",
+        "bytes": 5970,
+        "crc32": "ec766234"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/__pycache__/utci.cpython-37.pyc",
+        "bytes": 11562,
+        "crc32": "f6fb90b7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/_base.py",
+        "bytes": 420,
+        "crc32": "b4faf37c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/adaptive.py",
+        "bytes": 11165,
+        "crc32": "c85d4d6c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/pmv.py",
+        "bytes": 6051,
+        "crc32": "f7e4d6c5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/solarcal.py",
+        "bytes": 6610,
+        "crc32": "72c41cc5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/parameter/utci.py",
+        "bytes": 13576,
+        "crc32": "bc493f43"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/pmv.py",
+        "bytes": 22870,
+        "crc32": "ff4849ed"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/solarcal.py",
+        "bytes": 35680,
+        "crc32": "0f59c732"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/ts.py",
+        "bytes": 2204,
+        "crc32": "68f84cb1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/utci.py",
+        "bytes": 18575,
+        "crc32": "b7ad86a5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_comfort/wc.py",
+        "bytes": 5284,
+        "crc32": "d546f0d6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__init__.py",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 177,
+        "crc32": "53f7d9f8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__pycache__/_mesh.cpython-37.pyc",
+        "bytes": 13338,
+        "crc32": "66504916"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__pycache__/_polyline.cpython-37.pyc",
+        "bytes": 2725,
+        "crc32": "5e559211"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__pycache__/bounding.cpython-37.pyc",
+        "bytes": 6451,
+        "crc32": "34338cb9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__pycache__/intersection2d.cpython-37.pyc",
+        "bytes": 8454,
+        "crc32": "8ade5f59"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/__pycache__/intersection3d.cpython-37.pyc",
+        "bytes": 6768,
+        "crc32": "21ba2bfb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/_mesh.py",
+        "bytes": 14462,
+        "crc32": "449d55c0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/_polyline.py",
+        "bytes": 2982,
+        "crc32": "38fccfdb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/bounding.py",
+        "bytes": 6777,
+        "crc32": "b5e33995"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__init__.py",
+        "bytes": 247,
+        "crc32": "403da29c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 523,
+        "crc32": "099126a9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/_1d.cpython-37.pyc",
+        "bytes": 4671,
+        "crc32": "b5a93ebe"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/_2d.cpython-37.pyc",
+        "bytes": 4608,
+        "crc32": "65bb67bb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/arc.cpython-37.pyc",
+        "bytes": 16283,
+        "crc32": "25edf849"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/line.cpython-37.pyc",
+        "bytes": 10561,
+        "crc32": "05bbc45b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/mesh.cpython-37.pyc",
+        "bytes": 26080,
+        "crc32": "db09578c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/pointvector.cpython-37.pyc",
+        "bytes": 16121,
+        "crc32": "f5cf2f4e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/polygon.cpython-37.pyc",
+        "bytes": 33673,
+        "crc32": "fccc53c0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/polyline.cpython-37.pyc",
+        "bytes": 13489,
+        "crc32": "476fc45d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/__pycache__/ray.cpython-37.pyc",
+        "bytes": 4254,
+        "crc32": "cfad31e3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/_1d.py",
+        "bytes": 3450,
+        "crc32": "1a1db8d7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/_2d.py",
+        "bytes": 3618,
+        "crc32": "af302067"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/arc.py",
+        "bytes": 15637,
+        "crc32": "b5b7edf9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/line.py",
+        "bytes": 8810,
+        "crc32": "fa020913"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/mesh.py",
+        "bytes": 26493,
+        "crc32": "56319a52"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/pointvector.py",
+        "bytes": 14377,
+        "crc32": "b461de5f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/polygon.py",
+        "bytes": 38602,
+        "crc32": "b7049277"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/polyline.py",
+        "bytes": 11794,
+        "crc32": "5c1d1de6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry2d/ray.py",
+        "bytes": 3193,
+        "crc32": "961557a4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__init__.py",
+        "bytes": 380,
+        "crc32": "43ceb2df"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 706,
+        "crc32": "930e3355"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/_1d.cpython-37.pyc",
+        "bytes": 6162,
+        "crc32": "336d643e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/_2d.cpython-37.pyc",
+        "bytes": 4709,
+        "crc32": "20e06d6a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/arc.cpython-37.pyc",
+        "bytes": 15349,
+        "crc32": "1b8d424e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/cone.cpython-37.pyc",
+        "bytes": 7040,
+        "crc32": "5769e8f6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/cylinder.cpython-37.pyc",
+        "bytes": 7752,
+        "crc32": "19693cf3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/face.cpython-37.pyc",
+        "bytes": 78495,
+        "crc32": "a573a315"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/line.cpython-37.pyc",
+        "bytes": 10877,
+        "crc32": "c81c32c9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/mesh.cpython-37.pyc",
+        "bytes": 25592,
+        "crc32": "9b4b5246"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/plane.cpython-37.pyc",
+        "bytes": 14922,
+        "crc32": "e78ea205"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/pointvector.cpython-37.pyc",
+        "bytes": 17896,
+        "crc32": "0851757e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/polyface.cpython-37.pyc",
+        "bytes": 33828,
+        "crc32": "8dadad26"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/polyline.cpython-37.pyc",
+        "bytes": 13943,
+        "crc32": "06525415"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/ray.cpython-37.pyc",
+        "bytes": 5417,
+        "crc32": "f03e8d25"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/__pycache__/sphere.cpython-37.pyc",
+        "bytes": 8125,
+        "crc32": "a98c6aaa"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/_1d.py",
+        "bytes": 5086,
+        "crc32": "30572dcd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/_2d.py",
+        "bytes": 3830,
+        "crc32": "f2147f00"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/arc.py",
+        "bytes": 13304,
+        "crc32": "b1e07fa8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/cone.py",
+        "bytes": 5992,
+        "crc32": "c7e4b630"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/cylinder.py",
+        "bytes": 6667,
+        "crc32": "a74747e2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/face.py",
+        "bytes": 92528,
+        "crc32": "a6bb02d3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/line.py",
+        "bytes": 9308,
+        "crc32": "7f4e2ef1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/mesh.py",
+        "bytes": 24337,
+        "crc32": "5e2a12a8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/plane.py",
+        "bytes": 14166,
+        "crc32": "0528e1f2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/pointvector.py",
+        "bytes": 16867,
+        "crc32": "e338b194"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/polyface.py",
+        "bytes": 35759,
+        "crc32": "02fc0464"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/polyline.py",
+        "bytes": 11822,
+        "crc32": "2cd8beae"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/ray.py",
+        "bytes": 4219,
+        "crc32": "353c11fd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/geometry3d/sphere.py",
+        "bytes": 6791,
+        "crc32": "a840324a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/intersection2d.py",
+        "bytes": 9773,
+        "crc32": "6fc77a85"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_geometry/intersection3d.py",
+        "bytes": 7513,
+        "crc32": "5a2b0dea"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__init__.py",
+        "bytes": 66,
+        "crc32": "6456f0d5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__main__.py",
+        "bytes": 74,
+        "crc32": "793a8282"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 245,
+        "crc32": "08b371ac"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/__main__.cpython-37.pyc",
+        "bytes": 258,
+        "crc32": "95c2b114"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/bakegeometry.cpython-37.pyc",
+        "bytes": 3653,
+        "crc32": "2699b234"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/bakeobjects.cpython-37.pyc",
+        "bytes": 2151,
+        "crc32": "302e244c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/baketext.cpython-37.pyc",
+        "bytes": 2037,
+        "crc32": "2beb0dbb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/color.cpython-37.pyc",
+        "bytes": 1213,
+        "crc32": "a3743e2f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/colorize.cpython-37.pyc",
+        "bytes": 3145,
+        "crc32": "290b0b56"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/config.cpython-37.pyc",
+        "bytes": 2296,
+        "crc32": "34e0ea19"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/download.cpython-37.pyc",
+        "bytes": 2082,
+        "crc32": "c02d8f4d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/fromgeometry.cpython-37.pyc",
+        "bytes": 8381,
+        "crc32": "afb24a50"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/fromobjects.cpython-37.pyc",
+        "bytes": 5073,
+        "crc32": "ae2782cb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/grasshopper.cpython-37.pyc",
+        "bytes": 10831,
+        "crc32": "5d8bf469"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/intersect.cpython-37.pyc",
+        "bytes": 12896,
+        "crc32": "2b09bb27"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/planarize.cpython-37.pyc",
+        "bytes": 5871,
+        "crc32": "eb7a5eaf"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/pythonpath.cpython-37.pyc",
+        "bytes": 8748,
+        "crc32": "6ec3e4a8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/text.cpython-37.pyc",
+        "bytes": 6894,
+        "crc32": "f9762dba"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/togeometry.cpython-37.pyc",
+        "bytes": 9187,
+        "crc32": "bda78939"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/__pycache__/viewport.cpython-37.pyc",
+        "bytes": 7878,
+        "crc32": "d2edb0c3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/bakegeometry.py",
+        "bytes": 3455,
+        "crc32": "21bd2214"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/bakeobjects.py",
+        "bytes": 2024,
+        "crc32": "62576f65"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/baketext.py",
+        "bytes": 1865,
+        "crc32": "e17a01b5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/cli/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/cli/__init__.py",
+        "bytes": 2389,
+        "crc32": "9d5257f2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/cli/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/cli/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 2410,
+        "crc32": "53a9694a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/color.py",
+        "bytes": 830,
+        "crc32": "c121ef76"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/colorize.py",
+        "bytes": 2231,
+        "crc32": "078764e1"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/config.py",
+        "bytes": 2848,
+        "crc32": "7aa9e637"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/download.py",
+        "bytes": 2202,
+        "crc32": "a0fbfe40"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/fromgeometry.py",
+        "bytes": 7028,
+        "crc32": "55eeb06b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/fromobjects.py",
+        "bytes": 5700,
+        "crc32": "08b05674"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/grasshopper.py",
+        "bytes": 10210,
+        "crc32": "0c2086ba"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/intersect.py",
+        "bytes": 16000,
+        "crc32": "b3152d22"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/planarize.py",
+        "bytes": 6196,
+        "crc32": "69c3a46a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/pythonpath.py",
+        "bytes": 12159,
+        "crc32": "5f0cbeb5"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/text.py",
+        "bytes": 6373,
+        "crc32": "0be9d14b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/togeometry.py",
+        "bytes": 9687,
+        "crc32": "904f95ee"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__init__.py",
+        "bytes": 60,
+        "crc32": "33422503"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/__init__.cpython-37.pyc",
+        "bytes": 250,
+        "crc32": "855a2248"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/component.cpython-37.pyc",
+        "bytes": 7003,
+        "crc32": "4a427606"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/diff.cpython-37.pyc",
+        "bytes": 9453,
+        "crc32": "af707ace"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/export.cpython-37.pyc",
+        "bytes": 2703,
+        "crc32": "f3a6c65d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/gather.cpython-37.pyc",
+        "bytes": 5580,
+        "crc32": "4d2b2de4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/release.cpython-37.pyc",
+        "bytes": 1538,
+        "crc32": "f43fb84a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/__pycache__/userobject.cpython-37.pyc",
+        "bytes": 1953,
+        "crc32": "11a3c5e9"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/component.py",
+        "bytes": 6945,
+        "crc32": "d7f1b9eb"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/diff.py",
+        "bytes": 11245,
+        "crc32": "811bad8a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/export.py",
+        "bytes": 3031,
+        "crc32": "d48961a6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/gather.py",
+        "bytes": 7101,
+        "crc32": "2987d66b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/release.py",
+        "bytes": 1942,
+        "crc32": "f0f9f7d4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/versioning/userobject.py",
+        "bytes": 2512,
+        "crc32": "1b202ca2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_rhino/viewport.py",
+        "bytes": 9023,
+        "crc32": "12d5c791"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Adaptive Comfort Parameters.ghuser",
+        "bytes": 4967,
+        "crc32": "4940c741"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Adaptive Comfort.ghuser",
+        "bytes": 6407,
+        "crc32": "6655f2ae"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Analysis Period.ghuser",
+        "bytes": 4647,
+        "crc32": "c2a910c0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Apply Analysis Period.ghuser",
+        "bytes": 3482,
+        "crc32": "731a0be2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Apply Conditional Statement.ghuser",
+        "bytes": 3177,
+        "crc32": "81b4c16e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Arithmetic Operation.ghuser",
+        "bytes": 6128,
+        "crc32": "098356a6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Calculate HOY.ghuser",
+        "bytes": 4519,
+        "crc32": "3b692649"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Color Range.ghuser",
+        "bytes": 3784,
+        "crc32": "e69b89a0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Comfort Statistics.ghuser",
+        "bytes": 3786,
+        "crc32": "58dbd9b6"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Construct Data Type.ghuser",
+        "bytes": 3566,
+        "crc32": "3ad8798f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Construct Data.ghuser",
+        "bytes": 3976,
+        "crc32": "7a91351c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Construct Header.ghuser",
+        "bytes": 3986,
+        "crc32": "7efe0d48"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Construct Location.ghuser",
+        "bytes": 3564,
+        "crc32": "c08743d2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Convert to Timestep.ghuser",
+        "bytes": 3762,
+        "crc32": "39537c0a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Create Legend.ghuser",
+        "bytes": 4814,
+        "crc32": "e25e4263"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Data to Legacy.ghuser",
+        "bytes": 3905,
+        "crc32": "bec460ab"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Deconstruct Data.ghuser",
+        "bytes": 3795,
+        "crc32": "e2372201"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Deconstruct Design Day.ghuser",
+        "bytes": 5486,
+        "crc32": "074cb9d7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Deconstruct Header.ghuser",
+        "bytes": 4057,
+        "crc32": "481e8a6b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Deconstruct Location.ghuser",
+        "bytes": 3375,
+        "crc32": "62d56b1f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Degree Days.ghuser",
+        "bytes": 4726,
+        "crc32": "484be7f7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Download Weather.ghuser",
+        "bytes": 4840,
+        "crc32": "f2b189a7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB EPWmap.ghuser",
+        "bytes": 3981,
+        "crc32": "d3ae1c5c"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Export UserObject.ghuser",
+        "bytes": 7039,
+        "crc32": "c6e8991f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Generate Point Grid.ghuser",
+        "bytes": 3429,
+        "crc32": "218e058d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Hourly Plot.ghuser",
+        "bytes": 6305,
+        "crc32": "16b13ac3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Humidity Metrics.ghuser",
+        "bytes": 3959,
+        "crc32": "c8dfb25f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Import DDY.ghuser",
+        "bytes": 3842,
+        "crc32": "1d34e1e3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Import Design Day.ghuser",
+        "bytes": 4802,
+        "crc32": "c2c1fe19"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Import EPW.ghuser",
+        "bytes": 6709,
+        "crc32": "ab5cd008"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Import Location.ghuser",
+        "bytes": 3004,
+        "crc32": "fd588cc3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Import STAT.ghuser",
+        "bytes": 5535,
+        "crc32": "9e2dcfce"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Indoor Solar MRT.ghuser",
+        "bytes": 5431,
+        "crc32": "cd12e8f0"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Legend Parameters Categorized.ghuser",
+        "bytes": 6170,
+        "crc32": "80ea76a2"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Legend Parameters.ghuser",
+        "bytes": 5986,
+        "crc32": "ced14559"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Mass Arithmetic Operation.ghuser",
+        "bytes": 5761,
+        "crc32": "c1a1e22d"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Monthly Chart.ghuser",
+        "bytes": 7432,
+        "crc32": "4ee80e4b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Open Directory.ghuser",
+        "bytes": 4512,
+        "crc32": "b5cb0b96"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Orient to Camera.ghuser",
+        "bytes": 4100,
+        "crc32": "e1e48de8"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Outdoor Solar MRT.ghuser",
+        "bytes": 5553,
+        "crc32": "042397c4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB PMV Comfort Parameters.ghuser",
+        "bytes": 4086,
+        "crc32": "36ab8a50"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB PMV Comfort.ghuser",
+        "bytes": 7634,
+        "crc32": "23c904fd"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Relative Humidity from Dew Point.ghuser",
+        "bytes": 3788,
+        "crc32": "6b3c22e4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Solar Body Parameters.ghuser",
+        "bytes": 5212,
+        "crc32": "63e4474a"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Solar MRT from Solar Components.ghuser",
+        "bytes": 5127,
+        "crc32": "c0783546"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Spatial Heatmap.ghuser",
+        "bytes": 6630,
+        "crc32": "a5917886"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB SunPath.ghuser",
+        "bytes": 8905,
+        "crc32": "e31af476"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Time Interval Operation.ghuser",
+        "bytes": 3781,
+        "crc32": "f16e23f3"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB To IP.ghuser",
+        "bytes": 4801,
+        "crc32": "806bfd46"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB To SI.ghuser",
+        "bytes": 4841,
+        "crc32": "b4e78d6e"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB To Unit.ghuser",
+        "bytes": 4487,
+        "crc32": "786b2d19"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Unit Converter.ghuser",
+        "bytes": 4686,
+        "crc32": "43a6d7a4"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB UTCI Comfort.ghuser",
+        "bytes": 6970,
+        "crc32": "4a54862f"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Versioner.ghuser",
+        "bytes": 7329,
+        "crc32": "bed9a66b"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/ladybug_userobjects/LB Wind Rose.ghuser",
+        "bytes": 8825,
+        "crc32": "6d8c04f7"
+      },
+      {
+        "name": "honeybee-grasshopper.0.0.06/LICENSE",
+        "bytes": 35815,
+        "crc32": "cb714391"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/ladybug-tools-1-1-0.zip",
+    "directory": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/ladybug-tools-1-1-0",
+    "members": [
+      {
+        "name": "ladybug-tools-1-1-0/installation_instructions.txt",
+        "bytes": 134,
+        "crc32": "0db78d6d"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/installer.gh",
+        "bytes": 15761,
+        "crc32": "4705c3b6"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/LICENSE",
+        "bytes": 35184,
+        "crc32": "1209bcd4"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/alt_weather_data/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/alt_weather_data/07156099999.csv",
+        "bytes": 2144061,
+        "crc32": "5ca37f25"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/alternative_weather.gh",
+        "bytes": 48492,
+        "crc32": "cde967cc"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/from_building_footprints.gh",
+        "bytes": 424627,
+        "crc32": "3c54ebea"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/from_building_solids.gh",
+        "bytes": 604273,
+        "crc32": "fe99e57c"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/load_sharing_example.gh",
+        "bytes": 601894,
+        "crc32": "406b73c0"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/dragonfly/rooms_to_stories_to_building.gh",
+        "bytes": 170259,
+        "crc32": "5d3e3fc5"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee/model_creation_workflows.gh",
+        "bytes": 489368,
+        "crc32": "18daed4b"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee/model_serialization.gh",
+        "bytes": 57389,
+        "crc32": "e252e53e"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/afn_apartment_model.gh",
+        "bytes": 107965,
+        "crc32": "41b08d6d"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/creating_constructions.gh",
+        "bytes": 73067,
+        "crc32": "b6ad02b4"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/creating_programs.gh",
+        "bytes": 62207,
+        "crc32": "37d42ed4"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/creating_schedules.gh",
+        "bytes": 49368,
+        "crc32": "39725e05"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/full_building_energy_model.gh",
+        "bytes": 428148,
+        "crc32": "ea787e88"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/shoe_box_annual_loads.gh",
+        "bytes": 75155,
+        "crc32": "ef4beef4"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/shoe_box_energy_model.gh",
+        "bytes": 75342,
+        "crc32": "123256bf"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-energy/single_family_energy_model.gh",
+        "bytes": 161847,
+        "crc32": "ca3f6d79"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/annual_daylight.gh",
+        "bytes": 65119,
+        "crc32": "47f4d68c"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/creating_modifiers.gh",
+        "bytes": 64956,
+        "crc32": "13e3a0b5"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/creating_skies.gh",
+        "bytes": 42355,
+        "crc32": "9ac8255e"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/daylight_factor.gh",
+        "bytes": 56811,
+        "crc32": "8c1a7be2"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/dynamic_geometry.gh",
+        "bytes": 90240,
+        "crc32": "50ee2320"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/gridbased.gh",
+        "bytes": 72051,
+        "crc32": "12ad534a"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/honeybee-radiance/viewbased.gh",
+        "bytes": 63812,
+        "crc32": "fb14cf4d"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/ladybug/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/ladybug/comfort_in_a_street_canyon.gh",
+        "bytes": 40080,
+        "crc32": "c393d2cd"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/ladybug/direct_sun_study.gh",
+        "bytes": 33820,
+        "crc32": "7db02fde"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/ladybug/outdoor_comfort.gh",
+        "bytes": 38006,
+        "crc32": "df637eb9"
+      },
+      {
+        "name": "ladybug-tools-1-1-0/samples/ladybug/windrose_plot.gh",
+        "bytes": 24364,
+        "crc32": "e89debb4"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/pufferfish2-9.zip",
+    "directory": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/pufferfish2-9",
+    "members": [
+      {
+        "name": "Pufferfish2-9/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Average SubD.ghuser",
+        "bytes": 8839,
+        "crc32": "248dcc2a"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Mirror Cut SubD.ghuser",
+        "bytes": 12431,
+        "crc32": "f3ca81e7"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Tween Consecutive SubDs.ghuser",
+        "bytes": 10303,
+        "crc32": "0393d588"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Tween Through SubDs.ghuser",
+        "bytes": 11394,
+        "crc32": "f147405a"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Tween Two SubDs.ghuser",
+        "bytes": 9303,
+        "crc32": "7de77dd2"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Twisted Box Consecutive SubDs.ghuser",
+        "bytes": 8334,
+        "crc32": "495bbad2"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Twisted Box SubD.ghuser",
+        "bytes": 6907,
+        "crc32": "2206ee30"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Twisted Box Through SubDs.ghuser",
+        "bytes": 9207,
+        "crc32": "cf04ee77"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Twisted Box Two SubDs.ghuser",
+        "bytes": 7310,
+        "crc32": "9d7ff920"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish WIP SubD Components/Weighted Average SubD.ghuser",
+        "bytes": 9175,
+        "crc32": "f776a472"
+      },
+      {
+        "name": "Pufferfish2-9/Pufferfish2-9.gha",
+        "bytes": 7222784,
+        "crc32": "069c831e"
+      },
+      {
+        "name": "Pufferfish2-9/READ ME FIRST_Pufferfish Installation and Notes.txt",
+        "bytes": 4885,
+        "crc32": "ced10d0d"
+      }
+    ],
+    "crc_error": null
+  },
+  {
+    "archive": "unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9.zip",
+    "directory": "unpacked/unpacked/upstream/Daylight_VK-01/01. Add-ins to Grasshopper/Add-ins to Grasshopper/tttoolbox1-9",
+    "members": [
+      {
+        "name": "TT_Toolbox_1-9/_INSTALLATION_.txt",
+        "bytes": 505,
+        "crc32": "fb300fb3"
+      },
+      {
+        "name": "TT_Toolbox_1-9/Colibri_GHComponents.pdf",
+        "bytes": 334324,
+        "crc32": "ecd805fd"
+      },
+      {
+        "name": "TT_Toolbox_1-9/Colibri_License.txt",
+        "bytes": 1360,
+        "crc32": "d278decd"
+      },
+      {
+        "name": "TT_Toolbox_1-9/Platypus_License.pdf",
+        "bytes": 155248,
+        "crc32": "6f1cdef5"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/Colibri_Advanced.gh",
+        "bytes": 37048,
+        "crc32": "6712eb39"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/Colibri_BasicStart.gh",
+        "bytes": 30046,
+        "crc32": "5544cf94"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/Colibri_WorkWithGalapagos.gh",
+        "bytes": 11623,
+        "crc32": "e44d5efd"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_ExcelListener.xlsx",
+        "bytes": 16909,
+        "crc32": "241238fc"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Platypus_GhToGh_pull.gh",
+        "bytes": 33714,
+        "crc32": "571c2bf7"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Platypus_GhToGh_push.gh",
+        "bytes": 42427,
+        "crc32": "8692bbea"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Platypus_StreamGeometrySliders.gh",
+        "bytes": 36507,
+        "crc32": "cfbac2f1"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Sample_release1.7.3dm",
+        "bytes": 409424,
+        "crc32": "14dcbf81"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Sample_release1.7.gh",
+        "bytes": 106172,
+        "crc32": "80e122af"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Spectacles_MeshColoredFaces.gh",
+        "bytes": 41605,
+        "crc32": "56e7c394"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Spectacles_MeshLambert_LineBasic.gh",
+        "bytes": 40621,
+        "crc32": "62519890"
+      },
+      {
+        "name": "TT_Toolbox_1-9/sample files/TT_Toolbox_Spectacles_MeshPhong.gh",
+        "bytes": 44772,
+        "crc32": "ff9c0de4"
+      },
+      {
+        "name": "TT_Toolbox_1-9/Spectacles.GrasshopperExporter_License.txt",
+        "bytes": 1106,
+        "crc32": "90c8ae6e"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/",
+        "bytes": 0,
+        "crc32": "00000000"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/3dPlatypus.gha",
+        "bytes": 152576,
+        "crc32": "14edaecf"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/Colibri.Grasshopper.gha",
+        "bytes": 125952,
+        "crc32": "116cc231"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/CORE.Grasshopper.Public.gha",
+        "bytes": 1297408,
+        "crc32": "99c3b044"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/CORE.Library.Office.dll",
+        "bytes": 55296,
+        "crc32": "dcaf473d"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/MySql.Data.dll",
+        "bytes": 424448,
+        "crc32": "18142cb6"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/Newtonsoft.Json.dll",
+        "bytes": 526336,
+        "crc32": "da220ecc"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/SocketIOClient.dll",
+        "bytes": 33792,
+        "crc32": "9ee24d35"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/Spectacles.Grasshopper.gha",
+        "bytes": 229376,
+        "crc32": "03625673"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox/WebSocket4Net.dll",
+        "bytes": 101888,
+        "crc32": "99c8b7af"
+      },
+      {
+        "name": "TT_Toolbox_1-9/TT Toolbox_License.pdf",
+        "bytes": 155180,
+        "crc32": "ef2368da"
+      }
+    ],
+    "crc_error": null
+  }
+]

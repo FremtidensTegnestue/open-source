@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-17T20:29:50.536440+00:00",
+  "unit_and_integration_tests": {
+    "passed": 40,
+    "command": "python3 -m unittest discover -s tests -v"
+  },
+  "model_controls": {
+    "passed": 10,
+    "mass_checks": 10,
+    "separate_climate_module_checks": 40,
+    "command": "python3 examples/run_controls.py",
+    "report": "examples/reports/validation-summary.json"
+  },
+  "additional_checks": [
+    "Published USDA moisture example on actual Solidcraft model",
+    "Original ILCD1000kg declared reference quantity",
+    "Missing/mixed model material guards",
+    "Input/source models preserved",
+    "Model quantity precision bound propagated"
+  ],
+  "agent_skill_validation": {
+    "format": "passed",
+    "independent_forward_test": "passed",
+    "artifacts": "examples/agent-forward-test",
+    "scenario": "Solidcraft steel model, source record selected from fresh CLI queries, A1-A3 checked against original workbook"
+  },
+  "scope": "Source-bound homogeneous control cases and documented adapter semantics; no automatic product equivalence or full-building certification"
+}

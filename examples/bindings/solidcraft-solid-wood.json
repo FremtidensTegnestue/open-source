@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model_sha256": "aa2696eb1433beef39c57402667c2e41f9f9953442e8f5c47d13d905f758f621",
+  "elements": {
+    "solidcraft:WoodControl": {
+      "material_id": "br18:t7:B1318:row2",
+      "model_material_name": "Krydslamineret træ, CLT (Forbrænding EoL)",
+      "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+      "density_observation_id": "br18:t7:B1318:row2:mass",
+      "gwp_observation_ids": [
+        "br18:t7:B1318:row2:gwp:A1-A3",
+        "br18:t7:B1318:row2:gwp:C3",
+        "br18:t7:B1318:row2:gwp:C4",
+        "br18:t7:B1318:row2:gwp:D"
+      ]
+    }
+  }
+}

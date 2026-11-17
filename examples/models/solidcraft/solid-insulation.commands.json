@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 1500,
+        "width": 600,
+        "height": 150,
+        "body_name": "InsulationControl"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Polystyren skumfyldning (uden bindemiddel)",
+        "density_g_cm3": 0.015
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "InsulationControl"
+        ],
+        "material": "Polystyren skumfyldning (uden bindemiddel)"
+      }
+    }
+  ]
+}

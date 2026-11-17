@@ -1,0 +1,589 @@
+[
+  {
+    "step": "version-solidcraft",
+    "command": [
+      "solidcraft-cli",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0021
+  },
+  {
+    "step": "version-bimcraft",
+    "command": [
+      "bimcraft-cli",
+      "--version"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0062
+  },
+  {
+    "step": "base-create",
+    "command": [
+      "solidcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/create-solidcraft.json",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.sc",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/transfer.glb",
+      "--results",
+      "--param-check",
+      "strict"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0421
+  },
+  {
+    "step": "base-source-eval",
+    "command": [
+      "solidcraft-cli",
+      "eval",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.sc"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0187
+  },
+  {
+    "step": "base-cad-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.sc",
+      "--software",
+      "solidcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/solid-extract.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0623
+  },
+  {
+    "step": "base-cad-assess",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.sc",
+      "--software",
+      "solidcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/solid-assessment.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/solid-bindings.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0595
+  },
+  {
+    "step": "base-bim-import",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "--cmd",
+      "new {\"name\": \"Three-part material workflow base\"}",
+      "--cmd",
+      "import_mesh {\"path\": \"/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/transfer.glb\"}",
+      "--cmd",
+      "elements {\"category\": \"component\"}",
+      "--cmd",
+      "family {\"name\": \"ConcretePanel\"}",
+      "--cmd",
+      "family {\"name\": \"Rail_A\"}",
+      "--cmd",
+      "family {\"name\": \"Rail_B\"}",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/unbound.bimc"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0248
+  },
+  {
+    "step": "base-unbound-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/unbound.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/unbound-extract.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0934
+  },
+  {
+    "step": "base-unbound-assess",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/unbound.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/unbound-assessment.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/unbound-bindings.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 2,
+    "elapsed_seconds": 0.0844
+  },
+  {
+    "step": "base-bim-material-map",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/unbound.bimc",
+      "--cmd",
+      "material {\"name\": \"Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1\"}",
+      "--cmd",
+      "material {\"name\": \"Konstruktionsstål, valsede profiler, lille forarbejdning\"}",
+      "--cmd",
+      "family {\"name\": \"ConcretePanel\", \"form\": {\"id\": 998933, \"material\": \"Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1\"}}",
+      "--cmd",
+      "family {\"name\": \"Rail_A\", \"form\": {\"id\": 998932, \"material\": \"Konstruktionsstål, valsede profiler, lille forarbejdning\"}}",
+      "--cmd",
+      "family {\"name\": \"Rail_B\", \"form\": {\"id\": 998931, \"material\": \"Konstruktionsstål, valsede profiler, lille forarbejdning\"}}",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0332
+  },
+  {
+    "step": "base-bim-default-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/bim-default-extract.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.074
+  },
+  {
+    "step": "base-bim-mesh-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/bim-extract.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.1022
+  },
+  {
+    "step": "base-family-check-ConcretePanel",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--cmd",
+      "family {\"name\": \"ConcretePanel\"}"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0337
+  },
+  {
+    "step": "base-family-check-Rail_A",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--cmd",
+      "family {\"name\": \"Rail_A\"}"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0221
+  },
+  {
+    "step": "base-family-check-Rail_B",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--cmd",
+      "family {\"name\": \"Rail_B\"}"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0339
+  },
+  {
+    "step": "base-bim-assess",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/bim-assessment.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/bim-bindings.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.1171
+  },
+  {
+    "step": "base-bim-export",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.bimc",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/roundtrip.glb"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0334
+  },
+  {
+    "step": "base-roundtrip-eval",
+    "command": [
+      "solidcraft-cli",
+      "eval",
+      "--in",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/roundtrip.glb"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0046
+  },
+  {
+    "step": "base-snapshot",
+    "command": [
+      "solidcraft-cli",
+      "snapshot",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.sc",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.png",
+      "--width",
+      "1200",
+      "--height",
+      "900",
+      "--view",
+      "iso",
+      "--no-grid",
+      "--no-axes"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.7355
+  },
+  {
+    "step": "revised-edit",
+    "command": [
+      "solidcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revise-solidcraft.json",
+      "--in",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/model.sc",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.sc",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/transfer.glb",
+      "--results",
+      "--param-check",
+      "strict"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0395
+  },
+  {
+    "step": "revised-source-eval",
+    "command": [
+      "solidcraft-cli",
+      "eval",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.sc"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0277
+  },
+  {
+    "step": "revised-cad-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.sc",
+      "--software",
+      "solidcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/solid-extract.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.071
+  },
+  {
+    "step": "revised-cad-assess",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.sc",
+      "--software",
+      "solidcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/solid-assessment.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/solid-bindings.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.056
+  },
+  {
+    "step": "revised-bim-import",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "--cmd",
+      "new {\"name\": \"Three-part material workflow revised\"}",
+      "--cmd",
+      "import_mesh {\"path\": \"/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/transfer.glb\"}",
+      "--cmd",
+      "elements {\"category\": \"component\"}",
+      "--cmd",
+      "family {\"name\": \"ConcretePanel\"}",
+      "--cmd",
+      "family {\"name\": \"Rail_A\"}",
+      "--cmd",
+      "family {\"name\": \"Rail_B\"}",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/unbound.bimc"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0361
+  },
+  {
+    "step": "revised-unbound-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/unbound.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/unbound-extract.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.1252
+  },
+  {
+    "step": "revised-unbound-assess",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/unbound.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/unbound-assessment.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/unbound-bindings.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 2,
+    "elapsed_seconds": 0.1064
+  },
+  {
+    "step": "revised-bim-material-map",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/unbound.bimc",
+      "--cmd",
+      "material {\"name\": \"Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1\"}",
+      "--cmd",
+      "material {\"name\": \"Konstruktionsstål, valsede profiler, lille forarbejdning\"}",
+      "--cmd",
+      "family {\"name\": \"ConcretePanel\", \"form\": {\"id\": 998933, \"material\": \"Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1\"}}",
+      "--cmd",
+      "family {\"name\": \"Rail_A\", \"form\": {\"id\": 998932, \"material\": \"Konstruktionsstål, valsede profiler, lille forarbejdning\"}}",
+      "--cmd",
+      "family {\"name\": \"Rail_B\", \"form\": {\"id\": 998931, \"material\": \"Konstruktionsstål, valsede profiler, lille forarbejdning\"}}",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0322
+  },
+  {
+    "step": "revised-bim-default-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/bim-default-extract.json"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0693
+  },
+  {
+    "step": "revised-bim-mesh-extract",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "extract",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/bim-extract.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.1059
+  },
+  {
+    "step": "revised-family-check-ConcretePanel",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--cmd",
+      "family {\"name\": \"ConcretePanel\"}"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.023
+  },
+  {
+    "step": "revised-family-check-Rail_A",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--cmd",
+      "family {\"name\": \"Rail_A\"}"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0287
+  },
+  {
+    "step": "revised-family-check-Rail_B",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--cmd",
+      "family {\"name\": \"Rail_B\"}"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0214
+  },
+  {
+    "step": "revised-bim-assess",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/bim-assessment.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/bim-bindings.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0922
+  },
+  {
+    "step": "revised-bim-export",
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--save",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/roundtrip.glb"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0343
+  },
+  {
+    "step": "revised-roundtrip-eval",
+    "command": [
+      "solidcraft-cli",
+      "eval",
+      "--in",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/roundtrip.glb"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.0055
+  },
+  {
+    "step": "revised-snapshot",
+    "command": [
+      "solidcraft-cli",
+      "snapshot",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.sc",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.png",
+      "--width",
+      "1200",
+      "--height",
+      "900",
+      "--view",
+      "iso",
+      "--no-grid",
+      "--no-axes"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.7128
+  },
+  {
+    "step": "stale-solid-binding-rejected",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.sc",
+      "--software",
+      "solidcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/stale-solid-result.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/solid-bindings.json"
+    ],
+    "returncode": 1,
+    "elapsed_seconds": 0.0558
+  },
+  {
+    "step": "stale-bim-binding-rejected",
+    "command": [
+      "/usr/bin/python3",
+      "/home/admin/Fremtidenstegnestue/open-source/materials.py",
+      "assess",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--software",
+      "bimcraft",
+      "--out",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/stale-bim-result.json",
+      "--bindings",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/base/bim-bindings.json",
+      "--mesh-quantities"
+    ],
+    "returncode": 1,
+    "elapsed_seconds": 0.0901
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 1200,
+        "width": 800,
+        "height": 8,
+        "body_name": "GlassControl"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Glasbyggesten",
+        "density_g_cm3": 2.5
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "GlassControl"
+        ],
+        "material": "Glasbyggesten"
+      }
+    }
+  ]
+}

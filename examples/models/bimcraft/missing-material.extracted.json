@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "software": "bimcraft",
+  "software_version": "bimcraft-cli 0.12.0",
+  "model": {
+    "path": "/tmp/materials-bim-integration/examples/models/bimcraft/missing-material.bimc",
+    "sha256": "41a4b3e5408d89fe275be4fb56f2ca6521718feec0f556dc75182651328f451d"
+  },
+  "extraction": {
+    "commands": [
+      [
+        "bimcraft-cli",
+        "run",
+        "/tmp/materials-bim-integration/examples/models/bimcraft/missing-material.bimc",
+        "--cmd",
+        "inspect {}",
+        "--cmd",
+        "elements {\"limit\":1000,\"offset\":0}"
+      ]
+    ],
+    "notes": [
+      "Source model opened without save; inspect/elements report quantities from BIMcraft.",
+      "BIMcraft volume_m3 and area_m2 are retained without further scaling. Floor volume reporting is rounded to 0.001 m3 in the verified version.",
+      "Only explicit homogeneous assignment is resolved; mixed layers remain unresolved.",
+      "Lengths from elements and type layers are millimetres; normalized dimensions divide by 1000.",
+      "Reported area is category-specific and must not be used blindly as a facade/reference area."
+    ]
+  },
+  "elements": [
+    {
+      "id": "100002",
+      "name": "Unassigned specimen",
+      "material_name": null,
+      "volume_m3": 0.006,
+      "area_m2": 0.3,
+      "dimensions_m": {
+        "thickness": 0.02
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100002,
+        "guid": "ce9c4bc5-0ac3-4744-bc83-d1025a8be703",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "Unassigned specimen"
+        ],
+        "type_record": {
+          "thickness": 20.0
+        },
+        "element_record": {
+          "area_m2": 0.3,
+          "boundary": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1000.0,
+              0.0
+            ],
+            [
+              1000.0,
+              300.0
+            ],
+            [
+              0.0,
+              300.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "ce9c4bc5-0ac3-4744-bc83-d1025a8be703",
+          "id": 100002,
+          "level": "30075cd6-8b15-4ca0-8337-f869561c1b2e",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 20.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "Unassigned specimen",
+          "type_guid": "75ca3aab-2760-4600-b6b6-134e73f8c35c",
+          "volume_m3": 0.006
+        }
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "missing_material",
+      "message": "No explicit homogeneous material assignment was reported.",
+      "element_id": "100002"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100002"
+    }
+  ]
+}

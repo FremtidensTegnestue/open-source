@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 1000,
+        "width": 500,
+        "height": 100,
+        "body_name": "WoodControl"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Krydslamineret tr\u00e6, CLT (Forbr\u00e6nding EoL)",
+        "density_g_cm3": 0.47
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "WoodControl"
+        ],
+        "material": "Krydslamineret tr\u00e6, CLT (Forbr\u00e6nding EoL)"
+      }
+    }
+  ]
+}

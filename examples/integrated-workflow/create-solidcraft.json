@@ -1,0 +1,116 @@
+{
+  "commands": [
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "plate_thickness",
+        "expression": "100 mm"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 1500,
+        "width": 1000,
+        "height": "plate_thickness",
+        "body_name": "ConcretePanel"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 300,
+        "width": 200,
+        "height": "plate_thickness",
+        "corner": [
+          600,
+          400,
+          0
+        ],
+        "body_name": "OpeningTool"
+      }
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "ConcretePanel",
+        "tools": [
+          "OpeningTool"
+        ],
+        "operation": "cut",
+        "keep_tools": false
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 1000,
+        "width": 80,
+        "height": 10,
+        "corner": [
+          250,
+          50,
+          "plate_thickness"
+        ],
+        "body_name": "Rail_A"
+      }
+    },
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 1000,
+        "width": 80,
+        "height": 10,
+        "corner": [
+          250,
+          870,
+          "plate_thickness"
+        ],
+        "body_name": "Rail_B"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+        "density_g_cm3": 2.246,
+        "color": "#b7b6ad"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+        "density_g_cm3": 7.85,
+        "color": "#526677"
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "ConcretePanel"
+        ],
+        "material": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1"
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "Rail_A"
+        ],
+        "material": "Konstruktionsstål, valsede profiler, lille forarbejdning"
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "Rail_B"
+        ],
+        "material": "Konstruktionsstål, valsede profiler, lille forarbejdning"
+      }
+    }
+  ]
+}

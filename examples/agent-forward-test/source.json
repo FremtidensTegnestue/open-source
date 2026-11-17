@@ -1,0 +1,27 @@
+[
+  {
+    "id": "br18:source:table-7-2025.xlsx",
+    "dataset_id": "br18",
+    "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+    "publisher": "Social- og Boligstyrelsen",
+    "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+    "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+    "local_path": "data/raw/br18/table-7-2025.xlsx",
+    "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+    "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+    "license_status": "unknown",
+    "metadata": {
+      "id": "br18:source:table-7-2025.xlsx",
+      "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+      "publisher": "Social- og Boligstyrelsen",
+      "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+      "local_path": "data/raw/br18/table-7-2025.xlsx",
+      "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "media_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+      "license_status": "unknown"
+    }
+  }
+]

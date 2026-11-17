@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model_sha256": "349cdecc1509911f5b0867116ac38934d7c9bdf7b960fbcdc652715498ff13d1",
+  "elements": {
+    "solidcraft:ConcreteControl": {
+      "material_id": "br18:t7:B1433:row25",
+      "model_material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+      "density_observation_id": "br18:t7:B1433:row25:mass",
+      "gwp_observation_ids": [
+        "br18:t7:B1433:row25:gwp:A1-A3",
+        "br18:t7:B1433:row25:gwp:C3",
+        "br18:t7:B1433:row25:gwp:C4",
+        "br18:t7:B1433:row25:gwp:D"
+      ]
+    }
+  }
+}

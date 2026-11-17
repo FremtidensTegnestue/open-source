@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "software": "bimcraft",
+  "software_version": "bimcraft-cli 0.12.0",
+  "model": {
+    "path": "/tmp/materials-bim-integration/examples/models/bimcraft/controls.ifc",
+    "sha256": "2ae96b9fe711a3a802470522cd5a06b24900718ae5b24a2157fee965994fe49a"
+  },
+  "extraction": {
+    "commands": [
+      [
+        "bimcraft-cli",
+        "run",
+        "/tmp/materials-bim-integration/examples/models/bimcraft/controls.ifc",
+        "--cmd",
+        "inspect {}",
+        "--cmd",
+        "elements {\"limit\":1000,\"offset\":0}"
+      ]
+    ],
+    "notes": [
+      "Source model opened without save; inspect/elements report quantities from BIMcraft.",
+      "BIMcraft volume_m3 and area_m2 are retained without further scaling. Floor volume reporting is rounded to 0.001 m3 in the verified version.",
+      "Only explicit homogeneous assignment is resolved; mixed layers remain unresolved.",
+      "Lengths from elements and type layers are millimetres; normalized dimensions divide by 1000.",
+      "Reported area is category-specific and must not be used blindly as a facade/reference area."
+    ]
+  },
+  "elements": [
+    {
+      "id": "100002",
+      "name": "wood specimen",
+      "material_name": "Krydslamineret træ, CLT (Forbrænding EoL)",
+      "volume_m3": 0.1,
+      "area_m2": 2.0,
+      "dimensions_m": {
+        "thickness": 0.05
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100002,
+        "guid": "30456bd2-f9d2-4efe-ac84-dba1ff283d86",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "wood specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "69264878-feff-4824-b5e6-2b92e22b715e",
+              "id": 999603,
+              "material": "Krydslamineret træ, CLT (Forbrænding EoL)",
+              "thickness": 50.0
+            }
+          ],
+          "thickness": 50.0
+        },
+        "element_record": {
+          "area_m2": 2.0,
+          "boundary": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              2000.0,
+              0.0
+            ],
+            [
+              2000.0,
+              1000.0
+            ],
+            [
+              0.0,
+              1000.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "30456bd2-f9d2-4efe-ac84-dba1ff283d86",
+          "id": 100002,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 50.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "wood specimen",
+          "type_guid": "e6b3466b-37d8-4936-bb5c-c0aaea214708",
+          "volume_m3": 0.1
+        }
+      }
+    },
+    {
+      "id": "100003",
+      "name": "concrete specimen",
+      "material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "volume_m3": 0.096,
+      "area_m2": 0.96,
+      "dimensions_m": {
+        "thickness": 0.1
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100003,
+        "guid": "da04b807-506f-4a69-9ccd-29980e09b722",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "concrete specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "396240ea-2a8b-431a-b2a2-a17ee4f2e34d",
+              "id": 999607,
+              "material": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+              "thickness": 100.0
+            }
+          ],
+          "thickness": 100.0
+        },
+        "element_record": {
+          "area_m2": 0.96,
+          "boundary": [
+            [
+              3000.0,
+              0.0
+            ],
+            [
+              4200.0,
+              0.0
+            ],
+            [
+              4200.0,
+              800.0
+            ],
+            [
+              3000.0,
+              800.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "da04b807-506f-4a69-9ccd-29980e09b722",
+          "id": 100003,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 100.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "concrete specimen",
+          "type_guid": "c235472a-e1cb-4bc4-9129-aee9972ce94a",
+          "volume_m3": 0.096
+        }
+      }
+    },
+    {
+      "id": "100004",
+      "name": "steel specimen",
+      "material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "volume_m3": 0.005,
+      "area_m2": 0.5,
+      "dimensions_m": {
+        "thickness": 0.01
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100004,
+        "guid": "99449d8b-6b08-4c6d-b920-595764fee465",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "steel specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "cd3e58f4-6fe9-4ece-8972-3a0de28620d2",
+              "id": 999604,
+              "material": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+              "thickness": 10.0
+            }
+          ],
+          "thickness": 10.0
+        },
+        "element_record": {
+          "area_m2": 0.5,
+          "boundary": [
+            [
+              6000.0,
+              0.0
+            ],
+            [
+              7000.0,
+              0.0
+            ],
+            [
+              7000.0,
+              500.0
+            ],
+            [
+              6000.0,
+              500.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "99449d8b-6b08-4c6d-b920-595764fee465",
+          "id": 100004,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 10.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "steel specimen",
+          "type_guid": "d22dfaee-893f-4be4-90a9-8ce0128085d9",
+          "volume_m3": 0.005
+        }
+      }
+    },
+    {
+      "id": "100005",
+      "name": "glass specimen",
+      "material_name": "Glasbyggesten",
+      "volume_m3": 0.006,
+      "area_m2": 0.6,
+      "dimensions_m": {
+        "thickness": 0.01
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100005,
+        "guid": "c48cc58d-4d0a-47cc-b787-dc2b2cc82a41",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "glass specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "d2419cce-fb0d-4389-bb75-4bd67a53728d",
+              "id": 999606,
+              "material": "Glasbyggesten",
+              "thickness": 10.0
+            }
+          ],
+          "thickness": 10.0
+        },
+        "element_record": {
+          "area_m2": 0.6,
+          "boundary": [
+            [
+              9000.0,
+              0.0
+            ],
+            [
+              10000.0,
+              0.0
+            ],
+            [
+              10000.0,
+              600.0
+            ],
+            [
+              9000.0,
+              600.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "c48cc58d-4d0a-47cc-b787-dc2b2cc82a41",
+          "id": 100005,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 10.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "glass specimen",
+          "type_guid": "9bfbfd72-226c-4bb9-aec7-383cf4ae13b2",
+          "volume_m3": 0.006
+        }
+      }
+    },
+    {
+      "id": "100006",
+      "name": "insulation specimen",
+      "material_name": "Polystyren skumfyldning (uden bindemiddel)",
+      "volume_m3": 0.144,
+      "area_m2": 1.2,
+      "dimensions_m": {
+        "thickness": 0.12
+      },
+      "category": "floor",
+      "source_ref": {
+        "element_id": 100006,
+        "guid": "57d1c51e-d3a2-4fde-b1e9-b4e74b7509da",
+        "quantity_api": "bimcraft-cli elements",
+        "quantity_fields": {
+          "volume": "volume_m3",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": 0.001,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": [
+          "types",
+          "floor",
+          "insulation specimen"
+        ],
+        "type_record": {
+          "layers": [
+            {
+              "function": "structure",
+              "guid": "bc539dc4-e9ba-4185-9a9c-a380faea0f63",
+              "id": 999605,
+              "material": "Polystyren skumfyldning (uden bindemiddel)",
+              "thickness": 120.0
+            }
+          ],
+          "thickness": 120.0
+        },
+        "element_record": {
+          "area_m2": 1.2,
+          "boundary": [
+            [
+              12000.0,
+              0.0
+            ],
+            [
+              13500.0,
+              0.0
+            ],
+            [
+              13500.0,
+              800.0
+            ],
+            [
+              12000.0,
+              800.0
+            ]
+          ],
+          "category": "floor",
+          "guid": "57d1c51e-d3a2-4fde-b1e9-b4e74b7509da",
+          "id": 100006,
+          "level": "237aa524-fb57-4481-85f8-3e064454e9be",
+          "pattern_angle": 0.0,
+          "pattern_origin": [
+            0.0,
+            0.0
+          ],
+          "thickness": 120.0,
+          "top": [
+            0.0,
+            0.0
+          ],
+          "type": "insulation specimen",
+          "type_guid": "a17d92e6-0aa7-4ffe-9d10-643391f8125f",
+          "volume_m3": 0.144
+        }
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100002"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100003"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100004"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100005"
+    },
+    {
+      "code": "quantity_rounding",
+      "severity": "notice",
+      "message": "BIMcraft 0.12 elements reports floor volume rounded to 0.001 m3; retain the reporting precision in downstream calculations.",
+      "element_id": "100006"
+    },
+    {
+      "code": "ifc_import_context",
+      "message": "Quantities and assignments are from BIMcraft's imported interpretation; review model/import warnings and retained source IDs before using them."
+    }
+  ]
+}

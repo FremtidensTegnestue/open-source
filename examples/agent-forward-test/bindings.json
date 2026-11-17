@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "model_sha256": "d695a50f8589e351fac015f9b992fabfd69c618f3c4e7124a05d145c2c7e8f07",
+  "elements": {
+    "solidcraft:SteelControl": {
+      "material_id": "br18:t7:D1591:row129",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "selection_note": "User requested an explicit BR18 reference scenario. Selected the exact-named BR18 record for rolled structural steel with little processing, source table7 row129. This is an abstract homogeneous solid quantity control; no actual product equivalence or built assembly is asserted. Use only production modules A1-A3 as requested.",
+      "operations": [
+        "mass",
+        "climate"
+      ],
+      "density_observation_id": "br18:t7:D1591:row129:mass",
+      "gwp_observation_ids": [
+        "br18:t7:D1591:row129:gwp:A1-A3"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model_volume_m3": "0.0016",
+  "original_xlsx_density_kg_m3": 7850,
+  "original_xlsx_gwp_kg_CO2eq_per_ton": 1639.0000000000002,
+  "mass_kg_decimal": "12.5600",
+  "climate_A1_A3_kg_CO2eq_decimal": "20.585840000000002512",
+  "matches_assessment": true,
+  "model_unchanged": true
+}

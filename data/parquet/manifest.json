@@ -1,0 +1,648 @@
+{
+  "format_version": 1,
+  "source_file": "materials.sqlite",
+  "source_bytes": 8780214272,
+  "compression": "zstd",
+  "compression_level": 9,
+  "batch_rows": 10000,
+  "max_rows_per_observation_file": 250000,
+  "partition_column_is_also_stored_in_files": true,
+  "nulls_and_json_text_preserved": true,
+  "pyarrow_version": "26.0.1",
+  "sqlite_schema": [
+    {
+      "type": "index",
+      "name": "materials_category",
+      "table": "materials",
+      "sql": "CREATE INDEX materials_category ON materials(category)"
+    },
+    {
+      "type": "index",
+      "name": "observations_material",
+      "table": "observations",
+      "sql": "CREATE INDEX observations_material ON observations(material_id)"
+    },
+    {
+      "type": "index",
+      "name": "observations_property",
+      "table": "observations",
+      "sql": "CREATE INDEX observations_property ON observations(property, module)"
+    },
+    {
+      "type": "index",
+      "name": "observations_source",
+      "table": "observations",
+      "sql": "CREATE INDEX observations_source ON observations(source_id)"
+    },
+    {
+      "type": "index",
+      "name": "sources_dataset",
+      "table": "sources",
+      "sql": "CREATE INDEX sources_dataset ON sources(dataset_id)"
+    },
+    {
+      "type": "table",
+      "name": "build_info",
+      "table": "build_info",
+      "sql": "CREATE TABLE build_info(key TEXT PRIMARY KEY, value TEXT NOT NULL)"
+    },
+    {
+      "type": "table",
+      "name": "datasets",
+      "table": "datasets",
+      "sql": "CREATE TABLE datasets(id TEXT PRIMARY KEY, summary_json TEXT NOT NULL)"
+    },
+    {
+      "type": "table",
+      "name": "materials",
+      "table": "materials",
+      "sql": "CREATE TABLE materials(\n id TEXT PRIMARY KEY, dataset_id TEXT NOT NULL REFERENCES datasets(id),\n name TEXT NOT NULL, kind TEXT NOT NULL CHECK(kind IN ('generic','product','assembly')),\n category TEXT NOT NULL, aliases_json TEXT NOT NULL, description TEXT,\n source_id TEXT NOT NULL REFERENCES sources(id), source_locator TEXT NOT NULL,\n search_text TEXT NOT NULL, metadata_json TEXT NOT NULL\n)"
+    },
+    {
+      "type": "table",
+      "name": "observations",
+      "table": "observations",
+      "sql": "CREATE TABLE observations(\n id TEXT PRIMARY KEY, dataset_id TEXT NOT NULL REFERENCES datasets(id),\n material_id TEXT NOT NULL REFERENCES materials(id), property TEXT NOT NULL,\n value REAL, value_text TEXT NOT NULL, unit TEXT, module TEXT,\n declared_unit TEXT, basis TEXT, method TEXT, data_status TEXT NOT NULL,\n conditions_json TEXT NOT NULL, source_id TEXT NOT NULL REFERENCES sources(id),\n source_locator TEXT NOT NULL, metadata_json TEXT NOT NULL,\n CHECK(value IS NOT NULL OR length(value_text)>0)\n)"
+    },
+    {
+      "type": "table",
+      "name": "sources",
+      "table": "sources",
+      "sql": "CREATE TABLE sources(\n id TEXT PRIMARY KEY, dataset_id TEXT NOT NULL REFERENCES datasets(id),\n title TEXT NOT NULL, publisher TEXT, url TEXT NOT NULL, retrieved_at TEXT NOT NULL,\n local_path TEXT NOT NULL, sha256 TEXT NOT NULL, media_type TEXT,\n license TEXT NOT NULL, license_status TEXT NOT NULL, metadata_json TEXT NOT NULL\n)"
+    }
+  ],
+  "tables": {
+    "datasets": {
+      "columns": [
+        {
+          "name": "id",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 1
+        },
+        {
+          "name": "summary_json",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        }
+      ],
+      "rows": 4,
+      "partitions": {
+        "all": {
+          "rows": 4,
+          "content_sha256": "517ae642bbc2aeb11328a043883aff9d2fc30911ee4483889612b4ffb4dded35",
+          "null_counts": {
+            "id": 0,
+            "summary_json": 0
+          },
+          "first_id_or_key": "br18",
+          "last_id_or_key": "wood",
+          "full_content_validation": "passed"
+        }
+      }
+    },
+    "sources": {
+      "columns": [
+        {
+          "name": "id",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 1
+        },
+        {
+          "name": "dataset_id",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "title",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "publisher",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "url",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "retrieved_at",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "local_path",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "sha256",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "media_type",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "license",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "license_status",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "metadata_json",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        }
+      ],
+      "rows": 7135,
+      "partitions": {
+        "all": {
+          "rows": 7135,
+          "content_sha256": "c74af8b6b59c90b90b679a25d0c02c59fcff090901ee81c585e293354cfb26f6",
+          "null_counts": {
+            "id": 0,
+            "dataset_id": 0,
+            "title": 0,
+            "publisher": 0,
+            "url": 0,
+            "retrieved_at": 0,
+            "local_path": 0,
+            "sha256": 0,
+            "media_type": 0,
+            "license": 0,
+            "license_status": 0,
+            "metadata_json": 0
+          },
+          "first_id_or_key": "br18:source:table-7.html",
+          "last_id_or_key": "wood:handbook-2021",
+          "full_content_validation": "passed"
+        }
+      }
+    },
+    "materials": {
+      "columns": [
+        {
+          "name": "id",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 1
+        },
+        {
+          "name": "dataset_id",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "name",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "kind",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "category",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "aliases_json",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "description",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "source_id",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "source_locator",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "search_text",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "metadata_json",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        }
+      ],
+      "rows": 11161,
+      "partitions": {
+        "all": {
+          "rows": 11161,
+          "content_sha256": "5b2ecac4936582f892967509aa6544d2467f8f8ab492dec0bbdeb79bd2ba2686",
+          "null_counts": {
+            "id": 0,
+            "dataset_id": 0,
+            "name": 0,
+            "kind": 0,
+            "category": 0,
+            "aliases_json": 0,
+            "description": 0,
+            "source_id": 0,
+            "source_locator": 0,
+            "search_text": 0,
+            "metadata_json": 0
+          },
+          "first_id_or_key": "br18:t7:B1318:row2",
+          "last_id_or_key": "wood:redwood-second-growth",
+          "full_content_validation": "passed"
+        }
+      }
+    },
+    "observations": {
+      "columns": [
+        {
+          "name": "id",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 1
+        },
+        {
+          "name": "dataset_id",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "material_id",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "property",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "value",
+          "sqlite_type": "REAL",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "value_text",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "unit",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "module",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "declared_unit",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "basis",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "method",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 0
+        },
+        {
+          "name": "data_status",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "conditions_json",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "source_id",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "source_locator",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        },
+        {
+          "name": "metadata_json",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        }
+      ],
+      "rows": 1985582,
+      "partitions": {
+        "br18": {
+          "rows": 2695,
+          "content_sha256": "d9225fea9f240626d4c19d47e02fbb4bb593132adb0f3d67dcc815d9753afd33",
+          "null_counts": {
+            "id": 0,
+            "dataset_id": 0,
+            "material_id": 0,
+            "property": 0,
+            "value": 0,
+            "value_text": 0,
+            "unit": 0,
+            "module": 629,
+            "declared_unit": 667,
+            "basis": 667,
+            "method": 2695,
+            "data_status": 0,
+            "conditions_json": 0,
+            "source_id": 0,
+            "source_locator": 0,
+            "metadata_json": 0
+          },
+          "first_id_or_key": "br18:t7:B1318:row2:gwp:A1-A3",
+          "last_id_or_key": "br18:t11:table1:row16:gwp",
+          "full_content_validation": "passed"
+        },
+        "environmental": {
+          "rows": 1962722,
+          "content_sha256": "aaa97fbf9ee9ac85d04195fb13a363531251509ed720d313dfd699f0fec9fb41",
+          "null_counts": {
+            "id": 0,
+            "dataset_id": 0,
+            "material_id": 0,
+            "property": 0,
+            "value": 0,
+            "value_text": 0,
+            "unit": 8059,
+            "module": 25426,
+            "declared_unit": 2373,
+            "basis": 2373,
+            "method": 1085233,
+            "data_status": 0,
+            "conditions_json": 0,
+            "source_id": 0,
+            "source_locator": 0,
+            "metadata_json": 0
+          },
+          "first_id_or_key": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000:5c075fc772a54566d4",
+          "last_id_or_key": "environmental:oekobaudat:400eea0b-bbd0-46b9-9052-b441b412d647@00.00.003:90d523b035b03c4be2",
+          "full_content_validation": "passed"
+        },
+        "technical": {
+          "rows": 15127,
+          "content_sha256": "85ac2c032425817d48edb3292fcee8d2bc3d895b220c02d3ff03d3fa785b7930",
+          "null_counts": {
+            "id": 0,
+            "dataset_id": 0,
+            "material_id": 0,
+            "property": 0,
+            "value": 0,
+            "value_text": 0,
+            "unit": 0,
+            "module": 15127,
+            "declared_unit": 15127,
+            "basis": 15127,
+            "method": 0,
+            "data_status": 0,
+            "conditions_json": 0,
+            "source_id": 0,
+            "source_locator": 0,
+            "metadata_json": 0
+          },
+          "first_id_or_key": "technical:openstudio:75ad75c6a1892a897fb0:thickness",
+          "last_id_or_key": "technical:energyplus:decc3e7e7e02ad928e6f:object5:field15",
+          "full_content_validation": "passed"
+        },
+        "wood": {
+          "rows": 5038,
+          "content_sha256": "7466d48a5881cb5fbb7a82a0328a342137c89e8b9d79e6add3e0feceb98dfa38",
+          "null_counts": {
+            "id": 0,
+            "dataset_id": 0,
+            "material_id": 0,
+            "property": 0,
+            "value": 0,
+            "value_text": 0,
+            "unit": 0,
+            "module": 5038,
+            "declared_unit": 5038,
+            "basis": 5038,
+            "method": 0,
+            "data_status": 0,
+            "conditions_json": 0,
+            "source_id": 0,
+            "source_locator": 0,
+            "metadata_json": 0
+          },
+          "first_id_or_key": "wood:60f26db2b47a647a35ad0e40",
+          "last_id_or_key": "wood:176ed9c25c667e516ba4d0c5",
+          "full_content_validation": "passed"
+        }
+      }
+    },
+    "build_info": {
+      "columns": [
+        {
+          "name": "key",
+          "sqlite_type": "TEXT",
+          "nullable": true,
+          "primary_key_position": 1
+        },
+        {
+          "name": "value",
+          "sqlite_type": "TEXT",
+          "nullable": false,
+          "primary_key_position": 0
+        }
+      ],
+      "rows": 2,
+      "partitions": {
+        "all": {
+          "rows": 2,
+          "content_sha256": "3410bb6a2506129e3a503537465e1686f7bba1596b873ee657e4bfae02f1559f",
+          "null_counts": {
+            "key": 0,
+            "value": 0
+          },
+          "first_id_or_key": "schema_version",
+          "last_id_or_key": "input_sha256",
+          "full_content_validation": "passed"
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "datasets.parquet",
+      "rows": 4,
+      "row_groups": 1,
+      "bytes": 12068,
+      "sha256": "76048a13f575b4f2ed9cae4dfddfa73bf7017471eccf6e8e5c29967f839d16ac"
+    },
+    {
+      "path": "sources.parquet",
+      "rows": 7135,
+      "row_groups": 1,
+      "bytes": 1696332,
+      "sha256": "26e8a9c40c76387ceef4eb17408dfb1fbf53394dc4a5e8d5af3c086f15853977"
+    },
+    {
+      "path": "materials.parquet",
+      "rows": 11161,
+      "row_groups": 2,
+      "bytes": 2005855,
+      "sha256": "663cbf87b9602475cbbc597b0b0d8199d989296fb950a9d690b5457bc3caa4de"
+    },
+    {
+      "path": "observations/dataset_id=br18/part-00000.parquet",
+      "rows": 2695,
+      "row_groups": 1,
+      "bytes": 142280,
+      "sha256": "8e71fc8f439cdb0417c31365cfbb303dbaef23f601d938fa0e76415aa11d8473"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00000.parquet",
+      "rows": 250000,
+      "row_groups": 26,
+      "bytes": 10917510,
+      "sha256": "54c7101ac95f6e1948d756e8c86b774019c4c75571a859f704629ed64691adb6"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00001.parquet",
+      "rows": 250000,
+      "row_groups": 26,
+      "bytes": 10972958,
+      "sha256": "a7fd3373f799e241a6579c686259d241726ab7ab5192d283bd5ee89236a6d9e9"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00002.parquet",
+      "rows": 250000,
+      "row_groups": 26,
+      "bytes": 11158269,
+      "sha256": "ce94057cc771ea448fa636bd033454d14e348e0021fa9e5b996e5fa7f6ed233b"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00003.parquet",
+      "rows": 250000,
+      "row_groups": 26,
+      "bytes": 11210100,
+      "sha256": "ce5d75c879448353e4fffc273d9e023170ca69adb56879ea139d2886a12644d5"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00004.parquet",
+      "rows": 250000,
+      "row_groups": 26,
+      "bytes": 10869047,
+      "sha256": "7cfb177ed136373cbd5c574a600c5eb24ebda37982681bcec1a797684d8e4222"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00005.parquet",
+      "rows": 250000,
+      "row_groups": 26,
+      "bytes": 10884583,
+      "sha256": "7188aa4864350b53fad70bc1534a745ebc9ead596812ce459f83326d047f879e"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00006.parquet",
+      "rows": 250000,
+      "row_groups": 26,
+      "bytes": 10343877,
+      "sha256": "e72cbcd0e2d5779e87886f4eff86a54d889f7fa2913c12d5fc8016b4ed2d48c3"
+    },
+    {
+      "path": "observations/dataset_id=environmental/part-00007.parquet",
+      "rows": 212722,
+      "row_groups": 22,
+      "bytes": 9260263,
+      "sha256": "b259ecc8d7a208b7e475186b3c6addb58cbc72b03c267a95b7e9820e9d025d2e"
+    },
+    {
+      "path": "observations/dataset_id=technical/part-00000.parquet",
+      "rows": 15127,
+      "row_groups": 3,
+      "bytes": 793808,
+      "sha256": "7cf6af091783cda44a9dfcdccd48153124c9a30e8d654ec6dd708e9d023a2a64"
+    },
+    {
+      "path": "observations/dataset_id=wood/part-00000.parquet",
+      "rows": 5038,
+      "row_groups": 1,
+      "bytes": 356740,
+      "sha256": "2e5213936a42459a961874a23e16aadcbd12c827b2fe079c93327a33fe8a97c3"
+    },
+    {
+      "path": "build_info.parquet",
+      "rows": 2,
+      "row_groups": 1,
+      "bytes": 4731,
+      "sha256": "b307d3aa4c15e5b98321379ae93b02d263f0f6589e45244fb09fc3172eb83ce0"
+    }
+  ],
+  "source_unchanged_size_and_mtime": true,
+  "parquet_bytes": 90628421,
+  "compression_ratio_to_sqlite": 96.88146582626658,
+  "elapsed_seconds": 55.1,
+  "database_profile": "full",
+  "sqlite_pragmas": {
+    "user_version": 0,
+    "application_id": 0
+  }
+}

@@ -1,0 +1,17 @@
+USAGE:
+  bimcraft-cli run [FILE] [--sample | --highrise] [--cmd 'ID {json}']… [--script FILE]… [--save PATH]…
+      Open FILE (a .bimc project or an earlier .bimcraft, or an .ifc or Revit .rvt file to import) or start empty, then in order: build the sample house, run
+      commands and scripts (one `ID {json}` per line), save. --save writes by extension:
+      .bimc (the project; .bimt the same), .ifc (IFC4), .glb (the 3D view's scene as glTF), .svg or .png (the lowest level's plan).
+      Scripts may name a line `@name = ID {json}`; later values use `@name`, `$last`, `$-2` or a field such as `@walls.ids.0`.
+      --highrise builds an original 20-storey performance sample (about 10,000 elements).
+  bimcraft-cli info FILE         levels, element counts, types and warnings of a project or an IFC file; of a Revit .rvt or
+                                 .rfa file, its release, last save, levels and element counts by category
+  bimcraft-cli convert IN OUT    a project, an IFC file or a Revit .rvt file to .ifc, .glb, .svg, .png or .bimc
+  bimcraft-cli commands          every command and its parameters
+  bimcraft-cli mcp [--read-only] [FILE | --connect [PORT]]
+                                 an MCP server on stdio, for agents: on a headless project of its own (FILE, opened first, or an
+                                 empty one), or with --connect on the project open in a window whose control port is open
+                                 (`bimcraft --control PORT` or File > Settings > Agents; without PORT, the last one). With
+                                 --read-only the agent may read the project, never change it or write over its file
+  bimcraft-cli --version         the release

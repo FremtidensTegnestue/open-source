@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "selection_mode": "explicit_reference_scenario",
+  "cad_model_sha256": "a57eea77ba802dd8e079a834e64906a4aad79576f98d5f4de40c76ad89059cec",
+  "glb_sha256": "729f58e961b00a261b83c40af6b482d1f9d22e3a3a10a22f296927d03de2d86d",
+  "bim_model_sha256": "a7ba87f40709428c8d18d1eaa2c36d72b6d68a8ad4bf246c0370f15fba35fc66",
+  "manifest_sha256": "9d6b1aa0bc35a7c5717f72ac3c1d1b4e9e9f569150eeacb62868db8630182cab",
+  "parts": [
+    {
+      "source_body": "ConcretePanel",
+      "bim_element_id": 100002,
+      "bim_guid": "52eff377-155f-44f3-acad-4060b45d3334",
+      "material_id": "br18:t7:B1433:row25",
+      "material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "mesh_unchanged_by_material_assignment": true
+    },
+    {
+      "source_body": "Rail_A",
+      "bim_element_id": 100003,
+      "bim_guid": "8cd47cd4-fd2b-466f-bc58-985afac88783",
+      "material_id": "br18:t7:D1591:row129",
+      "material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "mesh_unchanged_by_material_assignment": true
+    },
+    {
+      "source_body": "Rail_B",
+      "bim_element_id": 100004,
+      "bim_guid": "de790151-2c11-4b4f-a5ca-1b8205e815d1",
+      "material_id": "br18:t7:D1591:row129",
+      "material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "mesh_unchanged_by_material_assignment": true
+    }
+  ],
+  "material_assignment_geometry_check": "passed",
+  "notes": [
+    "GLB carries mesh and visual materials, not the authored physical material record.",
+    "The BIM material is assigned explicitly from this manifest; no colour/name guessing.",
+    "BIM quantities below are measured from the BIM family triangles, not copied CAD volumes."
+  ]
+}

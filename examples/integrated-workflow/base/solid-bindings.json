@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "model_sha256": "a57eea77ba802dd8e079a834e64906a4aad79576f98d5f4de40c76ad89059cec",
+  "elements": {
+    "solidcraft:ConcretePanel": {
+      "material_id": "br18:t7:B1433:row25",
+      "model_material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "selection_note": "Explicit abstract quantity/reference scenario selected in the integrated-workflow material manifest. A rectangular rail is a quantity specimen, not a verified rolled product. The concrete reference is not an actual delivered mix. No product equivalence, structural design or whole-building LCA is asserted.",
+      "operations": [
+        "mass",
+        "climate"
+      ],
+      "density_observation_id": "br18:t7:B1433:row25:mass",
+      "gwp_observation_ids": [
+        "br18:t7:B1433:row25:gwp:A1-A3"
+      ]
+    },
+    "solidcraft:Rail_A": {
+      "material_id": "br18:t7:D1591:row129",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "selection_note": "Explicit abstract quantity/reference scenario selected in the integrated-workflow material manifest. A rectangular rail is a quantity specimen, not a verified rolled product. The concrete reference is not an actual delivered mix. No product equivalence, structural design or whole-building LCA is asserted.",
+      "operations": [
+        "mass",
+        "climate"
+      ],
+      "density_observation_id": "br18:t7:D1591:row129:mass",
+      "gwp_observation_ids": [
+        "br18:t7:D1591:row129:gwp:A1-A3"
+      ]
+    },
+    "solidcraft:Rail_B": {
+      "material_id": "br18:t7:D1591:row129",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "selection_note": "Explicit abstract quantity/reference scenario selected in the integrated-workflow material manifest. A rectangular rail is a quantity specimen, not a verified rolled product. The concrete reference is not an actual delivered mix. No product equivalence, structural design or whole-building LCA is asserted.",
+      "operations": [
+        "mass",
+        "climate"
+      ],
+      "density_observation_id": "br18:t7:D1591:row129:mass",
+      "gwp_observation_ids": [
+        "br18:t7:D1591:row129:gwp:A1-A3"
+      ]
+    }
+  }
+}

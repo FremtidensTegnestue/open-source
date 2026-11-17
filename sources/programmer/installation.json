@@ -1,0 +1,26 @@
+[
+  {
+    "name": "solidcraft",
+    "app_version": "solidcraft 0.44.0",
+    "cli_version": "solidcraft-cli 0.44.0",
+    "app_path": "/usr/bin/solidcraft",
+    "cli_path": "/usr/bin/solidcraft-cli",
+    "package": "solidcraft 0.44.0-1 install ok installed",
+    "checked_at": "2026-11-17T19:14:44.940998+00:00",
+    "architecture": "arm64",
+    "source": "https://github.com/tangency-labs/solidcraft/releases/tag/v0.44.0",
+    "verification": "Package status, app --version and CLI --version; no GUI interaction or modelling test"
+  },
+  {
+    "name": "bimcraft",
+    "app_version": "bimcraft 0.12.0",
+    "cli_version": "bimcraft-cli 0.12.0",
+    "app_path": "/usr/bin/bimcraft",
+    "cli_path": "/usr/bin/bimcraft-cli",
+    "package": "bimcraft 0.12.0-1 install ok installed",
+    "checked_at": "2026-11-17T19:14:44.976092+00:00",
+    "architecture": "arm64",
+    "source": "https://github.com/IPedrax/BIMCraft/releases/tag/v0.12.0",
+    "verification": "Package status, app --version and CLI --version; no GUI interaction or modelling test"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "dataset_version": "2026-11-17",
+  "assets": {
+    "sqlite": {
+      "url": "https://github.com/FremtidensTegnestue/open-source/releases/download/v0.1.0/materials.sqlite.zst",
+      "compression": "zstd",
+      "compressed_bytes": 186747349,
+      "compressed_sha256": "357cfbcb114992874281c103be7306755440c78c1b1136b54c7a04588634f3bb",
+      "uncompressed_bytes": 8780214272,
+      "uncompressed_sha256": "b928e3473c09a65837e78aa747de9b2fdc3f0923174882161efdfa7e977b1d42"
+    },
+    "parquet": {
+      "url": "https://github.com/FremtidensTegnestue/open-source/releases/download/v0.1.0/materials-parquet-2026-11-17.zip",
+      "bytes": 90650513,
+      "sha256": "7f8b5999c3df32bd2ba745dad184b9df67988b6e5cd8481554ea796404d978eb",
+      "included_in_git": true,
+      "git_directory": "data/parquet",
+      "manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2"
+    }
+  },
+  "counts": {
+    "datasets": 4,
+    "sources": 7135,
+    "materials": 11161,
+    "observations": 1985582
+  },
+  "data_license": "Source-specific terms retained; no blanket MIT/CC license is assigned to source data."
+}

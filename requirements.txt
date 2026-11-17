@@ -1,0 +1,8 @@
+# Full local dataset reconstruction and optional prebuilt download.
+pyarrow==26.0.1
+zstandard>=0.23,<1
+
+# Original-source collectors and independently checked examples.
+requests>=2.32,<3
+openpyxl>=3.1,<4
+pypdf>=5,<7

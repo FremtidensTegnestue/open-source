@@ -1,0 +1,32 @@
+{
+  "missing": [
+    {
+      "resource": "Sustainable Design with Respect to LCA Using Parametric Design and BIM Tools (2017)",
+      "original_url": "https://wsbe17hongkong.hk/_bin/ckfinder/userfiles/files/PDF/Session%204_11_3.pdf",
+      "status": "HTTP 525; DTU-alternativ 403/404",
+      "metadata_url": "https://orbit.dtu.dk/en/publications/sustainable-design-with-respect-to-lca-using-parametric-design-an/"
+    }
+  ],
+  "recovered": [
+    {
+      "resource": "SBi 2020:04",
+      "original_url": "https://sbi.dk/Assets/Klimapaavirkning-fra-60-bygninger/SBi-2020-04.pdf",
+      "original_status": "HTML response, not PDF",
+      "replacement_url": "https://vbn.aau.dk/ws/portalfiles/portal/329648206/SBi_2020_04.pdf",
+      "local_path": "archive/vbn.aau.dk/ws/portalfiles/portal/329648206/SBi_2020_04.pdf"
+    },
+    {
+      "resource": "Dagslys tutorial",
+      "original_status": "GitHub blob URL is HTML",
+      "local_path": "upstream/Daylight_VK-01/VK_dagslys_Tutorial.pdf"
+    }
+  ],
+  "scope": "Alle links og indlejrede ressourcer på de ni sider på opensource.vandkunsten.com; direkte eksterne dokumentlinks; komplet linket GitHub-repository med historik. Eksterne websites er referencer, ikke rekursivt spejlede websites.",
+  "not_performed": [
+    "Ingen beregninger eller makroer udført",
+    "Ingen CAD-modeller ændret",
+    "Ingen kompatibilitetstest i Revit, Rhino, Grasshopper eller Excel",
+    "Ingen OCR eller fuld transskription af video",
+    "Ingen Rust-omskrivning eller MCP-server implementeret"
+  ]
+}

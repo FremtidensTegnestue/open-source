@@ -1,0 +1,96 @@
+{
+  "status": "ok",
+  "value": 429.5,
+  "unit": "kg CO2-eq",
+  "method": {
+    "id": "climate.declared_reference_scaling.v1",
+    "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+  },
+  "inputs": {
+    "quantity": {
+      "value": 500.0,
+      "unit": "kg",
+      "dimension": "mass",
+      "original_value": 500,
+      "original_unit": "kg",
+      "factor": 1.0,
+      "offset": 0.0,
+      "conventions": []
+    },
+    "source_observation": {
+      "id": "environmental:oekobaudat:3428753d-b270-4b13-bbe0-244b981db333@00.04.000:5c075fc772a54566d4",
+      "dataset_id": "environmental",
+      "material_id": "environmental:material:oekobaudat:3428753d-b270-4b13-bbe0-244b981db333@00.04.000",
+      "property": "gwp",
+      "value": 859.0,
+      "value_text": "859",
+      "unit": "kg CO_(2)-Äq.",
+      "module": "A1",
+      "declared_unit": "kg",
+      "basis": "1000.0 kg",
+      "method": "77e416eb-a363-4258-a04e-171d843a6460",
+      "data_status": "reported",
+      "source_id": "environmental:oekobaudat:3428753d-b270-4b13-bbe0-244b981db333@00.04.000",
+      "source_locator": "/LCIAResults/LCIAResult/0/other/anies/1/value",
+      "conditions": {
+        "dataset_uuid": "3428753d-b270-4b13-bbe0-244b981db333",
+        "dataset_version": "00.04.000",
+        "geography": "DE",
+        "reference_year": 2022,
+        "valid_until": 2027,
+        "dataset_type": "EPD",
+        "subtype": "average dataset",
+        "registration": "EPD-LAN-20210300-IBG1-DE",
+        "classification": "Mineralische Baustoffe / Pigmente / Anorganische Pigmente",
+        "standards": [
+          "DIN EN 15804",
+          "ISO 14025"
+        ],
+        "copyright": true,
+        "declared_references": [
+          {
+            "exchange_index": 0,
+            "amount": 1000.0,
+            "unit": "kg",
+            "name": "Mass",
+            "exchange_mean_amount": 1.0,
+            "resulting_flow_amount": 1000.0
+          }
+        ],
+        "declared_amount": 1000.0,
+        "indicator_name": "Global warming potential (GWP)",
+        "indicator_uuid": "77e416eb-a363-4258-a04e-171d843a6460"
+      },
+      "citation": {
+        "id": "environmental:oekobaudat:3428753d-b270-4b13-bbe0-244b981db333@00.04.000",
+        "title": "BAYFERROX® 130 - Eisenoxid-Rotpigment (Durchschnitt)",
+        "publisher": "oekobaudat",
+        "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/3428753d-b270-4b13-bbe0-244b981db333?format=json&view=extended&version=00.04.000",
+        "retrieved_at": "2026-11-17T19:43:05.640047+00:00",
+        "local_path": "data/raw/environmental/oekobaudat/processes/3428753d-b270-4b13-bbe0-244b981db333_00.04.000.json",
+        "sha256": "6c2b3a588173cb2251783ff8fd57b12d7b27c94ed31840d6eec67dbc35326cc1",
+        "license": "Free of charge for all users and uses",
+        "license_status": "verified",
+        "source_locator": "/LCIAResults/LCIAResult/0/other/anies/1/value"
+      }
+    },
+    "declared_basis": {
+      "value": 1000.0,
+      "unit": "kg",
+      "dimension": "mass",
+      "original_value": 1000.0,
+      "original_unit": "kg",
+      "factor": 1.0,
+      "offset": 0.0,
+      "conventions": [],
+      "source_unit": "kg",
+      "basis_source": "explicit declared_amount checked against original declared_references"
+    },
+    "scaling_factor": 0.5,
+    "numerator_conversion_factor": 1.0
+  },
+  "module": "A1",
+  "indicator": "gwp",
+  "indicator_method": "77e416eb-a363-4258-a04e-171d843a6460",
+  "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+}

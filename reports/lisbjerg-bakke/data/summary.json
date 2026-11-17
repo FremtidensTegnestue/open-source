@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "analysis_date": "2026-11-17",
+  "status": "partial",
+  "scope": "Archived project evidence and BIMcraft-derived quantities; no verified whole-building LCA or as-built statement.",
+  "model_combination": "ARK and KON kept separate; no cross-model spatial overlap analysis.",
+  "models": {
+    "ark": {
+      "model_path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/BIM - IFC-model/ARK-model.ifc",
+      "sha256": "98a8da7c1c323e333d6ecab3c8bd1394e178002a0f77085e0931ebf4ddb1c7c2",
+      "source_unchanged": true,
+      "source_schema": "IFC2X3",
+      "source_ifc_elements": 3266,
+      "source_elements_excluding_openings": 2937,
+      "source_material_definitions": 88,
+      "source_elements_without_named_material_excluding_openings": 186,
+      "source_multi_material_elements": 1899,
+      "source_quantity_sets": 0,
+      "normalized_elements_including_nonphysical": 2907,
+      "source_physical_elements_matched_to_import": 2555,
+      "source_physical_elements_not_matched": 382,
+      "unmatched_by_source_class": {
+        "IfcCovering": 39,
+        "IfcDoor": 15,
+        "IfcRailing": 4,
+        "IfcSlab": 22,
+        "IfcStair": 22,
+        "IfcStairFlight": 9,
+        "IfcWindow": 271
+      },
+      "import_reported_skipped": 342,
+      "import_reported_generic": 145,
+      "import_rebase_mm": [
+        223348000.0,
+        -198970000.0
+      ],
+      "inspect_warnings": 256,
+      "physical_elements_with_positive_reported_volume": 100,
+      "physical_elements_with_volume_and_homogeneous_name": 14,
+      "floor_groups": {
+        "<mixed_or_unresolved>": {
+          "elements": 86,
+          "volume_m3": 919.03,
+          "rounding_bound_m3": 0.043000000000000003
+        },
+        "_gulv_beton (100mm)": {
+          "elements": 4,
+          "volume_m3": 13.929,
+          "rounding_bound_m3": 0.002
+        },
+        "_gulv_beton (200mm)": {
+          "elements": 10,
+          "volume_m3": 19.099,
+          "rounding_bound_m3": 0.005
+        }
+      },
+      "floor_area_sum_m2": 3813.49,
+      "category_counts": {
+        "component": 1234,
+        "ceiling": 158,
+        "door": 212,
+        "railing": 3,
+        "roof": 11,
+        "floor": 100,
+        "stair": 9,
+        "wall": 820,
+        "window": 8
+      },
+      "quantity_precision": "floor volumes reported to 0.001 m3; worst-case rounding bound 0.0005 m3 per floor, not total uncertainty"
+    },
+    "kon": {
+      "model_path": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/BIM - IFC-model/KON-model.ifc",
+      "sha256": "190d9eb5049319e5acce347b2df7ab03cc0e5e3c8a16a2a7cf6c9ff5258fe464",
+      "source_unchanged": true,
+      "source_schema": "IFC2X3",
+      "source_ifc_elements": 2439,
+      "source_elements_excluding_openings": 2212,
+      "source_material_definitions": 13,
+      "source_elements_without_named_material_excluding_openings": 0,
+      "source_multi_material_elements": 0,
+      "source_quantity_sets": 0,
+      "normalized_elements_including_nonphysical": 2214,
+      "source_physical_elements_matched_to_import": 2206,
+      "source_physical_elements_not_matched": 6,
+      "unmatched_by_source_class": {
+        "IfcBeam": 6
+      },
+      "import_reported_skipped": 6,
+      "import_reported_generic": 0,
+      "import_rebase_mm": [
+        223345000.0,
+        -198971000.0
+      ],
+      "inspect_warnings": 0,
+      "physical_elements_with_positive_reported_volume": 97,
+      "physical_elements_with_volume_and_homogeneous_name": 97,
+      "floor_groups": {
+        "Beton In Situ - Dæk": {
+          "elements": 20,
+          "volume_m3": 209.709,
+          "rounding_bound_m3": 0.01
+        },
+        "Wood - C35": {
+          "elements": 75,
+          "volume_m3": 354.568,
+          "rounding_bound_m3": 0.0375
+        },
+        "Plywood, Sheathing": {
+          "elements": 2,
+          "volume_m3": 0.096,
+          "rounding_bound_m3": 0.001
+        }
+      },
+      "floor_area_sum_m2": 4904.69,
+      "category_counts": {
+        "beam": 620,
+        "component": 577,
+        "structuralcolumn": 556,
+        "footing": 177,
+        "stripfooting": 6,
+        "floor": 97,
+        "wall": 173
+      },
+      "quantity_precision": "floor volumes reported to 0.001 m3; worst-case rounding bound 0.0005 m3 per floor, not total uncertainty"
+    }
+  },
+  "reference_scenario": {
+    "status": "reference_scenario_only",
+    "description": "Analyst-selected reference. Model source does not declare C25/30, X0 or XC1. No verified product equivalence; no reinforcement included. No combined lifecycle or whole-building result. Sum of imported floor quantities, not verified net as-built volume.",
+    "model": {
+      "path": "/home/admin/Fremtidenstegnestue/open-source/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/BIM - IFC-model/KON-model.ifc",
+      "sha256": "190d9eb5049319e5acce347b2df7ab03cc0e5e3c8a16a2a7cf6c9ff5258fe464"
+    },
+    "material_name": "Beton In Situ - Dæk",
+    "reported_volume_m3": 209.709,
+    "rounding_bound_m3": 0.01,
+    "elements": [
+      {
+        "id": "100187",
+        "guid": "65e7008e-09a3-4ded-be81-3955e40bb86d",
+        "volume_m3": 16.456
+      },
+      {
+        "id": "100191",
+        "guid": "52daf4f4-9633-4410-835b-393ce6f8e0c2",
+        "volume_m3": 16.456
+      },
+      {
+        "id": "100195",
+        "guid": "52daf4f4-9633-4410-835b-393ce6f8e17b",
+        "volume_m3": 16.456
+      },
+      {
+        "id": "100199",
+        "guid": "c5cdc650-d356-489b-b13f-de46195e5489",
+        "volume_m3": 15.578
+      },
+      {
+        "id": "100203",
+        "guid": "c5cdc650-d356-489b-b13f-de46195e594e",
+        "volume_m3": 15.578
+      },
+      {
+        "id": "100207",
+        "guid": "191de2d3-c35e-4e45-8787-c303a637efad",
+        "volume_m3": 10.087
+      },
+      {
+        "id": "100208",
+        "guid": "1d892d4f-5518-4e33-b555-89fc7e592541",
+        "volume_m3": 0.208
+      },
+      {
+        "id": "100209",
+        "guid": "1d892d4f-5518-4e33-b555-89fc7e59242a",
+        "volume_m3": 0.645
+      },
+      {
+        "id": "100215",
+        "guid": "4168d70c-6d0f-41bc-8902-e595e81c6cf6",
+        "volume_m3": 10.087
+      },
+      {
+        "id": "100216",
+        "guid": "4168d70c-6d0f-41bc-8902-e595e81c6cbb",
+        "volume_m3": 0.208
+      },
+      {
+        "id": "100217",
+        "guid": "4168d70c-6d0f-41bc-8902-e595e81c6c4e",
+        "volume_m3": 0.645
+      },
+      {
+        "id": "100223",
+        "guid": "4168d70c-6d0f-41bc-8902-e595e81c63c3",
+        "volume_m3": 9.831
+      },
+      {
+        "id": "100224",
+        "guid": "4168d70c-6d0f-41bc-8902-e595e81c6394",
+        "volume_m3": 0.208
+      },
+      {
+        "id": "100225",
+        "guid": "4168d70c-6d0f-41bc-8902-e595e81c639b",
+        "volume_m3": 0.503
+      },
+      {
+        "id": "100234",
+        "guid": "f939264d-2aa3-4433-ba23-30bf279ecad3",
+        "volume_m3": 13.546
+      },
+      {
+        "id": "100235",
+        "guid": "83f0351b-165c-4a13-9a74-684d15b24c1c",
+        "volume_m3": 13.546
+      },
+      {
+        "id": "100244",
+        "guid": "539e72eb-03d7-4235-91b1-e5ec2ae5ed0e",
+        "volume_m3": 16.41
+      },
+      {
+        "id": "100245",
+        "guid": "539e72eb-03d7-4235-91b1-e5ec2ae5d859",
+        "volume_m3": 16.41
+      },
+      {
+        "id": "100252",
+        "guid": "5d57bad7-5076-46ac-afb8-34463a8d9e13",
+        "volume_m3": 18.742
+      },
+      {
+        "id": "100253",
+        "guid": "5d57bad7-5076-46ac-afb8-34463a8d6f06",
+        "volume_m3": 18.109
+      }
+    ],
+    "material_id": "br18:t7:B1433:row25",
+    "mass_kg": 471006.414,
+    "gwp_A1_A3_kg_CO2eq": 50539.869,
+    "mass_rounding_bound_kg": 22.46,
+    "gwp_rounding_bound_kg_CO2eq": 2.41
+  },
+  "verified_project_product_bindings": 0,
+  "original_drawings": {
+    "files": 6,
+    "pages": 132,
+    "pages_visually_reviewed": 4,
+    "method": "All pages text-extracted and targeted-searched; selected critical pages visually reviewed; not a complete engineering drawing check."
+  }
+}

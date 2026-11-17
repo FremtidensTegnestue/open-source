@@ -1,0 +1,16 @@
+new {"name":"Five homogeneous material quantity controls"}
+material {"name":"Krydslamineret træ, CLT (Forbrænding EoL)"}
+type {"category":"floor","name":"wood specimen","layers":[{"function":"structure","material":"Krydslamineret træ, CLT (Forbrænding EoL)","thickness":50}]}
+floor {"boundary":[[0,0],[2000,0],[2000,1000],[0,1000]],"type":"wood specimen","level":"Level 1"}
+material {"name":"Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1"}
+type {"category":"floor","name":"concrete specimen","layers":[{"function":"structure","material":"Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1","thickness":100}]}
+floor {"boundary":[[3000,0],[4200,0],[4200,800],[3000,800]],"type":"concrete specimen","level":"Level 1"}
+material {"name":"Konstruktionsstål, valsede profiler, lille forarbejdning"}
+type {"category":"floor","name":"steel specimen","layers":[{"function":"structure","material":"Konstruktionsstål, valsede profiler, lille forarbejdning","thickness":10}]}
+floor {"boundary":[[6000,0],[7000,0],[7000,500],[6000,500]],"type":"steel specimen","level":"Level 1"}
+material {"name":"Glasbyggesten"}
+type {"category":"floor","name":"glass specimen","layers":[{"function":"structure","material":"Glasbyggesten","thickness":10}]}
+floor {"boundary":[[9000,0],[10000,0],[10000,600],[9000,600]],"type":"glass specimen","level":"Level 1"}
+material {"name":"Polystyren skumfyldning (uden bindemiddel)"}
+type {"category":"floor","name":"insulation specimen","layers":[{"function":"structure","material":"Polystyren skumfyldning (uden bindemiddel)","thickness":120}]}
+floor {"boundary":[[12000,0],[13500,0],[13500,800],[12000,800]],"type":"insulation specimen","level":"Level 1"}

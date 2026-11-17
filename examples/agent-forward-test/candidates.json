@@ -1,0 +1,22 @@
+{
+  "model": {
+    "path": "/home/admin/Fremtidenstegnestue/open-source/examples/models/solidcraft/solid-steel.sc",
+    "sha256": "d695a50f8589e351fac015f9b992fabfd69c618f3c4e7124a05d145c2c7e8f07"
+  },
+  "elements": [
+    {
+      "element_id": "solidcraft:SteelControl",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "candidates": [
+        {
+          "material_id": "br18:t7:D1591:row129",
+          "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+          "category": "metal",
+          "match_kind": "exact_label"
+        }
+      ],
+      "status": "review_required",
+      "selection_policy": "Suggestions only; explicit observation and material bindings required for assessment"
+    }
+  ]
+}

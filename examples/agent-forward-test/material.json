@@ -1,0 +1,55 @@
+{
+  "id": "br18:t7:D1591:row129",
+  "dataset_id": "br18",
+  "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+  "kind": "generic",
+  "category": "metal",
+  "description": "Official reference record; subtype/material classification is heuristic",
+  "source_id": "br18:source:table-7-2025.xlsx",
+  "source_locator": "Sheet1!A129:N129",
+  "aliases": [],
+  "metadata": {
+    "id": "br18:t7:D1591:row129",
+    "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+    "kind": "generic",
+    "category": "metal",
+    "aliases": [],
+    "source_id": "br18:source:table-7-2025.xlsx",
+    "source_locator": "Sheet1!A129:N129",
+    "description": "Official reference record; subtype/material classification is heuristic",
+    "original_id": "#D1591",
+    "source_data_type": "Dansk generisk data"
+  },
+  "properties": [
+    {
+      "property": "density",
+      "unit": "kg/m³",
+      "module": null,
+      "observations": 1
+    },
+    {
+      "property": "global_warming_potential",
+      "unit": "kg CO2-eq",
+      "module": "A1-A3",
+      "observations": 1
+    },
+    {
+      "property": "global_warming_potential",
+      "unit": "kg CO2-eq",
+      "module": "C3",
+      "observations": 1
+    },
+    {
+      "property": "global_warming_potential",
+      "unit": "kg CO2-eq",
+      "module": "C4",
+      "observations": 1
+    },
+    {
+      "property": "global_warming_potential",
+      "unit": "kg CO2-eq",
+      "module": "D",
+      "observations": 1
+    }
+  ]
+}

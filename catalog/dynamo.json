@@ -1,0 +1,157 @@
+[
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/SortByTrue.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/SortByTrue.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.ColorSet.dyf",
+    "format": "xml",
+    "python_fragments": []
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.MainBuildingElements_an.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.MainBuildingElements_an.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/EmptyIndicesToZero.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/EmptyIndicesToZero.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/IsDigit.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/IsDigit.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.MainBuildingElements.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.MainBuildingElements.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/MaterialDensity_FromElementsList.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/MaterialDensity_FromElementsList.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/FamilyType.SetCompoundLayerThickness.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/FamilyType.SetCompoundLayerThickness.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/GenerateViewByScopeBox&Level.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/GenerateViewByScopeBox&Level.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.All_Elements.dyf",
+    "format": "xml",
+    "python_fragments": []
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.Element.Materials.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.Element.Materials.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/MaterialDensity.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/MaterialDensity.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/MaterialDensity_test.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/MaterialDensity_test.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/DateTime.Numbers.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/DateTime.Numbers.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.Element.Materials_Type.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.Element.Materials_Type.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count_an.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count_an.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49InclPaint).dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49InclPaint).txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49).dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49).txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/GetStringUntil.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/GetStringUntil.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/SumList.Sublists.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/SumList.Sublists.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists).dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists).txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/LCA.GetTypeMaterials(ExclEmptyLists&sfb49)Count.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/FirstLettersFromString.dyf",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/DynamoDefinitions/FirstLettersFromString.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Aeforos_PreCheck.dyn",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Aeforos_PreCheck.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Aeforos_Combined.dyn",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Aeforos_Combined.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Aeforos.dyn",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/Aeforos_Vandkunsten/Aeforos.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/MaterialIDs/mat_oekobau_id.dyn",
+    "format": "xml",
+    "python_fragments": []
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten/AssistingTools/SfB script/sfb.dyn",
+    "format": "xml",
+    "python_fragments": []
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/BIM7AA.dyn",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/BIM7AA.txt"
+  },
+  {
+    "path": "unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/SfB.dyn",
+    "format": "xml",
+    "extracted_code": "extracted/dynamo/unpacked/archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit/SfB.txt"
+  }
+]

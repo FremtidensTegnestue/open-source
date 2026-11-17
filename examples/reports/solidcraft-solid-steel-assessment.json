@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "model": {
+    "path": "/home/admin/Fremtidenstegnestue/open-source/examples/models/solidcraft/solid-steel.sc",
+    "sha256": "d695a50f8589e351fac015f9b992fabfd69c618f3c4e7124a05d145c2c7e8f07"
+  },
+  "software": "solidcraft",
+  "software_version": "solidcraft-cli 0.44.0",
+  "extraction": {
+    "command": [
+      "solidcraft-cli",
+      "eval",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/models/solidcraft/solid-steel.sc"
+    ],
+    "source_unchanged": true,
+    "raw_reply": {
+      "bodies": [
+        {
+          "area_mm2": 196000.0,
+          "bbox": {
+            "max": [
+              800.0,
+              100.0,
+              20.0
+            ],
+            "min": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "center_of_mass": [
+            400.0,
+            50.0,
+            10.0
+          ],
+          "closed": true,
+          "density_g_cm3": 7.85,
+          "edges": 12,
+          "face_types": {
+            "plane": 6
+          },
+          "faces": 6,
+          "kernel": {
+            "edges": 12,
+            "faces": 6,
+            "shells": 1,
+            "vertices": 8
+          },
+          "mass_g": 12560.0,
+          "material": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+          "measured_by": "smlib",
+          "name": "SteelControl",
+          "notes": [],
+          "vertices": 8,
+          "volume_mm3": 1600000.0
+        }
+      ],
+      "body_count": 1,
+      "params": [],
+      "sketches": [],
+      "timeline": [
+        {
+          "error": null,
+          "id": 1,
+          "ms": 1.36522,
+          "name": "Box1",
+          "rolled_back": false,
+          "suppressed": false,
+          "type": "BoxFeature",
+          "warning": null
+        }
+      ],
+      "total": {
+        "area_mm2": 196000.0,
+        "edges": 12,
+        "faces": 6,
+        "mass_g": 12560.0,
+        "open_bodies_skipped": 0,
+        "vertices": 8,
+        "volume_mm3": 1600000.0
+      }
+    },
+    "stderr": "",
+    "notes": [
+      "Closed-body volumes are returned by the actual geometry engine.",
+      "area_m2 is unknown: Solidcraft total surface area is exposed separately as surface_area_m2.",
+      "Model-assigned densities/masses remain provenance only; this adapter does not select database density.",
+      "STEP imports without explicit material remain material-unspecified."
+    ]
+  },
+  "database_input_fingerprint": "44d4e645c67a49aaa7d78dee3ffee0ad9ead671b32514c533db05633314be2a2",
+  "elements": [
+    {
+      "element_id": "solidcraft:SteelControl",
+      "element_name": "SteelControl",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "model_quantity_source": {
+        "quantity_command": "solidcraft-cli eval",
+        "body_index": 0,
+        "body_name": "SteelControl",
+        "volume_field": "/bodies/0/volume_mm3",
+        "material_field": "/bodies/0/material",
+        "volume_unit_conversion": "mm3 / 1000000000 = m3",
+        "surface_area_unit_conversion": "mm2 / 1000000 = m2",
+        "dimensions_basis": "world-axis-aligned bounding-box extents, not material-local axes",
+        "measured_by": "smlib",
+        "closed": true,
+        "raw_measurement": {
+          "area_mm2": 196000.0,
+          "bbox": {
+            "max": [
+              800.0,
+              100.0,
+              20.0
+            ],
+            "min": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "center_of_mass": [
+            400.0,
+            50.0,
+            10.0
+          ],
+          "closed": true,
+          "density_g_cm3": 7.85,
+          "edges": 12,
+          "face_types": {
+            "plane": 6
+          },
+          "faces": 6,
+          "kernel": {
+            "edges": 12,
+            "faces": 6,
+            "shells": 1,
+            "vertices": 8
+          },
+          "mass_g": 12560.0,
+          "material": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+          "measured_by": "smlib",
+          "name": "SteelControl",
+          "notes": [],
+          "vertices": 8,
+          "volume_mm3": 1600000.0
+        }
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 12.56,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.0016,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.0016,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:D1591:row129:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:D1591:row129",
+              "property": "density",
+              "value": 7850.0,
+              "value_text": "7850",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K129:L129",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "ton",
+                "original_data_type": "Dansk generisk data",
+                "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K129:L129"
+              }
+            },
+            "density_normalized": {
+              "value": 7850.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 7850.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          }
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 20.585840000000005,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 12.56,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 12.56,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 1639.0000000000002,
+                "value_text": "1639.0000000000002",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.01256,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+          },
+          {
+            "status": "ok",
+            "value": 0.6604048,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 12.56,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 12.56,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:C3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 52.58,
+                "value_text": "52.58",
+                "unit": "kg CO2-eq",
+                "module": "C3",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!F129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!F129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.01256,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+          },
+          {
+            "status": "ok",
+            "value": 0.5761272000000001,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 12.56,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 12.56,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:C4",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 45.870000000000005,
+                "value_text": "45.870000000000005",
+                "unit": "kg CO2-eq",
+                "module": "C4",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!G129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!G129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.01256,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "C4",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+          },
+          {
+            "status": "ok",
+            "value": -3.5720640000000006,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 12.56,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 12.56,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:D",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": -284.40000000000003,
+                "value_text": "-284.40000000000003",
+                "unit": "kg CO2-eq",
+                "module": "D",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!H129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!H129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.01256,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "D",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:D1591:row129",
+          "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+          "kind": "generic",
+          "category": "metal"
+        },
+        "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    }
+  ],
+  "warnings": [],
+  "scope": "Selected homogeneous reference scenarios; source context and product equivalence require review; no regulatory or complete building-LCA conclusion"
+}

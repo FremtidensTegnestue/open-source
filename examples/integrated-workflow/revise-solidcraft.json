@@ -1,0 +1,11 @@
+{
+  "commands": [
+    {
+      "command": "parameters.change",
+      "params": {
+        "name": "plate_thickness",
+        "expression": "120 mm"
+      }
+    }
+  ]
+}

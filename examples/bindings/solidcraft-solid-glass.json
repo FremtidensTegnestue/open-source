@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model_sha256": "95702499ffff2dc6c6c6c376293c67918f594666e7fcc139a780f2d36f655112",
+  "elements": {
+    "solidcraft:GlassControl": {
+      "material_id": "br18:t7:G0954:row410",
+      "model_material_name": "Glasbyggesten",
+      "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+      "density_observation_id": "br18:t7:G0954:row410:mass",
+      "gwp_observation_ids": [
+        "br18:t7:G0954:row410:gwp:A1-A3",
+        "br18:t7:G0954:row410:gwp:C3",
+        "br18:t7:G0954:row410:gwp:C4",
+        "br18:t7:G0954:row410:gwp:D"
+      ]
+    }
+  }
+}

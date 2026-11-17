@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 232,
+        "width": 20,
+        "height": 10,
+        "body_name": "WoodMoistureControl"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Fir, white",
+        "density_g_cm3": 0.4
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "WoodMoistureControl"
+        ],
+        "material": "Fir, white"
+      }
+    }
+  ]
+}

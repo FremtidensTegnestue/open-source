@@ -1,0 +1,71 @@
+{
+  "database_profile": "full",
+  "schema_version": "1",
+  "restored_database_bytes": 8780214272,
+  "elapsed_seconds": 71.59,
+  "schema_sql_exact_match": true,
+  "original_build_info_exact_match": true,
+  "source_database_unchanged": true,
+  "checks": [
+    "every Parquet file SHA256",
+    "all Parquet row content SHA256 per partition",
+    "all restored SQLite row content SHA256 per partition",
+    "all row counts",
+    "foreign_key_check",
+    "integrity_check",
+    "existing-file protection",
+    "failed force-build preserves existing file"
+  ],
+  "indexes": [
+    {
+      "name": "materials_category",
+      "table": "materials",
+      "sql": "CREATE INDEX materials_category ON materials(category)"
+    },
+    {
+      "name": "observations_material",
+      "table": "observations",
+      "sql": "CREATE INDEX observations_material ON observations(material_id)"
+    },
+    {
+      "name": "observations_property",
+      "table": "observations",
+      "sql": "CREATE INDEX observations_property ON observations(property, module)"
+    },
+    {
+      "name": "observations_source",
+      "table": "observations",
+      "sql": "CREATE INDEX observations_source ON observations(source_id)"
+    },
+    {
+      "name": "sources_dataset",
+      "table": "sources",
+      "sql": "CREATE INDEX sources_dataset ON sources(dataset_id)"
+    },
+    {
+      "name": "sqlite_autoindex_build_info_1",
+      "table": "build_info",
+      "sql": null
+    },
+    {
+      "name": "sqlite_autoindex_datasets_1",
+      "table": "datasets",
+      "sql": null
+    },
+    {
+      "name": "sqlite_autoindex_materials_1",
+      "table": "materials",
+      "sql": null
+    },
+    {
+      "name": "sqlite_autoindex_observations_1",
+      "table": "observations",
+      "sql": null
+    },
+    {
+      "name": "sqlite_autoindex_sources_1",
+      "table": "sources",
+      "sql": null
+    }
+  ]
+}

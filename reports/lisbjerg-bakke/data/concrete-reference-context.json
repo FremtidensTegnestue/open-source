@@ -1,0 +1,113 @@
+{
+  "status": "reference_scenario_only",
+  "description": "Analyst-selected reference. Model source does not declare C25/30, X0 or XC1. No verified product equivalence; no reinforcement included. No combined lifecycle or whole-building result. Sum of imported floor quantities, not verified net as-built volume.",
+  "model": {
+    "path": "/home/admin/Fremtidenstegnestue/open-source/unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg/VK_FBABLisbjerg/BIM - IFC-model/KON-model.ifc",
+    "sha256": "190d9eb5049319e5acce347b2df7ab03cc0e5e3c8a16a2a7cf6c9ff5258fe464"
+  },
+  "material_name": "Beton In Situ - Dæk",
+  "reported_volume_m3": 209.709,
+  "rounding_bound_m3": 0.01,
+  "elements": [
+    {
+      "id": "100187",
+      "guid": "65e7008e-09a3-4ded-be81-3955e40bb86d",
+      "volume_m3": 16.456
+    },
+    {
+      "id": "100191",
+      "guid": "52daf4f4-9633-4410-835b-393ce6f8e0c2",
+      "volume_m3": 16.456
+    },
+    {
+      "id": "100195",
+      "guid": "52daf4f4-9633-4410-835b-393ce6f8e17b",
+      "volume_m3": 16.456
+    },
+    {
+      "id": "100199",
+      "guid": "c5cdc650-d356-489b-b13f-de46195e5489",
+      "volume_m3": 15.578
+    },
+    {
+      "id": "100203",
+      "guid": "c5cdc650-d356-489b-b13f-de46195e594e",
+      "volume_m3": 15.578
+    },
+    {
+      "id": "100207",
+      "guid": "191de2d3-c35e-4e45-8787-c303a637efad",
+      "volume_m3": 10.087
+    },
+    {
+      "id": "100208",
+      "guid": "1d892d4f-5518-4e33-b555-89fc7e592541",
+      "volume_m3": 0.208
+    },
+    {
+      "id": "100209",
+      "guid": "1d892d4f-5518-4e33-b555-89fc7e59242a",
+      "volume_m3": 0.645
+    },
+    {
+      "id": "100215",
+      "guid": "4168d70c-6d0f-41bc-8902-e595e81c6cf6",
+      "volume_m3": 10.087
+    },
+    {
+      "id": "100216",
+      "guid": "4168d70c-6d0f-41bc-8902-e595e81c6cbb",
+      "volume_m3": 0.208
+    },
+    {
+      "id": "100217",
+      "guid": "4168d70c-6d0f-41bc-8902-e595e81c6c4e",
+      "volume_m3": 0.645
+    },
+    {
+      "id": "100223",
+      "guid": "4168d70c-6d0f-41bc-8902-e595e81c63c3",
+      "volume_m3": 9.831
+    },
+    {
+      "id": "100224",
+      "guid": "4168d70c-6d0f-41bc-8902-e595e81c6394",
+      "volume_m3": 0.208
+    },
+    {
+      "id": "100225",
+      "guid": "4168d70c-6d0f-41bc-8902-e595e81c639b",
+      "volume_m3": 0.503
+    },
+    {
+      "id": "100234",
+      "guid": "f939264d-2aa3-4433-ba23-30bf279ecad3",
+      "volume_m3": 13.546
+    },
+    {
+      "id": "100235",
+      "guid": "83f0351b-165c-4a13-9a74-684d15b24c1c",
+      "volume_m3": 13.546
+    },
+    {
+      "id": "100244",
+      "guid": "539e72eb-03d7-4235-91b1-e5ec2ae5ed0e",
+      "volume_m3": 16.41
+    },
+    {
+      "id": "100245",
+      "guid": "539e72eb-03d7-4235-91b1-e5ec2ae5d859",
+      "volume_m3": 16.41
+    },
+    {
+      "id": "100252",
+      "guid": "5d57bad7-5076-46ac-afb8-34463a8d9e13",
+      "volume_m3": 18.742
+    },
+    {
+      "id": "100253",
+      "guid": "5d57bad7-5076-46ac-afb8-34463a8d6f06",
+      "volume_m3": 18.109
+    }
+  ]
+}

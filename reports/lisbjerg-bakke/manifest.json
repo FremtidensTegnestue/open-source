@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "scope": "Report dossier files; original inputs are listed in sources.json; manifest excludes itself.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5013,
+      "sha256": "989bf612db56d552fb3b083f50330d3f1069b15137056e1a316d89f26027154e"
+    },
+    {
+      "path": "assets/font-0.ttf",
+      "bytes": 47816,
+      "sha256": "643f64e9bfc140a9352ebf1b33958d5d5e0548ddc1bf7dc439e8da3df482473a"
+    },
+    {
+      "path": "assets/font-1.ttf",
+      "bytes": 47844,
+      "sha256": "6a8c9be856a6b9e09c66615634904616152c9de5e44db343a3ced240479c586a"
+    },
+    {
+      "path": "assets/font-2.ttf",
+      "bytes": 47800,
+      "sha256": "9a9f465776e653cd6175661d844555e08684d432518f1d2c621bcb3006598f9c"
+    },
+    {
+      "path": "assets/font-3.ttf",
+      "bytes": 48456,
+      "sha256": "8900df5726b5a6f23e723594f11d5ea27e695bd85c884f18d88ed080544fe205"
+    },
+    {
+      "path": "assets/font-4.ttf",
+      "bytes": 110816,
+      "sha256": "6021680663c58b344d8404c289c755aadc662a02189ffe4f5ca79378f9e97840"
+    },
+    {
+      "path": "assets/font-5.ttf",
+      "bytes": 111168,
+      "sha256": "ef1515fa19156794b36e5f362c677f78837c38ccdd6fa1fa76d1dd918ea7abbe"
+    },
+    {
+      "path": "assets/font-6.ttf",
+      "bytes": 123240,
+      "sha256": "1609a54fa3ad1abc8d0037132f73700333241ea0b65672079998e352f151dea7"
+    },
+    {
+      "path": "assets/font-7.ttf",
+      "bytes": 123608,
+      "sha256": "b60ffb0ee2b4e09d71d67ff3ea16d6a23cf2e0cf637c5f4e36fff2e3b1465252"
+    },
+    {
+      "path": "assets/font-8.ttf",
+      "bytes": 123672,
+      "sha256": "8ab6a1db2d7caeb46c742371da500d0f3de1dc6ec6bea2aef0106f678d7a1f8d"
+    },
+    {
+      "path": "assets/font-9.ttf",
+      "bytes": 123536,
+      "sha256": "adefc53e7b3d483f1fa5e85edd82b7689ca79db25a1f6786bd7949cdcfeec601"
+    },
+    {
+      "path": "assets/fonts.css",
+      "bytes": 1530,
+      "sha256": "79acaf4b70eec604f19ee56f5919b257641ad0705bbc19249f6f86e29149b680"
+    },
+    {
+      "path": "assets/lisbjerg-fbab-village-gallery.jpg",
+      "bytes": 1360687,
+      "sha256": "e92aac26fb9638864cb2d226af82464764aa7e58b6ba1bb1708e4355abb93775"
+    },
+    {
+      "path": "assets/paged.polyfill.js",
+      "bytes": 921702,
+      "sha256": "f59f361802416c770d549a647958649af2cf6601999924bc00e4f507dad5269f"
+    },
+    {
+      "path": "assets/rapport.css",
+      "bytes": 7137,
+      "sha256": "4b3a30e7193690508a78779cc4af02673c3637fa4680c03e4d4e14cd4339c426"
+    },
+    {
+      "path": "build_report.py",
+      "bytes": 39397,
+      "sha256": "ec6a2aa89a8d3677ea6892f1d1b2e71121ddaea746763f1bfa5a91f7411ba244"
+    },
+    {
+      "path": "data/ark-normalized.json",
+      "bytes": 6827073,
+      "sha256": "50d21a0a9399abdc9cfde1023c4b160e4d9963f6cf0bfbf6634f03cf0d56f4d3"
+    },
+    {
+      "path": "data/concrete-reference-climate-request.json",
+      "bytes": 181,
+      "sha256": "1e5259b72ccb6e728a2966636108e2c0d8a5fb820a09545aa4c281ed5d87eed9"
+    },
+    {
+      "path": "data/concrete-reference-climate-result.json",
+      "bytes": 2698,
+      "sha256": "e80a2936fa12d3095faac7b0f1fe704a9498f6d927dd21010ee1d041c85e201b"
+    },
+    {
+      "path": "data/concrete-reference-context.json",
+      "bytes": 3011,
+      "sha256": "fdb912301cc8edeae4b7b6df723cb920c88c1a1e6a06dd76a0bbd4f943c1a93b"
+    },
+    {
+      "path": "data/concrete-reference-mass-request.json",
+      "bytes": 177,
+      "sha256": "31a8f486f70f31901bac4f7b6e68c949b783c4d00ec801f106b5aebe9591a18e"
+    },
+    {
+      "path": "data/concrete-reference-mass-result.json",
+      "bytes": 2180,
+      "sha256": "68fca1d2ee01f96de35aee9f9275cde02d428cb8ebff6e92497192b23617ac05"
+    },
+    {
+      "path": "data/element-inventory.csv",
+      "bytes": 1184918,
+      "sha256": "6b41043493bbe0c2d05134536a6eee8e5892f00e838962e7c01c3fc064d0b9b4"
+    },
+    {
+      "path": "data/kon-normalized.json",
+      "bytes": 5123786,
+      "sha256": "fe0287f7e6fa060308eef608da2ad6bce72e6d47ea3d2e61d6b97c2a27883025"
+    },
+    {
+      "path": "data/material-audit.py",
+      "bytes": 9712,
+      "sha256": "f640ea12be5919d300fc911d4999da8425583ea3ada5f47d98abd9b8bc2c0451"
+    },
+    {
+      "path": "data/material-candidates.json",
+      "bytes": 3912122,
+      "sha256": "52a92e02c599071223d0b05edc47c95f137dd01f258aa70fba409894f548ae51"
+    },
+    {
+      "path": "data/material-readiness.md",
+      "bytes": 7883,
+      "sha256": "9fe9fa00ddf7ba43975cca18c011fa40327f92389ed4f7345b323cba4999745b"
+    },
+    {
+      "path": "data/missing-data.csv",
+      "bytes": 3100,
+      "sha256": "3a9510d3911471adfcb6bc566769af59555c49a7f3094f7aa9a262e89a883805"
+    },
+    {
+      "path": "data/missing-data.json",
+      "bytes": 4911,
+      "sha256": "d4cf82f6f3e74d22ea92dc6b273d53b1f110acd0b2a33a1dad95473b0c3f4e16"
+    },
+    {
+      "path": "data/summary.json",
+      "bytes": 8149,
+      "sha256": "044002d55dd6a6b4c0a14442ce9ef50178b887f2764ebc00b66a19aeb926ae2b"
+    },
+    {
+      "path": "rapport.html",
+      "bytes": 29495,
+      "sha256": "333c4334b3c57baf9389a31d3c29adf175623b9a4784f59e31954ef1a54a54f2"
+    },
+    {
+      "path": "rapport.pdf",
+      "bytes": 1511196,
+      "sha256": "cb234f9ca343e4f74ad9d4efd38f9d85f397eb74c340b8f6bb9e4621516c2dd2"
+    },
+    {
+      "path": "raw/ark-inspect-elements.jsonl",
+      "bytes": 637948,
+      "sha256": "9e9db600e4c0e236368f4c168681840a728d660eaf7b6bcb6c282901666035cd"
+    },
+    {
+      "path": "raw/ark-run.json",
+      "bytes": 667,
+      "sha256": "acbc2a6165b744e3add085683a0590f2fe8f272d059a3d22b09736856e1294ce"
+    },
+    {
+      "path": "raw/ark-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/bimcraft-commands.json",
+      "bytes": 200788,
+      "sha256": "47b08866c828c076244dd90bf958aa9d1adef528fd6cd38c212ddd826ad3958b"
+    },
+    {
+      "path": "raw/cli-findings.md",
+      "bytes": 3048,
+      "sha256": "f4bb282362aaff9559d819c5b02cb5d2741e5d85b6243ace8502b75cbbc7b324"
+    },
+    {
+      "path": "raw/cli-quantity-summary.json",
+      "bytes": 37784,
+      "sha256": "769e1cd9234e3e320a7f8919953b044abfb4b1d420e7489d605a193d3d15ecaa"
+    },
+    {
+      "path": "raw/cli-queries/ark-schedule-availability.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/cli-queries/ark-schedule-availability.stdout.json",
+      "bytes": 107459,
+      "sha256": "4a42573a671fe178388b0b6e26802e8b7a3c48a95b15756e7d8ac9111a5d7953"
+    },
+    {
+      "path": "raw/cli-queries/findings.md",
+      "bytes": 3048,
+      "sha256": "f4bb282362aaff9559d819c5b02cb5d2741e5d85b6243ace8502b75cbbc7b324"
+    },
+    {
+      "path": "raw/cli-queries/kon-schedule-availability.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/cli-queries/kon-schedule-availability.stdout.json",
+      "bytes": 78596,
+      "sha256": "a73b31fa5966fbde49cf2595e76eb6b17bb47bfcc7e96b5b77004977d3187dd3"
+    },
+    {
+      "path": "raw/cli-queries/quantity_query_summary.json",
+      "bytes": 37784,
+      "sha256": "769e1cd9234e3e320a7f8919953b044abfb4b1d420e7489d605a193d3d15ecaa"
+    },
+    {
+      "path": "raw/cli-queries/summarize.py",
+      "bytes": 3228,
+      "sha256": "79f0eab75eae4ee8bd7783ca505c77c7820814806ed5aa179101a7dbd1551191"
+    },
+    {
+      "path": "raw/drawing-evidence.json",
+      "bytes": 61386,
+      "sha256": "236503c2e72c6fa81538af81625d5eb06c27650a690a09c21a65820c95e82984"
+    },
+    {
+      "path": "raw/drawing-findings.md",
+      "bytes": 5367,
+      "sha256": "1a10b3678b015974143ff38369613030840a8a1e9407378cc0977001981d1fa7"
+    },
+    {
+      "path": "raw/ifc-source-audit/README.md",
+      "bytes": 8053,
+      "sha256": "8e0a5d82264776c99a0b779708f26741fade8925ff9eab367ae9b55409372b0d"
+    },
+    {
+      "path": "raw/ifc-source-audit/audit_ifc.py",
+      "bytes": 20090,
+      "sha256": "889ad9db3a65a8c200f8f43ea531e00d8e8ee1881c896cf9808408552b96e230"
+    },
+    {
+      "path": "raw/ifc-source-audit/requirements.txt",
+      "bytes": 26,
+      "sha256": "0efc42c2bdeb4feba44e245e47f8a01254b6a712f7065908b65a7f16975ad3db"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/material_layers.json",
+      "bytes": 24528,
+      "sha256": "3bef700f590d1c2f12c4b93daddd9da1a86c79463c5b074391ed3a363b1731bf"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/materials.json",
+      "bytes": 12643,
+      "sha256": "a183f6dbe7dafbc895a089080f3238c665f9cc0fda9c1365302c0e28d88f8909"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/products.csv",
+      "bytes": 794602,
+      "sha256": "a09e411c72fd71d7fa107b13360f4ab687ac4b7386176b63756c8f16389cb277"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/products.jsonl",
+      "bytes": 10987033,
+      "sha256": "8c1d6b6fe99b9eaab07de4b635d271d422516d669a81566f3a513e66c76b4af1"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/profiles.json",
+      "bytes": 1505209,
+      "sha256": "1bd222a210f9ac0c35ce6bea5be28f49c492b422009483bc958a3a28e5256c72"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/property_definitions.json",
+      "bytes": 3288964,
+      "sha256": "a1b5075c3b473d8f5458ab48dc1005ff9dcdc8f411206e932f8d4720f6bbdfe0"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/spatial_placements.json",
+      "bytes": 1103878,
+      "sha256": "6c49d0f32be2285220dc864176b2006192f0d8971eb4177f07d32909490e3311"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/ark/summary.json",
+      "bytes": 14214,
+      "sha256": "75eb6b0c05bcdcab67e3a1ea804d3a84650631f6e76b5d187a4717708855cc74"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/material_layers.json",
+      "bytes": 5609,
+      "sha256": "deccdc9ffe439f68a5508a4ee002992640b9d250a78b08e1afc28e8d34bca80e"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/materials.json",
+      "bytes": 1871,
+      "sha256": "28731887f50f8354612ad4f9e5481746de9d39c1052ddd2e8fd3ece1bf618bbf"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/products.csv",
+      "bytes": 457045,
+      "sha256": "2f8b3419bb09e820d8d4968426633ddd9f45aa1354a71adc6f19fe7609c1fa35"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/products.jsonl",
+      "bytes": 5310641,
+      "sha256": "25359551337662080aa910fb45b13972d88db3d971652b7a04de4212abf5dd0e"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/profiles.json",
+      "bytes": 587769,
+      "sha256": "2f659d510573b7ec2dc0a8991b9a93869808ecf2a0237c609a3c180cf0245fa0"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/property_definitions.json",
+      "bytes": 2675891,
+      "sha256": "c04919c2074d77780f57409ff47a8e54234744e36d93d5b37206e8d29bb809b8"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/spatial_placements.json",
+      "bytes": 46781,
+      "sha256": "01d6a22504eb773aa473b01db1feb09df845963beea10277f04306890cb6635f"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/kon/summary.json",
+      "bytes": 12288,
+      "sha256": "5eb18746dfcf5314fb806423de4a562cfca65062a0c3efecc8a766d2679db939"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/overlap.json",
+      "bytes": 588,
+      "sha256": "0d543b27a648862312d74a13717e2f4d4bd0c9dfabb03a3de0e9139322461e67"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/summary.json",
+      "bytes": 2774,
+      "sha256": "0daa51942e636756e8ca6a5e2b6e81890438a909306854661d132732fa420213"
+    },
+    {
+      "path": "raw/ifc-source-audit/results/validation.json",
+      "bytes": 539,
+      "sha256": "d47a9d63d9c1878bd575441b6b3145fa3b6653ad16daf4c68c73bb5026491616"
+    },
+    {
+      "path": "raw/kon-inspect-elements.jsonl",
+      "bytes": 563157,
+      "sha256": "57adde8a0451a688b0992c460c097fd35c63c83d4c9b11660d92733adb698076"
+    },
+    {
+      "path": "raw/kon-run.json",
+      "bytes": 667,
+      "sha256": "6d9efce693ceb163a4c71a070e935188d6353e3d622ba5be4bd03da6aa9b0af9"
+    },
+    {
+      "path": "raw/kon-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 3367,
+      "sha256": "f5b23fa415732921b467521166ed58af8742ef9a20d8e55231db93a568c782a9"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 712,
+      "sha256": "dcf0dffa5d7f507d06d820ba4243b9933bad9b41efa686f329cdd17535eb79ba"
+    }
+  ]
+}

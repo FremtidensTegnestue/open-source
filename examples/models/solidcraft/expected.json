@@ -1,0 +1,104 @@
+{
+  "software": "solidcraft",
+  "cases": [
+    {
+      "id": "solid-wood",
+      "material": "Krydslamineret tr\u00e6, CLT (Forbr\u00e6nding EoL)",
+      "body": "WoodControl",
+      "dimensions_mm": [
+        1000,
+        500,
+        100
+      ],
+      "expected_volume_m3": 0.05,
+      "assigned_density_g_cm3": 0.47,
+      "model": "solid-wood.sc",
+      "element_id": "solidcraft:WoodControl",
+      "expected_formula": "length_mm * width_mm * height_mm / 1000000000",
+      "reference_kind": "analytical rectangular-solid volume; dimensions authored explicitly"
+    },
+    {
+      "id": "solid-concrete",
+      "material": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "body": "ConcreteControl",
+      "dimensions_mm": [
+        2000,
+        300,
+        200
+      ],
+      "expected_volume_m3": 0.12,
+      "assigned_density_g_cm3": 2.246,
+      "model": "solid-concrete.sc",
+      "element_id": "solidcraft:ConcreteControl",
+      "expected_formula": "length_mm * width_mm * height_mm / 1000000000",
+      "reference_kind": "analytical rectangular-solid volume; dimensions authored explicitly"
+    },
+    {
+      "id": "solid-steel",
+      "material": "Konstruktionsst\u00e5l, valsede profiler, lille forarbejdning",
+      "body": "SteelControl",
+      "dimensions_mm": [
+        800,
+        100,
+        20
+      ],
+      "expected_volume_m3": 0.0016,
+      "assigned_density_g_cm3": 7.85,
+      "model": "solid-steel.sc",
+      "element_id": "solidcraft:SteelControl",
+      "expected_formula": "length_mm * width_mm * height_mm / 1000000000",
+      "reference_kind": "analytical rectangular-solid volume; dimensions authored explicitly"
+    },
+    {
+      "id": "solid-glass",
+      "material": "Glasbyggesten",
+      "body": "GlassControl",
+      "dimensions_mm": [
+        1200,
+        800,
+        8
+      ],
+      "expected_volume_m3": 0.00768,
+      "assigned_density_g_cm3": 2.5,
+      "model": "solid-glass.sc",
+      "element_id": "solidcraft:GlassControl",
+      "expected_formula": "length_mm * width_mm * height_mm / 1000000000",
+      "reference_kind": "analytical rectangular-solid volume; dimensions authored explicitly"
+    },
+    {
+      "id": "solid-wood-moisture",
+      "material": "Fir, white",
+      "body": "WoodMoistureControl",
+      "dimensions_mm": [
+        232,
+        20,
+        10
+      ],
+      "expected_volume_m3": 4.64e-05,
+      "assigned_density_g_cm3": 0.4,
+      "purpose": "Additional moisture specimen; x is explicitly assumed tangential width in the calculation request, not inferred by the adapter",
+      "model": "solid-wood-moisture.sc",
+      "element_id": "solidcraft:WoodMoistureControl",
+      "expected_formula": "length_mm * width_mm * height_mm / 1000000000",
+      "reference_kind": "analytical rectangular-solid volume; dimensions authored explicitly"
+    },
+    {
+      "id": "solid-insulation",
+      "material": "Polystyren skumfyldning (uden bindemiddel)",
+      "body": "InsulationControl",
+      "dimensions_mm": [
+        1500,
+        600,
+        150
+      ],
+      "expected_volume_m3": 0.135,
+      "assigned_density_g_cm3": 0.015,
+      "model": "solid-insulation.sc",
+      "element_id": "solidcraft:InsulationControl",
+      "expected_formula": "length_mm * width_mm * height_mm / 1000000000",
+      "reference_kind": "analytical rectangular-solid volume; dimensions authored explicitly"
+    }
+  ],
+  "guard_model": "unknown.sc",
+  "expected_guard_warning": "material_unspecified"
+}

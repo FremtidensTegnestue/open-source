@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model_sha256": "d695a50f8589e351fac015f9b992fabfd69c618f3c4e7124a05d145c2c7e8f07",
+  "elements": {
+    "solidcraft:SteelControl": {
+      "material_id": "br18:t7:D1591:row129",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+      "density_observation_id": "br18:t7:D1591:row129:mass",
+      "gwp_observation_ids": [
+        "br18:t7:D1591:row129:gwp:A1-A3",
+        "br18:t7:D1591:row129:gwp:C3",
+        "br18:t7:D1591:row129:gwp:C4",
+        "br18:t7:D1591:row129:gwp:D"
+      ]
+    }
+  }
+}

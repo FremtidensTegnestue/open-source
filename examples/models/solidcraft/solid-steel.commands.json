@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "solid.box",
+      "params": {
+        "length": 800,
+        "width": 100,
+        "height": 20,
+        "body_name": "SteelControl"
+      }
+    },
+    {
+      "command": "material.create",
+      "params": {
+        "name": "Konstruktionsst\u00e5l, valsede profiler, lille forarbejdning",
+        "density_g_cm3": 7.85
+      }
+    },
+    {
+      "command": "material.assign",
+      "params": {
+        "bodies": [
+          "SteelControl"
+        ],
+        "material": "Konstruktionsst\u00e5l, valsede profiler, lille forarbejdning"
+      }
+    }
+  ]
+}

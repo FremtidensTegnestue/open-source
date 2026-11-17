@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model_sha256": "ae1f455a5bae398bc0b54bae87accd76e759c22cf170b4e4c6aeccb207247074",
+  "elements": {
+    "solidcraft:InsulationControl": {
+      "material_id": "br18:t7:G0161:row196",
+      "model_material_name": "Polystyren skumfyldning (uden bindemiddel)",
+      "selection_note": "Explicit authored reference-quantity scenario using this named BR18 record. The rectangular specimen represents a quantity, not a verified as-built assembly/product, structural design or inferred product equivalence.",
+      "density_observation_id": "br18:t7:G0161:row196:mass",
+      "gwp_observation_ids": [
+        "br18:t7:G0161:row196:gwp:A1-A3",
+        "br18:t7:G0161:row196:gwp:C3",
+        "br18:t7:G0161:row196:gwp:C4",
+        "br18:t7:G0161:row196:gwp:D"
+      ]
+    }
+  }
+}

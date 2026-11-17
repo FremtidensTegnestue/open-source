@@ -1,0 +1,785 @@
+{
+  "scope": "Integrated workflow artifacts and source code used for this verification; excludes file-manifest itself and Python caches.",
+  "automated_tests": {
+    "passed": 54,
+    "new_mesh_tests": 13,
+    "command": "python3 -m unittest discover -s tests -q"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8472,
+      "sha256": "015f8d23efe204d331b63acd0b1f307c4d0c441c078e69a8969cef6679bd44f9"
+    },
+    {
+      "path": "base/bim-assessment.json",
+      "bytes": 31045,
+      "sha256": "5f1465568ca6133c40c611601df400713bf9b145ac8385d6822887caf1cb8938"
+    },
+    {
+      "path": "base/bim-bindings.json",
+      "bytes": 2221,
+      "sha256": "b59eefe3b475083215a787e032ed1e8bb0d0d5c612f1faebca94456b04106aec"
+    },
+    {
+      "path": "base/bim-default-extract.json",
+      "bytes": 7007,
+      "sha256": "c71118416f0e496a4c26d068613bc7b041d58001ec799d7033440cc209dbc87f"
+    },
+    {
+      "path": "base/bim-extract.json",
+      "bytes": 10108,
+      "sha256": "0f650e06a22829e6c340a6a1ff01145e9ec2fa50db17bdbc0166e4d1e3b50366"
+    },
+    {
+      "path": "base/independent-reference.json",
+      "bytes": 310,
+      "sha256": "d178c2a4d69a43f848ab1a355ee6b2a4d629c9559f2de2bd9b7e8408de4c373f"
+    },
+    {
+      "path": "base/model.bimc",
+      "bytes": 417009,
+      "sha256": "a7ba87f40709428c8d18d1eaa2c36d72b6d68a8ad4bf246c0370f15fba35fc66"
+    },
+    {
+      "path": "base/model.png",
+      "bytes": 83212,
+      "sha256": "b4cd058495fa702a84af2fca5d9803d359197e9bd8e037049c7b83ec1809e601"
+    },
+    {
+      "path": "base/model.sc",
+      "bytes": 13307,
+      "sha256": "a57eea77ba802dd8e079a834e64906a4aad79576f98d5f4de40c76ad89059cec"
+    },
+    {
+      "path": "base/model.sc.bak",
+      "bytes": 13313,
+      "sha256": "afaa3e33eb5f2a48d46615289aeac19188732ebc76a2c97f733a2c04baa9fc02"
+    },
+    {
+      "path": "base/roundtrip-eval.json",
+      "bytes": 3003,
+      "sha256": "177c2469153f27da433a9dec121b810f19304fe38026dbabe4316f16481d0ae7"
+    },
+    {
+      "path": "base/roundtrip.glb",
+      "bytes": 5548,
+      "sha256": "4b629612f5f19c779f716b866290cea6d5c5d097c4df5014b8dd78afd0cf9811"
+    },
+    {
+      "path": "base/solid-assessment.json",
+      "bytes": 31721,
+      "sha256": "9ac322411f882a7d865523b129cffc823165c05fa40cb6c2d7c78b0b16825b74"
+    },
+    {
+      "path": "base/solid-bindings.json",
+      "bytes": 2261,
+      "sha256": "6aa0704f59fce61d8489db7e4bcc895017ce1e0479fdb3d3619b8b68d7f7a2e2"
+    },
+    {
+      "path": "base/solid-extract.json",
+      "bytes": 10960,
+      "sha256": "87e8c3d7a7e01db28d472bb49ec7f5a938e09afc2d16dc595d55b5d912744d58"
+    },
+    {
+      "path": "base/source-eval.json",
+      "bytes": 3805,
+      "sha256": "7004bc8c5d6e52e2c47815156490405911f8a0b5af7e75db307ee7c2cd495d07"
+    },
+    {
+      "path": "base/transfer-material-map.json",
+      "bytes": 1740,
+      "sha256": "83a8e9f1c6ec2fecbaf08bd7e74d546909555d5ac7b66be2f66d7e4f71b9f9b2"
+    },
+    {
+      "path": "base/transfer.glb",
+      "bytes": 5456,
+      "sha256": "729f58e961b00a261b83c40af6b482d1f9d22e3a3a10a22f296927d03de2d86d"
+    },
+    {
+      "path": "base/unbound-assessment.json",
+      "bytes": 10772,
+      "sha256": "2c6ab435d25afe2378d9603c6daf8fe866a7bc2a399d862b17e60414c4cde419"
+    },
+    {
+      "path": "base/unbound-bindings.json",
+      "bytes": 130,
+      "sha256": "73e36a7b2d9ece9ecac9b61f2a5ff44b76cbc84799000da2366fa109c4d8086f"
+    },
+    {
+      "path": "base/unbound-extract.json",
+      "bytes": 10116,
+      "sha256": "7dd57ac3c35d048811064fb83b2c7b27d7c564929e3c2385173042d76abd0af0"
+    },
+    {
+      "path": "base/unbound.bimc",
+      "bytes": 417009,
+      "sha256": "a7ba87f40709428c8d18d1eaa2c36d72b6d68a8ad4bf246c0370f15fba35fc66"
+    },
+    {
+      "path": "command-log.json",
+      "bytes": 18908,
+      "sha256": "2379e89435139ae29dba1200db0d3a3a8aeac8d1fe5e0dc54760c2894e863475"
+    },
+    {
+      "path": "create-solidcraft.json",
+      "bytes": 2378,
+      "sha256": "eee2da75b802c55463cb4c63872f34fa904577eea5080ea99527f90041504a5e"
+    },
+    {
+      "path": "independent-check.py",
+      "bytes": 5860,
+      "sha256": "74fa9a614362f8b7f2ef858bf76a0cb6df8500e6f2fdcd71c11930cddcc32894"
+    },
+    {
+      "path": "independent-evidence/base-bim-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/base-bim-live.stdout.json",
+      "bytes": 8307,
+      "sha256": "3dec5d124f9899b31da3e86c195faf05dac6f4adfdda5b1643d2dc0727ce1c7e"
+    },
+    {
+      "path": "independent-evidence/base-cad-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/base-cad-live.stdout.json",
+      "bytes": 3795,
+      "sha256": "84a7a97c0e7d6bcb7dcf8dd6d8baabda25e7376c9095650192d1afb309318d1c"
+    },
+    {
+      "path": "independent-evidence/base-roundtrip-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/base-roundtrip-live.stdout.json",
+      "bytes": 3003,
+      "sha256": "002636f6ece48cdc4ed1047b392c287e47af75b81cb70ea8f44f5e279149cb98"
+    },
+    {
+      "path": "independent-evidence/base-unbound-assessment.json",
+      "bytes": 10772,
+      "sha256": "2c6ab435d25afe2378d9603c6daf8fe866a7bc2a399d862b17e60414c4cde419"
+    },
+    {
+      "path": "independent-evidence/base-unbound-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/base-unbound-live.stdout.json",
+      "bytes": 156,
+      "sha256": "2fbc1c2ab36e6a229959cb4e98c73d43fea5132a41311bc74ab063ffa5c85f1e"
+    },
+    {
+      "path": "independent-evidence/bimcraft-stale-live.stderr.txt",
+      "bytes": 95,
+      "sha256": "3ff33c14d8b47187c9dbdc36bd3efdb2ad18dcc9400921b68b4187acb19e04fc"
+    },
+    {
+      "path": "independent-evidence/bimcraft-stale-live.stdout.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/revised-bim-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/revised-bim-live.stdout.json",
+      "bytes": 8313,
+      "sha256": "34be3c33b6a283b8bcbe48885d80f8cb8918ae167518c4e4302f6606edbdb0e0"
+    },
+    {
+      "path": "independent-evidence/revised-cad-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/revised-cad-live.stdout.json",
+      "bytes": 3825,
+      "sha256": "4493770c88dd7f91d6318b7b099c64184011c663eae470058551675fe4224a12"
+    },
+    {
+      "path": "independent-evidence/revised-roundtrip-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/revised-roundtrip-live.stdout.json",
+      "bytes": 3028,
+      "sha256": "e09079d37a888a27d65cefbda0a222097df9b6e43d68463b6f00000035a7e789"
+    },
+    {
+      "path": "independent-evidence/revised-unbound-assessment.json",
+      "bytes": 10784,
+      "sha256": "6033862c1e6f8bb8b2e28aa5a75496aa47c62b8b7d2dcdc3b7f30b5c445e90b7"
+    },
+    {
+      "path": "independent-evidence/revised-unbound-live.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/revised-unbound-live.stdout.json",
+      "bytes": 159,
+      "sha256": "562c1cd235c370da28c0e9ae189904c895e946cc4a57ef1dcb917cf867bdfc0e"
+    },
+    {
+      "path": "independent-evidence/solidcraft-stale-live.stderr.txt",
+      "bytes": 95,
+      "sha256": "3ff33c14d8b47187c9dbdc36bd3efdb2ad18dcc9400921b68b4187acb19e04fc"
+    },
+    {
+      "path": "independent-evidence/solidcraft-stale-live.stdout.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "independent-evidence/summary.json",
+      "bytes": 2649,
+      "sha256": "d8b275c9e33e37303a891442aadf9da8219bb37f91db5607205f0ef44507b6c4"
+    },
+    {
+      "path": "logs/base-bim-assess.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-bim-assess.stdout.txt",
+      "bytes": 126,
+      "sha256": "f12b214c7982bc31e891d79dcfc0d604b52badb4c3ce2f1c412a1f3254702ad8"
+    },
+    {
+      "path": "logs/base-bim-default-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-bim-default-extract.stdout.txt",
+      "bytes": 131,
+      "sha256": "86b792c3489759bbf9693e8d198cf97564ab7fb5f8afd59c80263fb46ec222ab"
+    },
+    {
+      "path": "logs/base-bim-export.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-bim-export.stdout.txt",
+      "bytes": 294,
+      "sha256": "25a809cadb9d78fc5938cf5d7ad2d6e0aebead14e3bf6e2c0cb0a2056582506e"
+    },
+    {
+      "path": "logs/base-bim-import.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-bim-import.stdout.txt",
+      "bytes": 8446,
+      "sha256": "4d9fb02d839910893a2c8d3d9cce58fc6dad6f3a7683d8b176c727df1179a84c"
+    },
+    {
+      "path": "logs/base-bim-material-map.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-bim-material-map.stdout.txt",
+      "bytes": 7532,
+      "sha256": "9de2d4d06157fad4d120042e492319c3d08690968045f9ce80c841d9290ebe5e"
+    },
+    {
+      "path": "logs/base-bim-mesh-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-bim-mesh-extract.stdout.txt",
+      "bytes": 123,
+      "sha256": "9fec567e51637cb4ed3f13b916bfc2ac09f945fa95d350cabc64c0516dbe6ac9"
+    },
+    {
+      "path": "logs/base-cad-assess.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-cad-assess.stdout.txt",
+      "bytes": 128,
+      "sha256": "74d95604d9f21a58dfa16fe8540712cb59fd1688e48de2e7732068aa55bb90c4"
+    },
+    {
+      "path": "logs/base-cad-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-cad-extract.stdout.txt",
+      "bytes": 125,
+      "sha256": "81e2c0512689f4b1e159fb9f404817a358c695cbfe0626534943f43b5b110099"
+    },
+    {
+      "path": "logs/base-create.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-create.stdout.txt",
+      "bytes": 2306,
+      "sha256": "7d504382dcfc4db50ebdd28f979045a98075c7ef147040e63933e922786dc21d"
+    },
+    {
+      "path": "logs/base-family-check-ConcretePanel.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-family-check-ConcretePanel.stdout.txt",
+      "bytes": 3304,
+      "sha256": "305f0c117a1fbbe0b7dc37666c6af03d93205b15cbb5077ff97ba6502223d5e4"
+    },
+    {
+      "path": "logs/base-family-check-Rail_A.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-family-check-Rail_A.stdout.txt",
+      "bytes": 2005,
+      "sha256": "8f6b9b0a916ad85abe4fb0c761e0cdab04a47270d1bf41bd92b7ca19d0cf7d90"
+    },
+    {
+      "path": "logs/base-family-check-Rail_B.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-family-check-Rail_B.stdout.txt",
+      "bytes": 2005,
+      "sha256": "bef9a8e34562ad622afcf0e100058a3ebbc3be17f9e40e64c133d128bc37ea9c"
+    },
+    {
+      "path": "logs/base-roundtrip-eval.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-roundtrip-eval.stdout.txt",
+      "bytes": 3003,
+      "sha256": "177c2469153f27da433a9dec121b810f19304fe38026dbabe4316f16481d0ae7"
+    },
+    {
+      "path": "logs/base-snapshot.stderr.txt",
+      "bytes": 123,
+      "sha256": "b7c979525656b5afe27e8da35a202e8ae1cf28d7b279c405c3f985abad6f9aff"
+    },
+    {
+      "path": "logs/base-snapshot.stdout.txt",
+      "bytes": 177,
+      "sha256": "c110189f023593662576dffdca35af1dd275bcd7abfd6ceb8598dd9337ffed3c"
+    },
+    {
+      "path": "logs/base-source-eval.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-source-eval.stdout.txt",
+      "bytes": 3805,
+      "sha256": "7004bc8c5d6e52e2c47815156490405911f8a0b5af7e75db307ee7c2cd495d07"
+    },
+    {
+      "path": "logs/base-unbound-assess.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-unbound-assess.stdout.txt",
+      "bytes": 135,
+      "sha256": "5532ed8ad1a9f563344596495c5766369661756a11000ffada3ae08d101b707d"
+    },
+    {
+      "path": "logs/base-unbound-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/base-unbound-extract.stdout.txt",
+      "bytes": 127,
+      "sha256": "ce82508b5d1567ca5a6c782132bc213bb6475ce0f2dab436ebdacc9f30c295d0"
+    },
+    {
+      "path": "logs/revised-bim-assess.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-bim-assess.stdout.txt",
+      "bytes": 129,
+      "sha256": "3294809a5eba3ec3bf7a41cc6e4e83c1f0736b2bb9ed54d974f88ea2e4cc98ef"
+    },
+    {
+      "path": "logs/revised-bim-default-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-bim-default-extract.stdout.txt",
+      "bytes": 134,
+      "sha256": "dd455d57d5e724a1aa39aa64b00684c316c4757e9d9bd60503e6ff598a34b099"
+    },
+    {
+      "path": "logs/revised-bim-export.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-bim-export.stdout.txt",
+      "bytes": 303,
+      "sha256": "e17aaeb2f268c1c8e93172b73475a98e5bf0afe35390fa916abd3636eeb59e55"
+    },
+    {
+      "path": "logs/revised-bim-import.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-bim-import.stdout.txt",
+      "bytes": 8452,
+      "sha256": "68443d6410484db3c1bde12de83dd6928ca3b3adf414bda9ae7b90ae1e6cc216"
+    },
+    {
+      "path": "logs/revised-bim-material-map.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-bim-material-map.stdout.txt",
+      "bytes": 7541,
+      "sha256": "eb8e97b994d162bb5c4b7a99e76f3a5fd1d9d3c794e33cac92ab8ff913d855ba"
+    },
+    {
+      "path": "logs/revised-bim-mesh-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-bim-mesh-extract.stdout.txt",
+      "bytes": 126,
+      "sha256": "439860008934a5eeb155220ded68ca98c0d9bce7e2d76c406de974bfbe521b29"
+    },
+    {
+      "path": "logs/revised-cad-assess.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-cad-assess.stdout.txt",
+      "bytes": 131,
+      "sha256": "aa1eba290d3c9525b0c3c324fac4dbff2ec78f9c0da4fe08107235fb64eaf133"
+    },
+    {
+      "path": "logs/revised-cad-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-cad-extract.stdout.txt",
+      "bytes": 128,
+      "sha256": "c59216a0d4888355f86ff31807abfdebd21d5c4dcb1c838177c2e1abf0866108"
+    },
+    {
+      "path": "logs/revised-edit.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-edit.stdout.txt",
+      "bytes": 176,
+      "sha256": "2c717b1b9515f322506de1ea9560088c6883cbcdeb7c0e33792c8231a1a8e8ff"
+    },
+    {
+      "path": "logs/revised-family-check-ConcretePanel.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-family-check-ConcretePanel.stdout.txt",
+      "bytes": 3310,
+      "sha256": "00079d944820dbe6e007dfc9f16f4df51373f759d7dd1d5bea4e931e4f5991ef"
+    },
+    {
+      "path": "logs/revised-family-check-Rail_A.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-family-check-Rail_A.stdout.txt",
+      "bytes": 2011,
+      "sha256": "d9dcbe8104154f71bc3ecbed14fb650115f1bdad92617c92e7510f0296fb3c0c"
+    },
+    {
+      "path": "logs/revised-family-check-Rail_B.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-family-check-Rail_B.stdout.txt",
+      "bytes": 2011,
+      "sha256": "15cb6a2c21f701b59223c593f56b5dbdaeed4a40b85e49b56dab4f2337cd9f98"
+    },
+    {
+      "path": "logs/revised-roundtrip-eval.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-roundtrip-eval.stdout.txt",
+      "bytes": 3016,
+      "sha256": "d90a0a415daa6d2994f73c5eb8301922d2a8d702f31dd316204e6623d13d5e7e"
+    },
+    {
+      "path": "logs/revised-snapshot.stderr.txt",
+      "bytes": 123,
+      "sha256": "b7c979525656b5afe27e8da35a202e8ae1cf28d7b279c405c3f985abad6f9aff"
+    },
+    {
+      "path": "logs/revised-snapshot.stdout.txt",
+      "bytes": 180,
+      "sha256": "e018a44451b69cb3f8667510be1ed12b8b1b1054a8885ecda44d088ef43fe324"
+    },
+    {
+      "path": "logs/revised-source-eval.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-source-eval.stdout.txt",
+      "bytes": 3815,
+      "sha256": "94806d5083b7faa8daa0c4e0172763e9d9f8aa19a7c2f49e7f9711c684d6894c"
+    },
+    {
+      "path": "logs/revised-unbound-assess.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-unbound-assess.stdout.txt",
+      "bytes": 138,
+      "sha256": "946f2c1a51eb3c91a7a31efe24f46a935bca75be53ffdee4cf274a5546b08c39"
+    },
+    {
+      "path": "logs/revised-unbound-extract.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/revised-unbound-extract.stdout.txt",
+      "bytes": 130,
+      "sha256": "db1f28913a8b3cad03c6e03f5d8778c1663f081f72cc82bd1c1359287ccf1575"
+    },
+    {
+      "path": "logs/stale-bim-binding-rejected.stderr.txt",
+      "bytes": 95,
+      "sha256": "3ff33c14d8b47187c9dbdc36bd3efdb2ad18dcc9400921b68b4187acb19e04fc"
+    },
+    {
+      "path": "logs/stale-bim-binding-rejected.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/stale-solid-binding-rejected.stderr.txt",
+      "bytes": 95,
+      "sha256": "3ff33c14d8b47187c9dbdc36bd3efdb2ad18dcc9400921b68b4187acb19e04fc"
+    },
+    {
+      "path": "logs/stale-solid-binding-rejected.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/version-bimcraft.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/version-bimcraft.stdout.txt",
+      "bytes": 20,
+      "sha256": "ffbec5ec4dcacb946d207627f85a020819cb54d6ff398fba971684af25533d57"
+    },
+    {
+      "path": "logs/version-solidcraft.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/version-solidcraft.stdout.txt",
+      "bytes": 22,
+      "sha256": "e908ecd5dd545a61a9e904abbf4f11ee2de67af3bcddf17f61d52d3e24a121e1"
+    },
+    {
+      "path": "material-manifest.json",
+      "bytes": 1204,
+      "sha256": "9d6b1aa0bc35a7c5717f72ac3c1d1b4e9e9f569150eeacb62868db8630182cab"
+    },
+    {
+      "path": "revise-solidcraft.json",
+      "bytes": 166,
+      "sha256": "374318b75e1a61cbc442ddfd764b5cd84eb1da12c5fc3a5a3ab46c445c1b4ad9"
+    },
+    {
+      "path": "revised/bim-assessment.json",
+      "bytes": 31048,
+      "sha256": "4cdb66c3e19644101a0f1dc72eef2dcce9f359b8b691f70784f415905b4279d8"
+    },
+    {
+      "path": "revised/bim-bindings.json",
+      "bytes": 2221,
+      "sha256": "9059a02b50b3d76ff48af63db5193d991a5442983d4d760a34c1a241bade6287"
+    },
+    {
+      "path": "revised/bim-default-extract.json",
+      "bytes": 7017,
+      "sha256": "55437801136a9bd98558f07ee863e7c95756694627838acbbf24bbd05715767e"
+    },
+    {
+      "path": "revised/bim-extract.json",
+      "bytes": 10121,
+      "sha256": "22441ae6f717c6b20a6ac32f75a29bb7d1c2919a9f67f9448111b714aa3ca145"
+    },
+    {
+      "path": "revised/independent-reference.json",
+      "bytes": 313,
+      "sha256": "0d9d9666d84d878221c65b5766e90dc79d4e7b2aed902cb2c41e8edd9788328f"
+    },
+    {
+      "path": "revised/model.bimc",
+      "bytes": 417013,
+      "sha256": "940d3c5486b6f3893edf49871780edba5ac6a626e0866ff98b7a31c64f8c0a3e"
+    },
+    {
+      "path": "revised/model.png",
+      "bytes": 83657,
+      "sha256": "6420c4e0a9d381e6bab434df09064156c66e095111ca7abb39b583495f53069f"
+    },
+    {
+      "path": "revised/model.sc",
+      "bytes": 13318,
+      "sha256": "3addabb811a59d5c32fb0ba50b6ed2ed66eb2b89d79b5a402343d7bda430531d"
+    },
+    {
+      "path": "revised/model.sc.bak",
+      "bytes": 13315,
+      "sha256": "383138659201942c9b268f74efe797b45e580d76b89dd1991ec304a29805f3b5"
+    },
+    {
+      "path": "revised/roundtrip-eval.json",
+      "bytes": 3016,
+      "sha256": "d90a0a415daa6d2994f73c5eb8301922d2a8d702f31dd316204e6623d13d5e7e"
+    },
+    {
+      "path": "revised/roundtrip.glb",
+      "bytes": 5548,
+      "sha256": "28b54ace3a871157bc33892a77ebdd17cae4bdf2fd632fef3ac83ac254ad58bf"
+    },
+    {
+      "path": "revised/solid-assessment.json",
+      "bytes": 31734,
+      "sha256": "cf92dc89a303d33069f18086f8438f165f93d5f8451cc3697a77f1a97d50d531"
+    },
+    {
+      "path": "revised/solid-bindings.json",
+      "bytes": 2261,
+      "sha256": "89075af16ead7ac79da00b83083013dd25b7d0b132a1bb975de2defffa54aece"
+    },
+    {
+      "path": "revised/solid-extract.json",
+      "bytes": 10947,
+      "sha256": "46f273a2f5d3ac6b2e0b3e6ce61288acc936e0a451ebb7321fcf258d7f9d3118"
+    },
+    {
+      "path": "revised/source-eval.json",
+      "bytes": 3815,
+      "sha256": "94806d5083b7faa8daa0c4e0172763e9d9f8aa19a7c2f49e7f9711c684d6894c"
+    },
+    {
+      "path": "revised/transfer-material-map.json",
+      "bytes": 1740,
+      "sha256": "ee76dd7edb9844503a7d77a2962e0f983eee6ffc702bca81dacca8404ba061ee"
+    },
+    {
+      "path": "revised/transfer.glb",
+      "bytes": 5456,
+      "sha256": "f1096fa18a3c95a6be762d4d52e6d50ce033a2b2964f25debcd3b3d3c00e6115"
+    },
+    {
+      "path": "revised/unbound-assessment.json",
+      "bytes": 10784,
+      "sha256": "6033862c1e6f8bb8b2e28aa5a75496aa47c62b8b7d2dcdc3b7f30b5c445e90b7"
+    },
+    {
+      "path": "revised/unbound-bindings.json",
+      "bytes": 130,
+      "sha256": "3675d646cae0b2e8b889d770f023f9154e9f2886c74103929b2ace9dac2e163d"
+    },
+    {
+      "path": "revised/unbound-extract.json",
+      "bytes": 10129,
+      "sha256": "73010d575c22bc9fcb4b66aa75f5bc4590815a2e5604f92f476c234f11d47b87"
+    },
+    {
+      "path": "revised/unbound.bimc",
+      "bytes": 417013,
+      "sha256": "940d3c5486b6f3893edf49871780edba5ac6a626e0866ff98b7a31c64f8c0a3e"
+    },
+    {
+      "path": "run.py",
+      "bytes": 17757,
+      "sha256": "ca76be85ff3e2c6532ae97022d4f72ac1231e1fd5db6fc46c937641810ccdf2f"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 5874,
+      "sha256": "c0c11d6af0375fedbe415b05a0732bb89f3b99f08a226dfae2b3fcdeacfb864e"
+    }
+  ],
+  "implementation": [
+    {
+      "path": "adapters/bimcraft.py",
+      "sha256": "bcaa89d4f14086d7bae4069ae303d6e90dfe0edd3dc22cadb3a66a5a2a89c33d"
+    },
+    {
+      "path": "adapters/solidcraft.py",
+      "sha256": "75406de116053b56f14c48c8c89321192a0d099c75b10912bc29e3f0bd3415e6"
+    },
+    {
+      "path": "material_calculations.py",
+      "sha256": "830554d07c9e16224725eb2fcb56c34da96c97f86c20d0bc0ccce29edf82a4ac"
+    },
+    {
+      "path": "material_units.py",
+      "sha256": "f539eee5143ebc03db9473ab60e871df1800fa50618287032902c42afdd2b833"
+    },
+    {
+      "path": "materials.py",
+      "sha256": "f3dbb082b2007c6e3321c251952f2817d56de9485b51dda3e6703f3d4a57aa18"
+    },
+    {
+      "path": "report_io.py",
+      "sha256": "8111cce6cff797b3e83a022543bd4643fa7233b0dccf1324fb600bc7ed8bb228"
+    },
+    {
+      "path": "tests/test_bimcraft_mesh_quantities.py",
+      "sha256": "a5ec423025bd1f2eead7d0ab910b5ceca25a580bf94fd112d08c357997fa8488"
+    }
+  ]
+}

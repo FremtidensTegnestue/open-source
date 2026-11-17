@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "status": "ok",
+  "model": {
+    "path": "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+    "sha256": "940d3c5486b6f3893edf49871780edba5ac6a626e0866ff98b7a31c64f8c0a3e"
+  },
+  "software": "bimcraft",
+  "software_version": "bimcraft-cli 0.12.0",
+  "extraction": {
+    "import_summary": null,
+    "command": [
+      "bimcraft-cli",
+      "run",
+      "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+      "--cmd",
+      "inspect {}",
+      "--cmd",
+      "elements {\"limit\":1000,\"offset\":0}"
+    ],
+    "commands": [
+      [
+        "bimcraft-cli",
+        "run",
+        "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+        "--cmd",
+        "inspect {}",
+        "--cmd",
+        "elements {\"limit\":1000,\"offset\":0}"
+      ],
+      [
+        "bimcraft-cli",
+        "run",
+        "/home/admin/Fremtidenstegnestue/open-source/examples/integrated-workflow/revised/model.bimc",
+        "--cmd",
+        "family {\"name\":\"ConcretePanel\"}",
+        "--cmd",
+        "family {\"name\":\"Rail_A\"}",
+        "--cmd",
+        "family {\"name\":\"Rail_B\"}"
+      ]
+    ],
+    "notes": [
+      "Source model opened without save; inspect/elements report quantities from BIMcraft.",
+      "BIMcraft volume_m3 and area_m2 are retained without further scaling. Floor volume reporting is rounded to 0.001 m3 in the verified version.",
+      "Only explicit homogeneous assignment is resolved; mixed layers remain unresolved.",
+      "Lengths from elements and type layers are millimetres; normalized dimensions divide by 1000.",
+      "Reported area is category-specific and must not be used blindly as a facade/reference area.",
+      "Opt-in mesh quantities: only supported missing-volume generic components use family mesh integration. One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid."
+    ],
+    "mesh_quantities": true
+  },
+  "database_input_fingerprint": "44d4e645c67a49aaa7d78dee3ffee0ad9ead671b32514c533db05633314be2a2",
+  "elements": [
+    {
+      "element_id": "100002",
+      "element_name": "Imported",
+      "model_material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "model_quantity_source": {
+        "element_id": 100002,
+        "guid": "87cca425-a4d0-466a-bd97-9a058148c25d",
+        "quantity_api": "bimcraft-cli family mesh",
+        "quantity_fields": {
+          "volume": "family.forms[].mesh",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": null,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": null,
+        "type_record": {},
+        "element_record": {
+          "angle": 0.0,
+          "at": [
+            750.0,
+            500.0
+          ],
+          "category": "component",
+          "family": "ConcretePanel",
+          "family_guid": "dd3b316e-42f1-4c19-b108-8d63631f8852",
+          "guid": "87cca425-a4d0-466a-bd97-9a058148c25d",
+          "height": 120.0,
+          "id": 100002,
+          "level": "e7b821b8-4655-4a67-904a-f5e7e950f655",
+          "offset": -0.0,
+          "offset_from_host": -0.0,
+          "shared_east": 750.0,
+          "shared_elevation": 0.0,
+          "shared_north": 500.0,
+          "type": "Imported",
+          "values": {},
+          "work_plane": "Level : Level 1"
+        },
+        "volume_method": "absolute oriented tetrahedron sum about translated origin; math.fsum; mm to m before integration",
+        "family_name": "ConcretePanel",
+        "family_type": "Imported",
+        "source_form_id": 998933,
+        "source_form_guid": "e9e488b5-300f-46e2-88e6-0f3b456f00a7",
+        "triangle_count": 32,
+        "vertex_welding_tolerance_mm": 1e-05,
+        "mesh_quantity_limits": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+        "self_intersection_checked": false,
+        "material_assignment": "explicit family form material",
+        "material_source_field": "family.forms[].material"
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 388.1088,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.17279999999999998,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.17279999999999998,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:B1433:row25:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:B1433:row25",
+              "property": "density",
+              "value": 2246.0,
+              "value_text": "2246",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K25:L25",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "m³",
+                "original_data_type": "Branche data",
+                "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K25:L25"
+              }
+            },
+            "density_normalized": {
+              "value": 2246.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 2246.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          }
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 41.6448,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 0.17279999999999998,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 0.17279999999999998,
+                "original_unit": "m3",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:B1433:row25:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:B1433:row25",
+                "property": "global_warming_potential",
+                "value": 241.0,
+                "value_text": "241",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 m³",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E25",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "m³",
+                  "original_data_type": "Branche data",
+                  "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E25"
+                }
+              },
+              "declared_basis": {
+                "value": 1.0,
+                "unit": "m3",
+                "dimension": "volume",
+                "original_value": 1.0,
+                "original_unit": "m³",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": [],
+                "source_unit": "m³",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.17279999999999998,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:B1433:row25",
+          "name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+          "kind": "generic",
+          "category": "concrete"
+        },
+        "selection_note": "Explicit abstract quantity/reference scenario selected in the integrated-workflow material manifest. A rectangular rail is a quantity specimen, not a verified rolled product. The concrete reference is not an actual delivered mix. No product equivalence, structural design or whole-building LCA is asserted.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    },
+    {
+      "element_id": "100003",
+      "element_name": "Imported",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "model_quantity_source": {
+        "element_id": 100003,
+        "guid": "2aa89ac3-7d35-45e8-89bb-459541930d8b",
+        "quantity_api": "bimcraft-cli family mesh",
+        "quantity_fields": {
+          "volume": "family.forms[].mesh",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": null,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": null,
+        "type_record": {},
+        "element_record": {
+          "angle": 0.0,
+          "at": [
+            750.0,
+            90.0
+          ],
+          "category": "component",
+          "family": "Rail_A",
+          "family_guid": "8f84faa0-fbc4-43bb-9786-a495b37456fe",
+          "guid": "2aa89ac3-7d35-45e8-89bb-459541930d8b",
+          "height": 10.0,
+          "id": 100003,
+          "level": "e7b821b8-4655-4a67-904a-f5e7e950f655",
+          "offset": 120.0,
+          "offset_from_host": 120.0,
+          "shared_east": 750.0,
+          "shared_elevation": 120.0,
+          "shared_north": 90.0,
+          "type": "Imported",
+          "values": {},
+          "work_plane": "Level : Level 1"
+        },
+        "volume_method": "absolute oriented tetrahedron sum about translated origin; math.fsum; mm to m before integration",
+        "family_name": "Rail_A",
+        "family_type": "Imported",
+        "source_form_id": 998932,
+        "source_form_guid": "ce8ace13-4595-456b-9f95-4bea5d015837",
+        "triangle_count": 12,
+        "vertex_welding_tolerance_mm": 1e-05,
+        "mesh_quantity_limits": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+        "self_intersection_checked": false,
+        "material_assignment": "explicit family form material",
+        "material_source_field": "family.forms[].material"
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 6.28,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.0008,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.0008,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:D1591:row129:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:D1591:row129",
+              "property": "density",
+              "value": 7850.0,
+              "value_text": "7850",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K129:L129",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "ton",
+                "original_data_type": "Dansk generisk data",
+                "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K129:L129"
+              }
+            },
+            "density_normalized": {
+              "value": 7850.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 7850.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          }
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 10.292920000000002,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 6.28,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 6.28,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 1639.0000000000002,
+                "value_text": "1639.0000000000002",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.00628,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:D1591:row129",
+          "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+          "kind": "generic",
+          "category": "metal"
+        },
+        "selection_note": "Explicit abstract quantity/reference scenario selected in the integrated-workflow material manifest. A rectangular rail is a quantity specimen, not a verified rolled product. The concrete reference is not an actual delivered mix. No product equivalence, structural design or whole-building LCA is asserted.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    },
+    {
+      "element_id": "100004",
+      "element_name": "Imported",
+      "model_material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "model_quantity_source": {
+        "element_id": 100004,
+        "guid": "21d2f169-2b7f-4cdc-9870-4f4e3ebe9ea0",
+        "quantity_api": "bimcraft-cli family mesh",
+        "quantity_fields": {
+          "volume": "family.forms[].mesh",
+          "area": "area_m2"
+        },
+        "volume_rounding_increment_m3": null,
+        "area_semantics": "BIMcraft category-specific reported area; not assumed exterior or total surface area",
+        "source_length_unit": "mm",
+        "volume_unit": "m3",
+        "area_unit": "m2",
+        "type_path_in_inspect": null,
+        "type_record": {},
+        "element_record": {
+          "angle": 0.0,
+          "at": [
+            750.0,
+            910.0
+          ],
+          "category": "component",
+          "family": "Rail_B",
+          "family_guid": "71d47baa-c202-4df9-bd07-d378cd70947b",
+          "guid": "21d2f169-2b7f-4cdc-9870-4f4e3ebe9ea0",
+          "height": 10.0,
+          "id": 100004,
+          "level": "e7b821b8-4655-4a67-904a-f5e7e950f655",
+          "offset": 120.0,
+          "offset_from_host": 120.0,
+          "shared_east": 750.0,
+          "shared_elevation": 120.0,
+          "shared_north": 910.0,
+          "type": "Imported",
+          "values": {},
+          "work_plane": "Level : Level 1"
+        },
+        "volume_method": "absolute oriented tetrahedron sum about translated origin; math.fsum; mm to m before integration",
+        "family_name": "Rail_B",
+        "family_type": "Imported",
+        "source_form_id": 998931,
+        "source_form_guid": "2e9a66b4-ca98-4bec-b01b-bd2238b51808",
+        "triangle_count": 12,
+        "vertex_welding_tolerance_mm": 1e-05,
+        "mesh_quantity_limits": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+        "self_intersection_checked": false,
+        "material_assignment": "explicit family form material",
+        "material_source_field": "family.forms[].material"
+      },
+      "calculations": {
+        "mass": {
+          "status": "ok",
+          "value": 6.28,
+          "unit": "kg",
+          "method": {
+            "id": "mass.volume_density.v1",
+            "formula": "mass_kg = volume_m3 * density_kg_m3"
+          },
+          "inputs": {
+            "volume": {
+              "value": 0.0008,
+              "unit": "m3",
+              "dimension": "volume",
+              "original_value": 0.0008,
+              "original_unit": "m3",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            },
+            "density": {
+              "id": "br18:t7:D1591:row129:mass",
+              "dataset_id": "br18",
+              "material_id": "br18:t7:D1591:row129",
+              "property": "density",
+              "value": 7850.0,
+              "value_text": "7850",
+              "unit": "kg/m³",
+              "module": null,
+              "declared_unit": null,
+              "basis": null,
+              "method": null,
+              "data_status": "reported",
+              "source_id": "br18:source:table-7-2025.xlsx",
+              "source_locator": "Sheet1!K129:L129",
+              "conditions": {
+                "reference_amount": 1,
+                "reference_unit": "ton",
+                "original_data_type": "Dansk generisk data",
+                "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                "source_comment": null,
+                "record_scope": "official_material_or_construction_reference"
+              },
+              "citation": {
+                "id": "br18:source:table-7-2025.xlsx",
+                "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                "publisher": "Social- og Boligstyrelsen",
+                "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                "local_path": "data/raw/br18/table-7-2025.xlsx",
+                "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                "license_status": "unknown",
+                "source_locator": "Sheet1!K129:L129"
+              }
+            },
+            "density_normalized": {
+              "value": 7850.0,
+              "unit": "kg/m3",
+              "dimension": "density",
+              "original_value": 7850.0,
+              "original_unit": "kg/m³",
+              "factor": 1.0,
+              "offset": 0.0,
+              "conventions": []
+            }
+          }
+        },
+        "climate": [
+          {
+            "status": "ok",
+            "value": 10.292920000000002,
+            "unit": "kg CO2-eq",
+            "method": {
+              "id": "climate.declared_reference_scaling.v1",
+              "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+            },
+            "inputs": {
+              "quantity": {
+                "value": 6.28,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 6.28,
+                "original_unit": "kg",
+                "factor": 1.0,
+                "offset": 0.0,
+                "conventions": []
+              },
+              "source_observation": {
+                "id": "br18:t7:D1591:row129:gwp:A1-A3",
+                "dataset_id": "br18",
+                "material_id": "br18:t7:D1591:row129",
+                "property": "global_warming_potential",
+                "value": 1639.0000000000002,
+                "value_text": "1639.0000000000002",
+                "unit": "kg CO2-eq",
+                "module": "A1-A3",
+                "declared_unit": "1 ton",
+                "basis": "BR18 reference factor; no lifecycle modules summed",
+                "method": null,
+                "data_status": "reported",
+                "source_id": "br18:source:table-7-2025.xlsx",
+                "source_locator": "Sheet1!E129",
+                "conditions": {
+                  "reference_amount": 1,
+                  "reference_unit": "ton",
+                  "original_data_type": "Dansk generisk data",
+                  "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?",
+                  "source_comment": null,
+                  "record_scope": "official_material_or_construction_reference"
+                },
+                "citation": {
+                  "id": "br18:source:table-7-2025.xlsx",
+                  "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+                  "publisher": "Social- og Boligstyrelsen",
+                  "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+                  "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+                  "local_path": "data/raw/br18/table-7-2025.xlsx",
+                  "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+                  "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+                  "license_status": "unknown",
+                  "source_locator": "Sheet1!E129"
+                }
+              },
+              "declared_basis": {
+                "value": 1000.0,
+                "unit": "kg",
+                "dimension": "mass",
+                "original_value": 1.0,
+                "original_unit": "ton",
+                "factor": 1000.0,
+                "offset": 0.0,
+                "conventions": [
+                  "ton/tonne/t means metric tonne, exactly 1000 kg"
+                ],
+                "source_unit": "ton",
+                "basis_source": "explicit amount and unit in source declared_unit"
+              },
+              "scaling_factor": 0.00628,
+              "numerator_conversion_factor": 1.0
+            },
+            "module": "A1-A3",
+            "indicator": "global_warming_potential",
+            "indicator_method": null,
+            "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+          }
+        ]
+      },
+      "diagnostics": [],
+      "binding": {
+        "material": {
+          "id": "br18:t7:D1591:row129",
+          "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+          "kind": "generic",
+          "category": "metal"
+        },
+        "selection_note": "Explicit abstract quantity/reference scenario selected in the integrated-workflow material manifest. A rectangular rail is a quantity specimen, not a verified rolled product. The concrete reference is not an actual delivered mix. No product equivalence, structural design or whole-building LCA is asserted.",
+        "selection_mode": "explicit_reference_scenario"
+      },
+      "status": "ok"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "mesh_quantity_limits",
+      "severity": "notice",
+      "message": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+      "element_id": "100002"
+    },
+    {
+      "code": "mesh_quantity_limits",
+      "severity": "notice",
+      "message": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+      "element_id": "100003"
+    },
+    {
+      "code": "mesh_quantity_limits",
+      "severity": "notice",
+      "message": "One unparameterized generic family mesh in the default reference plane; rigid instance placement only. Self-intersections are not checked; tessellation differs from the original CAD solid.",
+      "element_id": "100004"
+    }
+  ],
+  "scope": "Selected homogeneous reference scenarios; source context and product equivalence require review; no regulatory or complete building-LCA conclusion"
+}

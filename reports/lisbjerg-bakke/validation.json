@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "report_pages": 12,
+  "no_blank_text_pages": true,
+  "unique_source_inventory_rows": 5149,
+  "material_candidates_match_final_extract_hashes": true,
+  "original_ifc_source_hashes_unchanged": true,
+  "original_drawing_hashes_verified": true,
+  "reference_results_recomputed_by_cli": true,
+  "excel_citation_corrected": "Sheet1!E25 and K25:L25",
+  "automated_tests": {
+    "passed": 41,
+    "command": "python3 -m unittest discover -s tests -q"
+  },
+  "visual_review_pages": [
+    1,
+    2,
+    5,
+    6,
+    12
+  ],
+  "review_scope": "Selected PDF pages visually inspected; all pages checked for nonempty text; independent evidence review corrected one cell citation before delivery."
+}

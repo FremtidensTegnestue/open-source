@@ -1,0 +1,9 @@
+{
+  "kind": "mass",
+  "material_id": "br18:t7:B1433:row25",
+  "density_observation_id": "br18:t7:B1433:row25:mass",
+  "quantity": {
+    "value": 209.709,
+    "unit": "m3"
+  }
+}

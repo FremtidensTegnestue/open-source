@@ -1,0 +1,3 @@
+new {"name":"Missing material control"}
+type {"category":"floor","name":"Unassigned specimen","thickness":20}
+floor {"boundary":[[0,0],[1000,0],[1000,300],[0,300]],"type":"Unassigned specimen","level":"Level 1"}

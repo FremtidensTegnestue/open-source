@@ -1,0 +1,12 @@
+{
+  "model": "examples/models/bimcraft/rounded-volume.bimc",
+  "analytical_volume_m3": 0.0048,
+  "reported_volume_m3": 0.005,
+  "reporting_increment_m3": 0.001,
+  "dimensions_mm": [
+    1000,
+    600,
+    8
+  ],
+  "note": "The adapter preserves the CLI rounded quantity. The program IFC export contains full0.0048 but is not substituted by this adapter."
+}

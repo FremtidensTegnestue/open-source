@@ -1,0 +1,28 @@
+[
+  {
+    "bodies": [
+      "SteelControl"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "SteelControl"
+    ],
+    "feature": 1,
+    "ms": 1.216324,
+    "name": "Box1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": null,
+    "density_g_cm3": 7.85,
+    "name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+    "user": true
+  },
+  {
+    "bodies": [
+      "SteelControl"
+    ],
+    "material": "Konstruktionsstål, valsede profiler, lille forarbejdning"
+  }
+]

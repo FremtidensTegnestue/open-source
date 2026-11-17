@@ -1,0 +1,78 @@
+{
+  "base": {
+    "component_count": 3,
+    "parts": [
+      {
+        "part": "ConcretePanel",
+        "triangles": 32,
+        "GLB_BIM_world_triangles_equal_1e-7mm": true,
+        "independently_integrated_volume_m3": 0.144,
+        "expected_volume_m3": 0.144,
+        "return_max_bbox_error_mm": 1.4901161193847656e-06,
+        "returned_volume_relative_error": 1.7798610141284144e-08
+      },
+      {
+        "part": "Rail_A",
+        "triangles": 12,
+        "GLB_BIM_world_triangles_equal_1e-7mm": true,
+        "independently_integrated_volume_m3": 0.0008,
+        "expected_volume_m3": 0.0008,
+        "return_max_bbox_error_mm": 4.76837158203125e-06,
+        "returned_volume_relative_error": 2.77534114911937e-07
+      },
+      {
+        "part": "Rail_B",
+        "triangles": 12,
+        "GLB_BIM_world_triangles_equal_1e-7mm": true,
+        "independently_integrated_volume_m3": 0.0008,
+        "expected_volume_m3": 0.0008,
+        "return_max_bbox_error_mm": 1.1920928955078125e-05,
+        "returned_volume_relative_error": 4.172324505891112e-07
+      }
+    ],
+    "unbound_guard_passed": true,
+    "forward_glb_material_names": [
+      "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "Konstruktionsstål, valsede profiler, lille forarbejdning"
+    ]
+  },
+  "revised": {
+    "component_count": 3,
+    "parts": [
+      {
+        "part": "ConcretePanel",
+        "triangles": 32,
+        "GLB_BIM_world_triangles_equal_1e-7mm": true,
+        "independently_integrated_volume_m3": 0.1728,
+        "expected_volume_m3": 0.1728,
+        "return_max_bbox_error_mm": 2.682209014892578e-06,
+        "returned_volume_relative_error": 1.9454293176401904e-08
+      },
+      {
+        "part": "Rail_A",
+        "triangles": 12,
+        "GLB_BIM_world_triangles_equal_1e-7mm": true,
+        "independently_integrated_volume_m3": 0.0008,
+        "expected_volume_m3": 0.0008,
+        "return_max_bbox_error_mm": 4.76837158203125e-06,
+        "returned_volume_relative_error": 2.775341102490003e-07
+      },
+      {
+        "part": "Rail_B",
+        "triangles": 12,
+        "GLB_BIM_world_triangles_equal_1e-7mm": true,
+        "independently_integrated_volume_m3": 0.0008,
+        "expected_volume_m3": 0.0008,
+        "return_max_bbox_error_mm": 1.1920928955078125e-05,
+        "returned_volume_relative_error": 4.172324553630702e-07
+      }
+    ],
+    "unbound_guard_passed": true,
+    "forward_glb_material_names": [
+      "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "Konstruktionsstål, valsede profiler, lille forarbejdning"
+    ]
+  },
+  "stale_guard_passed": true,
+  "source_models_unchanged": true
+}

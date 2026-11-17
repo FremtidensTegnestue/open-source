@@ -1,0 +1,128 @@
+[
+  {
+    "id": "G01",
+    "priority": "1",
+    "owner": "Modelansvarlig + projekterende",
+    "topic": "Udført revision og omfang",
+    "missing_or_action": "Bekræft hvilke modeller, blokke, tegninger og revisioner der beskriver det udførte byggeri.",
+    "unlocks": "Alle projektkonklusioner",
+    "gap_kind": "input"
+  },
+  {
+    "id": "G02",
+    "priority": "1",
+    "owner": "Udvikler + BIM-ansvarlig",
+    "topic": "Import og nettomængder",
+    "missing_or_action": "Gennemgå 342/6 importudeladelser, 145 generiske ARK-objekter og 382/6 kildeobjekter uden GUID-match. Verificér nettoprofilvolumener og åbninger.",
+    "unlocks": "Komplet materialemængde",
+    "gap_kind": "implementation_and_validation"
+  },
+  {
+    "id": "G03",
+    "priority": "1",
+    "owner": "BIM-ansvarlig + ingeniør",
+    "topic": "Overlap og samlinger",
+    "missing_or_action": "Afstem koordinater, faggrænser og delobjekter mellem ARK/KON; angiv hvilken model der ejer hver mængde.",
+    "unlocks": "Summer uden dobbeltregning",
+    "gap_kind": "input_and_validation"
+  },
+  {
+    "id": "G04",
+    "priority": "1",
+    "owner": "Projekterende + leverandør",
+    "topic": "Materiale- og produktkort",
+    "missing_or_action": "Bind hver type/GUID til præcis vare, producent, sammensætning, dokument og EPD-id eller begrundet generisk reference.",
+    "unlocks": "Masse og miljøbidrag",
+    "gap_kind": "input"
+  },
+  {
+    "id": "G05",
+    "priority": "1",
+    "owner": "Projekterende + leverandør",
+    "topic": "Træ og densitet",
+    "missing_or_action": "Træart, massivtræ/limtræ/CLT-produkt, densitetens fugtgrundlag, lag-/fiberretning og dokumenteret fugtinterval. C35 alene er utilstrækkeligt.",
+    "unlocks": "Trævægt og fugtbevægelse",
+    "gap_kind": "input"
+  },
+  {
+    "id": "G06",
+    "priority": "1",
+    "owner": "Ingeniør + betonleverandør",
+    "topic": "Beton og armering",
+    "missing_or_action": "Betonstyrke, eksponering, recept/EPD, densitet og faktisk armeringsmængde. Afklar om 2% Steel er masse- eller volumenandel.",
+    "unlocks": "Beton- og stålspecifik masse/klima",
+    "gap_kind": "input"
+  },
+  {
+    "id": "G07",
+    "priority": "1",
+    "owner": "Projekterende + leverandør",
+    "topic": "Lag og tegningskobling",
+    "missing_or_action": "Knyt lokale opbygninger til modelobjekter. Afklar T1-varianter og Y2 220/240 mm; dokumentér skeletandel og åbninger.",
+    "unlocks": "Isolering, beklædning, membraner",
+    "gap_kind": "input_and_validation"
+  },
+  {
+    "id": "G08",
+    "priority": "2",
+    "owner": "LCA-ansvarlig",
+    "topic": "Beregningsgrundlag",
+    "missing_or_action": "Referenceareal, periode, afgrænsning, valgte indikatorer/metoder og sammenlignelige data med geografi/tidsgrundlag.",
+    "unlocks": "Sammenligneligt samlet regnskab",
+    "gap_kind": "input"
+  },
+  {
+    "id": "G09",
+    "priority": "2",
+    "owner": "LCA-ansvarlig + entreprenør",
+    "topic": "Transport og byggeplads",
+    "missing_or_action": "Transportmidler/-afstande, spild, energiforbrug, emballage og øvrige byggepladsdata.",
+    "unlocks": "Transport-/udførelsesbidrag",
+    "gap_kind": "input"
+  },
+  {
+    "id": "G10",
+    "priority": "2",
+    "owner": "Drift + projekterende",
+    "topic": "Drift, udskiftning og slutning",
+    "missing_or_action": "Energimodel/forbrug, vedligehold, levetider, udskiftninger, demontering, affald og slutscenarier.",
+    "unlocks": "Livscyklus og livscyklusøkonomi",
+    "gap_kind": "input"
+  },
+  {
+    "id": "G11",
+    "priority": "2",
+    "owner": "Bygningsfysiker + udvikler",
+    "topic": "Varme og fugt",
+    "missing_or_action": "Verificeret λ, μ/sd, sorption, samlinger, kuldebroer, klima og randbetingelser; implementér/validér relevante metoder.",
+    "unlocks": "R/U-værdier og fugtanalyse",
+    "gap_kind": "input_and_implementation"
+  },
+  {
+    "id": "G12",
+    "priority": "2",
+    "owner": "Ingeniør / brand / akustik",
+    "topic": "Faglige beregningsmodeller",
+    "missing_or_action": "Laster, understøtninger, samlinger, sikkerhedsfaktorer, brand- og akustikdokumentation for den konkrete opbygning.",
+    "unlocks": "Styrke, brand og lyd",
+    "gap_kind": "input_and_implementation"
+  },
+  {
+    "id": "G13",
+    "priority": "2",
+    "owner": "Miljøspecialist + udvikler",
+    "topic": "Øvrige miljøindikatorer",
+    "missing_or_action": "Vælg sammenlignelig indikator, metode og modul. Tilføj beregningsmetoder ud over nuværende GWP-skalering.",
+    "unlocks": "Vand, ressourcer, affald og andre miljøpåvirkninger",
+    "gap_kind": "input_and_implementation"
+  },
+  {
+    "id": "G14",
+    "priority": "2",
+    "owner": "Bygherre + drift",
+    "topic": "Økonomi og genbrug",
+    "missing_or_action": "Enhedspriser, arbejdsløn, diskontering, tilstand, demonterbarhed og restlevetid.",
+    "unlocks": "Pris, LCC og genbrugspotentiale",
+    "gap_kind": "input_and_implementation"
+  }
+]

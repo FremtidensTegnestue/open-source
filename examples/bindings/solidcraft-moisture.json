@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "model_sha256": "3c3dd73df180ad1ade4336c6c91835aa062351914800ef0e7bf6834b6b62323e",
+  "elements": {
+    "solidcraft:WoodMoistureControl": {
+      "material_id": "wood:fir-white",
+      "model_material_name": "Fir, white",
+      "selection_note": "Authored white-fir specimen; explicit species and orientation reference scenario from USDA example, not inferred CLT behavior.",
+      "operations": [
+        "moisture"
+      ],
+      "moisture": {
+        "coefficient_observation_id": "wood:51bdadf283844ea37156000c",
+        "dimension_axis": "x",
+        "direction": "tangential",
+        "initial_moisture_percent": 8,
+        "final_moisture_percent": 11,
+        "orientation_note": "In this authored specimen, world x explicitly represents tangential board width; this is an author assumption, not inferred from geometry."
+      }
+    }
+  }
+}

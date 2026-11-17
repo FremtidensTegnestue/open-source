@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-17T19:56:03.210853+00:00",
+  "database": "data/materials.sqlite",
+  "original_files_checked": 7135,
+  "original_checksum_errors": 0,
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": [],
+  "independent_original_value_checks": {
+    "environmental_random_json_values": 150,
+    "technical_json_values": 100,
+    "br18_original_excel_cells": 2635,
+    "random_seed": 20261117
+  },
+  "unit_tests": {
+    "passed": 6,
+    "command": "python3 -m unittest discover -s tests -v",
+    "coverage": [
+      "source checksum rejection",
+      "foreign keys",
+      "duplicate IDs",
+      "finite numeric values",
+      "original value text required",
+      "missing versus zero",
+      "negative module D and conditions preserved",
+      "previous database preserved after failed build"
+    ]
+  },
+  "commands": [
+    "python3 materials.py verify",
+    "python3 tests/verify_snapshot.py"
+  ],
+  "scope": "File/database integrity and selected extraction checks; not independent engineering validation of all source values"
+}

@@ -1,0 +1,400 @@
+[
+  {
+    "id": "lca-estimator",
+    "title": "LCA estimator",
+    "source_url": "https://opensource.vandkunsten.com/01_lca-estimator/",
+    "platform": "Excel 365 / VBA",
+    "purpose": "Estimerer tidlig LCA ved match mod bygningscases fra SBi 2020:04.",
+    "license_observation": "MIT angivet på site og licensark",
+    "limitations": "Datasæt fra 2020; repræsentative cases er nødvendige.",
+    "archive_directory": "archive/opensource.vandkunsten.com/01_lca-estimator",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/01_lca-estimator",
+    "source_text": "extracted/opensource.vandkunsten.com/01_lca-estimator/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/01_lca-estimator/",
+        "path": "archive/opensource.vandkunsten.com/01_lca-estimator/index.html",
+        "fetched_at": "2026-11-17T18:46:49.745262+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 5882,
+        "sha256": "2adf06ea5537f8130f9784236f791efd9ea2470427f2aed1db7f5ec1dd99a121"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.pdf",
+        "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.pdf",
+        "fetched_at": "2026-11-17T18:46:49.946846+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1692637,
+        "sha256": "6425251157ca8ffe0f6a99e27f1afedf65a59b973dfb97975832eaff08e8d641"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator500x500.jpg",
+        "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator500x500.jpg",
+        "fetched_at": "2026-11-17T18:46:49.947247+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator500x500.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 143080,
+        "sha256": "db667d42a1d479d077b3e7592fa73c1fca5e67cc53d0c754e3bee3cc7125773c"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm",
+        "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm",
+        "fetched_at": "2026-11-17T18:46:49.947636+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm",
+        "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+        "bytes": 124558,
+        "sha256": "8405955c36f1ae024b523165f8c3d06d22be25a50dd1cd68b035b12e70e503f6"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  },
+  {
+    "id": "trae-udvidelse",
+    "title": "Udvidelsesberegner for træfacader",
+    "source_url": "https://opensource.vandkunsten.com/04_udvidelse-trae/",
+    "platform": "Excel",
+    "purpose": "Beregner fugemål og dækmål ud fra montagedato, brætbredde og trægruppe.",
+    "license_observation": "MIT i licensark",
+    "limitations": "Månedsbaseret klimamodel; formlernes anvendelighed er ikke fysisk efterprøvet.",
+    "archive_directory": "archive/opensource.vandkunsten.com/04_udvidelse-trae",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/04_udvidelse-trae",
+    "source_text": "extracted/opensource.vandkunsten.com/04_udvidelse-trae/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/04_udvidelse-trae/",
+        "path": "archive/opensource.vandkunsten.com/04_udvidelse-trae/index.html",
+        "fetched_at": "2026-11-17T18:46:49.746332+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/04_udvidelse-trae/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 3943,
+        "sha256": "9bbcc76ef494c21a817d3dbd16b0924e0c7508e054a22d490a4de7b791daf662"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-trae_500x500.jpg",
+        "path": "archive/opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-trae_500x500.jpg",
+        "fetched_at": "2026-11-17T18:46:50.188070+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-trae_500x500.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 117122,
+        "sha256": "33dcb09811be92b85b5cae600e19eeada72f90cf8b62bb568ebaeb61a68fb952"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-træ.xlsx",
+        "path": "archive/opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-træ.xlsx",
+        "fetched_at": "2026-11-17T18:47:23.000407+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-tr%C3%A6.xlsx",
+        "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "bytes": 203310,
+        "sha256": "28e02119eb0f2be8e40793b2469b91efa5dc532f0024579d709eebacc71ff06d"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  },
+  {
+    "id": "dagslys",
+    "title": "Dagslyssimulering DLA / UDI",
+    "source_url": "https://opensource.vandkunsten.com/02_DLA-UDI/",
+    "platform": "Rhino / Grasshopper / Radiance",
+    "purpose": "Dagslysanalyse fra tegninger og modeller med tilhørende plugins, eksempel og vejrfiler.",
+    "license_observation": "GPL v3-tekst i upstream/Daylight_VK-01/License.txt; tredjepartsplugins har egne vilkår",
+    "limitations": "Binære Grasshopper-filer; kræver eksisterende software og flere plugins.",
+    "archive_directory": "archive/opensource.vandkunsten.com/02_DLA-UDI",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/02_DLA-UDI",
+    "source_text": "extracted/opensource.vandkunsten.com/02_DLA-UDI/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/02_DLA-UDI/",
+        "path": "archive/opensource.vandkunsten.com/02_DLA-UDI/index.html",
+        "fetched_at": "2026-11-17T18:46:49.745636+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/02_DLA-UDI/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 4257,
+        "sha256": "7a22e6f2bcca6a4158977d4c27e4c7cc563406ce11e743ba11fa80517748854a"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/02_DLA-UDI/VK_dagslys_500x500px.jpg",
+        "path": "archive/opensource.vandkunsten.com/02_DLA-UDI/VK_dagslys_500x500px.jpg",
+        "fetched_at": "2026-11-17T18:46:50.070213+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/02_DLA-UDI/VK_dagslys_500x500px.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 110372,
+        "sha256": "328cf1ec5f387387239c3f26f5e1e4d3a753a199b1e9e31244d3fd2f15d50fac"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  },
+  {
+    "id": "lcc-revit",
+    "title": "LCC + Revit",
+    "source_url": "https://opensource.vandkunsten.com/06_LCCRevit/",
+    "platform": "Dynamo / Python / Revit / LCC.Byg",
+    "purpose": "Mængdeudtræk og klargøring af XML til LCC.Byg 2.26.",
+    "license_observation": "MIT som udgangspunkt på site; medfølgende tredjepartsmateriale særskilt",
+    "limitations": "Historisk XML-version; kompatibilitet med nutidige versioner er ikke testet.",
+    "archive_directory": "archive/opensource.vandkunsten.com/06_LCCRevit",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/06_LCCRevit",
+    "source_text": "extracted/opensource.vandkunsten.com/06_LCCRevit/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/06_LCCRevit/",
+        "path": "archive/opensource.vandkunsten.com/06_LCCRevit/index.html",
+        "fetched_at": "2026-11-17T18:46:49.811847+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 4665,
+        "sha256": "af416fd9fb6a70185b7bdd627d4ba2308e399fac6c2ef16da7eddd11a8e62f3c"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.jpg",
+        "path": "archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.jpg",
+        "fetched_at": "2026-11-17T18:46:50.733289+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 235951,
+        "sha256": "bb980a3c3b2a1d4dd5492272b8a7623f78362a3e4c9254477404625429334dc1"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.zip",
+        "path": "archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.zip",
+        "fetched_at": "2026-11-17T18:46:50.870066+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.zip",
+        "content_type": "application/zip",
+        "bytes": 74069574,
+        "sha256": "20c17db705d0dd7a571db363fc89dfe57f04bb9d2e3cc963e719287fe8da79d3"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/06_LCCRevit/VandkunstenLCC-Revit.webm",
+        "path": "archive/opensource.vandkunsten.com/06_LCCRevit/VandkunstenLCC-Revit.webm",
+        "fetched_at": "2026-11-17T18:46:50.902272+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/VandkunstenLCC-Revit.webm",
+        "content_type": "video/webm",
+        "bytes": 76983595,
+        "sha256": "0dc656d017acc5973fdd158ac33465f5f6eddb8dca2f25a74dfd2c6d79b2cc3f"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  },
+  {
+    "id": "earlybird-lca",
+    "title": "EarlyBird LCA",
+    "source_url": "https://opensource.vandkunsten.com/03_earlybird-lca/",
+    "platform": "Excel",
+    "purpose": "Overslags-LCA fra geometri og materialer i tidlige designfaser.",
+    "license_observation": "MIT angivet på site og licensark",
+    "limitations": "ÖKOBAUDAT 2015; siden beskriver afvigelser på op til 20 % i fire sammenligninger.",
+    "archive_directory": "archive/opensource.vandkunsten.com/03_earlybird-lca",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/03_earlybird-lca",
+    "source_text": "extracted/opensource.vandkunsten.com/03_earlybird-lca/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/03_earlybird-lca/",
+        "path": "archive/opensource.vandkunsten.com/03_earlybird-lca/index.html",
+        "fetched_at": "2026-11-17T18:46:49.745942+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/03_earlybird-lca/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 4490,
+        "sha256": "fd7908359217e3f6d52eecdf305d8110c7bf1c3a14dce1823551db3d7be9a9e3"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx",
+        "path": "archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx",
+        "fetched_at": "2026-11-17T18:46:50.070715+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx",
+        "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "bytes": 64283,
+        "sha256": "75f3b230260662e6292c389c5bd17d1f69efaba23e982e02a6ea55356c6b2b5f"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_earlybirdLCA_500x500.jpg",
+        "path": "archive/opensource.vandkunsten.com/03_earlybird-lca/VK_earlybirdLCA_500x500.jpg",
+        "fetched_at": "2026-11-17T18:46:50.168951+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_earlybirdLCA_500x500.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 157876,
+        "sha256": "dd97de13ae65f5f3e49924ab3f79e1483da6774fd487c68d4be2bcf17fe5e949"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  },
+  {
+    "id": "aeforos",
+    "title": "AEFOROS / BIM + LCA",
+    "source_url": "https://opensource.vandkunsten.com/05_aeforos/",
+    "platform": "Dynamo / Python / Revit / Excel",
+    "purpose": "Materialekontrol, match til LCI-data, beregning og resultatvisning i Revit.",
+    "license_observation": "MIT som udgangspunkt på site; databaser og øvrige komponenter undersøges separat",
+    "limitations": "Medleveret concept-database er baseret på ÖKOBAUDAT 2015.",
+    "archive_directory": "archive/opensource.vandkunsten.com/05_aeforos",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/05_aeforos",
+    "source_text": "extracted/opensource.vandkunsten.com/05_aeforos/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/05_aeforos/",
+        "path": "archive/opensource.vandkunsten.com/05_aeforos/index.html",
+        "fetched_at": "2026-11-17T18:46:49.810091+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/05_aeforos/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 6811,
+        "sha256": "c8ee7a09ca0fa3381ab9f40197dd5f9a6ad3b8d0f3f8d8d92dfbcbbc63d2fbd5"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.pdf",
+        "path": "archive/opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.pdf",
+        "fetched_at": "2026-11-17T18:46:50.289497+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.pdf",
+        "content_type": "application/pdf",
+        "bytes": 11292111,
+        "sha256": "bccb68fbdd7aa57fa8c845b048463f617d316053c594329bd795fd69cb029f75"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten.zip",
+        "path": "archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten.zip",
+        "fetched_at": "2026-11-17T18:46:50.306172+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten.zip",
+        "content_type": "application/zip",
+        "bytes": 2330689,
+        "sha256": "f758b921d724c2b731ec3e4ece88792bf1a13e9bf6071afc3af843f7e50273cb"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/05_aeforos/VK_aeforos_500x500.jpg",
+        "path": "archive/opensource.vandkunsten.com/05_aeforos/VK_aeforos_500x500.jpg",
+        "fetched_at": "2026-11-17T18:46:50.576434+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/05_aeforos/VK_aeforos_500x500.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 334422,
+        "sha256": "d0d672ad128dba1c0b6a37852fe025c27eaba62b06c6b8515e4b34cb98a1b49a"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015.zip",
+        "path": "archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015.zip",
+        "fetched_at": "2026-11-17T18:46:50.664963+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015.zip",
+        "content_type": "application/zip",
+        "bytes": 1269259,
+        "sha256": "5ffe7f3d37eb37f5fde587a660dce48c397ec8d3ac268abf25739381123d7451"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  },
+  {
+    "id": "lisbjerg-bakke",
+    "title": "FBAB Lisbjerg Bakke",
+    "source_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/",
+    "platform": "IFC / PDF / JPEG",
+    "purpose": "Casepakke med ARK- og KON-modeller, tegninger, detaljer og fotografier.",
+    "license_observation": "Generel siteangivelse er bevaret; tegnings-, model- og fotorettigheder er ikke afklaret individuelt",
+    "limitations": "Projektmateriale; ingen maskinel eller ingeniørfaglig modelvalidering udført.",
+    "archive_directory": "archive/opensource.vandkunsten.com/07_FBABLisbjerg",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/07_FBABLisbjerg",
+    "source_text": "extracted/opensource.vandkunsten.com/07_FBABLisbjerg/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/",
+        "path": "archive/opensource.vandkunsten.com/07_FBABLisbjerg/index.html",
+        "fetched_at": "2026-11-17T18:46:49.812503+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 4124,
+        "sha256": "3a0d040c983a681cc9c6ab4d0ab778d678ca1be3bac7dc60bfe9e6acf870ff8a"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/Lisbjerg-Mirjam-fbab-square-500x500.jpg",
+        "path": "archive/opensource.vandkunsten.com/07_FBABLisbjerg/Lisbjerg-Mirjam-fbab-square-500x500.jpg",
+        "fetched_at": "2026-11-17T18:46:52.127416+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/Lisbjerg-Mirjam-fbab-square-500x500.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 133779,
+        "sha256": "c80f003f6c9cc26dc7ff170cbac42f995bb8ae13c34c9f41db8059ab36e28140"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip",
+        "path": "archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip",
+        "fetched_at": "2026-11-17T18:46:52.246993+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip",
+        "content_type": "application/zip",
+        "bytes": 68479819,
+        "sha256": "8a15cfa7ab39521df818cb55c1f2a218dc0e7d0bb47b8a93fc4fc97141d07f4d"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  },
+  {
+    "id": "lille-arne",
+    "title": "Lille Arne / hjemmesidens kildekode",
+    "source_url": "https://opensource.vandkunsten.com/08_lilleArne/",
+    "platform": "PHP / HTML / CSS",
+    "purpose": "Genbrugelig hjemmeside med includes og to værktøjseksempler.",
+    "license_observation": "MIT som udgangspunkt på site; fonte og billeder har ikke fået selvstændig licensvalidering",
+    "limitations": "Koden er arkiveret og inspiceret, men ikke kørt som website.",
+    "archive_directory": "archive/opensource.vandkunsten.com/08_lilleArne",
+    "unpacked_directory": "unpacked/archive/opensource.vandkunsten.com/08_lilleArne",
+    "source_text": "extracted/opensource.vandkunsten.com/08_lilleArne/index.txt",
+    "downloads": [
+      {
+        "url": "https://opensource.vandkunsten.com/08_lilleArne/",
+        "path": "archive/opensource.vandkunsten.com/08_lilleArne/index.html",
+        "fetched_at": "2026-11-17T18:46:49.813006+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/08_lilleArne/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 3673,
+        "sha256": "b80615dbc18e38a4c2769d89a7c19e313d428d56306caee043567a5e4e85e167"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/08_lilleArne/VK_lilleArne.png",
+        "path": "archive/opensource.vandkunsten.com/08_lilleArne/VK_lilleArne.png",
+        "fetched_at": "2026-11-17T18:46:53.199651+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/08_lilleArne/VK_lilleArne.png",
+        "content_type": "image/png",
+        "bytes": 439332,
+        "sha256": "fcb538f8e9262e4f9a55315ae4fb02565fbfda5e08783271a72cc859df73529b"
+      },
+      {
+        "url": "https://opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne.zip",
+        "path": "archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne.zip",
+        "fetched_at": "2026-11-17T18:46:53.260849+00:00",
+        "status": 200,
+        "final_url": "https://opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne.zip",
+        "content_type": "application/zip",
+        "bytes": 3866458,
+        "sha256": "bece10adf56d86d41979a277263bf4d818047be6340bc2418f2724153a6df48e"
+      }
+    ],
+    "execution_status": "not_executed",
+    "review_status": "catalogued_static_inspection"
+  }
+]

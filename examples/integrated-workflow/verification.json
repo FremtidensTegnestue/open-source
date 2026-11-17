@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-17T22:23:20.653946+00:00",
+  "versions": {
+    "solidcraft": "solidcraft-cli 0.44.0",
+    "bimcraft": "bimcraft-cli 0.12.0"
+  },
+  "workflow": [
+    "Solidcraft parametric CAD",
+    "GLB export",
+    "BIMcraft generic mesh import",
+    "explicit material manifest",
+    "material CLI closed mesh quantities",
+    "source-bound mass and A1-A3 climate",
+    "BIM GLB export",
+    "Solidcraft roundtrip evaluation"
+  ],
+  "base": {
+    "thickness_mm": 100,
+    "solidcraft": [
+      {
+        "part": "ConcretePanel",
+        "volume_m3": 0.144,
+        "mass_kg": 323.424,
+        "gwp_A1_A3_kg_CO2eq": 34.704,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_A",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_B",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      }
+    ],
+    "bimcraft": [
+      {
+        "part": "ConcretePanel",
+        "volume_m3": 0.14400000000000002,
+        "mass_kg": 323.42400000000004,
+        "gwp_A1_A3_kg_CO2eq": 34.704,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_A",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_B",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      }
+    ],
+    "roundtrip": [
+      {
+        "part": "ConcretePanel",
+        "closed": true,
+        "volume_m3": 0.14400000256299986,
+        "world_bbox_matches_within_mm": 0.002,
+        "returned_material": "Default",
+        "status": "passed"
+      },
+      {
+        "part": "Rail_A",
+        "closed": true,
+        "volume_m3": 0.0007999997779727081,
+        "world_bbox_matches_within_mm": 0.002,
+        "returned_material": "Default",
+        "status": "passed"
+      },
+      {
+        "part": "Rail_B",
+        "closed": true,
+        "volume_m3": 0.0007999996662140396,
+        "world_bbox_matches_within_mm": 0.002,
+        "returned_material": "Default",
+        "status": "passed"
+      }
+    ],
+    "solidcraft_totals": {
+      "mass_kg": 335.984,
+      "gwp_A1_A3_kg_CO2eq": 55.289840000000005
+    },
+    "bimcraft_totals": {
+      "mass_kg": 335.98400000000004,
+      "gwp_A1_A3_kg_CO2eq": 55.289840000000005
+    },
+    "expected_totals": {
+      "mass_kg": 335.984,
+      "gwp_A1_A3_kg_CO2eq": 55.28984
+    },
+    "component_count": 3,
+    "cad_sha256": "a57eea77ba802dd8e079a834e64906a4aad79576f98d5f4de40c76ad89059cec",
+    "bim_sha256": "a7ba87f40709428c8d18d1eaa2c36d72b6d68a8ad4bf246c0370f15fba35fc66"
+  },
+  "revised": {
+    "thickness_mm": 120,
+    "solidcraft": [
+      {
+        "part": "ConcretePanel",
+        "volume_m3": 0.1728,
+        "mass_kg": 388.10880000000003,
+        "gwp_A1_A3_kg_CO2eq": 41.644800000000004,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_A",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_B",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      }
+    ],
+    "bimcraft": [
+      {
+        "part": "ConcretePanel",
+        "volume_m3": 0.17279999999999998,
+        "mass_kg": 388.1088,
+        "gwp_A1_A3_kg_CO2eq": 41.6448,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_A",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      },
+      {
+        "part": "Rail_B",
+        "volume_m3": 0.0008,
+        "mass_kg": 6.28,
+        "gwp_A1_A3_kg_CO2eq": 10.292920000000002,
+        "status": "passed"
+      }
+    ],
+    "roundtrip": [
+      {
+        "part": "ConcretePanel",
+        "closed": true,
+        "volume_m3": 0.17279999663829815,
+        "world_bbox_matches_within_mm": 0.002,
+        "returned_material": "Default",
+        "status": "passed"
+      },
+      {
+        "part": "Rail_A",
+        "closed": true,
+        "volume_m3": 0.0007999997779727119,
+        "world_bbox_matches_within_mm": 0.002,
+        "returned_material": "Default",
+        "status": "passed"
+      },
+      {
+        "part": "Rail_B",
+        "closed": true,
+        "volume_m3": 0.0007999996662140358,
+        "world_bbox_matches_within_mm": 0.002,
+        "returned_material": "Default",
+        "status": "passed"
+      }
+    ],
+    "solidcraft_totals": {
+      "mass_kg": 400.66880000000003,
+      "gwp_A1_A3_kg_CO2eq": 62.23064000000001
+    },
+    "bimcraft_totals": {
+      "mass_kg": 400.6688,
+      "gwp_A1_A3_kg_CO2eq": 62.23064
+    },
+    "expected_totals": {
+      "mass_kg": 400.6688,
+      "gwp_A1_A3_kg_CO2eq": 62.230639999999994
+    },
+    "component_count": 3,
+    "cad_sha256": "3addabb811a59d5c32fb0ba50b6ed2ed66eb2b89d79b5a402343d7bda430531d",
+    "bim_sha256": "940d3c5486b6f3893edf49871780edba5ac6a626e0866ff98b7a31c64f8c0a3e"
+  },
+  "change": {
+    "mass_kg": 64.68479999999994,
+    "gwp_A1_A3_kg_CO2eq": 6.940799999999996
+  },
+  "stale_bindings_rejected": {
+    "solidcraft": true,
+    "bimcraft": true
+  },
+  "limits": [
+    "Generic imported meshes, not native BIM walls/floors or retained CAD parameter history.",
+    "Physical material meaning is deliberately restored using the authored manifest.",
+    "Revision creates a fresh BIM project; no automatic synchronization or merge.",
+    "Mesh checks cover closure, winding and connectivity, not arbitrary self-intersection.",
+    "Reference scenario only; no product equivalence or structural verification."
+  ]
+}

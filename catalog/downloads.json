@@ -1,0 +1,409 @@
+[
+  {
+    "url": "https://opensource.vandkunsten.com/",
+    "path": "archive/opensource.vandkunsten.com/index.html",
+    "fetched_at": "2026-11-17T18:46:49.655809+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 6720,
+    "sha256": "eaf50cc87de763810ed6cb66aaa733a92543a2319bd682e7a755d695cb51e245"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/01_lca-estimator/",
+    "path": "archive/opensource.vandkunsten.com/01_lca-estimator/index.html",
+    "fetched_at": "2026-11-17T18:46:49.745262+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 5882,
+    "sha256": "2adf06ea5537f8130f9784236f791efd9ea2470427f2aed1db7f5ec1dd99a121"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/02_DLA-UDI/",
+    "path": "archive/opensource.vandkunsten.com/02_DLA-UDI/index.html",
+    "fetched_at": "2026-11-17T18:46:49.745636+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/02_DLA-UDI/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 4257,
+    "sha256": "7a22e6f2bcca6a4158977d4c27e4c7cc563406ce11e743ba11fa80517748854a"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/03_earlybird-lca/",
+    "path": "archive/opensource.vandkunsten.com/03_earlybird-lca/index.html",
+    "fetched_at": "2026-11-17T18:46:49.745942+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/03_earlybird-lca/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 4490,
+    "sha256": "fd7908359217e3f6d52eecdf305d8110c7bf1c3a14dce1823551db3d7be9a9e3"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/04_udvidelse-trae/",
+    "path": "archive/opensource.vandkunsten.com/04_udvidelse-trae/index.html",
+    "fetched_at": "2026-11-17T18:46:49.746332+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/04_udvidelse-trae/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 3943,
+    "sha256": "9bbcc76ef494c21a817d3dbd16b0924e0c7508e054a22d490a4de7b791daf662"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/05_aeforos/",
+    "path": "archive/opensource.vandkunsten.com/05_aeforos/index.html",
+    "fetched_at": "2026-11-17T18:46:49.810091+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/05_aeforos/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 6811,
+    "sha256": "c8ee7a09ca0fa3381ab9f40197dd5f9a6ad3b8d0f3f8d8d92dfbcbbc63d2fbd5"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/06_LCCRevit/",
+    "path": "archive/opensource.vandkunsten.com/06_LCCRevit/index.html",
+    "fetched_at": "2026-11-17T18:46:49.811847+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 4665,
+    "sha256": "af416fd9fb6a70185b7bdd627d4ba2308e399fac6c2ef16da7eddd11a8e62f3c"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/",
+    "path": "archive/opensource.vandkunsten.com/07_FBABLisbjerg/index.html",
+    "fetched_at": "2026-11-17T18:46:49.812503+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 4124,
+    "sha256": "3a0d040c983a681cc9c6ab4d0ab778d678ca1be3bac7dc60bfe9e6acf870ff8a"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/08_lilleArne/",
+    "path": "archive/opensource.vandkunsten.com/08_lilleArne/index.html",
+    "fetched_at": "2026-11-17T18:46:49.813006+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/08_lilleArne/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 3673,
+    "sha256": "b80615dbc18e38a4c2769d89a7c19e313d428d56306caee043567a5e4e85e167"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/css/style210513.css",
+    "path": "archive/opensource.vandkunsten.com/css/style210513.css",
+    "fetched_at": "2026-11-17T18:46:49.873228+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/css/style210513.css",
+    "content_type": "text/css",
+    "bytes": 3776,
+    "sha256": "7b68cc1b32cb1c7df10e29c570562703b245a869d56190c0b5fc452bff57677b"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/img/instagram.svg",
+    "path": "archive/opensource.vandkunsten.com/img/instagram.svg",
+    "fetched_at": "2026-11-17T18:46:49.875585+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/img/instagram.svg",
+    "content_type": "image/svg+xml",
+    "bytes": 3257,
+    "sha256": "25a16e57de9e3366947a87842fd461bc6b29eaa7051dbc1c38c4d83f46c6fd7a"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/img/linkedin.svg",
+    "path": "archive/opensource.vandkunsten.com/img/linkedin.svg",
+    "fetched_at": "2026-11-17T18:46:49.877346+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/img/linkedin.svg",
+    "content_type": "image/svg+xml",
+    "bytes": 1634,
+    "sha256": "f44d0d8c035ce1d70c45ff10647b0e8a08b6f55ab5427f781da7d3f357150e84"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/img/twitter.svg",
+    "path": "archive/opensource.vandkunsten.com/img/twitter.svg",
+    "fetched_at": "2026-11-17T18:46:49.877742+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/img/twitter.svg",
+    "content_type": "image/svg+xml",
+    "bytes": 4765,
+    "sha256": "a9e2c1bf94233cc26ccb9fe9dabe7cd3dd1fdd5524da11515da106034f4d1806"
+  },
+  {
+    "url": "https://github.com/vandkunsten/Daylight_VK-01/blob/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.pdf",
+    "path": "archive/github.com/vandkunsten/Daylight_VK-01/blob/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.pdf",
+    "fetched_at": "2026-11-17T18:46:49.947896+00:00",
+    "status": 200,
+    "final_url": "https://github.com/vandkunsten/Daylight_VK-01/blob/2be97c588a15192436bf3958695657d96dcbed73/VK_dagslys_Tutorial.pdf",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 164618,
+    "sha256": "aac957e9d20891426749184b3453af96eceb47ce7150d951a956e8a7d700b1d4"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.pdf",
+    "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.pdf",
+    "fetched_at": "2026-11-17T18:46:49.946846+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator-metode.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1692637,
+    "sha256": "6425251157ca8ffe0f6a99e27f1afedf65a59b973dfb97975832eaff08e8d641"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator500x500.jpg",
+    "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator500x500.jpg",
+    "fetched_at": "2026-11-17T18:46:49.947247+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimator500x500.jpg",
+    "content_type": "image/jpeg",
+    "bytes": 143080,
+    "sha256": "db667d42a1d479d077b3e7592fa73c1fca5e67cc53d0c754e3bee3cc7125773c"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm",
+    "path": "archive/opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm",
+    "fetched_at": "2026-11-17T18:46:49.947636+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/01_lca-estimator/VK_LCAestimatorV2.xlsm",
+    "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+    "bytes": 124558,
+    "sha256": "8405955c36f1ae024b523165f8c3d06d22be25a50dd1cd68b035b12e70e503f6"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/02_DLA-UDI/VK_dagslys_500x500px.jpg",
+    "path": "archive/opensource.vandkunsten.com/02_DLA-UDI/VK_dagslys_500x500px.jpg",
+    "fetched_at": "2026-11-17T18:46:50.070213+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/02_DLA-UDI/VK_dagslys_500x500px.jpg",
+    "content_type": "image/jpeg",
+    "bytes": 110372,
+    "sha256": "328cf1ec5f387387239c3f26f5e1e4d3a753a199b1e9e31244d3fd2f15d50fac"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx",
+    "path": "archive/opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx",
+    "fetched_at": "2026-11-17T18:46:50.070715+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_EarlyBird_v4.xlsx",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 64283,
+    "sha256": "75f3b230260662e6292c389c5bd17d1f69efaba23e982e02a6ea55356c6b2b5f"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_earlybirdLCA_500x500.jpg",
+    "path": "archive/opensource.vandkunsten.com/03_earlybird-lca/VK_earlybirdLCA_500x500.jpg",
+    "fetched_at": "2026-11-17T18:46:50.168951+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/03_earlybird-lca/VK_earlybirdLCA_500x500.jpg",
+    "content_type": "image/jpeg",
+    "bytes": 157876,
+    "sha256": "dd97de13ae65f5f3e49924ab3f79e1483da6774fd487c68d4be2bcf17fe5e949"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-trae_500x500.jpg",
+    "path": "archive/opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-trae_500x500.jpg",
+    "fetched_at": "2026-11-17T18:46:50.188070+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-trae_500x500.jpg",
+    "content_type": "image/jpeg",
+    "bytes": 117122,
+    "sha256": "33dcb09811be92b85b5cae600e19eeada72f90cf8b62bb568ebaeb61a68fb952"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-træ.xlsx",
+    "path": "archive/opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-træ.xlsx",
+    "fetched_at": "2026-11-17T18:47:23.000407+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/04_udvidelse-trae/VK_udvidelse-tr%C3%A6.xlsx",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 203310,
+    "sha256": "28e02119eb0f2be8e40793b2469b91efa5dc532f0024579d709eebacc71ff06d"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.pdf",
+    "path": "archive/opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.pdf",
+    "fetched_at": "2026-11-17T18:46:50.289497+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/05_aeforos/161107_VK_LCA.pdf",
+    "content_type": "application/pdf",
+    "bytes": 11292111,
+    "sha256": "bccb68fbdd7aa57fa8c845b048463f617d316053c594329bd795fd69cb029f75"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten.zip",
+    "path": "archive/opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten.zip",
+    "fetched_at": "2026-11-17T18:46:50.306172+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/05_aeforos/Aeforos_Vandkunsten.zip",
+    "content_type": "application/zip",
+    "bytes": 2330689,
+    "sha256": "f758b921d724c2b731ec3e4ece88792bf1a13e9bf6071afc3af843f7e50273cb"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/05_aeforos/VK_aeforos_500x500.jpg",
+    "path": "archive/opensource.vandkunsten.com/05_aeforos/VK_aeforos_500x500.jpg",
+    "fetched_at": "2026-11-17T18:46:50.576434+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/05_aeforos/VK_aeforos_500x500.jpg",
+    "content_type": "image/jpeg",
+    "bytes": 334422,
+    "sha256": "d0d672ad128dba1c0b6a37852fe025c27eaba62b06c6b8515e4b34cb98a1b49a"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015.zip",
+    "path": "archive/opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015.zip",
+    "fetched_at": "2026-11-17T18:46:50.664963+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/05_aeforos/VK_oekobaudat_import_2015.zip",
+    "content_type": "application/zip",
+    "bytes": 1269259,
+    "sha256": "5ffe7f3d37eb37f5fde587a660dce48c397ec8d3ac268abf25739381123d7451"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.jpg",
+    "path": "archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.jpg",
+    "fetched_at": "2026-11-17T18:46:50.733289+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.jpg",
+    "content_type": "image/jpeg",
+    "bytes": 235951,
+    "sha256": "bb980a3c3b2a1d4dd5492272b8a7623f78362a3e4c9254477404625429334dc1"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.zip",
+    "path": "archive/opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.zip",
+    "fetched_at": "2026-11-17T18:46:50.870066+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/VK_LCCRevit.zip",
+    "content_type": "application/zip",
+    "bytes": 74069574,
+    "sha256": "20c17db705d0dd7a571db363fc89dfe57f04bb9d2e3cc963e719287fe8da79d3"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/06_LCCRevit/VandkunstenLCC-Revit.webm",
+    "path": "archive/opensource.vandkunsten.com/06_LCCRevit/VandkunstenLCC-Revit.webm",
+    "fetched_at": "2026-11-17T18:46:50.902272+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/06_LCCRevit/VandkunstenLCC-Revit.webm",
+    "content_type": "video/webm",
+    "bytes": 76983595,
+    "sha256": "0dc656d017acc5973fdd158ac33465f5f6eddb8dca2f25a74dfd2c6d79b2cc3f"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/Lisbjerg-Mirjam-fbab-square-500x500.jpg",
+    "path": "archive/opensource.vandkunsten.com/07_FBABLisbjerg/Lisbjerg-Mirjam-fbab-square-500x500.jpg",
+    "fetched_at": "2026-11-17T18:46:52.127416+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/Lisbjerg-Mirjam-fbab-square-500x500.jpg",
+    "content_type": "image/jpeg",
+    "bytes": 133779,
+    "sha256": "c80f003f6c9cc26dc7ff170cbac42f995bb8ae13c34c9f41db8059ab36e28140"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip",
+    "path": "archive/opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip",
+    "fetched_at": "2026-11-17T18:46:52.246993+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/07_FBABLisbjerg/VK_FBABLisbjerg.zip",
+    "content_type": "application/zip",
+    "bytes": 68479819,
+    "sha256": "8a15cfa7ab39521df818cb55c1f2a218dc0e7d0bb47b8a93fc4fc97141d07f4d"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/08_lilleArne/VK_lilleArne.png",
+    "path": "archive/opensource.vandkunsten.com/08_lilleArne/VK_lilleArne.png",
+    "fetched_at": "2026-11-17T18:46:53.199651+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/08_lilleArne/VK_lilleArne.png",
+    "content_type": "image/png",
+    "bytes": 439332,
+    "sha256": "fcb538f8e9262e4f9a55315ae4fb02565fbfda5e08783271a72cc859df73529b"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne.zip",
+    "path": "archive/opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne.zip",
+    "fetched_at": "2026-11-17T18:46:53.260849+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/08_lilleArne/VK_opsensource-lilleArne.zip",
+    "content_type": "application/zip",
+    "bytes": 3866458,
+    "sha256": "bece10adf56d86d41979a277263bf4d818047be6340bc2418f2724153a6df48e"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/fonts/LaFontaine-DemiBold.eot",
+    "path": "archive/opensource.vandkunsten.com/fonts/LaFontaine-DemiBold.eot",
+    "fetched_at": "2026-11-17T18:46:53.363990+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/fonts/LaFontaine-DemiBold.eot",
+    "content_type": "application/vnd.ms-fontobject",
+    "bytes": 81188,
+    "sha256": "6d21eed17a7cff85c9a9ad6844525c7c7abafab2d9fc49343ad3c5436c141b16"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/fonts/LaFontaine-DemiBold.woff",
+    "path": "archive/opensource.vandkunsten.com/fonts/LaFontaine-DemiBold.woff",
+    "fetched_at": "2026-11-17T18:46:53.466328+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/fonts/LaFontaine-DemiBold.woff",
+    "content_type": "application/x-font-woff",
+    "bytes": 33972,
+    "sha256": "c8d87e3bdd477a72f4b6948f8b8aeb8c0a68f3ac6dd62673baa3313441af17c4"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/fonts/LaFontaine-Regular.eot",
+    "path": "archive/opensource.vandkunsten.com/fonts/LaFontaine-Regular.eot",
+    "fetched_at": "2026-11-17T18:46:53.501962+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/fonts/LaFontaine-Regular.eot",
+    "content_type": "application/vnd.ms-fontobject",
+    "bytes": 78716,
+    "sha256": "e6655dfdd6e1aee6d303b7f710a86bdcca731e947e49c294a4ce21cf0a17c180"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/fonts/LaFontaine-Regular.woff",
+    "path": "archive/opensource.vandkunsten.com/fonts/LaFontaine-Regular.woff",
+    "fetched_at": "2026-11-17T18:46:53.548611+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/fonts/LaFontaine-Regular.woff",
+    "content_type": "application/x-font-woff",
+    "bytes": 32404,
+    "sha256": "9b9e8505aed348832ef0735f83ddc9d73ef5805075e3714c68a60f5b7d428bec"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/img/download.svg",
+    "path": "archive/opensource.vandkunsten.com/img/download.svg",
+    "fetched_at": "2026-11-17T18:46:53.552241+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/img/download.svg",
+    "content_type": "image/svg+xml",
+    "bytes": 1564,
+    "sha256": "8b2f9afd70ab3e214e707b7378faef7dd183f67064ac8934da631d677c9912a5"
+  },
+  {
+    "url": "https://opensource.vandkunsten.com/img/link.svg",
+    "path": "archive/opensource.vandkunsten.com/img/link.svg",
+    "fetched_at": "2026-11-17T18:46:53.601920+00:00",
+    "status": 200,
+    "final_url": "https://opensource.vandkunsten.com/img/link.svg",
+    "content_type": "image/svg+xml",
+    "bytes": 1861,
+    "sha256": "56dd00310b6bf685624cba0b04ddf1d0a9ce5735ba08278df501f557f294d5a6"
+  },
+  {
+    "url": "https://sbi.dk/Assets/Klimapaavirkning-fra-60-bygninger/SBi-2020-04.pdf",
+    "path": "archive/sbi.dk/Assets/Klimapaavirkning-fra-60-bygninger/SBi-2020-04.pdf",
+    "fetched_at": "2026-11-17T18:46:53.613438+00:00",
+    "status": 200,
+    "final_url": "https://www.build.aau.dk/til-byggebranchen",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 132156,
+    "sha256": "514350182de34c4f0834579cfc8198f79fd8504e0b182648db2496a49de20ee4"
+  },
+  {
+    "url": "https://wsbe17hongkong.hk/_bin/ckfinder/userfiles/files/PDF/Session%204_11_3.pdf",
+    "path": "archive/wsbe17hongkong.hk/_bin/ckfinder/userfiles/files/PDF/Session 4_11_3.pdf",
+    "fetched_at": "2026-11-17T18:47:23.001269+00:00",
+    "status": "error",
+    "error": "HTTP Error 525: <none>"
+  }
+]

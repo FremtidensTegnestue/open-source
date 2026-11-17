@@ -1,0 +1,101 @@
+{
+  "software": "bimcraft",
+  "cases": [
+    {
+      "case_id": "bimcraft-wood",
+      "name": "wood specimen",
+      "material_name": "Krydslamineret træ, CLT (Forbrænding EoL)",
+      "material_record_id": "br18:t7:B1318:row2",
+      "dimensions_mm": {
+        "length": 2000,
+        "width": 1000,
+        "thickness": 50
+      },
+      "expected_volume_m3": 0.1,
+      "expected_plan_area_m2": 2.0,
+      "formula": "length_mm * width_mm * thickness_mm / 1e9",
+      "assumption": "Homogeneous rectangular floor quantity specimen, without openings or joins; material identity is an explicit reference scenario, not a product verification.",
+      "element_id": "100002",
+      "element_guid": "30456bd2-f9d2-4efe-ac84-dba1ff283d86",
+      "model": "examples/models/bimcraft/controls.bimc"
+    },
+    {
+      "case_id": "bimcraft-concrete",
+      "name": "concrete specimen",
+      "material_name": "Fabriksbeton (C25/30) i eksponeringsklasserne X0 og XC1",
+      "material_record_id": "br18:t7:B1433:row25",
+      "dimensions_mm": {
+        "length": 1200,
+        "width": 800,
+        "thickness": 100
+      },
+      "expected_volume_m3": 0.096,
+      "expected_plan_area_m2": 0.96,
+      "formula": "length_mm * width_mm * thickness_mm / 1e9",
+      "assumption": "Homogeneous rectangular floor quantity specimen, without openings or joins; material identity is an explicit reference scenario, not a product verification.",
+      "element_id": "100003",
+      "element_guid": "da04b807-506f-4a69-9ccd-29980e09b722",
+      "model": "examples/models/bimcraft/controls.bimc"
+    },
+    {
+      "case_id": "bimcraft-steel",
+      "name": "steel specimen",
+      "material_name": "Konstruktionsstål, valsede profiler, lille forarbejdning",
+      "material_record_id": "br18:t7:D1591:row129",
+      "dimensions_mm": {
+        "length": 1000,
+        "width": 500,
+        "thickness": 10
+      },
+      "expected_volume_m3": 0.005,
+      "expected_plan_area_m2": 0.5,
+      "formula": "length_mm * width_mm * thickness_mm / 1e9",
+      "assumption": "Homogeneous rectangular floor quantity specimen, without openings or joins; material identity is an explicit reference scenario, not a product verification.",
+      "element_id": "100004",
+      "element_guid": "99449d8b-6b08-4c6d-b920-595764fee465",
+      "model": "examples/models/bimcraft/controls.bimc"
+    },
+    {
+      "case_id": "bimcraft-glass",
+      "name": "glass specimen",
+      "material_name": "Glasbyggesten",
+      "material_record_id": "br18:t7:G0954:row410",
+      "dimensions_mm": {
+        "length": 1000,
+        "width": 600,
+        "thickness": 10
+      },
+      "expected_volume_m3": 0.006,
+      "expected_plan_area_m2": 0.6,
+      "formula": "length_mm * width_mm * thickness_mm / 1e9",
+      "assumption": "Homogeneous rectangular floor quantity specimen, without openings or joins; material identity is an explicit reference scenario, not a product verification.",
+      "element_id": "100005",
+      "element_guid": "c48cc58d-4d0a-47cc-b787-dc2b2cc82a41",
+      "model": "examples/models/bimcraft/controls.bimc"
+    },
+    {
+      "case_id": "bimcraft-insulation",
+      "name": "insulation specimen",
+      "material_name": "Polystyren skumfyldning (uden bindemiddel)",
+      "material_record_id": "br18:t7:G0161:row196",
+      "dimensions_mm": {
+        "length": 1500,
+        "width": 800,
+        "thickness": 120
+      },
+      "expected_volume_m3": 0.144,
+      "expected_plan_area_m2": 1.2,
+      "formula": "length_mm * width_mm * thickness_mm / 1e9",
+      "assumption": "Homogeneous rectangular floor quantity specimen, without openings or joins; material identity is an explicit reference scenario, not a product verification.",
+      "element_id": "100006",
+      "element_guid": "57d1c51e-d3a2-4fde-b1e9-b4e74b7509da",
+      "model": "examples/models/bimcraft/controls.bimc"
+    }
+  ],
+  "negative_controls": [
+    "missing-material.bimc",
+    "mixed-layers.bimc"
+  ],
+  "model_units": "mm; reported area_m2 and volume_m3 retain SI units",
+  "notes": "Expected quantities are derived independently from authored dimensions, not copied from CLI quantity results."
+}

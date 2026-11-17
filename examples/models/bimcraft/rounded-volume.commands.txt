@@ -1,0 +1,3 @@
+new {"name":"Volume rounding control"}
+type {"category":"floor","name":"Thin glass specimen","layers":[{"function":"structure","material":"Glass","thickness":8}]}
+floor {"boundary":[[0,0],[1000,0],[1000,600],[0,600]],"type":"Thin glass specimen","level":"Level 1"}

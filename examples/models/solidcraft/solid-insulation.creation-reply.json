@@ -1,0 +1,28 @@
+[
+  {
+    "bodies": [
+      "InsulationControl"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "InsulationControl"
+    ],
+    "feature": 1,
+    "ms": 2.1061970000000003,
+    "name": "Box1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": null,
+    "density_g_cm3": 0.015,
+    "name": "Polystyren skumfyldning (uden bindemiddel)",
+    "user": true
+  },
+  {
+    "bodies": [
+      "InsulationControl"
+    ],
+    "material": "Polystyren skumfyldning (uden bindemiddel)"
+  }
+]

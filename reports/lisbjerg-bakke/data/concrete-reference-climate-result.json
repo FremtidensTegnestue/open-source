@@ -1,0 +1,75 @@
+{
+  "status": "ok",
+  "value": 50539.869,
+  "unit": "kg CO2-eq",
+  "method": {
+    "id": "climate.declared_reference_scaling.v1",
+    "formula": "contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount"
+  },
+  "inputs": {
+    "quantity": {
+      "value": 209.709,
+      "unit": "m3",
+      "dimension": "volume",
+      "original_value": 209.709,
+      "original_unit": "m3",
+      "factor": 1.0,
+      "offset": 0.0,
+      "conventions": []
+    },
+    "source_observation": {
+      "id": "br18:t7:B1433:row25:gwp:A1-A3",
+      "dataset_id": "br18",
+      "material_id": "br18:t7:B1433:row25",
+      "property": "global_warming_potential",
+      "value": 241.0,
+      "value_text": "241",
+      "unit": "kg CO2-eq",
+      "module": "A1-A3",
+      "declared_unit": "1 m³",
+      "basis": "BR18 reference factor; no lifecycle modules summed",
+      "method": null,
+      "data_status": "reported",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_locator": "Sheet1!E25",
+      "conditions": {
+        "reference_amount": 1,
+        "reference_unit": "m³",
+        "original_data_type": "Branche data",
+        "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf",
+        "source_comment": null,
+        "record_scope": "official_material_or_construction_reference"
+      },
+      "citation": {
+        "id": "br18:source:table-7-2025.xlsx",
+        "title": "BR18 bilag 2 tabel 7 — generisk datagrundlag 2025",
+        "publisher": "Social- og Boligstyrelsen",
+        "url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+        "retrieved_at": "2026-11-17T19:45:53.124596+00:00",
+        "local_path": "data/raw/br18/table-7-2025.xlsx",
+        "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+        "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+        "license_status": "unknown",
+        "source_locator": "Sheet1!E25"
+      }
+    },
+    "declared_basis": {
+      "value": 1.0,
+      "unit": "m3",
+      "dimension": "volume",
+      "original_value": 1.0,
+      "original_unit": "m³",
+      "factor": 1.0,
+      "offset": 0.0,
+      "conventions": [],
+      "source_unit": "m³",
+      "basis_source": "explicit amount and unit in source declared_unit"
+    },
+    "scaling_factor": 209.709,
+    "numerator_conversion_factor": 1.0
+  },
+  "module": "A1-A3",
+  "indicator": "global_warming_potential",
+  "indicator_method": null,
+  "scope": "Single source indicator/module only; no lifecycle sum, building-LCA or compliance conclusion"
+}

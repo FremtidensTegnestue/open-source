@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "local_path": "sources/methods/nist-si-conversion.html",
+    "sha256": "c2401d34d9510464b08005f8981fc7e59a17935d5aa0d99e0e596c8a1c02112a",
+    "retrieved_at": "2026-11-17T20:28:32.704500+00:00",
+    "status": "archived"
+  },
+  {
+    "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes",
+    "local_path": "sources/methods/nist-si-footnotes.html",
+    "sha256": "e0e7d38f03cfa7dbeb24444cfcc527b6036f16f499d18344bdd9dcaab3eccc16",
+    "retrieved_at": "2026-11-17T20:28:33.197282+00:00",
+    "status": "archived"
+  }
+]

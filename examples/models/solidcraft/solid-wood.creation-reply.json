@@ -1,0 +1,28 @@
+[
+  {
+    "bodies": [
+      "WoodControl"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "WoodControl"
+    ],
+    "feature": 1,
+    "ms": 2.23551,
+    "name": "Box1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "appearance": null,
+    "density_g_cm3": 0.47,
+    "name": "Krydslamineret træ, CLT (Forbrænding EoL)",
+    "user": true
+  },
+  {
+    "bodies": [
+      "WoodControl"
+    ],
+    "material": "Krydslamineret træ, CLT (Forbrænding EoL)"
+  }
+]
