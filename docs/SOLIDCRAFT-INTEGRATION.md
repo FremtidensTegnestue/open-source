@@ -2,6 +2,8 @@
 
 Undersøgelsesnotat, 18. november 2026. **Ingen ny integration er implementeret.**
 
+Et [interaktivt interfaceudkast til beklædningsvalg](../examples/design-ui/README.md) afprøver nu layout, materialevalg og samtidig del-/projektsammenligning. **Alle klimatal er fiktive.** Det er en visuel undersøgelse uden CAD-/Rust-forbindelse, ikke et installerbart plugin eller et valgt slutdesign.
+
 Målet er at markere en bygningsdel i SolidCraft, afprøve alternative løsninger og se virkningen på klimaregnskabet samtidig. Arkitekten vælger frit mellem blandt andet bevaring, reparation, genbrug og nye produkter. Kilder, antagelser og datamangler skal kunne undersøges uden at fylde hele arbejdsfladen.
 
 ## Hvad er undersøgt?
@@ -60,3 +62,15 @@ Et vindue kan bestå af flere legemer. Valg af en rude må ikke utilsigtet skift
 - Hvordan følger materialevalg med kopierede eller ændrede modeldele og en genåbnet fil?
 
 Komplette opbygninger skal sammenlignes på samme aftalte funktion, periode og datadækning. Manglende data er ikke nul, og modul D holdes særskilt. Et lavere beregnet bidrag er ikke en teknisk godkendelse. Genbrugslagre, reservation, køb og levering er mulige senere tilkoblinger til det samme vare-/modelgrundlag; de er ikke implementeret i denne undersøgelse.
+
+## Senere afklaringer og designretning
+
+Den aktuelle produktundersøgelse er afgrænset til SolidCraft og skal kunne bruges på flere projekter. Integrationsformen er fortsat åben. Den foreløbige retning er en samlet brugeroplevelse med beregning og kombinationssøgning i en separat lokal proces. Det er brugerens samlede arbejdsgang, der skal være enkel; antallet af processer afgør det ikke alene.
+
+Den faktiske [plugin-kontrakt](https://github.com/tangency-labs/solidcraft/blob/0d05cdd3611cdc9efac9be1714ddd54931bf5c43/crates/craft-plugin/wit/plugin.wit) på det senere undersøgte kodepunkt har `commands`, `evaluate`, `formats` og `storage`, men ingen `ui`-kapabilitet. [RFC0015](https://github.com/tangency-labs/solidcraft/blob/0d05cdd3611cdc9efac9be1714ddd54931bf5c43/docs/rfcs/0015-plugin-ui-workspaces.md) er et forslag; en ændring i RFC-teksten beviser ikke en implementeret panelflade. Et internt panelframework er heller ikke i sig selv en offentlig pluginflade. Fundene er bundet til de nævnte kodepunkter og den undersøgte installerede version, ikke et løfte om senere versioner.
+
+En afgrænset læseprøve af `document.revision → document.export → document.revision` i 0.44.1 gav modeltekst uden en manuel eksportdialog og med sammenhængende revision før/efter. Prøven afprøvede ikke aktive ugemte redigeringer, automatisk markeringsopdatering eller et komplet materialeskift. Modeltekst er ikke i sig selv færdige materialemængder eller et fuldt klimaregnskab.
+
+Efter [kontrolprotokollen](https://github.com/tangency-labs/solidcraft/blob/v0.44.1/docs/control-protocol.md) erstatter `document.import` det aktive design med ny dokumentidentitet og uden den gamle fortrydelseshistorik. Det må derfor ikke antages at være en almindelig reversibel variantskifter. Faktisk afprøvning, tilbageførsel og genåbning skal eftervises særskilt. Browsereditoren er et muligt integrationsspor, men dens [API](https://github.com/tangency-labs/solidcraft/blob/0d05cdd3611cdc9efac9be1714ddd54931bf5c43/docs/browser-api.md) giver ikke automatisk adgang til den installerede native Rust-motor.
+
+Udkastets konkrete handling er: vælg beklædning, se illustration samt del/projekt/forskel, undersøg følgeposter, behold eller gå tilbage. En fremtidig kildebaseret version skal håndtere relevante løsningsregler frem for et faktorskift på gamle mængder. Oprindelig reference, omfang og mangler skal forblive forståelige. Dette er et designforslag med browserkontrol, ikke dokumenteret intuitivitet, en faktisk optimering eller en ny klimaberegning.

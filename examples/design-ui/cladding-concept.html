@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beklædningsvalg · interfaceudkast</title>
+<style>html{color-scheme:light dark}body{margin:0;padding:16px;max-width:1056px;margin-inline:auto;background:light-dark(#f4f6f4,#171d20)}</style>
+</head>
+<body>
+<div id="ft-cladding-concept" aria-label="Interfaceudkast til materialevalg i SolidCraft">
+  <header class="fc-top"><div class="fc-brand"><i data-lucide="box" aria-hidden="true"></i><strong>SolidCraft</strong><span class="fc-project">/ Pavillon</span></div><span class="fc-kicker">Interfaceudkast</span></header>
+  <div class="fc-demo">Undersøgelse · Fiktive klimatal · Ingen forbindelse til din model</div>
+  <div class="fc-workspace">
+    <section class="fc-view" aria-label="Skematisk modelvisning">
+      <div class="fc-viewhead"><span class="fc-tag"><i data-lucide="mouse-pointer-2" aria-hidden="true"></i> Facader · samlet beklædning</span><span class="fc-viewstatus">Afprøver træ</span></div>
+      <svg class="fc-house" viewBox="0 0 640 470" role="img" aria-label="Skematisk pavillon med valgt facadebeklædning"><defs>
+        <pattern id="fc-timber" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(20)"><rect width="11" height="11" fill="#b18b61"/><path d="M1 0V11M8 0V11" stroke="#72583e" stroke-width=".7" opacity=".6"/></pattern>
+        <pattern id="fc-reuse" width="25" height="50" patternUnits="userSpaceOnUse" patternTransform="rotate(20)"><rect width="25" height="50" fill="#96806b"/><path d="M1 0V50M12 0V50" stroke="#5d5145"/><path d="M1 18H12M12 39H25" stroke="#66594b" stroke-width=".7"/></pattern>
+        <pattern id="fc-slate" width="18" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(20)"><rect width="18" height="16" fill="#647078"/><path d="M0 0H18M0 8H18M9 0V8M0 8V16M18 8V16" stroke="#424d54" stroke-width=".8"/></pattern>
+        <pattern id="fc-metal" width="25" height="25" patternUnits="userSpaceOnUse" patternTransform="rotate(20)"><rect width="25" height="25" fill="#9da7aa"/><path d="M1 0V25" stroke="#59676b" stroke-width="1.5"/></pattern>
+      </defs><g class="fc-house-drawing"></g></svg>
+      <div class="fc-modelcaption"><span><span class="fc-dot"></span> Beklædning i afprøvning</span><span>Skematisk model</span></div>
+      <div class="fc-projectimpact" aria-live="polite"><div><span class="fc-label">Hele projektet · kendt delsum</span><div class="fc-total"><span class="fc-project-before">10.000</span><span class="fc-arrow">→</span><strong class="fc-project-after">8.500</strong><span class="fc-unit">kg CO₂e</span></div></div><div class="fc-saving"><strong class="fc-project-delta">−15 %</strong><span>mod oprindelig reference</span></div></div>
+      <div class="fc-scope">Samme demoafgrænsning: A1–A5 · Drift, udskiftninger og slutbehandling mangler. D er udenfor.</div>
+    </section>
+    <aside class="fc-panel" aria-label="Materialer og klima">
+      <div class="fc-panelheading"><div><span class="fc-kicker">Materialer & klima</span><h2>Prøv en beklædning</h2></div><i data-lucide="layers" aria-hidden="true"></i></div>
+      <div class="fc-reference"><span class="fc-label">Oprindelig reference</span><strong>Skifer · ny</strong></div>
+      <div class="fc-materials" role="group" aria-label="Beklædningsalternativer">
+        <button type="button" class="fc-option" data-material="slate" aria-pressed="false"><span class="fc-swatch fc-swatch-slate"></span><span><strong>Skifer</strong><small>Ny · reference</small></span><span class="fc-option-delta">0</span></button>
+        <button type="button" class="fc-option" data-material="wood" aria-pressed="true"><span class="fc-swatch fc-swatch-wood"></span><span><strong>Træ</strong><small>Ny · ventileret beklædning</small></span><span class="fc-option-delta">−1.500</span></button>
+        <button type="button" class="fc-option" data-material="reuse" aria-pressed="false"><span class="fc-swatch fc-swatch-reuse"></span><span><strong>Genbrugstræ</strong><small>Eksempel · intet konkret parti</small></span><span class="fc-option-delta">−1.800</span></button>
+        <button type="button" class="fc-option" data-material="metal" aria-pressed="false"><span class="fc-swatch fc-swatch-metal"></span><span><strong>Metal</strong><small>Ny · falsbeklædning</small></span><span class="fc-option-delta">−500</span></button>
+      </div>
+      <div class="fc-unitnote">Forskel fra reference · kg CO₂e · demo</div>
+      <section class="fc-result" aria-live="polite" aria-label="Klimaforskel for facader">
+        <div class="fc-resulthead"><h3>Facader inkl. følgeposter</h3><span class="fc-pill">Demonstration</span></div>
+        <div class="fc-values"><div><span>Reference</span><strong>3.200</strong></div><span class="fc-arrow">→</span><div><span class="fc-proposal-name">Træ</span><strong class="fc-part-after">1.700</strong></div><div class="fc-difference"><span>Forskel</span><strong class="fc-part-delta">−1.500</strong></div></div>
+        <div class="fc-miniunit">kg CO₂e · A1–A5</div>
+      </section>
+      <details class="fc-details"><summary>Hvad følger med i skiftet?</summary><div class="fc-detailbody"><table><caption class="fc-detailcaption">Fiktive bidrag · kg CO₂e</caption><thead><tr><th>Post</th><th>Reference</th><th>Forslag</th></tr></thead><tbody class="fc-breakdown"></tbody></table><p>De øvrige bygningsdele er fastholdt i eksemplet. Det er ingen vurdering af materialernes faktiske rangorden.</p></div></details>
+      <details class="fc-details"><summary>Kilder og åbne spørgsmål</summary><div class="fc-detailbody"><p><strong>Ingen EPD-kilder koblet.</strong> Alle værdier er opdigtede til at afprøve interfacet.</p><p>Produkt, mængder, overlap, spild, levetid, brand og fugt skal dokumenteres. Genbrug kræver et konkret parti og vurdering af istandsættelse. Mangler er ikke nul.</p></div></details>
+      <div class="fc-actions"><button type="button" class="fc-keep">Behold i udkastet <i data-lucide="check" aria-hidden="true"></i></button><button type="button" class="fc-reset">Tilbage til reference</button></div>
+      <p class="fc-notice" role="status">Kun afprøvning — din SolidCraft-model ændres ikke.</p>
+    </aside>
+  </div>
+</div>
+<style>
+ #ft-cladding-concept{--fc-base:light-dark(#f8f9f8,#20262b);--fc-panel:light-dark(#ffffff,#282e34);--fc-view:light-dark(#ecf0ee,#303940);--fc-text:light-dark(#22322d,#ecf2ef);--fc-muted:light-dark(#5e6c67,#b3c2ba);--fc-line:light-dark(#dce3de,#48564f);--fc-accent:light-dark(#245d49,#a2d7bb);--fc-soft:light-dark(#e3efe7,#334e40);--fc-button:light-dark(#245d49,#b0dfc7);--fc-buttontext:light-dark(#ffffff,#183426);--fc-top:#20272e;--fc-toptext:#edf3f0;color:var(--fc-text);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--fc-base);border:1px solid var(--fc-line);border-radius:14px;overflow:hidden;color-scheme:light dark}
+ #ft-cladding-concept *{box-sizing:border-box}#ft-cladding-concept strong{font-weight:600}#ft-cladding-concept h2{font-size:22px;line-height:1.2;font-weight:600;margin:7px 0 0}#ft-cladding-concept h3{font-size:13px;font-weight:600;margin:0}#ft-cladding-concept p{margin:0}#ft-cladding-concept button{font:inherit;cursor:pointer}#ft-cladding-concept button:focus-visible,#ft-cladding-concept summary:focus-visible{outline:3px solid var(--fc-accent);outline-offset:3px}#ft-cladding-concept .fc-top{padding:15px 24px;background:var(--fc-top);color:var(--fc-toptext);display:flex;align-items:center;gap:20px;justify-content:space-between;padding-right:110px}#ft-cladding-concept .fc-brand{display:flex;align-items:center;gap:10px}#ft-cladding-concept .fc-project{color:#b9c6c0}#ft-cladding-concept .fc-kicker{font-size:11px;letter-spacing:.09em;text-transform:uppercase}#ft-cladding-concept .fc-demo{padding:9px 24px;font-size:12px;background:var(--fc-soft);color:var(--fc-text)}#ft-cladding-concept .fc-workspace{display:grid;grid-template-columns:minmax(0,1fr) 340px}#ft-cladding-concept .fc-view{background:var(--fc-view);min-width:0;padding:24px;display:flex;flex-direction:column}#ft-cladding-concept .fc-viewhead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;font-size:12px}#ft-cladding-concept .fc-tag{display:flex;align-items:center;gap:7px}#ft-cladding-concept .fc-viewstatus{color:var(--fc-accent)}#ft-cladding-concept .fc-house{width:100%;height:auto;display:block;flex:1;min-height:280px}#ft-cladding-concept .fc-modelcaption{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--fc-muted);margin-bottom:26px}#ft-cladding-concept .fc-dot{display:inline-block;width:7px;height:7px;background:var(--fc-accent);border-radius:50%;margin-right:5px}#ft-cladding-concept .fc-projectimpact{display:flex;gap:20px;align-items:center;justify-content:space-between;border-top:1px solid var(--fc-line);padding-top:20px;font-variant-numeric:tabular-nums}#ft-cladding-concept .fc-label{font-size:12px;color:var(--fc-muted);display:block}#ft-cladding-concept .fc-total{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-top:6px;font-size:24px;letter-spacing:-.04em}#ft-cladding-concept .fc-project-before{color:var(--fc-muted);font-size:19px}#ft-cladding-concept .fc-arrow{color:var(--fc-muted);font-size:18px}#ft-cladding-concept .fc-unit{font-size:12px;letter-spacing:0;color:var(--fc-muted)}#ft-cladding-concept .fc-saving{text-align:right;flex-shrink:0}#ft-cladding-concept .fc-saving strong{display:block;color:var(--fc-accent);font-size:26px;letter-spacing:-.04em}#ft-cladding-concept .fc-saving span{display:block;font-size:11px;color:var(--fc-muted)}#ft-cladding-concept .fc-scope{margin-top:18px;color:var(--fc-muted);font-size:11px;max-width:440px}#ft-cladding-concept .fc-panel{padding:24px;background:var(--fc-panel);min-width:0;border-left:1px solid var(--fc-line)}#ft-cladding-concept .fc-panelheading{display:flex;justify-content:space-between;gap:10px;align-items:center}#ft-cladding-concept .fc-reference{margin:22px 0 12px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12px}#ft-cladding-concept .fc-materials{display:grid;gap:7px}#ft-cladding-concept .fc-option{width:100%;display:flex;align-items:center;gap:11px;border:1px solid var(--fc-line);background:var(--fc-panel);border-radius:9px;padding:9px;text-align:left;color:var(--fc-text);min-height:62px}#ft-cladding-concept .fc-option[aria-pressed=true]{background:var(--fc-soft);border-color:var(--fc-accent);box-shadow:inset 0 0 0 1px var(--fc-accent)}#ft-cladding-concept .fc-option small{display:block;font-size:11px;color:var(--fc-muted);margin-top:2px}#ft-cladding-concept .fc-option strong{font-size:13px}#ft-cladding-concept .fc-option-delta{margin-left:auto;font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}#ft-cladding-concept .fc-swatch{display:block;width:38px;height:42px;flex-shrink:0;border-radius:5px}#ft-cladding-concept .fc-swatch-slate{background:repeating-linear-gradient(0deg,transparent 0 11px,#414d53 11px 12px),repeating-linear-gradient(90deg,#616e77 0 15px,#46555e 15px 16px)}#ft-cladding-concept .fc-swatch-wood{background:repeating-linear-gradient(90deg,#b99164 0 7px,#735b41 7px 8px,#c29b70 8px 15px,#866447 15px 16px)}#ft-cladding-concept .fc-swatch-reuse{background:repeating-linear-gradient(90deg,#8b7665 0 8px,#635745 8px 9px,#ab9378 9px 17px,#6f6050 17px 18px)}#ft-cladding-concept .fc-swatch-metal{background:repeating-linear-gradient(90deg,#a9b1b2 0 17px,#657477 17px 19px,#bbc1c0 19px 21px)}#ft-cladding-concept .fc-unitnote{text-align:right;font-size:11px;color:var(--fc-muted);margin:8px 0 21px}#ft-cladding-concept .fc-result{padding:16px 0;border-top:1px solid var(--fc-line);border-bottom:1px solid var(--fc-line)}#ft-cladding-concept .fc-resulthead{display:flex;align-items:center;gap:7px;justify-content:space-between}#ft-cladding-concept .fc-pill{font-size:10px;color:var(--fc-muted)}#ft-cladding-concept .fc-values{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:15px;font-variant-numeric:tabular-nums}#ft-cladding-concept .fc-values span{display:block;font-size:11px;color:var(--fc-muted)}#ft-cladding-concept .fc-values strong{font-size:20px;letter-spacing:-.03em}#ft-cladding-concept .fc-difference{text-align:right;color:var(--fc-accent)}#ft-cladding-concept .fc-miniunit{font-size:11px;color:var(--fc-muted);margin-top:4px}#ft-cladding-concept .fc-details{border-bottom:1px solid var(--fc-line);font-size:12px}#ft-cladding-concept summary{padding:13px 0;cursor:pointer}#ft-cladding-concept .fc-detailbody{padding-bottom:14px;color:var(--fc-muted)}#ft-cladding-concept .fc-detailbody p+p{margin-top:10px}#ft-cladding-concept table{width:100%;border-collapse:collapse;font-size:11px;margin-bottom:10px;font-variant-numeric:tabular-nums}#ft-cladding-concept th,#ft-cladding-concept td{text-align:right;padding:5px 0}#ft-cladding-concept th:first-child,#ft-cladding-concept td:first-child{text-align:left}#ft-cladding-concept .fc-detailcaption{text-align:left;margin-bottom:4px}#ft-cladding-concept .fc-actions{display:flex;flex-direction:column;gap:7px;margin-top:19px}#ft-cladding-concept .fc-actions button{padding:11px 14px;border-radius:7px;display:flex;justify-content:center;align-items:center;gap:8px;font-size:12px}#ft-cladding-concept .fc-keep{border:1px solid var(--fc-button);background:var(--fc-button);color:var(--fc-buttontext);font-weight:600}#ft-cladding-concept .fc-reset{background:transparent;color:var(--fc-text);border:1px solid var(--fc-line)}#ft-cladding-concept .fc-notice{color:var(--fc-muted);font-size:11px;margin-top:12px;min-height:32px}#ft-cladding-concept i,#ft-cladding-concept .lucide{width:16px;height:16px;flex-shrink:0}
+ @media(max-width:780px){#ft-cladding-concept .fc-workspace{grid-template-columns:minmax(0,1fr) 310px}#ft-cladding-concept .fc-view,#ft-cladding-concept .fc-panel{padding:18px}#ft-cladding-concept .fc-projectimpact{align-items:flex-start;flex-direction:column;gap:10px}#ft-cladding-concept .fc-saving{text-align:left}#ft-cladding-concept .fc-saving strong,#ft-cladding-concept .fc-saving span{display:inline;margin-right:7px}}
+ @media(max-width:620px){#ft-cladding-concept .fc-workspace{display:flex;flex-direction:column}#ft-cladding-concept .fc-panel{border-left:0;border-top:1px solid var(--fc-line)}#ft-cladding-concept .fc-top{flex-wrap:wrap;padding:15px 100px 15px 18px;gap:5px}#ft-cladding-concept .fc-project{display:none}#ft-cladding-concept .fc-demo{padding:9px 18px}#ft-cladding-concept .fc-house{min-height:0}#ft-cladding-concept .fc-modelcaption{margin-bottom:18px}#ft-cladding-concept .fc-projectimpact{flex-direction:row;flex-wrap:wrap}#ft-cladding-concept .fc-values strong{font-size:23px}}
+</style>
+<script>
+(()=>{
+const root=document.getElementById('ft-cladding-concept');
+const options={slate:{name:'Skifer',pattern:'fc-slate',parts:[2400,450,150,200]},wood:{name:'Træ',pattern:'fc-timber',parts:[1100,350,110,140]},reuse:{name:'Genbrugstræ',pattern:'fc-reuse',parts:[600,420,130,250]},metal:{name:'Metal',pattern:'fc-metal',parts:[2000,380,160,160]}};
+const fmt=n=>new Intl.NumberFormat('da-DK',{maximumFractionDigits:0}).format(n);
+const signed=n=>n===0?'0':(n<0?'−':'+')+fmt(Math.abs(n));
+const state={selected:'wood',kept:null};
+const prefs={showModel:true};
+const q=s=>root.querySelector(s);
+const p=(x,y,z)=>[230+51*x-37*y,250+18*x+23*y-62*z];
+const points=coords=>coords.map(a=>p(...a).join(',')).join(' ');
+const poly=(coords,fill,stroke='#49574f',width=1)=>`<polygon points="${points(coords)}" fill="${fill}" stroke="${stroke}" stroke-width="${width}" stroke-linejoin="round"/>`;
+const windowFace=(x1,x2,z1,z2)=>poly([[x1,4,z1],[x2,4,z1],[x2,4,z2],[x1,4,z2]],'#b0cbcd','#465d59',3);
+function house(){
+const material=options[state.selected];let s='';
+s+=poly([[-.6,-.5,-.3],[6.6,-.5,-.3],[6.6,4.5,-.3],[-.6,4.5,-.3]],'var(--fc-line)','none');
+for(const x of [.3,3,5.7])for(const y of [.4,3.6])s+=poly([[x,y,-.3],[x+.12,y,-.3],[x+.12,y,0],[x,y,0]],'#616d65','none');
+s+=poly([[0,4,0],[6,4,0],[6,4,2.4],[0,4,2.4]],`url(#${material.pattern})`,'var(--fc-accent)',2);
+s+=poly([[6,0,0],[6,4,0],[6,4,2.4],[6,2,4.08],[6,0,2.4]],`url(#${material.pattern})`,'var(--fc-accent)',2);
+s+=windowFace(.4,1.55,.3,2.13)+windowFace(1.65,3.15,.3,2.13)+windowFace(3.25,5.55,.3,2.13);
+s+=poly([[6,.65,.12],[6,3.35,.12],[6,3.35,2.13],[6,.65,2.13]],'#abc4c6','#465d59',3);
+s+=poly([[6,1.9,.12],[6,2.02,.12],[6,2.02,2.13],[6,1.9,2.13]],'#465d59','#465d59',1);
+s+=poly([[-.6,-.6,1.9],[6.6,-.6,1.9],[6.6,2,4.08],[-.6,2,4.08]],'#45524f','#36423e',1);
+s+=poly([[-.6,2,4.08],[6.6,2,4.08],[6.6,4.6,1.9],[-.6,4.6,1.9]],'#69716f','#48534f',1);
+for(let x=0;x<6.5;x+=.45)s+=poly([[x,4.6,1.9],[x+.035,4.6,1.9],[x+.035,2,4.08],[x,2,4.08]],'#53605b','none');
+s+=poly([[6.6,4.6,1.9],[6.6,2,4.08],[6.6,2,3.96],[6.6,4.6,1.78]],'#b8a584','#746c58',1);
+q('.fc-house-drawing').innerHTML=s;q('.fc-house').setAttribute('aria-label',`Skematisk pavillon. Afprøvet facade: ${material.name}. Tag og vinduer er fastholdt.`);
+}
+function render(){const m=options[state.selected],sum=m.parts.reduce((a,b)=>a+b,0),delta=sum-3200,total=6800+sum;
+root.querySelectorAll('[data-material]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.material===state.selected)));
+q('.fc-viewstatus').textContent=state.selected==='slate'?'Oprindelig reference':`Afprøver ${m.name.toLowerCase()}`;
+q('.fc-proposal-name').textContent=m.name;q('.fc-part-after').textContent=fmt(sum);q('.fc-part-delta').textContent=signed(delta);q('.fc-project-after').textContent=fmt(total);q('.fc-project-delta').textContent=signed(delta/100)+' %';
+q('.fc-breakdown').innerHTML=['Beklædning','Underlag / lægter','Fastgørelser','Transport / montage'].map((label,i)=>`<tr><td>${label}</td><td>${fmt(options.slate.parts[i])}</td><td>${fmt(m.parts[i])}</td></tr>`).join('');
+q('.fc-keep').firstChild.textContent=state.kept===state.selected?'Beholdt i udkastet ':'Behold i udkastet ';
+q('.fc-notice').textContent=state.kept===state.selected?`${m.name} er beholdt i dette udkast. Den oprindelige reference er bevaret.`:'Kun afprøvning — din SolidCraft-model ændres ikke.';
+q('.fc-house').style.display=prefs.showModel?'block':'none';house();}
+root.querySelectorAll('[data-material]').forEach(b=>b.addEventListener('click',()=>{state.selected=b.dataset.material;render();}));
+q('.fc-keep').addEventListener('click',()=>{state.kept=state.selected;render();});q('.fc-reset').addEventListener('click',()=>{state.selected='slate';state.kept=null;render();});
+render();
+
+})();
+</script>
+
+</body>
+</html>
