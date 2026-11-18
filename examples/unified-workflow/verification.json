@@ -1,0 +1,354 @@
+{
+  "implementation": "Rust",
+  "observations": {
+    "br18:t7:B1433:row25:gwp:A1-A3": {
+      "conditions": {
+        "original_data_type": "Branche data",
+        "record_scope": "official_material_or_construction_reference",
+        "reference_amount": 1,
+        "reference_unit": "m³",
+        "source_comment": null,
+        "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf"
+      },
+      "dataset_id": "br18",
+      "declared_unit": "1 m³",
+      "id": "br18:t7:B1433:row25:gwp:A1-A3",
+      "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+      "license_status": "unknown",
+      "material_id": "br18:t7:B1433:row25",
+      "method": null,
+      "module": "A1-A3",
+      "property": "global_warming_potential",
+      "property_id": "property:gwp_total",
+      "publisher": "Social- og Boligstyrelsen",
+      "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_locator": "Sheet1!E25",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "unit": "kg CO2-eq",
+      "value": 241.0
+    },
+    "br18:t7:B1433:row25:mass": {
+      "conditions": {
+        "original_data_type": "Branche data",
+        "record_scope": "official_material_or_construction_reference",
+        "reference_amount": 1,
+        "reference_unit": "m³",
+        "source_comment": null,
+        "underlying_source_url": "https://www.epddanmark.dk/media/qoelm3vd/md-20011-da_rev1-dansk-beton-fabriksbetonforeningen.pdf"
+      },
+      "dataset_id": "br18",
+      "declared_unit": null,
+      "id": "br18:t7:B1433:row25:mass",
+      "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+      "license_status": "unknown",
+      "material_id": "br18:t7:B1433:row25",
+      "method": null,
+      "module": null,
+      "property": "density",
+      "property_id": "property:density",
+      "publisher": "Social- og Boligstyrelsen",
+      "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_locator": "Sheet1!K25:L25",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "unit": "kg/m³",
+      "value": 2246.0
+    },
+    "br18:t7:D1591:row129:gwp:A1-A3": {
+      "conditions": {
+        "original_data_type": "Dansk generisk data",
+        "record_scope": "official_material_or_construction_reference",
+        "reference_amount": 1,
+        "reference_unit": "ton",
+        "source_comment": null,
+        "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?"
+      },
+      "dataset_id": "br18",
+      "declared_unit": "1 ton",
+      "id": "br18:t7:D1591:row129:gwp:A1-A3",
+      "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+      "license_status": "unknown",
+      "material_id": "br18:t7:D1591:row129",
+      "method": null,
+      "module": "A1-A3",
+      "property": "global_warming_potential",
+      "property_id": "property:gwp_total",
+      "publisher": "Social- og Boligstyrelsen",
+      "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_locator": "Sheet1!E129",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "unit": "kg CO2-eq",
+      "value": 1639.0000000000002
+    },
+    "br18:t7:D1591:row129:mass": {
+      "conditions": {
+        "original_data_type": "Dansk generisk data",
+        "record_scope": "official_material_or_construction_reference",
+        "reference_amount": 1,
+        "reference_unit": "ton",
+        "source_comment": null,
+        "underlying_source_url": "https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data?"
+      },
+      "dataset_id": "br18",
+      "declared_unit": null,
+      "id": "br18:t7:D1591:row129:mass",
+      "license": "No explicit reuse license identified in this download; preserve publisher terms and third-party rights",
+      "license_status": "unknown",
+      "material_id": "br18:t7:D1591:row129",
+      "method": null,
+      "module": null,
+      "property": "density",
+      "property_id": "property:density",
+      "publisher": "Social- og Boligstyrelsen",
+      "sha256": "3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_locator": "Sheet1!K129:L129",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18",
+      "unit": "kg/m³",
+      "value": 7850.0
+    },
+    "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000:5c075fc772a54566d4": {
+      "conditions": {
+        "classification": "Mineralische Baustoffe / Steine und Elemente / Betonfertigteile und Betonwaren",
+        "copyright": true,
+        "dataset_type": "EPD",
+        "dataset_uuid": "c54c16f6-4295-4749-bff0-ba7ed4bc9117",
+        "dataset_version": "00.01.000",
+        "declared_amount": 1000.0,
+        "declared_references": [
+          {
+            "amount": 1000.0,
+            "exchange_index": 0,
+            "exchange_mean_amount": 1.0,
+            "name": "Mass",
+            "resulting_flow_amount": 1000.0,
+            "unit": "kg"
+          }
+        ],
+        "geography": "RER",
+        "indicator_name": "Global Warming Potential total (GWP-total)",
+        "indicator_uuid": "6a37f984-a4b3-458a-a20a-64418c145fa2",
+        "reference_year": 2025,
+        "registration": "EPD-LIN-20250235-CBA1-EN",
+        "standards": [
+          "DIN EN 15804+A2",
+          "ISO 14025"
+        ],
+        "subtype": "specific dataset",
+        "valid_until": 2030
+      },
+      "dataset_id": "environmental",
+      "declared_unit": "kg",
+      "id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000:5c075fc772a54566d4",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified",
+      "material_id": "environmental:material:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+      "method": "6a37f984-a4b3-458a-a20a-64418c145fa2",
+      "module": "A1-A3",
+      "property": "gwp_total",
+      "property_id": "property:gwp_total",
+      "publisher": "oekobaudat",
+      "sha256": "dc2c7f72e2baa20ce500c307c447b0a94085fc7fcf499c9279fcb40bd7d80239",
+      "source_id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+      "source_locator": "/LCIAResults/LCIAResult/0/other/anies/1/value",
+      "source_url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/c54c16f6-4295-4749-bff0-ba7ed4bc9117?format=json&view=extended&version=00.01.000",
+      "source_version_id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000#sha256:dc2c7f72e2baa20ce500c307c447b0a94085fc7fcf499c9279fcb40bd7d80239",
+      "unit": "kg CO_(2) eq",
+      "value": 847.351015163189
+    },
+    "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000:e1cd04962c0116336c": {
+      "conditions": {
+        "classification": "Mineralische Baustoffe / Steine und Elemente / Betonfertigteile und Betonwaren",
+        "copyright": true,
+        "dataset_type": "EPD",
+        "dataset_uuid": "c54c16f6-4295-4749-bff0-ba7ed4bc9117",
+        "dataset_version": "00.01.000",
+        "declared_amount": 1000.0,
+        "declared_references": [
+          {
+            "amount": 1000.0,
+            "exchange_index": 0,
+            "exchange_mean_amount": 1.0,
+            "name": "Mass",
+            "resulting_flow_amount": 1000.0,
+            "unit": "kg"
+          }
+        ],
+        "geography": "RER",
+        "property_name": "gross density",
+        "reference_flow": true,
+        "reference_year": 2025,
+        "registration": "EPD-LIN-20250235-CBA1-EN",
+        "standards": [
+          "DIN EN 15804+A2",
+          "ISO 14025"
+        ],
+        "subtype": "specific dataset",
+        "unit_description": "kilograms per cubic metre",
+        "valid_until": 2030
+      },
+      "dataset_id": "environmental",
+      "declared_unit": "kg",
+      "id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000:e1cd04962c0116336c",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified",
+      "material_id": "environmental:material:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+      "method": null,
+      "module": null,
+      "property": "gross_density",
+      "property_id": "property:gross_density",
+      "publisher": "oekobaudat",
+      "sha256": "dc2c7f72e2baa20ce500c307c447b0a94085fc7fcf499c9279fcb40bd7d80239",
+      "source_id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+      "source_locator": "/exchanges/exchange/0/materialProperties/0/value",
+      "source_url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/c54c16f6-4295-4749-bff0-ba7ed4bc9117?format=json&view=extended&version=00.01.000",
+      "source_version_id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000#sha256:dc2c7f72e2baa20ce500c307c447b0a94085fc7fcf499c9279fcb40bd7d80239",
+      "unit": "kg/m^3",
+      "value": 2100.0
+    }
+  },
+  "product": {
+    "base": {
+      "bimcraft": {
+        "FacadePanel": {
+          "gwp_A1_A3_kg_CO2e": 17.794371318426972,
+          "mass_kg": 21.0,
+          "volume_m3": 0.01
+        }
+      },
+      "solidcraft": {
+        "FacadePanel": {
+          "gwp_A1_A3_kg_CO2e": 17.794371318426972,
+          "mass_kg": 21.0,
+          "volume_m3": 0.01
+        }
+      }
+    },
+    "revised": {
+      "bimcraft": {
+        "FacadePanel": {
+          "gwp_A1_A3_kg_CO2e": 21.353245582112365,
+          "mass_kg": 25.2,
+          "volume_m3": 0.012
+        }
+      },
+      "solidcraft": {
+        "FacadePanel": {
+          "gwp_A1_A3_kg_CO2e": 21.353245582112365,
+          "mass_kg": 25.2,
+          "volume_m3": 0.012
+        }
+      }
+    }
+  },
+  "programs": {
+    "bimcraft": "bimcraft-cli 0.12.0",
+    "solidcraft": "solidcraft-cli 0.44.0"
+  },
+  "replay": "identical",
+  "snapshots": [
+    "u2-65ce5d19f727e58ae9f3659ff858eb577dfae2056e7c4ff96e5904f5db8b1186",
+    "u2-8394a5cca62347f64732c6f57364ff3fcd245ce6d01733810c78c8e57dcc8cc5"
+  ],
+  "split": {
+    "bimcraft": {
+      "diagnosis": "part_inventory_changed",
+      "status": "partial"
+    },
+    "solidcraft": {
+      "diagnosis": "part_inventory_changed",
+      "status": "partial"
+    }
+  },
+  "stale_map": {
+    "bimcraft": {
+      "diagnosis": "model_changed",
+      "status": "partial"
+    },
+    "solidcraft": {
+      "diagnosis": "model_changed",
+      "status": "partial"
+    }
+  },
+  "status": "passed",
+  "three_parts": {
+    "base": {
+      "bimcraft": {
+        "ConcretePanel": {
+          "gwp_A1_A3_kg_CO2e": 34.704,
+          "mass_kg": 323.42400000000004,
+          "volume_m3": 0.14400000000000002
+        },
+        "Rail_A": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        },
+        "Rail_B": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        }
+      },
+      "solidcraft": {
+        "ConcretePanel": {
+          "gwp_A1_A3_kg_CO2e": 34.704,
+          "mass_kg": 323.424,
+          "volume_m3": 0.144
+        },
+        "Rail_A": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        },
+        "Rail_B": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        }
+      }
+    },
+    "revised": {
+      "bimcraft": {
+        "ConcretePanel": {
+          "gwp_A1_A3_kg_CO2e": 41.6448,
+          "mass_kg": 388.1088,
+          "volume_m3": 0.17279999999999998
+        },
+        "Rail_A": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        },
+        "Rail_B": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        }
+      },
+      "solidcraft": {
+        "ConcretePanel": {
+          "gwp_A1_A3_kg_CO2e": 41.644800000000004,
+          "mass_kg": 388.10880000000003,
+          "volume_m3": 0.1728
+        },
+        "Rail_A": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        },
+        "Rail_B": {
+          "gwp_A1_A3_kg_CO2e": 10.292920000000002,
+          "mass_kg": 6.28,
+          "volume_m3": 0.0008
+        }
+      }
+    }
+  }
+}

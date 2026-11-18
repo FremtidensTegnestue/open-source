@@ -27,3 +27,9 @@ Vandkunstens [open source-side](https://opensource.vandkunsten.com/) gav et udga
 Arkivet omfatter blandt andet GPL-/AGPL-undtagelser og særskilte rettigheder til tegninger, modeller, fotos og fonte. Projektets MIT-licens udvider ikke disse vilkår. Hent originale værktøjer hos deres udgiver og læs de medfølgende betingelser.
 
 Lisbjerg-rapportens offentlige PDF indeholder vores analyse uden projektfotografiet fra originalpakken. Vores små kontrolmodeller og billeder af deres geometri er eksempler fremstillet til dette projekt.
+
+## Tillæg i Rust-udgaven
+
+Tampere-materialernes originaler og afledte observationer distribueres med navngivning af Antti Mikkonen og Juha Vinha under CC BY 4.0. Kildeudgave, kreditering og beskrivelse af bearbejdningen følger med materialedataene. [Tampere og ophav](data/supplements/tampere/README.md)
+
+EPD Danmark-tillæggets kildefiler, udtrukne resultater og arbejdsdatabase hentes og oprettes lokalt. Projektet distribuerer program, kildeadresser, kontrolsummer, dækningsoplysninger og udtræksbeskrivelser. Originalernes rettigheder tilhører de respektive rettighedshavere. [Dansk kilderegister](data/supplements/epd-danmark/README.md)

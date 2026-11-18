@@ -1,0 +1,13 @@
+{
+  "bim_model_sha256": "365f66f19733eed2c51a3a4f54bfb2c23abd5cb0b9fae0fb9578fd6845f339fd",
+  "cad_model_sha256": "3a6cf8d0911b9ad8169f97014ccb4beec500f46fb5c4e47295e4f463e78c6a88",
+  "glb_sha256": "4231f31b2114164bb6d9307fd5a3ec8c452f7f869cf29dbc9573f648b9d933b0",
+  "parts": [
+    {
+      "bim_element_id": 100002,
+      "bim_guid": "f3a00848-9d81-4b6f-9e6d-2683c9ed42e8",
+      "source_body": "FacadePanel"
+    }
+  ],
+  "schema_version": 1
+}

@@ -6,7 +6,7 @@
 
 Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, studerende og udviklere.
 
-[Kom godt i gang](docs/KOM-GODT-I-GANG.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
+[Kom godt i gang med Rust-CLI’et](docs/RUST.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
 
 </div>
 
@@ -25,15 +25,15 @@ Du kan allerede:
 - **Læse modeller fra SolidCraft og BIMCraft**, afprøve ændringer og få en oversigt over manglende oplysninger.
 - **Lade en AI-agent hjælpe med arbejdet**, mens materialevalg, kilder og antagelser forbliver synlige.
 
-Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. At køre nye beregninger kræver en lokal opsætning; [begynderguiden](docs/KOM-GODT-I-GANG.md) viser hvert trin.
+Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På din egen computer kan du bruge Rust-programmet til at gentage beregningerne. [Følg guiden til installation og første opslag](docs/RUST.md).
 
 ## Start dér, hvor du er
 
 | Du vil … | Start her |
 | --- | --- |
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
-| Have en AI-agent til at hjælpe | [Begynderguidens agentforløb](docs/KOM-GODT-I-GANG.md#2-arbejd-med-en-ai-agent) |
-| Søge og beregne selv | [Installation og dine første kommandoer](docs/KOM-GODT-I-GANG.md#3-prøv-kommandoerne-selv) |
+| Have en AI-agent til at hjælpe | [Materialevalget i SolidCraft og BIMCraft](examples/unified-workflow/README.md) |
+| Søge og beregne selv | [Installation og dine første kommandoer](docs/RUST.md) |
 | Bruge datasættet i egne analyser | [Dataformater, indhold og versioner](data/README.md) |
 | Forstå ord som EPD, BIM, CLI og MCP | [Ordliste](docs/ORDLISTE.md) |
 | Se afprøvningen på et rigtigt byggeri | [Lisbjerg Bakke](reports/lisbjerg-bakke/README.md) |
@@ -54,7 +54,7 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. At k
 
 ### Materialeværktøjet: egenskaber, kilder og beregninger
 
-**Dette repository** leverer materialedataene og beregningsværktøjet. Det læser mængder fra programmerne, forbinder dem med udtrykkeligt valgte kildeværdier og gemmer beregningerne med deres dokumentation. Det er udviklet i Python; du behøver ikke lære Python for at få en agent til at bruge det.
+**Dette repository** leverer materialedataene og beregningsværktøjet. Det læser mængder fra programmerne, forbinder dem med udtrykkeligt valgte kildeværdier og gemmer beregningerne med deres dokumentation. Det nuværende CLI, `ft-materials`, er skrevet i Rust. Det læser materialedata og taler direkte med de to modelprogrammers CLI’er.
 
 ```mermaid
 flowchart LR
@@ -70,25 +70,17 @@ En **AI-agent** kan koordinere trinene. Den skal have adgang til projektmappen o
 
 ## Tallene følger med
 
-**Hele det strukturerede datasæt ligger i repositoryet som Parquet-filer — ikke kun en demo eller links til fremtidige downloads.** SQLite er den lokale arbejdsdatabase til CLI'et. En færdig komprimeret SQLite-database tilbydes også som [Release-download](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.1.0).
+**Projektets fire grunddatasæt følger med i Parquet. Det åbne Tampere-tillæg følger med som strukturerede poster og originalfiler. Danske produktdeklarationer kan tilføjes fra udgiverens egne PDF’er.** Rust-programmet forbinder kilderne gennem ét skema med materialer, egenskaber, betingelser og versioner.
 
-Snapshot: **17. november 2026**.
+| Udgave | Kilder | Materialeposter | Observationer |
+| --- | ---: | ---: | ---: |
+| Grundlag fra ÖKOBAUDAT, OpenStudio/EnergyPlus, USDA og BR18 | 7.135 | 11.161 | 1.985.582 |
+| Offentlig udgave med Tampere | 7.137 | 11.204 | 1.986.184 |
+| Lokal udgave med Tampere og EPD Danmark | 8.057 | 11.286 | 2.001.578 |
 
-| Kildeområde | Kildebestemte poster | Observationer |
-| --- | ---: | ---: |
-| ÖKOBAUDAT: miljø- og livscyklusdata | 7.067 | 1.962.722 |
-| OpenStudio / EnergyPlus: tekniske egenskaber og simuleringsdata | 3.183 | 15.127 |
-| USDA Wood Handbook: træarters egenskaber | 325 | 5.038 |
-| Danske BR18-tabeller: referenceværdier | 586 | 2.695 |
-| **I alt** | **11.161** | **1.985.582** |
+En observation kan være et tal, en hel kurve eller et felt, kilden udtrykkeligt markerer som manglende. Tampere bidrager med 387 kurver for 43 materialeprøver. De danske produktdeklarationer bidrager med 15.313 tal for 32 indikatorer samt 81 kildemarkeringer. Kildespecifikke poster kan omhandle det samme materiale. [Tampere](data/supplements/tampere/README.md) · [EPD Danmark](data/supplements/epd-danmark/README.md)
 
-Der er **7.135 registrerede kilder**. En post er en kildebestemt materialereference, et produkt eller en opbygning; det er ikke et løfte om 11.161 unikke materialer. En observation beskriver en bestemt værdi, enhed og kontekst. Originale betingelser, negative værdier, eksplicitte nuller og kildeoplysninger er bevaret.
-
-- **Parquet:** cirka 91 MB, fordelt på små filer, med alle tabeller og kolonner.
-- **SQLite:** cirka 8,78 GB lokalt; cirka 187 MB som komprimeret download.
-- **Originaldokumenter:** registreret med URL og SHA-256. PDF’er, leverandørsoftware og det store kildearkiv ligger ikke i almindelig Git; de kan hentes særskilt, når de skal efterprøves.
-
-Se [dataguiden](data/README.md) for formater, genopbygning og kilde-/rettighedsoplysninger. Kode, datasæt og eksterne kilder har forskellige licensforhold.
+Programmet bygger den store SQLite-base én gang fra omkring 91 MB Parquet. Efterfølgende udgaver genbruger den samme base og gemmer tillæg i separate SQLite-filer. Hver udgave har et fast ID, så et gammelt projekt kan genberegnes efter en dataopdatering. [Datamodel, løbende kildetjek og installation](docs/RUST.md)
 
 ## Et faktisk gennemført forløb
 
@@ -112,32 +104,23 @@ git clone https://github.com/FremtidensTegnestue/open-source.git
 cd open-source
 ```
 
-Brug **Python 3.11 eller nyere**. Her er macOS/Linux-forløbet; [begynderguiden](docs/KOM-GODT-I-GANG.md) viser også Windows og forklarer terminalen.
+Med Rust og Cargo installeret kan du bygge CLI'et og bruge det fra projektmappen. På Linux kan du også hente en færdig binærfil til din processor fra [projektets udgivelser](https://github.com/FremtidensTegnestue/open-source/releases).
 
 ```sh
-python3 -m venv .venv
-. .venv/bin/activate
-python -m pip install -r requirements.txt
-python scripts/build_database.py
-python materials.py stats
-python materials.py search beton --limit 5
+cargo install --locked --path .
+ft-materials build
+ft-materials search beton --limit 5
+ft-materials lookup tampere:material:D1 --property property:thermal_conductivity
+ft-materials calculate examples/requests/environmental-1000kg.json
 ```
 
-Databasen bygges fra de Parquet-filer, der allerede følger med. Sørg for cirka **10 GB ledig plads**. Databygningen er målt til omkring 70 sekunder på vores maskine; din tid afhænger af computer og disk.
-
-Beregn derefter et afgrænset klimabidrag uden at installere CAD/BIM:
-
-```sh
-python materials.py calculate examples/requests/environmental-1000kg.json --out output/mit-klimabidrag.json
-```
-
-Åbn resultatfilen i `output/`. Eksemplet skalerer én kildes 1.000 kg-grundlag til 500 kg og giver **429,5 kg CO₂e i modul A1**. Det er et enkelt kildebestemt bidrag.
+Sidste kommando giver **429,5 kg CO₂e i modul A1** for 500 kg af den valgte reference. På en model kan agenten bruge ét fastholdt materialevalg i både SolidCraft og BIMCraft. [Se de faktiske modeller og kommandoer](examples/unified-workflow/README.md).
 
 ## Prøv med en agent
 
 Åbn projektmappen i et agentprogram med adgang til lokale filer og terminal. Du kan begynde med denne besked:
 
-> Læs README.md, docs/KOM-GODT-I-GANG.md og .agents/skills/material-model-assessment/SKILL.md. Hjælp mig med det medfølgende eksempel. Vis, hvor mængder og materialetal kommer fra, og forklar resultatet på almindeligt dansk. Skeln mellem dokumenterede oplysninger, referencescenarier og manglende data.
+> Læs README.md, docs/RUST.md og .agents/skills/material-model-assessment/SKILL.md. Hjælp mig med det medfølgende eksempel. Vis, hvor mængder og materialetal kommer fra, og forklar resultatet på almindeligt dansk. Skeln mellem dokumenterede oplysninger, referencescenarier og manglende data.
 
 Derefter kan du eksempelvis bede om:
 
@@ -147,7 +130,7 @@ Der følger ingen AI-tjeneste, API-nøgle eller abonnement med. Brug af en valgt
 
 ## Hvad er efterprøvet — og hvor går grænsen?
 
-Den samlede modelkæde er afprøvet med **SolidCraft CLI 0.44.0** og **BIMCraft CLI 0.12.0**. BIM-adapteren kontrollerer den afprøvede version. Andre versioner og operativsystemer er ikke automatisk dækket af samme kontrol.
+Den samlede modelkæde er afprøvet med **SolidCraft CLI 0.44.0** og **BIMCraft CLI 0.12.0**. De afprøvede modeller, programversioner og kontrolresultater ligger sammen med eksemplerne. Andre versioner og operativsystemer er ikke automatisk dækket af samme kontrol.
 
 Kernen omfatter masse, modulvis GWP-skalering og en afgrænset træfugtmetode. Databasen indeholder flere egenskaber, end beregningsværktøjet endnu har metoder til. En hel bygnings LCA, bæreevne, brand, lyd og fugtsikkerhed kræver yderligere grundlag og relevante faglige beregninger. Et materialematch på navn er et forslag, og uafklarede værdier bliver ikke til nul.
 
@@ -165,6 +148,7 @@ Kernen omfatter masse, modulvis GWP-skalering og en afgrænset træfugtmetode. D
 | [`collectors/`](collectors/) | Indsamling og strukturering af kildegrundlaget |
 | [`reports/`](reports/README.md) | Lisbjerg Bakke og de dokumenterede erfaringer |
 | [`openwiki/`](openwiki/quickstart.md) | Fordybelse i projektets værktøjer, kilder og idéer |
+| [`src/`](src/) | Rust-CLI, modeladaptere, dataindsamling og beregninger |
 | [`tests/`](tests/) | Automatiske kontroller |
 
 ## Baggrund og bidrag

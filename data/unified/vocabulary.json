@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "properties": {
+    "density": ["density"],
+    "bulk_density": ["bulk_density"],
+    "gross_density": ["gross_density"],
+    "thermal_conductivity": ["thermal_conductivity"],
+    "thermal_resistance": ["thermal_resistance"],
+    "specific_heat_capacity": ["specific_heat_capacity"],
+    "water_vapor_diffusion_resistance_factor": ["water_vapor_diffusion_resistance_factor", "water_vapour_diffusion_resistance_factor"],
+    "gwp_total": ["gwp_total", "global_warming_potential", "GWP-total"],
+    "gwp_fossil": ["gwp_fossil", "gwp_f", "GWP-fossil"],
+    "gwp_biogenic": ["gwp_biogenic", "gwp_b", "GWP-biogenic"],
+    "gwp_luluc": ["gwp_luluc", "GWP-luluc"],
+    "thickness": ["thickness"],
+    "dimensional_change_radial": ["moisture_dimensional_change_coefficient_radial"],
+    "dimensional_change_tangential": ["moisture_dimensional_change_coefficient_tangential"]
+  },
+  "families": {
+    "wood": ["træ", "tømmer", "wood", "timber"],
+    "concrete": ["beton", "concrete"],
+    "metal": ["metal", "metaller"],
+    "insulation": ["isolering", "insulation"],
+    "gypsum": ["gips", "gypsum"],
+    "glass": ["glas", "glass"],
+    "masonry": ["murværk", "masonry"],
+    "polymer": ["plast", "polymer"],
+    "energy": ["energi", "energy"]
+  },
+  "search_aliases": {"eg": ["oak"], "egetræ": ["oak"], "bøg": ["beech"], "gran": ["spruce"], "fyr": ["pine"], "birk": ["birch"]}
+}

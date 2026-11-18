@@ -1,0 +1,9 @@
+# Edition IDs and publisher receipts are calculated over exact file bytes.
+data/parquet/manifest.json text eol=lf
+data/unified/*.sql text eol=lf
+data/unified/*.json text eol=lf
+data/supplements/**/*.json text eol=lf
+data/supplements/**/*.jsonl text eol=lf
+data/supplements/tampere/originals/** binary
+examples/unified-workflow/revised/*.sc binary
+examples/unified-workflow/revised/*.bimc binary

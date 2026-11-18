@@ -1,0 +1,63 @@
+{
+  "bulk_lb5epd_members": 363,
+  "coverage": "EN 15804+A2; one confirmed reference and independently verified source cells",
+  "dataset": "epd-danmark",
+  "distribution": "Local download from EPD Danmark; EPD owners retain ownership.",
+  "explicit_source_markers": 81,
+  "index_entries": 701,
+  "limitations": [
+    "Grouped products retain the declaration scope.",
+    "Some cells, units, multi-product and scenario tables require manual verification.",
+    "Absences and explicit source markers are never zero-filled.",
+    "Current validity requires checking the publisher; cover and listing dates can differ."
+  ],
+  "materials": 82,
+  "numeric": 15313,
+  "observations": 15394,
+  "outcomes": {
+    "PDF_declared_amount_unconfirmed": 97,
+    "ambiguous_module_columns_or_GWP_unit": 42,
+    "complex_or_missing_reference_unit": 84,
+    "dataset_count_absent_or_multiple": 283,
+    "imported": 82,
+    "multiple_or_missing_GWP_result_tables": 54,
+    "no_single_primary_A2_PDF": 58,
+    "unavailable_at_snapshot": 1
+  },
+  "parser_version": "rust-1",
+  "pdf_extractor": "native Rust pdf-extract 0.12.1",
+  "source_lock_sha256": "21c312d572114077ad5de568f7350058cb77d82f531fc5bb6d690bc026b9a0b7",
+  "sources": 920,
+  "bundled_file_sha256": {
+    "coverage.jsonl": "a2aa226399cdaf8a1590a5eaedd0e5ccd9f0c4a062a42f556e4e758a1d4555b8",
+    "materials.jsonl": "ef05549e035862b5450ca4a741c39d3a563dbb26875bfebed6905feeeea5bcc7",
+    "observations.jsonl": "8304c456a52ed79bbc40146a15f4fa150bc802033e5c9e97ded1332809e8757b",
+    "sources.jsonl": "d551999819c5f8a8e0184dba16e05bb2d2b01609c033c44cf220cf760d9f0873"
+  },
+  "total_archived_bytes": 328681939,
+  "checks": {
+    "clean_root_network_locked_rebuild": "native Rust, no prior originals or normalized files; all 920 original responses checksum-verified, all four JSONL digests match independent release",
+    "original_pdf_cell_audit": {
+      "cells_checked": 15394,
+      "pdfs_checked": 82,
+      "disagreements": 0,
+      "method": "separate read of PDF physical page, source row, module header and right-aligned result token against reported source text and numeric value"
+    },
+    "pdf_cover_fields_located": {
+      "declaration_number": 75,
+      "issued": 72,
+      "revision": 12,
+      "valid_until": 75
+    },
+    "properties": 32,
+    "native_row_hashes_verified": 1921,
+    "independent_reference": "poppler pdftotext 24.02.0; independent source cell and JSONL audit",
+    "clean_network_refresh": {
+      "catalogue_entries": 701,
+      "sources": 920,
+      "materials": 82,
+      "observations": 15394
+    }
+  },
+  "layout_map_sha256": "a90612c982b8b7092aa943a3ca2dcc1891a75b3ad4177d053d75055133792fae"
+}

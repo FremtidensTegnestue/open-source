@@ -1,0 +1,91 @@
+{
+  "release": "v0.2.0",
+  "edition_format": 2,
+  "collected_at": "2026-11-18",
+  "editions": {
+    "foundation_only": {
+      "snapshot": "u2-65ce5d19f727e58ae9f3659ff858eb577dfae2056e7c4ff96e5904f5db8b1186",
+      "counts": {
+        "datasets": 4,
+        "materials": 11161,
+        "observations": 1985582,
+        "sources": 7135
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "supplements": {}
+      }
+    },
+    "public": {
+      "snapshot": "u2-8394a5cca62347f64732c6f57364ff3fcd245ce6d01733810c78c8e57dcc8cc5",
+      "counts": {
+        "datasets": 5,
+        "materials": 11204,
+        "observations": 1986184,
+        "sources": 7137
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "supplements": {
+          "tampere": {
+            "materials.jsonl": "e3220af1514a48ca2a754c20316fdd8c68a9d4a4a2e00a1a4d4f214407b34b39",
+            "observations.jsonl": "e50f3223b8f81ee94aab56b1733e39583e41b33d0e9f648067a7abb9643fbed3",
+            "sources.jsonl": "da9011722f1cf67a9855bf4c94e76ef9fa41f009a9d3bb86823a3292c3ba3437",
+            "summary.json": "811f75fe5ab581ae0ce7dbc118ada81a33d559c1993a31c0c9f63dfb90c598e7"
+          }
+        }
+      }
+    },
+    "local_epd_danmark": {
+      "snapshot": "u2-3f714691cfe4b23969617a58b84bd3b7698bdbaa6c1cef452bc6a27e1b3b1b0f",
+      "counts": {
+        "datasets": 6,
+        "materials": 11286,
+        "observations": 2001578,
+        "sources": 8057
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "supplements": {
+          "epd-danmark": {
+            "materials.jsonl": "ef05549e035862b5450ca4a741c39d3a563dbb26875bfebed6905feeeea5bcc7",
+            "observations.jsonl": "8304c456a52ed79bbc40146a15f4fa150bc802033e5c9e97ded1332809e8757b",
+            "sources.jsonl": "d551999819c5f8a8e0184dba16e05bb2d2b01609c033c44cf220cf760d9f0873",
+            "summary.json": "bae92f69088c7bd172c28f3bf7e4b4b58b7908b878b35d96f416ce34fa0c8404"
+          },
+          "tampere": {
+            "materials.jsonl": "e3220af1514a48ca2a754c20316fdd8c68a9d4a4a2e00a1a4d4f214407b34b39",
+            "observations.jsonl": "e50f3223b8f81ee94aab56b1733e39583e41b33d0e9f648067a7abb9643fbed3",
+            "sources.jsonl": "da9011722f1cf67a9855bf4c94e76ef9fa41f009a9d3bb86823a3292c3ba3437",
+            "summary.json": "811f75fe5ab581ae0ce7dbc118ada81a33d559c1993a31c0c9f63dfb90c598e7"
+          }
+        }
+      }
+    }
+  },
+  "sources": {
+    "thermal_originals": "data/supplements/tampere/sources.jsonl",
+    "epd_originals_lock": "data/supplements/epd-danmark/sources.lock.json",
+    "epd_distribution": "Publisher-origin local acquisition",
+    "numeric_epd_values": 15313,
+    "explicit_epd_source_markers": 81,
+    "epd_property_indicators": 32,
+    "thermal_curves": 387,
+    "thermal_curve_points": 3329
+  }
+}

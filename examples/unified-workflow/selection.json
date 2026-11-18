@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "snapshot": "u2-65ce5d19f727e58ae9f3659ff858eb577dfae2056e7c4ff96e5904f5db8b1186",
+  "parts": {
+    "FacadePanel": "lincrete"
+  },
+  "materials": {
+    "lincrete": {
+      "model_material_name": "'LinCrete' Glass-Fibre Reinforced Concrete - GFRC-Platten",
+      "material_id": "environmental:material:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+      "selection_note": "Lindner LinCrete, EPD-LIN-20250235-CBA1-EN, explicitly selected for this illustrative facade panel.",
+      "density_observation_id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000:e1cd04962c0116336c",
+      "gwp_observation_ids": [
+        "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000:5c075fc772a54566d4"
+      ],
+      "operations": [
+        "mass",
+        "climate"
+      ]
+    }
+  }
+}

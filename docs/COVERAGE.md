@@ -1,5 +1,7 @@
 # Dækning af første materialedatabase
 
+Aktuelle tillæg i v0.2 omfatter Tampere og en særskilt lokal indsamling fra EPD Danmark. Denne side dokumenterer de fire grunddatasæt fra 17. november. [Se de samlede optællinger](../README.md#tallene-følger-med)
+
 Den aktuelle maskinlæsbare optælling findes i `data/catalog.json`. Første samlede indsamling, 17. november 2026:
 
 | Datasæt | Kildebestemte poster | Numeriske observationer | Hvad det dækker |

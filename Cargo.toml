@@ -1,0 +1,39 @@
+[package]
+name = "ft-materials"
+version = "0.2.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Source-bound material data for SolidCraft and BIMCraft"
+
+[dependencies]
+anyhow = "1"
+calamine = "0.37"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+clap = { version = "4", features = ["derive"] }
+flate2 = "1"
+hex = "0.4"
+html-escape = "0.2"
+parquet = { version = "60", default-features = false, features = ["zstd"] }
+pdf-extract = "0.12.1"
+regex = "1"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "rustls-tls"] }
+rusqlite = { version = "0.41", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip", "raw_value"] }
+sha2 = "0.10"
+tempfile = "3"
+unicode-normalization = "0.1"
+zip = { version = "9", default-features = false, features = ["deflate"] }
+
+[profile.dev]
+debug = 0
+incremental = false
+
+[profile.test]
+debug = 0
+incremental = false
+
+[profile.release]
+debug = 0
+incremental = false

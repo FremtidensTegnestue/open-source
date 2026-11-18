@@ -5,15 +5,16 @@ description: Hent mængder fra Solidcraft- eller BIMcraft-modeller og beregn dok
 
 # Materialer fra model til dokumenteret beregning
 
-Projektroden er tre mapper over denne skillmappe og indeholder `materials.py` og `data/materials.sqlite`. Kør CLI-kommandoer fra roden. Læs [beregningsguiden](../../../docs/CALCULATIONS.md) for bindingsformat, metoder og begrænsninger.
+Brug `ft-materials` fra projektroden. Rust-CLI'et skriver JSON. [Installation og datamodellen](../../../docs/RUST.md) · [Afprøvet materialevalg og elementkort](../../../examples/unified-workflow/README.md)
 
 ## Arbejdsgang
 
-- Brug `python3 materials.py extract MODEL --software solidcraft|bimcraft --out REPORT.json` til read-only udtræk. Bevar modelens checksum og advarsler.
-- Brug `suggest` med samme modelargumenter til navnebaserede kandidater. Kandidater og ens navne beviser ikke produktækvivalens. Modellens standardmateriale eller manglende materialelag er ikke et valg af databasemateriale.
-- Find konkrete kildeposter med `show`, `observations` og `sources`. Se enhed, metode, gyldighed og betingelser. Vælg konkrete observation-ID'er; gennemsnit ikke poster med forskellige produkter, fugtforhold eller metoder.
-- Lav et bindings-JSON med modelens SHA-256, element-ID, nøjagtigt modelmaterialenavn, databasemateriale-ID, kildeobservationer og en forklaring på datavalget. Brug en tydeligt mærket referencesammenligning, når brugeren ønsker et scenarie. Hvis produkt-/materialevalget ikke kan fastslås, giv kandidater og de nødvendige afklaringer frem for et udokumenteret resultat.
-- Kør `assess MODEL --software SOFTWARE --bindings BINDINGS.json --out REPORT.json` gennem `materials.py`. Exit2 betyder delvist/uafklaret resultat; læs rapporten og vis manglerne.
+- Læs `ft-materials status`. Opret den offentlige dataudgave med `ft-materials build`, hvis den endnu ikke er installeret.
+- Hent geometri med `ft-materials extract MODEL --software solidcraft` eller `--software bimcraft`. Brug `--mesh-quantities` til understøttede BIMCraft-familier. Bevar modelkontrolsum, mængdeenhed og advarsler.
+- Find kandidater med `search`. Kontrollér konkret produkt, observation, betingelser og kildeversion med `lookup` og `source`. Fasthold udgavens fulde ID i projektets materialevalg.
+- Brug ét godkendt materialevalg for begge programmer. Revisionskortet forbinder en bestemt CAD-krop med et bestemt BIM-element og begge modellers kontrolsummer. Se eksemplets `selection.json` og `revised/transfer.json`.
+- Kør `ft-materials assess MODEL --software SOFTWARE --selection VALG.json --transfer KORT.json`. Statuskode 2 angiver et delvist resultat. Vis hvilke dele der kræver afklaring.
+- En ændret kilde kan kontrolleres med `check-updates`. Brug `changes FØR EFTER --selection VALG.json` til at finde berørte dele. Bevar den tidligere udgave til eksisterende projekter.
 
 ## Afgørende fortolkning
 
@@ -25,4 +26,4 @@ Fugtbevægelse kræver en arts-/retningsspecifik koefficient, start-/slutfugt in
 
 BIMcraft0.12.0's gulvvolumener afrundes til0,001m³. Rapporten bevarer denne usikkerhed og dens bidrag til masse/klima. Præsenter ikke resultatet med større sikkerhed end kilden eller modellen understøtter.
 
-Resultatet skal vise model, valgte data, beregninger, enheder, kildehenvisninger, antagelser og mangler. Brug JSON-outputfil; værktøjerne beskytter kildemodeller, inputfiler og originalarkiv mod overskrivning. Gem nye rapporter i et separat outputområde.
+Resultatet skal vise model, valgte data, beregninger, enheder, kildehenvisninger, antagelser og mangler. Gem CLI’ets JSON-svar i en separat rapportfil.

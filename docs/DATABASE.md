@@ -1,5 +1,7 @@
 # Materialedatabase: struktur og anvendelse
 
+Den aktive CLI er skrevet i Rust. Kør `ft-materials build` for at oprette den delte base og den første udgave. Siden her beskriver også v0.1-arkivet. [Læs om den aktuelle datamodel](RUST.md)
+
 ## Fra en ny download af projektet
 
 Det komplette strukturerede datasæt følger med i `data/parquet/`. Gendan arbejdsdatabasen før de øvrige eksempler:

@@ -1,5 +1,7 @@
 # Kom godt i gang
 
+**Start med den aktuelle Rust-CLI.** Du kan installere programmet, bruge data og afprøve de to modelprogrammer fra den nye guide. Nedenfor findes også det oprindelige Python-forløb fra v0.1. [Åbn Rust-guiden](RUST.md)
+
 Her kan du undersøge materialers vægt, udvalgte klimabidrag og træets fugtbevægelse med sporbare kilder. Du kan begynde med at læse et færdigt eksempel. Når du vil videre, kan en AI-agent hjælpe med filerne, eller du kan selv bruge kommandoerne.
 
 Et beregnet klimabidrag gælder den valgte mængde, kilde og livscyklusfase. Det er ikke i sig selv en komplet bygnings-LCA eller dokumentation for, at et projekt opfylder BR18.

@@ -33,3 +33,7 @@ __pycache__/
 
 # An optional local automation template; public CI does not need API secrets.
 /.github/workflows/openwiki-update.yml
+
+# Rust builds and reproducible local material editions.
+/target/
+/data/editions/

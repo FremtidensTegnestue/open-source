@@ -1,5 +1,7 @@
 # Hele datasættet — Parquet og SQLite
 
+Den aktuelle Rust-udgave kombinerer dette komplette Parquet-grundlag med versionsstyrede tillæg for varme, fugt og danske produktdeklarationer. [Aktuel datamodel og brug](../docs/RUST.md)
+
 **Tallene følger med projektet.** Mappen [parquet/](parquet/) indeholder alle 1.985.582 observationer, 11.161 materiale-/produktposter, 7.135 kilder og fire datasæt fra snapshot 17. november 2026. Alle tabeller og kolonner er med; ingen materialegruppe er fjernet for at gøre pakken lille.
 
 ## To formater af samme snapshot

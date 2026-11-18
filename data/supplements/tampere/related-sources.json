@@ -1,0 +1,14 @@
+{
+  "source": "NIST Standard Reference Database 81",
+  "doi": "10.18434/T4RC7M",
+  "topic": "Heat transmission properties of insulating and building materials",
+  "status": "catalogue_only_permission_required",
+  "registry_checked_on": "2026-11-18",
+  "records_ingested": 0,
+  "publisher": "National Institute of Standards and Technology",
+  "lookup_url": "https://srdata.nist.gov/insulation/Search/DatabaseSearch",
+  "dataset_url": "https://srdata.nist.gov/insulation/",
+  "terms_url": "https://www.nist.gov/srd/public-law",
+  "dataset_copyright_url": "https://srdata.nist.gov/insulation/Home/Disclaimer",
+  "reason": "NIST's Standard Reference Data notice requires prior permission for reproduction, storage or transmission of the data. This registry entry points to the official public search page. The present edition has no such permission."
+}
