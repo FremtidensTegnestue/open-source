@@ -86,6 +86,8 @@ Kildetjekket henter de valgte registrerede adresser og sammenligner filernes akt
 
 ## Beregn ud fra modeller
 
+Vil du arbejde med materialevalg og klimaregnskab, mens du tegner? Se [undersøgelsen af direkte SolidCraft-integration](SOLIDCRAFT-INTEGRATION.md). Den skelner eksisterende funktioner fra udviklingsmuligheder; ingen ny liveintegration er implementeret.
+
 ```sh
 ft-materials build --base-only --no-activate
 ft-materials assess examples/unified-workflow/revised/model.sc --software solidcraft --selection examples/unified-workflow/selection.json --transfer examples/unified-workflow/revised/transfer.json
