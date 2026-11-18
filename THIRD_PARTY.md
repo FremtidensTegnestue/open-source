@@ -33,3 +33,7 @@ Lisbjerg-rapportens offentlige PDF indeholder vores analyse uden projektfotograf
 Tampere-materialernes originaler og afledte observationer distribueres med navngivning af Antti Mikkonen og Juha Vinha under CC BY 4.0. Kildeudgave, kreditering og beskrivelse af bearbejdningen følger med materialedataene. [Tampere og ophav](data/supplements/tampere/README.md)
 
 EPD Danmark-tillæggets kildefiler, udtrukne resultater og arbejdsdatabase hentes og oprettes lokalt. Projektet distribuerer program, kildeadresser, kontrolsummer, dækningsoplysninger og udtræksbeskrivelser. Originalernes rettigheder tilhører de respektive rettighedshavere. [Dansk kilderegister](data/supplements/epd-danmark/README.md)
+
+Energistyrelsens regneark for individuel opvarmning angiver CC BY 4.0. BUILDs tabel over middellevetider indlæses fra Aalborg Universitet til lokalt studium eller forskning under portalens vilkår. [Udgivere, præcise udgaver og bearbejdning](docs/sources/danske-levetider.md)
+
+Prøvningsdata, inventarlister, produktdeklarationer og producentvejledninger har særskilte vilkår. Hver kilde har egen kreditering og kontrolsum. [Faglige kilder og oprindelige filer](docs/sources/field-sources.md) · [Levetid og driftskilder](docs/sources/operations.md)

@@ -1,0 +1,667 @@
+[
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:0094fdc4-194f-42ef-9dc7-6953e9514813@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:0094fdc4-194f-42ef-9dc7-6953e9514813@00.02.000",
+      "title": "Troldtekt 25mm Natural Grey FUTURECEM - painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/0094fdc4-194f-42ef-9dc7-6953e9514813?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.318823+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/0094fdc4-194f-42ef-9dc7-6953e9514813_00.02.000.json",
+      "sha256": "ad6b4e54486a6f8d7c0a2e7b4098b01698bc3fd3cbb26ce4a83690889acd1477",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm Natural Grey FUTURECEM - painted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:0759b4d9-e8e0-4ade-b736-c962af9bccfc@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:0759b4d9-e8e0-4ade-b736-c962af9bccfc@00.02.000",
+      "title": "Troldtekt 35mm A2 Natural Grey FUTURECEM - painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/0759b4d9-e8e0-4ade-b736-c962af9bccfc?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.616166+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/0759b4d9-e8e0-4ade-b736-c962af9bccfc_00.02.000.json",
+      "sha256": "b258d7d451c764006009b7ad30f3c4dcd9057d04eb05659b97d87f385beed5ed",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm A2 Natural Grey FUTURECEM - painted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:0a3327e3-828a-4b3a-bd9d-f3b10b0b3a09@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:0a3327e3-828a-4b3a-bd9d-f3b10b0b3a09@00.02.000",
+      "title": "Troldtekt 35mm Natural Grey - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/0a3327e3-828a-4b3a-bd9d-f3b10b0b3a09?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.698593+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/0a3327e3-828a-4b3a-bd9d-f3b10b0b3a09_00.02.000.json",
+      "sha256": "b85b76841dd450c00e2953a8b68100ba6c2ecedd3175aea6a85d45aff594c292",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm Natural Grey - unpainted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:0d2f8d3b-8d16-4cac-addd-0c416ccd43b7@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:0d2f8d3b-8d16-4cac-addd-0c416ccd43b7@00.02.000",
+      "title": "Troldtekt 35mm Natural Wood - painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/0d2f8d3b-8d16-4cac-addd-0c416ccd43b7?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.881758+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/0d2f8d3b-8d16-4cac-addd-0c416ccd43b7_00.02.000.json",
+      "sha256": "d5ba6072683b7aacbb2640ed0b39f3e8cff4bd3b8f6cea376bf64407152b7e19",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm Natural Wood - painted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:0fc77685-f088-455e-8929-24331fa630b9@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:0fc77685-f088-455e-8929-24331fa630b9@00.02.000",
+      "title": "Troldtekt 25mm A2 Naturholz - lackiert",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/0fc77685-f088-455e-8929-24331fa630b9?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.240808+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/0fc77685-f088-455e-8929-24331fa630b9_00.02.000.json",
+      "sha256": "80849326e5af2b7f2c3f66762cd2da062d4f1fb57b4eabb818ac8f13608a4875",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm A2 Natural Wood - painted"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:1ea38afe-ecbf-43b6-8112-40cd5d1e770b@00.04.000",
+    "source": {
+      "id": "environmental:oekobaudat:1ea38afe-ecbf-43b6-8112-40cd5d1e770b@00.04.000",
+      "title": "EcoWorx S™ Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/1ea38afe-ecbf-43b6-8112-40cd5d1e770b?format=json&view=extended&version=00.04.000",
+      "retrieved_at": "2026-11-17T19:44:03.154476+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/1ea38afe-ecbf-43b6-8112-40cd5d1e770b_00.04.000.json",
+      "sha256": "83b11a909f434bb2f1fae50ad1758c214e2e46225814dcc98d155f0c113ad5ee",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "EcoWorx S™ Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre"
+  },
+  {
+    "kind": "cork",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:23fa4545-cd2a-4faa-85c4-ed0429c97fbd@00.01.000",
+    "source": {
+      "id": "environmental:oekobaudat:23fa4545-cd2a-4faa-85c4-ed0429c97fbd@00.01.000",
+      "title": "Amorim Wise Cork Pure UV",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/23fa4545-cd2a-4faa-85c4-ed0429c97fbd?format=json&view=extended&version=00.01.000",
+      "retrieved_at": "2026-11-17T19:42:53.400165+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/23fa4545-cd2a-4faa-85c4-ed0429c97fbd_00.01.000.json",
+      "sha256": "440a8217d0774c64e730ae540fb9bdac7584184433b2c8373b19507b99243cb1",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Amorim Wise Cork Pure UV"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:28dcb89f-be15-465a-8341-41d741d94d13@00.06.000",
+    "source": {
+      "id": "environmental:oekobaudat:28dcb89f-be15-465a-8341-41d741d94d13@00.06.000",
+      "title": "Gradus Carpet Tile with Nylon Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/28dcb89f-be15-465a-8341-41d741d94d13?format=json&view=extended&version=00.06.000",
+      "retrieved_at": "2026-11-17T19:44:55.743212+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/28dcb89f-be15-465a-8341-41d741d94d13_00.06.000.json",
+      "sha256": "15957324d864e7bfe3369062d3bb252e4ff2dff9eac4529f625e2d41a49cca30",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Gradus Carpet Tile with Nylon Face Fibre"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:2aa5aa1f-08d3-4dcd-87d2-d86523a9cb83@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:2aa5aa1f-08d3-4dcd-87d2-d86523a9cb83@00.02.000",
+      "title": "Troldtekt 35mm Natural Wood - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/2aa5aa1f-08d3-4dcd-87d2-d86523a9cb83?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.901416+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/2aa5aa1f-08d3-4dcd-87d2-d86523a9cb83_00.02.000.json",
+      "sha256": "fa8c82bdd4ff38140300dd562f7132bfe82434f531745df60d1da5e4015166c7",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm Natural Wood - unpainted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:2f1d1f16-0484-4d80-9a00-6de0ecd3f919@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:2f1d1f16-0484-4d80-9a00-6de0ecd3f919@00.02.000",
+      "title": "Troldtekt 25mm A2 Natural Grey FUTURECEM - painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/2f1d1f16-0484-4d80-9a00-6de0ecd3f919?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.046550+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/2f1d1f16-0484-4d80-9a00-6de0ecd3f919_00.02.000.json",
+      "sha256": "529788b16cf5f385b2da30e844ef9025f91c41d1ef88e140d939b51a1f473697",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm A2 Natural Grey FUTURECEM - painted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:4190a0bf-08e3-48c7-9cb3-f4daf741f3ef@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:4190a0bf-08e3-48c7-9cb3-f4daf741f3ef@00.02.000",
+      "title": "Troldtekt 25mm Natural Wood - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/4190a0bf-08e3-48c7-9cb3-f4daf741f3ef?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.499802+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/4190a0bf-08e3-48c7-9cb3-f4daf741f3ef_00.02.000.json",
+      "sha256": "1294748d55a60059d74d20aff0f8f8d9ecefe27a2cd834d80ba65b9606c093e7",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm Natural Wood - unpainted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:4d9a79e4-e0c2-4994-94b4-b8ebb343431d@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:4d9a79e4-e0c2-4994-94b4-b8ebb343431d@00.02.000",
+      "title": "Troldtekt 25mm Natural Grey - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/4d9a79e4-e0c2-4994-94b4-b8ebb343431d?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.311279+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/4d9a79e4-e0c2-4994-94b4-b8ebb343431d_00.02.000.json",
+      "sha256": "9e7e3f63133b37da762e92c7a8a2938e5a9e7e5642121c3f046fedc52f0093ef",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm Natural Grey - unpainted"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:55655099-d117-4e13-b173-c173122c928f@00.04.000",
+    "source": {
+      "id": "environmental:oekobaudat:55655099-d117-4e13-b173-c173122c928f@00.04.000",
+      "title": "TaskWorx® Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/55655099-d117-4e13-b173-c173122c928f?format=json&view=extended&version=00.04.000",
+      "retrieved_at": "2026-11-17T19:47:52.739389+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/55655099-d117-4e13-b173-c173122c928f_00.04.000.json",
+      "sha256": "cff7e709ac4d670141bc9429e7a16492704b0c1f6bcf22cd3b4563fed6004c19",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "TaskWorx® Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre"
+  },
+  {
+    "kind": "rockpanel",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:5a705462-f3ef-4451-8d47-d2be6beb6fd9@00.09.001",
+    "source": {
+      "id": "environmental:oekobaudat:5a705462-f3ef-4451-8d47-d2be6beb6fd9@00.09.001",
+      "title": "Rockpanel Durable & FS-Xtra",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/5a705462-f3ef-4451-8d47-d2be6beb6fd9?format=json&view=extended&version=00.09.001",
+      "retrieved_at": "2026-11-17T19:47:12.765824+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/5a705462-f3ef-4451-8d47-d2be6beb6fd9_00.09.001.json",
+      "sha256": "d21eedab1b42ff9f4bd413cfb96d39dd8d8f08dd051302600494d01b1a5cf522",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Rockpanel Durable & FS-Xtra"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:5f4ef6e1-47eb-4d80-98fb-a198e02bb318@00.04.000",
+    "source": {
+      "id": "environmental:oekobaudat:5f4ef6e1-47eb-4d80-98fb-a198e02bb318@00.04.000",
+      "title": "EcoWorx S™ Carpet Tile with EcoSolution Q100™ Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/5f4ef6e1-47eb-4d80-98fb-a198e02bb318?format=json&view=extended&version=00.04.000",
+      "retrieved_at": "2026-11-17T19:44:03.089208+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/5f4ef6e1-47eb-4d80-98fb-a198e02bb318_00.04.000.json",
+      "sha256": "58f2161e33ee4244de45813e70e65198961225ea5b3efe3c9974a0a922575d8e",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "EcoWorx S™ Carpet Tile with EcoSolution Q100™ Face Fibre"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:660508cb-f8a5-40d8-9fb6-884301831457@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:660508cb-f8a5-40d8-9fb6-884301831457@00.02.000",
+      "title": "Troldtekt 25mm Natural Grey FUTURECEM - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/660508cb-f8a5-40d8-9fb6-884301831457?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.434466+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/660508cb-f8a5-40d8-9fb6-884301831457_00.02.000.json",
+      "sha256": "3379ac7e26e513b79e48cc34c98469d51c2578b2e6c2c918acd7dfb41c5815ea",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm Natural Grey FUTURECEM - unpainted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:67ff5b99-b743-4e0e-8985-6543fab666de@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:67ff5b99-b743-4e0e-8985-6543fab666de@00.02.000",
+      "title": "Troldtekt 25mm A2 Naturgrau - unlackiert",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/67ff5b99-b743-4e0e-8985-6543fab666de?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.125121+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/67ff5b99-b743-4e0e-8985-6543fab666de_00.02.000.json",
+      "sha256": "209a2a40c783cc0152eb50c8af64fe25218adba3b69cc3428a612f7b1ce6dbfb",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm A2 Natural Grey - unpainted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:754dee0d-9175-49dc-b244-b17eb1f1dd4b@00.01.000",
+    "source": {
+      "id": "environmental:oekobaudat:754dee0d-9175-49dc-b244-b17eb1f1dd4b@00.01.000",
+      "title": "Cedral Sidings",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/754dee0d-9175-49dc-b244-b17eb1f1dd4b?format=json&view=extended&version=00.01.000",
+      "retrieved_at": "2026-11-17T19:43:41.945121+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/754dee0d-9175-49dc-b244-b17eb1f1dd4b_00.01.000.json",
+      "sha256": "bf606ee0ab0f32b940828531ece161c34b480f8a470080a5e4ea958bf56a7f95",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Cedral Sidings"
+  },
+  {
+    "kind": "cork",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:7b06ebcb-bf35-4ce0-8562-04a31cc7a315@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:7b06ebcb-bf35-4ce0-8562-04a31cc7a315@00.02.000",
+      "title": "Amorim Wise Cork Pure PU PF",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/7b06ebcb-bf35-4ce0-8562-04a31cc7a315?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:42:53.347486+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/7b06ebcb-bf35-4ce0-8562-04a31cc7a315_00.02.000.json",
+      "sha256": "517506e3313ae8ee0899c0a186165a6f4a004c20d2e61306a658cc10a876d90a",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Amorim Wise Cork Pure PU PF"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:7b59d387-f0f9-42bc-9d59-2565e430436e@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:7b59d387-f0f9-42bc-9d59-2565e430436e@00.02.000",
+      "title": "Troldtekt 25mm A2 Natural Grey FUTURECEM - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/7b59d387-f0f9-42bc-9d59-2565e430436e?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.092751+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/7b59d387-f0f9-42bc-9d59-2565e430436e_00.02.000.json",
+      "sha256": "55adcdcd64f0f4bb97150651d38ea3713fb54892d52caee4e5f4f9f5e008bbe8",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm A2 Natural Grey FUTURECEM - unpainted"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:7ee2591b-29a8-4e2e-9fdc-09f9ad2630e6@00.09.000",
+    "source": {
+      "id": "environmental:oekobaudat:7ee2591b-29a8-4e2e-9fdc-09f9ad2630e6@00.09.000",
+      "title": "STS Carpet Tile with Nylon Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/7ee2591b-29a8-4e2e-9fdc-09f9ad2630e6?format=json&view=extended&version=00.09.000",
+      "retrieved_at": "2026-11-17T19:47:48.444894+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/7ee2591b-29a8-4e2e-9fdc-09f9ad2630e6_00.09.000.json",
+      "sha256": "5fa2fe0c69a3583fc687454590dee165420c56b216432a3a92681fa52d8dca05",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "STS Carpet Tile with Nylon Face Fibre"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:879a147f-d470-4794-a17a-6d2c180fa38f@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:879a147f-d470-4794-a17a-6d2c180fa38f@00.02.000",
+      "title": "Troldtekt 25mm Natural Wood - painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/879a147f-d470-4794-a17a-6d2c180fa38f?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.497453+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/879a147f-d470-4794-a17a-6d2c180fa38f_00.02.000.json",
+      "sha256": "54011afc8ba332e42db62e73e6d032bcede1bc9bef8c1809bc22122a0a56ee6a",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm Natural Wood - painted"
+  },
+  {
+    "kind": "tiles",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/1/value",
+    "material_id": "environmental:material:oekobaudat:a2b5b7c9-db13-4dbd-be23-b0ff9f0cbd98@00.08.000",
+    "source": {
+      "id": "environmental:oekobaudat:a2b5b7c9-db13-4dbd-be23-b0ff9f0cbd98@00.08.000",
+      "title": "Keramische Fliesen und Platten",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/a2b5b7c9-db13-4dbd-be23-b0ff9f0cbd98?format=json&view=extended&version=00.08.000",
+      "retrieved_at": "2026-11-17T19:45:29.064281+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/a2b5b7c9-db13-4dbd-be23-b0ff9f0cbd98_00.08.000.json",
+      "sha256": "be916d62978e696771f80bbf21d3a45673d595bb5154ee7cd74c9f441063dcc7",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Ceramic tiles"
+  },
+  {
+    "kind": "pipe",
+    "pointer": "/processInformation/technology/technologicalApplicability/0/value",
+    "material_id": "environmental:material:oekobaudat:adf13951-973f-4f8a-8267-e987d8de4fe1@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:adf13951-973f-4f8a-8267-e987d8de4fe1@00.02.000",
+      "title": "CLIMAFLEX®naturefoam easy",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/adf13951-973f-4f8a-8267-e987d8de4fe1?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:43:49.304278+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/adf13951-973f-4f8a-8267-e987d8de4fe1_00.02.000.json",
+      "sha256": "0cce1565238fbe890f20392a801b81a002733a6ed3a9e2dc86aedbe69118db9b",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "CLIMAFLEX®naturefoam easy"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:ae0ccd6d-d452-4b95-a1ea-3ff5e02af2df@00.04.000",
+    "source": {
+      "id": "environmental:oekobaudat:ae0ccd6d-d452-4b95-a1ea-3ff5e02af2df@00.04.000",
+      "title": "TaskWorx® Carpet Tile with Polyamide 6 (Aquafil) Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/ae0ccd6d-d452-4b95-a1ea-3ff5e02af2df?format=json&view=extended&version=00.04.000",
+      "retrieved_at": "2026-11-17T19:47:52.744575+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/ae0ccd6d-d452-4b95-a1ea-3ff5e02af2df_00.04.000.json",
+      "sha256": "79f96336e3f623d378835eae47a43a8a6109d3a01a4da0de072b1977894a565a",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "TaskWorx® Carpet Tile with Polyamide 6 (Aquafil) Face Fibre"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:b490d72f-5123-416e-8d16-c862032ec4b5@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:b490d72f-5123-416e-8d16-c862032ec4b5@00.02.000",
+      "title": "Troldtekt 25mm A2 Naturgrau - lackiert",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/b490d72f-5123-416e-8d16-c862032ec4b5?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.099118+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/b490d72f-5123-416e-8d16-c862032ec4b5_00.02.000.json",
+      "sha256": "0218df9ce444f5e435126e313da30d35014a3f4d747eebe0174f8a87c25133ab",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm A2 Natural Grey - painted"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:b6cd48fb-91b6-4982-8323-da8caca0f7d5@00.04.000",
+    "source": {
+      "id": "environmental:oekobaudat:b6cd48fb-91b6-4982-8323-da8caca0f7d5@00.04.000",
+      "title": "ComfortWorx® Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/b6cd48fb-91b6-4982-8323-da8caca0f7d5?format=json&view=extended&version=00.04.000",
+      "retrieved_at": "2026-11-17T19:43:49.997978+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/b6cd48fb-91b6-4982-8323-da8caca0f7d5_00.04.000.json",
+      "sha256": "9d3938b6974dce8258dfbe314b2860d58573a548961b305275a5f14a4b741f8d",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "ComfortWorx® Carpet Tile with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:bbdfbda6-54c9-4778-8eca-037544a58fd1@00.03.000",
+    "source": {
+      "id": "environmental:oekobaudat:bbdfbda6-54c9-4778-8eca-037544a58fd1@00.03.000",
+      "title": "Troldtekt 25mm Natural Grey – painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/bbdfbda6-54c9-4778-8eca-037544a58fd1?format=json&view=extended&version=00.03.000",
+      "retrieved_at": "2026-11-17T19:48:16.514554+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/bbdfbda6-54c9-4778-8eca-037544a58fd1_00.03.000.json",
+      "sha256": "45703522fe4574399cd6c9a5ee8eaa20af2a1868cd8a0d75075d1bdd7c7b69d6",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm Natural Grey – painted"
+  },
+  {
+    "kind": "carpet",
+    "pointer": "/modellingAndValidation/dataSourcesTreatmentAndRepresentativeness/useAdviceForDataSet/0/value",
+    "material_id": "environmental:material:oekobaudat:c22151c6-d78d-4526-a3d0-2c0f37b203fb@00.07.000",
+    "source": {
+      "id": "environmental:oekobaudat:c22151c6-d78d-4526-a3d0-2c0f37b203fb@00.07.000",
+      "title": "EcoWorx® Carpet Tile (US Made UK Market) with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/c22151c6-d78d-4526-a3d0-2c0f37b203fb?format=json&view=extended&version=00.07.000",
+      "retrieved_at": "2026-11-17T19:44:03.202768+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/c22151c6-d78d-4526-a3d0-2c0f37b203fb_00.07.000.json",
+      "sha256": "3938d96648ea48484a2143321aa3e46d7ccbe1e87dc40ddd19ddb9bab681202a",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "EcoWorx® Carpet Tile (US Made UK Market) with EcoSolution Q®, Solution Q®, or Solution Q Extreme® Face Fibre"
+  },
+  {
+    "kind": "lincrete_c1",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/1/value",
+    "material_id": "environmental:material:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+    "source": {
+      "id": "environmental:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+      "title": "'LinCrete' Glasfaserverstärkter Beton - GFRC-Platten",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/c54c16f6-4295-4749-bff0-ba7ed4bc9117?format=json&view=extended&version=00.01.000",
+      "retrieved_at": "2026-11-17T19:42:44.588967+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/c54c16f6-4295-4749-bff0-ba7ed4bc9117_00.01.000.json",
+      "sha256": "dc2c7f72e2baa20ce500c307c447b0a94085fc7fcf499c9279fcb40bd7d80239",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "'LinCrete' Glass-Fibre Reinforced Concrete - GFRC-Platten"
+  },
+  {
+    "kind": "pipe",
+    "pointer": "/processInformation/technology/technologicalApplicability/0/value",
+    "material_id": "environmental:material:oekobaudat:cf2d431c-9bb2-4207-9ca3-d5f0900c0035@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:cf2d431c-9bb2-4207-9ca3-d5f0900c0035@00.02.000",
+      "title": "CLIMAFLEX®naturefoam",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/cf2d431c-9bb2-4207-9ca3-d5f0900c0035?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:43:49.232040+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/cf2d431c-9bb2-4207-9ca3-d5f0900c0035_00.02.000.json",
+      "sha256": "8af92556a5deffee1f79ff78e11ddaa6167a8f50da5ba47cfa404111ac2b8f14",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "CLIMAFLEX®naturefoam"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:e169e781-80d8-4bbb-bba2-51d4b05f4da0@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:e169e781-80d8-4bbb-bba2-51d4b05f4da0@00.02.000",
+      "title": "Troldtekt 35mm Natural Grey FUTURECEM - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/e169e781-80d8-4bbb-bba2-51d4b05f4da0?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.876795+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/e169e781-80d8-4bbb-bba2-51d4b05f4da0_00.02.000.json",
+      "sha256": "df1c24a847a9efef96c62607bfd51c9bb932250e60c2ea04a4bb951923a662dc",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm Natural Grey FUTURECEM - unpainted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:e4c41c27-fc07-49d8-81d8-62a9b8c7d9d8@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:e4c41c27-fc07-49d8-81d8-62a9b8c7d9d8@00.02.000",
+      "title": "Troldtekt 35mm Natural Grey FUTURECEM - painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/e4c41c27-fc07-49d8-81d8-62a9b8c7d9d8?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.802308+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/e4c41c27-fc07-49d8-81d8-62a9b8c7d9d8_00.02.000.json",
+      "sha256": "75135dbf178cf9ffa864590cb38f902fcc6747d49b11849739313125c55a7819",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm Natural Grey FUTURECEM - painted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:ec5cae38-6741-41ab-a5fc-5751d7a5d3b5@00.05.000",
+    "source": {
+      "id": "environmental:oekobaudat:ec5cae38-6741-41ab-a5fc-5751d7a5d3b5@00.05.000",
+      "title": "Troldtekt 25mm A2 Naturholz - unbemalt",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/ec5cae38-6741-41ab-a5fc-5751d7a5d3b5?format=json&view=extended&version=00.05.000",
+      "retrieved_at": "2026-11-17T19:48:16.313769+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/ec5cae38-6741-41ab-a5fc-5751d7a5d3b5_00.05.000.json",
+      "sha256": "c1f2695471328da1229c20d9b407428607d86eac75e6a21e650e9d2fcd5d2ca0",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 25mm A2 Natural Wood - unpainted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:f729b796-4387-427d-a3e8-8ea89afd4a5d@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:f729b796-4387-427d-a3e8-8ea89afd4a5d@00.02.000",
+      "title": "Troldtekt 35mm Natural Grey - painted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/f729b796-4387-427d-a3e8-8ea89afd4a5d?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.682714+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/f729b796-4387-427d-a3e8-8ea89afd4a5d_00.02.000.json",
+      "sha256": "c199355a7ca2e6f486b464592b2b2dd9ed64c045992aee7b4a863a9b050734cb",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm Natural Grey - painted"
+  },
+  {
+    "kind": "json_rsl",
+    "pointer": "/processInformation/technology/technologyDescriptionAndIncludedProcesses/0/value",
+    "material_id": "environmental:material:oekobaudat:f83c6296-5a0c-428d-be72-c7b97f210715@00.02.000",
+    "source": {
+      "id": "environmental:oekobaudat:f83c6296-5a0c-428d-be72-c7b97f210715@00.02.000",
+      "title": "Troldtekt 35mm A2 Natural Grey FUTURECEM - unpainted",
+      "publisher": "oekobaudat",
+      "url": "https://oekobaudat.de/OEKOBAU.DAT/resource/processes/f83c6296-5a0c-428d-be72-c7b97f210715?format=json&view=extended&version=00.02.000",
+      "retrieved_at": "2026-11-17T19:48:16.684174+00:00",
+      "local_path": "data/raw/environmental/oekobaudat/processes/f83c6296-5a0c-428d-be72-c7b97f210715_00.02.000.json",
+      "sha256": "6c65b27cf2826d0bbe7a9823cc5678ac084092a8f91a22a77b76dd0526511709",
+      "media_type": "application/json",
+      "license": "Free of charge for all users and uses",
+      "license_status": "verified"
+    },
+    "component": "Troldtekt 35mm A2 Natural Grey FUTURECEM - unpainted"
+  },
+  {
+    "kind": "lincrete_pdf",
+    "material_id": "environmental:material:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+    "source": {
+      "id": "operations:source:lincrete-22566",
+      "title": "LinCrete GFRC, EPD-LIN-20250235-CBA1-EN",
+      "publisher": "IBU / Lindner Group",
+      "url": "https://ibudata.lca-data.com/resource/sources/d1d9893d-2d5b-44fe-a55c-151303189a64/_LinCrete_Glass-Fibre_Reinforced_Concrete_22566.pdf?version=00.01.000",
+      "retrieved_at": "2026-11-18T15:59:32.731302+00:00",
+      "local_path": "data/raw/operations/objects/236cad2ab23e20c8f94bfacc9e1a9acf37c12ea93679d3df541a63a23e8deb1d.pdf",
+      "sha256": "236cad2ab23e20c8f94bfacc9e1a9acf37c12ea93679d3df541a63a23e8deb1d",
+      "media_type": "application/pdf",
+      "license": "Copyright retained by the publisher or declaration owner. Original PDF available from publisher; no redistribution grant identified.",
+      "license_status": "unknown"
+    },
+    "component": "LinCrete GFRC facade cladding"
+  }
+]

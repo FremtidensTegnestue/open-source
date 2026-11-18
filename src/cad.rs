@@ -1,11 +1,13 @@
 //! Assess the same pinned material selection on live SolidCraft and BIMCraft geometry.
 mod calculation;
 mod extract;
+mod fields;
 mod mesh;
 use anyhow::{Context, Result, bail, ensure};
 pub use calculation::{calculate, normalize};
 use clap::ValueEnum;
 pub use extract::extract;
+pub use fields::{ModelFactsArgs, model_facts};
 use rusqlite::Connection;
 use serde::Serialize;
 use serde_json::{Map, Value, json};
@@ -261,7 +263,15 @@ fn computed(element: &Value, choice: &Value, refs: &Value) -> Result<(Value, boo
     }
     Ok((results, complete))
 }
-pub fn run(args: Args, db: &Connection, snapshot: &str) -> Result<Value> {
+struct BoundInputs {
+    model: Value,
+    transfer: Value,
+    selection: Value,
+    transfer_sha: String,
+    select_sha: String,
+}
+
+fn bound_inputs(args: &Args, snapshot: &str) -> Result<BoundInputs> {
     let select_sha = extract::hash(&args.selection)?;
     let transfer_sha = extract::hash(&args.transfer)?;
     let selection = read(&args.selection)?;
@@ -284,6 +294,22 @@ pub fn run(args: Args, db: &Connection, snapshot: &str) -> Result<Value> {
         "Empty material selection"
     );
     let model = extract(&args.model, args.software, args.mesh_quantities)?;
+    Ok(BoundInputs {
+        model,
+        transfer,
+        selection,
+        transfer_sha,
+        select_sha,
+    })
+}
+pub fn run(args: Args, db: &Connection, snapshot: &str) -> Result<Value> {
+    let BoundInputs {
+        model,
+        transfer,
+        selection,
+        transfer_sha,
+        select_sha,
+    } = bound_inputs(&args, snapshot)?;
     let (bindings, mut issues) = map_elements(&model, &transfer, &selection)?;
     let mut warnings = arr(&model, "warnings")?.clone();
     warnings.append(&mut issues);

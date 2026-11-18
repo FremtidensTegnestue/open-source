@@ -640,6 +640,11 @@ fn write_observation(mut writer: impl Write, v: &Value) -> Result<()> {
     writer.write_all(b"\n")?;
     Ok(())
 }
+/// Text baselines reconstructed from the original PDF for source-locked maintenance records.
+pub(crate) fn document_page_lines(doc: &pdf_extract::Document, page: u32) -> Result<Vec<String>> {
+    Ok(pdf::extract_page(doc, page)?.lines())
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

@@ -58,6 +58,8 @@ pub struct Search {
     #[arg(long)]
     family: Option<String>,
     #[arg(long)]
+    dataset: Option<String>,
+    #[arg(long)]
     kind: Option<String>,
     #[arg(long)]
     lineage: Option<String>,
@@ -105,6 +107,7 @@ pub fn search(e: &Edition, a: Search) -> Result<Value> {
         ("family_id", a.family),
         ("entity_kind", a.kind),
         ("lineage_id", a.lineage),
+        ("dataset_id", a.dataset),
     ] {
         if let Some(v) = val {
             filters.push(format!("{key}=?"));
@@ -245,7 +248,15 @@ pub fn changes(store: &Path, before: &str, after: &str, selection: Option<&Path>
                 .as_array()
                 .into_iter()
                 .flatten();
-            for obs in std::iter::once(&choice["density_observation_id"]).chain(climate) {
+            let moisture = choice
+                .get("moisture")
+                .and_then(|v| v.get("coefficient_observation_id"));
+            for obs in choice
+                .get("density_observation_id")
+                .into_iter()
+                .chain(climate)
+                .chain(moisture)
+            {
                 let p = vec![
                     obs.as_str()
                         .context("Missing observation ID")?

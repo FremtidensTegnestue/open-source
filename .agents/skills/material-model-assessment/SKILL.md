@@ -27,3 +27,9 @@ Fugtbevægelse kræver en arts-/retningsspecifik koefficient, start-/slutfugt in
 BIMcraft0.12.0's gulvvolumener afrundes til0,001m³. Rapporten bevarer denne usikkerhed og dens bidrag til masse/klima. Præsenter ikke resultatet med større sikkerhed end kilden eller modellen understøtter.
 
 Resultatet skal vise model, valgte data, beregninger, enheder, kildehenvisninger, antagelser og mangler. Gem CLI’ets JSON-svar i en separat rapportfil.
+
+## Materialefelter, levetid og drift
+
+- Brug `ft-materials fields` til definitionerne og `coverage --material ID` for at se, hvilke felter kilden dækker. Brug derefter `facts ID --field service_life_value` eller `maintenance_frequency`. Gem værdi, sammenligningstegn, enhed, del, dokumenttype og kildested i svaret.
+- Læs samme felter på modellen med `ft-materials model-facts MODEL --software SOFTWARE --selection VALG.json --transfer KORT.json --field FELT`. Et materialevalg til et opslag kræver ID, modelmaterialets navn og begrundelse. Beregningsobservationer er kun nødvendige, hvis der også skal beregnes på delen.
+- Hold en producents driftsinstruks, et LCA-scenarie og en generisk middellevetid adskilt. Gengiv konkurrerende kilder med deres egne betingelser og behold usikkerhed eller manglende værdier i resultatet. Modeldata og den faktiske installation har hver deres dokumentationsgrundlag.

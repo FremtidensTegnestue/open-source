@@ -1,0 +1,3 @@
+# Energistyrelsens teknologidata for individuel opvarmning
+
+Originalen fra april 2026 og det strukturerede udtræk følger med i den offentlige udgave. Hver post beskriver én af de 45 teknologifaner. Hvert tal bevarer celle, enhed, scenarieår og estimattype. Genopbyg med `ft-materials collect-heating`. Energistyrelsen er udgiver. Regnearket angiver CC BY 4.0 i Index!C8. Vi har udtrukket kildecellerne og tilføjet felt-ID’er og søgbare betingelser. [Vejledning og eksempel](../../../docs/sources/danske-levetider.md) · [Originalt regneark](originals/april-2026.xlsx) · [Kildekvittering](sources.jsonl)

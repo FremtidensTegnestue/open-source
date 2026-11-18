@@ -6,7 +6,7 @@
 
 Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, studerende og udviklere.
 
-[Kom godt i gang med Rust-CLI’et](docs/RUST.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
+[De 158 materialefelter](docs/MATERIALEFELTER.md) · [Kom godt i gang med Rust-CLI’et](docs/RUST.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
 
 </div>
 
@@ -19,6 +19,7 @@ Forestil dig, at du har tegnet en bygningsdel og vil vide, hvad den vejer, hvord
 Du kan allerede:
 
 - **Søge i materialedata** og finde værdier med enheder, betingelser og kildehenvisninger.
+- **Finde levetid og vedligehold** for den relevante bygningsdel og se, om et interval kommer fra en driftsvejledning eller en miljøberegning. [Læs eksemplet med en glasdør](docs/sources/operations.md).
 - **Beregne vægt** fra en dokumenteret mængde og en valgt densitet.
 - **Beregne klimabidrag** for en valgt indikator og et bestemt livscyklusmodul.
 - **Undersøge træets fugtbevægelse** med dokumenterede arts- og retningskoefficienter inden for deres gyldighedsområde.
@@ -70,15 +71,16 @@ En **AI-agent** kan koordinere trinene. Den skal have adgang til projektmappen o
 
 ## Tallene følger med
 
-**Projektets fire grunddatasæt følger med i Parquet. Det åbne Tampere-tillæg følger med som strukturerede poster og originalfiler. Danske produktdeklarationer kan tilføjes fra udgiverens egne PDF’er.** Rust-programmet forbinder kilderne gennem ét skema med materialer, egenskaber, betingelser og versioner.
+Den offentlige udgave kombinerer de fire Parquet-grunddatasæt med kildebelagte målinger, levetider, vedligehold, teknologiscenarier og genbrugsregistreringer. Alle følger med i Git og kan slås op offline fra Rust-programmet. Yderligere danske data kan hentes direkte fra udgiverne.
 
-| Udgave | Kilder | Materialeposter | Observationer |
+| Dataudgave | Materiale- og referenceposter | Observationer | Direkte feltregistreringer |
 | --- | ---: | ---: | ---: |
-| Grundlag fra ÖKOBAUDAT, OpenStudio/EnergyPlus, USDA og BR18 | 7.135 | 11.161 | 1.985.582 |
-| Offentlig udgave med Tampere | 7.137 | 11.204 | 1.986.184 |
-| Lokal udgave med Tampere og EPD Danmark | 8.057 | 11.286 | 2.001.578 |
+| Offentlig v0.3 | 12.817 | 1.998.293 | 10.712 |
+| Udvidet lokal med bl.a. BUILD og EPD Danmark | 14.379 | 2.013.687 | 13.781 |
 
-En observation kan være et tal, en hel kurve eller et felt, kilden udtrykkeligt markerer som manglende. Tampere bidrager med 387 kurver for 43 materialeprøver. De danske produktdeklarationer bidrager med 15.313 tal for 32 indikatorer samt 81 kildemarkeringer. Kildespecifikke poster kan omhandle det samme materiale. [Tampere](data/supplements/tampere/README.md) · [EPD Danmark](data/supplements/epd-danmark/README.md)
+En post kan være et konkret produkt, en prøve, en opbygning eller et generisk scenarie. Den sidste kolonne omfatter bl.a. levetidsudsagn, genbrugsregistreringer og kildereview. Nogle målinger findes i begge tekniske formater. Registre og observationer skal derfor læses som særskilte optællinger.
+
+**93 af de 158 felter** har mindst én dokumenteret værdi i den offentlige materialedatabase. I den udvidede lokale udgave gælder det **96 felter**. For et bestemt materiale er dækningen typisk mindre. Fire yderligere felter vedrører selve projektet og er afprøvet på samme facadeplade i både SolidCraft og BIMCraft. [Dækning felt for felt](data/releases/coverage-public-v0.3.0.json) · [Levetid på modelpladen](examples/model-fields/README.md) · [Alle datakilder](data/README.md)
 
 Programmet bygger den store SQLite-base én gang fra omkring 91 MB Parquet. Efterfølgende udgaver genbruger den samme base og gemmer tillæg i separate SQLite-filer. Hver udgave har et fast ID, så et gammelt projekt kan genberegnes efter en dataopdatering. [Datamodel, løbende kildetjek og installation](docs/RUST.md)
 
@@ -110,6 +112,8 @@ Med Rust og Cargo installeret kan du bygge CLI'et og bruge det fra projektmappen
 cargo install --locked --path .
 ft-materials build
 ft-materials search beton --limit 5
+ft-materials fields service_life_value
+ft-materials coverage --material tampere:material:D1
 ft-materials lookup tampere:material:D1 --property property:thermal_conductivity
 ft-materials calculate examples/requests/environmental-1000kg.json
 ```

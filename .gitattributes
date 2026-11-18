@@ -7,3 +7,9 @@ data/supplements/**/*.jsonl text eol=lf
 data/supplements/tampere/originals/** binary
 examples/unified-workflow/revised/*.sc binary
 examples/unified-workflow/revised/*.bimc binary
+docs/MATERIALEFELTER.tsv text eol=lf
+data/unified/*.tsv text eol=lf
+src/catalog.rs text eol=lf
+src/catalog/*.rs text eol=lf
+data/supplements/field-sources/originals/** binary
+data/supplements/ens-varme/originals/** binary

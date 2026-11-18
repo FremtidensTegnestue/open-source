@@ -1,6 +1,6 @@
 # Hele datasættet — Parquet og SQLite
 
-Den aktuelle Rust-udgave kombinerer dette komplette Parquet-grundlag med versionsstyrede tillæg for varme, fugt og danske produktdeklarationer. [Aktuel datamodel og brug](../docs/RUST.md)
+Brug `ft-materials build` fra projektets rod for den offentlige Rust-udgave. Den kombinerer Parquet-grundlaget med versionsstyrede tillæg. `supplements/` indeholder kilderegistre, observationer og eksternt dokumenterede feltværdier som JSONL eller komprimeret JSONL. Fjernede eller lokalt tilføjede tillæg giver en anden dataudgave. [Feltkatalog og mål](../docs/MATERIALEFELTER.md) · [Aktuelle udgaver og optællinger](releases/unified-v0.3.0.json) · [Installation og brug](../docs/RUST.md)
 
 **Tallene følger med projektet.** Mappen [parquet/](parquet/) indeholder alle 1.985.582 observationer, 11.161 materiale-/produktposter, 7.135 kilder og fire datasæt fra snapshot 17. november 2026. Alle tabeller og kolonner er med; ingen materialegruppe er fjernet for at gøre pakken lille.
 
@@ -14,7 +14,7 @@ Den aktuelle Rust-udgave kombinerer dette komplette Parquet-grundlag med version
 
 Størrelsesforskellen skyldes lagring, komprimering og SQLite-indekser. Parquet-udgaven har **samme værdier og samme kolonner**, inklusive de oprindelige JSON-felter med betingelser og metadata. Parquet- og SQLite-udgaverne vedligeholdes ikke manuelt hver for sig: et versionsmanifest binder snapshot og kontrolsummer sammen.
 
-## Kom i gang med alle data
+## Genskab den historiske v0.1-database
 
 ```sh
 python -m pip install -r requirements.txt
@@ -102,3 +102,13 @@ Dette henter dokumenterne til eksemplerne, ikke en mindre database. `--all` fors
 **Koden og kildedataene har forskellige vilkår.** Der er ikke tildelt en ny fælles MIT- eller CC-licens til den samlede datamængde. Oprindelige kildeoplysninger og afvigende/ukendte licensfelter følger med i begge formater. ÖKOBAUDAT beskriver distribution af uændrede data med kildeangivelse i sine [officielle vilkår](https://www.oekobaudat.de/no_cache/en/database/search.html); individuelle kildefelter og metodiske begrænsninger er også bevaret.
 
 Læs [THIRD_PARTY.md](../THIRD_PARTY.md), [datadækningen](../docs/COVERAGE.md) og [kildedokumentationen](../docs/sources/). Et offentliggjort tal er ikke automatisk et egnet dimensioneringsgrundlag eller et korrekt produktmatch.
+
+## Feltdata i v0.3
+
+| Kilde eller format | Hvad der følger med |
+| --- | --- |
+| [Danske referencer](../docs/sources/danske-levetider.md) | Energistyrelsens scenarier i Git. BUILDs fire detaljeringsniveauer kan indlæses fra originalen til lokal brug. |
+| [Driftsudsagn](../docs/sources/operations.md) | Offentlige feltregistreringer og originale procesdata. Danske deklarationer og fabrikantmanualer hentes fra udgiverne. |
+| [Målinger, genbrug og priser](../docs/sources/field-sources.md) | Kildefiler, herunder forsøgsdata, donorinventarer, egenskabstabeller og historiske råvarepriser med angivet marked. |
+| [Gennemgang af miljødata](../docs/sources/oekobaudat-review.md) | Den gennemgang, som hver udgiver har registreret for sin procesversion, med kilde og reviewerreference. |
+| [Aktive feltdefinitioner](../docs/MATERIALEFELTER.tsv) | Dansk navn, felt-ID, anvendelsesniveau, værdiform, enhed og betydning. |

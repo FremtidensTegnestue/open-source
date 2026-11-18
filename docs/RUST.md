@@ -22,17 +22,45 @@ ft-materials calculate examples/requests/environmental-1000kg.json
 
 Det første opslag finder en hel kurve. I prøve D1 svarer x-værdien 0,65 til 65 % relativ luftfugtighed. Det tilhørende målepunkt er 0,0351 W/(m·K) ved 10 °C. Observations-ID, rå enhed, originalfilens kontrolsum og placering i kildens JSON følger med. Klimaberegningen i sidste linje giver 429,5 kg CO₂e i modul A1 for eksemplets 500 kg.
 
-## Tag EPD Danmark med
+## Slå et felt op og se, hvad kilden mangler
 
 ```sh
+ft-materials fields service_life_value
+ft-materials coverage --material tampere:material:D1
+ft-materials facts tampere:material:D1 --field thermal_conductivity --limit 1
+ft-materials coverage --field maintenance_frequency
+```
+
+`fields` viser dansk definition, niveau, værdiform, enhed og betingelser. `facts` leverer de faktiske kildeudsagn, også kurver og intervaller, med observations- eller faktum-ID, kildens URL, kildeversion og tabel, celle eller side. `coverage` tæller kildeposter med angivne værdier, udtrykkelige mangler, konflikter, »gælder ikke« og uregistrerede felter. En feltgruppe kan indeholde flere modsatrettede udsagn. `--dataset` i dækning vælger materialeposternes datasæt. Et tillæg kan levere oplysninger om en materialepost i et andet datasæt.
+
+Databasens udgave-ID fastholder input. Feltopslag viser også fortolkerens kontrolsum. Når du skal genskabe både data og fortolkning, skal du vælge samme dataudgave og samme CLI-udgivelse. [Alle 158 definitioner](MATERIALEFELTER.md) · [Maskinlæsbar dækning](../data/releases/coverage-public-v0.3.0.json)
+
+## Tag danske produktdeklarationer og BUILD med
+
+```sh
+ft-materials build
+ft-materials collect-reviews --fetch
 ft-materials collect-epd --locked
-ft-materials build --supplement data/supplements/tampere --supplement data/staging/epd-danmark --require-originals
+ft-materials collect-operations
+ft-materials collect-operations --danish
+ft-materials collect-lifetimes
+ft-materials build --require-originals \
+  --supplement data/supplements/tampere \
+  --supplement data/supplements/ens-varme \
+  --supplement data/supplements/field-sources \
+  --supplement data/supplements/operations \
+  --supplement data/supplements/oekobaudat-review \
+  --supplement data/staging/epd-danmark \
+  --supplement data/staging/operations-dk \
+  --supplement data/staging/build-levetid
 ft-materials observations --property property:gwp_total --dataset epd-danmark --module A1-A3 --limit 3
 ```
 
-Den første kommando henter de låste originaler fra udgiveren og gemmer dem lokalt med SHA-256. Den anden aktiverer udgaven med begge tillæg. Angiver du selv `--supplement`, udgør de angivne mapper hele listen over tillæg. Udgavens ID og optællinger står i svaret. En ændret PDF kan undersøges i en separat, ny indsamling. [EPD-vejledning og afgrænsning](../data/supplements/epd-danmark/README.md)
+Den udvidede kontrol med `--require-originals` kræver bl.a. de oprindelige ÖKOBAUDAT-filer bag reviewoplysningerne. Det kan give flere tusinde HTTP-opslag ved første hentning. Indsamlerne henter de versionslåste originaler fra udgiverne og bevarer dem lokalt med SHA-256. `build` aktiverer den udvidede lokale udgave. Angiver du selv `--supplement`, udgør de angivne mapper hele listen over tillæg. En almindelig `build` opretter den offentlige udgave fra materialet i Git. [Danske EPD’er](../data/supplements/epd-danmark/README.md) · [Vedligehold og modstridende kilder](sources/operations.md) · [Danske levetidstabeller](sources/danske-levetider.md)
 
 ## Fælles model for data
+
+Det ønskede indhold for materialer, produkter og bygningsdele er samlet i [feltkataloget](MATERIALEFELTER.md).
 
 | Begreb | Hvad modellen gemmer |
 | --- | --- |
@@ -69,4 +97,4 @@ Se filnavne og kommandoer til begge modelprogrammer i [det gennemførte forløb]
 
 Cargo bygger med højst tre samtidige jobs, uden inkrementelle mellemprodukter og uden debugsymboler i projektets standardprofiler. Brug én `CARGO_TARGET_DIR` pr. vedligeholdt checkout, hvis du selv udvikler på CLI'et. Efter installationen kan `cargo clean` i denne checkout fjerne de genopbyggelige filer fra den valgte target-mappe. Efter en afbrudt dataimport rydder næste bygning også genkendelige, ufuldstændige arbejdsmapper under datalagerets byggelås. Kildearkivet under `data/raw` og de fastlåste databaser under `data/editions` har deres egen levetid og indgår ikke i Cargo-cachen.
 
-[Udgivelsens tre faste ID’er og inputkontrolsummer](../data/releases/unified-v0.2.0.json) · [Færdige programmer til Linux](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.2.0)
+[Aktuelle dataudgaver og inputkontrolsummer](../data/releases/unified-v0.3.0.json) · [Færdige programmer til Linux](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.3.0) · [Historiske udgaver i v0.2](../data/releases/unified-v0.2.0.json)

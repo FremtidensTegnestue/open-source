@@ -224,3 +224,52 @@ fn reimport_reuses_foundation_and_retains_pinned_source_facts() {
         .count();
     assert_eq!(editions, 2);
 }
+
+#[test]
+fn field_fact_integrity_across_supplements_and_failed_retries() {
+    let temp = tempfile::tempdir().unwrap();
+    let root = temp.path();
+    foundation(root);
+    dataset(root, "north", 1, "density");
+    dataset(root, "south", 2, "density");
+    let old = build(root, &[]);
+    let mut fact = json!({"id":"another:fact","field_id":"service_life_value","material_id":"south:board","source_id":"north:source",
+        "source_locator":"#/fixture/reported_life","value":null,"unit":"years","conditions":{"missing_reason":"not published"},"value_status":"not_declared"});
+    let path = root.join("north/facts.jsonl");
+    write(&path, &fact);
+    let valid = build(root, &[]);
+    assert_ne!(valid["snapshot"], old["snapshot"]);
+    assert_eq!(valid["catalog_evidence"]["facts"], 1);
+    for (field, bad) in [
+        ("field_id", json!("unknown_field")),
+        ("material_id", json!("unknown:board")),
+        ("source_id", json!("unknown:source")),
+        ("source_locator", json!(" ")),
+        ("value", json!(0)),
+        ("conditions", json!({})),
+        ("value_status", json!("reported")),
+    ] {
+        let mut wrong = fact.clone();
+        wrong[field] = bad;
+        write(&path, &wrong);
+        let out = invoke(
+            root,
+            &["build", "--supplement", "north", "--supplement", "south"],
+        );
+        assert!(!out.status.success(), "accepted invalid {field}");
+        assert_eq!(ok(root, &["status"])["snapshot"], valid["snapshot"]);
+    }
+    fs::write(&path, format!("{fact}\n{fact}\n")).unwrap();
+    assert!(
+        !invoke(
+            root,
+            &["build", "--supplement", "north", "--supplement", "south"]
+        )
+        .status
+        .success()
+    );
+    fact["value"] = json!(0);
+    fact["value_status"] = json!("reported");
+    write(&path, &fact);
+    assert_eq!(build(root, &[])["catalog_evidence"]["facts"], 1);
+}

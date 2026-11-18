@@ -1,0 +1,179 @@
+{
+  "release": "v0.3.0",
+  "edition_format": 2,
+  "date": "2026-11-18",
+  "field_count": 158,
+  "group_count": 19,
+  "editions": {
+    "foundation_only": {
+      "snapshot": "u2-65ce5d19f727e58ae9f3659ff858eb577dfae2056e7c4ff96e5904f5db8b1186",
+      "counts": {
+        "datasets": 4,
+        "materials": 11161,
+        "observations": 1985582,
+        "sources": 7135
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "supplements": {}
+      }
+    },
+    "public": {
+      "snapshot": "u2-394d88104956906d738c4a6ad838ca02f325c935012a6dd0711a23e644cf7993",
+      "counts": {
+        "datasets": 9,
+        "materials": 12817,
+        "observations": 1998293,
+        "sources": 7167
+      },
+      "catalog_evidence": {
+        "by_dataset": {
+          "ens-varme": 45,
+          "field-sources": 4391,
+          "oekobaudat-review": 6141,
+          "operations": 135
+        },
+        "facts": 10712
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "catalog_sha256": "e83f9269910b1105482c950abbb4cb39e268ec5117e99f381b46cf950ff32eae",
+        "supplements": {
+          "ens-varme": {
+            "facts.jsonl": "80003ee6807e9d977678a69be351ffd13c0208fe1ca62fc7b8c3ccaeddff2942",
+            "materials.jsonl": "9e20ddac5ef57f62eaffb4aaa9d2cf0152f2581ba6db659f73eb21f161504a9a",
+            "observations.jsonl.gz": "a59e8c68cea055128c15511440134877ce03a1aeb72d38ec34e92d58f5a534cf",
+            "sources.jsonl": "97c99fa8fab17cee8795ec8c57633a45d8b3f43b0f7b7500e8107447c357af66",
+            "summary.json": "b740b6cd2a1e97f04455dae3c970cabbafa87f013175378ef0b02fe31bc13120"
+          },
+          "field-sources": {
+            "facts.jsonl.gz": "9340ec0c8ca48188a7908c968765768917baabe8c4375121aef48b09dc915c24",
+            "materials.jsonl.gz": "052e6882385077f79c09bb3584f7b9043a23fc974da1decccc622f051e9a4b65",
+            "observations.jsonl.gz": "840851a13064dfbed609ef33a89fe8f91bf51634fc8a8ca23b99fba225e307c5",
+            "sources.jsonl": "e87a841e1bcbbb7b3467a5fb07edd04d5b7eee81ebaba23790330fc86f22d93a",
+            "summary.json": "a75b5bdef5ec41867740118d24319f22511425cd142dff98b0f78bf3dcd2c2dc"
+          },
+          "oekobaudat-review": {
+            "facts.jsonl.gz": "cb9adc03b30771244a3179932d92f53a13f87e793e4514420985b7067332a83d",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "summary.json": "9c76edf643aa5849639625f33dd01b3448bba150fdc0b24e2ada1b605b9535d6"
+          },
+          "operations": {
+            "facts.jsonl": "66d4dd521d38bf1c7050a609fac445c452fcdab68be33ad137956b7ccf79f9fa",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "ba24e55687e97a699c23aeb5cc047f93b66c0349d2ca154142bed8960e1e86ba",
+            "summary.json": "47c1dabf57cf0a4a8bc05913e8773866525ba7477106b9d6497392dfd98b8512"
+          },
+          "tampere": {
+            "materials.jsonl": "e3220af1514a48ca2a754c20316fdd8c68a9d4a4a2e00a1a4d4f214407b34b39",
+            "observations.jsonl": "e50f3223b8f81ee94aab56b1733e39583e41b33d0e9f648067a7abb9643fbed3",
+            "sources.jsonl": "da9011722f1cf67a9855bf4c94e76ef9fa41f009a9d3bb86823a3292c3ba3437",
+            "summary.json": "811f75fe5ab581ae0ce7dbc118ada81a33d559c1993a31c0c9f63dfb90c598e7"
+          }
+        }
+      },
+      "fields_with_reported_values": 93,
+      "coverage_file": "coverage-public-v0.3.0.json"
+    },
+    "local": {
+      "snapshot": "u2-3453759758b24f92350537ad1ae2c524da79318d21c06d00f847d48cddf49bfd",
+      "counts": {
+        "datasets": 12,
+        "materials": 14379,
+        "observations": 2013687,
+        "sources": 8090
+      },
+      "catalog_evidence": {
+        "by_dataset": {
+          "build-levetid": 2960,
+          "ens-varme": 45,
+          "field-sources": 4391,
+          "oekobaudat-review": 6141,
+          "operations": 135,
+          "operations-dk": 109
+        },
+        "facts": 13781
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "catalog_sha256": "e83f9269910b1105482c950abbb4cb39e268ec5117e99f381b46cf950ff32eae",
+        "supplements": {
+          "build-levetid": {
+            "facts.jsonl": "447a0cd8f06adcb4088851e02cb68558feb0b903c4fa43578193f8efbfaff35e",
+            "materials.jsonl": "a89c832cdc4ce15ffa83c9bf6a8807a58548050d1bc637c5b6c24435d2b0439b",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "fa681064df4822d547e4ee8ccaa63ecb1d876236359b8270f5fe1b69c84f584e",
+            "summary.json": "0ecbaa137a8e06da1f03f1e8d107c822703176b6a79564c0fde475ddb634e0b2"
+          },
+          "ens-varme": {
+            "facts.jsonl": "80003ee6807e9d977678a69be351ffd13c0208fe1ca62fc7b8c3ccaeddff2942",
+            "materials.jsonl": "9e20ddac5ef57f62eaffb4aaa9d2cf0152f2581ba6db659f73eb21f161504a9a",
+            "observations.jsonl.gz": "a59e8c68cea055128c15511440134877ce03a1aeb72d38ec34e92d58f5a534cf",
+            "sources.jsonl": "97c99fa8fab17cee8795ec8c57633a45d8b3f43b0f7b7500e8107447c357af66",
+            "summary.json": "b740b6cd2a1e97f04455dae3c970cabbafa87f013175378ef0b02fe31bc13120"
+          },
+          "epd-danmark": {
+            "materials.jsonl": "ef05549e035862b5450ca4a741c39d3a563dbb26875bfebed6905feeeea5bcc7",
+            "observations.jsonl": "8304c456a52ed79bbc40146a15f4fa150bc802033e5c9e97ded1332809e8757b",
+            "sources.jsonl": "d551999819c5f8a8e0184dba16e05bb2d2b01609c033c44cf220cf760d9f0873",
+            "summary.json": "bae92f69088c7bd172c28f3bf7e4b4b58b7908b878b35d96f416ce34fa0c8404"
+          },
+          "field-sources": {
+            "facts.jsonl.gz": "9340ec0c8ca48188a7908c968765768917baabe8c4375121aef48b09dc915c24",
+            "materials.jsonl.gz": "052e6882385077f79c09bb3584f7b9043a23fc974da1decccc622f051e9a4b65",
+            "observations.jsonl.gz": "840851a13064dfbed609ef33a89fe8f91bf51634fc8a8ca23b99fba225e307c5",
+            "sources.jsonl": "e87a841e1bcbbb7b3467a5fb07edd04d5b7eee81ebaba23790330fc86f22d93a",
+            "summary.json": "a75b5bdef5ec41867740118d24319f22511425cd142dff98b0f78bf3dcd2c2dc"
+          },
+          "oekobaudat-review": {
+            "facts.jsonl.gz": "cb9adc03b30771244a3179932d92f53a13f87e793e4514420985b7067332a83d",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "summary.json": "9c76edf643aa5849639625f33dd01b3448bba150fdc0b24e2ada1b605b9535d6"
+          },
+          "operations": {
+            "facts.jsonl": "66d4dd521d38bf1c7050a609fac445c452fcdab68be33ad137956b7ccf79f9fa",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "ba24e55687e97a699c23aeb5cc047f93b66c0349d2ca154142bed8960e1e86ba",
+            "summary.json": "47c1dabf57cf0a4a8bc05913e8773866525ba7477106b9d6497392dfd98b8512"
+          },
+          "operations-dk": {
+            "facts.jsonl": "4f2ed6d26115623e909cb5b7f02527332e7646fb137780a0bc2b329db7dc0ff6",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "df4b5e3b8f1fc92f1ed237e23a2e111743a987f5674ecf8a13ad569f2e7cdaba",
+            "summary.json": "1fc37a869143e58d488ea919a517a074747928c261c81449b130634872f85654"
+          },
+          "tampere": {
+            "materials.jsonl": "e3220af1514a48ca2a754c20316fdd8c68a9d4a4a2e00a1a4d4f214407b34b39",
+            "observations.jsonl": "e50f3223b8f81ee94aab56b1733e39583e41b33d0e9f648067a7abb9643fbed3",
+            "sources.jsonl": "da9011722f1cf67a9855bf4c94e76ef9fa41f009a9d3bb86823a3292c3ba3437",
+            "summary.json": "811f75fe5ab581ae0ce7dbc118ada81a33d559c1993a31c0c9f63dfb90c598e7"
+          }
+        }
+      },
+      "fields_with_reported_values": 96,
+      "coverage_file": "coverage-local-v0.3.0.json"
+    }
+  }
+}

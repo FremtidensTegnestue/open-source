@@ -1,7 +1,13 @@
 //! The ft-materials CLI. Source collection, storage, calculations and model adapters run natively.
 mod cad;
+mod catalog;
 mod danish;
+mod field_sources;
+mod heating;
+mod lifetable;
+mod operations;
 mod query;
+mod reviews;
 mod store;
 mod thermal;
 mod updates;
@@ -58,6 +64,31 @@ enum Command {
     Observations(query::Observations),
     /// List canonical properties and their source-specific labels.
     Properties(query::Page),
+    /// Read the Danish field catalogue, including scope, units and conditions.
+    Fields(catalog::FieldsArgs),
+    /// Measure documented coverage and gaps for fields, datasets or individual subjects.
+    Coverage(catalog::CoverageArgs),
+    /// Read sourced catalog evidence for one subject, including structured values.
+    Facts(catalog::FactsArgs),
+    /// Read field evidence through a checked part in SolidCraft or BIMCraft.
+    ModelFacts(cad::ModelFactsArgs),
+    /// Rebuild the public field-source collections from published originals.
+    CollectFieldSources,
+    /// Rebuild Danish heating technology scenarios from the April 2026 source workbook.
+    CollectHeating,
+    /// Rebuild documented institutional review records using locked ÖKOBAUDAT originals.
+    CollectReviews {
+        /// Download missing originals from the URLs recorded in the selected edition.
+        #[arg(long)]
+        fetch: bool,
+    },
+    /// Build the local Danish BUILD lifetime reference tables from the locked publisher workbook.
+    CollectLifetimes {
+        #[arg(long)]
+        offline: bool,
+    },
+    /// Rebuild structured service-life and maintenance records from source documents.
+    CollectOperations(operations::Args),
     /// Read a source original's location, rights and checksum.
     Source { id: String },
     /// Compare editions and optionally identify inputs affected in a specific model selection.
@@ -110,7 +141,16 @@ fn run(cli: Cli) -> Result<Value> {
             let folders = if base_only {
                 vec![]
             } else if supplement.is_empty() {
-                vec![root.join("data/supplements/tampere")]
+                [
+                    "tampere",
+                    "operations",
+                    "field-sources",
+                    "ens-varme",
+                    "oekobaudat-review",
+                ]
+                .iter()
+                .map(|name| root.join("data/supplements").join(name))
+                .collect()
             } else {
                 supplement
             };
@@ -129,6 +169,21 @@ fn run(cli: Cli) -> Result<Value> {
         Command::Lookup(a) => query::lookup(&edition()?, a),
         Command::Observations(a) => query::observations(&edition()?, a),
         Command::Properties(a) => query::properties(&edition()?, a),
+        Command::Fields(a) => catalog::fields(a),
+        Command::Coverage(a) => catalog::coverage(&edition()?, a),
+        Command::Facts(a) => catalog::facts(&edition()?, a),
+        Command::CollectLifetimes { offline } => lifetable::collect(&root, offline),
+        Command::CollectReviews { fetch } => reviews::collect(&root, &edition()?, fetch),
+        Command::CollectHeating => heating::collect(&root),
+        Command::CollectFieldSources => field_sources::collect(&root),
+        Command::CollectOperations(mut a) => {
+            a.root = root;
+            operations::run(a)
+        }
+        Command::ModelFacts(a) => {
+            let e = pinned(&location, &cli.snapshot, &a.model.selection)?;
+            cad::model_facts(a, &e)
+        }
         Command::Source { id } => {
             let e = edition()?;
             let s = query::rows(
@@ -159,13 +214,7 @@ fn run(cli: Cli) -> Result<Value> {
             mesh_quantities,
         } => cad::extract(&model, software, mesh_quantities),
         Command::Assess(a) => {
-            let selection = store::read(&a.selection)?;
-            let id = store::text(&selection, "snapshot")?;
-            ensure!(
-                id != "latest" && (cli.snapshot == "latest" || cli.snapshot == id),
-                "Model selection must use its pinned edition"
-            );
-            let e = store::open(&location, id)?;
+            let e = pinned(&location, &cli.snapshot, &a.selection)?;
             cad::run(a, &e.db, &e.id)
         }
         Command::Calculate { request } => {
@@ -180,6 +229,19 @@ fn run(cli: Cli) -> Result<Value> {
             dimension,
         } => cad::normalize(value, &unit, &dimension),
     }
+}
+fn pinned(
+    location: &std::path::Path,
+    requested: &str,
+    selection_path: &std::path::Path,
+) -> Result<store::Edition> {
+    let selection = store::read(selection_path)?;
+    let id = store::text(&selection, "snapshot")?;
+    ensure!(
+        id != "latest" && (requested == "latest" || requested == id),
+        "Model selection must use its pinned edition"
+    );
+    store::open(location, id)
 }
 fn main() {
     match run(Cli::parse()) {

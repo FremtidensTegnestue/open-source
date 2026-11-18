@@ -1,0 +1,67 @@
+{
+  "material_id": "environmental:material:oekobaudat:c54c16f6-4295-4749-bff0-ba7ed4bc9117@00.01.000",
+  "programs": {
+    "bimcraft": {
+      "changed_revision": "binding_rejected",
+      "derived_result_checked": true,
+      "element_id": "100002",
+      "mass_kg": 25.2,
+      "model_sha256": "365f66f19733eed2c51a3a4f54bfb2c23abd5cb0b9fae0fb9578fd6845f339fd",
+      "software_version": "bimcraft-cli 0.12.0",
+      "verified_project_fields": [
+        "model_binding",
+        "material_selection",
+        "model_quantity"
+      ]
+    },
+    "solidcraft": {
+      "changed_revision": "binding_rejected",
+      "derived_result_checked": true,
+      "element_id": "solidcraft:FacadePanel",
+      "mass_kg": 25.2,
+      "model_sha256": "3a6cf8d0911b9ad8169f97014ccb4beec500f46fb5c4e47295e4f463e78c6a88",
+      "software_version": "solidcraft-cli 0.44.0",
+      "verified_project_fields": [
+        "model_binding",
+        "material_selection",
+        "model_quantity"
+      ]
+    }
+  },
+  "service_life_records": [
+    {
+      "conditions": {
+        "basis": "epd_scenario",
+        "component": "LinCrete GFRC facade cladding",
+        "method": "BBSR table 335 211, issue 02/2017 as cited by the EPD",
+        "statement_group": "bbsr-minimum"
+      },
+      "source_locator": "PDF page 4, Reference service life",
+      "source_url": "https://ibudata.lca-data.com/resource/sources/d1d9893d-2d5b-44fe-a55c-151303189a64/_LinCrete_Glass-Fibre_Reinforced_Concrete_22566.pdf?version=00.01.000",
+      "source_version_id": "operations:source:lincrete-22566#sha256:236cad2ab23e20c8f94bfacc9e1a9acf37c12ea93679d3df541a63a23e8deb1d",
+      "unit": "years",
+      "value": {
+        "lower_bound": 50,
+        "lower_inclusive": true
+      }
+    },
+    {
+      "conditions": {
+        "basis": "epd_scenario",
+        "component": "LinCrete GFRC facade cladding",
+        "method": "manufacturer calculated duration",
+        "statement_group": "calculated-facade-life"
+      },
+      "source_locator": "PDF page 4, Reference service life",
+      "source_url": "https://ibudata.lca-data.com/resource/sources/d1d9893d-2d5b-44fe-a55c-151303189a64/_LinCrete_Glass-Fibre_Reinforced_Concrete_22566.pdf?version=00.01.000",
+      "source_version_id": "operations:source:lincrete-22566#sha256:236cad2ab23e20c8f94bfacc9e1a9acf37c12ea93679d3df541a63a23e8deb1d",
+      "unit": "years",
+      "value": {
+        "lower_bound": 50,
+        "lower_inclusive": false
+      }
+    }
+  ],
+  "snapshot": "u2-394d88104956906d738c4a6ad838ca02f325c935012a6dd0711a23e644cf7993",
+  "status": "passed"
+}

@@ -1,0 +1,28 @@
+{
+  "affected_materials": 36,
+  "dataset": "operations",
+  "depends_on": "environmental",
+  "facts": 135,
+  "field_counts": {
+    "chemical_constituent": 1,
+    "disassembly": 1,
+    "end_of_service_criterion": 3,
+    "first_due": 1,
+    "maintenance_action": 23,
+    "maintenance_basis": 23,
+    "maintenance_frequency": 6,
+    "performance_documents": 1,
+    "reaction_to_fire": 1,
+    "recovery_route": 1,
+    "service_exposure": 20,
+    "service_life_type": 25,
+    "service_life_value": 25,
+    "sound_absorption_coefficient": 2,
+    "thermal_expansion_coefficient": 1,
+    "transport_scenario": 1
+  },
+  "materials": 0,
+  "observations": 0,
+  "source_documents": 37,
+  "sources": 1
+}

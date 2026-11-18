@@ -1,0 +1,540 @@
+[
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:333a787d6e6613dfb319ee3be26a11ed",
+    "component": "Tystø",
+    "source": {
+      "id": "epd-danmark:source:fe2df3e7614bdb86bbda44a44a519fba97da3799e073d1841e911595cdfc0864",
+      "title": "md-23055-en_rev1.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/3ctltuob/md-23055-en_rev1.pdf",
+      "retrieved_at": "2026-11-18T14:40:43.823463+00:00",
+      "local_path": "data/raw/epd-danmark/objects/0b67581b0e3834d32ec2b9e949d03804163f08b0a1285fadb78353fa00c7a325.pdf",
+      "sha256": "0b67581b0e3834d32ec2b9e949d03804163f08b0a1285fadb78353fa00c7a325",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 12,
+    "material_id": "epd-danmark:record:b0eb2c14b0fca3abe5ecc9a164db551b",
+    "component": "Kalksæbemaling",
+    "source": {
+      "id": "epd-danmark:source:e5cd222fe99b06c7e52f7246570d7c687ade198347de38bdd6630a132cd0c453",
+      "title": "md-26009-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/fqojvaop/md-26009-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:43.984607+00:00",
+      "local_path": "data/raw/epd-danmark/objects/d76efe7ff99d89a0cf72a3fc5104d678f189ec059145f4c312b46608e65c6fa1.pdf",
+      "sha256": "d76efe7ff99d89a0cf72a3fc5104d678f189ec059145f4c312b46608e65c6fa1",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "door",
+    "page": 10,
+    "material_id": "epd-danmark:record:3746df4da119c92cf0998ed1eb0b3deb",
+    "component": "DEKO DG Dobbelt-Glasdør",
+    "source": {
+      "id": "epd-danmark:source:d779c2ec4466beba419383984b8b490cc8e33efaa7a31f25acf8dc225f07b671",
+      "title": "md-24069-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/5rpm3ale/md-24069-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:44.911316+00:00",
+      "local_path": "data/raw/epd-danmark/objects/79b0b528e217b35fdb4539f73f5b58c0a175e97c96f2f7ec3d79e8786e7161ad.pdf",
+      "sha256": "79b0b528e217b35fdb4539f73f5b58c0a175e97c96f2f7ec3d79e8786e7161ad",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "dg_manual",
+    "material_id": "epd-danmark:record:3746df4da119c92cf0998ed1eb0b3deb",
+    "component": "DEKO DG Dobbelt-Glasdør",
+    "source": {
+      "id": "operations:source:deko-dg-manual",
+      "title": "DEKO DG – Operation and maintenance",
+      "publisher": "DEKO",
+      "url": "https://a.storyblok.com/f/59946/x/118b6cd2e4/d_v_dg_dor-da-en_gb-c.pdf",
+      "retrieved_at": "2026-11-18T15:58:19.641138+00:00",
+      "local_path": "data/raw/operations/objects/672a85e56f2a94f3cb8a0d660f3cccf9c35e681002e9b67f76bc58264aa57108.pdf",
+      "sha256": "672a85e56f2a94f3cb8a0d660f3cccf9c35e681002e9b67f76bc58264aa57108",
+      "media_type": "application/pdf",
+      "license": "Copyright retained by the publisher or declaration owner. Original PDF available from publisher; no redistribution grant identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "door",
+    "page": 10,
+    "material_id": "epd-danmark:record:b33f82ac032f2278278d3eaad5320b7d",
+    "component": "DEKO FD Fuldglasdør",
+    "source": {
+      "id": "epd-danmark:source:d8bb4519aa35c46de33ef4d05c5e3ef47565898a7b5728731d948123a34e798c",
+      "title": "md-24068-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/jv5ddpue/md-24068-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:44.961063+00:00",
+      "local_path": "data/raw/epd-danmark/objects/a9d9f9dd5c1e21041bece1a4b913d3e99209318590693003e100001aab07b4d5.pdf",
+      "sha256": "a9d9f9dd5c1e21041bece1a4b913d3e99209318590693003e100001aab07b4d5",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "fd_manual",
+    "material_id": "epd-danmark:record:b33f82ac032f2278278d3eaad5320b7d",
+    "component": "DEKO FD Fuldglasdør",
+    "source": {
+      "id": "operations:source:deko-fd-manual",
+      "title": "DEKO FD – Operation and maintenance",
+      "publisher": "DEKO",
+      "url": "https://a.storyblok.com/f/59946/x/51cfe01e8f/d_v_fg_dor-da-en_gb-c.pdf",
+      "retrieved_at": "2026-11-18T15:58:20.570140+00:00",
+      "local_path": "data/raw/operations/objects/d3e56ce9d9cf18a9fbf72233a90e05a2347f9ea9784d8a32566ec848224f4cbe.pdf",
+      "sha256": "d3e56ce9d9cf18a9fbf72233a90e05a2347f9ea9784d8a32566ec848224f4cbe",
+      "media_type": "application/pdf",
+      "license": "Copyright retained by the publisher or declaration owner. Original PDF available from publisher; no redistribution grant identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 11,
+    "material_id": "epd-danmark:record:c7d138f5017fb14bd6e738ba12962799",
+    "component": "DEKO RG 44.1-16-44.1 mm",
+    "source": {
+      "id": "epd-danmark:source:04d95063e87b1842227abbe8081a5115de6d19e7a023a7d23c2ac04a0b20ef69",
+      "title": "md-24177-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/0aviaaxv/md-24177-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:45.024302+00:00",
+      "local_path": "data/raw/epd-danmark/objects/f255685f6f86c9770f87c508dfbcdfe2b84275cb43594bec892bdb6863498322.pdf",
+      "sha256": "f255685f6f86c9770f87c508dfbcdfe2b84275cb43594bec892bdb6863498322",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "product_roof_rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:bd0b3a4a76c42e84b85fa7bfb2f5e64e",
+    "component": "DERBICOAT NT",
+    "source": {
+      "id": "epd-danmark:source:0c0569cf4372a014ca2011f6adc805b65db8b564136ad06d8d47d9d32db4ad62",
+      "title": "md-23004-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/kj2bw3o4/md-23004-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:45.061940+00:00",
+      "local_path": "data/raw/epd-danmark/objects/066ed6c19e520c0f385aae0d120a32b0a59ac0345eff71889525b38b2307080d.pdf",
+      "sha256": "066ed6c19e520c0f385aae0d120a32b0a59ac0345eff71889525b38b2307080d",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "product_roof_rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:9cfba35ce12dac56f9aff1d5ef6105cc",
+    "component": "DERBICOLOR NT PATCH",
+    "source": {
+      "id": "epd-danmark:source:f397a93c707cbbbafbd59e71dc265c3bff5c8d79e5158c2f29772f17a1b66b45",
+      "title": "md-23005-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/qqenha1i/md-23005-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:45.080701+00:00",
+      "local_path": "data/raw/epd-danmark/objects/3f42c0db6562c19f2346540d98e6c98ad6a3a746ea2ee46588919aac31a77072.pdf",
+      "sha256": "3f42c0db6562c19f2346540d98e6c98ad6a3a746ea2ee46588919aac31a77072",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 11,
+    "material_id": "epd-danmark:record:3557bb42997c0978266249c0fd76627c",
+    "component": "DESIGNA referencekøkken",
+    "source": {
+      "id": "epd-danmark:source:4fc181e3d7edeb62294a45ef31c27787498e6704b9cde550fb7eeddd550d2eb9",
+      "title": "md-23027-en_rev1.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/i32pkcc5/md-23027-en_rev1.pdf",
+      "retrieved_at": "2026-11-18T14:40:45.174699+00:00",
+      "local_path": "data/raw/epd-danmark/objects/1040dcb39cbf41112ee0195302face70e06725efdf1552716caf551401f36d13.pdf",
+      "sha256": "1040dcb39cbf41112ee0195302face70e06725efdf1552716caf551401f36d13",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:42b8fca775d21f7f40ac09f7f2443e75",
+    "component": "Termix VMTD MINI fjernvarmeunit",
+    "source": {
+      "id": "epd-danmark:source:108aced8de81e071535a8bf9ddef15e426576b566f179ea0d364a498a2e8223a",
+      "title": "md-22108-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/naehjbc2/md-22108-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:46.696720+00:00",
+      "local_path": "data/raw/epd-danmark/objects/0d3d5610ce6833c1d86468c28402d23f1dd562837d2fb8541a44cd9e73e07793.pdf",
+      "sha256": "0d3d5610ce6833c1d86468c28402d23f1dd562837d2fb8541a44cd9e73e07793",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:6aea7eb8e09ac1c37d47cf2146872c91",
+    "component": "Termix VMTD MINI OPBL ISO fjernvarmeunit",
+    "source": {
+      "id": "epd-danmark:source:cb169ac79a0f593bf0ed7d143d9226420a758c01c5c9cfe9c0a991d19ec07368",
+      "title": "md-22109-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/irydwtad/md-22109-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:46.714866+00:00",
+      "local_path": "data/raw/epd-danmark/objects/30b2a43e10ddecb12bef07bfc0e444abad21b0a763bc4f420f7c2ead2102e88d.pdf",
+      "sha256": "30b2a43e10ddecb12bef07bfc0e444abad21b0a763bc4f420f7c2ead2102e88d",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:5245b17947c553cb42e620130bf4e980",
+    "component": "Termix VMTD OPBL ISO med ECL fjernvarmeunit",
+    "source": {
+      "id": "epd-danmark:source:057cb48dcd0a831477685411eab1166f0f6a9cc6b9cc00f2a51c8d53a19f29cf",
+      "title": "md-22111-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/4c0ac41w/md-22111-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:46.750518+00:00",
+      "local_path": "data/raw/epd-danmark/objects/85cfcc571c7ee23694259e0a784177632900825a739207d6e8d4a74587fb9012.pdf",
+      "sha256": "85cfcc571c7ee23694259e0a784177632900825a739207d6e8d4a74587fb9012",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:144f836c61cadc688aacb8ca76e9ea55",
+    "component": "Termix VMTD OPBL ISO med RAVK fjernvarmeunit",
+    "source": {
+      "id": "epd-danmark:source:0f48fda88fdbcf28b9247a2818483ffe09784b305999c2720629cc7922c74524",
+      "title": "md-22110-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/kadljtl4/md-22110-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:46.792576+00:00",
+      "local_path": "data/raw/epd-danmark/objects/020bdf6cf8286ec4b19cea2bb0612903e5968adf6d39f7e6540737b051eff2cc.pdf",
+      "sha256": "020bdf6cf8286ec4b19cea2bb0612903e5968adf6d39f7e6540737b051eff2cc",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:cdaf2dbca59e5de18d2c89f4deb32a26",
+    "component": "Termix VVX fjernvarmeunit",
+    "source": {
+      "id": "epd-danmark:source:f56325d61cbfa31a45f78ff20380e2875ee1d5c6939ef6b8f09c5fcea81a832f",
+      "title": "md-22106-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/pnkidni0/md-22106-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:46.824030+00:00",
+      "local_path": "data/raw/epd-danmark/objects/2e6da34d21d6c57fb44771ed41681c1d1d8cc2ae66b9352d9b357d3e8da266b1.pdf",
+      "sha256": "2e6da34d21d6c57fb44771ed41681c1d1d8cc2ae66b9352d9b357d3e8da266b1",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:973fc880abbb593715108dc98b053781",
+    "component": "Termix VVX-I-R-FI fjernvarmeunit",
+    "source": {
+      "id": "epd-danmark:source:dab7d9d26bd73596bac3325138b6c1c433b28ee9683370ad09b1d7074e817324",
+      "title": "md-22107-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/kttpkfve/md-22107-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:46.878137+00:00",
+      "local_path": "data/raw/epd-danmark/objects/a725d30c6fe21d9165ddd02099239d86a4faabc1c2787838ca04fa2ffc0eb93b.pdf",
+      "sha256": "a725d30c6fe21d9165ddd02099239d86a4faabc1c2787838ca04fa2ffc0eb93b",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "hemp",
+    "page": 11,
+    "material_id": "epd-danmark:record:c351deecb7d763326ccf99144f786afc",
+    "component": "Isohemp PAL36EX hampebeton blokke",
+    "source": {
+      "id": "epd-danmark:source:0db5bb45dbb7111d4e35d60669f9d71e80e9e1c908e001c6c12e65c9de0b0ee8",
+      "title": "md-26034-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/wlzdxiny/md-26034-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:47.918210+00:00",
+      "local_path": "data/raw/epd-danmark/objects/422cf76cc01f1f662744f45c8cec5a135ff14d9b383a52453f098fbb11955785.pdf",
+      "sha256": "422cf76cc01f1f662744f45c8cec5a135ff14d9b383a52453f098fbb11955785",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 9,
+    "material_id": "epd-danmark:record:1093aa6dd18c55bedb4eca20eb8595ea",
+    "component": "Altaner og altangange i Ultra højstyrke beton",
+    "source": {
+      "id": "epd-danmark:source:fa4084b0ef7b49ed1e842c2bdf8eef4a7f2a6eaf0404565d181be9611c62117a",
+      "title": "md-23200-en_rev2.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/jtcbqd0n/md-23200-en_rev2.pdf",
+      "retrieved_at": "2026-11-18T14:40:48.029615+00:00",
+      "local_path": "data/raw/epd-danmark/objects/2bd41809146a5cfc0c70e8b9a61e830fdcb0aa26eb79dfdd5fa3159f48ee3244.pdf",
+      "sha256": "2bd41809146a5cfc0c70e8b9a61e830fdcb0aa26eb79dfdd5fa3159f48ee3244",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 8,
+    "material_id": "epd-danmark:record:d1c9bd175b8c69ffbf3216d4847e3e3d",
+    "component": "I-Wood UniPanel",
+    "source": {
+      "id": "epd-danmark:source:eeaa7467d2b304404724acb6e717a8ff6604bb37a40ae801914c3bb2afecfac8",
+      "title": "md-24120-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/d04pmboj/md-24120-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:48.646407+00:00",
+      "local_path": "data/raw/epd-danmark/objects/e8dbfdfbdbd61a48b72b4eeebcd913d43f6e46e7b19843ea3e3f309960d3de1b.pdf",
+      "sha256": "e8dbfdfbdbd61a48b72b4eeebcd913d43f6e46e7b19843ea3e3f309960d3de1b",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:93d2f1813e14636b7035d927c40850c6",
+    "component": "PRO-serien by Jasa Company",
+    "source": {
+      "id": "epd-danmark:source:5f90e03a3692799ef25311f1ad791e12e79fc588a29811321f33403e4a3ffb4e",
+      "title": "md-26100-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/1ezjhqgh/md-26100-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:48.849926+00:00",
+      "local_path": "data/raw/epd-danmark/objects/162b28b173271ebc6d43d930dc3bf09ce160f96c8b70f8f8b277699336ba4214.pdf",
+      "sha256": "162b28b173271ebc6d43d930dc3bf09ce160f96c8b70f8f8b277699336ba4214",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:01493a6d0dc157bf170248dfdb149ddb",
+    "component": "Tekstiler i 100% Uld",
+    "source": {
+      "id": "epd-danmark:source:f1fa6bb79892762f6c0aa9e1c79a0f49eb237a2b3376ff242f0c6ccf4b44a8f5",
+      "title": "md-23112-en_rev3.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/0yidgt1y/md-23112-en_rev3.pdf",
+      "retrieved_at": "2026-11-18T14:40:49.750859+00:00",
+      "local_path": "data/raw/epd-danmark/objects/1e3dfe4612ec01351aa3cda1e8ca066feeb07dc0dd064ba5d81fdf7f5d028b07.pdf",
+      "sha256": "1e3dfe4612ec01351aa3cda1e8ca066feeb07dc0dd064ba5d81fdf7f5d028b07",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 10,
+    "material_id": "epd-danmark:record:679beda22fc3a524959dd8862ef123d5",
+    "component": "Tekstiler i Uld og viskose",
+    "source": {
+      "id": "epd-danmark:source:fca860a446a5a30cc1164b1a6d58d9c41c2e05240bf7d0380556f8eb8aef5391",
+      "title": "md-23113-en_rev2.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/5dpp0kut/md-23113-en_rev2.pdf",
+      "retrieved_at": "2026-11-18T14:40:49.915512+00:00",
+      "local_path": "data/raw/epd-danmark/objects/222b151da01b3602a85c9818807a80cbee9a8fe914289a5d6176e17192ed58f4.pdf",
+      "sha256": "222b151da01b3602a85c9818807a80cbee9a8fe914289a5d6176e17192ed58f4",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "window",
+    "page": 10,
+    "material_id": "epd-danmark:record:4bbfa918f89059495a59cf94b08b1b06",
+    "component": "Ventilationsvindue (CWT), topstyret, træ/aluminium",
+    "source": {
+      "id": "epd-danmark:source:c0ee42a4bd89fee78be801f8d775a8a011fd207e415f09bbfec6b7a56f52b295",
+      "title": "md-25058-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/qq4h2ozb/md-25058-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:50.658062+00:00",
+      "local_path": "data/raw/epd-danmark/objects/13a96a6dcefe7f2cc899d26035addd85382d643374a62a89e5892c1a1fe865d1.pdf",
+      "sha256": "13a96a6dcefe7f2cc899d26035addd85382d643374a62a89e5892c1a1fe865d1",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rv2",
+    "page": 10,
+    "material_id": "epd-danmark:record:9a0b48bb30ea8a2ac58c9a594232ead8",
+    "component": "RotationVent RV2",
+    "source": {
+      "id": "epd-danmark:source:8fafdfff4a45edc0a61dbbb1524e5da4d31ded2a1405ffa8d4caa1a9fe21da64",
+      "title": "md-24123-en_rev2.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/200ljx5q/md-24123-en_rev2.pdf",
+      "retrieved_at": "2026-11-18T14:40:50.684464+00:00",
+      "local_path": "data/raw/epd-danmark/objects/a159af0a0fae385fdbc5d9cb63e81320c90536551e35e627b9a60961d8886515.pdf",
+      "sha256": "a159af0a0fae385fdbc5d9cb63e81320c90536551e35e627b9a60961d8886515",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 7,
+    "material_id": "epd-danmark:record:95862c471a10370c979c9db905910930",
+    "component": "Vandbremse",
+    "source": {
+      "id": "epd-danmark:source:12038131b292a0a2d8faa9476cc593e7574bab9163f7c8ff5dd46a7c26f1a293",
+      "title": "md-23001-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/dxxhd3u4/md-23001-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:51.042469+00:00",
+      "local_path": "data/raw/epd-danmark/objects/17c75e0ae7e7e79966dde5948a5c870861957102fb88476c10dba6e2e601b922.pdf",
+      "sha256": "17c75e0ae7e7e79966dde5948a5c870861957102fb88476c10dba6e2e601b922",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 9,
+    "material_id": "epd-danmark:record:cd209885fccacec958037b33ff717a68",
+    "component": "NovAx ACN 710/330",
+    "source": {
+      "id": "epd-danmark:source:6d4a2dc4f229ef050059bbdd67cee84401fa6df30bbd79202297c653dc673746",
+      "title": "md-23171-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/amahmvsb/md-23171-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:51.195978+00:00",
+      "local_path": "data/raw/epd-danmark/objects/8dcd7ad0c767793be891185d3054dd7f3f7831ca0b9521adf207993d10452bfb.pdf",
+      "sha256": "8dcd7ad0c767793be891185d3054dd7f3f7831ca0b9521adf207993d10452bfb",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 9,
+    "material_id": "epd-danmark:record:fac1bb71075f370edb638e85c75a3f4e",
+    "component": "ZerAx AZL 710/350",
+    "source": {
+      "id": "epd-danmark:source:ce5e0b2259bd99dfe8422d176360b1d3cf8105896217f78e7f9f7373d4a2ebc6",
+      "title": "md-23170-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/woebrq5c/md-23170-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:51.265218+00:00",
+      "local_path": "data/raw/epd-danmark/objects/41e98b5077116ac733c34d014280d58952bc71415f6f7f190ffb611c9e2f1cbf.pdf",
+      "sha256": "41e98b5077116ac733c34d014280d58952bc71415f6f7f190ffb611c9e2f1cbf",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "rsl",
+    "page": 8,
+    "material_id": "epd-danmark:record:55655577ad2c8250cf175b8d12acad41",
+    "component": "Scankalk kkh 35-65-500 Scankalk kkh 20-80-475 Scankalk kkh 50-50-575",
+    "source": {
+      "id": "epd-danmark:source:9dea0a7db330c0da73bf5ee571147737677b04f7238853109d530fbc9eb8a5a5",
+      "title": "md-23076-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/0vqjid0w/md-23076-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:54.501817+00:00",
+      "local_path": "data/raw/epd-danmark/objects/b51b7c5c4725ed7ff39bc90eaca349668f5a01996fc4a25d805b2091d5fc9292.pdf",
+      "sha256": "b51b7c5c4725ed7ff39bc90eaca349668f5a01996fc4a25d805b2091d5fc9292",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "swisspearl",
+    "page": 12,
+    "material_id": "epd-danmark:record:6185e2a2b8bc13a85d4693f709e01c2a",
+    "component": "Swisspearl Panel",
+    "source": {
+      "id": "epd-danmark:source:48355b4e3e1bdda1f093880173e1bb341e26befbe79f7ce59982794db884b9f7",
+      "title": "md-24127-en_rev1.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/ssaekz31/md-24127-en_rev1.pdf",
+      "retrieved_at": "2026-11-18T14:40:56.255809+00:00",
+      "local_path": "data/raw/epd-danmark/objects/18a714db7176e84f6a2b8f12d33d2785f0fe9b01e775ca67bf47ab0c6739cbf8.pdf",
+      "sha256": "18a714db7176e84f6a2b8f12d33d2785f0fe9b01e775ca67bf47ab0c6739cbf8",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  },
+  {
+    "kind": "triplan",
+    "page": 3,
+    "material_id": "epd-danmark:record:039e0e5a2ddbe78a5a05979ec35b4d21",
+    "component": "Polyethylenmåtte til påføring på Triplan stålbygningsprofiler",
+    "source": {
+      "id": "epd-danmark:source:0045bb45ee823432c416884b3d207c793ef4f43368ff742de902a63ed4671cfa",
+      "title": "md-23205-en.pdf",
+      "publisher": "EPD Danmark",
+      "url": "https://www.epddanmark.dk/media/smieddkt/md-23205-en.pdf",
+      "retrieved_at": "2026-11-18T14:40:57.017339+00:00",
+      "local_path": "data/raw/epd-danmark/objects/ea38f2f0275b6c92a7d0b0145408ae6fe99b0ba62fdc8fb2ebc25ca934a11b8b.pdf",
+      "sha256": "ea38f2f0275b6c92a7d0b0145408ae6fe99b0ba62fdc8fb2ebc25ca934a11b8b",
+      "media_type": "application/pdf",
+      "license": "EPD Danmark GPI v3 §5.9: EPD owners retain ownership. Bulk redistribution grant not identified.",
+      "license_status": "unknown"
+    }
+  }
+]

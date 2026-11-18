@@ -1,5 +1,5 @@
 use anyhow::{Context, Result, bail, ensure};
-use flate2::read::MultiGzDecoder;
+use flate2::{Compression, read::MultiGzDecoder, write::GzEncoder};
 use parquet::file::reader::{FileReader, SerializedFileReader};
 use parquet::record::Field;
 use rusqlite::{Connection, params, params_from_iter, types::Value as Sql};
@@ -52,6 +52,26 @@ fn json_write(path: &Path, v: &Value) -> Result<()> {
     f.persist(path)?;
     Ok(())
 }
+pub fn write_stream(file: &Path, rows: &[Value]) -> Result<()> {
+    let mut temp =
+        tempfile::NamedTempFile::new_in(file.parent().context("Missing output directory")?)?;
+    if file.extension().is_some_and(|x| x == "gz") {
+        let mut out = GzEncoder::new(&mut temp, Compression::default());
+        for row in rows {
+            serde_json::to_writer(&mut out, row)?;
+            writeln!(out)?;
+        }
+        out.finish()?;
+    } else {
+        for row in rows {
+            serde_json::to_writer(&mut temp, row)?;
+            writeln!(temp)?;
+        }
+    }
+    temp.persist(file)?;
+    Ok(())
+}
+
 fn safe_relative(path: &str) -> Result<&Path> {
     let p = Path::new(path);
     ensure!(
@@ -83,9 +103,12 @@ fn bundle(folder: &Path) -> Result<BTreeMap<String, String>> {
         "summary.json".to_owned(),
         file_hash(&folder.join("summary.json"))?,
     )]);
-    for table in STREAMS {
+    for table in STREAMS.into_iter().chain(["facts"]) {
         let opts = [format!("{table}.jsonl"), format!("{table}.jsonl.gz")];
         let found: Vec<_> = opts.iter().filter(|p| folder.join(p).is_file()).collect();
+        if table == "facts" && found.is_empty() {
+            continue;
+        }
         ensure!(
             found.len() == 1,
             "Expected one {table} stream in {}",
@@ -497,6 +520,144 @@ fn load_bundle(db: &Connection, folder: &Path, root: &Path, required: bool) -> R
     }
     Ok(())
 }
+const FACT_TABLE: &str = "
+    CREATE TABLE main.catalog_facts (
+        id TEXT PRIMARY KEY NOT NULL, material_id TEXT NOT NULL, field_id TEXT NOT NULL,
+        source_id TEXT NOT NULL, source_locator TEXT NOT NULL, value_json TEXT NOT NULL,
+        unit TEXT, conditions_json TEXT NOT NULL, value_status TEXT NOT NULL,
+        metadata_json TEXT NOT NULL
+    );
+    CREATE INDEX main.fact_subject_field ON catalog_facts(material_id,field_id,id);
+    CREATE INDEX main.fact_field ON catalog_facts(field_id,material_id);
+    CREATE INDEX main.fact_source ON catalog_facts(source_id);";
+fn fact_stream(folder: &Path) -> bool {
+    folder.join("facts.jsonl").is_file() || folder.join("facts.jsonl.gz").is_file()
+}
+// Facts may cite original sources from the shared foundation. Verify those bytes
+// as well as source rows registered directly by a supplement when requested.
+fn check_cited_foundation(db: &Connection, root: &Path, fact_schema: &str) -> Result<()> {
+    let sql = format!(
+        "SELECT s.local_path,s.sha256 FROM foundation.sources s JOIN (SELECT DISTINCT source_id FROM {fact_schema}.catalog_facts) f ON s.id=f.source_id"
+    );
+    let mut stmt = db.prepare(&sql)?;
+    let mut rows = stmt.query([])?;
+    let mut seen = HashMap::new();
+    while let Some(row) = rows.next()? {
+        let receipt =
+            json!({"local_path":row.get::<_,String>(0)?,"sha256":row.get::<_,String>(1)?});
+        source_check(&receipt, root, true, &mut seen)?;
+    }
+    Ok(())
+}
+fn load_facts(db: &Connection, folder: &Path) -> Result<u64> {
+    let mut subject_exists = db.prepare(
+        "SELECT EXISTS(SELECT 1 FROM main.materials WHERE id=?1 UNION ALL SELECT 1 FROM foundation.materials WHERE id=?1)")?;
+    let mut source_exists = db.prepare(
+        "SELECT EXISTS(SELECT 1 FROM main.sources WHERE id=?1 UNION ALL SELECT 1 FROM foundation.sources WHERE id=?1)")?;
+    let mut insert = db.prepare("INSERT INTO main.catalog_facts VALUES(?,?,?,?,?,?,?,?,?,?)")?;
+    let mut count = 0;
+    records(folder, "facts", |fact| {
+        let subject = text(&fact, "material_id")?;
+        let source = text(&fact, "source_id")?;
+        let field = text(&fact, "field_id")?;
+        ensure!(crate::catalog::is_known(field), "Unknown field {field}");
+        ensure!(
+            subject_exists.query_row([subject], |r| r.get::<_, bool>(0))?,
+            "Unknown material {subject}"
+        );
+        ensure!(
+            source_exists.query_row([source], |r| r.get::<_, bool>(0))?,
+            "Unknown source {source}"
+        );
+        let status = text(&fact, "value_status")?;
+        let value = fact.get("value").context("Missing value key")?;
+        let conditions = &fact["conditions"];
+        ensure!(conditions.is_object(), "Expected conditions object");
+        ensure!(
+            fact["unit"].is_null() || fact["unit"].is_string(),
+            "Expected unit string or null"
+        );
+        let missing = status == "conflicting" && value.is_null()
+            || matches!(
+                status,
+                "missing" | "not_declared" | "not_applicable" | "unknown" | "not_reported"
+            );
+        if missing {
+            ensure!(value.is_null(), "Missing status requires null value");
+            ensure!(
+                opt(&fact, "missing_reason")
+                    .or_else(|| opt(conditions, "missing_reason"))
+                    .is_some_and(|s| !s.trim().is_empty()),
+                "Missing value needs an explicit reason"
+            );
+        } else {
+            ensure!(
+                matches!(
+                    status,
+                    "reported"
+                        | "measured"
+                        | "declared"
+                        | "estimated"
+                        | "calculated"
+                        | "derived"
+                        | "classified"
+                        | "conflicting"
+                ),
+                "Unrecognized value_status {status}"
+            );
+            ensure!(
+                !value.is_null()
+                    && value.as_str().is_none_or(|s| !s.trim().is_empty())
+                    && value.as_array().is_none_or(|a| !a.is_empty())
+                    && value.as_object().is_none_or(|o| !o.is_empty()),
+                "Empty field value"
+            );
+        }
+        // Keep large curves only once. Additional publisher fields survive intact.
+        let metadata: serde_json::Map<String, Value> = fact
+            .as_object()
+            .context("Expected a field record")?
+            .iter()
+            .filter(|(k, _)| {
+                !matches!(
+                    k.as_str(),
+                    "id" | "material_id"
+                        | "field_id"
+                        | "source_id"
+                        | "source_locator"
+                        | "value"
+                        | "unit"
+                        | "conditions"
+                        | "value_status"
+                )
+            })
+            .map(|(k, v)| (k.clone(), v.clone()))
+            .collect();
+        insert.execute(params![
+            text(&fact, "id")?,
+            subject,
+            field,
+            source,
+            text(&fact, "source_locator")?,
+            value.to_string(),
+            opt(&fact, "unit"),
+            conditions.to_string(),
+            status,
+            Value::Object(metadata).to_string()
+        ])?;
+        count += 1;
+        Ok(())
+    })?;
+    let summary = read(&folder.join("summary.json"))?;
+    if let Some(expected) = summary["facts"].as_u64() {
+        ensure!(
+            count == expected,
+            "Incorrect facts count in {}",
+            folder.display()
+        );
+    }
+    Ok(count)
+}
 fn observation_value(o: &Value) -> Result<Option<f64>> {
     let value = if o["value"].is_null() {
         None
@@ -628,6 +789,11 @@ pub fn open(store: &Path, spec: &str) -> Result<Edition> {
     ] {
         db.execute_batch(&format!("CREATE TEMP VIEW {table} AS SELECT * FROM foundation.{table} UNION ALL SELECT * FROM extra.{table}"))?;
     }
+    if db.query_row("SELECT EXISTS(SELECT 1 FROM extra.sqlite_master WHERE type='table' AND name='catalog_facts')", [], |r| r.get::<_,bool>(0))? {
+        db.execute_batch("CREATE TEMP VIEW catalog_facts AS SELECT * FROM extra.catalog_facts")?;
+    } else {
+        db.execute_batch("CREATE TEMP VIEW catalog_facts(id,material_id,field_id,source_id,source_locator,value_json,unit,conditions_json,value_status,metadata_json) AS SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL WHERE 0")?;
+    }
     db.execute_batch("PRAGMA query_only=ON")?;
     Ok(Edition {
         id,
@@ -657,9 +823,11 @@ fn inputs(root: &Path, folders: &[PathBuf]) -> Result<Value> {
             "Duplicate dataset {name}"
         );
     }
-    Ok(
-        json!({"base":{"format":2,"parquet_manifest_sha256":file_hash(&root.join("data/parquet/manifest.json"))?,"schema_sha256":hash(SCHEMA.as_bytes()),"vocabulary_sha256":hash(VOCAB.as_bytes())},"supplements":supplements}),
-    )
+    let mut input = json!({"base":{"format":2,"parquet_manifest_sha256":file_hash(&root.join("data/parquet/manifest.json"))?,"schema_sha256":hash(SCHEMA.as_bytes()),"vocabulary_sha256":hash(VOCAB.as_bytes())},"supplements":supplements});
+    if folders.iter().any(|p| fact_stream(p)) {
+        input["catalog_sha256"] = crate::catalog::fingerprint().into();
+    }
+    Ok(input)
 }
 pub fn build(
     root: &Path,
@@ -669,6 +837,11 @@ pub fn build(
     activate: bool,
     required: bool,
 ) -> Result<Value> {
+    let mut ordered = folders.to_vec();
+    if ordered.iter().any(|p| fact_stream(p)) {
+        ordered.sort_by(|a, b| a.file_name().cmp(&b.file_name()));
+    }
+    let folders = ordered.as_slice();
     let input = inputs(root, folders)?;
     let id = identity("u2", &input)?;
     ensure!(
@@ -686,7 +859,8 @@ pub fn build(
     clear_interrupted(store)?;
     let (base, bm) = ensure_base(root, store, &input["base"])?;
     let dir = store.join(&id);
-    if !dir.is_dir() {
+    let installed = dir.is_dir();
+    if !installed {
         let tmp = workdir(store, ".edition-")?;
         let overlay = tmp.path().join("supplement.sqlite");
         let mut db = Connection::open(&overlay)?;
@@ -728,6 +902,20 @@ pub fn build(
                 Ok(())
             })?;
         }
+        let mut fact_counts = BTreeMap::new();
+        if !input["catalog_sha256"].is_null() {
+            tx.execute_batch(FACT_TABLE)?;
+            for folder in folders.iter().filter(|p| fact_stream(p)) {
+                let name = folder
+                    .file_name()
+                    .and_then(|s| s.to_str())
+                    .context("Invalid dataset name")?;
+                fact_counts.insert(name.to_owned(), load_facts(&tx, folder)?);
+            }
+        }
+        if required && !fact_counts.is_empty() {
+            check_cited_foundation(&tx, root, "main")?;
+        }
         tx.execute(
             "INSERT INTO build_info VALUES ('unified_snapshot',?)",
             [&id],
@@ -748,8 +936,13 @@ pub fn build(
             inputs(root, folders)? == input,
             "Source inputs changed during build"
         );
-        let manifest = json!({"snapshot":id,"inputs":input,"counts":totals,"datasets":ds,"base_sha256":bm["database_sha256"],"supplement_sha256":file_hash(&overlay)?});
+        let mut manifest = json!({"snapshot":id,"inputs":input,"counts":totals,"datasets":ds,"base_sha256":bm["database_sha256"],"supplement_sha256":file_hash(&overlay)?});
+        if !fact_counts.is_empty() {
+            manifest["catalog_evidence"] =
+                json!({"facts":fact_counts.values().sum::<u64>(), "by_dataset":fact_counts});
+        }
         json_write(&tmp.path().join("manifest.json"), &manifest)?;
+
         publish_dir(tmp, &dir)?;
     } else if required {
         let mut seen = HashMap::new();
@@ -758,6 +951,9 @@ pub fn build(
         }
     }
     let edition = open(store, &id)?;
+    if installed && required && !input["catalog_sha256"].is_null() {
+        check_cited_foundation(&edition.db, root, "extra")?;
+    }
     if activate {
         json_write(&store.join("latest.json"), &json!({"snapshot":id}))?;
     }

@@ -1,6 +1,6 @@
 # Dækning af første materialedatabase
 
-Aktuelle tillæg i v0.2 omfatter Tampere og en særskilt lokal indsamling fra EPD Danmark. Denne side dokumenterer de fire grunddatasæt fra 17. november. [Se de samlede optællinger](../README.md#tallene-følger-med)
+Den aktuelle feltmåling for v0.3 viser antallet af kildeposter med dokumentation, mangler og konflikter for alle 158 felter. Fire projektrelaterede felter afprøves desuden på native modeller i begge programmer. Nedenfor følger grunddatasættets historiske optælling. [Offentlig feltmåling](../data/releases/coverage-public-v0.3.0.json) · [Udvidet lokal feltmåling](../data/releases/coverage-local-v0.3.0.json) · [Modelafprøvning](../examples/model-fields/README.md)
 
 Den aktuelle maskinlæsbare optælling findes i `data/catalog.json`. Første samlede indsamling, 17. november 2026:
 
