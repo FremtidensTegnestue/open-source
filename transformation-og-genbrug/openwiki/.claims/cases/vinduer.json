@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:9856af8900b529c8621476df308ebaf1ad615c9c0beca25fd0b15afe8d6c8c59",
+  "pageVersion": "sha256:13d32ab781d64267e5d9b39c35dcb709d15dcac6d7b4e2ed242f38271fac1412",
   "claims": [
     {
       "id": "claim_ec92f69cad33488093b49271549628a6",
@@ -31,10 +31,20 @@
           "version": "repo-lines-v1:sha256:d1ff13c73472c4d061c88af4c41c71e05407bb6363be119a7863f89d7c003fae:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQ5MTgyOGExNDg3NjAwODkxNWUzOTZmMmM1N2NhYmU2ZTBkN2E2M2Q0YzgyZDQyNjQ2OTFmOTUzNTZjMjMzZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI5MzRiN2E1YmJlNmIxMzViNWRhMTExNjI3YzYxOGRlNzFkZmE4YTc1MzhhMTkxOTQzZjdiMWJiNjUxOWI0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTliMDYzNTliOTQyMGVkMmZlNGZlNzYxMDFlN2MyYjdmNzgxMTQ1MjgzZTdmMTY1YTM5ZDZiNTgxNDExNmE2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjY1YjdiZDFkMzM5MjlkYjJmODY2Njk1YWM0MjZjNWZkZjBlYTJkMzg5ZTdmMzA2OTY5MzFmZmVhMWFiMTZmZiJ9"
         }
       ]
+    },
+    {
+      "id": "claim_439e5bf242094f5cbdff69202b9c8975",
+      "statement": "Ryesgades måleresultater gælder en samlet energirenovering og kan ikke alene bestemme vinduernes andel.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L139-L149",
+          "version": "repo-lines-v1:sha256:d026c69d070f97c1597a93f21fdc5588bcb45d2410e0dd80072ed3a8c6b47deb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4ZjI3NTY1NGQxMzZmNTk2OTYwOGQxZWU5NWQyM2I3YjFkN2I5ZjIwYTRmYTZhMDg5NWQ5N2NhNmNhNzk2NzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiOGZmODQwMjdkOGNlNzVjZjA4M2U3ZjBkNDdjYWFkODY3MWQyMDNiMzZkOTljYTkxYTZhMWIwMGZkMGU5OTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmYTExMDEwMzM2MmFhOGY4N2FkNmUwYzUyMWFjNGM0YzFlMGQxZmYzMzI0ZmFlZmZiOWQ0NDdkODY0NTkxNjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZlYzRlZDgyODE0N2FlMWY2ZmNhNzA1OWZkMWM5MTMzNGZmYzljNWEzZjllMDU2MTFlNjVkODM4OThiMTIwZTMifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T06:50:07.372Z"
+    "at": "2026-11-19T07:19:29.468Z"
   }
 }

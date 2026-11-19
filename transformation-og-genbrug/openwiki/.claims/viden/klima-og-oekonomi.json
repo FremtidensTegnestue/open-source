@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e67b49604ecab8743c43b73c99a9975c7f4e12614e4e2c87d60d7f50a682065e",
+  "claims": [
+    {
+      "id": "claim_3707b081126c4087b1486b7af405f6df",
+      "statement": "Rambøll sammenligner tre scenarier for renovering med en nybygreference for 16 bygninger over 50 år og undersøger antagelsernes betydning.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L113-L117",
+          "version": "repo-lines-v1:sha256:b2186e069d10a7ab87b207fbe77efc1487b7152a58be7d3363263233194032db:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDkwODRiNjRlYWMwOTVjZWQ0NjU3YTdlNzA1NmJlN2IyZTU4NGFlZDAzMTg5ODFiNzllY2JkYzhiZWU2OWVlZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjAzZjAwOTllNTE5YzE3MWViYTZiNjY0MDlkMGFkNmE5MjA2ZDdjZGZjZjgzMjdjZjZkZTI5YzMyYWYwMjE3ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGExYzAyNDQ5YmM3MzY4ODFlZDIzYjc3ZTQ2MTdlYjFkOWM5ZjkxODk1YjJlOTcxMWFiODE0ZTkyZWJjNTJmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTM0ZDU0MmRhN2FlMjgzMmVkMGIwZjFkN2Y5NTVmNGVmZjE4NDdlYTMxZmM4OWJiNzVkYTIwZjcwYmFjNDM1YyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6187a73537d6451e8714d2912ee4a02d",
+      "statement": "LCAbygs generiske typologier kræver bygningsspecifikke mængder, materialer, isoleringsevner og restlevetider for at repræsentere et konkret projekt.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L119-L123",
+          "version": "repo-lines-v1:sha256:3c9057a6c0d65c6e23d807b1dcee2f55fce4030d5f7ad2d8cdca655d029071b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWEzNjYyMzk2Y2JiYmE1N2JhNGZhNTc5NDVjOTVkYzA2N2Y4ZjQxN2IyOWM3NzgzZTkxNmVjNDk3ZmI5MjQ1ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDlkNmNjOTdiMGNjNGZlZGUwOGRiOTRkNWM3YzgyZTMwZGIzYzlhZjk1ZTg0YzEwNGZhMWI4NDgxZTkzODJiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2JiOTFmZTljYTljMjU3MDAwMGRkYTBkM2YzZGNjODc1NjJmNGU4ZmFjM2Y2YzVhNzM3ZjI1NjMxNjRjNjM2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTEyZWNmMzNhNmEwNmQ2ODRjYzk5ZTAwNTU2Y2U3ZjZkMTE0MDMxMzE3ZTUyNmUwOWE1YmY4MWIxNWE1MTc5ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec107c7c8bf74d718594c13143b7fa6f",
+      "statement": "Referencelevetider og økonomi ved udskiftning kræver forskellige oplysninger om den konkrete dels stand og adgangsarbejder.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L125-L135",
+          "version": "repo-lines-v1:sha256:81819461b204780b47de23b2446475f4a18f24fb5edaac80ec5459783c5db4fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdjZTUwODM3MzgxYzUyZWU2ZjRiNjMwMGY5NTYyMWY1ZjViYzg2MWNiYTk5MTYwYjE1YTVhMDI4ZWQxYjFiMWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5NmQ4YjcwY2IxODRiNTRkYzJjZmYzMjc2Mzk0M2RlMmFiOTdlNDRlZjM4ZWViZWJlMDljMGJkODJlZjNlZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE1ZjlhNmZlODcyNjMzZWYyMDgxNWRkMjI4ZWM1YmE1ZTlmMGFlZGIzZGVkZDllNzdjNDUxODc5NGNkYWYxNTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNmYTExMDEwMzM2MmFhOGY4N2FkNmUwYzUyMWFjNGM0YzFlMGQxZmYzMzI0ZmFlZmZiOWQ0NDdkODY0NTkxNjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_386297fb3ad3467b98d50a2a07847524",
+      "statement": "Arbejdsarket anviser fælles funktion og periode og beder om faktiske målinger efter udførelse.",
+      "evidence": [
+        {
+          "resource": "repo://oplaeg/forste-besigtigelse.md#L25-L29",
+          "version": "repo-lines-v1:sha256:03202377734fb397458848409144510595fb7bd24aa35fd2b6720fc7e4902895:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk2MjllODUxOTE2OWExNDNlMTk3NGYzZGFmMzQxZGUyZDNmZWU2NjkyYjQwYWY4MGVmMTFhODljNmE0OTIxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ViNWQ2MWVmYjViNzc0YmVjNGZkNDU3ZDk0ODg3MzExNmVhMzRmZTI5NzIxZWY4NjgyZmUwNDEzMTA1ZmU2OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjJiMDg1OWJiOGJhZWIzY2Q4NDMxMTVjZDFhNTI1YjY0Nzk5NzgyNjMzZTY2ZGUxZmVjMGNkNDY5NDRkYWY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:19:29.468Z"
+  }
+}

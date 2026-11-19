@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a4c0329ef7877cac846a41b02acb8790393477c5a066c7a6ce7c4107b050af2d",
+  "claims": [
+    {
+      "id": "claim_e730eb16b2f844b3a50986bda4967ea4",
+      "statement": "En forsats kan supplere et eksisterende vindue, og den anførte standardbesparelse forudsætter et vindue uden utætheder.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L41-L45",
+          "version": "repo-lines-v1:sha256:93bef899aa5d3c6945ffb3ce92924b7321336ea81db6e2ae5457511d108166e2:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2UzZGJlYTc0OTM0MTZlNDk4NWU1ODliMzFlMWYyZjYzNDUwM2U0NjdmYWJiNmUyNGJjNTYyMzBjZGZjOTdiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA5YjRmY2ExYmZkNjMxZGVlY2U5MmVmN2MwMjA0MzhkYzNiMWViYWNhNjg0ZDFiMzBmZGIwNmZmOWMxMDRkYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGE5NDM3NjIwN2Y4NzRjMGI3ZGZmNDhkM2JjYTQ0MzE1ZDI2ZDA1MzYxODg1NjZlZTc5NGFhOTg4OTQ2ZTk3ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTI2YTg2Mjg1ZGMwNzgwNmFiZTkzMTRiMzM3MTQ0OGU3Y2M2Mjk3MTg3YmE5Y2NjMmM3NzM3NzQxODk1NmZjMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b91adee4545d47fb8945f74326a8e2c5",
+      "statement": "Indvendig isolering af en tung væg gør den gamle mur koldere og kræver vurdering af dens tilstand og fugtbelastning.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L35-L39",
+          "version": "repo-lines-v1:sha256:4818ed07454f4e248dd9139610d7aeea0993ee130acb6ff1685cc79350e2c1b1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWE5MDQxMWZjMWVkYTFhYWRiODk4OWVlY2Y5YTM1YjhmMWZmN2MyNGJhZWRjY2RiZmY4ZjA0NzczOTg2YjIyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjE5YjkwN2EzOTA0ZDMwNDA2YTM5NmJkNWM3ODYwMWUwZjUxYWQxMzhkMmE1YzU4NDBhZjg0YjhlMGE3NTA0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODE2NTIyYWY5ODI1MjBhM2NkZTllZmI4OWM3NThjZWIyNGVhZjdmYTYyYjMxZGM2NGJmMGQ2N2I0OGFlZTdjZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzAxMDM4ZGFhZmJhZTVjNWJlMjc2NmE1YzY1N2VlZDIwODM2NGU3Y2Y3ZmEyNmU2OTdkMzQ0N2M3OTcyZmM3OCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ee53089b41d74583b61aef6bc37927f4",
+      "statement": "Ved eftermåling er både ændret areal og hvilke energiformer der er med afgørende for tolkningen i Ryesgade.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L139-L149",
+          "version": "repo-lines-v1:sha256:d026c69d070f97c1597a93f21fdc5588bcb45d2410e0dd80072ed3a8c6b47deb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4ZjI3NTY1NGQxMzZmNTk2OTYwOGQxZWU5NWQyM2I3YjFkN2I5ZjIwYTRmYTZhMDg5NWQ5N2NhNmNhNzk2NzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiOGZmODQwMjdkOGNlNzVjZjA4M2U3ZjBkNDdjYWFkODY3MWQyMDNiMzZkOTljYTkxYTZhMWIwMGZkMGU5OTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmYTExMDEwMzM2MmFhOGY4N2FkNmUwYzUyMWFjNGM0YzFlMGQxZmYzMzI0ZmFlZmZiOWQ0NDdkODY0NTkxNjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZlYzRlZDgyODE0N2FlMWY2ZmNhNzA1OWZkMWM5MTMzNGZmYzljNWEzZjllMDU2MTFlNjVkODM4OThiMTIwZTMifQ"
+        },
+        {
+          "resource": "repo://oplaeg/forste-besigtigelse.md#L25-L29",
+          "version": "repo-lines-v1:sha256:03202377734fb397458848409144510595fb7bd24aa35fd2b6720fc7e4902895:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzk2MjllODUxOTE2OWExNDNlMTk3NGYzZGFmMzQxZGUyZDNmZWU2NjkyYjQwYWY4MGVmMTFhODljNmE0OTIxOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ViNWQ2MWVmYjViNzc0YmVjNGZkNDU3ZDk0ODg3MzExNmVhMzRmZTI5NzIxZWY4NjgyZmUwNDEzMTA1ZmU2OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjJiMDg1OWJiOGJhZWIzY2Q4NDMxMTVjZDFhNTI1YjY0Nzk5NzgyNjMzZTY2ZGUxZmVjMGNkNDY5NDRkYWY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:19:29.468Z"
+  }
+}

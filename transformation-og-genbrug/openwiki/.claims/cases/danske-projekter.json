@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d646d2e25ed789742cead007b41d02e80316acd267cbb21774dc83aaf0d2faa6",
+  "claims": [
+    {
+      "id": "claim_4355f9b0ace1473ab7159b897800ef6b",
+      "statement": "Ryesgades slutrapport opdeler efterforbruget i varme og ventilationsel, mens den senere artikel omtaler totalen som varme.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L139-L149",
+          "version": "repo-lines-v1:sha256:d026c69d070f97c1597a93f21fdc5588bcb45d2410e0dd80072ed3a8c6b47deb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4ZjI3NTY1NGQxMzZmNTk2OTYwOGQxZWU5NWQyM2I3YjFkN2I5ZjIwYTRmYTZhMDg5NWQ5N2NhNmNhNzk2NzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZiOGZmODQwMjdkOGNlNzVjZjA4M2U3ZjBkNDdjYWFkODY3MWQyMDNiMzZkOTljYTkxYTZhMWIwMGZkMGU5OTIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmYTExMDEwMzM2MmFhOGY4N2FkNmUwYzUyMWFjNGM0YzFlMGQxZmYzMzI0ZmFlZmZiOWQ0NDdkODY0NTkxNjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZlYzRlZDgyODE0N2FlMWY2ZmNhNzA1OWZkMWM5MTMzNGZmYzljNWEzZjllMDU2MTFlNjVkODM4OThiMTIwZTMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_010cc0454a26411aa763ec49a89cfd56",
+      "statement": "Thoravejs vægtandel omfatter både genbrug og genanvendelse, mens etagedækkenes brug som trapper krævede forstærkning.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L151-L161",
+          "version": "repo-lines-v1:sha256:9e84087e1b9437e1af4d739bf0acb0f942abfab7e2a29217acebdb20161646b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1ZThhNmQ4NmJhZDYzNmQ4NTJlYTRmMWI5ZGE5Zjc0ZWM4ZDY3M2JlODI5Nzk4MzE0NzBmMmFlMzAxNzU0NDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNkMWYxZGM2MWMwYmE2Mjg4NDc3MTdjNDNlYWU1Y2Q5YTE2MTg2NDVkZTA1YmI5YjY2ODMxOWIwMzY1YWEwMGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkwNTc4Njg0ZTc3NjU2NjI1Yjk2MjY1NDdiZWUzOTQxOGM0Yzk3YzI5YWIyMjhkNTc1M2JjMzVkNjBmNDg3YmYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRiZmIzNjE4YzU4YTIwMzY2MjE4MTI1ZDQ2NDEyYWQ2MTRiYmJkYWI3ZWE2MmNmMmJkZDkxNDUwMzI4NzAwZDcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9c738b8a68f44ea3be8e54e5cac6327a",
+      "statement": "Upcycle Studios genbrugte ruder i nye karme i et nybyggeri med projektspecifik dokumentation.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L163-L167",
+          "version": "repo-lines-v1:sha256:8eb6bf7a4b1a04937b02287a2068ce9ee39db4c63488099e217d22f2cffbfaec:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODUxOGNjMmQwNjgzYjE5YmU5ZjcyZGFkZTlhMDM5MTBjYmQ4MGExOGU0OWRmMWZhMmEwMjVhNjJlYWQyNDA5MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2JkNWZjYjMyNWIyMDNlYzE0YmE5ZjE5YjQxZTk0NDJkZDEzNzI4OGQ0ZjFhMzc4ZGI2MzFjYjQwNTRiMzhiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWJkYzIzOGE0YTEzODE5ODRmZjkyNDc5N2Y2YzkxOWExNTk4MmRiZGZmNjNkOTg1MmNjNjliNGVmYTYwOTcxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGE5Y2YyNWY2NTU0Y2YzZTc0ZDg3NjAwZGMzYjE3YjU5ZDI5OWU3NDcxODViZGQwNTU1NDU1NjAzZjUzM2RmYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a6b0cd3fa29446f5869c28a10fdb6276",
+      "statement": "Dyrehave Mølle fik nye boliger bag bevarede ydermure. Gyldenrisparken omfattede renovering af 468 eksisterende boliger.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L169-L179",
+          "version": "repo-lines-v1:sha256:f9d7c7b7c38d97a7b2fd851cf7367dbfcb4c71faff074581fe06681fe330eab2:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlhZTg4MzJhYmQyMzBmNjUzNmZjOTNlMmJjN2NiODg3MjRlZGI2NjkwZjgwYTAxM2Q4Mzc0NGE4ZGI3ZDhhNDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5MWU5YTRlYjY4NDNjZDA1NGQ5ZWUyM2IyZmQxN2ZjODExMzEwNDg0ZTc3ZjVhZDAzYTQ0ZmRmOWViOTZkYjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc1ZTE1ZmExYjIyMDBlZjk3M2UyODRjNmY1ZWM1NDg1Y2EyNTMyOGJkYjM2MDE5ODM0YWEyNWM5Mzc2OWZkYTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:19:29.468Z"
+  }
+}

@@ -5,11 +5,13 @@ description: Et tænkt eksempel fra en københavnsk bolig viser, hvad man kan sp
 tags: [transformation, windows, reuse, retrofit]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T06:50:07.372Z
+    at: 2026-11-19T07:19:29.468Z
 sources:
+  - id: openwiki-source-db86dd5bd1f178d128948a17
+    resource: repo://kilder/README.md
   - id: openwiki-source-182a65da0185ccadc843aff1
     resource: repo://oplaeg/vinduer.md
-generated: { by: "codex", at: "2026-11-19T06:50:07.372Z" }
+generated: { by: "codex", at: "2026-11-19T07:19:29.468Z" }
 ---
 
 # Hvad gør vi ved et utæt vindue?
@@ -34,3 +36,7 @@ Ved samtidig efterisolering bliver samlingen mellem væg og vindue et selvstænd
 Sammenlign mulighederne for samme åbning, samme funktion og samme periode. Beskriv dagens forhold og de forventede reparationer eller udskiftninger. Vis ændret energiforbrug under brug for sig og belastningen fra materialer, arbejde og transport for sig. Knyt et skøn til sin kilde eller antagelse. Der foreligger ingen opmåling eller beregnet besparelse for dette eksempel.
 
 Hvilken oplysning ville du selv indsamle først? [Læs oplægget](../../oplaeg/vinduer.md) · [Skriv et bidrag til debatten](../debat/bidrag.md) · [Til wikiens startside](../quickstart.md)
+
+## Gå fra tankeeksempel til undersøgt projekt
+
+I Ryesgade 30 blev løsninger afprøvet i en lejlighed, og projektet offentliggjorde målinger efter renoveringen. Vinduerne indgik sammen med andre indgreb. Sammenlign med beboerens spørgsmål her: Hvad skal måles ved selve vinduet, hvis man vil vide, om trækken ved spisebordet er blevet mindre? [Læs om målingerne i Ryesgade](danske-projekter.md) · [Se vejledningen om vinduer, vægge og fugt](../viden/varme-og-fugt.md)

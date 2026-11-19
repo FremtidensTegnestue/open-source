@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:76f78e6665e76b3aa2c784e017a2ee0d8f1ff71d5182fec776b8a78b945966dc",
+  "claims": [
+    {
+      "id": "claim_e9adcad78d624094b1c9bb393960947c",
+      "statement": "Københavns Kommunes metode forbinder plangrundlag, bygningskortlægning og afprøvning af program i ejendommen.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L21-L25",
+          "version": "repo-lines-v1:sha256:f0531fd2a4782c716a695c5a63c4b7463910c7f21a75f6e20cbe6cbfb4100d8d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQ5N2ZkNmM3NmI0YTAxNmYxNjc0NTZkOTE2OGJlOWRjMDRlNDFjNzkxYzRjYTA2NWEyMWY1ZjFhNzdlMWY4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5Njg2MTdlMTdhYzM5YjBkYjYyNmM3MDc3NmU5YjM2NmViZjExOGQyNzc0Mjk4NzUzMWZmMzE4NTRlZjkzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTdhYmE4Y2EyN2RmNGRmZTk0ZjE4Yjg5NDJhNjEyOTUzZjJiNjFmMmY4MTdmYWNmOTAwZDI4ZTY5ZGNjODc1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI2NTI1ZDQzOWQ1OGZjYTk3MmMzMTcxZGEyYjU5NGQyNTVjYmVhMDQwZjMwYjBiNWUzM2ZjNGZlZGJlOTcyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_06a95099470145da9f05eda4af9c50a7",
+      "statement": "Screeningen af 13 erhvervsejendomme prioriterer videre undersøgelse med 30 primære indikatorer.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L15-L19",
+          "version": "repo-lines-v1:sha256:f5656023bdb8f8528e392c1fc4696c39abe1dc8ef2ce0288347cdb0122f8b4cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYyMzU5YjhmODQwN2M5NTA4NTczMmMzYTljYjMwYTVmYWM0ZjYwZWZmZGNhZWM5YTYxMTdkZDNjZWFlYThjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGIyZTYzNTNjZjkxOGQzMzljMDY5ZDdjYzEyN2Y3YjFhZTcyOTM5ZDdlMWMwODZjNDNmMmQ2YTNlMzVlMmZjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTc2MDAyZGZmNTU5ODliZjE0MmQ1MGI3NTZhOTkyMzc5Y2Q2MzA4NDI3N2EzNGNjODQ2YWNjZTVjNzMyYTU3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBkNGZkNjc2Yzc4NjRmZDU1OTI4MzExOTY3NWZhY2QyZWEyZGU4YjZmODkzMmQwZWRkODUyZTcyMWZhOGUyMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3b8f7cc2078e45bcb86e958d82700782",
+      "statement": "SAVE’s miljømæssige værdi angår omgivelserne, og den samlede bevaringsværdi bygger på en faglig helhedsvurdering.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L9-L13",
+          "version": "repo-lines-v1:sha256:d956c2c61543eb32a9f53f5503c6adb880b7ba1503093cd1c4201869298906a0:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmE1MjFlMmE0ZjQxNjMwNzA1ZmVkOGIxNTM1M2JlNWZkNGJlZGQ1N2RkMzlhNGI3YmE1MmMwOWJjZTNmMTNiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2RjODc4YzQ0MWEwOTBhMTBjMDc5ZDA1MmEzZTM1NTdiNzg2OWZlYTEzZDU2YThhMjM4YmE2M2FlNDdmZWM2MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzM4YmEyZjNlNmQzYjk5ZWZjMjU5MjgzZmJjMGE4MDcxZWYwZWUzZDBiZmNlNGM3NTg0MjRkY2FhODhmNDZlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTI2MWZiNGM5ODc5MGI0NGY2YjlkMDM2ODQwM2Q0ODliN2FiYWRiOWZlMDkwZDA3MGEwYTQ1NGYxZDE3NzNjNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b6838df0f0345b1b3aa0cb4af7121f1",
+      "statement": "Arbejdsarket kobler brugerens oplevelse og bygningens kvaliteter til observationer og næste undersøgelse.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L27-L31",
+          "version": "repo-lines-v1:sha256:57ce7d8d2fd2a17ea7506d9f625a17e8e060d7aa5807a2d438096622aa3b6f92:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhZTk3ZDA1YTM1ZWQ4ZDFhYWU3ZDgyY2ZjOGRiZDhhMzZjOTJhYmMzZTFlNDJlYWRjODY2NmEyOWExYjMwZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBhNDI2MWExNThlYTdiNGY1NDY0YzEzNzNkZDM4OWYzZGFhNTU1OWJmOTM0NjY4MTU4OWRhYmY4OGExODA1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWU2MzliYjhlODRiZDBkOTM5MTZjMzhjZThjYjYzMjRmYzEyMmI4ODRhYjI2NmEzNDY3Y2Q4ZmExNDgxOTAzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODE2NTIyYWY5ODI1MjBhM2NkZTllZmI4OWM3NThjZWIyNGVhZjdmYTYyYjMxZGM2NGJmMGQ2N2I0OGFlZTdjZiJ9"
+        },
+        {
+          "resource": "repo://oplaeg/forste-besigtigelse.md#L5-L12",
+          "version": "repo-lines-v1:sha256:57760fa38e4bdf7f45e0b13bc22fc41735dd6f8587738256c6f707c15dae38b6:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQyOTg1OWQ0MDVkY2VkZWFiNGM4OWFlODRiNGI0ZDZhNmZhODZmYmM0NjIwZjgxMjU5Mzk1NmIwNzJjOWNkYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTIzN2FlN2ExYmZhZDQ0NWNiMTk1MzU3OGFkNmFiMmY0MDRiODhmYTRlMzIzZWIzZmNhOGJlNmE5NzYyMGU2NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODE2Nzg1ODY0NDQ2MWU0MGM5YTI2ODAxNDM2N2EwZmQ2OWE2OTY0ZmQzN2FjZDEzNzJjNzFiNDZiNGM1Y2RlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjAwMDcyMTAyNDY1NjA2OTU3N2ZmYjQ1MDFhMmY2OTE4NGFjMWJjYmFlYjdhNDJjNWRlMmE1M2JhYzZlYWJmNiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:19:29.468Z"
+  }
+}

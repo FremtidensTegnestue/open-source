@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:46ba8622bb5481fbd49786c7d8166a20c7544bdf894333cacce393abc0707626",
+  "claims": [
+    {
+      "id": "claim_96bf774b43cc4eceb45ed719420d0f2b",
+      "statement": "En ressourcekortlægning skal kunne forbinde donorbygningens partier med modtagerens funktion, levering og ansvar for transport og oplagring.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L49-L59",
+          "version": "repo-lines-v1:sha256:7c6e915b0cda6bb8407d7f63d02e0e4e3bea50ad0f55184e894c4abf925982db:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZlNTE3ZDBjZTE2ODQ5Yzk1ZDRmYTk0NWYxYWY2MTNiNzdjNTMzYzUzZjNiODcyMGYzODhiMGRiOGFjNmZjZjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkNGJmZWI2ZGFlZGYzNzQ0ZWE5MzNmNDkzYjkxZDJhMzdhNzBjZGYxYzBmODg0Mjk5ZWEzMmY1YWYxMmQ1NzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEyNmE4NjI4NWRjMDc4MDZhYmU5MzE0YjMzNzE0NDhlN2NjNjI5NzE4N2JhOWNjYzJjNzczNzc0MTg5NTZmYzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUxYzFmYzE1YzBiYjVhM2E0MjA3NDk0YzkxOTYxYTFiZTE3MDk3NDU2MjU4MDM3Yzg2ZDg1OWNlMTUwYmU4N2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_39ff202e3afa4542920801cb9bdb8945",
+      "statement": "Materialepasset samler egenskaber og identitet, og materialeatlas bruges som indikation ved vurdering af konkrete partier.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L61-L71",
+          "version": "repo-lines-v1:sha256:4b8f0f25fe9d1e310248f999b10a4940316cb2347054f0038eca088d6f55c337:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwNTMxODM0OWEyNzliNzkxMjM2MmZjOTE3MWQ4ZjM3MTMyYzk1NjE0OWQxOTVlYTdmZmUzZTE1Njg2NjY3NGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1OTJhNzAxN2I1NzdmYTliNmIwMDczZDFjYmI2OWVhZjY3ZmQ2NTZlYTE1MzJmNDRiYTQ2NWQ4ODI5ZGJjY2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJiYjVlY2I3YmM4ODg5MTM1NTk5NDIxNzQ0N2M3YmJmZGQ1ZjljN2Q0NzEwZWJkMjAyYzI4YTIyYjBjMDAxZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM3OTYyYWYzMGYzZjhjNzI1MmNhNzllZDExMDhhMDU2ZWU0YTY4Mzk5M2Q4YjQ4NzlkMDljMjc5MGE4ZDViNTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_faf038ccf7554c5ba62c2f713d6f500b",
+      "statement": "Arbejdsarket skelner mellem registreret, egnet efter sortering og faktisk indbygget mængde.",
+      "evidence": [
+        {
+          "resource": "repo://oplaeg/forste-besigtigelse.md#L14-L23",
+          "version": "repo-lines-v1:sha256:bf98b14b4d75c9a413a406a2dbafd736e60d99d932e48e4915c4766811cd8ae6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmNThhYmRmYTFiOTJhZjVhM2IxZjM1ZWEzZTI1ODNkN2U2MzVjMTU0NTg0ZmRmYjQ0MTM4ZmZhZWJhMTRmNzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiNWFhMWFmYzJmYThiZWVkMjFiNGUwMmMzMmZlOGY4ZDNiZTFiY2Y2OTE5ZjhlOTliYTM4Zjg4MzY2MWI4MzIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJhMWNmZDhlMjczNjg5MDQwNWIzMTJiNGQ4ODg2MTdiNzg1ZTVmOGEzZThhNmU3OTk4YmFkMWViNDQzNTU0YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzYWNkZTA1YjNmMmY0MmFkNmFmMmJhYjQ1ZjIwZTMzMDMyOWQwMDU5Zjg0ZjRhNDk3Zjc4OTFkNDNlOTVmYWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_99fb5400e65e47ea98ed1c8bb03f7151",
+      "statement": "Design for adskillelse omfatter tilgængelige samlinger og mulighed for at udskifte bygningslag.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/README.md#L73-L77",
+          "version": "repo-lines-v1:sha256:3c4563a91e1b6e11bf8200a644a11bca401f1161568191a3e4ab56ee7003ce38:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTIxN2E2ODMzMTA4ZjVlNjY3OTA0MmRjODYzMzhiMjQ4NmY1MGUyMWRhZjE5YzQyZTUzZmNkZWVmZjcxZWQ2MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDM2YjE5NDRlNGMxYzM0ZjA3MmFhZGY5MzEzMWY5NDJhMzE5MTJmMGE2YWM1YTAyMzdmY2NjODY0MmRmYzMzMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2UzYTEwMjMxNDU3MjIwNjFkNGU5YTAxY2E0N2M5M2IyMDY4NjI1YWI3MGM5MzgyMjgyY2ZmMGY4NGViNWEzMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjk0YjQzM2FmNmM1ODJmZTJiNzc2NGE3YWI1Mjc2NjhlODFmODRkNjZkOTlhNWJjNDU2MDhmMmEwZTE2NDJhNCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:19:29.468Z"
+  }
+}
