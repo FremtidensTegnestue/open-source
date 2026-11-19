@@ -1,0 +1,69 @@
+---
+type: guide
+title: "Hvad holdt efter afleveringen?"
+description: "Se, hvordan ejere og fagfolk fandt og håndterede fejl i gamle og nye dele."
+tags: [transformation, genbrug, atlas]
+verified:
+  - by: openwiki/0.9.0
+    at: 2026-11-19T17:47:29.628Z
+sources:
+  - id: openwiki-source-225ef0b40ffd63356a0573e6
+    resource: repo://atlas/drift.md
+generated: { by: "codex", at: "2026-11-19T17:47:29.628Z" }
+---
+
+# Hvad holdt efter afleveringen?
+
+Hvis et tag stadig ligger efter 30 år, er det værd at vide, om de samme sten ligger der, hvor tit nogen har været på taget, og hvad de skiftede. Her kan en arkitekt eller driftsansvarlig sammenholde, hvad en besigtigelse viste, hvad brugerne fortalte, og hvad der faktisk blev ændret.
+
+## Vinduer · kan et nyt tætningsbånd redde den gamle funktion?
+
+**Varmings Hus, Gentofte.** Det store vindue i stuen kan hejses op i hele rummets bredde. Den oprindelige mekanik virkede igen, da restaureringen sluttede i 2015. Senere meldte lejerne om træk og kulde. Realdania By & Bygs driftsmedarbejder beskriver, hvordan luft kom ind langs kanten, mens jernrammen ledte kulden ind. På rammen monterede man trælister med indbyggede børster. Den gamle ramme og dens bevægelse kunne bevares. Ejerens opfølgning fra 2021 beskriver resultatet, men oplyser hverken tætningslisternes præcise monteringsdato, en før- og eftermåling af luftlækagen eller en regning. [Dorthe Bendtsen og Realdania By & Byg, *Energiforbedring i historiske bygninger*, 2021, s. 129–130, interview med driften](https://realdaniabyogbygklubben.dk/media/b0jjuyu5/energiforbedring-i-historiske-bygninger.pdf?fm=pdf#page=130) · [Samme udgivelse, foto og billedtekst s. 132](https://realdaniabyogbygklubben.dk/media/b0jjuyu5/energiforbedring-i-historiske-bygninger.pdf?fm=pdf#page=132)
+
+**Carlsgade 2, Odense.** Facadevinduerne og de udvendige døre blev fremstillet af opskåret, afrenset genbrugstræ ved opførelsen i 1991–1993. De bevarede altså træet i en ny vindueskonstruktion. Ovenlysvinduerne blev købt nye. Ved gennemgangen den 19. april 2021 så Øllgaards to ingeniører ingen synlige skader på de besigtigede vinduer og udvendige døre. De havde adgang til seks af husets 14 lejligheder og foretog en visuel undersøgelse. Kilden oplyser ingen målt tæthed eller restlevetid for det enkelte vindue. [Øllgaard, *Det Genanvendte Hus – Odense. Tilstandsvurdering*, 2021, s. 2 og 4](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--odense.pdf#page=2) · [Samme rapport, s. 23–25, foto 42–49](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--odense.pdf#page=23)
+
+Ved næste eftersyn kan driften gå vinduet igennem sammen med brugeren. Lad brugeren åbne og lukke det, markér præcis hvor trækket opleves, og fotografér både ramme og tætning. Efter en reparation gentages prøven med samme vindue. En god malet overflade, en let bevægelig ramme og en tæt samling er tre forskellige fund.
+
+## Tage · hvor meget af tagets historie kan vi se fra loftet?
+
+De tre genanvendte huse i København, Odense og Horsens var nybyggerier fra begyndelsen af 1990’erne med byggematerialer fra nedrivninger. Ved opfølgningen sammenholdt man besigtigelser med erfaringer fra driften og beboerne. Driftsfolk i Odense og Horsens havde været tilknyttet siden opførelsen. I København dækkede driftsfolkenes erfaring omtrent de sidste ti år. [WSP, *De genanvendte huse 30 år efter*, 2022, trykt s. 10–11 / PDF-side 6](https://cdn.realdania.dk/media/sobnpvp5/de-genanvendte-huse-30-aar-efter-sammenfatningsrapport-1.pdf#page=6)
+
+| Sted og tag | Hvad kunne ses ved gennemgangen i 2021? | Hvad skal følge med oplysningen? |
+| --- | --- | --- |
+| Vimmelskaftet 4, Horsens | Genbrugte vingetegl fra en tørrelade på Bygholm Teglværk lå sammen med nye rygningssten. Oversiden så hel og jævn ud. | Undertaget dækkede en del af undersiden. De tilgængelige steder viste ingen tegn på utæthed. Fotografierne i rapporten viser, hvorfra taget kunne ses. [Øllgaard, *Det Genanvendte Hus – Horsens. Tilstandsvurdering*, 2021, PDF-side 13–14, foto 18–22](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--horsens.pdf#page=13) |
+| Carlsgade 2, Odense | Genbrugte naturskiferplader dækkede huset bortset fra trapperummet. De synlige tagflader så hele og jævne ud ved eftersynet. | Ved opførelsen kasserede man mange skifre og udvalgte hele plader uden synlige revner. Tilstandsvurderingen gælder de udvalgte, indbyggede plader. [Øllgaard, *Det Genanvendte Hus – Odense. Tilstandsvurdering*, 2021, s. 26, foto 50–51](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--odense.pdf#page=26) · [WSP, *De genanvendte huse 30 år efter*, 2022, trykt s. 12–13 / PDF-side 7](https://cdn.realdania.dk/media/sobnpvp5/de-genanvendte-huse-30-aar-efter-sammenfatningsrapport-1.pdf#page=7) |
+| Korsgade 20, København | Ingeniørerne kunne se lidt af tagstenenes underside bag det faste undertag. På de synlige steder så de ingen tydelige tegn på væsentlig utæthed eller beskadigede sten. De angav tagets tilstand som ukendt på grund af den begrænsede adgang. | FSB beskrev i interviewet tidligere udskiftning af sten og indkøb af nye ved akut behov. En senere besvarelse i samme interview omtaler en periode uden udskiftning. En præcis årlig fejlrate kræver daterede arbejdsordrer og antal sten på taget. [Øllgaard, *Det Genanvendte Hus – København. Tilstandsvurdering*, 2021, PDF-side 16, foto 23–24](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--kbenhavn.pdf#page=16) · [Golder/WSP, *Bilag B – Interviews*, FSB 2. marts 2021, svar 5, 9 og 17, PDF-side 15–17](https://www.wsp.com/-/media/campaign/denmark/documents/b-interview---pdf.pdf#page=15) |
+
+Når driften fortæller, at taget har holdt, så bed om tagplanen og arbejdssedlerne. Markér hver udskiftning på planen med år, årsag og oprindelse på erstatningsstenen. En reserve fra samme nedtagning kan da følges særskilt fra en nyindkøbt sten. Udsnittene af taget, hvor ingen har kunnet se undersiden, skal også kunne findes igen.
+
+## Facader · er afskalningen i malingen, pudsen eller stenen?
+
+I **Odense** blev brugte facadesten renset og indbygget i en ny ydervæg med vandskuret overflade. Ved besigtigelsen i 2021 så Øllgaard enkelte afskalninger i **facademalingen** og enkelte revner ved vinduerne. Murværket var overvejende dækket. Ingeniørerne bemærkede, at revner ved vinduer også forekommer i tilsvarende byggeri med nye sten. På **Korsgade i København** fotograferede samme to ingeniører afskalning på sokkelpuds og murværk samt beskrev enkelte revner i en ellers velbevaret skalmur. Fotografiet og beskrivelsen alene fastlægger ikke årsagen. [Øllgaard, *Det Genanvendte Hus – Odense. Tilstandsvurdering*, 2021, s. 9, foto 4–5](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--odense.pdf#page=9) · [Samme rapport, faglig vurdering s. 27](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--odense.pdf#page=27) · [Øllgaard, *Det Genanvendte Hus – København. Tilstandsvurdering*, 2021, PDF-side 14, foto 20–21](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--kbenhavn.pdf#page=14)
+
+Skal bygherren vælge mellem en lokal reparation og en større facadeistandsættelse, så markér hjørnet, vinduet eller sokkelfeltet på en opstalt. Tag et oversigtsfoto og et nærfoto med målestok. Skriv hvilket lag der er synligt, om samme sted tidligere er repareret, og hvad der har ændret sig siden sidste foto. En endnu ukendt årsag kan stå åben, mens udviklingen følges.
+
+## Installationer · hvad sker der, når huset tages i brug?
+
+**Fæstningens Materialgård, København.** I materialforvalterboligen og magasinbygningen valgte man enheder i vinduesnicherne, som blæste varm eller kold luft ud. Efter ibrugtagningen viste varmekapaciteten sig utilstrækkelig, og brugerne åbnede vinduerne på varme dage, mens kølingen kørte. Projektlederen fortæller, at enhederne senere blev ombygget til kun at varme og dermed kunne afgive mere varme. Bogen beskriver komfort og ombygning. Den oplyser ingen separat måling af, hvor mange kilowatt-timer ændringen sparede. [Dorthe Bendtsen og Realdania By & Byg, *Energiforbedring i historiske bygninger*, 2021, s. 123 og 125–126, projektlederinterview og foto](https://realdaniabyogbygklubben.dk/media/b0jjuyu5/energiforbedring-i-historiske-bygninger.pdf?fm=pdf#page=125)
+
+**Ryesgade 30, København.** Efter boligrenoveringen blev tre ventilationsløsninger fulgt fra august 2013 til slutningen af august 2014. Fra januar 2014 vurderede forskerne driften som relativt stabil. På målegrundlaget anslog de elforbruget til ventilation i opgang A, B og C til henholdsvis **9,9, 2,4 og 2,3 kWh pr. m² pr. år**. A havde centralt anlæg med konstant luftmængde, B centralt anlæg med behovsstyring og C anlæg i den enkelte bolig. Beboerne beskrev blandt andet støj, svage emhætter og betjening, der var svær at forstå. Fejl i C var lettere at lokalisere til ét anlæg, og service berørte én bolig ad gangen. Brug tallene som erfaring fra tre konkrete installationer med forskellige luftveje og styringer. [Jørgen Rose og Kirsten Engelund Thomsen, *Comprehensive Energy Renovation of Two Danish Heritage Buildings*, Heritage, 2021, afsnit 4.1, trykt s. 2754–2755 / PDF-side 9–10, tabel 3](https://mdpi-res.com/d_attachment/heritage/heritage-04-00155/article_deploy/heritage-04-00155.pdf#page=10)
+
+For et eget anlæg giver det mening at følge én klage hele vejen. Notér hvilken bolig, hvornår generne opstår, anlæggets indstilling, udetemperatur og den udførte rettelse. Gentag målingen eller spørg den samme bruger bagefter. Så kan driften se, om næste støjklage angår samme ventil eller en ny hændelse.
+
+## Hvad kostede det at holde delen i brug?
+
+En regning kan dække udskiftning af én del, adgang til en hel facade eller flere arbejder på samme tag. Aftal med driften at gemme fakturaens dato, prisår, momsgrundlag, omfang, antal dele og eventuelle fællesomkostninger. Når et projekt ikke offentliggør de faktiske udgifter eller arbejdsdatoer, kan læseren efterspørge netop fakturaen, arbejdsordren og opfølgningen. [Genbrugsregnskaber](genbrugsregnskaber.md)
+
+## Et feltskema til næste eftersyn
+
+Brug én række pr. hændelse. Behold samme ID, når en repareret del bliver siddende, og tilknyt et nyt ID ved en dokumenteret udskiftning. Felterne nedenfor er atlasredaktionens forslag.
+
+| Felt | Hvad skriver I? |
+| --- | --- |
+| Del og sted | ID, bygning, etage, rum eller facadefelt. Hvilken komponent sidder der, og hvor stammer den fra? |
+| Tid | Tidspunkt for indbygning, eftersyn, første kendte symptom og eventuelt indgreb. Angiv omtrentligt år, når kun året kendes. |
+| Fund og omfang | Hvem har set, målt eller meldt hvad? Skriv hvor mange dele der blev undersøgt, og hvilke der var skjult. Link til foto, måleserie, beboersvar eller arbejdsordre. |
+| Årsag | Beskriv symptomet først og årsagen særskilt. Angiv om forklaringen er undersøgt, oplyst af en bruger eller fortsat uafklaret. |
+| Handling og resultat | Hvad blev bevaret, justeret, repareret eller skiftet? Hvad kostede det på det angivne prisgrundlag? Gentag eftersynet og skriv, om problemet vendte tilbage. |
+
+Levetid i en byggesag kan først opgøres med en kendt begyndelse, et defineret slutpunkt og en registreret årsag til udtagningen. Et fungerende vindue ved et eftersyn giver en observeret periode i brug frem til eftersynsdagen. Tidligere brug af donortræet og fremtidige år i vinduet er særskilte oplysninger.

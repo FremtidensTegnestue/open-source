@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:17e0ba7e0450b548180a4a34d8482979cb98dcd4057198c37e27bbf8f90075d7",
+  "claims": [
+    {
+      "id": "claim_4a96f37cd84a49c8ba59bc2eba203532",
+      "statement": "På Indre Vesterbro oplyste både tilbageflyttede og permanent genhusede deres boligudgifter. Tallene i evalueringen er gruppegennemsnit.",
+      "evidence": [
+        {
+          "resource": "repo://atlas/beboere.md#L5-L14",
+          "version": "repo-lines-v1:sha256:1d5a6a67f2433a76d5dda30a1a8ca54e4ec64a8527c21d2c167d145b996504a6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJkOTMyYWNmYjM0ZTA3ODY1MDE5YjM3ZjY0OGQ0MDdhZGQxYWQ4NjlkMzVlODZkNWExNTYxMTgxNTZmYzc1ODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhZjhhMjFmYzQ0NThjYWY3MWFmMjM4NzU4NjAyMjNjNDczMGIyZWNmNTVlM2ZjYmI2ODk3YjViNWQyZjVjNWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUyZTA1NzdkNGY5YThhOGU2NjdkMmQ3YTRjODFmODQzN2YzYmM5YmNmNTE4MzQwMjRkOWM1YjNjMTRlNTM5NTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFjZWY2ZTlhNTI1ZTg5MGMwNGZhYmNjOGYxOWFkZWM3ZDRmZDQ5MWU2Yzc4ZTkxZjhiMmMyMmQzNDI4ZGQ1MTEifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T17:47:29.628Z"
+  }
+}

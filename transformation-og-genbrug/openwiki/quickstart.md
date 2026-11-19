@@ -5,7 +5,7 @@ description: Dansk opslagsværk om transformation og genbrug med fagartikler, ge
 tags: [transformation, reuse, retrofit, discussion]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:56:04.691Z
+    at: 2026-11-19T17:47:29.628Z
 sources:
   - id: openwiki-source-4384120cff233b400d026eab
     resource: repo://haandbog/README.md
@@ -21,7 +21,7 @@ sources:
     resource: repo://oplaeg/vinduer.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "codex", at: "2026-11-19T16:48:11.550Z" }
+generated: { by: "codex", at: "2026-11-19T17:47:29.628Z" }
 ---
 
 # Kom i gang med transformation og genbrug
@@ -42,6 +42,8 @@ Når en bolig skal fungere bedre, hvad kan vi så opnå med det, der allerede er
 | I skal vælge mellem tilbud, efterprøve en klimapåstand eller finde bygherrens pligter | [Klima, miljø, økonomi og ansvar](haandbog/klima-og-ansvar.md) |
 
 **Se hvad der skete i virkeligheden.** I [de danske projekter](haandbog/projekter.md) kan du følge både udførte indgreb, målinger efter indflytning, dyrere løsninger og beregnede alternativer. Ved en besigtigelse kan du tage [arbejdsarket](../oplaeg/forste-besigtigelse.md) med.
+
+**[Danske bygninger før og efter transformation](atlas/oversigt.md).** Brug atlasset, når I har brug for tegninger, regnskaber for genbrugsdele, erfaringer fra driften eller beboernes faktiske boligudgifter.
 
 **Til dig, der bruger en agent.** Bed den finde det opslag, som bedst svarer til din bygning og dit spørgsmål. Bed agenten svare på tre spørgsmål. Hvad viser originalen? Hvor står det? Hvad skal undersøges på din adresse? Gå til den angivne PDF-side eller paragraf, hvis beslutningen afhænger af et bestemt tal eller krav.
 

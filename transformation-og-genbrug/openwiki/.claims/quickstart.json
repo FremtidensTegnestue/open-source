@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:0645cdb8fc00994f091b39413bcb53485e9bb4ecd004814e1197537f72808f03",
+  "pageVersion": "sha256:c7e06b0dabae6f5f4d0064f15ec86bbfcd5c56163b6fed621e48a9a3251c877b",
   "claims": [
     {
       "id": "claim_e09c0474a39448bcaa092916485b9356",
       "statement": "Området samler spørgsmål om bygningens anvendelse, direkte genbrug, reparationer og nye materialer.",
       "evidence": [
         {
-          "resource": "repo://README.md#L9-L11",
+          "resource": "repo://README.md#L11-L13",
           "version": "repo-lines-v1:sha256:4e028c37ca55d65d23068b03978591a230ac6f7795e7d199cee81b69cbfabbab:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNjOGU3YmFlZmY4NDQ2ZmFhZDZkOTdjM2U3MDU0MjdmNDk2MDY0ODQ5ZmRiMmUwYzdkZTE0OWQ1MzYxY2VmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODZjYTQzYzAyYzkzZjVlNjExOTFiNjUwMzI0YThiYWIyNzZlOWMwZjY4YzY5MjA5NDJiOTM2NWEzNDgzYTU3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDAzMjE5ZWEwNDYzMzJkN2NiOTQzZDM1MmNmMzkxNzc1YTU0YjkyOWZhOGU2YzcxMTVjYjY2MDZjYzQwZjIxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdkYmYxYmFhMGU3MWZlMGE4MGM1MGMxNGZhZjE2OTQ5NDdhOTU4ODE4YzgyZjdhOWZmN2ZmYTliNjY3ODhjZSJ9"
         }
       ]
@@ -27,7 +27,7 @@
       "statement": "Vidensgrundlaget samler projekter, primærkilder og et fælles besigtigelsesark for vurdering af bygnings- og komponentvalg.",
       "evidence": [
         {
-          "resource": "repo://README.md#L25-L27",
+          "resource": "repo://README.md#L27-L29",
           "version": "repo-lines-v1:sha256:ab94f59903410711aa018e0650d0f25beec3f84b98656f78ca2864abc24fa14a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzA0ZjBjNTAyMzQxYmJiMDc1OGU2NWQ2NWFmYmQzZWQ0MWM1ZmUyZmM2MGZmYWQ5OGU3ODkwNmRmZDYxOGQ2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM5MWI2YmQyNTZmNjZhYTQ4NGEzMTI0NDg0OGIwOGE3NzQ2MjE0MjkzM2M2NGI5YzdjYmYxODYzMjJmOGI2NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTU5N2Q3MDQxMWMxMzkxNTlkZWU1NmQ3OGM3MWQ2YzIyNzcyMzI1M2MzNmZmMzlkYWEyZDVjMmE1YTVmZjk4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         },
         {
@@ -41,7 +41,7 @@
       "statement": "Opslagsværket knytter bygnings- og komponentviden til originalkilder og deres anvendelsesgrænser.",
       "evidence": [
         {
-          "resource": "repo://README.md#L13-L19",
+          "resource": "repo://README.md#L15-L21",
           "version": "repo-lines-v1:sha256:792188e0313072f57db22f03d5eaf851809bb570af069a555f484e5c98a66153:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRhYTFkOWUzNDFiMDVlODYzMWI2M2UzZmM0NWViMGRhZDJhMGM2MjA1NTY3MTEzM2E3YWU2MGZmZWNkMDMyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFlZjMyZjg2ZGUwZGVkODM3ODE3MmM2MzgwMDM3ZTEwYzMwMmJlNmE0OWYwNGRhNTAwMjEyYjliMGNmNWRiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc4MzhlMzFhMTZmMWE2ZGZhODlhOGE5NmE4MGE1NjU0MzkxMjRlMDkxZTA2NzM1NTdjZDA3ZWFiNDJiMmYxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VkYTRjMmNmOGNhMjNhMGIxMGQxOGYxYjQwNmU2NGVmMTU5NjhkYmZlYTQyMzU1Mjc1YzllYWVjN2ZhYjMyZSJ9"
         },
         {
@@ -109,14 +109,24 @@
       "statement": "Håndbogen fordeler beslutningsspørgsmål på seks områder og giver fra hvert område adgang til originaler, projekter og deres konkrete forbehold.",
       "evidence": [
         {
-          "resource": "repo://haandbog/README.md#L3-L18",
-          "version": "repo-lines-v1:sha256:a8e27abadea510d2b185e9c6e89f973206ffb41dee23613547aab58a744a65a7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YWM2N2Q4YzU3NGU1MzgzZGQ1ODg0ZTQ4NDI1NmYxNDk5MjdmZTg5ZTdiODgwNzgzMmIyMzcxZjY2OTgxNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3ZmRhMjhlNzdlYzI4YTNhM2Q1ZTJlNTc3ZGJlZWZhM2E2MzczYmY1ZjFlOTJkNTQxOWEyNDgwY2E4OGY4M2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg2ZGRkOWUzMWZjZGMwOGJiN2M5YzJjODQ4MDE5Y2Y0ODdhMTA3ZTIxZTk5NDU5MjQ0MzkyYjJlYmM4Y2I0NzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+          "resource": "repo://haandbog/README.md#L3-L20",
+          "version": "repo-lines-v1:sha256:fe4042653278ca71944c04bd7c77c17b0fa1741d9e13913b7412d0b17bb4526e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YWM2N2Q4YzU3NGU1MzgzZGQ1ODg0ZTQ4NDI1NmYxNDk5MjdmZTg5ZTdiODgwNzgzMmIyMzcxZjY2OTgxNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3ZmRhMjhlNzdlYzI4YTNhM2Q1ZTJlNTc3ZGJlZWZhM2E2MzczYmY1ZjFlOTJkNTQxOWEyNDgwY2E4OGY4M2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg2ZGRkOWUzMWZjZGMwOGJiN2M5YzJjODQ4MDE5Y2Y0ODdhMTA3ZTIxZTk5NDU5MjQ0MzkyYjJlYmM4Y2I0NzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3e07409d9965466d8af4a4b80b11c3e9",
+      "statement": "Der er en selvstændig indgang til atlassets fire områder.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/README.md#L16-L16",
+          "version": "repo-lines-v1:sha256:70764a32954982c8cc57064fb893872409d198f7f110f7446b3ce4a354ec22f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA3NjRhMzI5NTQ5ODJjOGNjNTcwNjRmYjg5Mzg3MjQwOWQxOThmN2YxMTBmNzQ0NmIzY2U0YTM1NGVjMjJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA3NjRhMzI5NTQ5ODJjOGNjNTcwNjRmYjg5Mzg3MjQwOWQxOThmN2YxMTBmNzQ0NmIzY2U0YTM1NGVjMjJmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWZiMzNiN2FlNjcwZGViNThlMGJmMTk0NWQ0MWE4ZTUwZGI2NTIzZTVkZGZkYzk3NTYxN2ZlYjQ1MDg3NmE4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWM5ZmMxM2MwYzNiNDJiMTRlNmJmNmE4MGZkODNiNDc3NTVhZjQxNjE2NDdiZTNmZGU5OWE1ODZiZDliYTZhZSJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T16:56:04.691Z"
+    "at": "2026-11-19T17:47:29.628Z"
   }
 }

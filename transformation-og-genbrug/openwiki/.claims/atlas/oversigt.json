@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:dbcd86d04e6fb7897eb633b8f3238e8fba43c8d82cce2ce47a9fb73766819f9e",
+  "claims": [
+    {
+      "id": "claim_1c4b79e91fbd433e94ecdd43c6e031b9",
+      "statement": "En læser kan begynde med boligopdeling, udgifter til genbrug, driftserfaringer eller boligens brug efter en renovering.",
+      "evidence": [
+        {
+          "resource": "repo://atlas/README.md#L5-L11",
+          "version": "repo-lines-v1:sha256:e5241ae33a8c1ded9eea695cf55e0e2fe46a50717753ca140a66817798316e66:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjc1OGI3NzQzY2M2MDMwZWZlZmQ5NjgyODliMmEzNmUwNWJlYTg2NzRiNTlmZjgzNzAwMmFhOTU0YWE2ZDc4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQ3ZWQzMjc1ZTA1MzA4MjgwYTQ2YmIyMTIzZTJmYmQ1YmQzYTQyMWNhNWM1NTFmMjU4YjNkOTYzMjNiMTc2MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDM2NDMxN2UzYjJiMTA4NzIxYTU3N2I1Y2JkY2JlYzVkMGU0MGFhOWQwM2Q2MTlhNjllMDIzOTQ3NjM4ZWVmNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T17:47:29.628Z"
+  }
+}
