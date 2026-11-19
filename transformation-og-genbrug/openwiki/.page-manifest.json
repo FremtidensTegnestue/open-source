@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "pages": {
+    "/openwiki/cases/vinduer.md": {
+      "gitHead": "f613fcb2d940f730535455a4a14b9a415dd861fd",
+      "sourceFingerprint": "sha256:b7063408b8484f24da7a9748ffb0d37a919f42d08bf25fee288c33c4a3d2fde5",
+      "pageVersion": "sha256:9856af8900b529c8621476df308ebaf1ad615c9c0beca25fd0b15afe8d6c8c59",
+      "completedBy": "codex",
+      "completedRunId": "c8864f60-52d5-4e42-b9bc-1cfc586950af"
+    },
+    "/openwiki/debat/bidrag.md": {
+      "gitHead": "f613fcb2d940f730535455a4a14b9a415dd861fd",
+      "sourceFingerprint": "sha256:b7063408b8484f24da7a9748ffb0d37a919f42d08bf25fee288c33c4a3d2fde5",
+      "pageVersion": "sha256:a8aad2cfdb2e99a35cf66f7ffc91afe199570f715988d69d32074cf07a664043",
+      "completedBy": "codex",
+      "completedRunId": "c8864f60-52d5-4e42-b9bc-1cfc586950af"
+    },
+    "/openwiki/quickstart.md": {
+      "pageVersion": "sha256:a6ef9b2a835ddd795dbe7d03eb3cebd6cfec4c168836e5aff140dda074523eec",
+      "completedBy": "codex",
+      "completedRunId": "cf13781f-2e8d-47f7-8996-c192aa6a4ee9",
+      "gitHead": "f613fcb2d940f730535455a4a14b9a415dd861fd",
+      "sourceFingerprint": "sha256:b7063408b8484f24da7a9748ffb0d37a919f42d08bf25fee288c33c4a3d2fde5"
+    }
+  }
+}

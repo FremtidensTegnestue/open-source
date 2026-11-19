@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9856af8900b529c8621476df308ebaf1ad615c9c0beca25fd0b15afe8d6c8c59",
+  "claims": [
+    {
+      "id": "claim_ec92f69cad33488093b49271549628a6",
+      "statement": "Oplægget starter med beboerens oplevelse, fælles mærkning af fotos og mål og en undersøgelse af vinduets stand.",
+      "evidence": [
+        {
+          "resource": "repo://oplaeg/vinduer.md#L3-L7",
+          "version": "repo-lines-v1:sha256:a3871da1e20208a0609e9286cdc37a5bacf955989df841622cd9c961b7123993:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTUyNzllMDY1ZjFmYTgzNmZhYjhhMDEwYjY5MWI0NWQyMjZlZjFjMzhlMDdlY2E2NDNjNTc3NDIwNjMyMTBlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmM5Y2E5ZDc3NWQ0YWQwNjkzZjdiNDA2YzM3ODExNzI3ZWNkZmEzNjNjZDU3ZjdlZjg4OTljM2ExODM4ZDNkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTA3ZWFlZDAzOTEzYjU2MDU4NzgwOTlmNzY2NjgxMGUwMTdmYjFkYTYxY2EyYWU5OWJhYTU1NTAyZTc3YjY5MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZlYzhkMDhkZjdlMTAwMDE3MDg5Njg1ZTgxNWUzZDI1ZGUzNWNhYzNmYzNmYzU4MTZlNmIxM2U3ZGFhNmU4NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_80f3148e5d2945f08c3f488bd990214d",
+      "statement": "Der er fire scenarier for vinduet, og efterisolering rejser spørgsmål om samlingen mellem væg og vindue.",
+      "evidence": [
+        {
+          "resource": "repo://oplaeg/vinduer.md#L9-L18",
+          "version": "repo-lines-v1:sha256:5a81dd9531a1247428c9b7936fd3d04940171c4fad567cf4537269cd441561e5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZkZmVjMDYyZTQxNmUxNDdmMDc1ZTQzMThlMjIyYTliODg0Mjc1MGQzM2I2N2FjMmRlNmExZmZkMzA5NjE2NzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE4NGNjZDQzNmQ4ODQzZmNkYWFhODA1ZmFiM2FhYWY3OThjYzRkZWRiNDQ1N2Y0M2Y1NDgyNDkwZTlkZmVhMmYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE5YTA2NDZlMzBlZGVkYWFhZjYxMjU0ODViYTFjMmRmN2YwODYwNTVjMjlhY2NkODBjMmQ1MTRiZTk4ZGNmN2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhNTI3YjBkMmUwMjc3NjY3ZWRkMTA1NmUzY2Q3NWFhYTA3ZDAzNTE1MzU3M2FlYTk5YWFkN2JkNzAyNDEwOWQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_aae712d21dd44d3cad5c20bb047496f8",
+      "statement": "Sammenligningen forudsætter samme åbning, funktion og periode og skelner mellem drift, materialer og antagelser.",
+      "evidence": [
+        {
+          "resource": "repo://oplaeg/vinduer.md#L20-L24",
+          "version": "repo-lines-v1:sha256:d1ff13c73472c4d061c88af4c41c71e05407bb6363be119a7863f89d7c003fae:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQ5MTgyOGExNDg3NjAwODkxNWUzOTZmMmM1N2NhYmU2ZTBkN2E2M2Q0YzgyZDQyNjQ2OTFmOTUzNTZjMjMzZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDI5MzRiN2E1YmJlNmIxMzViNWRhMTExNjI3YzYxOGRlNzFkZmE4YTc1MzhhMTkxOTQzZjdiMWJiNjUxOWI0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTliMDYzNTliOTQyMGVkMmZlNGZlNzYxMDFlN2MyYjdmNzgxMTQ1MjgzZTdmMTY1YTM5ZDZiNTgxNDExNmE2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjY1YjdiZDFkMzM5MjlkYjJmODY2Njk1YWM0MjZjNWZkZjBlYTJkMzg5ZTdmMzA2OTY5MzFmZmVhMWFiMTZmZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T06:50:07.372Z"
+  }
+}

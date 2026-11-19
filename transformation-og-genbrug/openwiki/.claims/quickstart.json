@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a6ef9b2a835ddd795dbe7d03eb3cebd6cfec4c168836e5aff140dda074523eec",
+  "claims": [
+    {
+      "id": "claim_e09c0474a39448bcaa092916485b9356",
+      "statement": "Området samler spørgsmål om bygningens anvendelse, direkte genbrug, reparationer og nye materialer.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L3-L11",
+          "version": "repo-lines-v1:sha256:917a12a0bae52549e6f7560d9411b10bb12df0611a10ea0323797d428e24e288:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTU1ZjY4MGMyNGZiMzg2MDkzNDc3YmZhZjdmNTM4N2UyMDRjYzQwODMzYmVkNWIyMWVjODFmZTUzOWI3YjI0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODZjYTQzYzAyYzkzZjVlNjExOTFiNjUwMzI0YThiYWIyNzZlOWMwZjY4YzY5MjA5NDJiOTM2NWEzNDgzYTU3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQ4ZWI1Yjk5OWViM2JmZmQ3MzZlODEyYzIxMDUwOTI5NzZjNWI3MGM5NDc1MDRmMGQ1ZmQ4OGM2ZjAyMzJkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTE2YzY2MDZhNTdmOWQ4ZDk2N2NmMTkyZmRiOTkxY2YxODNmMjgwNWZlY2UxMDFiYTM0YzMwMGVmMTAzZWFhNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_34095123d52d462d8e09eb5841a7e48b",
+      "statement": "En opmålt case, der forbinder BIMCraft, SolidCraft og materialeværktøjet, er et foreslået forsøg.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L13-L19",
+          "version": "repo-lines-v1:sha256:ad103b7c3482d5166e4170cc7d32e3d2aa3d1ffa3fc62b12d800fc5d5ff081c7:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWU2ZWM1ODQxZjc2OWQ2NTJlYTU0ZDFlNzIzOWYxZmFkMTFiNWQ0NDg2ODNhZGQ5Zjg2YzgxNDZmZWQyZGU2ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFlZjMyZjg2ZGUwZGVkODM3ODE3MmM2MzgwMDM3ZTEwYzMwMmJlNmE0OWYwNGRhNTAwMjEyYjliMGNmNWRiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc4MzhlMzFhMTZmMWE2ZGZhODlhOGE5NmE4MGE1NjU0MzkxMjRlMDkxZTA2NzM1NTdjZDA3ZWFiNDJiMmYxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VkYTRjMmNmOGNhMjNhMGIxMGQxOGYxYjQwNmU2NGVmMTU5NjhkYmZlYTQyMzU1Mjc1YzllYWVjN2ZhYjMyZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_660731f876724a408fbb2b650c09b15a",
+      "statement": "Det første oplæg bruger en tænkt bolig og undersøger fire muligheder for vinduet.",
+      "evidence": [
+        {
+          "resource": "repo://oplaeg/vinduer.md#L3-L16",
+          "version": "repo-lines-v1:sha256:1b42cb55c45ee1a6293d5de78640193fb637a63b14a0043a2a0112449bbef98a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1Mjc5ZTA2NWYxZmE4MzZmYWI4YTAxMGI2OTFiNDVkMjI2ZWYxYzM4ZTA3ZWNhNjQzYzU3NzQyMDYzMjEwZWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjkzMmRlNDcwZjJhMGE0ZDJjMzA1Y2U0ZWRmZTM0OTI0MWZlOGJiZjk3ZTQ5YTVlNTExMTc4ZDlmNmFjMjY1OTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwN2VhZWQwMzkxM2I1NjA1ODc4MDk5Zjc2NjY4MTBlMDE3ZmIxZGE2MWNhMmFlOTliYWE1NTUwMmU3N2I2OTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE5YjA2MzU5Yjk0MjBlZDJmZTRmZTc2MTAxZTdjMmI3Zjc4MTE0NTI4M2U3ZjE2NWEzOWQ2YjU4MTQxMTZhNmIifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T06:53:20.983Z"
+  }
+}

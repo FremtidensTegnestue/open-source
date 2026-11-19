@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a8aad2cfdb2e99a35cf66f7ffc91afe199570f715988d69d32074cf07a664043",
+  "claims": [
+    {
+      "id": "claim_deab38f06687454fbbdf8f787886137b",
+      "statement": "Man kan deltage med et spørgsmål på GitHub eller en foreslået ændring til debatloggen.",
+      "evidence": [
+        {
+          "resource": "repo://debat.md#L1-L5",
+          "version": "repo-lines-v1:sha256:0094439a483edb7184ee3d6de3d46f2d5e082cc3007794a3fcbcc071e2a56ec1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M5NmMwNjMyYjM0MWFiMmFmNDFmZGM1N2MzZGExN2YzNTRhY2YzM2FiZDEwNDg0N2E1ZmFkMzlmZTBlYmQzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWI2NzdmNTE2NTA2NDNhMGViYTJhYjZiYWM4M2I3NzYzZmI0ZWU2MzNlOTljMmZiMjE4YWZjNDlhNzhiMWRkYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDU5NTk4NWFkNDM2ODllYTc3MGQzMDY3M2U3YzY4NzAxNzliNTZmOTYyZDBmMDk3N2FiYWM5NWM3Nzc1MWM4OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8db8c5af213f4c9dacd57d525936b014",
+      "statement": "Debatloggen giver plads til observationer, kilder, antagelser og uenighed, og beder om anledning til at genåbne en truffet beslutning.",
+      "evidence": [
+        {
+          "resource": "repo://debat.md#L13-L21",
+          "version": "repo-lines-v1:sha256:60bcbfc7fad4939d7c5e94020639860e99d4bf2277e0006c4109eb394908f01b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU2ZDIyOGE3ZGM5YjRhZjNhYjZkN2Q5OTI4YjQ5OWVhYzQxMDJhYzU3MDlhN2U4ZmFmODQ2NzljMjBjZGU3YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjc0NjJlODZlZDFjOGQxMTE3ZDA3Mzc5YmQyZDQwMTUxYTczYTg5NTZmZjkzMWQyNTg4YjlkOGQzYjg2YzM5MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWMyYWYyZDEyMmRiMDg4NjgwM2E5ZGU4ZTg2OTA4YTJmODNiZjFkOTljOTI3YjVjOWZjOTQ2MDQ4Y2ZlYjg5OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T06:50:07.372Z"
+  }
+}
