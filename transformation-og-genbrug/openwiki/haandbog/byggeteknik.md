@@ -5,11 +5,11 @@ description: "Vælg undersøgelse af revner, fundering, konstruktioner, klimask�
 tags: [transformation, building-technology]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:52:25.207Z
+    at: 2026-11-19T16:56:04.691Z
 sources:
   - id: openwiki-source-a161b7e1bb5165bcf1e0b0bc
     resource: repo://haandbog/byggeteknik.md
-generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
+generated: { by: "codex", at: "2026-11-19T16:56:04.691Z" }
 ---
 
 # Byggeteknik ved ombygning
@@ -48,7 +48,7 @@ Undersøg først vandets vej og den eksisterende puds. I traditionelt muret bygg
 
 ## T7. Kan en velfungerende brugt dør indgå som branddør på den nye adresse?
 
-Afklar den krævede funktion i modtagerbygningen allerede ved udvælgelsen. Registrér dørblad, karm, mærkning, beslag, slitage, tidligere ændringer og den planlagte montage. DBI udviklede i GenDør en metode til at udvælge og vurdere brugte døre. Tre udvalgte døre blev demonstreret i byggeriet TRÆ i Aarhus under de konkrete projektforudsætninger. Brug værktøjerne til at sortere og dokumentere. Lad brandrådgiveren vurdere, om dokumentationen dækker netop døren, dens montage og dens nye funktion. [Dansk Brand- og sikringsteknisk Institut, *GenDør*, afsluttet 2024, Demonstration og Fire værktøjer](https://brandogsikring.dk/forskning-og-udvikling/brandsikre-biobaserede-byggevarer/gendoer/)
+Afklar den krævede funktion i modtagerbygningen allerede ved udvælgelsen. Registrér dørblad, karm, mærkning, beslag, slitage, tidligere ændringer og den planlagte montage. DBI udviklede i GenDør en metode til at udvælge og vurdere brugte branddøre til byggeri i brandklasse 4. Tjeklisten beskriver den synlige tilstand. Brandmodstandsevnen kræver særskilt brandteknisk dokumentation. Tre udvalgte døre blev demonstreret i byggeriet TRÆ i Aarhus under de konkrete projektforudsætninger. Brug værktøjerne til at sortere og dokumentere. Lad brandrådgiveren vurdere, om dokumentationen dækker netop døren, dens montage og dens nye funktion. [Dansk Brand- og sikringsteknisk Institut, *GenDør*, afsluttet 2024, Demonstration og Fire værktøjer](https://brandogsikring.dk/forskning-og-udvikling/brandsikre-biobaserede-byggevarer/gendoer/)
 
 ## T8. Underboen hører både skridt og tale. Hvad skal vi bestille en lydmåling af?
 

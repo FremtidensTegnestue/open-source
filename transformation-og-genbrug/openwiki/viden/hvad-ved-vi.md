@@ -5,7 +5,7 @@ description: Status for spørgsmål, hvor danske kilder giver et delvist svar, o
 tags: [evidence, research-gaps, Denmark]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:50:48.569Z
+    at: 2026-11-19T16:56:04.691Z
 sources:
   - id: openwiki-source-678884f587ced1a681778868
     resource: repo://kilder/beboere-og-miljoe.md

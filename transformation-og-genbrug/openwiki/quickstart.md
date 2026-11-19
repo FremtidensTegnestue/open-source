@@ -5,7 +5,7 @@ description: Dansk opslagsværk om transformation og genbrug med fagartikler, ge
 tags: [transformation, reuse, retrofit, discussion]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:48:11.550Z
+    at: 2026-11-19T16:56:04.691Z
 sources:
   - id: openwiki-source-4384120cff233b400d026eab
     resource: repo://haandbog/README.md

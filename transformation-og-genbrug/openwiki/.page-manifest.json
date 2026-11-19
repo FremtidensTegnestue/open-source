@@ -23,18 +23,18 @@
       "completedRunId": "c8864f60-52d5-4e42-b9bc-1cfc586950af"
     },
     "/openwiki/haandbog/byggeteknik.md": {
-      "pageVersion": "sha256:ed1333025a3f746c0251fc4bfec355fbeeffdf117a8642828c35851c0fab3d17",
+      "pageVersion": "sha256:522b4ad3b8c97f09c83f9ac7ca043e05a198b7386c5d7fe32292e3ef951c78fb",
       "completedBy": "codex",
-      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c",
-      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
-      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77"
+      "completedRunId": "b8c5925a-133a-4652-890c-a504b995e290",
+      "gitHead": "f04e438583dd79acec78359aa1e73f8a00d4ced4",
+      "sourceFingerprint": "sha256:1cb6e1c1f5e5dfebc3b87d6eb31ffc2d52005cc430e0619aca8439f7349eb7c6"
     },
     "/openwiki/haandbog/bygningen.md": {
+      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
+      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77",
       "pageVersion": "sha256:05de8bebeed4b019ed7ed29c37046a24d6f488031c78538f4ce3df35572d9e3d",
       "completedBy": "codex",
-      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c",
-      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
-      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77"
+      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c"
     },
     "/openwiki/haandbog/gammelt-og-nyt.md": {
       "gitHead": "ab8535b9857f0fc7746f1a4a9edc6bc30929acc7",
@@ -44,39 +44,39 @@
       "completedRunId": "dca41ccb-3d36-47ba-ac46-8f922c178be6"
     },
     "/openwiki/haandbog/genbrug.md": {
+      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
+      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77",
       "pageVersion": "sha256:7c84e6692620830283bd7d04f1cba8949d7078a89f12f0dcdfeb056470d8dbba",
       "completedBy": "codex",
-      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c",
-      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
-      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77"
+      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c"
     },
     "/openwiki/haandbog/klima-og-ansvar.md": {
-      "pageVersion": "sha256:36d56fc3a6377cf8866a3c095c360043587e909a948b7f7637dba0082962fb1e",
+      "pageVersion": "sha256:542b6f85c6acaf4e099e8dfa4241c5f2e921730a01fd7edcf41b52f2d9252f4f",
       "completedBy": "codex",
-      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c",
-      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
-      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77"
+      "completedRunId": "b8c5925a-133a-4652-890c-a504b995e290",
+      "gitHead": "f04e438583dd79acec78359aa1e73f8a00d4ced4",
+      "sourceFingerprint": "sha256:1cb6e1c1f5e5dfebc3b87d6eb31ffc2d52005cc430e0619aca8439f7349eb7c6"
     },
     "/openwiki/haandbog/mennesker.md": {
+      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
+      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77",
       "pageVersion": "sha256:0cc24a6fd1c3ba36deeae250e0c6dab24ad4e6beb847f5ed259a2c7089d202c3",
       "completedBy": "codex",
-      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c",
-      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
-      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77"
+      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c"
     },
     "/openwiki/haandbog/projekter.md": {
-      "gitHead": "ab8535b9857f0fc7746f1a4a9edc6bc30929acc7",
-      "sourceFingerprint": "sha256:5a64958e34f468d2c5901b09b356dbea4527379f3aa63a9a98ccd34cadaf0d20",
-      "pageVersion": "sha256:2ecb5641a08b6ee05883dc636b4151d50e01fc60097e77cb0831237aa4097a46",
+      "pageVersion": "sha256:483bac9fdd1db67f2aace6844c310ffc9f95a6e8de04b81a4bdf20e24be34a64",
       "completedBy": "codex",
-      "completedRunId": "dca41ccb-3d36-47ba-ac46-8f922c178be6"
+      "completedRunId": "b8c5925a-133a-4652-890c-a504b995e290",
+      "gitHead": "f04e438583dd79acec78359aa1e73f8a00d4ced4",
+      "sourceFingerprint": "sha256:1cb6e1c1f5e5dfebc3b87d6eb31ffc2d52005cc430e0619aca8439f7349eb7c6"
     },
     "/openwiki/quickstart.md": {
-      "gitHead": "ab8535b9857f0fc7746f1a4a9edc6bc30929acc7",
-      "sourceFingerprint": "sha256:5a64958e34f468d2c5901b09b356dbea4527379f3aa63a9a98ccd34cadaf0d20",
-      "pageVersion": "sha256:d216c32292fb9d3f40e0bbaab392931707502795000ad43acedbe3d1a118ebca",
+      "pageVersion": "sha256:0645cdb8fc00994f091b39413bcb53485e9bb4ecd004814e1197537f72808f03",
       "completedBy": "codex",
-      "completedRunId": "dca41ccb-3d36-47ba-ac46-8f922c178be6"
+      "completedRunId": "b8c5925a-133a-4652-890c-a504b995e290",
+      "gitHead": "f04e438583dd79acec78359aa1e73f8a00d4ced4",
+      "sourceFingerprint": "sha256:1cb6e1c1f5e5dfebc3b87d6eb31ffc2d52005cc430e0619aca8439f7349eb7c6"
     },
     "/openwiki/viden/aftaler-og-drift.md": {
       "gitHead": "04ad69f59abab22527d193cfa2706bd3d98687c7",
@@ -121,11 +121,11 @@
       "completedRunId": "b22bbacf-4a35-4082-a536-5f49fecf0c2c"
     },
     "/openwiki/viden/hvad-ved-vi.md": {
-      "gitHead": "f54fa6963af0df8e3fa0925c91a3a4cc4c4337d5",
-      "sourceFingerprint": "sha256:5959387a7a8e87910d83afcaf50d9123d1e2a2358dc7ebb64a49affe44138cc1",
-      "pageVersion": "sha256:50be1d7fb4234f4f98b7d7ec8f3d7600ae0f9371b4b16003254d85276139c470",
+      "pageVersion": "sha256:0f1ceb9ea284c6747e40956ccd3e0f9c16079cd34f3d37940c39fea96a24a2cd",
       "completedBy": "codex",
-      "completedRunId": "523d51f0-65a0-45ef-aff4-c264a03397b9"
+      "completedRunId": "b8c5925a-133a-4652-890c-a504b995e290",
+      "gitHead": "f04e438583dd79acec78359aa1e73f8a00d4ced4",
+      "sourceFingerprint": "sha256:1cb6e1c1f5e5dfebc3b87d6eb31ffc2d52005cc430e0619aca8439f7349eb7c6"
     },
     "/openwiki/viden/klima-og-oekonomi.md": {
       "gitHead": "e87e5ee52185cf18d1aeeac5b97ef6be18b3a5bc",
@@ -156,11 +156,11 @@
       "completedRunId": "cc06d869-eac4-428d-b649-db1d5deb4c0a"
     },
     "/openwiki/viden/miljoe-ud-over-klima.md": {
-      "gitHead": "f54fa6963af0df8e3fa0925c91a3a4cc4c4337d5",
-      "sourceFingerprint": "sha256:5959387a7a8e87910d83afcaf50d9123d1e2a2358dc7ebb64a49affe44138cc1",
-      "pageVersion": "sha256:deb3ffaafd7bc71e99bdbea1da254179df83a1b84d468c1ef23fa3b575ccbbb0",
+      "pageVersion": "sha256:4aef44f8c01d7b110eec16cab5cfc40ca15fba24f7671c4ca667047c630b10c0",
       "completedBy": "codex",
-      "completedRunId": "523d51f0-65a0-45ef-aff4-c264a03397b9"
+      "completedRunId": "b8c5925a-133a-4652-890c-a504b995e290",
+      "gitHead": "f04e438583dd79acec78359aa1e73f8a00d4ced4",
+      "sourceFingerprint": "sha256:1cb6e1c1f5e5dfebc3b87d6eb31ffc2d52005cc430e0619aca8439f7349eb7c6"
     },
     "/openwiki/viden/miljoefarlige-stoffer.md": {
       "gitHead": "a7fc10521fc90a07e7fb56887da5f9ea480b05b5",
@@ -170,11 +170,11 @@
       "completedRunId": "cc06d869-eac4-428d-b649-db1d5deb4c0a"
     },
     "/openwiki/viden/partier-og-installationer.md": {
+      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
+      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77",
       "pageVersion": "sha256:bf6a8a759461bf60fcf7a1e7023c3b4b179b9fd4d03eea0cb324acaf5d7a93d5",
       "completedBy": "codex",
-      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c",
-      "gitHead": "37abbd73c93b3441a8a245fc3c44b066bc2bf288",
-      "sourceFingerprint": "sha256:db1c14bf5743a27568dc80454ace50b4339ce13f7026a898e8a734cb84d85c77"
+      "completedRunId": "7287037a-f170-4e43-80b3-2686cf99a61c"
     },
     "/openwiki/viden/regler.md": {
       "gitHead": "e87e5ee52185cf18d1aeeac5b97ef6be18b3a5bc",

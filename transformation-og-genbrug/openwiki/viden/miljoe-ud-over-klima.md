@@ -5,11 +5,11 @@ description: Hvad betyder vandknaphed, forsuring, affaldsstrømme og biodiversit
 tags: [environmental-indicators, biodiversity, water, life-cycle-assessment]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:50:48.569Z
+    at: 2026-11-19T16:56:04.691Z
 sources:
   - id: openwiki-source-678884f587ced1a681778868
     resource: repo://kilder/beboere-og-miljoe.md
-generated: { by: "codex", at: "2026-11-19T07:50:48.569Z" }
+generated: { by: "codex", at: "2026-11-19T16:56:04.691Z" }
 ---
 
 # Miljøpåvirkninger ud over CO₂
@@ -33,6 +33,6 @@ Sammenlign produkter ved samme funktion og enhed, og kontrollér metodeversion o
 
 ## Hvad kan vi sige om biodiversitet?
 
-Byggegrundens ændring og påvirkningen fra produktion og råstofudvinding kan ligge vidt forskellige steder. Et dansk casebibliotek modellerede påvirkningerne for **47 nybyggerier og tre renoveringer**. Renoveringerne lå blandt de tre med lavest beregnet påvirkning inden for hver deres bygningstypologi. Det er en indikation i dette udvalg. Modellen tæller ikke arterne omkring den konkrete bygning, og tre projekter kan ikke fastlægge en generel dansk besparelsesprocent. [Byggeriets biodiversitetsregnskab, figur 4](https://cdn.realdania.dk/media/mrxntza3/bbv-rapport-september-2025.pdf)
+Byggegrundens ændring og påvirkningen fra produktion og råstofudvinding kan ligge vidt forskellige steder. Et dansk casebibliotek modellerede påvirkningerne for **47 nybyggerier og tre renoveringer**. Renoveringerne lå blandt de tre med lavest beregnet påvirkning inden for hver deres bygningstypologi. Det er en indikation i dette udvalg. Modellen tæller ikke arterne omkring den konkrete bygning, og tre projekter kan ikke fastlægge en generel dansk besparelsesprocent. [BBV-projektet, *Guide til implementering af biodiversitet i byggeriets værdikæde*, 2025, figur 4, trykt s. 12–13 / PDF s. 14–15](https://cdn.realdania.dk/media/mrxntza3/bbv-rapport-september-2025.pdf#page=15)
 
 Hvis en arkitekt vil undersøge en ny belægning i en gård, kan materialernes påvirkning i værdikæden belyses med produktdata. Hvad der sker med levestederne i selve gården kræver lokale oplysninger om beplantning, jord, drift og tidligere forhold. [Se vidensbasens åbne forskningsspørgsmål](hvad-ved-vi.md).
