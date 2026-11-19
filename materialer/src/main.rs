@@ -2,6 +2,7 @@
 mod cad;
 mod catalog;
 mod danish;
+mod disassembly;
 mod field_sources;
 mod heating;
 mod lifetable;
@@ -116,6 +117,16 @@ enum Command {
     Assess(cad::Args),
     /// Calculate a source-bound mass, climate contribution or moisture movement from JSON.
     Calculate { request: PathBuf },
+    /// Assess repair/disassembly plans and their source-bound supplied-product impacts.
+    Disassembly {
+        request: PathBuf,
+        /// Recompute and reject a report from another request, model, edition or binary.
+        #[arg(long)]
+        check: Option<PathBuf>,
+        /// Print a readable Danish assessment instead of the detailed JSON record.
+        #[arg(long, conflicts_with = "check")]
+        text: bool,
+    },
     /// Normalize a quantity with an explicit dimension.
     Normalize {
         #[arg(long, allow_hyphen_values = true)]
@@ -223,6 +234,21 @@ fn run(cli: Cli) -> Result<Value> {
             r["snapshot"] = e.id.into();
             Ok(r)
         }
+        Command::Disassembly { request, check, .. } => {
+            let e = pinned(&location, &cli.snapshot, &request)?;
+            let result = disassembly::run(&request, &e.db, &e.id)?;
+            if let Some(report) = check {
+                ensure!(
+                    store::read(&report)? == result,
+                    "Disassembly report is stale or changed; regenerate it"
+                );
+                Ok(
+                    json!({"current":true,"assessment_status":result["status"],"request_sha256":result["request_sha256"],"snapshot":e.id}),
+                )
+            } else {
+                Ok(result)
+            }
+        }
         Command::Normalize {
             value,
             unit,
@@ -244,9 +270,15 @@ fn pinned(
     store::open(location, id)
 }
 fn main() {
-    match run(Cli::parse()) {
+    let cli = Cli::parse();
+    let text = matches!(&cli.command, Command::Disassembly { text: true, .. });
+    match run(cli) {
         Ok(v) => {
-            println!("{}", serde_json::to_string_pretty(&v).unwrap());
+            if text {
+                println!("{}", disassembly::render(&v));
+            } else {
+                println!("{}", serde_json::to_string_pretty(&v).unwrap());
+            }
             if v["ok"] == false {
                 std::process::exit(1)
             }

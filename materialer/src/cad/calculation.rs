@@ -110,10 +110,10 @@ pub(super) fn basis(obs: &Value) -> Result<Value> {
     }
     bail!("Unsupported declared unit: {unit}")
 }
-pub(super) fn climate(obs: &Value, q: &Value) -> Result<Value> {
+pub(crate) fn validate_gwp_indicator(indicator: &str) -> Result<()> {
     ensure!(
         matches!(
-            text(obs, "property")?,
+            indicator,
             "global_warming_potential"
                 | "gwp"
                 | "gwp_total"
@@ -123,6 +123,11 @@ pub(super) fn climate(obs: &Value, q: &Value) -> Result<Value> {
         ),
         "Expected a supported GWP indicator"
     );
+    Ok(())
+}
+
+pub(super) fn climate(obs: &Value, q: &Value) -> Result<Value> {
+    validate_gwp_indicator(text(obs, "property")?)?;
     let factor = match text(obs, "unit")? {
         "kg CO2-eq" | "kg CO2-Equiv." | "kg CO2 eq." | "kg CO2e" | "kgCO2e" | "kg CO2-Äqv."
         | "kg CO2-eq." | "kg CO_(2) eq" | "kg CO_(2) eqv." | "kg CO_(2)-Äq." => 1.0,

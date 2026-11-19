@@ -1,0 +1,603 @@
+{
+  "schema_version": 1,
+  "snapshot": "u2-394d88104956906d738c4a6ad838ca02f325c935012a6dd0711a23e644cf7993",
+  "scope": {
+    "id": "window-core",
+    "function": "Samme oplukkelige vinduesfunktion, foreløbig ikke eftervist.",
+    "project_kind": "renovation",
+    "intervention": "Ét indgreb nu, med nutidige materialereferencer.",
+    "model": null
+  },
+  "indicator": "global_warming_potential",
+  "modules": [
+    "A1-A3",
+    "C3",
+    "C4"
+  ],
+  "variants": [
+    {
+      "id": "preserve",
+      "name": "Bevar på stedet",
+      "equivalence": {
+        "basis": "assumed",
+        "note": "Samme vinduesfunktion er en antagelse; varme, lyd, lys, sikkerhed og naturlig ventilation skal eftervises.",
+        "reference": null
+      },
+      "parts": [
+        {
+          "id": "frame",
+          "name": "Karm",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "frame-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "sash",
+          "name": "Ramme",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "sash-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "pane",
+          "name": "Rude",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "pane-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [
+                "beads"
+              ],
+              "sacrificial_parts": [
+                "glazing_band"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "beads",
+          "name": "Glaslister",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "beads-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "glazing_band",
+          "name": "Glasbånd/klæber",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "glazing_band-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "destructive",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Fornyelse af berørt glasbånd er et konservativt scenarie; faktisk system skal vælges.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "weather_seal",
+          "name": "Ramme-karm-tætningsliste",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "weather_seal-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "hardware",
+          "name": "Beslag",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "hardware-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        }
+      ],
+      "actions": {},
+      "deliveries": [],
+      "supplied_inventory_complete": false,
+      "unknowns": [
+        "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
+        "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
+      ]
+    },
+    {
+      "id": "repair",
+      "name": "Afprøv liste og beslagjustering",
+      "equivalence": {
+        "basis": "assumed",
+        "note": "Samme vinduesfunktion er en antagelse; varme, lyd, lys, sikkerhed og naturlig ventilation skal eftervises.",
+        "reference": null
+      },
+      "parts": [
+        {
+          "id": "frame",
+          "name": "Karm",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "frame-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "sash",
+          "name": "Ramme",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "sash-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "pane",
+          "name": "Rude",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "pane-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [
+                "beads"
+              ],
+              "sacrificial_parts": [
+                "glazing_band"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "beads",
+          "name": "Glaslister",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "beads-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "glazing_band",
+          "name": "Glasbånd/klæber",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "glazing_band-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "destructive",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Fornyelse af berørt glasbånd er et konservativt scenarie; faktisk system skal vælges.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "weather_seal",
+          "name": "Ramme-karm-tætningsliste",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "weather_seal-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "hardware",
+          "name": "Beslag",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "hardware-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        }
+      ],
+      "actions": {
+        "weather_seal": "replace",
+        "hardware": "repair_in_place"
+      },
+      "deliveries": [
+        {
+          "id": "weather_seal",
+          "name": "GeneriskSBRgummireference; ikke et valgtEPDMprodukt.",
+          "covers_parts": [
+            "weather_seal"
+          ],
+          "material_id": "br18:t7:G0608:row315",
+          "quantity": {
+            "value": 0.1,
+            "unit": "kg",
+            "evidence": {
+              "basis": "assumed",
+              "note": "Foreløbig fysisk nettomængde; ikke opmålt eller dimensioneret.",
+              "reference": null
+            }
+          },
+          "gwp_observation_ids": [
+            "br18:t7:G0608:row315:gwp:A1-A3",
+            "br18:t7:G0608:row315:gwp:C3",
+            "br18:t7:G0608:row315:gwp:C4",
+            "br18:t7:G0608:row315:gwp:D"
+          ]
+        }
+      ],
+      "supplied_inventory_complete": false,
+      "unknowns": [
+        "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
+        "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
+      ]
+    },
+    {
+      "id": "pane",
+      "name": "Undersøg selektivt rudeskift",
+      "equivalence": {
+        "basis": "assumed",
+        "note": "Samme vinduesfunktion er en antagelse; varme, lyd, lys, sikkerhed og naturlig ventilation skal eftervises.",
+        "reference": null
+      },
+      "parts": [
+        {
+          "id": "frame",
+          "name": "Karm",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "frame-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "sash",
+          "name": "Ramme",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "sash-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "pane",
+          "name": "Rude",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "pane-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [
+                "beads"
+              ],
+              "sacrificial_parts": [
+                "glazing_band"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "beads",
+          "name": "Glaslister",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "beads-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "glazing_band",
+          "name": "Glasbånd/klæber",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "glazing_band-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "destructive",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Fornyelse af berørt glasbånd er et konservativt scenarie; faktisk system skal vælges.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "weather_seal",
+          "name": "Ramme-karm-tætningsliste",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "weather_seal-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "hardware",
+          "name": "Beslag",
+          "origin": "existing",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "hardware-connection",
+              "method": "Fastgørelse og adgang skal identificeres for det konkrete produkt.",
+              "access": "unknown",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Antaget princip, ikke besigtiget eller produktspecifikt eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        }
+      ],
+      "actions": {
+        "pane": "replace"
+      },
+      "deliveries": [
+        {
+          "id": "pane",
+          "name": "Generisk trelagsrude; vægt, false, Uw og egnethed er ikke eftervist.",
+          "covers_parts": [
+            "pane"
+          ],
+          "material_id": "br18:t7:G1075:row446",
+          "quantity": {
+            "value": 1.25,
+            "unit": "m2",
+            "evidence": {
+              "basis": "assumed",
+              "note": "Foreløbig fysisk nettomængde; ikke opmålt eller dimensioneret.",
+              "reference": null
+            }
+          },
+          "gwp_observation_ids": [
+            "br18:t7:G1075:row446:gwp:A1-A3",
+            "br18:t7:G1075:row446:gwp:C3",
+            "br18:t7:G1075:row446:gwp:C4",
+            "br18:t7:G1075:row446:gwp:D"
+          ]
+        }
+      ],
+      "supplied_inventory_complete": false,
+      "unknowns": [
+        "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
+        "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
+      ]
+    }
+  ]
+}

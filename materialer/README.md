@@ -26,6 +26,8 @@ Du kan allerede:
 - **Læse modeller fra SolidCraft og BIMCraft**, afprøve ændringer og få en oversigt over manglende oplysninger.
 - **Lade en AI-agent hjælpe med arbejdet**, mens materialevalg, kilder og antagelser forbliver synlige.
 
+Bygger du CLI’et fra `main`, kan du også undersøge, hvilke dele der skal tages af eller erstattes ved en reparation. De to vindueseksempler viser, hvordan den samme Rust-beregner finder klimabidragene for de tilførte produkter. [Prøv reparation og adskillelse](docs/DISASSEMBLY.md).
+
 Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På din egen computer kan du bruge Rust-programmet til at gentage beregningerne. [Følg guiden til installation og første opslag](docs/RUST.md).
 
 ## Start dér, hvor du er
