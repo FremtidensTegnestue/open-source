@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "snapshot": "u2-394d88104956906d738c4a6ad838ca02f325c935012a6dd0711a23e644cf7993",
+  "scope": {
+    "id": "facade-mounting-trial",
+    "function": "Selektiv udskiftning af én facadebeklædningsdel i et foreslået prøvefelt.",
+    "project_kind": "new_build",
+    "intervention": "Ét fremtidigt indgreb. Første opførelse og fuld livscyklus er åbne; ingen klimaoptimeret vinder.",
+    "model": null
+  },
+  "indicator": "global_warming_potential",
+  "modules": [
+    "A1-A3",
+    "C3",
+    "C4"
+  ],
+  "variants": [
+    {
+      "id": "neighbour_opening",
+      "name": "Forløb med åbning af nabodel",
+      "equivalence": {
+        "basis": "assumed",
+        "note": "Samme tilsigtede facadefunktion og udtryk er et designmål; ingen geometrisk eller teknisk ligestilling er eftervist.",
+        "reference": null
+      },
+      "parts": [
+        {
+          "id": "target",
+          "name": "Den beklædningsdel der skal skiftes",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "target-release",
+              "method": "Beklædningsdelen frigøres fra ophæng efter låsedel er løsnet; udtagningsretning og fri plads skal prøves.",
+              "access": "accessible",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [
+                "neighbour",
+                "lock"
+              ],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "neighbour",
+          "name": "En tilstødende beklædningsdel",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "neighbour-release",
+              "method": "Den viste nabodel skal frigøres; resten af mønsteret er uafklaret.",
+              "access": "accessible",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "lock",
+          "name": "Låse-/fastgørelsesdel",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "lock-release",
+              "method": "Fastsiddende låsedel antages skåret fri efter åbning.",
+              "access": "accessible",
+              "outcome": "destructive",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [
+                "cap"
+              ],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "cap",
+          "name": "Aftagelig adgangsafdækning",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "cap-release",
+              "method": "Afdækning løsnes fra ydersiden.",
+              "access": "accessible",
+              "outcome": "reversible",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "support",
+          "name": "Underlag og bærende ophæng",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "wind",
+          "name": "Vindbeskyttelse og samlinger",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "insulation",
+          "name": "Isoleringslag",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "structure",
+          "name": "Bærende væg",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "air",
+          "name": "Indvendig lufttæthed",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "lining",
+          "name": "Indvendig beklædning",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        }
+      ],
+      "actions": {
+        "target": "replace"
+      },
+      "deliveries": [
+        {
+          "id": "replacement-cladding",
+          "name": "Ny beklædningsdel, mængde og produkttype uafklaret",
+          "covers_parts": [
+            "target"
+          ],
+          "material_id": null,
+          "quantity": null,
+          "gwp_observation_ids": []
+        }
+      ],
+      "supplied_inventory_complete": false,
+      "unknowns": [
+        "Dette er to egne montagehypoteser; de beskriver hverken alle traditionelle facader eller et valgt producentprodukt.",
+        "Første opførelse skal omfatte beklædning, beslag, skruer, underlag, tætninger, isolering, bæring og indvendige lag. Mængder, systemindhold og kilder er endnu åbne.",
+        "Størrelse/vægt, håndtering, understøtning, vindlast, fastgørelse, brand, vand, bevægelser og gentagen montage skal afprøves.",
+        "Nabofølgevirkninger uden for prøvefeltet, retablering, transport, arbejde og affald er ikke kvantificeret.",
+        "Facadehulrummets ventilation er forskellig fra rummets naturlige ventilation. Ingen ventilationsåbninger eller projektmodel ændres."
+      ]
+    },
+    {
+      "id": "local_release",
+      "name": "Planlagt lokal frigørelse",
+      "equivalence": {
+        "basis": "assumed",
+        "note": "Samme tilsigtede facadefunktion og udtryk er et designmål; ingen geometrisk eller teknisk ligestilling er eftervist.",
+        "reference": null
+      },
+      "parts": [
+        {
+          "id": "target",
+          "name": "Den beklædningsdel der skal skiftes",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "target-release",
+              "method": "Beklædningsdelen frigøres fra ophæng efter låsedel er løsnet; udtagningsretning og fri plads skal prøves.",
+              "access": "accessible",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [
+                "lock"
+              ],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "neighbour",
+          "name": "En tilstødende beklædningsdel",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "neighbour-release",
+              "method": "Den viste nabodel skal frigøres; resten af mønsteret er uafklaret.",
+              "access": "accessible",
+              "outcome": "unknown",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "lock",
+          "name": "Låse-/fastgørelsesdel",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "lock-release",
+              "method": "Låsedel nås gennem planlagt serviceadgang.",
+              "access": "accessible",
+              "outcome": "reversible",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [
+                "cap"
+              ],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "cap",
+          "name": "Aftagelig adgangsafdækning",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": [
+            {
+              "id": "cap-release",
+              "method": "Afdækning løsnes fra ydersiden.",
+              "access": "accessible",
+              "outcome": "reversible",
+              "evidence": {
+                "basis": "assumed",
+                "note": "Foreslået prøvefelt; adgang, værktøjsplads, skade og genmontage er ikke fysisk eftervist.",
+                "reference": null
+              },
+              "requires_removal": [],
+              "sacrificial_parts": []
+            }
+          ]
+        },
+        {
+          "id": "support",
+          "name": "Underlag og bærende ophæng",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "wind",
+          "name": "Vindbeskyttelse og samlinger",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "insulation",
+          "name": "Isoleringslag",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "structure",
+          "name": "Bærende væg",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "air",
+          "name": "Indvendig lufttæthed",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        },
+        {
+          "id": "lining",
+          "name": "Indvendig beklædning",
+          "origin": "new",
+          "initially_present": true,
+          "current_mass": null,
+          "joints": []
+        }
+      ],
+      "actions": {
+        "target": "replace"
+      },
+      "deliveries": [
+        {
+          "id": "replacement-cladding",
+          "name": "Ny beklædningsdel, mængde og produkttype uafklaret",
+          "covers_parts": [
+            "target"
+          ],
+          "material_id": null,
+          "quantity": null,
+          "gwp_observation_ids": []
+        }
+      ],
+      "supplied_inventory_complete": false,
+      "unknowns": [
+        "Dette er to egne montagehypoteser; de beskriver hverken alle traditionelle facader eller et valgt producentprodukt.",
+        "Første opførelse skal omfatte beklædning, beslag, skruer, underlag, tætninger, isolering, bæring og indvendige lag. Mængder, systemindhold og kilder er endnu åbne.",
+        "Størrelse/vægt, håndtering, understøtning, vindlast, fastgørelse, brand, vand, bevægelser og gentagen montage skal afprøves.",
+        "Nabofølgevirkninger uden for prøvefeltet, retablering, transport, arbejde og affald er ikke kvantificeret.",
+        "Facadehulrummets ventilation er forskellig fra rummets naturlige ventilation. Ingen ventilationsåbninger eller projektmodel ændres."
+      ]
+    }
+  ]
+}

@@ -1,8 +1,29 @@
 # Reparation og adskillelse
 
-`ft-materials disassembly` vurderer konkrete indgreb på bygningsdele. Kommandoen kan bruges ved nybyggeri, renovering og transformation. Det er en første implementering på udviklingsgrenen, ikke en funktion i den allerede udgivne v0.3.0-binærfil.
+**DfD er et tilvalg.** Værktøjets almindelige materiale-, klima-, pris- og budgetarbejde forudsætter ikke DfD. Brugeren vælger det for et projekt eller bestemte bygningsdele. Særlige DfD-konstruktioner og deres pris-/materialefølger indføres kun i det valgte omfang. De eksisterende DfD-eksempler er forsøg, ikke standardkonstruktioner for nye projekter.
+
+`ft-materials disassembly` vurderer konkrete indgreb på bygningsdele. Kommandoen kan bruges ved nybyggeri, renovering og transformation. Funktionen findes i kildekoden, men er ikke med i den oprindeligt udgivne v0.3.0-binærfil.
 
 Du beskriver delene, deres forbindelser og det ønskede indgreb. Programmet udvider adgangsplanen med berørte dele, viser nødvendige erstatninger og beregner tilførte produkter med den eksisterende Rust-beregner. Det ændrer ikke CAD-modellen og udsteder ikke teknisk godkendelse.
+
+## Når DfD er valgt: design konstruktionen til adskillelse fra starten
+
+Design for Disassembly påvirker konstruktionsprincip, lag og samlinger allerede under projekteringen. Produktmålet omfatter derfor også alternative opbygninger med uafhængige dele og realistisk udskiftningsadgang. Traditionelle løsninger kan rumme brugbare principper; en skruet forbindelse beviser ikke alene adskillelighed.
+
+Et konstruktionsforslag skal undersøge:
+
+- bærende system og stabilitet under ændring, herunder nødvendig midlertidig understøtning;
+- uafhængige lag med forskellig levetid, fx bæring, klimaskærm, installationer og indvendig beklædning;
+- adgang til forbindelser, værktøj, udtagningsretning og fri plads;
+- udskiftelige tætninger, forbrugsdele, følgearbejder og retablering;
+- et konkret reparations-, ombygnings- eller demonteringsforløb med forventet skade og genbrug på del- eller enhedsniveau;
+- alle materialer ved første opførelse og senere indgreb, med samme relevante tekniske funktion og synlige klimamæssige afvejninger.
+
+En mulig træningscase er en facade med separat fastgjort beklædning, tilgængeligt underlag og udskiftelige tætninger. Den skal undersøges i snit og arbejdsrækkefølge; dette er ikke et valgt eller eftervist produktsystem. Arkitekten vælger udtrykket. Brand, fugt, bæreevne, lyd og relevante luftveje afklares for den konkrete løsning. Fremtidigt genbrug giver ingen automatisk klimakredit.
+
+**Implementeringsgrænse:** Kommandoen vurderer et allerede beskrevet indgreb. Den genererer eller efterviser ikke alternative konstruktionssystemer. Kravet om identiske del-ID'er på tværs af varianter beskytter dette afgrænsede sammenligningsomfang. Fysisk forskellige opbygninger kræver fremover eksplicit afstemning til fælles funktion og komplet mængdegrundlag; de må ikke presses ind i et forkert identisk delinventar for at bestå kontrollen.
+
+Fagligt grundlag: BAMB beskriver reversible bygninger gennem tilpasning, genbrug og adskillelse samt uafhængighed og udskiftelighed mellem dele med forskellige funktioner og levetider. [BAMB, Reversible Building Design Tool, FAQ](https://www.bamb2020.eu/about-bamb/faq/faq-reversible-building-design-tool/), læst 19.11.2026. Punkterne ovenfor er vores produktkrav og konkretisering, ikke en gennemført BAMB-certificering eller ny runtimefunktion.
 
 ## Prøv et eksempel
 
@@ -20,6 +41,10 @@ Eksemplerne returnerer **statuskode 2**, fordi deres fysiske grundlag og materia
 - **Nybyggeri:** to foreslåede forbindelsesprincipper ved et senere rudeskift. Begge registrerer fornyelse af glasbånd. I det ene kan glaslisten foreslås genmonteret; i det andet bliver tabet af listen en ekstra, ukvantificeret erstatningspost. Begge bruger nutidige kildereferencer, ikke en prognose for fremtidig produktion.
 
 Vindueskernen er et afgrænset forsøg. Karm-væg-forbindelse, retablering, arbejde, spild, transport, driftsenergi og fremtidige produktgenerationer er ikke fuldt beregnet. Manglende poster står i `unknowns`. Intet af eksemplerne er en komplet vindues- eller bygnings-LCA.
+
+## Facadens montering
+
+[Afprøv en lokal udskiftningsopgave](../examples/disassembly/FACADE.md) med to eksplicitte montagehypoteser. Udvikl bæring, låsning, adgang, udtagningsretning og genmontage som én opgave. Vælg både del- og enhedsniveau; en aftagelig kassette dokumenterer ikke adskillelse af dens bestanddele. Eksemplet er kørt med den eksisterende motor og indeholder åbne materialemængder; det er ingen ny konstruktionsgenerator eller fuld klimaberegning.
 
 ## Input
 
