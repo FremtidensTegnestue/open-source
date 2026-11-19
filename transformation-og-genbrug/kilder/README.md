@@ -177,3 +177,7 @@ En vognport i Nyborg blev til to boliger. De gamle ydermure blev stående, og ta
 projektbeskrivelse, rådgiverperiode 2005–2014 · Projektinformation og renoveringsarbejder.
 
 468 boliger i ti betonblokke indgår i projektet på Amager. Facader, vinduer, altaner og varmesystem indgik i en større renovering. Projektbeskrivelsen dokumenterer indgreb og aktører. Den giver ingen målt før/efter-værdi for varme eller tilfredshed. [Originalkilde](https://wissenberg.dk/project/gyldenrisparken/)
+
+## Fordybelse
+
+[Kilder om eksisterende bygninger og deres dele](bygningen.md) dækker kulturarv, sundhed, konstruktioner, brand, dagslys, lyd og adgang.
