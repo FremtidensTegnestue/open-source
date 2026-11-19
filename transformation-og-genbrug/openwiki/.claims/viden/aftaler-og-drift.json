@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:8d93353681ec85648bd20b65ec00cd36b0dd21f652e90b2ee1d68e5f224468d7",
+  "claims": [
+    {
+      "id": "claim_551ed26da5744a3f9f8d20035e726b23",
+      "statement": "VCØB beskriver bygherreleverance som én måde at håndtere usikkerhed om genbrugsmaterialer i en aftale.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L61-L65",
+          "version": "repo-lines-v1:sha256:9c1ec5710e353ae4ca22e30dcc105911a2c68cbf8e4c368a21c7d30df6f6170e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU4MGE2ZDlhZTlhNWM0ZTYwMDMzNmRjN2I1MDViNGJmYjlhZTk5OWIzYjg4MDkxNjcyMzdiNTc5ZTczNDkwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjczMGRjMzlkNjRiNTFiN2I2YTJjZTA0ODg3ZjhkNGQ2ZjllYTg3OGIzZWY5MDJjYTk5OTYzMTZiMGJjZTgzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODMyMDMyYWM5NzFhZWQwMmU2MWJhODAyOWE0Y2NiMzAzM2VmYTc2MzkyMDJjMjIxYTExOTI0NGU4NmVkYTk1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGFiZWFmNDc0MWUxZWNkYTMwZjA4MzUxMzU5YWYzNmVkYzlmMWM5ODgyNThkNzJkYTU5NDdlNzIyYjFkNzlhYyJ9"
+        },
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L67-L71",
+          "version": "repo-lines-v1:sha256:2d0dee031bb109544c9b4b7507678f6c0a54ad8889f8b2cea3b2fdc34ac135be:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDI4OTI3NDVjYzY1ZDRhZWE2ZWQ1MjFmNWI5NjQ2Njg0ZGI3MjZlY2M3OTJhNzU0MzlmYmNhMzY0YjRhN2MxZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTgzMzRjMDI0ZGMxODdiZGQzMjFhZjIzMTIxYzUwYTgzOTIxMTU2YTM5NzM3ZWI4NDNjMTRhN2NiYzk4MmQwYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDRhYTk5MTA1ZGJhNzEwNjFlYjM3ZjIzMmU2OWM3ZjMxNmQ2YWZmN2M0NGM1YmNmYWM0MDRjNmUwYzAyZjBiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWU5ZmQyNDRiOTY1NWVhYWUzZTE0MTEwZGNlYzEzN2IwYzdlMTdlZTU2OWVhYTg5MDhhYjI5NGZlNzIxMTQ1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_acc6afbde8db40c38f7fd06cd1ab180d",
+      "statement": "Måling af luftmængder på et anlæg og stikprøvebaseret performancetest følger konkrete krav og driftsforudsætninger.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L73-L77",
+          "version": "repo-lines-v1:sha256:71fc9ad2fd3c49be4f2cf282cf215d7cc4069e6b880b82c13c7e18ec9058a0ea:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg2ZGQzNGM0YWYzNjliNWNlMjQyYTlmYTdiNzY0ODNhYzFkN2I2N2U2ZWI1NGU1YTAzOGY2YzdjNWY3MDJhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZhYzQwMTliZTcwN2NiMzlkZTg5NGFjNjJhMmZiYWU4MThmODk4OGMyZDJjZTQ3MWEyY2Q2M2Y2MGY4YTk3YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjQ4MTQ1MDE1YTYzY2YwMzcxYWNjNDk5YjIwMjA2OTYyNWY1ZjRkMTYzMTU5NTJkNWJiNzg4MWRlYjU0ZDhjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2Q0OTM1MGYyZGEzNGJlODNjOTc5YjUzZjljOTBjMDY4MGJkZjJkNmNjMjJiMmY0MDA3ODlhYTdiMjY0YTVkMCJ9"
+        },
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L79-L83",
+          "version": "repo-lines-v1:sha256:43e551445b80c220d5d8b4354672f08c4dd11680426c8259ed74e1678992600e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQzOGNkYTk5NWNlMGNlODE3ZTIzMDFkYWQ0ZDI5NGJkOGE2YzQzZDIwNDA3ZjZhN2I2ZDViZGQzMGFjMzgzZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTA1NDkwNGFiNmEwOWY3MzQxOWQ4NGJlZGMyN2YyNGE2YjgwNTc2ZGUxYzI5NWYwZTMwMDJhNzUzMzIyMDE5NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDU0OGI4YWQxMzg5MzhkMTAyZDNhYzNiZjc1YTAxNDJhMTFhMjc5NDU0NjdmY2YyNjY4NDI1ODVhNTg5MjkxYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDZhOTVmZTU0NTMxNjI4NjU1ODJlMmE1ZjZkMWVmZjJlYzE4Y2Q5MjU3MDQ1ODU4YjRiNDNhMzY1MjhkMWZkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f2adcd4355f544288a4004ab0c4c353a",
+      "statement": "Evalueringen af Nøjsomhed dokumenterer erfaringer efter ibrugtagning af de nye elevatortårne.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L111-L115",
+          "version": "repo-lines-v1:sha256:c3a74923eaa06e108b4e25394ab3e47d5d824c881329467511cc57463d8c11aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTk2ZTAzMDQ1NDk5MDgyNjE3NjEyYjI1OTE5YTA3MDY3ZDU2N2I4MjViMjY1YWMyZmE5NTM5MDkwMTExODY4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWI1MWZjNzNlNGJmNDhhNGNkNWQwNmQ3NTMwODA5MGE1YWJkMWY5MzMyZGQxYmIzM2Y3YTA3NjlmMzRhMWNjMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzI0MWQ0OGMwY2EzMTBjMjhkMDUzNjY2NmEyYzM5NjI5Nzk5YzFmMDY4ZGQxNjQxMDJkYjAxYzYxNDBhMDNjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:44:51.896Z"
+  }
+}

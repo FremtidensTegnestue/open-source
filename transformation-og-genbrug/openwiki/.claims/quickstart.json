@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:61ce3ae75856cf028397cb56d63b18965cd9fb7d21a0ad57d06315b65b9a32df",
+  "pageVersion": "sha256:4c3ed00ed092d9e64eb30d43be37658f8be77507c683ffbbfef473b08354c321",
   "claims": [
     {
       "id": "claim_e09c0474a39448bcaa092916485b9356",
@@ -57,10 +57,38 @@
           "version": "repo-lines-v1:sha256:c00f48974bb4f7e81f2583bc3a82ddd8cea5cceef5e8d51f7cc512306afc3873:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM1OTc5ODNmOTdlNTQ1ODY5MDgzOGMyYzE0MWRlMjAzMjI3YTQxNzFlZTViNGJiODQ3YzJiNjg5OTExMjRlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhMGJhNzVkMDdiZTQ2OTk2MDhmMTYyZDc3MmFlMmQ0YzkwNGI3MmQ0ZWFhMDE1MjRjZThmMTZkYTVjMzU0MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWYzOGE4ZGRhOGZjNDQ2MzU3YzBjYTJjNmY1NTUyOWM4ZTk5ZWFkNTg2ZTE3ZDIxNDMwNTg0YjkzYzJlNTkzNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzk4NzdjM2JjYTQwMDEyOWNhMTRlMjQwZDllNjBhZjVhYTEwZDg2NzU1YjMxMWUzMzU2ZTE3YmRkODZiYzAwNiJ9"
         }
       ]
+    },
+    {
+      "id": "claim_177e122e7587492d828cfec286c55753",
+      "statement": "Danske mængder i affaldsstatistik og indberetninger om direkte genbrug har forskellige nævnere.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L15-L19",
+          "version": "repo-lines-v1:sha256:dc6609c3c7ec8e272327bd06fca1baa50cfe7f25a37549f08e73e8a2dc7b4026:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFlM2MxZDE5MDMwMTJhNGQxNjI0N2VjMTYzZGJhZmJmMDAxMjJjNGJhZDU3YjE3Y2MyNzhlYzAyM2I3OWE5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTgxNTk2ODdmZmVlYTI1NWZlMGYxMWI5MmYyY2MzNmE5YzQ0YmYxZGRjM2E1NGEyOWYwNzBiMWQwNTIzOTc4MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzBiYTQ0MWUzNzM5OGViNTQ4Y2Y4NjZiYjZmMzNhYzE2ZWRiMmQwZmIwMzQxMmI2MGMyZGE4ZmQyMmExYTlhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjQ4M2NkMzQ2OGJmZjM1YjE5ZDEwMDAxZmMzZWQ3ZWNlNDhkNDlhYmRkNGM5N2IxNjQxMjFjMmE5ZDdlNDY3OSJ9"
+        },
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L9-L13",
+          "version": "repo-lines-v1:sha256:f3518107a221f1a379351d04fd18ce71f96d2349f309fa0fe90d26b9b71d8a0a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmZiZmFkN2EyMzA0M2NmNTNlNjlmYjY4YzFkMjRhNGU4MDM5MmM5OThkZmFhZTAyNWMzMTFkOGVmYjc4YTcyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBlOGJhMGM4ZGExZmEyYTIzZDU5NjhhZjMwNmE4OTJiZjI0OWZmMjQ1Mjc3YTUwMmYzM2UyZTRkZWZmYWYzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWVjMGFjMGFmMTFlNWNhMGFhOWMwYzA0NWE1MzEwNzc1MzA1YWU0NDc2ZTZjZmQ2NGM4YWNiYjUxNGNkZDg4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjU3Y2Q1NjlmOThhZmI0MjAzZTQ5MmQ5ZDU1ODU4ZGNiY2RlZjFhMjk0NDFmY2JjMDc0NDdlODY0NzQ3OTVjYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2426ff44d3574144b6635447cf59cf7d",
+      "statement": "Arkivet omfatter afgrænsede prøver og driftsviden om konkrete installationer.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L29-L33",
+          "version": "repo-lines-v1:sha256:a2c3417dc403e0925c0d6fd27b240680d30dea146c0dbe36c8eae8460d322739:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTViNjA5MWI5ZmQzZTcyZjQ4YzFmYzdkMTUyOWMxYmEzNGI5Mzc3NmVjZjI1OTViY2YwMjZiMjIwOGI5ZmMxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2YyMmNlYTZmMGI0NDdmNzJhNTM4NmQ5MWM5NzQ5MzY1YjA0MTE4OTk3MjMyODFhOTZiOWI5MTgwMzAxZjc1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODllODBjZGIyYzljOTlhMmQ4YWI1ZDJmM2ExM2Y0Yjc3NzBiMWM3MmE5ZWI2ODgyMjg4MmViMWFhZjhjNzdlMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmVkMzEyNmU5ZTcwMWRhMzgxYjc0MjM0OTU3YzdjNmI5ODkyYjk5NjY5OTc2Y2U4NTkyZmFlNDI4ZDBkMmRkNSJ9"
+        },
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L73-L77",
+          "version": "repo-lines-v1:sha256:71fc9ad2fd3c49be4f2cf282cf215d7cc4069e6b880b82c13c7e18ec9058a0ea:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg2ZGQzNGM0YWYzNjliNWNlMjQyYTlmYTdiNzY0ODNhYzFkN2I2N2U2ZWI1NGU1YTAzOGY2YzdjNWY3MDJhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZhYzQwMTliZTcwN2NiMzlkZTg5NGFjNjJhMmZiYWU4MThmODk4OGMyZDJjZTQ3MWEyY2Q2M2Y2MGY4YTk3YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjQ4MTQ1MDE1YTYzY2YwMzcxYWNjNDk5YjIwMjA2OTYyNWY1ZjRkMTYzMTU5NTJkNWJiNzg4MWRlYjU0ZDhjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2Q0OTM1MGYyZGEzNGJlODNjOTc5YjUzZjljOTBjMDY4MGJkZjJkNmNjMjJiMmY0MDA3ODlhYTdiMjY0YTVkMCJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T07:37:38.446Z"
+    "at": "2026-11-19T07:44:51.896Z"
   }
 }

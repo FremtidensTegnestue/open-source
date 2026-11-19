@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:595188d703a3142fbed823220128e65e9ae1da8a3adca9fae6f94961237567ea",
+  "claims": [
+    {
+      "id": "claim_6f949bdd8fca4908a67d7ccaf42c8657",
+      "statement": "Tabel 3.12 omfatter 5.294.000 ton primært bygge- og anlægsaffald eksklusive jord og beskriver tiltænkt behandling i 2024.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L9-L13",
+          "version": "repo-lines-v1:sha256:f3518107a221f1a379351d04fd18ce71f96d2349f309fa0fe90d26b9b71d8a0a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmZiZmFkN2EyMzA0M2NmNTNlNjlmYjY4YzFkMjRhNGU4MDM5MmM5OThkZmFhZTAyNWMzMTFkOGVmYjc4YTcyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBlOGJhMGM4ZGExZmEyYTIzZDU5NjhhZjMwNmE4OTJiZjI0OWZmMjQ1Mjc3YTUwMmYzM2UyZTRkZWZmYWYzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWVjMGFjMGFmMTFlNWNhMGFhOWMwYzA0NWE1MzEwNzc1MzA1YWU0NDc2ZTZjZmQ2NGM4YWNiYjUxNGNkZDg4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjU3Y2Q1NjlmOThhZmI0MjAzZTQ5MmQ5ZDU1ODU4ZGNiY2RlZjFhMjk0NDFmY2JjMDc0NDdlODY0NzQ3OTVjYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8ef6667ca9ac4ea4bc586f05c752f913",
+      "statement": "Miljøstyrelsen indberettede 13.000 ton genbrugte byggematerialer for 2021 på et andet metodegrundlag end affaldsstatistikken.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L15-L19",
+          "version": "repo-lines-v1:sha256:dc6609c3c7ec8e272327bd06fca1baa50cfe7f25a37549f08e73e8a2dc7b4026:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFlM2MxZDE5MDMwMTJhNGQxNjI0N2VjMTYzZGJhZmJmMDAxMjJjNGJhZDU3YjE3Y2MyNzhlYzAyM2I3OWE5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTgxNTk2ODdmZmVlYTI1NWZlMGYxMWI5MmYyY2MzNmE5YzQ0YmYxZGRjM2E1NGEyOWYwNzBiMWQwNTIzOTc4MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzBiYTQ0MWUzNzM5OGViNTQ4Y2Y4NjZiYjZmMzNhYzE2ZWRiMmQwZmIwMzQxMmI2MGMyZGE4ZmQyMmExYTlhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjQ4M2NkMzQ2OGJmZjM1YjE5ZDEwMDAxZmMzZWQ3ZWNlNDhkNDlhYmRkNGM5N2IxNjQxMjFjMmE5ZDdlNDY3OSJ9"
+        },
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L9-L13",
+          "version": "repo-lines-v1:sha256:f3518107a221f1a379351d04fd18ce71f96d2349f309fa0fe90d26b9b71d8a0a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmZiZmFkN2EyMzA0M2NmNTNlNjlmYjY4YzFkMjRhNGU4MDM5MmM5OThkZmFhZTAyNWMzMTFkOGVmYjc4YTcyYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDBlOGJhMGM4ZGExZmEyYTIzZDU5NjhhZjMwNmE4OTJiZjI0OWZmMjQ1Mjc3YTUwMmYzM2UyZTRkZWZmYWYzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWVjMGFjMGFmMTFlNWNhMGFhOWMwYzA0NWE1MzEwNzc1MzA1YWU0NDc2ZTZjZmQ2NGM4YWNiYjUxNGNkZDg4NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjU3Y2Q1NjlmOThhZmI0MjAzZTQ5MmQ5ZDU1ODU4ZGNiY2RlZjFhMjk0NDFmY2JjMDc0NDdlODY0NzQ3OTVjYSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_51a0db04d32140d0affc89cf170d47b7",
+      "statement": "Analysen af 17 fraktioner estimerer lokale strømme som supplement til ADS og bruger sin egen afgrænsning.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L21-L25",
+          "version": "repo-lines-v1:sha256:ae4ecbd12ec7b75be080463ea58fe165a8164574cb5446d512a0fdd6091e7a7a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGEwZTUwNzgzMjE5YzBhY2JlZGJhM2FkN2ZjODE1NDNiZDRiNmI0NWJmZjk2NWM5MjM5NmQ5NWM1ZjE3MmNhYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTE0N2Q1YjljYzNlMThkMzczNDIwMDhkMDlkYmM1NWVjOWUxNjQxNmM4NjZmN2Q4ODVkNTBkNzI3NWVhNjZhNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODZkNWQ1MjNiYTY0MzcwYmMxMzZiYjkwNjAyNDA4NmU2MGFhNTY4YWM5Y2E2ZGNjNzk4NTZiOTUzZjAzMDgxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODllODBjZGIyYzljOTlhMmQ4YWI1ZDJmM2ExM2Y0Yjc3NzBiMWM3MmE5ZWI2ODgyMjg4MmViMWFhZjhjNzdlMSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:44:51.896Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:41f60d40ac6aadf03c15220fd4f20275e2d5b9b48aa868ee18d207bcfe0cd7c0",
+  "claims": [
+    {
+      "id": "claim_c5637ac6fc0e40659a71b32e0ea8610b",
+      "statement": "De nationale data til terrænnært grundvand i KAMP har lokale begrænsninger og tjener som screening.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L87-L91",
+          "version": "repo-lines-v1:sha256:9b507e83969012da8f8e14e4ee3cfebb7394e43a14cee0fbf5d0caf5e64895bf:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjlhYWQ4ZjgxZjU3NDdkN2QzZTYwOGEyY2NjZWIwZDhjYWU0ZTk3NTkyMTYxZGNkOWQyOWQ0ZWFiMTk3NDY0ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjNiN2MxN2Y3MTgyODM1NmZhODQyNzMxMmQ0YWI0MzkwNzhlMzY4NzZkN2U0OTBjNDI5OWZiZDY0M2NjNmQyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDZhOTVmZTU0NTMxNjI4NjU1ODJlMmE1ZjZkMWVmZjJlYzE4Y2Q5MjU3MDQ1ODU4YjRiNDNhMzY1MjhkMWZkMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjM3ZTYxMTU5OTI3MWQ0ZDgzODE5MDFiNTc3YmI0MzU5Y2UwNzNlNDU1N2JjZjU4NWZjODliMmZiYmI3OGRkMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6b7193bfe5a949c7a554a7e63d1b4f70",
+      "statement": "Terræn- og kloakvand kan nå en kælder ad forskellige veje.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L93-L97",
+          "version": "repo-lines-v1:sha256:60d02575174477105b969f80c1dbc9d2a304ed0c9a531aa787534e8d877dd458:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWQ0ZTg5OGM3OWIxMTdlN2FhYWQzYjRiYzdmNDUzNjQ2YzRhYzJmNjJjYmMxY2VmM2E5YzMzYjRhZWE1YzdmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjg2MzZjZTIzZDRhNjZkMzllMzYwYzg3NGFjMGY5ZTg2ODk4YzQwNjA2ZWYzZTcwYTE2ZDZmNmFkMWM4Y2FjMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmM2MGQ1Y2I0YTQ5YTE4NWNjMTI2NmE1MThjZGZhOGZiNjFhMTAwNzM1NzkxMjZkYTZmYWYzY2M1ZTUwOTY4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2U4ZThkMzEyNTZhZTlmMmMyMjgxMmU4MDg2ZGNhYjI4NThjYzE4ZDE0Mzk4MGFkZGQwOWJmZDk3NWQwNmIwMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_50e4894b65ba4b10aaaf9105573ba2f6",
+      "statement": "Den beskrevne dokumentationsvej for sommertemperaturer i boliger forudsætter mulighed for udluftning.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/ressourcer-og-drift.md#L99-L103",
+          "version": "repo-lines-v1:sha256:002fbe9729bdafe806e9f7b41980a8ef9827b8a74a1a6bf43d9b2e00284c52f4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU4YTQ1N2ZjMTdmNDljNzM2ZWE4MmI1NjMxYTQ3NGY2ODdkNjQ0ODhiNDI0ZmUxOWM4ZWIyNjk5MTFkNzEzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQxNmZiMmY0YWM3MWI1NDRlMDI5ZDI2NGMyYjVmZjNhZDY4YTMxZDY2MWEzYjMyYjEwZTA0ODNhZmI3OTMwOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGE0YWZmMjk3YzQwNGUyNzZlOGI2NDg4NmQ4OWQ2NjIxNGVmNzA2NGJhMDVhZTcyNTE0NGZjMzcxNjVkNWIyYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:44:51.896Z"
+  }
+}

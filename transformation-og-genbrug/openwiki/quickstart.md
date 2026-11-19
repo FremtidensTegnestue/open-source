@@ -5,17 +5,19 @@ description: Dansk opslagsværk om transformation og genbrug med fagartikler, ge
 tags: [transformation, reuse, retrofit, discussion]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:37:38.446Z
+    at: 2026-11-19T07:44:51.896Z
 sources:
   - id: openwiki-source-19e5da57104b6bc4ab7b4818
     resource: repo://kilder/bygningen.md
+  - id: openwiki-source-ecccbfde362d27e9c1472c39
+    resource: repo://kilder/ressourcer-og-drift.md
   - id: openwiki-source-6314359a6bfa04d8acc9cf03
     resource: repo://oplaeg/forste-besigtigelse.md
   - id: openwiki-source-182a65da0185ccadc843aff1
     resource: repo://oplaeg/vinduer.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "codex", at: "2026-11-19T07:37:38.446Z" }
+generated: { by: "codex", at: "2026-11-19T07:44:51.896Z" }
 ---
 
 # Kom i gang med transformation og genbrug
@@ -52,5 +54,9 @@ På bygningsniveau kan spørgsmålet være, om en ny indretning kan udnytte de e
 - [Asbest, PCB, bly og afgrænsning af prøver](viden/miljoefarlige-stoffer.md)
 - [Bærende konstruktioner, træstyrke og branddøre](viden/konstruktioner-og-brand.md)
 - [Dagslys, lyd, ventilation og adgang i boliger](viden/boligkvalitet.md)
+- [Hvad fortæller de danske mængder om genbrug?](viden/danske-maengder.md)
+- [Prøver af mursten og bevarede sanitetsinstallationer](viden/partier-og-installationer.md)
+- [Aftaler, aflevering og dokumentation fra drift](viden/aftaler-og-drift.md)
+- [Skybrud, grundvand og sommervarme](viden/klimatilpasning.md)
 
 Viden om en bygningsdel kan komme fra en bestemmelse, en prøve, en besigtigelse eller erfaring med en bygning i brug. Kilderegisteret viser, hvilken type grundlag der er tale om, og hvor man kan læse videre. [Kilder om eksisterende bygninger og deres dele](../kilder/bygningen.md)
