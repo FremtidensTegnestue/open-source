@@ -19,3 +19,11 @@ git status --short -- "$tema"
 ```
 
 Når ændringerne er gemt og kontrolleret, kan den midlertidige arbejdsmappe fjernes. Kontrollér før oprydning, at eventuelle nye sider også er kommet med.
+
+## Når en læser efterspørger viden
+
+Søg først på læserens konkrete spørgsmål, og læs det bedste svar i sin sammenhæng. Et hit på et enkelt ord kan mangle netop den afgørende oplysning, fx hvilket materiale der blev prøvet, eller om en procent gælder alt byggeri eller kun indsamlet affald.
+
+Ved et hul: Find den oprindelige undersøgelse, måling eller bestemmelse. Angiv udgiver, udgave, dato og læsested i kilderegisteret. Gem den hentede fil under `kilder/originaler/` og registrér adresse og kontrolsum i `kilder/hentet.tsv`. For en lovregel kontrolleres ikrafttræden og anvendelsesområde. For en case anføres, hvad der er målt, beregnet eller oplyst i interview.
+
+Opdatér fagartiklen. Prøv så læserens spørgsmål igen, og følg henvisningen helt tilbage til kilden. Hvis et generelt svar fortsat mangler, forklar hvilken type viden der ville kunne afgøre det. Nye undersøgelser eller ændringer af regler kan genåbne tidligere svar.
