@@ -53,3 +53,14 @@ Her kan du finde de dokumenter, tegninger og interviews, som ligger til grund fo
 - [Rune Korsholm Andersen, DTU, *Adfærd og forbrugsmønstre ved energirenovering af boliger*, 2020, tabel 1 og figur 7, trykt s. 13 og 15 / PDF-side 14 og 16](https://backend.orbit.dtu.dk/ws/portalfiles/portal/264109455/347_025_Slutrapport_.pdf#page=16)
 - [Bech-Danielsen og Lene Wiell Nordberg, BUILD, *Renovering af almene boligområder*, 2026:27, trykt s. 90, 94 og 96, note 14 / PDF-side 92, 96 og 98](https://vbn.aau.dk/ws/portalfiles/portal/864697268/BUILD_RAPPORT_2026_27_Renovering_af_almene_boligbebyggelser.pdf#page=98)
 - [Silent City, *Nye forsatsrammer i bevaringsværdig bygning*, demonstrationsforsøg 2019, tabellen »Forsatsrammernes effekt«](https://roligbolig.dk/cases/case-a-b-christiansport/)
+
+## Fire spørgsmål prøvet med den offentlige wiki
+
+Den 19. november 2026 begyndte en læseragent ved wikiens offentlige startside og fulgte håndbogens links til hvert af de fire kapitler og videre til originalerne. Alle fire spørgsmål kunne besvares. [Den afprøvede udgave på GitHub](https://github.com/FremtidensTegnestue/open-source/blob/85f08703e2e899f6b2d3349e21ca7016b958f592/transformation-og-genbrug/openwiki/quickstart.md)
+
+| Spørgsmål | Hvad kunne læseren efterprøve? |
+| --- | --- |
+| Blev begge boligopdelinger bygget, og hvad dækker 7.000 kr.? | Hvidovres før- og efterplaner viser den udførte indretning. De 7.000 kr. om måneden er beboerens oplyste boligudgift. I Ballerup viser tegningerne et forslag. [Bygningerne og planerne](../openwiki/atlas/bygninger.md) |
+| Kan vi bruge vinduesprisen som tilbud på en færdig facade eller sætte stykpris på de 44 døre? | De tre poster i vinduesanalysen giver omtrent 5.718 kr./m² før vedligehold. Slutmontagen i facaden er ikke opgjort særskilt. I Odense kendes dørspecifikationen og en fælles træudgift, mens faktura og monteret antal for netop dørene mangler. [Regnestykkerne og bilagene](../openwiki/atlas/genbrugsregnskaber.md) |
+| Kunne en besigtigelse af taget i Korsgade vise, hvor ofte der var blevet skiftet sten? | Undertaget begrænsede udsynet. Driftens interview beskriver udskiftninger og perioder med forskellige erfaringer. Der mangler daterede arbejdsordrer og antal, hvis man vil opgøre en årlig hyppighed. [Tagbesigtigelserne og interviewene](../openwiki/atlas/drift.md) |
+| Gav lavere varmeudgifter lavere samlet udgift på Indre Vesterbro, og kender vi de enkelte familiers motiver? | De tilbageflyttedes oplyste husleje og varme steg tilsammen fra 2.870 til 4.241 kr./md. i gennemsnit. To andre tabeller opgør huslejebegrundelser og ønsker i samme gruppe af permanent genhusede. Man kan ikke se, hvilke personer der gav begge svar. [Beboerundersøgelsen og tabellerne](../openwiki/atlas/beboere.md) |
