@@ -2,6 +2,8 @@
 
 Registeret angiver udgiver, udgave, læsested og hvad der kan udledes af hver kilde. Læs regler, forskningsartikler, vejledninger og projektfortællinger på deres egne præmisser. En før/efter-måling og en beregnet reference besvarer forskellige spørgsmål.
 
+[Håndbogens første udgave – samlet oversigt over originalerne og de kapitler, der bruger dem](foerste-udgave.md).
+
 Gennemgået 19. november 2026. [Filregister med adresser og SHA-256](hentet.tsv) angiver de hentede udgaver. Originalerne ligger lokalt under `kilder/originaler/`. På GitHub fører kildehenvisningerne til udgiverne. Når en udgiver opdaterer en webside, kan filens kontrolsum ændre sig.
 
 ## Aflæs bygningen
