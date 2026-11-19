@@ -11,7 +11,7 @@ Status for første udgave, 19. november 2026. [Læs spørgsmålene i den låste 
 | [Gammelt og nyt](gammelt-og-nyt.md) | Forsats, isolering, samlinger, ventilation og installationer i en eksisterende bygning | Eksponering, udførelsesdetaljer, førmåling og virkning under faktisk brug |
 | [Klima og ansvar](klima-og-ansvar.md) | Masse og klima, transport, økonomi over tid, alternativ anvendelse, affaldsstatus og nedrivning | Lokalt udbytte, aktuelle priser, afgrænsning af etageareal og konkret myndighedsafgørelse |
 
-De seks kapitler indeholder 64 konkrete beslutningsspørgsmål. Projektkapitlet gennemgår 14 forskellige danske byggesager. [Kilderegisteret for første udgave](../kilder/foerste-udgave.md) forbinder de tilhørende kapitler med 78 offentlige kildeadresser, herunder udgiversider, PDF’er og myndighedstekster.
+De seks kapitler indeholder 64 konkrete beslutningsspørgsmål. Projektkapitlet gennemgår 14 forskellige danske byggesager. [Kilderegisteret for første udgave](../kilder/foerste-udgave.md) forbinder de tilhørende kapitler med 79 offentlige kildeadresser, herunder udgiversider, PDF’er og myndighedstekster. De 79 adresser omfatter 41 PDF-filer og 38 websider. Læseprøven tester 20 på forhånd valgte spørgsmål på tværs af kapitlerne. Kilderne er udvalgt til de konkrete spørgsmål. Der er endnu ingen systematisk gennemgang af hele det danske kildemateriale.
 
 ## Hvilken ny viden vil ændre et svar?
 

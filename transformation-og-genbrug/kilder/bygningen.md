@@ -70,7 +70,7 @@ Den samlede statiske virkemåde, sikkerhed og anvendelighed skal kunne dokumente
 
 For betonelementer og stålprofiler indgår samlinger, tilstand og skader ved nedtagning i screeningen. Et udsavet facadefelt med ny betonbagside er en anden anvendelse end genbrug af en bærende mur. [Originalkilde](https://vbn.aau.dk/ws/files/312319822/Dialogv_rkt_j_samlet_20190917.pdf)
 
-### Jørgen Munch-Andersen, BUILD · Om genbrug af træ
+### Jørgen Munch-Andersen (BUILD) og Oliver Zillo Jensen (COWI) · Om genbrug af træ
 
 2024, s. 4–6, Dokumentation af bæreevne.
 

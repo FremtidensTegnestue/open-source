@@ -32,9 +32,9 @@ Miljøprojekt 1512, 2013, kap. 6 og tabel 6, s. 52–53.
 
 Med ét ton murstensaffald som grundlag og forudsat funktionel substitution kunne studiet rangordne fire af tolv kategorier med tilstrækkelig sikkerhed. Ved erstatning af bagmursten gik fotokemisk ozondannelse den modsatte vej af de øvrige tre sikre resultater. Modellen anvender datidens processer. [Originalkilde](https://www2.mst.dk/Udgiv/publikationer/2013/11/978-87-93026-60-5.pdf)
 
-### EPD Danmark · Hvordan læses og bruges en miljøvaredeklaration?
+### EPD Danmark og BUILD · Hvordan læses og bruges en miljøvaredeklaration?
 
-Guide 4, 2022, s. 33–39.
+Guide 4, 2021, s. 33–39.
 
 Nettoforbrug af ferskvand og potentiel vandknaphed er forskellige indikatorer. Affald og udgående strømme vises særskilt. Sammenligning kræver match af funktion, enhed, metode og livscyklusmoduler. Modul D ligger ud over systemgrænsen. [Originalkilde](https://gi.dk/media/ouvlycsc/epddanmark_guide4.pdf)
 

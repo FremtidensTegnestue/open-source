@@ -2,7 +2,7 @@
 
 Registeret angiver udgiver, udgave, læsested og hvad der kan udledes af hver kilde. Læs regler, forskningsartikler, vejledninger og projektfortællinger på deres egne præmisser. En før/efter-måling og en beregnet reference besvarer forskellige spørgsmål.
 
-[Håndbogens første udgave – samlet oversigt over originalerne og de kapitler, der bruger dem](foerste-udgave.md).
+[Håndbogens første udgave – samlet oversigt over originalerne og de kapitler, der bruger dem](foerste-udgave.md) · [PDF-læsesteder i de tematiske fagartikler](pdf-laesesteder.md).
 
 Gennemgået 19. november 2026. [Filregister med adresser og SHA-256](hentet.tsv) angiver de hentede udgaver. Originalerne ligger lokalt under `kilder/originaler/`. På GitHub fører kildehenvisningerne til udgiverne. Når en udgiver opdaterer en webside, kan filens kontrolsum ændre sig.
 
@@ -54,7 +54,7 @@ vejledning 54 · Screening, kortlægning, udbud, afsætningsscenarier og oplagri
 
 Kortlægningen bliver brugbar, når aftagerens krav, antal, mål og tilgængelighed er kendt. Ved udbud foreslås mærkning, oplagring og ansvar for transport beskrevet. Der er forskellige forløb ved intern brug og salg til andre. [Originalkilde](https://vaerdibyg.dk/wp-content/uploads/2025/08/54_Ressourcekortlaegning_Web.pdf)
 
-### Social- og Boligstyrelsen · Den gode dokumentationsproces af genbrugte byggematerialer
+### Social- og Boligstyrelsen · Den gode dokumentationsproces for genbrugsmaterialer
 
 2023 · Kap. 3, otte projekter og afsnit 4.5.
 
