@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f109f19221d7eb54abb4b06e1497140051d9327a819a75c7c803d8e414cf7a88",
+  "claims": [
+    {
+      "id": "claim_f0434437cd8c40979882c2700cfa781d",
+      "statement": "Kortlægning beskriver prøvesteder, materialelag og utilgængelige områder.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L23-L27",
+          "version": "repo-lines-v1:sha256:b4b33652799f3325cd47a1b772c6daf0c76fe72631461c3e25f0a38de1a05a36:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc5OThmMzA1NDU0N2YyOGViYmJlNGJmNDI1MTU3MjYxYzk2M2Y4ZDk2OTY1ZmQ5NDhiZWFkNzVlMWM0MWJlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZkZTJmNjNjODM2N2U4OGYyODVlYzI5YmMxYzQxODcyMzAwZGE0Nzk1MDQxOWM0NDQxNzNiMmE5ZTI4NjFiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzM4NDkwMTY3NGQyYzRiYzRjYjAyNjZjMzkxN2FhZmNmMTQ2M2YyNDVkOGFiZWI5NmE0MzRiMDhjZjE0ZmU5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWM1NDdmMmVkMTNjZmZmMzAxYjEyNzIxZGIzYzg5NDA3YzEyYWE0ODVkMTFiNjYzNWNhZmZmYWQ1ZGY5NDhkOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ec3b0085f3e5463a8fda69b88282a935",
+      "statement": "Asbestforundersøgelsen skal være dækkende for de berørte dele og arbejdsgiverens opgave.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L29-L33",
+          "version": "repo-lines-v1:sha256:bfee467d18315ec40f2929f7717f38cfcb56048a4591509746ae5232743566be:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWQzNWQxYzkwN2IzNTM4YjJkMDViMzdkZTQ4OTUwMTcwMDEyMzIwZTg0YWI2YWU5ZTcxYWRkNDE2MzBlZDU4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDI0NzcxMDEwOWZlNmNkNTQxOTRiYjI1NGY1YWNmMzQ4ZmRkY2Y3MzU4M2E3MGUxYmVkYjU3MmU4MDFlMDM4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmIyOTU4YjJmMGI2N2M3MjM0YjRmYmY4NDUyMjhkMGY4MDhkMTQyNTI3ZWM4ZGFkMzBjMmM2NjkyZjFhMTc0YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIyOWZmNzU2Mjc0ODg3ZWUyN2FhOWYwNmU3Y2NhOTU5ZjAwZmFmMTIwZjlmNTJkNTBjOGU3ZTYyZWNkODYwYiJ9"
+        },
+        {
+          "resource": "repo://kilder/bygningen.md#L35-L39",
+          "version": "repo-lines-v1:sha256:385db9d0155a7ef9f70ba7e285fb4337561708a7a259efc53ebe96ac767aa5e5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZmZWQyZWJkYjEwNDkxNzIzYTg5YTE4NzgyOTk4NTJmNjhiYzZkODdkZTYwNjFiNWJmODZkZGU1M2U0Njc5NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTU2ODgwNDNjOTEyZTk3ZjVlZWQwZDA1MDdlNDMxOWJjNmE5YTczNTk1NWE5NjExNjUzZDJjMmNjZDdiMzJiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWJhNThhOTFiY2JiNzFhMjJlYWNiOWZmZjk5NTM5OGY0N2YwM2I3NjZkYTExNDI3OGExNTY0MWQ0ZDMzYThkOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjNhN2RjMGJiNzBkYmUxODRjYjZlYjg0ZWQ2ZTI1NmM3M2Q2NTA2NGVmYjhjZGZhZTg4ZWRmOTg3ZmUyZjdlNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b5c64bc7196342468f1bb1b4f0a10b67",
+      "statement": "PCB-forekomst i en bygningsdel og koncentration i luften er forskellige undersøgelsesspørgsmål.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L41-L45",
+          "version": "repo-lines-v1:sha256:9088cd5b87adb5b1f50b42c89c6df1749f674301161728f6865759b2ac31acb1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWRjODI0ZDNiNWE4YTg0ODE5ZTU3OTkzNzBjNDAwM2Q0YmQyOTAzMTY5NmE0NTVhNTA5MmI1ZDQzNDcyNTIwZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWFmZGQxNGJhYzRkMDNkNjk1Mjk1Yzg5OTIxMmFlN2EzNWFhNGQ1NDc4YzI1OTEwZjc5NDk4NWFiMTM2ZDJlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmJiNWQ0YmZhNGQyMzY5OTVhOWFhYmVmOWJhZjYxN2ExMWMzMzU3NGQ4OGE2YzliYmJhZWE2M2FkYWJhMDE0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzdlMTMyZGM5OTQxODUzZWI5YTlmYTNjMzA1ODIyNDZhMjBiY2M5Y2M3NDk1ODlhOTQ2NGY2NTAxZjljNjgxMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5cbd3519257e462fb3bb3c35f204eac8",
+      "statement": "Blyindhold i materialer og arbejdsmæssig udsættelse belyses med forskellige data.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L23-L27",
+          "version": "repo-lines-v1:sha256:b4b33652799f3325cd47a1b772c6daf0c76fe72631461c3e25f0a38de1a05a36:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjc5OThmMzA1NDU0N2YyOGViYmJlNGJmNDI1MTU3MjYxYzk2M2Y4ZDk2OTY1ZmQ5NDhiZWFkNzVlMWM0MWJlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZkZTJmNjNjODM2N2U4OGYyODVlYzI5YmMxYzQxODcyMzAwZGE0Nzk1MDQxOWM0NDQxNzNiMmE5ZTI4NjFiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzM4NDkwMTY3NGQyYzRiYzRjYjAyNjZjMzkxN2FhZmNmMTQ2M2YyNDVkOGFiZWI5NmE0MzRiMDhjZjE0ZmU5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWM1NDdmMmVkMTNjZmZmMzAxYjEyNzIxZGIzYzg5NDA3YzEyYWE0ODVkMTFiNjYzNWNhZmZmYWQ1ZGY5NDhkOCJ9"
+        },
+        {
+          "resource": "repo://kilder/bygningen.md#L47-L51",
+          "version": "repo-lines-v1:sha256:46f9bec7be11e1904435b450851a683adda10e7dba04c79d55db608cd7247fc1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU0ODI1OGNhYTNlNWUzOWQ3NmUwYWRkYWI3Y2E1Njg2Y2M5NzgyZDkwNDc2MWFjM2QxMWUzNWE5YTA4MjQ1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJiOWRiNDVkMjNjMmRkYmUyNTI3Njk1OGFhMmFmZWY4Mjg1YmJlZWJlMjE3OGRhNGMxZjIzMWEyZTllZGU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTQ5NWYzYmY0NjY2MzdmYWMyM2EyZTk5ODhhMTVhOTcxOTg3ODA0ZWNjOTQwMGFhYTE1NjVlZDkwZDYwMjIxMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBiODA0MTIxMDIwOTFmYzhlMTcyYjBiNzk5MDBiMjllMmU0ZDE5YjE3YmQxZWQ0MzI3YTdmZmM5YWI2M2E4ZSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:37:38.446Z"
+  }
+}

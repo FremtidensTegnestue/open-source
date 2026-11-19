@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1a415aca68efa2f8745a0d75220a0ec9f732076350dd04c591b70f3a56e8d0f9",
+  "claims": [
+    {
+      "id": "claim_5b78a03f909c426798a232e27e488f96",
+      "statement": "Kommunal bevaringsudpegning og national fredning har forskellige myndighedsspor.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L9-L13",
+          "version": "repo-lines-v1:sha256:c00f48974bb4f7e81f2583bc3a82ddd8cea5cceef5e8d51f7cc512306afc3873:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM1OTc5ODNmOTdlNTQ1ODY5MDgzOGMyYzE0MWRlMjAzMjI3YTQxNzFlZTViNGJiODQ3YzJiNjg5OTExMjRlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJhMGJhNzVkMDdiZTQ2OTk2MDhmMTYyZDc3MmFlMmQ0YzkwNGI3MmQ0ZWFhMDE1MjRjZThmMTZkYTVjMzU0MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWYzOGE4ZGRhOGZjNDQ2MzU3YzBjYTJjNmY1NTUyOWM4ZTk5ZWFkNTg2ZTE3ZDIxNDMwNTg0YjkzYzJlNTkzNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzk4NzdjM2JjYTQwMDEyOWNhMTRlMjQwZDllNjBhZjVhYTEwZDg2NzU1YjMxMWUzMzU2ZTE3YmRkODZiYzAwNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3fe0894bac474ecdb3dc764ac33966cf",
+      "statement": "Styrelsen skelner på fredede bygninger mellem almindelig vedligehold, visse underretningsarbejder og tilladelseskrævende indgreb.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L15-L19",
+          "version": "repo-lines-v1:sha256:c41df24ee40f6930e4c6db7a6f0acb9374f5ac948da12fc8fecd591b063221d5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmY5ZDVjZjIwYzYxYjNkMDYwNzIyZmMwMTUyNzYwNDNjNjJjYWY1NzdkNzFmY2E3NmI0ZDNhZjI0MDdjNGY2NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4NzQxMTU1MmQyYjk4NzE1NmQyYWFmNDVjYWNhMmFjODdhNzNjMTczYzc5MTk3YjkyOGE5NDgwOTE2NmJiYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmYzZWJjMzM2M2JiNGI3ZjQ3M2I2MGRmMjUzNjU4M2Q3YTUzMGQ3NDI4ZDM2ZDA4Zjc5YTEwM2I5MWFmZGI3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzM4NDkwMTY3NGQyYzRiYzRjYjAyNjZjMzkxN2FhZmNmMTQ2M2YyNDVkOGFiZWI5NmE0MzRiMDhjZjE0ZmU5YiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:37:38.446Z"
+  }
+}

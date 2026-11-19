@@ -1,19 +1,21 @@
 ---
 type: guide
 title: Kom i gang med transformation og genbrug
-description: Find vej til vindueseksemplet, de åbne spørgsmål og samarbejdet med materialeværktøjet.
+description: Dansk opslagsværk om transformation og genbrug med fagartikler, gennemførte projekter, originalkilder og åbne spørgsmål.
 tags: [transformation, reuse, retrofit, discussion]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:19:29.468Z
+    at: 2026-11-19T07:37:38.446Z
 sources:
+  - id: openwiki-source-19e5da57104b6bc4ab7b4818
+    resource: repo://kilder/bygningen.md
   - id: openwiki-source-6314359a6bfa04d8acc9cf03
     resource: repo://oplaeg/forste-besigtigelse.md
   - id: openwiki-source-182a65da0185ccadc843aff1
     resource: repo://oplaeg/vinduer.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "codex", at: "2026-11-19T07:19:29.468Z" }
+generated: { by: "codex", at: "2026-11-19T07:37:38.446Z" }
 ---
 
 # Kom i gang med transformation og genbrug
@@ -44,6 +46,11 @@ Når en bolig skal fungere bedre, hvad kan vi så opnå med det, der allerede er
 
 På bygningsniveau kan spørgsmålet være, om en ny indretning kan udnytte de eksisterende rum og bevare deres dagslys. Ved en enkelt dør eller bjælke kan det handle om at beholde den, reparere den eller give den et andet hjem. En ny isolering eller rude kan også være en del af en ombygning. Hvad løser tilføjelsen, og hvilke konsekvenser får den for den gamle bygning?
 
-## Fra en drøftelse til et forsøg
+## Faglige opslag
 
-Et muligt forsøg er at knytte en opmåling til et vindue i BIMCraft, undersøge en detalje i SolidCraft og lade arkitektens agent hente dokumenterede tal fra materialeværktøjet. Første skridt er at finde en virkelig case, hvor valget og grundlaget kan deles. Vindueseksemplet her i wikien er tænkt. [Læs arbejdsoplægget og se Thais’ skitser](../README.md)
+- [Fredning, bevaringsværdi og vedligehold](viden/kulturarv.md)
+- [Asbest, PCB, bly og afgrænsning af prøver](viden/miljoefarlige-stoffer.md)
+- [Bærende konstruktioner, træstyrke og branddøre](viden/konstruktioner-og-brand.md)
+- [Dagslys, lyd, ventilation og adgang i boliger](viden/boligkvalitet.md)
+
+Viden om en bygningsdel kan komme fra en bestemmelse, en prøve, en besigtigelse eller erfaring med en bygning i brug. Kilderegisteret viser, hvilken type grundlag der er tale om, og hvor man kan læse videre. [Kilder om eksisterende bygninger og deres dele](../kilder/bygningen.md)

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6646343c911c42f363a896389ffe97cb1824126bb32b67e707249ea66a78d9fd",
+  "claims": [
+    {
+      "id": "claim_ea22369a802e4be484fdfa665956635f",
+      "statement": "BR18 beskriver korrigeret glasareal og beregnede belysningsforhold som forskellige dokumentationsmetoder.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L87-L91",
+          "version": "repo-lines-v1:sha256:38356338992841bce1c4072b30933551e5619cdc2c80f5321bce6e31c826e517:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzFlZjIxYjkxMzA0NTY0ZjRiODdjOWIxMDE0ZjU5YjlhNjBhMjU2NTU5MjhiY2Y2YTBhZTIwNzc2ZDY1N2QwMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjM1MTVjYjY3YTEwNjAyYTY3NmQ4OGI0ZjFiMzRkNzAwM2JkODQwNTg4ZjBlMWZmZjgyMzA0ZDZlNzc0ZTczNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzJjNTlkMDkwMmEyYTczYmVhNjEwYjBhYmFkMjcwMzQ0MmE5ZmY4ZWI4YzFkNmIzMWVjZDg5YjBhYmZkZWFmOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTc5YWIzMDAzYTBlZjIyYmI0OTc3ZTQ4ZjMwY2UwMjYzODQxZTk4ZmI3NzM4Njk3NzgwY2IzMTBmN2M3YzZlZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0d011ce4fab548a5b1c982d4b6359cc6",
+      "statement": "Boligers lydforhold omfatter flere støjkilder, og ventilationsvejledningen skelner mellem udskiftning af vinduer og ændret anvendelse.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L93-L97",
+          "version": "repo-lines-v1:sha256:ea1fe9911177df996546980b2e4e652b78a546b09501f0756f54eae74929aa66:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDdiMDU5OWU1MGU3ZGZkNGYyYTFhMjY1ZjY3YmZjMjI4YmVlOWY1ZDY4ZmI1OTA0ODM3ZDViMDI2OGFjYzdjYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZiNGIzYmZiNjk0OGRmNDc1ZjgxN2Q4NDdjYzJkNDA2NGQ4ODI2YmY0YjZiNTVjZjBiN2RhMDgzZTE0NmU3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTgyYWU4MjdiMzJjZTczYWE2NjQwNDJmNjIyNDZkZmU3OTgyM2Q2YWMyMzFmYjYzOTJhMmUxMmM2NThiZTI4NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTljNzgyNmU2Y2Q3OWJmOGE3NTJmODM1M2Q5Njg2YTJiNzBkYjhhYzA1MGJkOWI2ZjI0MDk4MDdmN2JlOGIxMSJ9"
+        },
+        {
+          "resource": "repo://kilder/bygningen.md#L99-L103",
+          "version": "repo-lines-v1:sha256:c0a33bd62983f2b60878cc9b8ff19c41e285045a58dd120bfc725ca876560de1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODU4NGZlN2YzYzk3NTVhZDVkZDdmZjQzZTgzY2QxZTJhNWRhY2E5NTVhZGNkMjEyYzlmYmEwMTIzYzZjNTRkMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzBhMmZkNjZhYTI2MzY1YmNkODg3MDY5MDQzNjg5YWNiMWVlMWNmY2M4Nzc1NzYyZWMwMGY3OTkzMDRjZGE0MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWY3NzFjMGIwMjEwODU0YWIyZmNkZjA0NWQ1YmJhZjI4MmVmMTZmMjQ3MTU2MjJjZmI3OGM5ZTk1MjI3MDVjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTczNGM5MWJkMmU0NjE1OTUzZDRiZGI3ZTJmMjFjNjc3YTI3MjEzMDczNjRlY2JlMDViZjk5OWYyMmI3NGQzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ab3870b93bf94f2c94280e636c234d19",
+      "statement": "§ 247 afgrænser elevatorundtagelsen til bestemte arbejder i eksisterende boligbebyggelser.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L105-L109",
+          "version": "repo-lines-v1:sha256:0dbb6ed5ccdb962f8f10c9168039cd25236d9ce3500cdcdbd5455f8ab337e722:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzc5ODU2OTJmZjA3NDEyMjI4NWNiZWJmMzdjNjU2Y2IwYmFmYjQyZDczMTA3YTY4ZjY2ZWEzMjhjYjhkMjk2MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGEwNGE5NTlkNjFhYjg2NzllMzE5OGQyMjA4N2Q3OTIxZjc4NDY1MmJhMmQ4OWI0ZTdmMzdjMTQyMjQyMGYyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjFlZTYyOGU5M2U0ZWE0ZGI5NTUwN2RjMjc1NTFlNzkzNmYxMDBjN2Y2MjRlMWFmOTYyN2VlM2E5Y2QyM2Y4MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmNkMTdkNTkwNjNiMTdhOTA5ZmIxNmFiYzMwYWE3NjQyMzdiMDQ0ZTA4ZGE5Njg5OTBlNjcxMzIwYWY5ZmFhNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_74facd3b2d3e41959a5365ebf9d149ba",
+      "statement": "Boligselskabet i Nøjsomhed beskrev driftsproblemer i de nye elevatortårne under BUILDs evaluering.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L111-L115",
+          "version": "repo-lines-v1:sha256:c3a74923eaa06e108b4e25394ab3e47d5d824c881329467511cc57463d8c11aa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTk2ZTAzMDQ1NDk5MDgyNjE3NjEyYjI1OTE5YTA3MDY3ZDU2N2I4MjViMjY1YWMyZmE5NTM5MDkwMTExODY4MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWI1MWZjNzNlNGJmNDhhNGNkNWQwNmQ3NTMwODA5MGE1YWJkMWY5MzMyZGQxYmIzM2Y3YTA3NjlmMzRhMWNjMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzI0MWQ0OGMwY2EzMTBjMjhkMDUzNjY2NmEyYzM5NjI5Nzk5YzFmMDY4ZGQxNjQxMDJkYjAxYzYxNDBhMDNjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:37:38.446Z"
+  }
+}

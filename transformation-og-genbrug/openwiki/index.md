@@ -4,7 +4,7 @@ okf_version: "0.2"
 
 # Filer
 
-- [Kom i gang med transformation og genbrug](quickstart.md) - Find vej til vindueseksemplet, de åbne spørgsmål og samarbejdet med materialeværktøjet.
+- [Kom i gang med transformation og genbrug](quickstart.md) - Dansk opslagsværk om transformation og genbrug med fagartikler, gennemførte projekter, originalkilder og åbne spørgsmål.
 
 # Mapper
 

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:ac65f984b54b751df8cc22471a2dd4dd17791c044b36f75b6873878aff0b754f",
+  "claims": [
+    {
+      "id": "claim_df3ccac4a2bf4ae89a098e90b76d9ad4",
+      "statement": "Husets samlede statiske virkemåde og skiftende tilstande er en del af dokumentationen ved ændret anvendelse.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L55-L59",
+          "version": "repo-lines-v1:sha256:52178cf73580a147a528526dcfba4424cbbe9369c24c3a7b538e587de8951e92:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmEzZmI2NGQwMDhiMzAxOWFhMDhkNjhjNDcwMDJmMjQ5NmExMDFjZGMxNWZjYzJiM2E0M2E0ZDZmYWJmMWU4NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2EyYjExYTdlY2FkMzg3NjY2MDE4ZWY0N2I1NDk0NGU3YTEwNDc4MDhhNzA4OGQ2ZjFhZjliMzlhNDFjMTY2ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDBiODA0MTIxMDIwOTFmYzhlMTcyYjBiNzk5MDBiMjllMmU0ZDE5YjE3YmQxZWQ0MzI3YTdmZmM5YWI2M2E4ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWM5ZjY1Y2NjZWQxZmEzNzMxYzdlNmFkZDkxZmIyNTdmZTM4NDBkNzlmNGVkMTA2N2U3MTM1MzMzMmQ3ZjlkZSJ9"
+        },
+        {
+          "resource": "repo://kilder/bygningen.md#L61-L65",
+          "version": "repo-lines-v1:sha256:8c639878f2756d393b59afd7153b8cc4d752473db20cb86fe2f76b4f6c82201e:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWYwNDZkNmMwMTY1OTBiZTY3MzFkYmU3OWE2ZDI5MWMyYmQyMjQ3MzMwMTk1NjE4NWUxZTI2MzJkOGI4M2ExOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDRjNzdlNGZlMjJmNzM3NThjZjJhMjFjYzJiZThiYzI0YjczZDZjZTgyYWY4ZThhMDIzZmIzNDFmMTgwM2Y5YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGU0YTQzOTdlMDk5MjcxMTVhNjcxNDMyMWMyMTk0YmZjOTI5YTY2M2RiYTEzMzExMDdiM2VhMGQwMzNiMjhkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzU4M2QzMzZkY2JiZDdiZTJlNzA2MzM4ZmU4OWIxOWEyNTcyZjVmMWNkN2JkYWExYjJkMDljMjI1MGFmMzViMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5cf288a5867d405a99d4633e8a5ba093",
+      "statement": "Styrkesortering af nyt træ er kalibreret mod prøvning, hvilket har betydning for vurderingen af genbrugte bjælker.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L73-L77",
+          "version": "repo-lines-v1:sha256:c4b4b90256a15f91f6cb48f8cf135fd7823c4d27b772e3922a49fa672f30f77c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGZlZDZlYjc2YzE2ZmNmMzU1ZTk5NjFlYjlkYWMyZjc2ZWQ3NWMyYTk0YTFlMTdmZTVjYjdhYWIyMTZiODFlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWYxNTEzZmE2MGJkZDFlOTQwOWQ1NTNlZmE2ODk0YTEwMTg5ZjgxNGE4ZDM1ZmRiNjMxODIwYTU2OTVmM2NkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODE4YzgzYTUwM2U5MmMwOTM0ZjkxYzI5ZDcxMGNhNTk4OGVmNjYwZTg1OGRjYmM5OWI3YzQ2ODViMDc0NGYyZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWZkMTNhYjcwYTUzNDQ1YmM3NmU4OTEyNWRiZGIwYTRlYmIyYTY4MTAwNjRmZDAyNzczZmIxNGJiMjU3YzE3NyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e20f0011d7d74927841082140b8af570",
+      "statement": "Betonelementer, stålprofiler og udsavet murværk har forskellige samlings- og dokumentationsforudsætninger.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L67-L71",
+          "version": "repo-lines-v1:sha256:ac3503f5258a983617597503412218656d38fb7dc00523f4b402070ef440d1b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDk0Y2FiNTQ1MWZmNzQ2MDE2ZTRjOWYwMzRlZDFhNTVmN2NmNzc5MGM5NjIxOWY4NTZjYzViYTM0MTAxY2IxYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc0ZTk5NWM0NmU4NzA5NjgzNWI0YjlmNWU2YWIwYjg4MGJmMmE0YjdkNjczMmZiMmE0OGJlZWFlOTk5Y2NiNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQxODE1MTljOWNkZTFkMzlkMzliZjM1NTM5MmJmZTRjNDIwMjJmZDZlYzJjNzFmNWQ2MDI1ODhmZDBkNjFiZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmU4NGQ2MzMzZTU2MzRkZjg4M2EzYWMyOGU1YTBiNzQyMTA1OWY5NTBmMDliOWZmNDdiMmM1MDNjMjA0ZjA4MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1a58a9a0e0aa42938d64b372d8749da0",
+      "statement": "GenDør beskriver en demonstration med tre udvalgte døre samt et særskilt visuelt tilstandstjek.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/bygningen.md#L79-L83",
+          "version": "repo-lines-v1:sha256:39ff73766810a2647288d41cfeadd48ef7697c2cac101815c15f87a5b640c7cc:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWI3OTYxNzMzZjI1NDI2YzA3NjIyOTQzMjFjMTUyMjNiZDIxNDgzMTg2MDJjNTNkMDFiYmM1NjY1YjdlYmE4ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdlODEzYTdjNzZhMzAwNDcxZWM1MGQ2MWQ4ODA4NTE1ZGNkZDQ1NmI1ZWMzMTc0NTQ2NzgzMDhlNTU0YTU0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzllODhjMGQxN2FhYjVjNjg5YzBmOGYwYjY5MDA4ZTg2YTk0ODkxY2I4MzYzYTI3OGQxZmU3NTZkNmI5NzgyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzJjNTlkMDkwMmEyYTczYmVhNjEwYjBhYmFkMjcwMzQ0MmE5ZmY4ZWI4YzFkNmIzMWVjZDg5YjBhYmZkZWFmOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:37:38.446Z"
+  }
+}
