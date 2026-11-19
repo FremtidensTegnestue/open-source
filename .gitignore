@@ -1,39 +1,6 @@
-__pycache__/
-*.py[cod]
-.venv/
 .env
 .env.*
 .DS_Store
-*.bak
-*.sc.bak
-
-# Downloaded source archives remain local; the complete structured data is
-# explicitly committed under data/parquet/ and distributed as SQLite releases.
-/archive/
-/unpacked/
-/upstream/
-/extracted/
-/sources/methods/*.html
-/data/raw/
-/data/staging/
-/data/materials.sqlite*
-/output/
-
-# Local tooling state and raw execution logs are not the public documentation.
-/openwiki/.*
-/examples/integrated-workflow/logs/
-/examples/integrated-workflow/independent-evidence/*.stdout.json
-/examples/integrated-workflow/independent-evidence/*.stderr.txt
-/examples/models/*/*.raw.jsonl
-/reports/lisbjerg-bakke/raw/
-/reports/lisbjerg-bakke/assets/
-/reports/lisbjerg-bakke/rapport.html
-/reports/lisbjerg-bakke/rapport-offentlig.html
-/reports/lisbjerg-bakke/rapport.pdf
-
-# An optional local automation template; public CI does not need API secrets.
+__pycache__/
+target/
 /.github/workflows/openwiki-update.yml
-
-# Rust builds and reproducible local material editions.
-/target/
-/data/editions/

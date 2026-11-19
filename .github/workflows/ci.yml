@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+defaults:
+  run:
+    working-directory: materialer
+
 jobs:
   verify:
     name: Historical v0.1 compatibility
@@ -18,6 +22,7 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
+          cache-dependency-path: materialer/requirements.txt
       - run: python -m pip install -r requirements.txt
       - name: Restore the complete dataset
         run: python scripts/build_database.py
@@ -59,5 +64,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: ft-materials-linux-x86_64
-          path: ft-materials-linux-x86_64.tar.gz
+          path: materialer/ft-materials-linux-x86_64.tar.gz
           retention-days: 3
