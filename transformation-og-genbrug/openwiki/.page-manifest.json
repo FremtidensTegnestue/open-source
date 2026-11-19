@@ -2,39 +2,39 @@
   "schemaVersion": 1,
   "pages": {
     "/openwiki/atlas/beboere.md": {
+      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
+      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063",
       "pageVersion": "sha256:17e0ba7e0450b548180a4a34d8482979cb98dcd4057198c37e27bbf8f90075d7",
       "completedBy": "codex",
-      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e",
-      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
-      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063"
+      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e"
     },
     "/openwiki/atlas/bygninger.md": {
+      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
+      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063",
       "pageVersion": "sha256:72ab7708a9fb618fe4ccad2651c0d77368302d2c9a58f4ff2e0f4c188cbb5f79",
       "completedBy": "codex",
-      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e",
-      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
-      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063"
+      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e"
     },
     "/openwiki/atlas/drift.md": {
+      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
+      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063",
       "pageVersion": "sha256:5e2ba491abd3c3dce057b315c4d3a2c27f29e8d20abb3687971aa143709f6bf1",
       "completedBy": "codex",
-      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e",
-      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
-      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063"
+      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e"
     },
     "/openwiki/atlas/genbrugsregnskaber.md": {
+      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
+      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063",
       "pageVersion": "sha256:5a772d925a62ada183074c9fad5ddedec77c88280f1f49ad26481eeab6116bf7",
       "completedBy": "codex",
-      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e",
-      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
-      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063"
+      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e"
     },
     "/openwiki/atlas/oversigt.md": {
+      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
+      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063",
       "pageVersion": "sha256:dbcd86d04e6fb7897eb633b8f3238e8fba43c8d82cce2ce47a9fb73766819f9e",
       "completedBy": "codex",
-      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e",
-      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
-      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063"
+      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e"
     },
     "/openwiki/cases/danske-projekter.md": {
       "gitHead": "903c9d599fc3616053716f9c15710d41da2e9e5f",
@@ -106,12 +106,82 @@
       "completedBy": "codex",
       "completedRunId": "b8c5925a-133a-4652-890c-a504b995e290"
     },
-    "/openwiki/quickstart.md": {
-      "pageVersion": "sha256:c7e06b0dabae6f5f4d0064f15ec86bbfcd5c56163b6fed621e48a9a3251c877b",
+    "/openwiki/praksis/almen-blok.md": {
+      "pageVersion": "sha256:4fbfd1b5c4a25885c3980b71f97a3dd1052ea850f449923f70b8f824b075a8c5",
       "completedBy": "codex",
-      "completedRunId": "d82a02fd-9f21-400c-b2c4-fa28a4053c9e",
-      "gitHead": "0baf75f2217a2af9ccce9d94733578c02ca63c9f",
-      "sourceFingerprint": "sha256:94aa69d8e93207dd3aad9341495083f3f582753323984b2be1cf8422da230063"
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/baerende-genbrug.md": {
+      "pageVersion": "sha256:2bfa469af776ad5dfdc5ed87aeab185f413244738bd53686262f5e0140d8ebbc",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/bygningstyper.md": {
+      "pageVersion": "sha256:d469a8027073aedaf76e8c64e8cdc0a4216ae49925881a88924cfa2a5bd203d7",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/daekning.md": {
+      "pageVersion": "sha256:932426967efbac9544383b952e8776bbf4e26ef5262f92899261ba2a8130226b",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/etagehus.md": {
+      "pageVersion": "sha256:92325d99be5f9ad7c2750af7a169d132588f60a920f75740a00cd6eabf5e5c26",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/facader.md": {
+      "pageVersion": "sha256:5703441667d533a57fb44913bfbb5cc67972d6911a42f4928cd9cb66c97aa39c",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/feltproeve.md": {
+      "pageVersion": "sha256:669a863c0e0c2197d5b0cf9b4d4b7d41980e452dc7c26ca34cefe5ba595e7dc6",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/genbrug-mellem-pladser.md": {
+      "pageVersion": "sha256:696b973f097dfa8c970d395157ed55af1ab1c040d3f803cb65cd72935821f078",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/husdeling.md": {
+      "pageVersion": "sha256:f99c4f311909aa523290ccde1d946747a15f20f22e9a061f3269bdf8b82a56b0",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/praksis/oversigt.md": {
+      "pageVersion": "sha256:e60b5f212322de2d68d7d3ebe2f1d5da3caa68ea6203faeda91797bed05ce68c",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
+    },
+    "/openwiki/quickstart.md": {
+      "pageVersion": "sha256:58a326ba08fa2d1e34944b006e205eaad5d925e939bd8317680694c6dbcf79f7",
+      "completedBy": "codex",
+      "completedRunId": "aa524de1-d487-4f1c-9a5c-ce5aca42dd77",
+      "gitHead": "d36c885295fe95c2feccf28f2b77b8e604f955bf",
+      "sourceFingerprint": "sha256:276fa5ef5469279e4668138b43fba261e667ed16cb8b9051ce9eb643cacf2c08"
     },
     "/openwiki/viden/aftaler-og-drift.md": {
       "gitHead": "903c9d599fc3616053716f9c15710d41da2e9e5f",

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:92325d99be5f9ad7c2750af7a169d132588f60a920f75740a00cd6eabf5e5c26",
+  "claims": [
+    {
+      "id": "claim_53c33db9126f452592f7d7e393541081",
+      "statement": "Enkelte rum i opgang A fik ingen indvendig isolering. Den udførte løsning afveg fra den planlagte.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/etagehus.md#L24-L24",
+          "version": "repo-lines-v1:sha256:ea612e9231e040f49b010b6423539082406a5b902ab5bf71ab84e399db740748:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE2MTJlOTIzMWUwNDBmNDliMDEwYjY0MjM1MzkwODI0MDZhNWI5MDJhYjViZjcxYWI4NGUzOTlkYjc0MDc0OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWE2MTJlOTIzMWUwNDBmNDliMDEwYjY0MjM1MzkwODI0MDZhNWI5MDJhYjViZjcxYWI4NGUzOTlkYjc0MDc0OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzdlZGNhNTEwMzNhNzgzNDA1MzU0YzA3ODNhOTNmZDQwZmYzMzZjMTM2YWQ0YjIxMDkzNzc0NmNlZGRjYjhjZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjQzNDY1YWI4MjE5NDBmZDg4NzZiNjUxY2Q1NmFmYWNmY2NjNmQ2YzJhMTc4YjJlZjY3NjM2ZDc1ZDkzYTg4ZSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:2bfa469af776ad5dfdc5ed87aeab185f413244738bd53686262f5e0140d8ebbc",
+  "claims": [
+    {
+      "id": "claim_643130d7c6664c17ad5a5158d5f5bb38",
+      "statement": "Bygherrens foto og billedtekst identificerer et huldæk fra det tidligere MasterChef-studie i Tscherninghuset.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/baerende-genbrug.md#L3-L3",
+          "version": "repo-lines-v1:sha256:3aa1d29d4f98bbb803c70fd8a005a546d763ae90b383dd6f4786beaca2add0cc:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FhMWQyOWQ0Zjk4YmJiODAzYzcwZmQ4YTAwNWE1NDZkNzYzYWU5MGIzODNkZDZmNDc4NmJlYWNhMmFkZDBjYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2FhMWQyOWQ0Zjk4YmJiODAzYzcwZmQ4YTAwNWE1NDZkNzYzYWU5MGIzODNkZDZmNDc4NmJlYWNhMmFkZDBjYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjQ0ZmIwNzQwNTM1ZDViYmRiZjZjMzdhODQ0MTg4MTdhMjYzNmYwMjZjZmIyNTljMDdjYWQ0YTM0M2IxYmFiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGYwNmM2NzE5YTU2NTUxMjkyOGZhZDI2NjNjMDkwYjI1ZWZjYWJiYWQxYTYyOWE2ZDlmZmUyMzU1ODY3YmQ0YiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:c7e06b0dabae6f5f4d0064f15ec86bbfcd5c56163b6fed621e48a9a3251c877b",
+  "pageVersion": "sha256:58a326ba08fa2d1e34944b006e205eaad5d925e939bd8317680694c6dbcf79f7",
   "claims": [
     {
       "id": "claim_e09c0474a39448bcaa092916485b9356",
@@ -123,10 +123,20 @@
           "version": "repo-lines-v1:sha256:70764a32954982c8cc57064fb893872409d198f7f110f7446b3ce4a354ec22f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA3NjRhMzI5NTQ5ODJjOGNjNTcwNjRmYjg5Mzg3MjQwOWQxOThmN2YxMTBmNzQ0NmIzY2U0YTM1NGVjMjJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA3NjRhMzI5NTQ5ODJjOGNjNTcwNjRmYjg5Mzg3MjQwOWQxOThmN2YxMTBmNzQ0NmIzY2U0YTM1NGVjMjJmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWZiMzNiN2FlNjcwZGViNThlMGJmMTk0NWQ0MWE4ZTUwZGI2NTIzZTVkZGZkYzk3NTYxN2ZlYjQ1MDg3NmE4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWM5ZmMxM2MwYzNiNDJiMTRlNmJmNmE4MGZkODNiNDc3NTVhZjQxNjE2NDdiZTNmZGU5OWE1ODZiZDliYTZhZSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_74d1f0170e7a4122b2f6444ec483a391",
+      "statement": "Læseren kan gå direkte til husdelingen, Klimablokken eller Ryesgade og finde en beslutning i hver sag.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/README.md#L7-L11",
+          "version": "repo-lines-v1:sha256:23f9bd5b2bfda2c1ee1e3f6a21b7275fc78a6f409d2123a54309fda46203e37d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI1MTdhZjA5NGZjN2JkNTUyYmE4Mzk0ZmVmNTNmMzAzNjM2MzI5OWUxNjY5MzY1ZmI3ZTU2YTVhZjg4NmEwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDE0NGI4MDYwYTMxMjU0YmY2MjdhZTliY2UyODJmN2IxOTRmOTU3YzY1ZGRkOTNhMDU5Mjc3Njc3NDQ2Njk1NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzM3ODg2ZjgyNmE4Yjc0MDI4MWY0OWIyNjgxYjhmNDUzMWFjZDQ5NGRhZTg0Mzc4NWRiODBhMTIxYjRiOGI0ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDM3ZGU0OWQ1YWE0OWQyZjg3ZmVlOWVjODQ3YTViMmNlOTU0MGM1MDQwNDQ5YWRkNjEyOGY3NGM0MjEyODNjYiJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T17:47:29.628Z"
+    "at": "2026-11-19T18:12:07.266Z"
   }
 }

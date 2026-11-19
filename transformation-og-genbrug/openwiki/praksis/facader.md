@@ -1,0 +1,47 @@
+---
+type: guide
+title: "Hvornår kan facaden repareres? To byggesager fra Aarhusegnen"
+description: "Sammenlign lokale betonreparationer med udskiftning af facadeelementer."
+tags: [transformation, genbrug, byggesager]
+verified:
+  - by: openwiki/0.9.0
+    at: 2026-11-19T18:12:07.266Z
+sources:
+  - id: openwiki-source-f082e17c2657a7e53dbe59ee
+    resource: repo://praksis/facader.md
+generated: { by: "codex", at: "2026-11-19T18:12:07.266Z" }
+---
+
+# Hvornår kan facaden repareres? To byggesager fra Aarhusegnen
+
+I Glasalstrup i Hasselager kunne man bevare betonens synlige overflade ved at reparere de skadede felter. I Klimablokken i Tilst beholdt man råhuset og udskiftede store dele af facaden. De to bygninger er omtrent lige gamle. Forskellen lå i, **hvad betonen bar, hvor skaderne sad, og hvilke problemer bygherren ville løse**. [Realdania By & Byg, *Glasalstrup*, 2022, s. 65–66 (PDF 66–67)](https://realdaniabyogbygklubben.dk/media/utnpl0ga/glasalstrup-ebog-enkeltsidet.pdf#page=66) · [AL2bolig, *Klimablokken*, 2013, s. 41–42](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=41)
+
+## Glasalstrup – skader i felter, søjler og tagophæng
+
+I kontorhuset fra 1965–66 er glasfacaden trukket ind bag betonsøjler, som bærer et gitter over taget. Udvendigt var der afskalninger og stedvis blotlagt armering. I gitterets smalle ribber ligger armeringen tæt på overfladen, så fugt lettere kan nå den. Flere åbne hulrum i betonen, såkaldte stenreder, stammede fra den oprindelige støbning. Ældre lapper og maling kunne ses efter afrensningen. [Arkitektens afsluttede projekt, 2022](https://overbyen.dk/glasalstrup/) · [Realdania By & Byg, 2022, s. 59 og 62–63 (PDF 60 og 63–64)](https://realdaniabyogbygklubben.dk/media/utnpl0ga/glasalstrup-ebog-enkeltsidet.pdf#page=60)
+
+**Det udførte arbejde.** Alle gitterets 240 hele og 68 halve felter blev gennemgået. Holdet reparerede de konstaterede stenreder lokalt. En tynd grå overfladebehandling beskyttede betonen og lod aftrykkene fra forskallingsbrædderne stå synlige. Ved forbindelsen mellem betongitter og tag havde nogle af jernstropperne stået i vand. De nedbrudte fik nye stropper på en metalplade. Andre kunne bevares og blev beskyttet mod regn. Mange originale glaspartier blev bevaret, og nye kom til dér, hvor senere flugtvejsdøre blev fjernet. Betonarbejdet blev udført i 2021, og restaureringen blev afsluttet i 2022. [Realdania By & Byg, 2022, s. 63–66 (PDF 64–67)](https://realdaniabyogbygklubben.dk/media/utnpl0ga/glasalstrup-ebog-enkeltsidet.pdf#page=64) · [Bygherrens tidslinje](https://realdania.dk/projekter/glasalstrup)
+
+## Klimablokken – nye facadeelementer på eksisterende råhus
+
+I pilotblokken fra omkring 1970 klagede beboere over kulde og træk. Betonfacaden havde kuldebroer, og boligorganisationen ville samtidig afprøve en omfattende energirenovering. Under arbejdet i 2010–11 vurderede entreprenøren, at de bærende betonelementer var i god stand. Da facaden blev åbnet, fandt holdet utætte samlinger i råhuset efter mangelfuld udstøbning ved opførelsen. De blev udbedret, inden de nye lette facadeelementer blev sluttet til råhuset. [DTU, 2013, s. 35–36 (PDF 37–38)](https://backend.orbit.dtu.dk/ws/files/60238115/RENO_EVALUE_online_version.pdf#page=37) · [Entreprenørens og rådgiverens erfaringer, 2013, s. 41–42](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=41)
+
+**Orienteringen ændrede løsningen.** Mod øst beskriver rådgiveren ventilerede træelementer med mineraluld og beklædning af naturskifer. På gavle var den nye konstruktion fastgjort på eksisterende betonsandwichelementer. På dele af vestfacaden og gavlene blev der brugt stålbeklædning. På havesiden blev altanernes betonbrystninger delvist fjernet. En opgørelse, som registrerer alle facader som nedrevet, mister både bevarede materialer og forskellene i den nye konstruktion. [Kuben Management/Cenergia, 2018, tabel 7, s. 13](https://xn--bredygtigebygninger-lxb.dk/media/2352/aktivhus_rapport.pdf#page=13) · [GI, 2012, s. 106–107 (PDF 54)](https://gi.dk/media/ngvh4v5x/renovering_finale_lowres.pdf#page=54)
+
+## Hvilke resultater kan sammenlignes?
+
+| Oplysning | Glasalstrup | Klimablokken |
+| --- | --- | --- |
+| **Mængde og kontrol** | Alle gitterfelter undersøgt. De 308 gennemgåede felter er en optælling af eftersyn. Kilden oplyser ikke antal reparerede felter. [Bygherre, 2022, s. 65 (PDF 66)](https://realdaniabyogbygklubben.dk/media/utnpl0ga/glasalstrup-ebog-enkeltsidet.pdf#page=66) | Samlinger blev eftergået. Rådgiveren rapporterer, at gennemsnittet af lufttæthedsmålingerne i de målte boliger opfyldte projektets sammenligning med LEK 2015. Målingen omfatter flere bygningsdele. [Rådgiver, 2013, s. 41](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=41) |
+| **Klima** | **65 kg CO₂/m²** for materialer i hele restaureringen. Heraf 4,4 for fjernede materialer, 52,8 for nye og 7,8 for fremtidig nedrivning. Hverken driftsenergi eller vedligehold er med. Alene det nye loft bidrog med 23,7 kg CO₂/m². [Bygherrens LCA, 2022, s. 78–79 (PDF 79–80)](https://realdaniabyogbygklubben.dk/media/utnpl0ga/glasalstrup-ebog-enkeltsidet.pdf#page=79) | **12,24 kg CO₂e/m²/år** i Active House-beregningen for 2.670 m² over 100 år. Den medtager produktion af nye materialer og bygningens drift. Bevarede dele og nedrivning er udeladt. [Projektets metode og tabel 8, 2018, s. 12–13](https://xn--bredygtigebygninger-lxb.dk/media/2352/aktivhus_rapport.pdf#page=12) · [Active Houses enhed for GWP, 2013, s. 13 (PDF 4)](https://www.activehouse.info/wp-content/uploads/2016/04/10-14_Active_House_Specification_RJ1303_web.pdf#page=4) |
+| **Pris og brugere** | Kontorbygningen er igen udlejet til erhverv. De anvendte kilder oplyser ikke en særpris for facadearbejdet eller en brugerundersøgelse efter indflytning. [Bygherrens projektbeskrivelse](https://realdania.dk/projekter/glasalstrup) | Ca. 38 mio. kr. for hele pilotprojektet inkl. bl.a. rådgivning, finansiering og genhusning. 16 oprindelige husstande vendte tilbage. Der mangler en særskilt facadepris. [DTU, 2013, s. 42 (PDF 44)](https://backend.orbit.dtu.dk/ws/files/60238115/RENO_EVALUE_online_version.pdf#page=44) · [AL2bolig, 2013, s. 17](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=17) |
+
+Tallene kan ikke bruges til at rangordne de to facadeløsninger efter pris eller klima. Klimatallet i Hasselager er opgjort én gang for restaureringens materialer. I Tilst er tallet et årsgennemsnit med driftsenergi og andre udeladelser. En sammenligning for en konkret facade kræver samme funktion, facadeareal, levetid og afgrænsning af bl.a. befæstelser, stillads, transport, vedligehold og drift.
+
+## Hvilke bilag skal arkitekten bede om på sin egen sag?
+
+- **Før projektvalget** er der brug for en facadeopstalt med feltnumre, fotos af både typiske og skadede felter samt placering af vand, afskalninger og revner. Angiv hvilken del der bærer, og hvor en stikprøve eller åbning kan ændre vurderingen. Se, hvordan registreringen indgik i Glasalstrups bevaringsplan. [Realdania By & Byg, 2022, s. 70 (PDF 71)](https://realdaniabyogbygklubben.dk/media/utnpl0ga/glasalstrup-ebog-enkeltsidet.pdf#page=71)
+- **Under arbejdet** kan tilsynet bede om foto med sted og mål, mens samlingen mellem gammelt og nyt stadig er synlig. Knyt hvert fund til en beslutning om at beholde, reparere eller udskifte feltet. Projektdias fra Tilst viser beslaget tæt på og den efterfølgende montage med kran. [Klimablokken, 2013, unummererede dias, PDF 8–11](https://xn--bredygtigebygninger-lxb.dk/media/2221/energirenoveringer-klimablokken.pdf#page=8)
+- **Efter aflevering** kan driften bede om den udførte mængde, prøvning med dato og afgrænsning, driftsplan og registrering af brugernes erfaring efter en sæson. Hold udgifter til facaden adskilt fra resten af renoveringen. [Klimablokkens målinger og beboernes oplysninger](almen-blok.md)
+
+[Alle tre gennemgående sager](oversigt.md)

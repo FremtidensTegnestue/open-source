@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:696b973f097dfa8c970d395157ed55af1ab1c040d3f803cb65cd72935821f078",
+  "claims": [
+    {
+      "id": "claim_64a1f9e9dd2f4bc9a1fb4e0a73307e1c",
+      "statement": "Det nødvendige udbytte for formuren på Brovej påvirkede valget af nedtagningsmetode.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/genbrug-mellem-pladser.md#L9-L12",
+          "version": "repo-lines-v1:sha256:919593b053ac626f01f5bf7245e0e98f3a04104c078f48e2c16b5f9db754e867:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWJjM2JkYTE3YTM1ZGVkZDQwZjU1OTAyMTExMDk5Y2IxNGUwMTk2ZDE2NjBjYTQzZGQ4ODY4NDRiOTEyY2NhMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmQ1OGYzYjEyZWFjZWRhZmJlNDkwMTE4ZTkwYzk2NmRkNWNlZmFhYWU5MDNjY2VmODg3MDMyNGM5Y2Q4NzE5NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTk2YmMwMjY3NzY5YWM4ZDNkYWMyZjgxNjU0YTg2NGFkOTYwMmIyMTIzMjBkYmUwNGVhZGI2ODg3OGM0M2ZlNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDI3MTY0YTU0ZjVkMWY2ODViNmU4NTIyYjIzYWE0MjAwODE5YjdlZWUwNTdiNzQzZTFjMmFkZDhhYTIwNWY5MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a9b62e496b694591906c7152ef153975",
+      "statement": "I regneøvelsen med 58 accepterede døre giver 22 erstatninger en samlet merudgift på 17.600 kroner.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/genbrug-mellem-pladser.md#L28-L28",
+          "version": "repo-lines-v1:sha256:5f7ba306e642a333f31ebd278ac2a5e2201701523a540f9f193175e4a81aa313:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY3YmEzMDZlNjQyYTMzM2YzMWViZDI3OGFjMmE1ZTIyMDE3MDE1MjNhNTQwZjlmMTkzMTc1ZTRhODFhYTMxMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY3YmEzMDZlNjQyYTMzM2YzMWViZDI3OGFjMmE1ZTIyMDE3MDE1MjNhNTQwZjlmMTkzMTc1ZTRhODFhYTMxMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODFiNTc3ZWE3MTlhZmUxNDUyOGRmZjc5Yzc0NDUxNGY5MDJmZDFlMWNjOGY5Yjc0OGY1Y2VjMjYwYWQ4ZjgwZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzRkYzNiZGM2MTgwODE2YzY4NTcwOTI1MGExYjJiNTEyZTU1NmQ0MGY5NWY2MzYxYjkzNDA2ZjA2NmNjY2M0MCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

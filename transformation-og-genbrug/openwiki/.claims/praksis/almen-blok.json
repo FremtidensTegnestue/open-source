@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4fbfd1b5c4a25885c3980b71f97a3dd1052ea850f449923f70b8f824b075a8c5",
+  "claims": [
+    {
+      "id": "claim_de86746cb4924ff882035621eb62ef5f",
+      "statement": "Seksten oprindelige husstande vendte tilbage og boede fortsat i blokken ved udgangen af januar 2012.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/almen-blok.md#L24-L24",
+          "version": "repo-lines-v1:sha256:e49b16a499935f39d51b533d7215acd0f1aac9a4e2b2e9854352cec96ff51385:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQ5YjE2YTQ5OTkzNWYzOWQ1MWI1MzNkNzIxNWFjZDBmMWFhYzlhNGUyYjJlOTg1NDM1MmNlYzk2ZmY1MTM4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQ5YjE2YTQ5OTkzNWYzOWQ1MWI1MzNkNzIxNWFjZDBmMWFhYzlhNGUyYjJlOTg1NDM1MmNlYzk2ZmY1MTM4NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmFhYzAwZjhkODJmNDg1YzZhZmI3NzhjOGYwYWJjMGQxMmQzODU3MGNhNDc2MjVkNjk0MTEyNjI4MzI4NmNiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjBkNDVmMDdiYTA0OWEyMTUwMDZkNjg4Zjc3YTZiODAyNjE3NDY0NzRmYWQ1YzJmYzJlZTAyYjNiZmRhYzhhMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0f82dc56becb4942ac42d1bde756b808",
+      "statement": "Beboernes spørgeskemasvar og målinger i udsugningsluften er forskellige observationer.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/almen-blok.md#L32-L32",
+          "version": "repo-lines-v1:sha256:8264695b3b72b77334aa1582d560a8f3fe9a8b4c358e28fea42fd833d2908f27:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODI2NDY5NWIzYjcyYjc3MzM0YWExNTgyZDU2MGE4ZjNmZTlhOGI0YzM1OGUyOGZlYTQyZmQ4MzNkMjkwOGYyNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODI2NDY5NWIzYjcyYjc3MzM0YWExNTgyZDU2MGE4ZjNmZTlhOGI0YzM1OGUyOGZlYTQyZmQ4MzNkMjkwOGYyNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWJhNTBlOGE4MWZhMWM3MWQ2OGY2MThmZjgxN2ZkODUyZjM3M2YxMGE1Nzg5MWE1ZjUyM2I5YjUzNWI5NjM0YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTY0YmQyZmNlMTMxZDgwZTkxZDBjYmQ0NDNlYzhhZDA3YTNhYTgzODNkYmZkYzA0MzEyYWYxNjE3YjJhMDdlZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}
