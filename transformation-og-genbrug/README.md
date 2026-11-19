@@ -27,3 +27,5 @@ Start med en situation, hvor du faktisk skal træffe et valg. Beskriv den i [deb
 ## Fagligt vidensgrundlag
 
 Wikien gennemgår nu danske undersøgelser, myndighedskilder og gennemførte projekter. Find [de seks kapitler og danske projekter](haandbog/README.md) eller gå videre i de tidligere tematiske fagartikler om [bygningen og dens beboere](openwiki/viden/bygningen.md), [vejen fra donorbygning til ny anvendelse](openwiki/viden/genbrug.md) eller [fem danske cases](openwiki/cases/danske-projekter.md). På en besigtigelse kan du tage [arbejdsarket](oplaeg/forste-besigtigelse.md) med. I [kilderegisteret](kilder/README.md) finder du originalerne og de afsnit, der ligger bag.
+
+**[Følg tre byggesager fra de første valg til brugen bagefter](praksis/README.md).** Se opdelingen af en villa i Gentofte, beboernes valg i en almen blok i Tilst og den bevarede gadefacade i Ryesgade. Fra sagerne kan du gå videre til bygningstyper, genbrugsleverancer, facader og dækningskort.

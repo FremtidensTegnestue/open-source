@@ -189,3 +189,5 @@ projektbeskrivelse, rådgiverperiode 2005–2014 · Projektinformation og renove
 [Kilder om materialestrømme og drift](ressourcer-og-drift.md) dækker statistikker, konkrete partier, sanitet, aftaler, afprøvning og klimatilpasning.
 
 [Kilder om beboere og miljøpåvirkninger](beboere-og-miljoe.md) dækker almene boliger, genhusning, vandknaphed, ressourceforbrug og biodiversitet.
+
+[Originaler til de gennemgående byggesager og praksiskapitlerne](praksis.md) samler de kontrollerede udgaver. [Prøveloggen](praksisproeve.md) viser, hvad læsere har kunnet finde i det offentlige materiale.

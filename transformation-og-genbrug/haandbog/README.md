@@ -18,3 +18,5 @@
 **Til dig, der bruger en agent.** Bed den finde det opslag, som bedst svarer til din bygning og dit spørgsmål. Bed agenten svare på tre spørgsmål. Hvad viser originalen? Hvor står det? Hvad skal undersøges på din adresse? Gå til den angivne PDF-side eller paragraf, hvis beslutningen afhænger af et bestemt tal eller krav.
 
 [Kilderegister med originaler](../kilder/foerste-udgave.md) · [Dækning og åbne spørgsmål](daekning.md) · [De 20 spørgsmål i læseprøven](laeseproeve.md)
+
+**[Følg tre gennemgående danske byggesager](../praksis/README.md).** Find originalerne til husdelingen i Gentofte, Klimablokken i Tilst og Ryesgade 30. Brug de fem bygningstyper, når I står med en anden adresse.
