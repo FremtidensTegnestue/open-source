@@ -5,11 +5,11 @@ description: To danske eksempler på hvad en prøvning eller en udført reparati
 tags: [material-testing, reuse, masonry, plumbing]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:44:51.896Z
+    at: 2026-11-19T16:52:25.207Z
 sources:
   - id: openwiki-source-ecccbfde362d27e9c1472c39
     resource: repo://kilder/ressourcer-og-drift.md
-generated: { by: "codex", at: "2026-11-19T07:44:51.896Z" }
+generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
 ---
 
 # Hvad kan en prøve fortælle om et parti eller en installation?
@@ -24,7 +24,7 @@ Teknologisk Institut undersøgte i 2009 ti brugte, massive mursten. Efter 15 fro
 
 ## Håndvasken i Rosenhuset
 
-Da Rosenhuset i Hellerup blev restaureret, passede standardvandhanerne ikke til gennemføringerne i den gamle håndvask på direktørens toilet. Bygherren beskriver, at der måtte findes andre haner. Det er viden om **geometri og tilpasning**. Der er ingen målt besparelse i vandforbrug for denne vask i kildeafsnittet. [Realdania By & Byg, Rosenhuset, s. 139](https://realdaniabyogbygklubben.dk/media/yw5dq2jy/rosenhuset.pdf?fm=pdf)
+Da Rosenhuset i Hellerup blev restaureret, passede standardvandhanerne ikke til gennemføringerne i den gamle håndvask på direktørens toilet. Bygherren beskriver, at der måtte findes andre haner. Det er viden om **geometri og tilpasning**. Der er ingen målt besparelse i vandforbrug for denne vask i kildeafsnittet. [Realdania By & Byg, *Rosenhuset*, genoptryk 2025, trykt s. 139 / PDF s. 140](https://realdaniabyogbygklubben.dk/media/yw5dq2jy/rosenhuset.pdf?fm=pdf#page=140)
 
 En porcelænsvask, et armatur og en drikkevandsledning udfører forskellige funktioner. Skeln mellem overfladen, der modtager vand efter tapning, og de komponenter, som er i kontakt med drikkevandet før tapning. BR18 omfatter bl.a. afgivelse af stoffer til vandet og produkternes mekaniske egenskaber. For en bevaret vand- eller varmeinstallation kan det desuden have betydning, om indgrebet er en mindre ændring, flytning eller nyinstallation. BR18-vejledningen bruger normalt flytning om flytning inden for samme matrikel. [BR18 om materialer og produkter i vandinstallationer](https://www.bygningsreglementet.dk/tekniske-bestemmelser/21/krav/416_418/) · [Vejledning om installationer i eksisterende byggeri, afsnit 2.1](https://www.bygningsreglementet.dk/media/vgbptwe4/installationer-eksisterende-byggeri.pdf)
 

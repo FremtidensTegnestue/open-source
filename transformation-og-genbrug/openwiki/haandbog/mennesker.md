@@ -5,11 +5,11 @@ description: "Beslutninger om lys, adgang, husleje, fraflytning og beboerinddrag
 tags: [transformation, housing-quality]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:48:11.550Z
+    at: 2026-11-19T16:52:25.207Z
 sources:
   - id: openwiki-source-90d82ef506cae16a5a6a802a
     resource: repo://haandbog/mennesker.md
-generated: { by: "codex", at: "2026-11-19T16:48:11.550Z" }
+generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
 ---
 
 # Hvordan bliver boligen at leve i?
@@ -34,7 +34,7 @@ Følg luftens rute på stedet. Hvor kom udeluften ind før, hvordan kommer den t
 
 ## M5. Hvad kan vi budgettere med til genhusning, og hvem havde råd til at vende tilbage?
 
-AlmenNet fandt en gennemsnitlig genhusningsudgift på **44.307 kr. pr. bolig** i de undersøgte sager med genhusning. Her indgår delvis genhusning. I en filtreret gruppe var gennemsnittet **63.494 kr. pr. bolig**. Forfatterne vurderer, at denne gruppe hovedsageligt havde fuld eller næsten fuld genhusning. Undersøgelsen bygger på afsluttede støttede regnskaber fra almene renoveringer med Skema C i perioden **2016–2021**. Opgørelsen bruger løbende priser og omfatter de støttede udgifter. Brug den til at efterprøve jeres egne antagelser om varighed, antal boliger og prisniveau. [AlmenNet, *Gennemgang og dataanalyse af renoveringssager med genhusning*, 1. udg. 2022, s. 6 og 16](https://almennet.dk/media/dahhpes2/dataanalyse-af-genhusningssager-almenrapport-lav-oploesning.pdf#page=16) · [Udgiverens projektside, afsnittet »Få mere viden«](https://almennet.dk/udviklingsprojekter/f-k/genhusning-eller-ej/)
+AlmenNet fandt en gennemsnitlig genhusningsudgift på **44.307 kr. pr. bolig** i de undersøgte sager med genhusning. For hver sag blev beløbet fordelt på samtlige boliger i renoveringen, også når kun nogle af dem blev genhuset. Hver sag vejede lige meget i gennemsnittet. Beløbet kan derfor ikke læses som udgift pr. faktisk genhuset husstand. I de 96 sager med mere end 500.000 kr. i samlede byggeudgifter pr. bolig var gennemsnittet **63.494 kr. pr. bolig**. Forfatterne vurderer, at denne gruppe hovedsageligt havde fuld eller næsten fuld genhusning. Undersøgelsen bygger på afsluttede støttede regnskaber fra almene renoveringer med Skema C i perioden **2016–2021**. Opgørelsen bruger løbende priser og omfatter de støttede udgifter. Brug den til at efterprøve jeres egne antagelser om varighed, antal boliger og prisniveau. [AlmenNet, *Gennemgang og dataanalyse af renoveringssager med genhusning*, 1. udg. 2022, s. 6 og 16](https://almennet.dk/media/dahhpes2/dataanalyse-af-genhusningssager-almenrapport-lav-oploesning.pdf#page=16) · [AlmenNet, samme udgave, s. 8 om nævner og vægtning samt s. 13 om filtrering 5](https://almennet.dk/media/dahhpes2/dataanalyse-af-genhusningssager-almenrapport-lav-oploesning.pdf#page=8) · [Udgiverens projektside, afsnittet »Få mere viden«](https://almennet.dk/udviklingsprojekter/f-k/genhusning-eller-ej/)
 
 Regnskabet beskriver projektets udgifter. For at afgøre, hvem der havde råd til at vende tilbage, skal I følge de oprindelige husstande og kende deres boligmuligheder, faktiske husleje før og efter samt grunde til eventuel fraflytning. I kan derfor heller ikke udlede antallet af ufrivillige fraflytninger af en høj genhusningsudgift. [AlmenNet, samme dataanalyse, 2022, s. 6, oversigt over de indsamlede variable og begrænsninger](https://almennet.dk/media/dahhpes2/dataanalyse-af-genhusningssager-almenrapport-lav-oploesning.pdf#page=6)
 

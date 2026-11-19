@@ -5,11 +5,11 @@ description: "Bygningens muligheder fra første besigtigelse til valg af ombygni
 tags: [transformation, building-assessment]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:48:11.550Z
+    at: 2026-11-19T16:52:25.207Z
 sources:
   - id: openwiki-source-bad4fbca2193f69dba3ec86b
     resource: repo://haandbog/bygningen.md
-generated: { by: "codex", at: "2026-11-19T16:48:11.550Z" }
+generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
 ---
 
 # Hvad kan den eksisterende bygning blive til?
@@ -26,15 +26,15 @@ Brug dem til at vælge, hvad der skal efterses. I et københavnsk etagehus fra a
 
 ## B3. Huset har en SAVE-karakter. Må vi så ændre facaden?
 
-Karakteren er en faglig vurdering. Læs begrundelsen for eksempelvis facadens komposition, bygningens historie og dens rolle i gaden. For at afklare en facadeændring skal I også slå adressen op. Find en eventuel fredning og dens omfang på Kulturarvskortet. For en bevaringsværdig bygning findes den kommunale udpegning og eventuelle bestemmelser i kommune- og lokalplanen. Spørg kommunen om det konkrete indgreb. Ved fredning behandler Slots- og Kulturstyrelsen spørgsmål om fredningen. Tag et foto og en tegning af præcis den ændring, I ønsker afklaret. [Kulturarvsstyrelsen, *SAVE*, 2011, afsnit 3.1–3.2, s. 34–39](https://slks.dk/fileadmin/user_upload/kulturarv/fysisk_planlaegning/dokumenter/SAVE_vejledning.pdf#page=34) · [Slots- og Kulturstyrelsen, *Er bygningen fredet eller bevaringsværdig?*, afsnittene om adresseopslag og bevaringsværdige bygninger, tilgået 19.11.2026](https://slks.dk/omraader/kulturarv/fredede-bygninger/inden-du-koeber-en-fredet-bygning/er-bygningen-fredet-eller-bevaringsvaerdig)
+Karakteren er en faglig vurdering. Læs begrundelsen for eksempelvis facadens komposition, bygningens historie og dens rolle i gaden. For at afklare en facadeændring skal I også slå adressen op. Find en eventuel fredning og dens omfang på Kulturarvskortet. For en bevaringsværdig bygning findes den kommunale udpegning og eventuelle bestemmelser i kommune- og lokalplanen. Søg på adressen i Plandata, åbn den gældende plan, og læs bestemmelserne om facader. Spørg kommunen om det konkrete indgreb. Ved fredning behandler Slots- og Kulturstyrelsen spørgsmål om fredningen. Tag et foto og en tegning af præcis den ændring, I ønsker afklaret. [Kulturarvsstyrelsen, *SAVE*, 2011, afsnit 3.1–3.2, s. 34–39](https://slks.dk/fileadmin/user_upload/kulturarv/fysisk_planlaegning/dokumenter/SAVE_vejledning.pdf#page=34) · [Slots- og Kulturstyrelsen, *Er bygningen fredet eller bevaringsværdig?*, afsnittene om adresseopslag og bevaringsværdige bygninger, tilgået 19.11.2026](https://slks.dk/omraader/kulturarv/fredede-bygninger/inden-du-koeber-en-fredet-bygning/er-bygningen-fredet-eller-bevaringsvaerdig) · [Plandata, »Hvordan finder jeg ud af hvilke planer, der er gældende på en bestemt adresse?«, tilgået 19.11.2026](https://www.plandata.dk/faq)
 
 ## B4. Hvornår bør vi afklare, om et kontor overhovedet kan blive til boliger?
 
 Før I binder økonomien til et bestemt antal boliger. Find den ønskede og den tilladte anvendelse af ejendommen. Se også efter forhold omkring grunden som trafikstøj, friarealer eller nabovirksomheder. Københavns guide foreslår at vise kommunen ejendommens stamdata, tegninger og de konkrete afvigelser, man beder om at få afklaret. Lav ét spørgsmål pr. usikkerhed, f.eks. om boligformålet passer i den gældende lokalplan. En københavnsk procesguide kan strukturere mødet i andre kommuner. Den gældende plan og myndighedens vurdering knytter sig til adressen. [Københavns Kommune og Over Byen Arkitekter, *Trin for trin-guide*, 1. udg. 2026, s. 14–17, trin 1](https://www.kk.dk/sites/default/files/2026-01/Bevar%20Mere%20-%20Trin%20for%20trin-guide%20-%20printversion.pdf#page=15)
 
-## B5. Hvad skal vi undersøge, før vi sænker gulvet i en vognport for at indrette bolig?
+## B5. Hvad skal vi undersøge, før vi graver ud til et nyt gulv i en vognport for at indrette bolig?
 
-Tegn ét snit fra den ønskede færdige gulvhøjde gennem hele gulvopbygningen ned til undersiden af de eksisterende fundamenter. I vognporten ved **Dyrehave Mølle i Nyborg** blev det nye isolerede terrændæk 60–70 cm tykt. Udgravningen kom under de gamle fundamenter, og ydermurene måtte underfunderes og forstærkes. Efter ombygningen til to lejeboliger var stort set kun ydermurene bevaret. Bygherrens erfaring viser, hvorfor ordet »bevaring« bør følges af en konkret angivelse af, hvad der bliver stående. Få den faktiske fundering undersøgt, før gulvhøjde og budget låses på næste ejendom. [Realdania By & Byg, *Transformation af historiske bygninger*, 2025, trykt s. 40–45, især s. 44, PDF-side 22–24](https://realdaniabyogbygklubben.dk/media/qrzpskgz/transformation.pdf?fm=pdf#page=24)
+Tegn ét snit fra den ønskede færdige gulvhøjde gennem hele gulvopbygningen ned til undersiden af de eksisterende fundamenter. I vognporten ved **Dyrehave Mølle i Nyborg** krævede det nye isolerede terrændæk 60–70 cm opbygning. Det mål angiver dækkets tykkelse. Hvor meget det færdige gulvniveau ændrede sig, fremgår ikke af læsestedet. Udgravningen kom under de gamle fundamenter, og ydermurene måtte underfunderes og forstærkes. Efter ombygningen til to lejeboliger var stort set kun ydermurene bevaret. Bygherrens erfaring viser, hvorfor ordet »bevaring« bør følges af en konkret angivelse af, hvad der bliver stående. Få den faktiske fundering undersøgt, før gulvhøjde og budget låses på næste ejendom. [Realdania By & Byg, *Transformation af historiske bygninger*, 2025, trykt s. 40–45, især s. 44, PDF-side 22–24](https://realdaniabyogbygklubben.dk/media/qrzpskgz/transformation.pdf?fm=pdf#page=24)
 
 ## B6. Hvordan sammenligner vi ombygning, tilbygning og nedrivning, når løsningerne giver forskellig plads?
 

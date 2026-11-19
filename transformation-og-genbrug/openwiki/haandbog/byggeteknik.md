@@ -5,11 +5,11 @@ description: "Vælg undersøgelse af revner, fundering, konstruktioner, klimask�
 tags: [transformation, building-technology]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:48:11.550Z
+    at: 2026-11-19T16:52:25.207Z
 sources:
   - id: openwiki-source-a161b7e1bb5165bcf1e0b0bc
     resource: repo://haandbog/byggeteknik.md
-generated: { by: "codex", at: "2026-11-19T16:48:11.550Z" }
+generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
 ---
 
 # Byggeteknik ved ombygning
@@ -32,7 +32,7 @@ Afklar også, om dækket adskiller brandmæssige enheder, og hvordan loftbeklæd
 
 Beskriv netop det felt og de lag, arbejdet berører. Ved nedrivning, reparation eller vedligehold skal arbejdsgiveren sikre sig, at en forundersøgelse har afklaret, hvilke materialer der kan formodes at indeholde asbest. Arbejdstilsynet fremhæver risikoen ved bygninger fra før 1990 og siger, at selv mistanke udløser håndtering efter asbestreglerne. Prøvetagning kræver relevant uddannelse. Giv håndværkeren forundersøgelsen og en markering af både undersøgte og skjulte områder inden arbejdet. [Arbejdstilsynet, *Forundersøgelse for asbest*, afsnittene om skjult asbest, reparation og prøvetagning](https://at.dk/faa-viden/asbest/beskyt-dine-medarbejdere-mod-asbest-som-arbejdsgiver/forundersoegelse-for-asbest/)
 
-Gamle elastiske fuger og termoruder kan desuden give anledning til særskilt undersøgelse for PCB. Tidligere ombygninger kan have indført andre materialer. Knyt hvert analysesvar til det præcise sted og lag, så en negativ prøve i pladen ikke kommer til at stå som svar om fugen. [Social- og Boligstyrelsen, *PCB*, afsnittet om PCB i bygningsmassen](https://www.sbst.dk/byggeri/sikre-og-sunde-bygninger/pcb) · [Miljøstyrelsen, *Anbefalinger til screening og kortlægning af bygge- og anlægsaffald*, 2024, s. 35, læsevejledning til bygningsatlasset](https://www2.mst.dk/Udgiv/publikationer/2024/05/978-87-7038-618-0.pdf#page=35)
+Gamle elastiske fuger og termoruder kan desuden give anledning til særskilt undersøgelse for PCB. Tidligere ombygninger kan have indført andre materialer. Knyt hvert analysesvar til det præcise sted og lag, så en negativ prøve i pladen ikke kommer til at stå som svar om fugen. [Social- og Boligstyrelsen, *PCB*, afsnittet »PCB-byggematerialer«](https://www.sbst.dk/byggeri/sikre-og-sunde-bygninger/pcb) · [Miljøstyrelsen, *Anbefalinger til screening og kortlægning af bygge- og anlægsaffald*, 2024, s. 35, læsevejledning til bygningsatlasset](https://www2.mst.dk/Udgiv/publikationer/2024/05/978-87-7038-618-0.pdf#page=35)
 
 ## T4. Hvor kommer vandet i kælderen fra efter kraftig regn?
 

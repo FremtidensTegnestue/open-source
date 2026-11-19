@@ -5,11 +5,11 @@ description: "Træf beslutninger om klima, lager og transport, levetid, pris og 
 tags: [transformation, environment]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:48:11.550Z
+    at: 2026-11-19T16:52:25.207Z
 sources:
   - id: openwiki-source-6502c9c47917c8aa5d9c2387
     resource: repo://haandbog/klima-og-ansvar.md
-generated: { by: "codex", at: "2026-11-19T16:48:11.550Z" }
+generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
 ---
 
 # Klima, miljø, økonomi og ansvar
@@ -30,7 +30,7 @@ Tegn den faktiske rute fra donor til klargøring, eventuelt lager og byggeplads.
 
 ## K4. Hvordan sammenligner vi anlægspris, drift og fremtidige udskiftninger?
 
-Skriv en tidslinje for hver løsning med levering og montage, energi, renhold, løbende vedligehold og udskiftning. Medtag nødvendige følgearbejder, eksempelvis stillads næste gang vinduerne skal males. Angiv prisår, periode og kalkulationsrente, hvis beløbene regnes tilbage til nutidsværdi. LBF's værktøj angiver eksempelvis rådgiver som en udgift uden for sin anskaffelsespost. Ved sammenligning af hele projekter skal samme udgifter være med på begge sider. Vis både betalingen ved byggestart og regnestykket over tid. [Landsbyggefonden, *Sådan bruges Totaløkonomiske vurderinger*, afsnittene »Anskaffelsesomkostninger«, »Levetid« og »Vedligeholdelsesomkostninger«](https://totaloekonomi.lbf.dk/help/anvendelse.htm) · [Rambøll, *Analyse af CO₂-udledning og totaløkonomi i renovering og nybyg*, v. 3.0, 2020, trykt s. 27 / PDF s. 29, metode for LCC](https://gi.dk/media/mgmpjbng/komparativ-analyse-af-co2udledning-og-totaloekonomi-i-renovering-og-nybyg-3-endelig.pdf#page=29)
+Skriv en tidslinje for hver løsning med levering og montage, energi, renhold, løbende vedligehold og udskiftning. Medtag nødvendige følgearbejder, eksempelvis stillads næste gang vinduerne skal males. Angiv prisår, periode og kalkulationsrente, hvis beløbene regnes tilbage til nutidsværdi. LBF's værktøj angiver eksempelvis rådgiver som en udgift uden for sin anskaffelsespost. Ved sammenligning af hele projekter skal samme udgifter være med på begge sider. Vis både betalingen ved byggestart og regnestykket over tid. [Landsbyggefonden, *Sådan bruges Totaløkonomiske vurderinger*, afsnittene »Anskaffelsesomkostninger«, »Levetid« og »Vedligeholdsomkostninger«](https://totaloekonomi.lbf.dk/help/anvendelse.htm) · [Rambøll, *Analyse af CO₂-udledning og totaløkonomi i renovering og nybyg*, v. 3.0, 2020, trykt s. 27 / PDF s. 29, metode for LCC](https://gi.dk/media/mgmpjbng/komparativ-analyse-af-co2udledning-og-totaloekonomi-i-renovering-og-nybyg-3-endelig.pdf#page=29)
 
 ## K5. Hvilket levetidstal skal vi bruge, når bygningsdelen allerede har stået i mange år?
 
@@ -46,15 +46,15 @@ Undersøg, hvilken ny vare de gamle sten erstatter og hvilke andre miljøvirknin
 
 ## K8. Gælder kravet om selektiv nedrivning, hvis vi kun tager en del af bygningen ned?
 
-Afmærk på tegningen, hvor hele eller dele af bygningen fjernes fuldstændigt, og opgør det fjernede **etageareal**. Kravet gælder fra og med 250 m². En udskiftning af tagbeklædning eller vinduer alene tæller ikke som fjernelse af det tilsvarende etageareal. Sammenhængende arbejde på flere bygninger kan skulle vurderes samlet. Kommunen vurderer den konkrete afgrænsning. For omfattet arbejde skal bygherren blandt andet indsende standardiseret nedrivningsplan og bruge en autoriseret nedrivningsvirksomhed. Afklar dette, før arbejdet udbydes. [Miljøministeriet, BEK 496 af 21. maj 2024 om håndtering af affald og materialer fra bygge- og nedrivningsarbejde, §§ 9–12, 24 og 41, kontrolleret 19.11.2026](https://www.retsinformation.dk/eli/lta/2024/496) · [Miljøstyrelsen, *FAQ Selektiv nedrivning*, 9. juli 2026, »Hvad er omfattet af reglerne om selektiv nedrivning?«](https://mst.dk/erhverv/groen-produktion-og-affald/affald-og-genanvendelse/affaldshaandtering/affaldsfraktioner/bygge-og-anlaegsaffald/selektiv-nedrivning/faq-selektiv-nedrivning)
+Afmærk på tegningen, hvor hele eller dele af bygningen fjernes fuldstændigt, og opgør det fjernede **etageareal**. Kravet gælder fra og med 250 m². En udskiftning af tagbeklædning eller vinduer alene tæller ikke som fjernelse af det tilsvarende etageareal. Sammenhængende arbejde på flere bygninger kan skulle vurderes samlet. Kommunen vurderer den konkrete afgrænsning. For omfattet arbejde skal bygherren blandt andet indsende standardiseret nedrivningsplan og bruge en autoriseret nedrivningsvirksomhed. Afklar dette, før arbejdet udbydes. [Miljøministeriet, BEK 496 af 21. maj 2024 om håndtering af affald og materialer fra bygge- og nedrivningsarbejde, §§ 9–12, 24 og 41, kontrolleret 19.11.2026](https://www.retsinformation.dk/eli/lta/2024/496/pdf#page=2) · [Miljøstyrelsen, *FAQ Selektiv nedrivning*, 9. juli 2026, »Hvad er omfattet af reglerne om selektiv nedrivning?«](https://mst.dk/erhverv/groen-produktion-og-affald/affald-og-genanvendelse/affaldshaandtering/affaldsfraktioner/bygge-og-anlaegsaffald/selektiv-nedrivning/faq-selektiv-nedrivning)
 
 ## K9. Kan et mindre arbejde kræve miljøscreening og affaldsanmeldelse?
 
-Ja. Bekendtgørelsens definition omfatter byggearbejder, der frembringer mere end ét ton affald, samt udskiftning af termoruder, som kan være fremstillet fra 1. januar 1950 til og med 31. december 1977. For omfattede arbejder skal bygherren miljøscreene, og ved mistanke om problematiske stoffer sørge for miljøkortlægning. Grundreglen om affaldsanmeldelse har en undtagelse, når den standardiserede nedrivningsplan indsendes. Find rudernes mærkning, vurder mængder og angiv præcist, hvilke dele der berøres. [Miljøministeriet, BEK 496 af 21. maj 2024, § 2 nr. 7, §§ 3–4 og § 10 stk. 4, kontrolleret 19.11.2026](https://www.retsinformation.dk/eli/lta/2024/496)
+Ja. Bekendtgørelsens definition omfatter byggearbejder, der frembringer mere end ét ton affald, samt udskiftning af termoruder, som kan være fremstillet fra 1. januar 1950 til og med 31. december 1977. For omfattede arbejder skal bygherren miljøscreene, og ved mistanke om problematiske stoffer sørge for miljøkortlægning. Grundreglen om affaldsanmeldelse har en undtagelse, når den standardiserede nedrivningsplan indsendes. Find rudernes mærkning, vurder mængder og angiv præcist, hvilke dele der berøres. [Miljøministeriet, BEK 496 af 21. maj 2024, § 2 nr. 7, §§ 3–4 og § 10 stk. 4, kontrolleret 19.11.2026](https://www.retsinformation.dk/eli/lta/2024/496/pdf#page=1)
 
 ## K10. Hvem skal afgøre, om et udtaget parti kan overdrages som vare?
 
-Afklar, om indehaveren skiller sig af med det, ønsker at gøre det eller har pligt til det. Ved tvivl om affaldsstatus skal sagen afklares med kommunen. Er det blevet affald, har ophør af affaldsfasen egne betingelser, bl.a. bestemt anvendelse, marked og tekniske samt miljømæssige forhold. Et foto og en aftagers interesse dokumenterer kun dele af grundlaget. Beskriv besiddelse, overdragelse, tilsigtet brug og eventuel behandling. Fastlæg separat, hvem der vurderer egnetheden til den nye byggesag. [Klima-, Energi- og Forsyningsministeriet, *Bekendtgørelse om affald*, BEK 810 af 22. september 2026, §§ 2–5 og 74, gældende fra 8. november 2026](https://www.retsinformation.dk/eli/lta/2026/810)
+Afklar, om indehaveren skiller sig af med det, ønsker at gøre det eller har pligt til det. I nye sager træffer Energistyrelsen afgørelse om affaldsstatus (§ 4) og om ophør af affaldsfasen (§ 5). Ældre sager, der var modtaget af kommunen før den tidligere bekendtgørelses ikrafttræden, har overgangsregler (§ 74, stk. 3–4). Er det blevet affald, har ophør af affaldsfasen egne betingelser, bl.a. bestemt anvendelse, marked og tekniske samt miljømæssige forhold. Et foto og en aftagers interesse dokumenterer kun dele af grundlaget. Beskriv besiddelse, overdragelse, tilsigtet brug og eventuel behandling. Fastlæg separat, hvem der vurderer egnetheden til den nye byggesag. [Klima-, Energi- og Forsyningsministeriet, *Bekendtgørelse om affald*, BEK 810 af 22. september 2026, §§ 2–5 og 74, gældende fra 8. november 2026](https://www.retsinformation.dk/eli/lta/2026/810) · [Lovtidende A, samme bekendtgørelse, s. 3, §§ 4–5, og s. 12, § 74](https://www.retsinformation.dk/eli/lta/2026/810/pdf#page=3)
 
 ## K11. Kan vi bruge miljøvaredeklarationen fra en lignende ny byggeplade til at sammenligne alternativer?
 
