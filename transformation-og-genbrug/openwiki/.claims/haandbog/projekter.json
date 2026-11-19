@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:483bac9fdd1db67f2aace6844c310ffc9f95a6e8de04b81a4bdf20e24be34a64",
+  "claims": [
+    {
+      "id": "claim_de3dd84fcd1c4063ae0e1c6bbecb83c7",
+      "statement": "Ved Dyrehave Mølle nødvendiggjorde den nye gulvopbygning underfundering af vognportens ydermure.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/projekter.md#L5-L7",
+          "version": "repo-lines-v1:sha256:7221c98f8c00e6520348543c6620e5db10ddfb87c87d11cbe6b797fe4cd67f20:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjcwNDFiYmJiNWE4OWQ3MmQwZWE2ZjU0YzQyMjczOTlkOTc0OGM3MTU3MWRiMGFhN2QyMWE1OWE1NDkxZTcwOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTE0ZWJmYWM2MWJhNjdjMTJkNzU5MzU2NTBlOWVkMTA2NTJmNTVkZjNlOGY4MThiY2IwOWJkYTEwZDUxN2ZhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTZhYjZkMjM5M2RmZGM1NGZlMmVlNmViY2Q0MmExMThmOTY2MTdiMjUwOTEzMjJlYjlhMGI1NGY3ZjgyYmI5NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTZhMzVkZjE3YjZhNDJmMDYwYjA3ZmEwMjE4OTRmNjUzOWVkOGEwZDI3YzNkZDQ3MzQzODFjYTdkOTE5NDA2MCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T16:56:04.691Z"
+  }
+}

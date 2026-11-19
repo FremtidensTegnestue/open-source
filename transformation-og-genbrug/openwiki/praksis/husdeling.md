@@ -1,0 +1,64 @@
+---
+type: guide
+title: "Ét enfamiliehus bliver til to boliger på Strandhøjsvej"
+description: "Følg husets indretning, myndighedsbeslutning, matrikler og senere energimærke."
+tags: [transformation, genbrug, byggesager]
+verified:
+  - by: openwiki/0.9.0
+    at: 2026-11-19T18:12:07.266Z
+sources:
+  - id: openwiki-source-b4c0e25169182bde2bbf1c24
+    resource: repo://praksis/husdeling.md
+generated: { by: "codex", at: "2026-11-19T18:12:07.266Z" }
+---
+
+# Ét enfamiliehus bliver til to boliger på Strandhøjsvej
+
+Hvor skal grænsen mellem to hjem gå? På Strandhøjsvej 31 i Charlottenlund prøvede ejerne først at dele en villa mellem etagerne. Knap 30 år senere bad de om at flytte grænsen, så hver husstand fik sin egen del af bygningsanlægget og sin egen grund. Begge opdelinger kan følges i Gentofte Kommunes sagsakter. Huset fra 1893 havde en tidligere stald og var usædvanligt stort. Erfaringen kan især bruges til at sammenligne *måder at dele på*. [Gentofte Kommune, Byplanudvalgets referat, 31. oktober 2011, punkt 1, s. 3–4](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=3)
+
+## Hvad stod der, og hvad blev bygget?
+
+| Tidspunkt | Dokumenteret tilstand eller beslutning |
+| --- | --- |
+| 1893 og 1932 | Ejendommen blev opført med et enfamiliehus og en stald. I 1932 blev stalden ombygget og udvidet til beboelse. [Kommunens historik, s. 3](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=3) |
+| 1982 | Kommunen gav byggetilladelse til et tofamiliehus. Den ene bolig fik stueetagen og den tidligere stald. Den anden fik første sal samt rum på anden sal. [Original byggetilladelse af 12. februar 1982, sag 26-1981, PDF-side 6](https://ny.weblager.dk/file/rest/buildingproject/download/5212285#page=6) · [Vilkåret om tagetagens tilknytning, PDF-side 10](https://ny.weblager.dk/file/rest/buildingproject/download/5212285#page=10) |
+| 1984–85 | Den 30. marts 1984 gav kommunen tilladelse til at tage de to boliger i brug. Ved eftersyn 5. marts 1985 var en manglende branddør blevet monteret i stueetagen. De selvlukkende hængsler manglede justering. [Gentofte Kommune, original ibrugtagningstilladelse, PDF-side 4](https://ny.weblager.dk/file/rest/buildingproject/download/5212284#page=4) · [Kommunens brev om eftersynet, 6. marts 1985, PDF-side 8](https://ny.weblager.dk/file/rest/buildingproject/download/5212284#page=8) |
+| Oktober 2011 | Kommunen beskrev denne opdeling som udført. Begge hjem havde særskilt indgang. Lejlighederne var opgjort til 255 og 247 m², tilsammen 502 m². Beboerne ejede ideelle anparter, altså andele i samme ejendom. [Referatets beskrivelse af huset, s. 3](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=3) · [Forvaltningens vurdering af adgangsforholdene, s. 4](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=4) |
+| 31. oktober 2011 | Byplanudvalget besluttede at tillade ejernes ansøgning om dobbelthus med lodret adskillelse og udstykning. Ansøgningen angav 320 m² i hovedhuset og 156 m² i sidebygningen. [Ansøgningens arealer, s. 3](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=3) · [Beslutningen, s. 4](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=4) |
+| 2013 | Kommunen gav 15. maj byggetilladelse til anden ombygning. Den 2. september indsendte arkitekten færdigmelding, en underskrevet erklæring om udførelsen og tegninger. [Gentofte Kommune, akt 182335, byggetilladelsens s. 1, PDF-side 3](https://ny.weblager.dk/file/rest/buildingproject/download/23445083#page=3) · [Michael Ohl, akt 190762, erklæring og færdigmelding, PDF-side 3–5](https://ny.weblager.dk/file/rest/buildingproject/download/23445080#page=3) |
+| Efter ombygningen | BBR angiver 2013 som ombygningsår. Den 19. november 2026 stod 31A og 31B registreret som dobbelthus på hver sin matrikel, med eget køkken og henholdsvis **291 og 170 m² boligareal**. Hver meddelelse har et kort på s. 3. [Gentofte Kommune, BBR for 31A, s. 1–3](https://bbr.dk/pls/wwwdata/get_newois_pck.show_bbr_meddelelse_pdf?i_bfe=2039486#page=2) · [BBR for 31B, s. 1–3](https://bbr.dk/pls/wwwdata/get_newois_pck.show_bbr_meddelelse_pdf?i_bfe=100061698#page=2) |
+
+Behold de tre sæt arealtal med hver sin dato. **255/247** beskriver den eksisterende fordeling ved ansøgningen. **320/156** er ansøgernes forslag. **291/170** er de senere registrerede boligarealer. Arkitekten oplyste allerede i 2013, at forslagets arealer stammede fra 2011, og at landinspektøren skulle måle begge boliger igen. En detaljeret afstemning af arealerne kræver landinspektørens opmåling. En opgørelse over kvadratmeter bevaret, nedlagt eller sparet alene ved at trække tallene fra hinanden ville give et usikkert resultat. [Michael Ohl, ansøgning af 13. marts 2013, trykt s. 1, PDF-side 3](https://ny.weblager.dk/file/rest/buildingproject/download/23445086#page=3) · [BBR, 31A](https://bbr.dk/pls/wwwdata/get_newois_pck.show_bbr_meddelelse_pdf?i_bfe=2039486#page=2) · [BBR, 31B](https://bbr.dk/pls/wwwdata/get_newois_pck.show_bbr_meddelelse_pdf?i_bfe=100061698#page=2)
+
+## Følg ombygningen på de originale tegninger
+
+| Åbn dette blad | Det kan man aflæse |
+| --- | --- |
+| [Arkivsagen fra første opdeling, stueplan og første sal, PDF-side 51–52](https://ny.weblager.dk/file/rest/buildingproject/download/5212285#page=51) · [Afløbsplan stemplet til byggetilladelsen i 1982, tegning B004, PDF-side 14](https://ny.weblager.dk/file/rest/buildingproject/download/5212285#page=14) | Følg indgangen til den øverste bolig gennem hallen i stueetagen. På førstesalen er der tegnet et nyt køkken. I kælderplanen på det foregående blad er vaskerum og fyrrum vist i den del, som husstandene deler. |
+| [Den tidligere stald før anden ombygning, Michael Ohls ansøgning 2013, PDF-side 7](https://ny.weblager.dk/file/rest/buildingproject/download/23445086#page=7) · [Efter ombygning, bolig B, tegning 01, færdigmeldingens PDF-side 6](https://ny.weblager.dk/file/rest/buildingproject/download/23445080#page=6) | Find køkkenet, som gør det muligt at genkende orienteringen på begge tegninger. Nederst på bladet flytter bad og entré. På efterplanen kan man gå direkte fra den nye hoveddør i gavlen ind i sin egen entré. |
+| [Hovedhusets stueplan, tegning 02, færdigmeldingens PDF-side 8](https://ny.weblager.dk/file/rest/buildingproject/download/23445080#page=8) · [Førstesal, tegning 03, PDF-side 10](https://ny.weblager.dk/file/rest/buildingproject/download/23445080#page=10) | Det nye køkken i stueplan ligger ved badet. De tidligere forbindelser til sidehuset blev tegnet tilmuret. Ovenpå blev det gamle køkken nedlagt. Arkitekten beskrev, hvordan køkkenvasken nedenunder kunne afvandes til et eksisterende afløb i kælderen. [Arbejdsbeskrivelsen, trykt s. 2, PDF-side 4](https://ny.weblager.dk/file/rest/buildingproject/download/23445086#page=4) |
+
+## Hvorfor ønskede ejerne at ændre en løsning, der allerede fungerede som to boliger?
+
+Ejerne fremhævede to forhold i ansøgningen. De mente, at det var mere naturligt at fordele hovedhuset og den tidligere stald mellem husstandene. Med en udstykning kunne hver bolig desuden få sin egen ejendom. De særskilte indgange fandtes allerede. Det afgørende valg var dermed, hvilke rum der hørte sammen, og hvem der skulle eje hvad. Referatet gengiver ansøgernes begrundelse efter mange års brug. Det indeholder ingen vurdering af naboskab, lyd eller tilfredshed efter den sidste ombygning. [Gentofte Kommune, ansøgernes begrundelse og forvaltningens vurdering, s. 3–4](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=3)
+
+Forvaltningen skulle også tage stilling til tidspunktet. Grunden var opgjort til 1.333 m². Den gældende lokalplan tillod umiddelbart dobbelthus på grunde over 1.200 m², mens et nyt forslag lagde op til 1.400 m². En mulighed var et midlertidigt forbud. Sagen blev udsat 6. oktober og afgjort 31. oktober. Tallene hører til denne konkrete plansag i 2011. I et andet kvarter begynder undersøgelsen med den gældende plan på adressen. [Gentofte Kommune, planforhold og beslutning, s. 3–4](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=3) · [Kommunens indgang til tegninger og lokalplaner](https://gentofte.dk/bolig-og-by/byggeri-og-byplanlaegning/find-tegninger-og-lokalplaner/)
+
+## Hvad ved vi om økonomi og drift efter ombygningen?
+
+For den første opdeling findes en konkret økonomisk følge af et uløst punkt ved afleveringen. I 1985 havde ejerne deponeret **5.000 kr.**, som kommunen ville frigive, når de udestående forhold var bragt i orden. Samme brev bad om en udfyldt indberetning af byggeudgifter. Beløbet var sikkerhedsstillelse. Byggeregnskabet fremgår ikke af brevet. [Gentofte Kommune, eftersyn og deponering, 6. marts 1985, PDF-side 8](https://ny.weblager.dk/file/rest/buildingproject/download/5212284#page=8)
+
+NRGi gennemgik 31A i 2023, ti år efter det registrerede ombygningsår. Konsulenten havde hentet arkivtegninger og tog kontrolmål. Beregningen brugte 326 m² opvarmet areal, hvor BBR angav 291 m² boligareal. Ejendommen havde oliekedel. Konsulenten fik ingen oplysninger om det faktiske forbrug. De to arealer kan bruges til forskellige spørgsmål, så angiv altid hvilken nævner du bruger ved sammenligning pr. m². [NRGi Rådgivning, energimærke 311696519, s. 4](https://emoweb.dk/getcompcon/api/Data/GetPDFToBrowser?EnergyLabelSerialIdentifier=311696519#page=4) · [Grundlaget for besigtigelsen, s. 6](https://emoweb.dk/getcompcon/api/Data/GetPDFToBrowser?EnergyLabelSerialIdentifier=311696519#page=6)
+
+Et konkret overslag for **31A alene** var 45.000 kr. til skift til fjernvarme med 36.600 kr. i beregnet årlig besparelse under rapportens standardvilkår og energipriser i 2023. Det er et muligt fremtidigt driftsprojekt. Anlægsregnskab for selve opdelingen, udgifter til udstykning og faktisk besparelse efter delingen er åbne poster. Der foreligger heller ingen opmålt mængde genbrugte bygningsdele eller sammenlignende klimaberegning. [NRGi Rådgivning, overslag og beregningsgrundlag, s. 2–3](https://emoweb.dk/getcompcon/api/Data/GetPDFToBrowser?EnergyLabelSerialIdentifier=311696519#page=2)
+
+## Brug sagen på dit eget hus
+
+1. **Tegn de to husstandes ruter.** Afprøv hver sin etage og hver sin ende af huset. Vis indgang, køkken, bad, adgang til teknik og have. På Strandhøjsvej var anden indgang allerede på plads før den sidste ændring. [Gentofte Kommune, s. 4](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=4)
+2. **Gør ansøgningen efterprøvbar.** Skriv hvilken adskillelse, ejerform og eventuel udstykning projektet forudsætter. Bed om sidste godkendte tegning og en opmåling af det faktisk byggede. Gentofte henviser til byggesagsarkivet og anbefaler også at søge på oprindelig adresse, når en grund er udstykket. Den gamle adresse Strandhøjsvej 31 fører her til journalsagerne 26-1981 og 2013-504 samt plansag 042682-2011. [Gentofte Kommunes arkivvejledning](https://gentofte.dk/bolig-og-by/byggeri-og-byplanlaegning/find-tegninger-og-lokalplaner/) · [Adresseopslaget i Gentofte Kommunes byggesagsarkiv](https://weblager.dk/public/municipality/157/45/search/all?addressId=277372)
+3. **Læs en egentlig opdelingstegning.** I en anden sag, Enghavegårdsvej 2 i Sengeløse, viser kommunens bilag B den lodrette opdeling af stuehuset og ændringen af trappen. Kommunen meddelte i 2024 en lovliggørende *landzonetilladelse* til to eksisterende boliger og fastholdt, at tilladelsen ikke gav mulighed for udstykning. Det er et eksempel på, hvordan man læser en sag, hvor en tegning og et vilkår skal forstås sammen. [Høje-Taastrup Kommune, afgørelsen, 26. august 2024, s. 1–2](https://www.htk.dk/p/Dokumenter%20Htk.dk/BMC/Landzonetilladelser/Landzonetilladelse-lovliggoerelse-to-boliger-Enghavagaardsvej-2.pdf#page=1) · [Bilag B, opdeling og trappe, s. 6](https://www.htk.dk/p/Dokumenter%20Htk.dk/BMC/Landzonetilladelser/Landzonetilladelse-lovliggoerelse-to-boliger-Enghavagaardsvej-2.pdf#page=6)
+4. **Følg op efter den første vinter.** Saml regninger, måleraflæsninger og begge husstandes erfaringer med lyd, trapper og fælles vedligehold. Et andet, interviewbaseret eksempel findes i Odense, hvor en beboer beskriver glæden ved at hjælpe hinanden og trappen som en mulig senere begrænsning. [Transition og ARK OIE, *Bevar, del og bo flere sammen*, februar 2026, case 10, s. 52–53](https://cdn.realdania.dk/media/ztuf13bn/bevarplusmereplus-plusvidensprojektplus-plusbevar-plusdelplusogplusboplusflereplussammen_rapport_v3-3.pdf#page=52)
+
+**Åbne bilag for Strandhøjsvej.** Der mangler en samlet anlægssum, landinspektørens arealberegning rum for rum, dokumenterede materialemængder og interview med begge husstande efter 2013. Brug de offentliggjorte tegninger, de to tilladelser, færdigmeldingen og BBR til de spørgsmål, de faktisk belyser. [Gentofte Kommunes arkiv på den oprindelige adresse](https://weblager.dk/public/municipality/157/45/search/all?addressId=277372)
+
+[Se parcelhuset og fire andre bygningstyper](bygningstyper.md) · [Alle tre gennemgående sager](oversigt.md)

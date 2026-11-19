@@ -8,6 +8,9 @@ okf_version: "0.2"
 
 # Mapper
 
+- [atlas](atlas/)
 - [cases](cases/)
 - [debat](debat/)
+- [haandbog](haandbog/)
+- [praksis](praksis/)
 - [viden](viden/)

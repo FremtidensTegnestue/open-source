@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5e2ba491abd3c3dce057b315c4d3a2c27f29e8d20abb3687971aa143709f6bf1",
+  "claims": [
+    {
+      "id": "claim_d29404e9963e44ccbcedc86eb4ad7fae",
+      "statement": "En visuel besigtigelse af et gammelt tag og en driftsmedarbejders erindring om tidligere indgreb dækker forskellige perioder.",
+      "evidence": [
+        {
+          "resource": "repo://atlas/drift.md#L13-L16",
+          "version": "repo-lines-v1:sha256:1cd0200c52565fada8e716c8e961ce08a538774c148ea2e4c946cb166c327cb9:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmQ3YmMwZGU4ZjlkMDlkZWUxMTUxMDQ3N2U1NzE2YWZlMmNmMWI1ZDY1NjA4ZWE5ZjNhZjA3MTdhNThiMjIyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGQ0YjVmMmZlY2I3YzI5ODQxMTJhMDA1NjdjOWI4ZTQ0MTIwOTFmODkxZTE4MDQ5NWUzZjgyYWUzZGQwYWViYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTliNmFjZGMwZGQ5ODVjOTJlODIyZmMwODZiYzFjMzIzZDZhYWE0NWRhNjc3MjczMTJhMWZmYTAzNDRkNTEyMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T17:47:29.628Z"
+  }
+}

@@ -5,11 +5,11 @@ description: Danske data for direkte genbrug, forberedelse til genbrug og materi
 tags: [waste-statistics, reuse, Denmark, evidence]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:44:51.896Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-ecccbfde362d27e9c1472c39
     resource: repo://kilder/ressourcer-og-drift.md
-generated: { by: "codex", at: "2026-11-19T07:44:51.896Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Hvor meget genbruger dansk byggeri?
@@ -18,7 +18,7 @@ generated: { by: "codex", at: "2026-11-19T07:44:51.896Z" }
 
 ## Hvad viser de 5,294 millioner ton?
 
-Energistyrelsens tabel 3.12 gælder indsamlet **primært bygge- og anlægsaffald i Danmark i 2024, eksklusive jord**. Anlæg som veje og baner indgår i sektorens grundlag. Tabellen viser den tiltænkte behandling ved indsamling. [Affaldsstatistik 2024, s. 6–7 og 36–37](https://mst.dk/media/rbmjrc32/affaldsstatistik-2024-ens.pdf)
+Energistyrelsens tabel 3.12 gælder indsamlet **primært bygge- og anlægsaffald i Danmark i 2024, eksklusive jord**. Anlæg som veje og baner indgår i sektorens grundlag. Tabellen viser den tiltænkte behandling ved indsamling. [Energistyrelsen, Affaldsstatistik 2024, version 1, 31. august 2026, datagrundlag og bygge- og anlægsaffald, trykt s. 6–7 og 35–37 / PDF-side 7–8 og 36–38, tabel 3.12](https://mst.dk/media/rbmjrc32/affaldsstatistik-2024-ens.pdf#page=38)
 
 | Tiltænkt behandling | 1.000 ton | Afrundet andel i kilden |
 | --- | ---: | ---: |
@@ -29,7 +29,7 @@ Energistyrelsens tabel 3.12 gælder indsamlet **primært bygge- og anlægsaffald
 | Deponering | 370 | 7 % |
 | **I alt** | **5.294** | **100 %** |
 
-Kategorierne er afrundet hver for sig, så de viste andele summerer til 101 %. Bærelag af knust beton er et eksempel på anden endelig materialenyttiggørelse. Vægt én gang ved modtagelse fortæller hverken, hvor mange vinduer en arkitekt har bevaret, eller hvor mange komponenter en aftager har indbygget hele. [Energistyrelsens metode og tabel 3.12](https://mst.dk/media/rbmjrc32/affaldsstatistik-2024-ens.pdf)
+Kategorierne er afrundet hver for sig, så de viste andele summerer til 101 %. Bærelag af knust beton er et eksempel på anden endelig materialenyttiggørelse. Vægt én gang ved modtagelse fortæller hverken, hvor mange vinduer en arkitekt har bevaret, eller hvor mange komponenter en aftager har indbygget hele. [Energistyrelsen, Affaldsstatistik 2024, version 1, 31. august 2026, metode, behandlingsformer og tabel 3.12, trykt s. 6–7 og 36–37 / PDF-side 7–8 og 37–38](https://mst.dk/media/rbmjrc32/affaldsstatistik-2024-ens.pdf#page=38)
 
 ## To andre undersøgelser med andre spørgsmål
 

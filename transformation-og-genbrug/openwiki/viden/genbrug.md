@@ -5,13 +5,13 @@ description: Følg en bygningsdel fra registrering på stedet til aftalt anvende
 tags: [reuse, resource-inventory, deconstruction, material-passport]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:19:29.468Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-db86dd5bd1f178d128948a17
     resource: repo://kilder/README.md
   - id: openwiki-source-6314359a6bfa04d8acc9cf03
     resource: repo://oplaeg/forste-besigtigelse.md
-generated: { by: "codex", at: "2026-11-19T07:19:29.468Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Fra donorbygning til en brugbar bygningsdel
@@ -26,7 +26,7 @@ Forestil dig en skole, der skal af med et parti døre, og en boligforening, som 
 4. **Aftal nedtagning og levering.** Hvem mærker, emballerer og opbevarer? Hvornår kan brugte dele frigives, og hvornår vil modtageren bygge dem ind? Aftal hvad der sker, hvis nogle beskadiges, viser sig uegnede eller kommer for sent.
 5. **Følg op ved modtagelsen.** Sammenhold leveringen med registreringen. Hold tre tal adskilt: fundet i bygningen, egnet efter sortering og faktisk indbygget. Den forskel gør det muligt at lære af spild og at opgøre det gennemførte genbrug.
 
-Værdibygs vejledning følger forløbet både når ejeren beholder delene, og når andre aftager dem. Dokumentationsrapportens otte projekter viser, hvordan tidlig dialog om bevis og ansvar kan åbne en anvendelse eller afsløre, at en anden løsning er mere realistisk. [Værdibygs vejledning 54](https://vaerdibyg.dk/wp-content/uploads/2025/08/54_Ressourcekortlaegning_Web.pdf) · [Social- og Boligstyrelsens undersøgelse](https://www.sbst.dk/Media/638327907437321878/Den%20gode%20dokumentationsproces%20af%20genbrugte%20byggematerialer%20-%20Rapport.pdf) · [Materialepas for genbrugte byggevarer](https://gi.dk/media/m1ibxqzx/vejledning-digital-implementering-af-materialepas-i-praksis.pdf)
+Værdibygs vejledning følger forløbet både når ejeren beholder delene, og når andre aftager dem. Dokumentationsrapportens otte projekter viser, hvordan tidlig dialog om bevis og ansvar kan åbne en anvendelse eller afsløre, at en anden løsning er mere realistisk. [Værdibyg, *Ressourcekortlægning*, vejledning 54, 2024, trykt s. 14–18 (registrering og aftagerscenarier) og 26 (transport og opbevaring), PDF-side 18–22 og 30](https://vaerdibyg.dk/wp-content/uploads/2025/08/54_Ressourcekortlaegning_Web.pdf#page=22) · [Nina Koch-Ørvad m.fl., Social- og Boligstyrelsen, *Den gode dokumentationsproces for genbrugsmaterialer*, 2023, afsnit 2.5 og 4.5, trykt s. 14–15 og 54, PDF-side 16–17 og 56](https://www.sbst.dk/Media/638327907437321878/Den%20gode%20dokumentationsproces%20af%20genbrugte%20byggematerialer%20-%20Rapport.pdf#page=56) · [Mikkel Nygaard Rønne og Søren Spile, Teknologisk Institut, Molio, ConTech Lab og Circue, *Materialepas for genbrugte byggevarer – Digital implementering af materialepas i praksis*, september 2024, s. 11–12 og 18–21 om egenskaber, links og identifikation](https://gi.dk/media/m1ibxqzx/vejledning-digital-implementering-af-materialepas-i-praksis.pdf#page=11)
 
 ## Seks forskellige genbrugsspørgsmål
 
@@ -39,10 +39,10 @@ Værdibygs vejledning følger forløbet både når ejeren beholder delene, og n�
 | Beton og stål i konstruktionen | Findes oprindelige tegninger, kendt belastning og en faglig vurdering af den nye funktion og samlinger? |
 | Inventar og installationer | Hvad kan serviceres, og kan reservedele skaffes? Hvordan vil modtageren kontrollere funktionen og stå for driften? |
 
-Spørgsmålene er til undersøgelsen af et parti. Tabellen giver ingen generel godkendelse af materialerne. [Materialeatlassets læsevejledning](https://vcob.dk/vcob/cirkulaert-byggeri/byggevarer/materialeatlas/om-materialeatlasset/) · [Dokumentationsrapportens materialeafsnit og cases](https://www.sbst.dk/Media/638327907437321878/Den%20gode%20dokumentationsproces%20af%20genbrugte%20byggematerialer%20-%20Rapport.pdf)
+Spørgsmålene er til undersøgelsen af et parti. Tabellen giver ingen generel godkendelse af materialerne. [Materialeatlassets læsevejledning](https://vcob.dk/vcob/cirkulaert-byggeri/byggevarer/materialeatlas/om-materialeatlasset/) · [Nina Koch-Ørvad m.fl., Social- og Boligstyrelsen, *Den gode dokumentationsproces for genbrugsmaterialer*, 2023, afsnit 2.1–2.5, trykt s. 8–15, og kap. 3, trykt s. 17–43, PDF-side 10–17 og 19–45](https://www.sbst.dk/Media/638327907437321878/Den%20gode%20dokumentationsproces%20af%20genbrugte%20byggematerialer%20-%20Rapport.pdf#page=16)
 
 ## Gør næste reparation mulig
 
-Når nyt føjes til gammelt, kan samlingens udformning få betydning for næste ombygning. Kan man fx tage en beskadiget beklædningsplade ned uden at ødelægge isoleringen bag den? Vis adgang, fastgørelser og rækkefølge på detaljen, og gem den sammen med driftens øvrige dokumenter. Mulighed for senere adskillelse kan beskrives allerede ved aflevering. Faktisk genbrug kan først opgøres, når det sker. [Inspirationskatalog om design for adskillelse](https://www.sbst.dk/Media/638453975257437297/Design%20for%20Adskillelse%20-%20Inspirationskatalog.pdf)
+Når nyt føjes til gammelt, kan samlingens udformning få betydning for næste ombygning. Kan man fx tage en beskadiget beklædningsplade ned uden at ødelægge isoleringen bag den? Vis adgang, fastgørelser og rækkefølge på detaljen, og gem den sammen med driftens øvrige dokumenter. Mulighed for senere adskillelse kan beskrives allerede ved aflevering. Faktisk genbrug kan først opgøres, når det sker. [COWI og Social- og Boligstyrelsen, *Design for adskillelse – inspirationskatalog*, 1. udg. 2024, »Design for adskillelse«, trykt s. 20–21, PDF-side 11](https://www.sbst.dk/Media/638453975257437297/Design%20for%20Adskillelse%20-%20Inspirationskatalog.pdf#page=11)
 
 [Arbejdsark for partier](../../oplaeg/forste-besigtigelse.md) · [Affaldsstatus og dokumentation](regler.md) · [Det genbrugte glas i Upcycle Studios](../cases/danske-projekter.md)

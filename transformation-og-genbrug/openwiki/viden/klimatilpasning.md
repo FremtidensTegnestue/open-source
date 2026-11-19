@@ -5,11 +5,11 @@ description: Hvad kan kort, fotos og målinger fortælle om vand i en kælder og
 tags: [climate-adaptation, water, thermal-comfort]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:44:51.896Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-ecccbfde362d27e9c1472c39
     resource: repo://kilder/ressourcer-og-drift.md
-generated: { by: "codex", at: "2026-11-19T07:44:51.896Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Klimatilpasning af eksisterende bygninger
@@ -30,4 +30,4 @@ KAMP stiller nationale kortlag til rådighed til screening. For terrænnært gru
 
 En ændret planløsning, større glasarealer eller anden brug kan ændre et rums solbelastning og muligheder for udluftning. Vurdér især rum med stor solpåvirkning og ophold om natten. Et vindue kan være oplukkeligt på tegningen og svært at bruge om natten på grund af fx støj. Registrér hvilke antagelser en beregning bygger på.
 
-BR18's vejledning om termisk indeklima beskriver en normal dokumentationsvej for boliger med mulighed for udluftning. Den omfatter timer over temperaturgrænser i brugstiden. Angiv rum, årstidsforudsætninger, brugstid og mulighed for at åbne vinduer sammen med et resultat. Målte temperaturer efter indflytning fortæller om den faktiske brug i den målte periode. [BR18's vejledning om termisk indeklima](https://www.bygningsreglementet.dk/media/0zqc35d1/version-2-termisk-indeklima.pdf) · [Dagslys, lyd og ventilation](boligkvalitet.md)
+BR18's vejledning om termisk indeklima beskriver en normal dokumentationsvej for boliger med mulighed for udluftning. Den omfatter timer over temperaturgrænser i brugstiden. Angiv rum, årstidsforudsætninger, brugstid og mulighed for at åbne vinduer sammen med et resultat. Målte temperaturer efter indflytning fortæller om den faktiske brug i den målte periode. [Social- og Boligstyrelsen, *Bygningsreglementets vejledning om termisk indeklima og installationer til varme- og køleanlæg*, version 2, uden angivet år, afsnit 1.0, PDF s. 1](https://www.bygningsreglementet.dk/media/0zqc35d1/version-2-termisk-indeklima.pdf#page=1) · [Dagslys, lyd og ventilation](boligkvalitet.md)

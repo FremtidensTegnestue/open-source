@@ -1,0 +1,48 @@
+---
+type: guide
+title: "Ryesgade 30 A–C · etagehuset, der beholdt sin gadefacade"
+description: "Se prøvelejligheden, vinduesvalget, udførelsens afvigelser og målingerne på Ryesgade."
+tags: [transformation, genbrug, byggesager]
+verified:
+  - by: openwiki/0.9.0
+    at: 2026-11-19T18:12:07.266Z
+sources:
+  - id: openwiki-source-a2b631f6ba428dbb3cbff187
+    resource: repo://praksis/etagehus.md
+generated: { by: "codex", at: "2026-11-19T18:12:07.266Z" }
+---
+
+# Ryesgade 30 A–C · etagehuset, der beholdt sin gadefacade
+
+Hvordan får man varmere boliger i en københavnsk udlejningsejendom og beholder det murværk, som giver gaden karakter? På Ryesgade 30 A–C beholdt og istandsatte Drost Fonden gadefacaden med dens vandrette murbånd og gesimser. Arbejdet omfattede 32 eksisterende boliger, nye badeværelser og fire nye boliger i taget. Byfornyelsen foregik i 2011–2012. En forsøgsvæg, fysiske målinger og beboernes erfaringer viser, hvor forskelligt det kan gå fra vindue til vindue og fra opgang til opgang. [Projektgruppens beskrivelse hos Renoverprisen, 2013](https://renover.dk/projekt/ryesgade-30-a-c/) · [COWI m.fl., *Resultater og erfaringer fra energirenovering af Ryesgade 30*, 2014, s. 9 og 17–19](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=17)
+
+## Hvad viser tegningerne før og efter?
+
+| Find dette på tegningen | Hvad kan man aflæse? |
+| --- | --- |
+| Oprindelig plan og bygningsdel | På etageplanen ses de tre opgange. Den bærende konstruktion består af massive mure og et træbjælkelag. På detaljen fra prøvelejligheden 30C, 1. tv., kan man se, hvor træ og mur mødes. Her kan ændringer af væggens temperatur få betydning for det gamle træ. [COWI m.fl., 2014, s. 18, figur 3](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=18) · [Projektets delrapport om prøvelejligheden, 2011, trykt s. 11 / PDF-side 52, figur 3](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=52) |
+| Detalje efter ombygningen | Figur 7 er projektets principtegning for isolering på murens inderside. Teksten redegør særskilt for steder, hvor isoleringen stopper over gulvet. Figur 8 viser de lejligheder, hvor holdet faktisk målte ved bjælkeenderne. Der findes både et projekteret princip og observationer fra bestemte steder. [COWI m.fl., 2014, s. 24–25, figur 7–8](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=25) |
+| Gade og tag efter indflytning | Fotos viser den rensede mur og den nye tagetage. På det senere gadesnit i kommunens sag om naboprojektet Sølund ses Ryesgade 30 A–B til venstre. Plantegningen til højre på samme side tilhører Sølunds ungdomsboliger. [GI og Realdania, *Renoverprisen*, 2013, s. 46–47](https://gi.dk/media/ikgpb4rj/renover_publikation-2013.pdf#page=46) · [C.F. Møller og Tredje Natur, bilag 6 hos Københavns Kommune, 2016, tegning s. 22](https://www.kk.dk/sites/default/files/agenda/5c60d45a-9221-4008-ab29-1ce67286201f/11acca4a-8b4a-49fc-85ae-cbea984bb767-bilag-6.pdf#page=22) |
+
+## Hvilket alternativ blev fravalgt, og hvem besluttede det?
+
+Udvendig isolering på gadesiden ville have skjult murværket. Projektet valgte derfor indvendig isolering her, mens brandgavlen mod nr. 32 kunne isoleres udefra. Ved vinduerne ønskede kommunens sagsbehandler oprindeligt at bevare de eksisterende. I en prøvelejlighed sammenlignede projektet tre løsninger med istandsatte vinduer og ét nyt. Beboere pegede på, at en indadgående forsatsramme gjorde vindueskarmen svær at bruge. De gamle rammer havde også fugtskader. Efter forsøgene accepterede kommunen en ny trækonstruktion med koblede rammer og trukket yderglas. Kommunens accept fremgår af projektgruppens rapport. Selve tilladelsesbrevet med vilkår og journalnummer indgår ikke i de henviste bilag. [GI og Realdania, 2013, s. 44–45](https://gi.dk/media/ikgpb4rj/renover_publikation-2013.pdf#page=44) · [Prøvelejligheden, 2011, trykt s. 39–40 / PDF-side 80–81, forsøg med eksisterende rammer](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=80) · [COWI m.fl., 2014, s. 20 og 25, udført løsning](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=20)
+
+## Hvad kostede valget?
+
+Danske Arkitektvirksomheder angiver **81 mio. kr. i budget** for hele projektet. Fire ekstra tagboliger gav ejeren nye lejeindtægter. Energiforsøget fik særskilt 2.731.150 kr. fra EUDP til bl.a. afprøvning, forbedringer og målinger. De to beløb kan derfor ikke lægges sammen til en slutpris. På vinduesniveau kan man sammenligne samme størrelse. Projektets overslag for et tofagsvindue ved gennemførelse i hele ejendommen var 7.000 kr. for den valgte nye løsning monteret og 7.900 kr. for istandsættelse med et enkelt forsatsglas, begge ekskl. moms. Priserne stammer fra forsøgsrapporten fra 2011 og er relevante for denne beslutning. Et slutregnskab og huslejerne for de enkelte beboere fremgår ikke. [Danske Arkitektvirksomheder, *Ressourcer*, 2017, trykt s. 30 / PDF-side 16](https://www.danskeark.dk/sites/default/files/2018-11/Ressourcer_DanskeArk%20_okt17_FINAL.pdf#page=16) · [COWI m.fl., 2014, s. 9, EUDP-tilskud](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=9) · [Prøvelejligheden, 2011, trykt s. 47 / PDF-side 88, nederste pristabel](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=88)
+
+## Hvad ændrede sig på byggepladsen?
+
+- **Under prøven.** Lysningen ved et vindue var målt op, mens de gamle paneler stadig sad på. Da håndværkerne tog dem ned, manglede der 5–10 cm af den bestilte isolering. De fyldte mellemrummet med en anden isolering. Flere af vakuumpanelerne mistede også vakuum under montagen. Rapporten skelner mellem skaden og projektgruppens formodning om, hvordan den var opstået. [Prøvelejligheden, 2011, trykt s. 19 / PDF-side 60, figur 15](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=60)
+- **Under byfornyelsen.** Det donerede parti af forsøgsproduktet kunne ikke udvides som forudsat. Holdet brugte et andet produkt i opgang C. Enkelte rum i A endte helt uden den planlagte indvendige isolering. En senere beregning må derfor følge de udførte rum. Arkitekterne var Rönby og Krydsrum, de rådgivende ingeniører Falkon og Ekolab, entreprenørerne Juul & Nielsen og Smock. Kilderne navngiver ingen enkeltperson som godkender af materialeskiftet. [COWI m.fl., 2014, s. 10, afvigelsen i A](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=10) · [Samme rapport, s. 25, materialeskiftet](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=25) · [Projektparterne hos Renoverprisen](https://renover.dk/projekt/ryesgade-30-a-c/)
+
+## Hvad mærkede beboerne, og hvad viste målerne?
+
+Beboere fortalte, at de igen kunne bruge områder, der før var kolde og trak. Nogle oplevede støj, svage emhætter eller vanskeligheder med betjeningen. I opgang B blev en eksisterende skorsten brugt til afkastluft. Den var tætnet uden en trykprøve. Luft slap ud gennem små sprækker og gav lugtgener i én lejlighed. Slutrapporten registrerer problemet. En afsluttet udbedring og efterkontrol af netop den lejlighed er ikke dokumenteret i rapporten. [COWI m.fl., 2014, s. 21–23, opgang B og brugerbesøg](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=21) · [Samme rapport, s. 37, oplevet komfort](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=37)
+
+Før ombygningen viste forsyningsmåleren i gennemsnit **155,5 kWh varme pr. m² om året** til rumvarme og varmt vand i 2007–2009. Fra september 2013 til september 2014 opgør projektgruppen **78 kWh varme og 5 kWh el til ventilation pr. m² om året**, i alt 83 før fradrag af solceller. Husholdningernes el er udeladt. Samtidig voksede det opvarmede areal fra 2.760 til 3.310 m². Reduktionen pr. kvadratmeter kan derfor ikke læses direkte som ejendommens besparelse på den samlede varmeregning. [COWI m.fl., 2014, s. 10–11, figur 1](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=11) · [Samme rapport, s. 27–28, førmålingens periode](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=27) · [Rose og Thomsen, 2021, trykt s. 2748–2749 / PDF-side 3–4, arealerne](https://mdpi-res.com/d_attachment/heritage/heritage-04-00155/article_deploy/heritage-04-00155.pdf#page=4)
+
+DTU fulgte også det, man ikke kan se efter lukning af væggen. Der blev målt fugt og temperatur i bjælkeenderne på 4. og 5. sal i opgang B mod sydvest, hvor slagregnen rammer. Målingerne viste kun korte fugtige perioder på 5. sal. Den målte vinter var mild, og projektgruppen efterlyste data fra koldere vintre. Skal en anden ejendom bruge erfaringen, er det første spørgsmål derfor, hvilke konkrete bjælkeender og vejrpåvirkninger dens egen undersøgelse skal dække. [COWI m.fl., 2014, s. 25–27, figur 8–12](https://energiforskning.dk/files/slutrapporter/64009-0233_slutrapport_inkl._delrapport2.pdf#page=26) · [Sammenlign ventilationsanlæg og andre erfaringer efter aflevering i driftsatlasset](../atlas/drift.md)
+
+[Find den første undersøgelse i andre bygningstyper](bygningstyper.md) · [Alle tre gennemgående sager](oversigt.md)

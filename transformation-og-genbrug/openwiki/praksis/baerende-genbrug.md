@@ -1,0 +1,31 @@
+---
+type: guide
+title: "Fra tv-studie på Amager til bærende huldæk i Hedehusene"
+description: "Følg elementets oprindelse og faktiske indbygning i Tscherninghuset."
+tags: [transformation, genbrug, byggesager]
+verified:
+  - by: openwiki/0.9.0
+    at: 2026-11-19T18:12:07.266Z
+sources:
+  - id: openwiki-source-bef25f0a7dfd7c1b69b32790
+    resource: repo://praksis/baerende-genbrug.md
+generated: { by: "codex", at: "2026-11-19T18:12:07.266Z" }
+---
+
+# Fra tv-studie på Amager til bærende huldæk i Hedehusene
+
+I Tscherninghusets fotobog ses et betondæk oven på en stålbjælke. Langs dækkets kant kan man se de langsgående hulrum, som har givet denne type betonelement navnet *huldæk*. Bygherren identificerer netop det fotograferede dæk som genbrug fra det tidligere TV3 MasterChef-studie. Her kan man altså følge en bygningsdel mellem to adresser og se den bære i det færdige hus. [Tscherning A/S, *Tscherninghuset*, 3. oplag, digital udgave 2026, foto trykt s. 64–65 / PDF-side 32](https://tscherninghuset.dk/wp-content/uploads/2026/11/tscherninghuset-bog.pdf#page=32)
+
+| Led i forløbet | Hvad er dokumenteret? |
+| --- | --- |
+| Donor og modtager | Tscherning nedtog elementet ved det tidligere tv-studie på Yderlandsvej ved Amager Strandvej i København S. Det nye hovedkontor ligger på Guldalderen 32, 2640 Hedehusene. Bygherren angiver 2022–2023 som ombygningsperiode og 2023/24 som driftstart. Den officielle indvielse var 17. april 2024. [Tscherning, materialeliste, trykt s. 154 / PDF-side 77](https://tscherninghuset.dk/wp-content/uploads/2026/11/tscherninghuset-bog.pdf#page=77) · [Samme bog, projektfakta, trykt s. 169 / PDF-side 84](https://tscherninghuset.dk/wp-content/uploads/2026/11/tscherninghuset-bog.pdf#page=84) · [Bygherrens meddelelse om indvielsen, 18. april 2024](https://tscherning.dk/blog/nyheder/indvielse-af-tscherninghuset/) |
+| Udtagning og planlægning | Ved besøget under byggeriet fortalte Tscherning, at skærefladen var sårbar, og diamantsnittene kostbare. Modtagerprojektet skulle derfor angive den nødvendige geometri, mens elementerne endnu sad i donorbygningen. Holdet tilpassede arbejdsbeskrivelserne undervejs. Bygherren beskriver også en periode, hvor arbejdet måtte afvente egnede brugte dæk og vægge. Kilderne angiver hverken varigheden eller antallet af kasserede elementer. [Social- og Boligstyrelsen, *Den gode dokumentationsproces for genbrugsmaterialer*, 2023, trykt s. 41–43 / PDF-side 43–45](https://admin.sbst.dk/Media/638327907437321878/Den%20gode%20dokumentationsproces%20af%20genbrugte%20byggematerialer%20-%20Rapport.pdf#page=44) · [Tscherning, bygherrens beretning, trykt s. 16–17 / PDF-side 8](https://tscherninghuset.dk/wp-content/uploads/2026/11/tscherninghuset-bog.pdf#page=8) |
+| Ansvar og afgørelse | AKI Rådgivning stod for de statiske beregninger. Ved interviewet i 2023 var beregningerne til sluterklæringen stadig under udarbejdelse. I den senere projektbeskrivelse oplyser bygherren, at AKI vurderede de tilskårne væg- og dækelementer egnede til belastningerne i dette hus. Bygherrens redegørelse og fotoet kan læses sammen. Elementets beregningsark, en underskrevet sluterklæring og kommunens eventuelle vilkår er ikke offentliggjort i de to kilder. [Social- og Boligstyrelsen, 2023, trykt s. 42 / PDF-side 44](https://admin.sbst.dk/Media/638327907437321878/Den%20gode%20dokumentationsproces%20af%20genbrugte%20byggematerialer%20-%20Rapport.pdf#page=44) · [Tscherning og AKI Rådgivning om statik og myndighedsdialog, trykt s. 116–117 / PDF-side 58](https://tscherninghuset.dk/wp-content/uploads/2026/11/tscherninghuset-bog.pdf#page=58) |
+
+## Hvor langt rækker sporbarheden?
+
+Bygherrens webkatalog placerer MasterChef-materialet under **indvendige vægge**. Fotobogens materialeliste nævner **udhængte huldæk** fra samme donor, og fotoet på s. 64–65 viser det vandrette element. Gengiv begge anvendelser som kildeoplysninger og knyt billedet til det viste dæk. Materialet fra den tidligere værdihåndteringscentral i Brøndby har sit eget spor. Ifølge projektets beskrivelse blev huldæk derfra rejst på højkant, udstøbt og brugt som bærende vægge. [Tschernings webkatalog, posterne om beton](https://tscherninghuset.dk/materialer/) · [Fotobogens materialeliste, trykt s. 154 / PDF-side 77](https://tscherninghuset.dk/wp-content/uploads/2026/11/tscherninghuset-bog.pdf#page=77) · [Projektets egen beskrivelse hos Renoverprisen, 2024](https://renover.dk/projekt/tscherningshuset/)
+
+**Hvad ville gøre dækket lettere at finde igen ved næste ombygning?** Et mærke eller elementnummer på både donorplan og modtagerplan, foto inden udtagning, registrerede skader under transport, godkendt montageplacering og henvisning til statikerens beregning. I de offentlige kilder kan man verificere oprindelsen, typen, fotoet og husets ibrugtagning. Elementnummer, spændvidde, individuel prøvningsrapport, dato for modtagekontrol og registrerede eftersyn skal hentes i byggesagen eller hos ejeren, før de kan oplyses for netop dette dæk.
+
+[Aftal mængder, modtagekrav og pris](genbrug-mellem-pladser.md) · [Alle tre gennemgående sager](oversigt.md)

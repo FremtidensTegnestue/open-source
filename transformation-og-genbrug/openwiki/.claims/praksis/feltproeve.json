@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:669a863c0e0c2197d5b0cf9b4d4b7d41980e452dc7c26ca34cefe5ba595e7dc6",
+  "claims": [
+    {
+      "id": "claim_ac035b3a6b524ba79d698240f640b642",
+      "statement": "Prøven bruger samme sag til opgaver for arkitekt, bygherre, driftsleder og beboerrepræsentant.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/feltproeve.md#L9-L12",
+          "version": "repo-lines-v1:sha256:c80c93a87343b7a41b60de933358356b1bd5eae4f082e316a73df35043750e77:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JjNmFiODdkNzIyOTdmMWYxZTQxYjE1NmZjZjNmMGY3ODEyNzc4ZjlhZjAxZDU3NzIxYWI1Zjc2ZTE1NWE5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjlmZGU4NmEyNDE4NzUwNWIwNDU2NzI5Yjg1ZTc4YjNkYTI0NTdlYjgyZTI4NTBmMGI3NDU0ZTg1ZTc1YzM5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmU0NmYzNmUxMzFhZmVmZmJmNmFjNGIwZGI1NWE2MWI3MWZhNjhlMjZmMzJjODJlOGFiZTM3ZWViNzY1ZWYyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2NmZDMyYTBkMTBjZDA1ZTIyZTI2MjM1YWNlMGVkNjYwYjY4NTUyZmJlZGY5NDVhZDYyNTM5ZGI0YjJiZTNkOSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:76f78e6665e76b3aa2c784e017a2ee0d8f1ff71d5182fec776b8a78b945966dc",
+  "pageVersion": "sha256:79c8916e8f9138b195cd8584171899e1f7ed07d79df7a2d0366397ed95e36d60",
   "claims": [
     {
       "id": "claim_e9adcad78d624094b1c9bb393960947c",
       "statement": "Københavns Kommunes metode forbinder plangrundlag, bygningskortlægning og afprøvning af program i ejendommen.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L21-L25",
+          "resource": "repo://kilder/README.md#L23-L27",
           "version": "repo-lines-v1:sha256:f0531fd2a4782c716a695c5a63c4b7463910c7f21a75f6e20cbe6cbfb4100d8d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQ5N2ZkNmM3NmI0YTAxNmYxNjc0NTZkOTE2OGJlOWRjMDRlNDFjNzkxYzRjYTA2NWEyMWY1ZjFhNzdlMWY4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg5Njg2MTdlMTdhYzM5YjBkYjYyNmM3MDc3NmU5YjM2NmViZjExOGQyNzc0Mjk4NzUzMWZmMzE4NTRlZjkzYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTdhYmE4Y2EyN2RmNGRmZTk0ZjE4Yjg5NDJhNjEyOTUzZjJiNjFmMmY4MTdmYWNmOTAwZDI4ZTY5ZGNjODc1OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI2NTI1ZDQzOWQ1OGZjYTk3MmMzMTcxZGEyYjU5NGQyNTVjYmVhMDQwZjMwYjBiNWUzM2ZjNGZlZGJlOTcyNCJ9"
         }
       ]
@@ -17,7 +17,7 @@
       "statement": "Screeningen af 13 erhvervsejendomme prioriterer videre undersøgelse med 30 primære indikatorer.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L15-L19",
+          "resource": "repo://kilder/README.md#L17-L21",
           "version": "repo-lines-v1:sha256:f5656023bdb8f8528e392c1fc4696c39abe1dc8ef2ce0288347cdb0122f8b4cb:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODYyMzU5YjhmODQwN2M5NTA4NTczMmMzYTljYjMwYTVmYWM0ZjYwZWZmZGNhZWM5YTYxMTdkZDNjZWFlYThjNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGIyZTYzNTNjZjkxOGQzMzljMDY5ZDdjYzEyN2Y3YjFhZTcyOTM5ZDdlMWMwODZjNDNmMmQ2YTNlMzVlMmZjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTc2MDAyZGZmNTU5ODliZjE0MmQ1MGI3NTZhOTkyMzc5Y2Q2MzA4NDI3N2EzNGNjODQ2YWNjZTVjNzMyYTU3YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDBkNGZkNjc2Yzc4NjRmZDU1OTI4MzExOTY3NWZhY2QyZWEyZGU4YjZmODkzMmQwZWRkODUyZTcyMWZhOGUyMSJ9"
         }
       ]
@@ -27,7 +27,7 @@
       "statement": "SAVE’s miljømæssige værdi angår omgivelserne, og den samlede bevaringsværdi bygger på en faglig helhedsvurdering.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L9-L13",
+          "resource": "repo://kilder/README.md#L11-L15",
           "version": "repo-lines-v1:sha256:d956c2c61543eb32a9f53f5503c6adb880b7ba1503093cd1c4201869298906a0:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmE1MjFlMmE0ZjQxNjMwNzA1ZmVkOGIxNTM1M2JlNWZkNGJlZGQ1N2RkMzlhNGI3YmE1MmMwOWJjZTNmMTNiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2RjODc4YzQ0MWEwOTBhMTBjMDc5ZDA1MmEzZTM1NTdiNzg2OWZlYTEzZDU2YThhMjM4YmE2M2FlNDdmZWM2MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzM4YmEyZjNlNmQzYjk5ZWZjMjU5MjgzZmJjMGE4MDcxZWYwZWUzZDBiZmNlNGM3NTg0MjRkY2FhODhmNDZlYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTI2MWZiNGM5ODc5MGI0NGY2YjlkMDM2ODQwM2Q0ODliN2FiYWRiOWZlMDkwZDA3MGEwYTQ1NGYxZDE3NzNjNiJ9"
         }
       ]
@@ -37,7 +37,7 @@
       "statement": "Arbejdsarket kobler brugerens oplevelse og bygningens kvaliteter til observationer og næste undersøgelse.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L27-L31",
+          "resource": "repo://kilder/README.md#L29-L33",
           "version": "repo-lines-v1:sha256:57ce7d8d2fd2a17ea7506d9f625a17e8e060d7aa5807a2d438096622aa3b6f92:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmFhZTk3ZDA1YTM1ZWQ4ZDFhYWU3ZDgyY2ZjOGRiZDhhMzZjOTJhYmMzZTFlNDJlYWRjODY2NmEyOWExYjMwZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTBhNDI2MWExNThlYTdiNGY1NDY0YzEzNzNkZDM4OWYzZGFhNTU1OWJmOTM0NjY4MTU4OWRhYmY4OGExODA1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWU2MzliYjhlODRiZDBkOTM5MTZjMzhjZThjYjYzMjRmYzEyMmI4ODRhYjI2NmEzNDY3Y2Q4ZmExNDgxOTAzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODE2NTIyYWY5ODI1MjBhM2NkZTllZmI4OWM3NThjZWIyNGVhZjdmYTYyYjMxZGM2NGJmMGQ2N2I0OGFlZTdjZiJ9"
         },
         {
@@ -49,6 +49,6 @@
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T07:19:29.468Z"
+    "at": "2026-11-19T17:18:10.812Z"
   }
 }

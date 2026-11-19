@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:72ab7708a9fb618fe4ccad2651c0d77368302d2c9a58f4ff2e0f4c188cbb5f79",
+  "claims": [
+    {
+      "id": "claim_a322d7b956a8495fb3f2e7cf9a2580cb",
+      "statement": "I Hvidovre fik husstandene hver egen indgang. Den udførte rumdeling og muligheden for at sælge ejendommen hver for sig kræver forskellig dokumentation.",
+      "evidence": [
+        {
+          "resource": "repo://atlas/bygninger.md#L14-L17",
+          "version": "repo-lines-v1:sha256:26ea46cd895796168adead89cf3ca232a5555eca37952507334c84f654d3ce5a:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2EzZTY0MzJiOTFlYTZiNjg1Y2RlOWE0NDA3ZGExMDFjMmUxM2E4MTc1MTgzZWU0ODI0N2Q2Y2NmMmI3NmVlNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2VhYmVlMTJjOWIyZWM1N2E0NmIyYjdmMmRmOTI4MTdlZTVjNDMxODNiZGYwMTc2ZWMzNDhhNzI3NTM2ODBjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2FiYjhlYTkxNTA5NzNjNmM2YzMwZTNmNTg0N2MzODE1MjBmMDcwYzY0YzdhMDllZDhjOGNhZjNhZWM3ZGVkYyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T17:47:29.628Z"
+  }
+}

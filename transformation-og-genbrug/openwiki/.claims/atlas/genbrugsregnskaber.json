@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5a772d925a62ada183074c9fad5ddedec77c88280f1f49ad26481eeab6116bf7",
+  "claims": [
+    {
+      "id": "claim_c975eb8155e9446985ce20d6dee154a9",
+      "statement": "Kalkulationen for tagsten på Brovej bruger en mængde under salgspotentiale. En pris for en monteret sten kræver mængden på det nye tag.",
+      "evidence": [
+        {
+          "resource": "repo://atlas/genbrugsregnskaber.md#L11-L14",
+          "version": "repo-lines-v1:sha256:1126166103036a8e37721fe5c75d931a4cf623adb0bd1757f96348691d254cc4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzNlNDA0OWU1Mjk1MWRkMmI5M2FlNjFmZWIzOGMyYzIzZjY1ZDM4NDI0Y2I0NjhmOTNmMmYyYjAwNTA3YjZkMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjkyZGI1MzUwYjFjN2JlMWNjOWI4M2ViZjU1OTVjY2FkMmRmOTBkMmQ5OTJlODVhYjlhODkzMDE5YmY3MjRjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTQwZjY4ZGI0ZTMwOTg2YTIyN2Y3YTUzZWMxMTE4ZWUyZWQ3Y2I3OTVjOTFkZTZmZGQ1MTU3MmU5NjFkZjM5OSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T17:47:29.628Z"
+  }
+}

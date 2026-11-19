@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:deb3ffaafd7bc71e99bdbea1da254179df83a1b84d468c1ef23fa3b575ccbbb0",
+  "pageVersion": "sha256:df242bb71c342fb5b5ed3216eabd22e990511b7fbed1af44bbd249decfc79988",
   "claims": [
     {
       "id": "claim_d7d53a3093084c23b770d0a8f5757bf7",
@@ -14,11 +14,11 @@
     },
     {
       "id": "claim_7c9e992b0b5845e0a68b2c658f706376",
-      "statement": "EPD Danmark skelner mellem ferskvandsforbrug, vandknaphed og udgående materialestrømme.",
+      "statement": "EPD Danmark og BUILD skelner mellem nettoforbrug af ferskvand, potentiel vandknaphed og udgående strømme.",
       "evidence": [
         {
-          "resource": "repo://kilder/beboere-og-miljoe.md#L35-L39",
-          "version": "repo-lines-v1:sha256:2abe8f8b127c1a6d4160c17efe0f37a9cc6b193f4f51a8107369b061a8b482a6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjY5N2RiZTc3MzhiMzcyNTU5YTU0N2RjZTI3ZWJjYjJiZmRlZmJjZjk0ZTNjNjdkZGYzZWYwMDMxN2QyNWY3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2MzYTc1ZDQzYzJlOGJlNmQ3Mzk0Yjc0ZTBkYThlNDllMmQ3NWEyMzA5NTBkMTM4OGIzZTNhZDAxOGI3MTJiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjAxMTc5NTM4Njk3N2E1OWIyMmVhMjkzNDA5MjYwYTE3ZGM5NDljY2FlNzQwNmM2OGRkMjJkY2UyOWJhMGI2YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTRmN2VhYzQwMWI3ZWEyOTcwZTcwZWJlYmVkOWYxYjI4ZTA4OTJjZjI4ZDEyMDMxMTJkOTcxOGNhZWQ4ZGFlOCJ9"
+          "resource": "repo://kilder/beboere-og-miljoe.md#L37-L39",
+          "version": "repo-lines-v1:sha256:17932aee70709d23c851a560c1d57ba4aa7e680a3eb9da9c3a1b528b575f0813:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGJmMTA3ZmQ2N2YwYmU2ODY4NDEwYTQ1ZjcxMDU3ZWMzYTExOWMwMzM5NTM1MGUwZWM3ZjVhMjc0MzU4ZWU1OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2MzYTc1ZDQzYzJlOGJlNmQ3Mzk0Yjc0ZTBkYThlNDllMmQ3NWEyMzA5NTBkMTM4OGIzZTNhZDAxOGI3MTJiYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODFkMWU1Y2Y1Zjc4MDQ5MjQ2ZGIzMTU1NDQ4NmY3MDU4YzIzMGY1N2M0NjRkZWUzMWQ4MzcwZjcyMDdlNzg1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjJlZDM0YWQ3YmY0MTQzZmEwMGM3ZjYyN2I2MDczYTQ4MzhhOWU4MDJjYTQ5ODFjNzUyZTRlYTkxYzEwMjVkYiJ9"
         }
       ]
     },
@@ -28,13 +28,13 @@
       "evidence": [
         {
           "resource": "repo://kilder/beboere-og-miljoe.md#L41-L45",
-          "version": "repo-lines-v1:sha256:b495be72143c800db648e80eb84a886d5d1827be714435a155e16feef6c4a371:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDc4ZDE4ZWZhN2I2MzI5Y2QxN2I0MTVjZDI5YjMzMzQ4ODJjNzFlMDdkM2I4MTZjNDY4YWU5OWM1ZTY0MDJkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRjN2VhM2I1YWRiYTA4N2RiYmUzZjllZDI2YTAzYzk5Y2JlZjAyNTBhNjk3NGVlYzY2ODViYjYxY2JkMmIzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjE3YTMzZmQ0NDk3YWRjMDg1ZDJlOGU4ZDYzM2VjMjkxZGY4ZmRhOWE4OGE0YzI4ZjU0MzYyZWEyMDdhMDYzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWI2MTcwOWUyZWJiNmI4NzAyNDUwZjA5ZjNkZGU5ZmNhZDRmM2Q1ODJjMzY5NDVjNzk1ODRjNDNhMTA5MWNmYiJ9"
+          "version": "repo-lines-v1:sha256:87e052ef4d7a5f7a88c71c60644258bfbbab392ae6621df90faa5328e8ef96e4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTEyZjlkYTQxZmQ4NDRkZjA1MmFlZDRmMTNlM2FmYzAwMGM0ZDI1NzFkYzg2NTYzOGYzNzRlZTVmMjY1ZWIzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRjN2VhM2I1YWRiYTA4N2RiYmUzZjllZDI2YTAzYzk5Y2JlZjAyNTBhNjk3NGVlYzY2ODViYjYxY2JkMmIzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjE3YTMzZmQ0NDk3YWRjMDg1ZDJlOGU4ZDYzM2VjMjkxZGY4ZmRhOWE4OGE0YzI4ZjU0MzYyZWEyMDdhMDYzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWI2MTcwOWUyZWJiNmI4NzAyNDUwZjA5ZjNkZGU5ZmNhZDRmM2Q1ODJjMzY5NDVjNzk1ODRjNDNhMTA5MWNmYiJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T07:50:48.569Z"
+    "at": "2026-11-19T17:18:10.812Z"
   }
 }

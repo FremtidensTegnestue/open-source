@@ -1,0 +1,68 @@
+---
+type: guide
+title: "Hvad kostede de bygningsdele, der faktisk kom i brug?"
+description: "Følg antal, betaling og faktisk montage for tagsten, døre, mursten og gulve."
+tags: [transformation, genbrug, atlas]
+verified:
+  - by: openwiki/0.9.0
+    at: 2026-11-19T17:47:29.628Z
+sources:
+  - id: openwiki-source-305b62754c8ac4134c60cf97
+    resource: repo://atlas/genbrugsregnskaber.md
+generated: { by: "codex", at: "2026-11-19T17:47:29.628Z" }
+---
+
+# Hvad kostede de bygningsdele, der faktisk kom i brug?
+
+En bygherre har fået tilbud på at tage de gamle døre og gulve ned. Hvilken udgift skal sammenlignes med prisen på nye? Følg samme parti fra donorbygningen til modtagerens færdige rum. Danske byggesager viser, hvor langt man kan følge pengene og materialerne med de offentlige bilag.
+
+## Vinduer i Upcycle Studios · hvad kostede en kvadratmeter af de opførte vinduespartier?
+
+I rækkehusene i Ørestad blev der opført **870 m² fordelt på 57 vinduespartier**. Krone Vinduer fremstillede rammerne og monterede de nye ruder. Glarmestrene satte genbrugsruderne fra en almen boligforening i Aalborg i på byggepladsen. I samme projekt bygger omkostningsanalysen på de indsamlede fakturaer for produkterne. Det giver et sjældent tilfælde, hvor den udførte løsning og udgifterne kan følges i samme kilde. [Lendager og projektpartnerne for Miljøstyrelsen, *Upcycle byggematerialer – produkt, proces & performance*, 2022, afsnit 2.5, trykt s. 21 / PDF s. 12](https://www2.mst.dk/Udgiv/publikationer/2022/06/978-87-7038-427-8.pdf#page=12) · [Samme rapport, fakturagrundlag og beregningsmetode, trykt s. 65 / PDF s. 34](https://www2.mst.dk/Udgiv/publikationer/2022/06/978-87-7038-427-8.pdf#page=34)
+
+**Prisen før vedligehold er ca. 5.718 kr. pr. m² vinduesparti.** Figur 4.22 opgiver 3.214 kr. til materialer, 2.110 kr. til løn og 394 kr. til øvrige omkostninger pr. m². Summen er vores beregning på de afrundede tal. Projektets gennemsnit omfatter partier med både nye og genbrugte ruder. Fakturaerne kunne ikke fordeles på de enkelte partier. Produktionsbeskrivelsen viser, hvor ruderne blev monteret. Figuren viser ingen særskilt post for at sætte de færdige partier i facaden. En samlet entreprisepris inklusive al montage kan derfor ikke udledes. Rapporten udelader forskning og udvikling samt 90 % af projektledelsesomkostningerne, og angiver ingen momsstatus for tallene i figuren. De 4.707 kr./m² til fremtidigt vedligehold i samme søjle er beregnede. Ved sammenligning med et tilbud i dag skal m² dække hele vinduespartiet, og tilbuddet skal angive omfang, prisår og momsgrundlag. [Lendager og projektpartnerne for Miljøstyrelsen, 2022, figur 4.22 og afsnit 4.3.4, trykt s. 69 / PDF s. 36](https://www2.mst.dk/Udgiv/publikationer/2022/06/978-87-7038-427-8.pdf#page=36)
+
+## Tagsten fra Bro Missionshus · hvad dækker de 11 kroner?
+
+På Brovej 1 i Brenderup bad Middelfart Kommune entreprenøren tage tegltaget ned, rense stenene og pakke dem på paller. Kalkmørtlen under stenene kunne fjernes. Entreprenøren registrerede sit tids- og ressourceforbrug under arbejdet. DM&E beregnede ca. **11 kr. pr. tagsten** med rapportens enhedspriser. Regnearket afsætter 61 arbejdstimer og skelner mellem entreprenørens kostpris og salgspris for udførelsen. Rapporten er fra 2019. Der er ingen opgørelse hér over, hvor mange sten der siden blev lagt på et modtagertag. [DM&E for Miljøstyrelsen, *Cirkulær forretning for DM&E Entreprenører*, december 2019, bilag 2A, »Tegl tagsten«, PDF s. 29](https://www2.mst.dk/Udgiv/publikationer/2019/12/978-87-7038-149-9.pdf#page=29) · [Samme bilag, regnearket for tegltagsten, PDF s. 34](https://www2.mst.dk/Udgiv/publikationer/2019/12/978-87-7038-149-9.pdf#page=34)
+
+**Sådan genberegnes tallet.** Bilaget opfører 3.515 sten under salgspotentiale og 38.358 kr. som salgspris for udførelsen. 38.358 / 3.515 giver **10,91 kr. pr. sten**. Under entreprenørens kostpris står der 28.573 kr., som med samme nævner giver **8,13 kr. pr. sten**. Under materialesalg står der yderligere en *estimeret* pris på 10 kr. pr. sten. Den, der lægger budget, må altså vælge den kolonne, der svarer til den udgift eller indtægt, vedkommende selv får. Til pris pr. nylagt sten mangler en optælling på det nye tag samt udgifter til den videre levering og oplægningen. [DM&E for Miljøstyrelsen, 2019, bilag 2A, PDF s. 34, »Dataanalyse – tegltagsten« og »Sammenstilling – Tegltagsten«](https://www2.mst.dk/Udgiv/publikationer/2019/12/978-87-7038-149-9.pdf#page=34)
+
+## Indvendige døre i Odense · hvor mange blev bestilt og monteret?
+
+I Georgsgade specificerede projektet **21 højrehængte og 23 venstrehængte** fyldningsdøre med karme, i alt 44. Byggeriets afsluttende materialeopgørelse angiver derimod **11,6 m³ indvendige døre**, svarende til afrundet 6 ton. Gamle fyldningsdøre blev sat i stand, og nogle skulle rettes op efter afrensning. Slutrapporten viser udført genbrug. De viste bilag giver ingen optælling af monterede døre fordelt på hængsling. Til en tilsvarende entreprise kan modtageren kvittere pr. rum for dørblad, karm, mål, hængsling, nye beslag og afsluttet montage. [DEMEX for Miljøstyrelsen, *Genbrugshus i Odense*, arbejdsrapport 78, 1995, specifikation, trykt s. 74 / PDF s. 75](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=75) · [Figur 3.1, faktisk indbyggede mængder, trykt s. 15 / PDF s. 16](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=16) · [Afsnit 3.8.1–2, trykt s. 29–30 / PDF s. 30–31](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=30)
+
+**Hvad blev betalt?** Rapporten opgør ca. 470.000 kr. samlet til blandt andet træindkøb, vinduesglas, beslag, bearbejdning og maling. Flere bygningsdele deles om posten. Hvis nogen dividerer den med de 44 døre, skal beregningen afvises, til udgifterne er fordelt og modtagerens antal er kendt. [DEMEX for Miljøstyrelsen, 1995, »Træ«, trykt s. 34 / PDF s. 35](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=35)
+
+## Bøgeparket fra Bispehaven · hvor forsvinder gulvarealet?
+
+P. Olesen og GreenDozer kortlagde to lejligheder i Bispehaven i Aarhus. De vurderede, at omtrent halvdelen af trægulvet dér kunne genbruges. Vandskader, længden af brædderne og rummenes størrelse indgik i vurderingen. Projektet oplyser desuden ca. **10 % spild ved lægning af de forarbejdede brædder**. De to procenter har forskellige udgangspunkter. Bed om arealet i donorboligen, arealet efter klargøring og arealet lagt hos en navngiven modtager. Hverken den færdige leverance i m² eller en monteret pris i kr./m² fremgår af guidens økonomiafsnit. [Projektpartnerne bag *Nyt liv til gamle gulve*, Gate 21, 2025, s. 15 om de to lejligheder](https://gate21.dk/wp-content/uploads/2025/07/GenbrugafGulve-final-guide.pdf#page=15) · [Samme guide, s. 29–30 om lægning, transport, lager og pris](https://gate21.dk/wp-content/uploads/2025/07/GenbrugafGulve-final-guide.pdf#page=29)
+
+En ældre sag viser, hvad et slutbilag kan tilføje. I **Georgsgade** står der 1,4 m³ gulvbrædder i opgørelsen for det færdige byggeri. Det er et dokumenteret rumfang. Skal læseren bruge et gulvareal, kræver det viden om bræddernes tykkelse og om, hvor meget af rumfanget der ligger i det færdige gulv. [DEMEX for Miljøstyrelsen, *Genbrugshus i Odense*, 1995, figur 3.1, trykt s. 15 / PDF s. 16](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=16)
+
+## Mursten i Varde · hvor stor en del kan vi følge til et nyt byggeri?
+
+Leverandøren Genbrugssten oplyser, at firmaet rensede **70.000–75.000** mursten fra Brorsonskolen, og at **35.000** blev brugt i et nyt børnehus i kommunen. Børnehuset aftog dermed omkring **47–50 % af de rensede sten** (35.000 / 75.000 til 35.000 / 70.000). Andelen siger noget om én modtager. Restens destination og det oprindelige antal i skolen mangler i opgørelsen. En bygherre bør bede om følgesedler til de øvrige modtagere, før der drages en konklusion om samlet udbytte eller spild. [Genbrugssten, projektleverandørens opfølgning 27. maj 2024, afsnittet »Selektiv nedrivning giver gevinst«](https://genbrugssten.dk/om-os/#:~:text=Som%20et%20andet%20eksempel)
+
+**Hvad blev der betalt pr. sten til en kendt modtager?** På Brovej i Brenderup opgiver DM&E de opnåede materialepriser i det gennemførte forsøg. 9.792 hele facadesten til 7 kr. og 6.640 hele bagmursten til 3,50 kr. gav **68.544 + 23.240 = 91.784 kr.** for murstenene. De 2.100 halve sten står til 0 kr. Værtshuset Guldkronen bekræfter selv, at sten fra missionshuset blev brugt i tilbygningen. Dermed kan man knytte en opnået stykpris til en faktisk anvendelse. En præcis pris pr. indmuret sten inklusive mørtel og murerarbejde kræver også en slutoptælling og modtagerens entrepriseregnskab. [DM&E for Miljøstyrelsen, *Cirkulær forretning for DM&E Entreprenører*, 2019, bilag 2A, PDF s. 32, case 1, kolonnen »opnået pris«](https://www2.mst.dk/Udgiv/publikationer/2019/12/978-87-7038-149-9.pdf#page=32) · [Guldkronen, bygningens historie og tilbygningen på Torvet](https://guldkronen.dk/om-guldkronen)
+
+**Hvad koster det, når sorteringen slår fejl?** Det endelige byggeregnskab fra Georgsgade blev godkendt i 1994 med **10.358.000 kr.** mod 10.000.000 kr. i det godkendte overslag fra 1992. Projektet tilskrev cirka 240.000 kr. til behandling og reparation af facaden efter utilstrækkelig sortering, rensning og afdækning af sten, og 116.000 kr. i ekstra byggelånsrenter til en forlængelse på cirka 2½ måned. Den samlede overskridelse var 358.000 kr., eller **3,58 % af overslaget**. Kommunen afholdt derudover omkostninger til klargøring uden for selve byggeregnskabet. I en ny sag bør bygherren reservere plads i budgettet til beskyttet lager, et prøvefelt og mulig forsinkelse. [DEMEX for Miljøstyrelsen, *Genbrugshus i Odense*, 1995, afsnit 4.2, trykt s. 33–34 / PDF s. 34–35](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=34)
+
+Materialeopgørelsen angiver 128 ton indbygget facadetegl. Fordelt på hele facademængden giver de cirka 240.000 kr. **omtrent 1.875 kr. i ekstra efterarbejde pr. ton indbygget facadetegl**. Det er vores beregning i sagens daværende kroner. Beløbet beskriver udbedring på netop denne facade. Samlet pris for køb, rensning, levering og opmuring pr. ton kræver flere bilag. [DEMEX for Miljøstyrelsen, 1995, figur 3.1, trykt s. 15 / PDF s. 16](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=16) · [Samme rapport, ekstraudgiften, trykt s. 34 / PDF s. 35](https://www2.mst.dk/Udgiv/publikationer/1995/87-7810-510-2/pdf/87-7810-510-2.pdf#page=35)
+
+## Sådan fører I et regnskab, der ender ved den indbyggede del
+
+Udfyld én række pr. parti og destination. Giv partiet samme ID på bygningsgennemgangen, følgesedlen og tegningen over den endelige placering. Brug én enhed gennem regnskabet og markér, om en oplysning er skønnet, registreret, faktureret eller uoplyst. En tom celle er ukendt. Skriv kun nul, når det er undersøgt.
+
+| Registrering | Hvad skal stå i jeres ark? |
+| --- | --- |
+| Parti og funktion | Donoradresse og rum, parti-ID, enhed, modtager, tiltænkt funktion og relevante krav. |
+| Mængder | Registreret hos donor → udtaget → godkendt til ny brug → leveret → monteret. Datér hvert trin og angiv bilaget. |
+| Afvigelser | Mængde og årsag for kasseret, sendt videre, på lager og uafklaret. Giv hver modtager sin egen række. Fordel fællesudgifter én gang. |
+| Udgifter | Indkøb, demontering, prøvning, klargøring, kassation, lager, transport, tilpasning og montage. Skriv betaler, år, momsgrundlag og bilagsnummer ved hver post. |
+| Indtægter og alternativ | Registrér faktisk salg og tilskud hver for sig. Opgør en eventuelt undgået udgift ved nykøb eller bortskaffelse under alternativet. |
+| Aflevering | Monteret mængde og placering, dato og modtagerens kvittering. Før efterarbejder på samme parti. |
+
+**Pris pr. monteret enhed** = de dokumenterede udgifter til partiet frem til og med montage / mængden kvitteret monteret. Angiv, hvilke poster der er med, og vis indtægter særskilt. Hvis en post mangler, kan I oplyse en delpris med de medtagne poster. Hvis den monterede mængde er ukendt eller nul, kan der ikke beregnes en pris pr. monteret enhed. Sammenlign med køb og montage af en ny del med samme funktion, prisår og momsgrundlag.
+
+[Videre til drift og vedligehold](drift.md) · [Håndbogens spørgsmål om aftager, lager og dokumentation](../haandbog/genbrug.md)

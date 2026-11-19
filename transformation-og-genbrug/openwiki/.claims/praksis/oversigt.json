@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:e60b5f212322de2d68d7d3ebe2f1d5da3caa68ea6203faeda91797bed05ce68c",
+  "claims": [
+    {
+      "id": "claim_e3e19366b8114441b91d97e35148ebb9",
+      "statement": "De tre gennemgående sager handler om husdeling, renovering af en almen blok og bevaring af en muret gadefacade.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/README.md#L9-L11",
+          "version": "repo-lines-v1:sha256:2a93226a8b9de7340e5594f572d2022edac8905b7217d438544d453931209075:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM5MTUxZmY1MmVkYjJmNGZjNDZiNjQzMjQ5NjdkMjAxYTFhNjVjZTc4Yzg0ZTY5NGY2ZTRjMDM5NjlhYmM1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDE0NGI4MDYwYTMxMjU0YmY2MjdhZTliY2UyODJmN2IxOTRmOTU3YzY1ZGRkOTNhMDU5Mjc3Njc3NDQ2Njk1NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWJhMjMwNzFhNWQyNzM4ODY0NjMwNzQ1NmIzNDkzMGQ1Yzg5YTA3MmY5MThlOTcyZmNlZDAzY2JiYjBmZGUxOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDM3ZGU0OWQ1YWE0OWQyZjg3ZmVlOWVjODQ3YTViMmNlOTU0MGM1MDQwNDQ5YWRkNjEyOGY3NGM0MjEyODNjYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

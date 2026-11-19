@@ -36,11 +36,11 @@ Ti sten blev undersøgt gennem 15 frost/tø-cykler og prøven bestod F1 for mode
 
 2018, afsnit 4.1 s. 10–11.
 
-Projektets kvalitetsstyring forbinder prøver med donorsted, råvarelager og færdiglager. Dermed kan man undersøge variation og renseprocessens betydning. En måling uden forbindelse til leverancen kan give falsk sikkerhed om det faktiske parti. [Originalkilde](https://www2.mst.dk/Udgiv/publikationer/2018/04/978-87-93710-01-6.pdf)
+Projektet tog stikprøver ved nedrivningsstedet, på råvarelageret og på færdigvarelageret for at undersøge variation og renseprocessens betydning. Rapportafsnittet viser ingen gennemgående identifikation fra den prøvede sten til modtagerens palle. Bed leverandøren vise forbindelsen for den konkrete leverance. [Originalkilde](https://www2.mst.dk/Udgiv/publikationer/2018/04/978-87-93710-01-6.pdf)
 
 ### Realdania By & Byg · Rosenhuset
 
-2. udgave, 2025, s. 139.
+Genoptryk 2025, trykt s. 139 / PDF s. 140.
 
 Under restaureringen blev originale sanitetsdele istandsat. Ved direktørens toilet passede standardhaner ikke i den bevarede håndvasks gennemføringer. Der måtte findes egnede vandhaner. Casen dokumenterer pasform. Den indeholder her ingen måling af vandforbrug. [Originalkilde](https://realdaniabyogbygklubben.dk/media/yw5dq2jy/rosenhuset.pdf?fm=pdf)
 

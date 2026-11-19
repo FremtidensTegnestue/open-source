@@ -1,0 +1,50 @@
+---
+type: guide
+title: "En almen blok fra beboermøde til indflytning – Klimablokken i Tilst"
+description: "Følg beboernes beslutning, de prissatte alternativer, genhusningen og den tidlige drift."
+tags: [transformation, genbrug, byggesager]
+verified:
+  - by: openwiki/0.9.0
+    at: 2026-11-19T18:12:07.266Z
+sources:
+  - id: openwiki-source-04a685c82481e7d1ebdd7b12
+    resource: repo://praksis/almen-blok.md
+generated: { by: "codex", at: "2026-11-19T18:12:07.266Z" }
+---
+
+# En almen blok fra beboermøde til indflytning – Klimablokken i Tilst
+
+Da afdelingsmødet i Langkærparken skulle beslutte, om én blok skulle bygges om, havde beslutningen særlig betydning for de 22 husstande på Torstilgårdsvej 20–24. De kunne få en anden indretning og lavere varmeforbrug. Til gengæld skulle de flytte under arbejdet, og huslejen ville stige. Sagen følger **blok 1**, én af bebyggelsens 35 blokke fra 1969–71. Blok 8 blev bevaret som sammenligningsgrundlag i måleperioden. [DTU, *RENO-EVALUE*, 2013, s. 35–36 (PDF 37–38)](https://backend.orbit.dtu.dk/ws/files/60238115/RENO_EVALUE_online_version.pdf#page=37)
+
+## Hvad kunne beboerne beslutte?
+
+| Tidspunkt | Beslutning og konsekvens | Dokument |
+| --- | --- | --- |
+| 2008–09 | Boligorganisationen overvejede at bygge fire blokke om til hver sit energiniveau. Det krævede finansiering gennem en længere helhedsplan. I stedet lod den fire niveauer prissætte på **samme blok**. | [AL2bolig, erfaringsrapport, 2013, s. 12–13](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=12) |
+| September 2009 | På afdelingsmødet den 21. september godkendte beboerne totalrenoveringen ved afstemning. DTU beskriver tilslutningen til det højeste energiniveau som næsten enstemmig. De offentliggjorte rapporter gengiver ikke en optælling af ja- og nejstemmer. | [AL2bolig, 2013, s. 16](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=16) · [DTU, 2013, s. 36 (PDF 38)](https://backend.orbit.dtu.dk/ws/files/60238115/RENO_EVALUE_online_version.pdf#page=38) |
+| April 2010 | Hovedentreprenørens tilbud var 24,8 mio. kr. for BR08, 26,2 mio. for LEK 2, 27,4 mio. for LEK 1 og 30,0 mio. for LEK 0. Styregruppen og hovedbestyrelsen tiltrådte det dyreste alternativ. Forsøgsværdien talte med. LEK 0 var projektets daværende bud på et fremtidigt energiniveau. | [AL2bolig, 2013, s. 15–16](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=15) |
+| Maj 2010–maj 2011 | Håndværkerne tog én af de tre opgange ad gangen. Husstandene havde individuelle samtaler om flytning. Ventilationsskakten gjorde det muligt at flytte køkkenet og vælge mellem forskellige boligindretninger. | [AL2bolig, 2013, s. 16–17](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=16) · [Arkitektens erfaring, s. 41](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=41) |
+
+## Følg ombygningen på billeder og tegninger
+
+1. **Før.** Se havesiden og de oprindelige altanbrystninger. Blokken havde betonfacader, kuldebroer og trækgener. [GI, *25 eksempler på vellykket renovering*, 2012, s. 104–107 (PDF 53–54)](https://gi.dk/media/ngvh4v5x/renovering_finale_lowres.pdf#page=53)
+2. **Fra tegning til byggeplads.** I juni 2010 offentliggjorde boligorganisationen sit principsnit og en tegning af indgangsfacaden. Følg altanen fra tegningen til den færdige haveside. Billedserien viser råhuset og montagen af en ny facade foran de eksisterende etagedæk. [AL2boligs samtidige projektbeskrivelse og tegninger, juni 2010, s. 13–14](https://www.fbbb.dk/wp-content/uploads/2022/06/Energirenovering_nye_loesninger.pdf#page=13) · [Projektets billedserie, 2013, unummererede dias, PDF 5–11](https://xn--bredygtigebygninger-lxb.dk/media/2221/energirenoveringer-klimablokken.pdf#page=5)
+3. **Efter.** Sammenlign de to boligindretninger og følg vejen fra køkken til stue og altan. AktivHus-rapporten viser desuden NOVA5s plan og 3D-model af en trerumsbolig på 100,5 m², som rådgiveren brugte til dagslysberegning. [Projektets to indretninger, 2013, unummereret dias, PDF 13](https://xn--bredygtigebygninger-lxb.dk/media/2221/energirenoveringer-klimablokken.pdf#page=13) · [Kuben Management/Cenergia, 2018, s. 2–3, fig. 2–3](https://xn--bredygtigebygninger-lxb.dk/media/2352/aktivhus_rapport.pdf#page=3)
+
+De to indretninger er valgmuligheder. En målfast førtegning af den samme lejlighed og en underskrevet kommunal tilladelse er ikke verificeret her. Søg på Torstilgårdsvej 20, 22 eller 24, 8381 Tilst, i Aarhus Kommunes ejendomsarkiv. Adgangen kræver MitID. [Aarhus Kommune, ejendomsarkivet](https://public.filarkiv.dk/751)
+
+## Hvem vendte tilbage, og hvad kostede det?
+
+**16 af de 22 oprindelige husstande vendte tilbage** efter midlertidig genhusning. Fem flyttede permanent internt eller ud af boligorganisationen og fik flytteudgifter refunderet. Én flyttede for egen regning inden offentliggørelsen af detailtidsplanen. Alle 16 tilbagevendte husstande boede der fortsat ved udgangen af januar 2012 sammen med seks nyindflyttede husstande. Rapporten beskriver ikke de seks fraflytteres senere boligudgifter eller tilfredshed. Midlertidig genhusning varede typisk 3–4 måneder. [AL2bolig, 2013, s. 16–17](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=16)
+
+DTU opgør hele projektet til **ca. 38 mio. kr.**, heraf ca. 30 mio. i hovedentreprise. De øvrige ca. 8 mio. dækkede bl.a. rådgivning, finansiering, genhusning og formidling. Huslejen før var 575 kr./m² om året. 750 kr./m² om året eksklusive forbrug var det niveau, man regnede med at nå efter 2–3 år. Beløbene er historiske. En faktisk betaling kan ses i boligorganisationens årsberetning. Dispositionsfonden afholdt **978.000 kr. i ydelsesstøtte i 2012**. [DTU, 2013, s. 42 (PDF 44)](https://backend.orbit.dtu.dk/ws/files/60238115/RENO_EVALUE_online_version.pdf#page=44) · [AL2bolig, *Årsberetning 2012*, s. 3](https://al2bolig.dk/media/1507/beretning_2012.pdf#page=3)
+
+## Hvad viste det første år i drift?
+
+Fra oktober 2011 til september 2012 målte rådgiveren energiforbruget. Sammenholdt med referenceblokken opgør rapporten besparelsen til ca. **35 kWh/m² om året til rumvarme** og **2 kWh/m² om året til varmt brugsvand**. Figur 6 viser både de realiserede tal og de korrigerede tal. Brug den, hvis referenceår eller vejrlig skal indgå i en ny sammenligning. Driftsmålingerne og bygningens beregnede klimaaftryk har hver sin opgørelsesmetode. [AL2bolig, 2013, s. 7](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=7) · [Energiopgørelse og figur 6, s. 22–23](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=22)
+
+**12 af de 22 daværende husstande besvarede indeklimaundersøgelsen i maj 2012.** Kilden fordeler ikke svarene på tilbagevendte og nyindflyttede husstande. Blandt svarene gik ønsket om selv at kunne regulere temperatur og ventilation igen. Beboernes svar giver et andet beslutningsgrundlag end en måling i udsugningsluften. Ved en ny renovering kan afdelingen bruge begge dele, spørge til betjeningen efter en vinter og en sommer og invitere de permanent fraflyttede til at fortælle om deres forløb. [AL2bolig, målinger i 12 lejligheder, 2013, s. 31](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=31) · [Beboernes svar, s. 39](https://xn--bredygtigebygninger-lxb.dk/media/2271/20130220_innovationsrapport2013_web.pdf#page=39)
+
+Se også, hvordan man kan bruge bygningens konstruktionstabel og livscyklusberegning til at vurdere det konkrete arbejde på facaden. [Sammenligning med Glasalstrup](facader.md)
+
+[Brug sagen på et byggemøde](feltproeve.md) · [Alle tre gennemgående sager](oversigt.md)

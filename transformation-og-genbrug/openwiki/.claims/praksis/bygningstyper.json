@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d469a8027073aedaf76e8c64e8cdc0a4216ae49925881a88924cfa2a5bd203d7",
+  "claims": [
+    {
+      "id": "claim_09d72be396f04ad7b38b63dc6f9a1338",
+      "statement": "Fem tegningsopslag dækker et muret etagehus, betonblok, rækkehus, parcelhus og lade.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/bygningstyper.md#L7-L11",
+          "version": "repo-lines-v1:sha256:dc4407beb7fdf55c5314bb92ba565ffd39a5e58eed9488dd8b25d69f04efcd71:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDRhYWUwNWU2YzJjMzlhOWE0ODdhNGM3NDQ1ZWQ4ODQ1ZTU4OGVmMjQ3M2ZiMjU4Y2Q2MjNkODBhNDc1NDYyMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTM4ZGQ3N2UxYzk5ZTU3NzE3NzUyZTY2NGI1ZDg4MmU1OGIyZGI5YTU2MjAxZDM1Mjg4NDYwNjk2MjU2NDE1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzQzNjlkZTRjNDJkZjAxM2NiZDg1OGIzM2FkNmRjZDkyZWEwNjhjNGUzOWM3ZWMxY2MxZWNiMGEyMmU2YjkyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTkxYzMyM2NmOTc5YmRlNjI5MWNmZmFlODgxODBkZGYwMGVhMjE3ZDEzZTllZjBjN2UyNjQ5ZGUwODc4MzFkOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

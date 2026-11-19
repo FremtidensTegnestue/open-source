@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f99c4f311909aa523290ccde1d946747a15f20f22e9a061f3269bdf8b82a56b0",
+  "claims": [
+    {
+      "id": "claim_e1099b78d8b1477bbfd5f91a5d951467",
+      "statement": "Kommunens tilladelse fra 1982 og det senere registrerede dobbelthus beskriver to forskellige indretninger.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/husdeling.md#L10-L15",
+          "version": "repo-lines-v1:sha256:940f65652462e395f152b9dd0f3e4b05492363913433c8dbbd47959f281f58b0:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNhYjlhOTUwYzBiODE5NjNjMmI4MDVlNDk2YjVhZTY0OWM4NDI5NmQ2Y2ZjMzAxYmJhZmUzZmRhZDg4ZjRmZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM5ZWFkMWZkNGQzMjMzZWIxOTUyNWYyMGM5MmFmZTNmNjg0NjU4YmU0M2M5M2U3YWI0MjcyYjNkNmY0NDMyNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODg3MTUzZDRkMDUzYWQ0MDU4ODZmNWJkMzk0ZWI3YTU5MDlmZjY5N2EwM2RiMDI5MGIwNGJhYzEzY2VhMDJhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTY1NTg3M2Y4YTRlOGIzZmI3MzY3M2IyYzNiZjQ0YzZhY2IxMDAwOTA4N2U5YzVlNzdkYjllNjAxY2MwYjI0NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:431a7444f9562c533ec6d9bc08e37f77fe3e17ebcab6d7e040e15a1d89b68290",
+  "pageVersion": "sha256:67b7d2b72e094236b9ffbf09206e4ef92540f2cb762efc42547260f0cef4c398",
   "claims": [
     {
       "id": "claim_5daa36bbfd1d4d018f7b8225cf3da2a4",
       "statement": "Miljøscreening har selvstændige udløsere, herunder affaldsmængde og visse termoruder.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L87-L91",
+          "resource": "repo://kilder/README.md#L89-L93",
           "version": "repo-lines-v1:sha256:c09369cbb7d1f8cea29f4dc1bdcffa68fe4f3bbfd14347bdf3c7bd73ccd1296f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTcwNzc4ZmNiNjRhNzY0MzJjYWZlZjQ2NDcxZGRkMWI2ODMyMWYzZTM3ZmI0NmU3YjNlMzJlNzhmMDJjMTI4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk4NDMxZjFhMGUwMjAyZjU5NWVhMDliZmU2ODIyZGJjMWZhYjIxZGFiMmVjYTRlNTc1ZGIyOTI5MGRiZmU5NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTkzZGJkM2ViNDA4MDYyMjc0ZmZlNTE3ZmFjOTA5YzE1N2JiZWZhMzk3NThjZDk0ZTk4Yzc0ZGYzMTA5ODkyYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDk2YTA2M2VkYTIxNjExZjFiMDdhNjRkZjEyYmRjODJjNjcxMTZjMzY0NDQyMjVmMmYwZWFhNDgxZTFkZDZmNiJ9"
         }
       ]
@@ -17,7 +17,7 @@
       "statement": "Reglerne om selektiv nedrivning bygger på mindst 250 m² fuldstændigt fjernet etageareal og adskiller sig fra almindelig vinduesudtagning.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L87-L97",
+          "resource": "repo://kilder/README.md#L89-L99",
           "version": "repo-lines-v1:sha256:4fa620eeaf954882f3f26b15f1b960ba42eafe1728bcf9b9b191e31186fe2fba:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3MDc3OGZjYjY0YTc2NDMyY2FmZWY0NjQ3MWRkZDFiNjgzMjFmM2UzN2ZiNDZlN2IzZTMyZTc4ZjAyYzEyOGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVmYjYxMTE5MjAyNjg4MTQyZDExODE2MDc3NDFkMTRmOWYyMmY4YjJlZjg4OTVmMjZlZGI4ZjNhMWM1MWQ3NTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5M2RiZDNlYjQwODA2MjI3NGZmZTUxN2ZhYzkwOWMxNTdiYmVmYTM5NzU4Y2Q5NGU5OGM3NGRmMzEwOTg5MmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjlmYTExN2FmNjcwNGMzMjVjM2FkN2JlMzk0MGUyMDVkNzQwYTI5OGUxNTc1YzVkYWMyZTAyZDlhYTNhZjZiNjQifQ"
         }
       ]
@@ -27,7 +27,7 @@
       "statement": "Affaldsstatus og typen af behandling indgår i sondringen mellem genbrug, forberedelse med henblik på genbrug og genanvendelse.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L81-L85",
+          "resource": "repo://kilder/README.md#L83-L87",
           "version": "repo-lines-v1:sha256:fcaedc944874436ac578a0b6255c7827b2cbb57e7c4ad8cb4013ca38c3da7d6a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2NlOGIxZTdhMjYyZDFhNGM3Yjc0MDcxMjk2MTZkZDk1YTRmZGY2N2ZhZDc1MGJiZDIzOTM0M2NiZGM0M2E0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGYwY2E5MTA2MjMwNjlkYzE5YzBiYjgxNzI2YWZjM2Y0MjY2NmY2ODY3OTMyZGVhYWMwN2JjZmQ4OTRmYmY0MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk0YjQzM2FmNmM1ODJmZTJiNzc2NGE3YWI1Mjc2NjhlODFmODRkNjZkOTlhNWJjNDU2MDhmMmEwZTE2NDJhNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTRiZjJlZTViMzNhZDZjMDQ0NjdkZmM2YWE3YThhZjVjOTZiYzMwNTYxM2U5MzYyYTRlNDJhYjc5NzgwMmMwMiJ9"
         }
       ]
@@ -37,11 +37,11 @@
       "statement": "Dokumentation for markedsføring og dokumentation for egnethed i en konkret ombygning skal afklares særskilt.",
       "evidence": [
         {
-          "resource": "repo://kilder/README.md#L61-L65",
+          "resource": "repo://kilder/README.md#L63-L67",
           "version": "repo-lines-v1:sha256:779249cacca3841716c285abd36c843fb14330c9166727f3bb0ef9262f23d1e7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA1MzE4MzQ5YTI3OWI3OTEyMzYyZmM5MTcxZDhmMzcxMzJjOTU2MTQ5ZDE5NWVhN2ZmZTNlMTU2ODY2Njc0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjQzZmQ4NzUyN2U3NjA4YzZmMWJlMjIzYjBmMTM5YzM4ODExMWI1ZDY5OWRjMDQ0YmNjMDU5NjRjOTU0ZTA2ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmJiNWVjYjdiYzg4ODkxMzU1OTk0MjE3NDQ3YzdiYmZkZDVmOWM3ZDQ3MTBlYmQyMDJjMjhhMjJiMGMwMDFkZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmVlYmE1ZmYwMjY4MGJkZDUzZjE5OTk1Y2I3YjAzZTcyZDgzZmU3NWFkNDEyMWUyODAxZjkyMjU4MzhhMDJkYiJ9"
         },
         {
-          "resource": "repo://kilder/README.md#L99-L109",
+          "resource": "repo://kilder/README.md#L101-L111",
           "version": "repo-lines-v1:sha256:5aa685e0a18d2bb31e2c3309b9ddbbde9c5bf24d3f966d6537e458f0e06d9024:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI4NjFmYjM4ZmJhZGVhYjJkNzVkMWU5ZmNhNDcwODBjNGIwMGJhYWY1OThiZGNkMWQ4YTkwY2I0MmFmYjA5ZjkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYyZTY5NjZiZWIwM2JkYjU5MDlkZmNhNzAyZGE5OTdlODVhZTMwYzllMDdmZGI2Y2E1M2JhNTFiYWU3MGM5ZTUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRkYzU5ZTNlNDk3YjlkYTQzYWQ4YmQyNDQ5Y2ViZGNhNGQ5YmQzZDljMWExY2Y5Y2QxNWM5OTUxOWMwZjA2Y2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImRhMWMwMjQ0OWJjNzM2ODgxZWQyM2I3N2U0NjE3ZWIxZDljOWY5MTg5NWIyZTk3MTFhYjgxNGU5MmViYzUyZjkifQ"
         }
       ]
@@ -49,6 +49,6 @@
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T07:19:29.468Z"
+    "at": "2026-11-19T17:18:10.812Z"
   }
 }

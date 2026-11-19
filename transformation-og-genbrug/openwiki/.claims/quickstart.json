@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:7beb7090c6a4e573e178de5ab6d7277f40a5c894843a43b4bd17e0d8b226ed68",
+  "pageVersion": "sha256:58a326ba08fa2d1e34944b006e205eaad5d925e939bd8317680694c6dbcf79f7",
   "claims": [
     {
       "id": "claim_e09c0474a39448bcaa092916485b9356",
       "statement": "Området samler spørgsmål om bygningens anvendelse, direkte genbrug, reparationer og nye materialer.",
       "evidence": [
         {
-          "resource": "repo://README.md#L3-L11",
-          "version": "repo-lines-v1:sha256:917a12a0bae52549e6f7560d9411b10bb12df0611a10ea0323797d428e24e288:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTU1ZjY4MGMyNGZiMzg2MDkzNDc3YmZhZjdmNTM4N2UyMDRjYzQwODMzYmVkNWIyMWVjODFmZTUzOWI3YjI0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODZjYTQzYzAyYzkzZjVlNjExOTFiNjUwMzI0YThiYWIyNzZlOWMwZjY4YzY5MjA5NDJiOTM2NWEzNDgzYTU3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQ4ZWI1Yjk5OWViM2JmZmQ3MzZlODEyYzIxMDUwOTI5NzZjNWI3MGM5NDc1MDRmMGQ1ZmQ4OGM2ZjAyMzJkOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTE2YzY2MDZhNTdmOWQ4ZDk2N2NmMTkyZmRiOTkxY2YxODNmMjgwNWZlY2UxMDFiYTM0YzMwMGVmMTAzZWFhNSJ9"
+          "resource": "repo://README.md#L11-L13",
+          "version": "repo-lines-v1:sha256:4e028c37ca55d65d23068b03978591a230ac6f7795e7d199cee81b69cbfabbab:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTNjOGU3YmFlZmY4NDQ2ZmFhZDZkOTdjM2U3MDU0MjdmNDk2MDY0ODQ5ZmRiMmUwYzdkZTE0OWQ1MzYxY2VmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODZjYTQzYzAyYzkzZjVlNjExOTFiNjUwMzI0YThiYWIyNzZlOWMwZjY4YzY5MjA5NDJiOTM2NWEzNDgzYTU3NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDAzMjE5ZWEwNDYzMzJkN2NiOTQzZDM1MmNmMzkxNzc1YTU0YjkyOWZhOGU2YzcxMTVjYjY2MDZjYzQwZjIxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjdkYmYxYmFhMGU3MWZlMGE4MGM1MGMxNGZhZjE2OTQ5NDdhOTU4ODE4YzgyZjdhOWZmN2ZmYTliNjY3ODhjZSJ9"
         }
       ]
     },
@@ -27,8 +27,8 @@
       "statement": "Vidensgrundlaget samler projekter, primærkilder og et fælles besigtigelsesark for vurdering af bygnings- og komponentvalg.",
       "evidence": [
         {
-          "resource": "repo://README.md#L25-L27",
-          "version": "repo-lines-v1:sha256:37ceb691a423c9a133485d6fcc585493492637d7b701a376e931dafaefd06104:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzA0ZjBjNTAyMzQxYmJiMDc1OGU2NWQ2NWFmYmQzZWQ0MWM1ZmUyZmM2MGZmYWQ5OGU3ODkwNmRmZDYxOGQ2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE2YTY2ZmI1YTQ4NzY5ZDc1ZjJhNDYzYzlhNDhjNThhY2UzODI5ODUzNWNiZGZlYzBhODNjZjdlNGM0ZWZiOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTU5N2Q3MDQxMWMxMzkxNTlkZWU1NmQ3OGM3MWQ2YzIyNzcyMzI1M2MzNmZmMzlkYWEyZDVjMmE1YTVmZjk4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+          "resource": "repo://README.md#L27-L29",
+          "version": "repo-lines-v1:sha256:ab94f59903410711aa018e0650d0f25beec3f84b98656f78ca2864abc24fa14a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzA0ZjBjNTAyMzQxYmJiMDc1OGU2NWQ2NWFmYmQzZWQ0MWM1ZmUyZmM2MGZmYWQ5OGU3ODkwNmRmZDYxOGQ2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGM5MWI2YmQyNTZmNjZhYTQ4NGEzMTI0NDg0OGIwOGE3NzQ2MjE0MjkzM2M2NGI5YzdjYmYxODYzMjJmOGI2NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTU5N2Q3MDQxMWMxMzkxNTlkZWU1NmQ3OGM3MWQ2YzIyNzcyMzI1M2MzNmZmMzlkYWEyZDVjMmE1YTVmZjk4YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         },
         {
           "resource": "repo://oplaeg/forste-besigtigelse.md#L14-L23",
@@ -41,7 +41,7 @@
       "statement": "Opslagsværket knytter bygnings- og komponentviden til originalkilder og deres anvendelsesgrænser.",
       "evidence": [
         {
-          "resource": "repo://README.md#L13-L19",
+          "resource": "repo://README.md#L15-L21",
           "version": "repo-lines-v1:sha256:792188e0313072f57db22f03d5eaf851809bb570af069a555f484e5c98a66153:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRhYTFkOWUzNDFiMDVlODYzMWI2M2UzZmM0NWViMGRhZDJhMGM2MjA1NTY3MTEzM2E3YWU2MGZmZWNkMDMyNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWFlZjMyZjg2ZGUwZGVkODM3ODE3MmM2MzgwMDM3ZTEwYzMwMmJlNmE0OWYwNGRhNTAwMjEyYjliMGNmNWRiZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjc4MzhlMzFhMTZmMWE2ZGZhODlhOGE5NmE4MGE1NjU0MzkxMjRlMDkxZTA2NzM1NTdjZDA3ZWFiNDJiMmYxMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2VkYTRjMmNmOGNhMjNhMGIxMGQxOGYxYjQwNmU2NGVmMTU5NjhkYmZlYTQyMzU1Mjc1YzllYWVjN2ZhYjMyZSJ9"
         },
         {
@@ -100,13 +100,43 @@
         },
         {
           "resource": "repo://kilder/beboere-og-miljoe.md#L41-L45",
-          "version": "repo-lines-v1:sha256:b495be72143c800db648e80eb84a886d5d1827be714435a155e16feef6c4a371:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDc4ZDE4ZWZhN2I2MzI5Y2QxN2I0MTVjZDI5YjMzMzQ4ODJjNzFlMDdkM2I4MTZjNDY4YWU5OWM1ZTY0MDJkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRjN2VhM2I1YWRiYTA4N2RiYmUzZjllZDI2YTAzYzk5Y2JlZjAyNTBhNjk3NGVlYzY2ODViYjYxY2JkMmIzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjE3YTMzZmQ0NDk3YWRjMDg1ZDJlOGU4ZDYzM2VjMjkxZGY4ZmRhOWE4OGE0YzI4ZjU0MzYyZWEyMDdhMDYzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWI2MTcwOWUyZWJiNmI4NzAyNDUwZjA5ZjNkZGU5ZmNhZDRmM2Q1ODJjMzY5NDVjNzk1ODRjNDNhMTA5MWNmYiJ9"
+          "version": "repo-lines-v1:sha256:87e052ef4d7a5f7a88c71c60644258bfbbab392ae6621df90faa5328e8ef96e4:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTEyZjlkYTQxZmQ4NDRkZjA1MmFlZDRmMTNlM2FmYzAwMGM0ZDI1NzFkYzg2NTYzOGYzNzRlZTVmMjY1ZWIzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRjN2VhM2I1YWRiYTA4N2RiYmUzZjllZDI2YTAzYzk5Y2JlZjAyNTBhNjk3NGVlYzY2ODViYjYxY2JkMmIzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjE3YTMzZmQ0NDk3YWRjMDg1ZDJlOGU4ZDYzM2VjMjkxZGY4ZmRhOWE4OGE0YzI4ZjU0MzYyZWEyMDdhMDYzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWI2MTcwOWUyZWJiNmI4NzAyNDUwZjA5ZjNkZGU5ZmNhZDRmM2Q1ODJjMzY5NDVjNzk1ODRjNDNhMTA5MWNmYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a334b323a30d4415b71e937e8123f285",
+      "statement": "Håndbogen fordeler beslutningsspørgsmål på seks områder og giver fra hvert område adgang til originaler, projekter og deres konkrete forbehold.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/README.md#L3-L20",
+          "version": "repo-lines-v1:sha256:fe4042653278ca71944c04bd7c77c17b0fa1741d9e13913b7412d0b17bb4526e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YWM2N2Q4YzU3NGU1MzgzZGQ1ODg0ZTQ4NDI1NmYxNDk5MjdmZTg5ZTdiODgwNzgzMmIyMzcxZjY2OTgxNjUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3ZmRhMjhlNzdlYzI4YTNhM2Q1ZTJlNTc3ZGJlZWZhM2E2MzczYmY1ZjFlOTJkNTQxOWEyNDgwY2E4OGY4M2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg2ZGRkOWUzMWZjZGMwOGJiN2M5YzJjODQ4MDE5Y2Y0ODdhMTA3ZTIxZTk5NDU5MjQ0MzkyYjJlYmM4Y2I0NzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3e07409d9965466d8af4a4b80b11c3e9",
+      "statement": "Der er en selvstændig indgang til atlassets fire områder.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/README.md#L16-L16",
+          "version": "repo-lines-v1:sha256:70764a32954982c8cc57064fb893872409d198f7f110f7446b3ce4a354ec22f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA3NjRhMzI5NTQ5ODJjOGNjNTcwNjRmYjg5Mzg3MjQwOWQxOThmN2YxMTBmNzQ0NmIzY2U0YTM1NGVjMjJmOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA3NjRhMzI5NTQ5ODJjOGNjNTcwNjRmYjg5Mzg3MjQwOWQxOThmN2YxMTBmNzQ0NmIzY2U0YTM1NGVjMjJmOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWZiMzNiN2FlNjcwZGViNThlMGJmMTk0NWQ0MWE4ZTUwZGI2NTIzZTVkZGZkYzk3NTYxN2ZlYjQ1MDg3NmE4OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWM5ZmMxM2MwYzNiNDJiMTRlNmJmNmE4MGZkODNiNDc3NTVhZjQxNjE2NDdiZTNmZGU5OWE1ODZiZDliYTZhZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_74d1f0170e7a4122b2f6444ec483a391",
+      "statement": "Læseren kan gå direkte til husdelingen, Klimablokken eller Ryesgade og finde en beslutning i hver sag.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/README.md#L7-L11",
+          "version": "repo-lines-v1:sha256:23f9bd5b2bfda2c1ee1e3f6a21b7275fc78a6f409d2123a54309fda46203e37d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI1MTdhZjA5NGZjN2JkNTUyYmE4Mzk0ZmVmNTNmMzAzNjM2MzI5OWUxNjY5MzY1ZmI3ZTU2YTVhZjg4NmEwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDE0NGI4MDYwYTMxMjU0YmY2MjdhZTliY2UyODJmN2IxOTRmOTU3YzY1ZGRkOTNhMDU5Mjc3Njc3NDQ2Njk1NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzM3ODg2ZjgyNmE4Yjc0MDI4MWY0OWIyNjgxYjhmNDUzMWFjZDQ5NGRhZTg0Mzc4NWRiODBhMTIxYjRiOGI0ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDM3ZGU0OWQ1YWE0OWQyZjg3ZmVlOWVjODQ3YTViMmNlOTU0MGM1MDQwNDQ5YWRkNjEyOGY3NGM0MjEyODNjYiJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T07:50:48.569Z"
+    "at": "2026-11-19T18:12:07.266Z"
   }
 }

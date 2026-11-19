@@ -5,13 +5,13 @@ description: Sådan kan en arkitekt undersøge anvendelse, kulturværdi, dagslys
 tags: [adaptive-reuse, heritage, residents, feasibility]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:19:29.468Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-db86dd5bd1f178d128948a17
     resource: repo://kilder/README.md
   - id: openwiki-source-6314359a6bfa04d8acc9cf03
     resource: repo://oplaeg/forste-besigtigelse.md
-generated: { by: "codex", at: "2026-11-19T07:19:29.468Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Hvad kan den eksisterende bygning blive til?
@@ -26,11 +26,11 @@ Når et kontor foreslås ombygget til boliger, er første spørgsmål, om mennes
 | Bygningen, som den står | Sammenhold gamle tegninger med det sete. Se på husdybde, vinduer, etagehøjde, bærende system, adgangsveje, installationer og tegn på skader. | En opmålt plan med det sikre markeret og de ukendte forhold angivet. |
 | Program og hus sammen | Prøv flere placeringer af rum og adgange. Hvad kan opnås med mindre indgreb? Hvilket indgreb bliver afgørende for næste valg? | En skitse pr. mulighed og en begrundelse for hvad der skal undersøges. |
 
-Fremgangsmåden bygger på Københavns Kommunes guide til boligtransformation. En undersøgelse fra GXN, DTU og Aarhus Kommune bruger 13 bygninger til at belyse, hvordan bl.a. dagslys, konstruktion og adgang kan indgå i en tidlig screening. Et lovende resultat giver anledning til en nærmere undersøgelse af den bestemte ejendom. [Kommunens tre trin](https://www.kk.dk/sites/default/files/2026-01/Bevar%20Mere%20-%20Trin%20for%20trin-guide%20-%20printversion.pdf) · [Transformationskapacitet, s. 28–29](https://cdn.realdania.dk/media/q3zb1ryi/transformations-kapacitet-i-eksisterende-erhvervsejendomme.pdf)
+Fremgangsmåden bygger på Københavns Kommunes guide til boligtransformation. En undersøgelse fra GXN, DTU og Aarhus Kommune bruger 13 bygninger til at belyse, hvordan bl.a. dagslys, konstruktion og adgang kan indgå i en tidlig screening. Et lovende resultat giver anledning til en nærmere undersøgelse af den bestemte ejendom. [Københavns Kommune og Over Byen Arkitekter, *Trin for trin-guide til at fremme bygningsbevaring og transformation til boliger*, 1. udg. 2026, s. 5 og 14–25, oversigt og de tre trin](https://www.kk.dk/sites/default/files/2026-01/Bevar%20Mere%20-%20Trin%20for%20trin-guide%20-%20printversion.pdf#page=5) · [GXN, DTU og Aarhus Kommune, *Transformationskapacitet i eksisterende erhvervsejendomme*, 1. udg. 2026, trykt s. 6–7 (13 bygninger) og 28–29 (indikatorer), PDF-side 4 og 15](https://cdn.realdania.dk/media/q3zb1ryi/transformations-kapacitet-i-eksisterende-erhvervsejendomme.pdf#page=15) · [GXN, DTU og Aarhus Kommune, *Transformationskapacitet i eksisterende erhvervsejendomme*, 2026, afsnittet om de undersøgte bygninger, trykt s. 6–7 / PDF s. 4](https://cdn.realdania.dk/media/q3zb1ryi/transformations-kapacitet-i-eksisterende-erhvervsejendomme.pdf#page=4)
 
 ## Hvilke kvaliteter ville forsvinde?
 
-SAVE-metoden ser på arkitektonisk værdi, kulturhistorie, samspil med omgivelserne, originalitet og tilstand. Her betyder *miljømæssig værdi* for eksempel husets rolle i et gadeforløb. Den samlede karakter på skalaen 1–9 bygger på en faglig begrundelse, hvor 1 er højest. Ved besøget kan man skrive mere præcist end »fin facade«: Hvad betyder vinduernes rytme for gaden, og ville en tykkere ydervæg ændre oplevelsen? Undersøg også rumlige og brugsmæssige kvaliteter inde i huset. [Kulturarvsstyrelsens SAVE-vejledning, afsnit 3.1–3.2](https://slks.dk/fileadmin/user_upload/kulturarv/fysisk_planlaegning/dokumenter/SAVE_vejledning.pdf)
+SAVE-metoden ser på arkitektonisk værdi, kulturhistorie, samspil med omgivelserne, originalitet og tilstand. Her betyder *miljømæssig værdi* for eksempel husets rolle i et gadeforløb. Den samlede karakter på skalaen 1–9 bygger på en faglig begrundelse, hvor 1 er højest. Ved besøget kan man skrive mere præcist end »fin facade«: Hvad betyder vinduernes rytme for gaden, og ville en tykkere ydervæg ændre oplevelsen? Undersøg også rumlige og brugsmæssige kvaliteter inde i huset. [Arne Høi og Morten Stenak, Kulturarvsstyrelsen, *SAVE – Kortlægning og registrering af bymiljøers og bygningers bevaringsværdi*, 2011, afsnit 3.1–3.2, s. 34–39, især s. 38–39 om karakterskalaen](https://slks.dk/fileadmin/user_upload/kulturarv/fysisk_planlaegning/dokumenter/SAVE_vejledning.pdf#page=38)
 
 ## Menneskene før, under og efter
 

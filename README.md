@@ -5,7 +5,7 @@ Hvordan kan vi bruge viden om materialer til at træffe bedre valg om de bygning
 | | Hvad finder du? | Hvor kan du begynde? |
 | --- | --- | --- |
 | [Materialer](materialer/README.md) | Materialetal med kilder, et beregningsværktøj i Rust og eksempler med SolidCraft og BIMCraft. | [Følg en model fra tegning til beregning](materialer/examples/integrated-workflow/README.md) eller [hent dataene](materialer/data/README.md). |
-| [Transformation og genbrug](transformation-og-genbrug/README.md) | En åben wiki om at ombygge eksisterende bygninger, bevare og genbruge bygningsdele og supplere med nye materialer, hvor det giver mening. | [Læs vindueseksemplet](transformation-og-genbrug/oplaeg/vinduer.md) eller [bidrag med et spørgsmål fra praksis](transformation-og-genbrug/debat.md). |
+| [Transformation og genbrug](transformation-og-genbrug/README.md) | En åben wiki om at ombygge eksisterende bygninger, bevare og genbruge bygningsdele og supplere med nye materialer, hvor det giver mening. | [Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md), [følg tre danske byggesager](transformation-og-genbrug/praksis/README.md) eller [se atlasset om priser, drift og beboernes erfaringer](transformation-og-genbrug/atlas/README.md). |
 
 Du kan læse begge dele direkte på GitHub. Materialeværktøjet kan også bruges på din egen computer. Efter download eller kloning ligger installationsvejledningen, kildekoden og dataene samlet i [materialer](materialer/docs/RUST.md).
 

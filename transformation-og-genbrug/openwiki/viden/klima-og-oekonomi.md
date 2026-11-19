@@ -5,13 +5,13 @@ description: Sammenlign renovering og nybyg med samme funktion, tydelige mængde
 tags: [life-cycle-assessment, life-cycle-costing, service-life, uncertainty]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:19:29.468Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-db86dd5bd1f178d128948a17
     resource: repo://kilder/README.md
   - id: openwiki-source-6314359a6bfa04d8acc9cf03
     resource: repo://oplaeg/forste-besigtigelse.md
-generated: { by: "codex", at: "2026-11-19T07:19:29.468Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Hvordan sammenligner vi klima, levetid og økonomi?
@@ -27,7 +27,7 @@ Et nyt vindue kan have et mindre varmetab end det gamle. Om udskiftning er et be
 | Hvilken periode og hvilke processer? | Vælg fælles periode. Angiv produktion, klargøring, transport, byggeplads, drift, kommende udskiftninger og afslutning, og vis eventuelle fravalg. |
 | Hvilke data er målt? | Angiv enhed, mængde, oprindelse, dato og usikkerhed. Registrér varmekilde, faktisk brug, areal og periode for energidata. Brug samme energiforudsætninger på tværs af alternativer. |
 
-**LCA** er en livscyklusvurdering af miljøpåvirkninger. Ved et klimaregnskab angives klimapåvirkning typisk i kg CO₂-ækvivalenter. Vis det bidrag, der kommer ved indgrebet nu, sammen med senere bidrag fra drift og udskiftning. Oplys særskilt, hvordan brugte dele, bearbejdning, transport og spild er behandlet. En sparet udledning er en forskel mellem to beskrevne scenarier. Rambølls analyse af 16 bygninger sammenligner tre renoveringsomfang med nybyg over 50 år. I deres beregninger lå løsningen med lavest klimapåvirkning blandt renoveringerne for alle 16. Undersøgelsens kapitel om følsomhed viser, hvorfor et nyt projekts energiforbrug og referencescenarie skal undersøges selvstændigt. [Rambøll, kap. 2–3 og 5–6](https://gi.dk/media/mgmpjbng/komparativ-analyse-af-co2udledning-og-totaloekonomi-i-renovering-og-nybyg-3-endelig.pdf)
+**LCA** er en livscyklusvurdering af miljøpåvirkninger. Ved et klimaregnskab angives klimapåvirkning typisk i kg CO₂-ækvivalenter. Vis det bidrag, der kommer ved indgrebet nu, sammen med senere bidrag fra drift og udskiftning. Oplys særskilt, hvordan brugte dele, bearbejdning, transport og spild er behandlet. En sparet udledning er en forskel mellem to beskrevne scenarier. Rambølls analyse af 16 bygninger sammenligner tre renoveringsomfang med nybyg over 50 år. I deres beregninger lå løsningen med lavest klimapåvirkning blandt renoveringerne for alle 16. Undersøgelsens kapitel om følsomhed viser, hvorfor et nyt projekts energiforbrug og referencescenarie skal undersøges selvstændigt. [Lise Hvid Horup Sørensen og Mathilde Mattson, Rambøll, Analyse af CO₂-udledning og totaløkonomi i renovering og nybyg, version 3.0, oktober 2020, scenarier og resultater, trykt s. 3–6 / PDF-side 5–8, følsomhed og metode, trykt s. 19–27 / PDF-side 21–29](https://gi.dk/media/mgmpjbng/komparativ-analyse-af-co2udledning-og-totaloekonomi-i-renovering-og-nybyg-3-endelig.pdf#page=8)
 
 **LCC** er en beregning af omkostninger over levetiden. Medtag fx projektering og prøver, indkøb, afmontering, opbevaring, tilpasning, montage, drift, vedligehold og udskiftning. Skriv prisår og rentesats ved sammenligning i nutidsværdi. En gratis dør kan være dyr at sætte i stand. Et dyrere, reparerbart vindue kan have lave udgifter ved næste indgreb. Hold beboernes komfort, tilgængelighed og arkitektoniske kvaliteter synlige ved siden af tallene. [Landsbyggefondens vejledning](https://totaloekonomi.lbf.dk/help/anvendelse.htm)
 

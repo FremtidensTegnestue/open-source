@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:7b5c4e66f770fcc91b34801c39bc42733cebc27d1743fde39ded7faf24d9af88",
+  "claims": [
+    {
+      "id": "claim_d778fde316e0499b9c6d2386cf113614",
+      "statement": "Udgifter i afsluttede støttede genhusningssager og data om husstandes tilbagevenden belyser forskellige spørgsmål.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/mennesker.md#L21-L25",
+          "version": "repo-lines-v1:sha256:bd6161e53c4b9e7940266e0d29adcd83ebd692d0c36ddccb7a284d1b91a55e3c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTc1ZDNlYjk4MDA5ZGIwYTBkNzQ3M2E2NmQxOGRjMmE2MmI0OTc5YjlkOWY5OTE5YTllZGQ3YzE5YjE2YjEyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmU1MjQ1NDYzZGU4YTlmZDFkYzEyNGVkN2FmOThmMjc5ZjM2MDY2MDhjNDRjNDMyZjVlZjQ5NWQ4MTBkZDZlNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzZhNzZjNTEzZDljNjU0MjVhZmE4YjNjYWNmYzFlOTQ5NWRkMjkxOWQ0MTE1NTAxZjYzNDBjNWEyMWY0ZTJlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODA5YzM3M2VlMGVhZTVmZjBkMDdmYjYyMWU3ZmJjOWM1MTJhM2JhYTM1YjhjNmFjNjIzNThkYWNkMmRkZGIwNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T17:18:10.812Z"
+  }
+}

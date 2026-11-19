@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5703441667d533a57fb44913bfbb5cc67972d6911a42f4928cd9cb66c97aa39c",
+  "claims": [
+    {
+      "id": "claim_19584ff431f34350a6a95eaffaa2e99e",
+      "statement": "Hos Glasalstrup blev gitterfelterne gennemgået, og konstaterede stenreder blev repareret lokalt.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/facader.md#L9-L9",
+          "version": "repo-lines-v1:sha256:d03da7244e5abe799c2931f139ec326325acee63ea1e11388b70c9ef12cb129c:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAzZGE3MjQ0ZTVhYmU3OTljMjkzMWYxMzllYzMyNjMyNWFjZWU2M2VhMWUxMTM4OGI3MGM5ZWYxMmNiMTI5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDAzZGE3MjQ0ZTVhYmU3OTljMjkzMWYxMzllYzMyNjMyNWFjZWU2M2VhMWUxMTM4OGI3MGM5ZWYxMmNiMTI5YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjE2OGYxN2JiMDdhZmY0NTc0OTgzMWQ1YjZlMmUzZmJiZDJmZmUzYjcyNTA0ZTZhZjM4YzJmNDdhOGYzYWRlZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWM1NTU3YTIyNmMyNDM5ZDA3YzVhMzliMjI3NWM1ODQ4MzlkOWVlM2IzOWYxM2IwNjE4M2VlMGY4Njk2MjUwMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a9a5a9a48ad49f5b22bf6fe1b822ee0",
+      "statement": "Klimablokkens facadeopbygning og de bevarede dele afhænger af den enkelte facades orientering.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/facader.md#L15-L15",
+          "version": "repo-lines-v1:sha256:704f5d41551552ffdc01cadf0cbaff0b72654cd0fb2cc161ea321c4264907bdd:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA0ZjVkNDE1NTE1NTJmZmRjMDFjYWRmMGNiYWZmMGI3MjY1NGNkMGZiMmNjMTYxZWEzMjFjNDI2NDkwN2JkZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA0ZjVkNDE1NTE1NTJmZmRjMDFjYWRmMGNiYWZmMGI3MjY1NGNkMGZiMmNjMTYxZWEzMjFjNDI2NDkwN2JkZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmEyOTFjMmZiMDNmOGNhZjA3YmQ5ZTVmODRkYzliZjY3NmY1ZGViZDQ4MjVkZTYyYmRkNjhkMDJhOGQ2MjFiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDFmZjFlYzU1YjFiZDZiYjQ5YTY0ZWIyYzg2MmUxYWI4YmIyNzBhMTM3ODdmMWQ2ZDBlMDM5ZmFhYmNhYTkyNyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}

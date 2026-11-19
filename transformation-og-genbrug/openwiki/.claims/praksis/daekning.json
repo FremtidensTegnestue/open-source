@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:932426967efbac9544383b952e8776bbf4e26ef5262f92899261ba2a8130226b",
+  "claims": [
+    {
+      "id": "claim_59db7f37cfe84150b50c1efbdf58e3e3",
+      "statement": "Dækningskortets optælling omfatter 17 unikke steder efter en afgrænset udvælgelse.",
+      "evidence": [
+        {
+          "resource": "repo://praksis/daekning.md#L7-L7",
+          "version": "repo-lines-v1:sha256:791a6c1ab2c9781f873a35db1c9cb8ecf62f186d07771017368800d26ab8a4b0:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzkxYTZjMWFiMmM5NzgxZjg3M2EzNWRiMWM5Y2I4ZWNmNjJmMTg2ZDA3NzcxMDE3MzY4ODAwZDI2YWI4YTRiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzkxYTZjMWFiMmM5NzgxZjg3M2EzNWRiMWM5Y2I4ZWNmNjJmMTg2ZDA3NzcxMDE3MzY4ODAwZDI2YWI4YTRiMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWMzZGJlNTI5YjBmZDVhODAwNWVkNmIxN2UwODBhMzIzYjU2OWFiMmE0NTI4ZjQ0NTRjY2JkYjE2NzEzN2QzMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTFmMmQyMDhlNTQ1N2QzNGQ0ZTM1MDAzYWQwYTk3YjYxZTUwNDRkYTQ0OWVjMjAyNDcyYWFlM2ZmNGEzNmFlMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T18:12:07.266Z"
+  }
+}
