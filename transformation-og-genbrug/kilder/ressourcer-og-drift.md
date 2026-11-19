@@ -40,7 +40,7 @@ Projektets kvalitetsstyring forbinder prøver med donorsted, råvarelager og fæ
 
 ### Realdania By & Byg · Rosenhuset
 
-2. udgave, 2025, s. 139.
+Genoptryk 2025, trykt s. 139 / PDF s. 140.
 
 Under restaureringen blev originale sanitetsdele istandsat. Ved direktørens toilet passede standardhaner ikke i den bevarede håndvasks gennemføringer. Der måtte findes egnede vandhaner. Casen dokumenterer pasform. Den indeholder her ingen måling af vandforbrug. [Originalkilde](https://realdaniabyogbygklubben.dk/media/yw5dq2jy/rosenhuset.pdf?fm=pdf)
 
