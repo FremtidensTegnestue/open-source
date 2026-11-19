@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1d2c45c6d3a5c767724484eed24a74999f4e14e35bfa33181dfa3ee5e18e37ec",
+  "claims": [
+    {
+      "id": "claim_10e75216c4834b93a5adfc5672cc7443",
+      "statement": "Udviklingen i en revne og funderingsforholdene indgår i beslutningen om den videre undersøgelse.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/byggeteknik.md#L5-L9",
+          "version": "repo-lines-v1:sha256:e6a6654c66d1466422e7c2d5404ef13be4bd06af24bacd47a658db0c5e821cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjMjIyNGRmYjFiZDI1ZDE5NThkYWVlMDkyNWJlZDNkMmU2ZTgyNGY3OTIyMDUzZWJhOGI1OTcwNzAwNDFhNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2U4ZDIyN2I1ODFmNmUwNjM5NzM0Yzg5ZDA0MDJkM2NkMjI0MzZlZmM2OWIxMGRlODhhZmQ0YTgxZDM0YzgyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTg4YWYwYjA4ODM4OTk5Y2MwZmYwZTRkZTkxM2FlMzMzNTg1Y2NjNzhiYzVjNGEwYThmMzQ5NWFiMWIwOGJkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjIzYjc5YjJlMTMyYWE2ZDM5MDE5ZWRiMjVlYTQ1YmRhMDkxM2VmMjYyMzA1Y2QxNWI5Y2MxODNlMGVjYTZlMiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T16:48:11.550Z"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d7cdc2f737d319ebb917e17b9d18b718614fad832b707046206b898fd45c1796",
+  "claims": [
+    {
+      "id": "claim_a08f15815c4e42ceaac335eb69dbbaa6",
+      "statement": "En SAVE-vurdering er et fagligt grundlag, mens det er nødvendigt at undersøge bygningens retlige status særskilt.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/bygningen.md#L13-L15",
+          "version": "repo-lines-v1:sha256:8a1374f352f33455317e2644c6d0c583adf8205025ec2e6618bc01ea0fe721e6:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDlkNTEyMzhkYTA0N2E5ZTdhN2Y2YjBmMGU0NmYxZDcyYjY2OGQ4NmI5MWJiZTllMWNkY2U1Y2FlZWRkNTI5ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWU5NDdhOTZlNDg0Y2E0ODJiNDhjZWJhZDhkZDk4YzkwYzM1ZTIzNGZkZDUxMjY1NTJmZjIwZWY4NTJjYWY3ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTFhOGFiOTliM2E0MmE0NmVhMDE3ZWQ2Y2Y1ZjExZDhmNjY5YmVkNGZhMjZiYzczYWVjYjUzZWUyMjIwNTgwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmU0MmZlNzU5YjgzMDBjMzAwNTJlNTc1YjczODRmYTViOGNjOTM3ZTYxODAyNTc4N2ZkOGUxM2FiM2UxZWQ2OSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T16:48:11.550Z"
+  }
+}

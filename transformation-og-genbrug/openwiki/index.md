@@ -10,4 +10,5 @@ okf_version: "0.2"
 
 - [cases](cases/)
 - [debat](debat/)
+- [haandbog](haandbog/)
 - [viden](viden/)

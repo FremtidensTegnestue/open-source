@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:3605bbf2d8d04dd10bd9c1a7e9f22d9941b6e1cdc8771607f155a911c39354e9",
+  "claims": [
+    {
+      "id": "claim_3f69c4ebef414137a990591c7dac0658",
+      "statement": "GI anbefaler et eftersyn hvert eller hvert andet år for ældre vinduer, mens fundene afgør behovet for reparation.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/genbrug.md#L31-L33",
+          "version": "repo-lines-v1:sha256:11dde32c3a0639efe3ebf82943408ec32630e9ce2feddbfc07e4d871893b0902:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQ1MGZlZDM5MzE5NjMzYWNlZjVkZGY4NmNlZWIyZmZjYzc4YzgzNTc0ZGE4M2U4MGU5Zjc0ZmRlZjc5MTQzYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTg5NDM0OTIwNzE0ZjE4MmZlNjhiMTI4OTg2ZTlhNDA3Nzg1N2Y1MTVjYjcxOTIxMTBhYWY3NjA1OGZlZWFjZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzc4YzM3NjQxYzIzNzczZDg5NjZlMTkwOWI0YjViOGE1YmFkNjdiNjAyODFhNjQ5NTdiMDM3NTI2YzRkMTYwYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWIzZWEzYjQzYWIwYTk2OGRhNTdhMmY1YjYyNThjODU4MmRmOTQ1Y2ZkN2E2N2ZlMDJjMTk4YjZhMTEyOWIzZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T16:48:11.550Z"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:2e2ad3c60c3e92b53e25380a7d32c14dd5215139cdc717bcbe0c9415ae9fe62b",
+  "claims": [
+    {
+      "id": "claim_f5570e019cb0422e89b24ecf587b76dc",
+      "statement": "En beregning af en genbrugt murs klimabidrag afhænger blandt andet af de forudsatte transportafstande.",
+      "evidence": [
+        {
+          "resource": "repo://haandbog/klima-og-ansvar.md#L13-L15",
+          "version": "repo-lines-v1:sha256:c878e6a2860364e3f4a5105bbd770ff02dfaa5bb7d30a030e706f02e5881816e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjk1MWU0YmU1N2UzZTg4Y2MzYjA5NTQwZjgyM2I4NmZjZjc2MmRmZTk1YWZmYzZjYWNhNGVlOGIwNWJjNmFhOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDI1YmQwMWJmMzgxMWQyZDVlNmU2Y2VjZjgzNTRiZWVlZWJmZTM3NTg2ZGZhYjdiOTI3YzU4NTVlOTYyYjQ1YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmVkY2RhMWEwMDI4NjNhMGZmNGQxNjhmYjlmOGZlNzY1OGUyMGM4YzkxYmUzMjRkZGUwZmE5ZTNjZjYyNzBmZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjQxMWMwZTFhNjk2ZTg1ZGViOTcxMTljNjcxYzE1YjEwYmYzMDkxZmI2ZWFjOTEyNjFkOTcxMjkyYmExMTk0YSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T16:48:11.550Z"
+  }
+}
