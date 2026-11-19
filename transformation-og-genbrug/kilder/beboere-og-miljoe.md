@@ -38,9 +38,9 @@ Guide 4, 2022, s. 33–39.
 
 Nettoforbrug af ferskvand og potentiel vandknaphed er forskellige indikatorer. Affald og udgående strømme vises særskilt. Sammenligning kræver match af funktion, enhed, metode og livscyklusmoduler. Modul D ligger ud over systemgrænsen. [Originalkilde](https://gi.dk/media/ouvlycsc/epddanmark_guide4.pdf)
 
-### Byggeriets Biodiversitetsværktøj · Guide til implementering af biodiversitet i byggeriets værdikæde
+### Branchestandard for måling af byggeriets biodiversitetspåvirkning i hele værdikæden · Guide til implementering af biodiversitet i byggeriets værdikæde
 
-September 2025, Byggeriets biodiversitetsregnskab og figur 4.
+September 2025, figur 4 og indsigter fra renoveringsprojekter, trykt s. 12–13 og 21 / PDF s. 14–15 og 23.
 
 Biblioteket omfattede 47 nybyggerier og tre renoveringer. De tre renoveringer havde relativt lav modelleret påvirkning inden for deres typologier. Beregninger for byggefeltet og værdikæden beskriver potentiel påvirkning og kan ikke læses som optalte arter eller et nationalt gennemsnit. [Originalkilde](https://cdn.realdania.dk/media/mrxntza3/bbv-rapport-september-2025.pdf)
 
