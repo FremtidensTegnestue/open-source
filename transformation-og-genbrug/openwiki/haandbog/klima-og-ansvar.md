@@ -5,11 +5,11 @@ description: "Træf beslutninger om klima, lager og transport, levetid, pris og 
 tags: [transformation, environment]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:56:04.691Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-6502c9c47917c8aa5d9c2387
     resource: repo://haandbog/klima-og-ansvar.md
-generated: { by: "codex", at: "2026-11-19T16:56:04.691Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Klima, miljø, økonomi og ansvar
@@ -58,7 +58,7 @@ Afklar, om indehaveren skiller sig af med det, ønsker at gøre det eller har pl
 
 ## K11. Kan vi bruge miljøvaredeklarationen fra en lignende ny byggeplade til at sammenligne alternativer?
 
-En miljøvaredeklaration (EPD) beskriver et produkt under bestemte forudsætninger. Se efter hvilket produkt, hvilken produktion og hvilken enhed den dækker. Sammenlign dernæst den mængde hver løsning kræver for at opfylde samme funktion. En deklaration pr. kg svarer ikke på, hvor mange kg væggen kræver for at opfylde fx samme brand- eller lydkrav. Hvis en tilgængelig deklaration bruges som skøn, skal det fremgå, hvilken post den erstatter, hvilke livscyklusled der er med og hvad I skal spørge leverandøren om. [EPD Danmark, *Hvordan læses og bruges en miljøvaredeklaration (EPD)?*, guide 4, 2022, s. 10–11, produktets repræsentativitet, og s. 23 om produktkategoriregler](https://gi.dk/media/ouvlycsc/epddanmark_guide4.pdf#page=10)
+En miljøvaredeklaration (EPD) beskriver et produkt under bestemte forudsætninger. Se efter hvilket produkt, hvilken produktion og hvilken enhed den dækker. Sammenlign dernæst den mængde hver løsning kræver for at opfylde samme funktion. En deklaration pr. kg svarer ikke på, hvor mange kg væggen kræver for at opfylde fx samme brand- eller lydkrav. Hvis en tilgængelig deklaration bruges som skøn, skal det fremgå, hvilken post den erstatter, hvilke livscyklusled der er med og hvad I skal spørge leverandøren om. [EPD Danmark og BUILD, *Hvordan læses og bruges en miljøvaredeklaration (EPD)?*, guide 4, 2021, s. 10–11, produktets repræsentativitet, og s. 23 om produktkategoriregler](https://gi.dk/media/ouvlycsc/epddanmark_guide4.pdf#page=10)
 
 ## K12. Hvad skal vi undersøge for at kunne sige noget om renoveringens betydning for naturen?
 

@@ -5,11 +5,11 @@ description: Hvad kan et tidligere kontor tilbyde som bolig? Dansk dokumentation
 tags: [housing, accessibility, daylight, acoustics, ventilation]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:37:38.446Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-19e5da57104b6bc4ab7b4818
     resource: repo://kilder/bygningen.md
-generated: { by: "codex", at: "2026-11-19T07:37:38.446Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Dagslys, lyd, ventilation og tilgængelighed
@@ -34,4 +34,4 @@ BR18 behandler bl.a. lyd fra andre rum, installationer og trafik samt efterklang
 
 Følg en konkret rute med en beboer fra fortov til entré, fællesvaskeri og bolig. Notér døråbninger, niveauskift, mulighed for at orientere sig og hvad der sker, når elevatoren er ude af drift. § 247 undtager ombygninger og mindre tilbygninger til eksisterende boligbebyggelse fra kravet om etablering af elevator og nævner bl.a. den eksisterende tagetage. Ved omdannelse fra erhverv må anvendelsesområdet afklares særskilt. [BR18, §§ 242 og 247](https://www.bygningsreglementet.dk/Tekniske-bestemmelser/10/Krav?Layout=ShowAll)
 
-I **Nøjsomhed i Helsingør** gav nye elevatorer niveaufri adgang. Boligselskabet fortalte ved BUILDs evaluering om kondens, driftsstop og glatte gulve i de uopvarmede tårne. Under evalueringen havde man etableret midlertidig varme. Kilden dokumenterer en virkelig driftserfaring i én af ti udvalgte bebyggelser. Det åbner et spørgsmål til andre projekter: Hvem følger op, når vintervejret gør den planlagte adgang vanskelig at bruge? [BUILD 2026:27, s. 8–11, 88, 92 og 96](https://vbn.aau.dk/ws/portalfiles/portal/864697268/BUILD_RAPPORT_2026_27_Renovering_af_almene_boligbebyggelser.pdf)
+I **Nøjsomhed i Helsingør** gav nye elevatorer niveaufri adgang. Boligselskabet fortalte ved BUILDs evaluering om kondens, driftsstop og glatte gulve i de uopvarmede tårne. Under evalueringen havde man etableret midlertidig varme. Kilden dokumenterer en virkelig driftserfaring i én af ti udvalgte bebyggelser. Det åbner et spørgsmål til andre projekter: Hvem følger op, når vintervejret gør den planlagte adgang vanskelig at bruge? [Claus Bech-Danielsen og Lene Wiell Nordberg, Renovering af almene boligområder. En evaluering af ti renoveringer gennemført med støtte fra Landsbyggefonden, BUILD/Aalborg Universitet, rapport 2026:27, 2026, metode og Nøjsomhed, trykt s. 8–11, 88, 92 og 96 med note 14 / PDF-side 10–13, 90, 94 og 98](https://vbn.aau.dk/ws/portalfiles/portal/864697268/BUILD_RAPPORT_2026_27_Renovering_af_almene_boligbebyggelser.pdf#page=98)

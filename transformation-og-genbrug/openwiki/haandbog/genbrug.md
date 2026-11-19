@@ -5,11 +5,11 @@ description: "Følg brugte bygningsdele fra donor og prøvning gennem lager til 
 tags: [transformation, component-reuse]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:52:25.207Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-029f6e8b869685291844829d
     resource: repo://haandbog/genbrug.md
-generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Genbrug fra første registrering til næste reparation
@@ -64,6 +64,8 @@ Tegn rækkefølgen for demontering, mens I stadig kan ændre detaljen. Skal en h
 
 ## G12. Hvordan gør vi to nedrivningstilbud med forskellige løfter om genbrug sammenlignelige?
 
-Angiv i udbuddet om tilbudsgiver skal foreslå aftagere, eller om bygherren selv har aftalt afsætning. Værdibyg beskriver også muligheden for at lade genbrugsværdien indgå i prisen eller give bonus ved faktisk afsætning. Vælg et målegrundlag før tilbuddene kommer. For brugte døre kan det eksempelvis være antal hele, godkendte døre leveret til den navngivne modtager. Bed begge tilbudsgivere vise, hvad prisen omfatter ved afvisning. Så kan en forventet afsætning og en gennemført levering sammenlignes på de rette tidspunkter. [Værdibyg, *Ressourcekortlægning*, vejledning 54, 2024, trykt s. 22 / PDF s. 26, »Udbud af nedrivningsarbejdet«](https://vaerdibyg.dk/wp-content/uploads/2025/08/54_Ressourcekortlaegning_Web.pdf#page=26)
+Angiv i udbuddet om tilbudsgiver skal foreslå aftagere, eller om bygherren selv har aftalt afsætning. Værdibyg beskriver også muligheden for at lade genbrugsværdien indgå i prisen eller give bonus ved faktisk afsætning. Vælg et målegrundlag før tilbuddene kommer. For brugte døre kan det eksempelvis være antal hele døre, som den navngivne aftager har modtaget efter de aftalte mål og standskrav. Bed begge tilbudsgivere vise, hvad prisen omfatter ved afvisning. Så kan en forventet afsætning og en gennemført levering sammenlignes på de rette tidspunkter. [Værdibyg, *Ressourcekortlægning*, vejledning 54, 2024, trykt s. 22 / PDF s. 26, »Udbud af nedrivningsarbejdet«](https://vaerdibyg.dk/wp-content/uploads/2025/08/54_Ressourcekortlaegning_Web.pdf#page=26)
+
+Hvis nogle skal bruges som branddøre, så angiv særskilt, hvem der dokumenterer den krævede brandmodstand for dørblad, karm, beslag og montage på den nye placering. Et parti kan bestå modtagekontrollen, selv om den dokumentation stadig mangler. [DBI, *GenDør*, afsluttet 2024, »Fire værktøjer til vurdering og håndtering af branddøre«](https://brandogsikring.dk/forskning-og-udvikling/brandsikre-biobaserede-byggevarer/gendoer/) · [T7 om den konkrete branddør](byggeteknik.md#t7-kan-en-velfungerende-brugt-dør-indgå-som-branddør-på-den-nye-adresse)
 
 [Håndbogens seks emner](../quickstart.md) · [Klima, økonomi og ansvar](klima-og-ansvar.md)

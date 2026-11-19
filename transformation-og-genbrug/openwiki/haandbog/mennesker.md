@@ -5,11 +5,11 @@ description: "Beslutninger om lys, adgang, husleje, fraflytning og beboerinddrag
 tags: [transformation, housing-quality]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T16:52:25.207Z
+    at: 2026-11-19T17:18:10.812Z
 sources:
   - id: openwiki-source-90d82ef506cae16a5a6a802a
     resource: repo://haandbog/mennesker.md
-generated: { by: "codex", at: "2026-11-19T16:52:25.207Z" }
+generated: { by: "codex", at: "2026-11-19T17:18:10.812Z" }
 ---
 
 # Hvordan bliver boligen at leve i?
@@ -40,11 +40,11 @@ Regnskabet beskriver projektets udgifter. For at afgøre, hvem der havde råd ti
 
 ## M6. Hvem overser vi, hvis vi evaluerer på et beboermøde efter indflytning?
 
-I risikerer at overse de oprindelige beboere, der flyttede væk, stadig er genhuset eller sjældent møder op. I BUILDs undersøgelse af tre almene områder var flere af de interviewede beboere særligt velinformerede og mødeaktive. Selv i denne gruppe var nogle overraskede over resultatet. Erfaringerne fortæller, hvilke problemer nogen oplevede, mens andelen af alle husstande med samme oplevelse er uafklaret. Tag udgangspunkt i husstandene før arbejdet. Invitér særskilt tilbagevendte, fraflyttede og dem, der blev boende. Registrér hvor mange I kunne nå, og hvor mange der svarede i hver gruppe. [Bech-Danielsen m.fl., BUILD, *Renovering af almene boligområder 2017–2019*, 2021:02, trykt s. 71–72 og 99, PDF-side 72–73 og 100](https://www.landsbyggefonden.dk/media/wfuhc1x4/evaluering-2017-19.pdf#page=100)
+I risikerer at overse de oprindelige beboere, der flyttede væk, stadig er genhuset eller sjældent møder op. I BUILDs undersøgelse af tre almene områder var flere af de interviewede beboere særligt velinformerede og mødeaktive. Selv i denne gruppe var nogle overraskede over resultatet. Erfaringerne fortæller, hvilke problemer nogen oplevede, mens andelen af alle husstande med samme oplevelse er uafklaret. Tag udgangspunkt i husstandene før arbejdet. Invitér særskilt tilbagevendte, fraflyttede og dem, der blev boende. Registrér hvor mange I kunne nå, og hvor mange der svarede i hver gruppe. [Claus Bech-Danielsen og Marie Stender, BUILD, *Renovering af almene boligområder 2017–2019*, 2021:02, trykt s. 71–72 og 99, PDF-side 72–73 og 100](https://www.landsbyggefonden.dk/media/wfuhc1x4/evaluering-2017-19.pdf#page=100)
 
 ## M7. Hvordan viser vi beboerne, hvad en ny planløsning faktisk betyder?
 
-Vis før og efter for hver berørt boligtype. Sæt mål på pladsen mellem seng og skab, badeværelsets frie gulv, pladsen ved spisebordet og det depot, der eventuelt forsvinder. I **Gellerup** fortalte en interviewet beboer, at mindre badeværelser kom bag på folk, selv efter information og møder. Forskerne beskriver lignende overraskelser over arbejdets omfang i flere afdelinger. Brug eksempelvis en møbleret prøvebolig eller markeringer i fuld størrelse, når centimeterne gør en forskel. Bed de berørte husstande om at vise, hvordan rummet skal bruges. [Bech-Danielsen m.fl., BUILD, *Renovering af almene boligområder 2017–2019*, 2021:02, trykt s. 71–72, PDF-side 72–73](https://www.landsbyggefonden.dk/media/wfuhc1x4/evaluering-2017-19.pdf#page=72)
+Vis før og efter for hver berørt boligtype. Sæt mål på pladsen mellem seng og skab, badeværelsets frie gulv, pladsen ved spisebordet og det depot, der eventuelt forsvinder. I **Gellerup** fortalte en interviewet beboer, at mindre badeværelser kom bag på folk, selv efter information og møder. Forskerne beskriver lignende overraskelser over arbejdets omfang i flere afdelinger. Brug eksempelvis en møbleret prøvebolig eller markeringer i fuld størrelse, når centimeterne gør en forskel. Bed de berørte husstande om at vise, hvordan rummet skal bruges. [Claus Bech-Danielsen og Marie Stender, BUILD, *Renovering af almene boligområder 2017–2019*, 2021:02, trykt s. 71–72, PDF-side 72–73](https://www.landsbyggefonden.dk/media/wfuhc1x4/evaluering-2017-19.pdf#page=72)
 
 ## M8. Kan en beboet bolig fungere som hjem, mens arbejdet står på?
 
@@ -52,10 +52,12 @@ Lav en kalender for hver etape, og gennemgå en almindelig dag med husstanden. H
 
 ## M9. Hvilke beløb skal en husstand kunne se før sin beslutning om at blive?
 
-Vis den nuværende månedlige leje, de forventede bolig- og forbrugsudgifter under arbejdet og den forventede månedlige leje for netop den tilbudte bolig efter renoveringen. Angiv prisår, hvad der er et overslag, og hvornår beløbet kan ændre sig. I **Dianavænget** beskrev en beboer, at det var svært at omsætte et oplyst indeks til den huslejestigning, man senere mærkede. I **Nøjsomhed** viste interviewene, at også nye udlejningskriterier havde betydning for, hvem der kunne vende tilbage. Afklar derfor både husstandens budget og dens faktiske mulighed for at få boligen. [Bech-Danielsen m.fl., BUILD, *Renovering af almene boligområder 2017–2019*, 2021:02, trykt s. 71–72, PDF-side 72–73](https://www.landsbyggefonden.dk/media/wfuhc1x4/evaluering-2017-19.pdf#page=73) · [Bech-Danielsen og Nordberg, BUILD, *Renovering af almene boligområder*, 2026:27, trykt s. 94, PDF-side 96](https://vbn.aau.dk/ws/portalfiles/portal/864697268/BUILD_RAPPORT_2026_27_Renovering_af_almene_boligbebyggelser.pdf#page=96)
+Vis den nuværende månedlige leje, de forventede bolig- og forbrugsudgifter under arbejdet og den forventede månedlige leje for netop den tilbudte bolig efter renoveringen. Angiv prisår, hvad der er et overslag, og hvornår beløbet kan ændre sig. I **Dianavænget** beskrev en beboer, at det var svært at omsætte et oplyst indeks til den huslejestigning, man senere mærkede. I **Nøjsomhed** viste interviewene, at også nye udlejningskriterier havde betydning for, hvem der kunne vende tilbage. Afklar derfor både husstandens budget og dens faktiske mulighed for at få boligen. [Claus Bech-Danielsen og Marie Stender, BUILD, *Renovering af almene boligområder 2017–2019*, 2021:02, trykt s. 71–72, PDF-side 72–73](https://www.landsbyggefonden.dk/media/wfuhc1x4/evaluering-2017-19.pdf#page=73) · [Bech-Danielsen og Nordberg, BUILD, *Renovering af almene boligområder*, 2026:27, trykt s. 94, PDF-side 96](https://vbn.aau.dk/ws/portalfiles/portal/864697268/BUILD_RAPPORT_2026_27_Renovering_af_almene_boligbebyggelser.pdf#page=96)
 
 ## M10. Hvor skal en erstatningsbolig ligge, hvis beboeren er afhængig af sine naboer?
 
 Bed husstanden tegne de ruter og relationer, der bærer hverdagen. Det kan være en nabo, der hjælper med indkøb, et barns vej til skole eller et fælles opholdssted. Spørg også, om husstanden selv ønsker en anden beliggenhed. BUILDs forskningsgennemgang finder forskellige erfaringer med genhusning. Afstand, om flytningen opleves som frivillig og hvilke forbindelser man bruger, kan have betydning. Nære venner og det løse, daglige naboskab kan reagere forskelligt på en flytning. Sammenlign derfor de konkrete tilbud med husstandens hverdagskort og følg op, når beboeren er flyttet. [Nielsen m.fl., BUILD, *Valget om genhusning*, 2022:28, s. 24–25, afsnit 4.3 om sociale netværk](https://almennet.dk/media/pplhodau/build-valget-om-genhusning.pdf#page=24)
+
+På Fyrkildevej i Aalborg kunne nogle husstande under renoveringen blive genhuset i en allerede renoveret lejlighed i egen afdeling. Genhusningsteamet oplevede, at nogle ønskede at blive dér permanent. For at forstå resultatet kan I stille to spørgsmål ved opfølgningen. Kom husstanden tilbage til sin tidligere lejlighed, og fik den den bolig, den helst ville have? Registrér husstandens eget svar på begge. Casen oplyser hverken andelen eller, hvor mange andre der måtte flytte af økonomiske grunde. [AlmenNet, *Casekatalog – Erfaringer fra 22 genhusningssager*, 1. udg. 2022, s. 7, »Gennemførelse af genhusningsdelen«](https://almennet.dk/media/chbi4n2g/casekatalog-erfaringer-fra-22-genhusningssager-komp.pdf#page=7)
 
 [Tilbage til håndbogen](../quickstart.md)
