@@ -14,7 +14,13 @@ python3 pricing.py check /tmp/ft-price-test/report.json --as-of 2026-11-19
 
 Åbn `/tmp/ft-price-test/report.html`. Den bruger ingen eksterne ressourcer. Testtilbud kræver det udtrykkelige `--allow-test-data`; en almindelig projektberegning ignorerer dem. Eksemplets dato er fastholdt for at gøre resultatet gentageligt. Brug en faktisk vurderingsdato ved rigtige priser og genberegn ved ændret kilde eller dato.
 
+## Fra overslag til tilbud
+
+Formålet er at danne et internt prisoverblik og et ensartet grundlag for at indhente og sammenligne leverandørtilbud. Skeln overslag, faktisk tilbud og accepteret aftale; vores beregning fastlægger ikke leverandørens pris. Brug [forespørgselsskabelonen](quote-request-template.txt). Den er generel og kræver afstemte mængder/krav; der er ingen automatisk afsendelse eller modelbaseret tilbudseksport. Priser, datoer og leverandører i eksemplet er fortsat testdata. En lavere postpris skal afstemmes med pakker, samlet levering, mangler og produktets egnethed, før den bruges i forhandling.
+
 ## Hvad bliver afprøvet?
+
+**Nye kontraktgrænser fundet ved review:** Kør `python3 examples/pricing/probe_quote_limits.py` fra `materialer/` for fire isolerede reproduktioner af tilbudskontekst, flere selvstændige tilbud, produktændring med gammel ordre og priskildetyper. Der skrives kun til terminalen. Alle data er fiktive; assertions dokumenterer de aktuelle begrænsninger, ikke en bestået tilbudsfunktion. Se [fund, nødvendige afstemninger og næste acceptopgave](../../docs/REVIEW-2026-11-20.md). Projektspecifikke/mængdebetingede tilbud og genbrug af ordrer efter produktændring må ikke behandles automatisk som afklarede.
 
 150 m² af samme fiktive folie, uden spildtillæg:
 
@@ -109,3 +115,12 @@ Timer og satser er endnu et **planlægningsoverslag**. Individuel lønkørsel, l
 ```sh
 python3 -m unittest discover -s tests -p 'test_pricing*.py' -v
 ```
+
+
+## Gentag den afgrænsede leveranceundersøgelse
+
+```sh
+python3 examples/pricing/probe_delivery_limits.py
+```
+
+Kør fra `materialer/`. Scriptet bruger eksisterende `pricing.py` og fiktive vinduesbeløb/hændelser. Det skriver et JSON-resultat til terminalen og ændrer ingen projektfil, ordre eller model. Seks grænseprøver viser, at nettobudget kan beregnes, mens fysisk modtagelse/skade/montage, kreditforløb og slutaccept ikke håndteres som leverancehistorik. Entydige linjenøgler skal afstemmes, før flere linjer fra samme eksterne ordre kan indlæses. Det er et gentageligt researchredskab, ikke et nyt leverancesystem eller en brugeraccepttest. Produkt-/fragt-/arbejds-/klimadata er ikke dokumenteret af eksemplet.

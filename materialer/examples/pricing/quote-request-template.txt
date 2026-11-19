@@ -1,0 +1,48 @@
+SKABELON — FORESPØRGSEL OM MATERIALETILBUD
+Generelt udkast · udfyld og kontrollér før afsendelse · ingen bestilling
+
+Projekt/reference: [udfyld]
+Varelistens revision og dato: [udfyld]
+Faktisk købende virksomhed/kundekonto: [udfyld ved behov]
+Leveringssted og adgang/aflæsningsforhold: [udfyld nødvendige oplysninger]
+Ønsket levering eller leveringsetaper: [udfyld eller angiv uafklaret]
+Ønsket svarfrist: [udfyld]
+
+Vi ønsker tilbud på vedlagte materialer og mængder. Angiv DKK ekskl. moms.
+Giv gerne en samlet pris for den del af leverancen, I kan tilbyde, samt pris pr.
+post. Angiv tydeligt hvilke poster, der ikke er medregnet eller kræver afklaring.
+
+FOR HVER POST
+Post-ID og beskrivelse: [udfyld]
+Krav/ønsket produkt/variant, dimension og kvalitet: [udfyld]
+Oprindelse, hvis relevant: [nyt/genbrug/restparti/åbent valg]
+Efterspurgt fysisk mængde og enhed: [udfyld]
+Mængdegrundlag: [netto + særskilt angivet spild/overlap eller allerede indkøbsmængde]
+Vedlagt tegning/specifikation og revision: [udfyld]
+
+BEDES OPLYST I SVARET
+- Jeres varenummer, producent og præcis variant.
+- Tilbudt mængde, enhed, pakkeindhold, mindstekøb og eventuelt overskud.
+- Enhedspris og samlet postbeløb ekskl. moms på den tilbudte købsmængde.
+- Nettopris eller tydeligt listepris-/rabatgrundlag. Angiv relevant kundeaftale.
+- Leveringstid og om lager/leveringsmulighed er bekræftet; intet må reserveres
+  eller bestilles alene på grundlag af denne forespørgsel.
+- Produkt-/miljødokumentation, hvor den er tilgængelig.
+- Afvigelser fra specifikationen, mangler og forbehold.
+
+SAMLET FOR TILBUDDET
+Samlet varebeløb efter rabat: [leverandør udfylder]
+Fragt, aflæsning/kran, emballage/depositum og øvrige gebyrer særskilt: [udfyld]
+Eventuelle ydelser/montage: [angiv indhold eller ikke medtaget]
+Samlet tilbud ekskl. moms: [udfyld]
+Tilbudsnummer, dato, gyldighed og prisforbehold: [udfyld]
+Leverings-/betalings-/returvilkår og eventuelle ændringsgebyrer: [udfyld]
+
+Alternativer er velkomne som særskilte forslag med præcise produktdata og
+pris-/leveringsforskel. Bevar det efterspurgte grundtilbud særskilt, hvor muligt.
+Der er ikke taget stilling til et alternativs tekniske/arkitektoniske egnethed.
+
+INTERN ANVENDELSE AF SKABELONEN
+Erstat felterne med samme godkendte forespørgselsgrundlag til hver leverandør.
+Bevar egne overslag, målsummer, forhandlingsnoter og private konkurrerende tilbud
+særskilt. Skabelonen er ikke en automatisk modeludtræk-/tilbudsafsendelsesfunktion.

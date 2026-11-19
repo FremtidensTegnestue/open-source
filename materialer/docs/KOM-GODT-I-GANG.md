@@ -47,6 +47,8 @@ Der følger en lokal skill med: [material-model-assessment](../.agents/skills/ma
 
 På den måde aktiverer du vejledningen i det aktuelle projekt uden at skulle ændre en global agentopsætning. Python skal være tilgængelig for at køre materialeværktøjet; læsning af de gemte eksempler kræver ingen installation. Nye modeludtræk kræver også `solidcraft-cli` eller `bimcraft-cli` på maskinen. Programmerne er [SolidCraft](https://solidcraft.io/download/) og [BIMCraft fra IPedrax](https://github.com/IPedrax/BIMCraft/releases/tag/v0.12.0). Eksemplerne er afprøvet med SolidCraft CLI 0.44.0 og BIMCraft CLI 0.12.0.
 
+Kontrollér også den faktisk valgte CLI med `command -v solidcraft-cli` og `solidcraft-cli --version`. Terminalen kan finde en ældre installation, selv om appen er opdateret. På macOS kan appens CLI kontrolleres direkte med `/Applications/SolidCraft.app/Contents/MacOS/solidcraft-cli --version`; brug kun denne sti, hvis appen er installeret dér. Vælg en kompatibel installation eksplicit i adapteren eller via PATH. En nyere filformatsfejl løses ikke ved at ændre modelmængder eller omgå kontrollen. Gennemgang 20.11.2026 fandt netop denne forskel; de samme modelprøver bestod med den kompatible app-CLI.
+
 ### Spørgsmål, du kan kopiere
 
 **Forstå et resultat:**

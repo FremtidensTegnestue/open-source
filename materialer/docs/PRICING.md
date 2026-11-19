@@ -1,12 +1,32 @@
-# Pris, budget og leverandørdata
+# Prisoverslag, tilbudssammenligning og budget
 
 Pris og budget skal være tilgængeligt under designarbejdet. Det behøver ikke stå ved siden af CO₂. Begge beregninger kan bruge de samme modelmængder, mens priskilder og miljøkilder bevares hver for sig. Arkitekten vælger løsningen; laveste enhedspris eller klimatal vælger ikke automatisk konstruktionen.
+
+## Formål: overblik før tilbud og prisforhandling
+
+**Brugerpræcisering, 20. november 2026:** Prisværktøjet skal give et begrundet overslag, som kan bruges til at indhente tilbud fra flere byggemarkeder og leverandører og styrke forhandlingsgrundlaget. Leverandørernes tilbud og de faktisk indgåede aftaler fastlægger prisen. Overslaget skal vise mængder, kilde/dato, skøn og mangler; det er hverken et pristilsagn eller en automatisk ordre.
+
+Forløbet er: **model-/mængdegrundlag → internt overslag → fælles tilbudsliste → sammenlignelige leverandørtilbud → forhandling → accepteret aftale**. Brug den generelle [forespørgselsskabelon](../examples/pricing/quote-request-template.txt) som udgangspunkt. Den er ikke sendt, og automatisk eksport/tilbudsmodtagelse er ikke implementeret.
+
+- **Overslag:** egne daterede referencepriser eller begrundede skøn. Et interval kræver et grundlag; manglende pris er synlig, ikke nul.
+- **Leverandørtilbud:** leverandørens pris på dokumenteret mængde, produkt og leveranceomfang med gyldighed og forbehold.
+- **Aftalt pris:** det faktisk accepterede grundlag, som bevares efter aftalens vilkår. Budgetramme er en selvstændig beslutning.
+
+Send samme vare-/mængderevision og krav til relevante tilbudsgivere. Afstem netto, spild, overlap og købspakker. Sammenlign samlet nettopris inklusive relevante leveringsomkostninger, gebyrer og eventuelle ydelser. Et deltilbud skal vise de manglende poster. Alternative produkter vises særskilt med faglige, arkitektoniske og klimamæssige følger, ikke som automatisk samme vare. Montage indhentes i passende arbejdsomfang og tælles ikke både i samlet tilbud og særskilte timer.
+
+Interne overslag/målsummer og konkurrenters private tilbud må ikke automatisk medsendes i forespørgslen. En faktisk håndværkerrabat kræver den relevante købers aftale; antag ingen universel procent eller ekstra rabat fra nettopris. Samlet indkøb vurderes med både pris og dokumenteret transport-/materialeklima, uden automatisk vinder. Leverance-/fakturahistorik er senere udvidelser; de skal ikke forsinke det første brugbare overslags- og tilbudsforløb.
 
 **Status 19.11.2026:** En første genbrugelig Python-del er implementeret i [pricing.py](../pricing.py): CSV/JSON-import i vores eget format, HTTPS-hentning af dette format, kildehistorik, sammenligning af eksplicit samme produkt og budgetopfølgning ekskl. moms. [Kør det adskilte testeksempel](../examples/pricing/README.md). Ingen faktiske kundeprisfiler er modtaget, og ingen byggemarkedsforbindelse er aktiveret. Rust-binæren og SolidCrafts modelleringsrum er uændrede. Lokale projektspecifikke modeller/kundepriser er ikke med i repoet.
 
 **Styrende valg, 19.11.2026:** Vi udvikler vores eget pris- og budgetsystem. Leverandørernes ERP-/ordrestyringsintegrationer er dokumentation for mulige datakilder, ikke et valg om at bruge de systemer. Systemets priser, budgetter og sammenligninger er **eksklusive moms**. Bevar leverandørens oprindelige beløb/momsgrundlag og dokumentér omregning med den relevante sats én gang. Ukendt momsgrundlag må ikke gættes. Referencer skal være på samme grundlag; ændret momsvisning er ikke en besparelse. Den første afgrænsede prisfunktion er en separat Python-del; den er ikke installeret som en ny Rust-kommando.
 
 ## Hold budget og prognose adskilt
+
+**Kontrolgrænser fundet 20.11.2026:** Den første Python-kerne er ikke klar til automatisk anvendelse af projektspecifikke eller betingede tilbud. `current_offers` vælger seneste observation for leverandør/konto/vare/produkt/enhed/oprindelse; den håndhæver ikke tilbudsnummer, projekt, mængdebetingelse eller samlet tilbudspakke. Ekstra felter i rådata bliver gemt, men er ikke dermed beregningsregler. To selvstændige tilbud på samme nøgle bliver reduceret til ét. Brug derfor ikke denne import til betingede tilbud uden særskilt afstemning og en dokumenteret understøttet kontrakt.
+
+En ordres mængde trækkes desuden fra den aktuelle posts behov uden fast produkt-/enhedsbinding i ordren. Skift ikke produkt, enhed eller oprindelse på en post med ordrer og genbrug dens ordredata som dækning for det nye behov. Den nuværende editor tilbyder ikke dette materialeskift; en senere variantfunktion skal bevare den gamle forpligtelse og afstemme det nye behov særskilt. Se [den reproducerbare gennemgang](REVIEW-2026-11-20.md). Disse huller er dokumenteret, ikke løst ved denne tekstændring.
+
+Egne skøn skal have ærlig intern proveniens. `budget_reference` findes allerede; et nyt typenavn er ikke i sig selv nødvendigt. Den aktuelle kontrakt kræver dog en HTTPS-kildeadresse og har ingen særskilt lokal bilags-/skønsreference. Opfind ikke en leverandøradresse eller et tilbud for at opfylde feltkravet. Afklar den mindste nødvendige udvidelse sammen med tilbudsgrundlaget.
 
 - **Budgetramme:** den valgte reference, som kun ændres ved en eksplicit budgetrevision.
 - **Forventet slutpris:** faktiske omkostninger + resterende aftalte omkostninger + forventede ikke-aftalte omkostninger + særskilt begrundet risiko/reserve.
@@ -100,3 +120,10 @@ Brugeren skal kunne afprøve enkelte poster ligesom ved klimavarianter: fasthold
 Arbejde beregnes i persontimer, med særskilt prisgrundlag for faktureret timepris, samlet lønomkostning og bruttotimeløn med dokumenterede tillæg. Manglende lønfølgeomkostninger må ikke blive nul, og en entreprenørs allerede sammensatte timepris skal ikke få løntillæg igen. Medregn ikke montage både i en samlet entreprise og som en særskilt timepost. Fag, afgrænsning, produktivitetsantagelser og kilder skal afstemmes før timer/satser bliver faktiske projektforudsætninger. Denne version håndterer planlægningsoverslag for arbejde, ikke lønbogføring eller tids-/fakturaafstemning.
 
 Variantens faste budgetramme og dens kildepriser bevares. Forskelle mellem to fuldt sammenlignelige, kendte poster adskilles fra nye prissatte eller udeladte poster. En fuld projektforskel kræver fuld passende dækning i begge scenarier. Arbejdstimer er ikke en CO₂referenceenhed: materialefølger, byggepladsenergi, arbejders transport og affald skal have deres egne grundlag.
+
+
+## Præcisering efter leveranceundersøgelsen, 20. november 2026
+
+Ordreposterne er afgrænsede nettosnapshots. Det interne `actual_excl_vat` udledes af `invoiced_excl_vat`; det dokumenterer ikke betaling, fysisk modtagelse, indbygning eller et komplet faktisk byggeregnskab. Kernen har endnu ingen særskilt historik for kreditnota, retur, delmodtagelse eller godkendelse. Negative kreditbeløb afvises; et afstemt fakturanetto kan indgå som snapshot, men kredit-/ændringsgrundlaget skal bevares særskilt.
+
+`orders[].id` skal være entydigt i hele projektinputtet. En ekstern ordreheader med flere varelinjer skal derfor afstemmes til særskilte linjenøgler før import; kopiering af samme header-ID til alle linjer afvises som dublet. Der er ikke dermed implementeret et eksternt ordreheadersystem. Ekstra oplysninger om modtagelse/skade/montage fortolkes ikke af prisberegningen; brug ikke et komplet budgetresultat som færdigmelding af en bygningsdel. Se [den afgrænsede leveranceundersøgelse](DESIGN-REFERENCES.md).
