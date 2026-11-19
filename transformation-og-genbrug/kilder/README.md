@@ -4,6 +4,8 @@ Registeret angiver udgiver, udgave, læsested og hvad der kan udledes af hver ki
 
 [Håndbogens første udgave – samlet oversigt over originalerne og de kapitler, der bruger dem](foerste-udgave.md) · [PDF-læsesteder i de tematiske fagartikler](pdf-laesesteder.md).
 
+[Originaler til atlasset om bygninger, genbrugsøkonomi, drift og beboere](atlas.md) forbinder hvert kapitel med de tegninger, regnskaber og undersøgelser, det bygger på.
+
 Gennemgået 19. november 2026. [Filregister med adresser og SHA-256](hentet.tsv) angiver de hentede udgaver. Originalerne ligger lokalt under `kilder/originaler/`. På GitHub fører kildehenvisningerne til udgiverne. Når en udgiver opdaterer en webside, kan filens kontrolsum ændre sig.
 
 ## Aflæs bygningen

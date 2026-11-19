@@ -13,6 +13,8 @@
 
 **Se hvad der skete i virkeligheden.** I [de danske projekter](projekter.md) kan du følge både udførte indgreb, målinger efter indflytning, dyrere løsninger og beregnede alternativer. Ved en besigtigelse kan du tage [arbejdsarket](../oplaeg/forste-besigtigelse.md) med.
 
+**[Danske bygninger før og efter transformation](../atlas/README.md).** Brug atlasset, når I har brug for tegninger, regnskaber for genbrugsdele, erfaringer fra driften eller beboernes faktiske boligudgifter.
+
 **Til dig, der bruger en agent.** Bed den finde det opslag, som bedst svarer til din bygning og dit spørgsmål. Bed agenten svare på tre spørgsmål. Hvad viser originalen? Hvor står det? Hvad skal undersøges på din adresse? Gå til den angivne PDF-side eller paragraf, hvis beslutningen afhænger af et bestemt tal eller krav.
 
 [Kilderegister med originaler](../kilder/foerste-udgave.md) · [Dækning og åbne spørgsmål](daekning.md) · [De 20 spørgsmål i læseprøven](laeseproeve.md)

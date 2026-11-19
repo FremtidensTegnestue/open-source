@@ -4,6 +4,8 @@ Hvad kan en bygning blive til med det, der allerede er der? Vi vil undersøge, h
 
 **[Åbn håndbogen for arkitekter, bygherrer og beboere](openwiki/quickstart.md)** · [Drøft de første spørgsmål](debat.md) · [Læs oplægget om vinduer](oplaeg/vinduer.md)
 
+**[Se danske bygninger før og efter transformation](atlas/README.md)**. Find plantegninger fra husopdelinger, regnskaber for genbrugsdele, observationer efter års drift og erfaringer fra både tilbageflyttede og fraflyttede beboere.
+
 ## Hvad vil vi gerne finde ud af?
 
 - **Bygningen.** Kan den rumme den ønskede brug med færre indgreb? Hvilke rum, dagslysforhold og spor af tidligere brug er værd at bevare?

@@ -13,6 +13,10 @@ Status for første udgave, 19. november 2026. [Læs spørgsmålene i den låste 
 
 De seks kapitler indeholder 64 konkrete beslutningsspørgsmål. Projektkapitlet gennemgår 14 forskellige danske byggesager. [Kilderegisteret for første udgave](../kilder/foerste-udgave.md) forbinder de tilhørende kapitler med 79 offentlige kildeadresser, herunder udgiversider, PDF’er og myndighedstekster. De 79 adresser omfatter 41 PDF-filer og 38 websider. Læseprøven tester 20 på forhånd valgte spørgsmål på tværs af kapitlerne. 42 af de 64 svar henviser til én original, og 22 henviser til flere. Flere henvisninger til sider i samme dokument er her talt som én original. Kilderne er udvalgt til de konkrete spørgsmål. Der er endnu ingen systematisk gennemgang af hele det danske kildemateriale.
 
+## Hvad tilføjer atlasset?
+
+De fire [atlaskapitler](../atlas/README.md) uddyber den første udgave med husopdelinger, konkrete regnskaber, dokumenterede reparationer og erfaringer fra både genhusede og tilbageflyttede husstande. De 64 spørgsmål og de oprindelige 20 læseprøver længere oppe beskriver fortsat første udgave. Atlasset har sit eget [kilderegister](../kilder/atlas.md).
+
 ## Hvilken ny viden vil ændre et svar?
 
 - **Drift efter indflytning.** Gentagne observationer af samme identificerede del, herunder årsagen til vedligehold og udskiftning, kan skelne teknisk svigt fra ændrede ønsker. Se [Odenses køkkener](genbrug.md).
