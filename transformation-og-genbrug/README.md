@@ -21,3 +21,7 @@ Thais’ [tidlige skitser med facade og vinduer](https://github.com/FremtidensTe
 ## Sådan bidrager du
 
 Start med en situation, hvor du faktisk skal træffe et valg. Beskriv den i [debatloggen](debat.md) eller i et kort oplæg under [oplaeg](oplaeg/). En erfaring, et spørgsmål eller en opmåling er nok til at åbne en drøftelse. Wikien samler de vigtigste pointer og viser videre til oplæggene. [Sådan opdateres OpenWiki](wiki-vedligehold.md).
+
+## Fagligt vidensgrundlag
+
+Wikien gennemgår nu danske undersøgelser, myndighedskilder og gennemførte projekter. Begynd med [bygningen og dens beboere](openwiki/viden/bygningen.md), [vejen fra donorbygning til ny anvendelse](openwiki/viden/genbrug.md) eller [fem danske cases](openwiki/cases/danske-projekter.md). På en besigtigelse kan du tage [arbejdsarket](oplaeg/forste-besigtigelse.md) med. I [kilderegisteret](kilder/README.md) finder du originalerne og de afsnit, der ligger bag.
