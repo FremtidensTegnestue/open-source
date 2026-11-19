@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "mode": "observations",
+  "offers": [
+    {
+      "supplier_id": "test-c",
+      "supplier_name": "Testleverandør C",
+      "account_id": "public",
+      "sku": "C-FILM",
+      "product_id": "test:film:0.2mm",
+      "mapping_reference": "FIKTIV fælles vareidentitet til test",
+      "source_url": "https://example.invalid/c",
+      "observed_on": "2026-11-19",
+      "review_on": "2026-12-19",
+      "currency": "DKK",
+      "unit": "m2",
+      "kind": "test",
+      "origin": "nyt",
+      "availability": "available",
+      "amount": "625",
+      "price_quantity": "125",
+      "purchase_step": "125",
+      "minimum_quantity": "250",
+      "tax_basis": "incl_vat",
+      "vat_rate": "0.25",
+      "price_basis": "list",
+      "discount_percent": "10",
+      "discount_reference": "FIKTIV rabataftale"
+    }
+  ]
+}

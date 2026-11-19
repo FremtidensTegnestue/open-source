@@ -2,7 +2,9 @@
 
 Pris og budget skal være tilgængeligt under designarbejdet. Det behøver ikke stå ved siden af CO₂. Begge beregninger kan bruge de samme modelmængder, mens priskilder og miljøkilder bevares hver for sig. Arkitekten vælger løsningen; laveste enhedspris eller klimatal vælger ikke automatisk konstruktionen.
 
-**Status:** Dette er et fælles udviklingsgrundlag. Repoets Rust-CLI har ikke en automatisk leverandørprisforbindelse eller en færdig budgetprognose. En lokal projektprøve har afprøvet daterede prisreferencer, indkøbspakker og et særskilt regnskab. Den projektspecifikke prøve og dens kundedata/modeller er ikke med i dette repo. Den er ikke en generel, installerbar produktfunktion.
+**Status 19.11.2026:** En første genbrugelig Python-del er implementeret i [pricing.py](../pricing.py): CSV/JSON-import i vores eget format, HTTPS-hentning af dette format, kildehistorik, sammenligning af eksplicit samme produkt og budgetopfølgning ekskl. moms. [Kør det adskilte testeksempel](../examples/pricing/README.md). Ingen faktiske kundeprisfiler er modtaget, og ingen byggemarkedsforbindelse er aktiveret. Rust-binæren og SolidCrafts modelleringsrum er uændrede. Lokale projektspecifikke modeller/kundepriser er ikke med i repoet.
+
+**Styrende valg, 19.11.2026:** Vi udvikler vores eget pris- og budgetsystem. Leverandørernes ERP-/ordrestyringsintegrationer er dokumentation for mulige datakilder, ikke et valg om at bruge de systemer. Systemets priser, budgetter og sammenligninger er **eksklusive moms**. Bevar leverandørens oprindelige beløb/momsgrundlag og dokumentér omregning med den relevante sats én gang. Ukendt momsgrundlag må ikke gættes. Referencer skal være på samme grundlag; ændret momsvisning er ikke en besparelse. Den første afgrænsede prisfunktion er en separat Python-del; den er ikke installeret som en ny Rust-kommando.
 
 ## Hold budget og prognose adskilt
 
@@ -34,6 +36,25 @@ Undersøgt 19.11.2026. [STARKs offentlige beskrivelse](https://www.stark.dk/serv
 
 Ingen faktisk kundekonto, eksempelfil, feltkontrakt, pris-API eller automatisk levering er afprøvet i undersøgelsen. Ingen STARK-priser er aktiveret i repoet. Automatisk leverandørlevering, modtagelse, import, anvendelse i projekt og handel er fem forskellige trin.
 
+## Flere leverandører, forskellige prisgrundlag
+
+Undersøgt 19.11.2026. STARK er første eksempel, ikke en leverandørbinding. Ét prisoverblik skal kunne samle flere dokumenterede indgange uden at love samme format eller opdateringsfrekvens:
+
+| Leverandør | Offentligt beskrevet mulighed | Hvad mangler før vores import? |
+| --- | --- | --- |
+| [Davidsen](https://www.davidsen.dk/webshop/hjaelp-til-erhvervswebshop/priser/modtag-automatiske-prisfiler-til-din-prisbog) | Automatiske elektroniske prisfiler til navngivne ordrestyringsprogrammer. | Eksempelfil, prisbasis, interval og eget modtagersystem. |
+| [Bygma](https://www.bygma.dk/bygma-proff-services/) | Aftalepriser i ProffShop. [KeyBalance](https://www.keybalance.dk/edi/bygma) beskriver håndtering af Bygma-filer. | Leverandørens bekræftelse af filkontrakt/adgang; partnerens integration er ikke vores. |
+| [XL-PRO](https://www.xl-byg.dk/xl-pro/om-xl-pro-dk) | Prislister med/uden aftale; [Jens Schultz](https://www.xl-byg.dk/artikel/proff-login) beskriver download til eget IT-system. | Lokal forretning, format og interval; ikke antaget ens i hele kæden. |
+| [Brødrene Dahl](https://www.bd.dk/kontakt/spoergsmaal-og-svar/filer) | Månedlig listeprisfil plus særskilt kundens rabatfil; først totalfil, siden ændringsfiler. | Begge grundlag, korrekt aftale og afprøvet format/modtagelse. |
+| [Silvan](https://www.silvan.dk/kundeservice/handelsbetingelser) | Offentlig webshoppris inkl. moms og indregnet rabat, ekskl. fragt/gebyrer. | Aftalt dataadgang; ingen prisfeed-kontrakt identificeret i læste sider. |
+| [Havnens Hænder](https://havnens-h.dk/) | Udvalgt webshop samt tilbudsbestilling; fragt/håndtering særskilt. | Konkret variant, købspakke, prisbasis og aftalt dataadgang. |
+
+Ingen af disse feedforbindelser er afprøvet her. Manglende offentlig API-dokumentation beviser ikke, at en aftale er umulig. En offentlig webshop eller kendt handelsplatform er heller ikke i sig selv en understøttet kommerciel API-kontrakt.
+
+Hos Havnens Hænder viser [græsisolering](https://havnens-h.dk/products/graes-isolering) hele pakker med tykkelsesafhængigt areal og mail-/telefonbestilling. [Hampeisolering](https://havnens-h.dk/products/hamp-isolering) har ligeledes variantafhængige pakker. Webprodukters visning inklusive skatter må ikke stiltiende overføres til skriftlige tilbud: de [linkede betingelser](https://cdn.shopify.com/s/files/1/0754/5684/0023/files/Salgs-og-leveringsbetingelser_2024.pdf?v=1711375873) beskriver disse eksklusive moms. Registrér kildetypen og afklar den konkrete handel. En fra-pris er ikke tilstrækkeligt grundlag for valgt tykkelse/enhed; et EPD-link er ikke en eftervist klimaberegning.
+
+Bevar produktidentitet adskilt fra leverandørens tilbud. Flere tilbud kan høre til samme dokumenterede producentvare/variant; et andet produkt er et materialevalg. Sammenlign samlet køb, pakker, montage og levering. Flere leverandører kan betyde flere leveringsgebyrer. Listepris og rabatgrundlag skal begge fastholdes, når nettoprisen afledes; træk ikke rabatten to gange. Fravær i en ændringsfil betyder ikke i sig selv ophørt vare. Byg en lille import efter en virkelig filkontrakt frem for en uprøvet adapter til hver leverandør.
+
 ## Afklar før en import bygges
 
 1. Hvilken købende kunde/entreprenør, aftale og eventuelt projekt gælder priserne for? Kundernes private aftaler skal være adskilt.
@@ -46,7 +67,7 @@ Først en virkelig eksempelfil og tre kendte varer i forskellige enheder. Byg de
 
 ## Kontroller før automatisk anvendelse
 
-Dette er acceptkrav til en fremtidig import, ikke påstande om beståede feedtests:
+Disse krav er delvist afprøvet i den nye import med mærkede testdata. Virkelige leverandørfiler, adgangskontrakter og faktiske kundepriser er fortsat ikke afprøvet:
 
 - Afstem tre faktiske varer mod samme kundes priser og mængder.
 - Genimport af samme observation må ikke skabe dubletter eller en ny påstået prisdato.
@@ -57,3 +78,25 @@ Dette er acceptkrav til en fremtidig import, ikke påstande om beståede feedtes
 Registrér prisens observationstid, gyldighed, modtagelse og seneste vellykkede kontrol særskilt. Daglig kontrol gør ikke en ugentlig kilde til dagsdata. Genbrug gyldige modelmængder ved en ren prisændring og bevar budgetrammen.
 
 Drift, vedligehold, udskiftning, rente, prisudvikling og restværdi kræver yderligere grundlag, før resultatet kaldes en levetidsomkostningsberegning (LCC).
+
+## Læring fra den første implementering
+
+Ingen leverandørfiler var til rådighed. Derfor er tre syntetiske leverandører isoleret fra rigtige projekter, og almindelige rapporter ignorerer testtilbud. En teknisk fungerende import af vores format er ikke dokumentation for, at en bestemt leverandørs fil kan læses. Afprøv den konkrete leverandørkontrakt før en adapter bygges.
+
+Kontrollerne dækker blandt andet momsomregning og rabat én gang, indkøbspakker, mindstekøb, kundeadskillelse, kildehistorik, idempotent import, fejl uden sletning, tilbagekaldt/udløbet pris uden genoplivning af ældre pris, delvis fakturering uden dobbeltregning og uændrede aftalte omkostninger ved ændret markedspris. Ukendte leveringsomkostninger blokerer en fuld prognose. Laveste varebeløb må ikke præsenteres som billigste samlede leverance. Der er endnu ingen automatisk kombinationssøgning eller indkøbs-/fakturaintegration.
+
+## Saml indkøbet med klima og den faktiske rabataftale
+
+Brugerens seneste prioritet er at købe så mange passende varer som muligt ét sted, med både pris og CO₂ i vurderingen. `supplier_baskets` viser leverandørernes prisreferencedækning af de ikke-bestilte poster og hvilke poster der kræver supplering. Det er ikke automatisk leverandørvalg, faktisk lagerdækning, global indkøbsoptimering eller en skjult kr./CO₂score. Samlet levering/gebyrer holdes på leveranceplanen, ikke ganget på hver vare.
+
+Håndværkerrabat hører til den konkrete købende virksomheds aftale og dens produkt-/varegruppeomfang. Den må ikke antages universelt, videregives mellem kunder eller trækkes igen fra en nettopris. Importen understøtter en eksplicit listepris/rabataftale og separat kontokontekst; afprøv faktisk aftale og rabattrin mod leverandørens egne priser.
+
+Transport-CO₂ er et særskilt dokumenteret scenarie med kilde, ikke afledt af antal leverandørnavne. Ukendt leverandørtransport forbliver ukendt. Produktbidrag, emballage, faktisk spild og returer skal følge den konkrete indkøbsplan og materialemotoren. Nyt leverandør-A4 afstemmes som erstatning for relevant tidligere transportscenarie; det må ikke dobbelttælles. En enkelt leverandør kan sende fra flere lagre. [Testeksemplet](../examples/pricing/README.md) viser et bevidst pris-/transportklimatradeoff, uden en automatisk vinder.
+
+## Budget som justerbare beslutninger, med arbejdstid og løn
+
+Brugeren skal kunne afprøve enkelte poster ligesom ved klimavarianter: fasthold en reference, ændr forudsætninger og se forskellen, fortryd eller gem særskilt. `pricing_editor.py` er en første lokal budgetvisning med den samme Python-beregning bag redigeringen; [afprøv arbejdstimer og leverandørvalg](../examples/pricing/README.md). Dette ændrer ikke modelleringsrummet eller bygger et nyt CAD-interface. Den gemte variant aktiverer ikke automatisk et projektbudget, et materialevalg eller en EPD.
+
+Arbejde beregnes i persontimer, med særskilt prisgrundlag for faktureret timepris, samlet lønomkostning og bruttotimeløn med dokumenterede tillæg. Manglende lønfølgeomkostninger må ikke blive nul, og en entreprenørs allerede sammensatte timepris skal ikke få løntillæg igen. Medregn ikke montage både i en samlet entreprise og som en særskilt timepost. Fag, afgrænsning, produktivitetsantagelser og kilder skal afstemmes før timer/satser bliver faktiske projektforudsætninger. Denne version håndterer planlægningsoverslag for arbejde, ikke lønbogføring eller tids-/fakturaafstemning.
+
+Variantens faste budgetramme og dens kildepriser bevares. Forskelle mellem to fuldt sammenlignelige, kendte poster adskilles fra nye prissatte eller udeladte poster. En fuld projektforskel kræver fuld passende dækning i begge scenarier. Arbejdstimer er ikke en CO₂referenceenhed: materialefølger, byggepladsenergi, arbejders transport og affald skal have deres egne grundlag.

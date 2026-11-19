@@ -28,7 +28,9 @@ Du kan allerede:
 
 En kildebygget CLI kan også **undersøge reparation og adskillelse**: foreslå nødvendige adgangs-/erstatningsposter og beregne tilførte produkter med samme Rust-motor. [Prøv vindues- og nybyggerieksemplerne](docs/DISASSEMBLY.md). Dette er en afgrænset indgrebsvurdering, ikke en ny bygnings-LCA eller et installeret SolidCraft-panel.
 
-**Pris og budget er et særskilt udviklingsspor.** [Læs grundlaget og undersøgelsen af automatiske leverandørpriser](docs/PRICING.md). Leverandørkoblingen er endnu ikke implementeret. DfD er et frivilligt tilvalg og er ikke en forudsætning for materiale-, klima- eller økonomiarbejdet.
+**Pris og budget har nu en første afgrænset import og beregning i Python.** [Prøv flere leverandører med testdata](examples/pricing/README.md), eller [læs grundlaget](docs/PRICING.md). Ingen virkelig leverandørforbindelse er aktiveret. DfD er et frivilligt tilvalg og er ikke en forudsætning for materiale-, klima- eller økonomiarbejdet.
+
+[Undersøgelse af 1to10](docs/1TO10.md) samler afprøvet læring om materialelag, detaljetegning og analyse samt grænserne for kildekontrollen.
 
 Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På din egen computer kan du bruge Rust-programmet til at gentage beregningerne. [Følg guiden til installation og første opslag](docs/RUST.md).
 

@@ -1,0 +1,3 @@
+supplier_id,supplier_name,account_id,sku,product_id,mapping_reference,source_url,observed_on,review_on,currency,unit,kind,origin,availability,amount,price_quantity,purchase_step,minimum_quantity,tax_basis,vat_rate,price_basis
+test-a,Testleverandør A,public,A-FILM,test:film:0.2mm,FIKTIV fælles vareidentitet til test,https://example.invalid/a,2026-11-19,2026-12-19,DKK,m2,test,nyt,available,500,100,100,0,incl_vat,0.25,net
+test-a,Testleverandør A,public,A-SCREWS,test:screws:100pcs,FIKTIV fælles vareidentitet til test,https://example.invalid/a,2026-11-19,2026-12-19,DKK,stk,test,nyt,available,125,100,100,0,incl_vat,0.25,net

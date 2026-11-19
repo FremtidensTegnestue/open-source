@@ -22,6 +22,8 @@ Vægt fra volumen kræver densitet; kg/m² er ikke densitet. Brug værktøjernes
 
 Klimabidrag gælder den valgte kildeindikator og livscyklusmodul. En deklaration kan være pr.1000kg eller1ton. Modul D holdes særskilt; resultater er ikke automatisk en bygnings-LCA eller dokumentation for myndighedsoverholdelse. Grundlag som `1 m² with R=1 m²K/W` kræver en yderligere metode og afvises af den simple skaleringsfunktion.
 
+Biogene bidrag: kontrollér kildens faktiske referent, herunder produkt, emballage og øvrige systemdele, før et negativt A1–A3-tal kaldes kulstof lagret i bygningen. Bevar kildens frigivelsesfase, eksempelvis A5 for emballage; antag ikke lagring gennem hele projektperioden. Skeln GWP-total fra fossil/biogen/LULUC og undgå at tælle kildeinkluderet emballage/spild igen. En simpel referenceomregning efterviser ikke en hel produktfamilies skalerbarhed.
+
 Fugtbevægelse kræver en arts-/retningsspecifik koefficient, start-/slutfugt inden for kildens interval og en eksplicit antagelse om modelakse og fiberretning. Brug ikke svind grønt→ovntørt som koefficient pr. procentpoint. Brug ikke en råtræsarts koefficient som en dokumenteret CLT-egenskab.
 
 BIMcraft0.12.0's gulvvolumener afrundes til0,001m³. Rapporten bevarer denne usikkerhed og dens bidrag til masse/klima. Præsenter ikke resultatet med større sikkerhed end kilden eller modellen understøtter.
@@ -29,6 +31,12 @@ BIMcraft0.12.0's gulvvolumener afrundes til0,001m³. Rapporten bevarer denne usi
 Resultatet skal vise model, valgte data, beregninger, enheder, kildehenvisninger, antagelser og mangler. Gem CLI’ets JSON-svar i en separat rapportfil.
 
 ## Pris og budget
+
+Budgetvarianter: fasthold en kilde-/modelbundet reference og vis ændret post, variant og forskel uden at flytte budgetrammen. Brug `pricing_editor.py` til lokal afprøvning og særskilt variantfil; visningen aktiverer ikke CAD-/EPD-/budgetændringer. Arbejde måles i persontimer. Skeln faktureret håndværkertimepris, fuld lønomkostning og bruttotimeløn med særskilt dokumenteret arbejdsgivertillæg; manglende tillæg er ukendt. Særlige løntillæg lægges ikke automatisk på en faktureret entreprenørpris. Afstem indholdt montage mod særskilte timer og afgræns planlægningsoverslag fra faktisk tids-/løn-/fakturaregistrering. Ny prisdækning er ikke en designændring. Arbejdstimer ændrer ikke automatisk klimatal; afstem materiale-/transport-/energi-/spildfølger separat.
+
+Indkøbsprioritet: saml så mange egnede varer som muligt ét sted og vis resterende supplering sammen med pris og CO₂. Prisreferencedækning er ikke lagerbekræftelse. Håndværkerrabat kræver den faktisk købende virksomheds aftale, konto og vareomfang; træk ikke rabat fra en nettopris igen. Én leverandør er ikke nødvendigvis én afsendelse. Leverandørtransport kræver konkret scenarie/kilde og skal afstemmes som erstatning for relevant eksisterende A4, ikke som et ekstra dubleret bidrag. Ukendt leverandørklima er ikke nul; materialer, emballage, faktisk spild og returer afstemmes ved ændret indkøb. Ingen skjult vægtning eller automatisk vinder mellem pris, klima og arkitektur.
+
+Den første selvstændige Python-del findes som `pricing.py`; følg [import, rapport og kontroller](../../../examples/pricing/README.md). Brug systemets eget udvekslingsformat og en eksplicit afstemt produktvariant/konto. Den udgivne Rust-CLI er uændret. Alle beregninger og budgetter er DKK ekskl. moms; bevar rå momsgrundlag og omregning. Syntetiske tilbud må aldrig bruges i faktiske projekter (`--allow-test-data` er kun til isolerede test). Import af et eget format beviser ikke understøttelse af en leverandørs format. Opdatering af prisdata flytter ikke budgetramme, faktisk/fikseret omkostning eller EPD-valg. Saml samme valgte SKU før pakkeafrunding; afstem delvis fakturering med resterende ordrepris og ikke-bestilt mængde. Samlet fragt ved delt køb skal afklares før en vinder; ukendte leverancer/omfang blokerer fuld prognose. Kør aktualitetskontrol før gemte resultater bruges.
 
 Læs [udviklingsgrundlag og leverandørundersøgelse](../../../docs/PRICING.md). Fælles mængder kræver ikke en bestemt placering af pris og CO₂ på skærmen. Der er ikke implementeret en generel leverandørprisforbindelse i den udgivne CLI.
 

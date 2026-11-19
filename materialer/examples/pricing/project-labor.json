@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "scope_id": "TEST:materialer-og-arbejdstimer",
+  "account_id": "test-buyer",
+  "currency": "DKK",
+  "tax_basis": "excl_vat",
+  "budget": {
+    "amount_excl_vat": "7000",
+    "revision": "TEST-budget-1",
+    "set_on": "2026-11-19"
+  },
+  "delivery": {
+    "test-a": {
+      "amount_excl_vat": "100",
+      "reference": "FIKTIV leverance",
+      "transport_kg_co2e": "6",
+      "climate_reference": "FIKTIVT samlet transportscenarie; ikke en reel rute"
+    },
+    "test-b": {
+      "amount_excl_vat": "400",
+      "reference": "FIKTIV leverance",
+      "transport_kg_co2e": "3",
+      "climate_reference": "FIKTIVT samlet transportscenarie; ikke en reel rute"
+    },
+    "test-c": {
+      "amount_excl_vat": "100",
+      "reference": "FIKTIV leverance",
+      "transport_kg_co2e": "9",
+      "climate_reference": "FIKTIVT samlet transportscenarie; ikke en reel rute"
+    }
+  },
+  "unresolved_scope": [],
+  "lines": [
+    {
+      "id": "film",
+      "label": "TEST folie, 150m²",
+      "product_id": "test:film:0.2mm",
+      "unit": "m2",
+      "net_quantity": "150",
+      "waste_rate": "0",
+      "origin": "nyt",
+      "orders": [],
+      "selection": {
+        "supplier_id": "test-a",
+        "account_id": "public",
+        "sku": "A-FILM"
+      }
+    },
+    {
+      "id": "screws",
+      "label": "TEST skruer, 100stk",
+      "product_id": "test:screws:100pcs",
+      "unit": "stk",
+      "net_quantity": "100",
+      "waste_rate": "0",
+      "origin": "nyt",
+      "orders": [],
+      "selection": {
+        "supplier_id": "test-a",
+        "account_id": "public",
+        "sku": "A-SCREWS"
+      }
+    }
+  ],
+  "labor": [
+    {
+      "id": "carpentry",
+      "label": "TEST tømrerarbejde",
+      "hours": "10",
+      "hourly_rate": "400",
+      "rate_basis": "contractor_rate",
+      "employer_addon_percent": null,
+      "linked_line_ids": [
+        "film",
+        "screws"
+      ],
+      "reference": "FIKTIV timepris og timeforbrug"
+    },
+    {
+      "id": "finish",
+      "label": "TEST afsluttende arbejde",
+      "hours": "4",
+      "hourly_rate": "300",
+      "rate_basis": "employer_cost",
+      "employer_addon_percent": null,
+      "linked_line_ids": [],
+      "reference": "FIKTIV samlet lønomkostning"
+    }
+  ]
+}
