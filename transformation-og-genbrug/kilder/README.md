@@ -181,3 +181,5 @@ projektbeskrivelse, rådgiverperiode 2005–2014 · Projektinformation og renove
 ## Fordybelse
 
 [Kilder om eksisterende bygninger og deres dele](bygningen.md) dækker kulturarv, sundhed, konstruktioner, brand, dagslys, lyd og adgang.
+
+[Kilder om materialestrømme og drift](ressourcer-og-drift.md) dækker statistikker, konkrete partier, sanitet, aftaler, afprøvning og klimatilpasning.
