@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinduesvalg og helhed · interfaceudkast</title>
+<style>html{color-scheme:light dark}body{margin:0;padding:16px;max-width:1056px;margin-inline:auto;background:light-dark(#f4f6f4,#171d20)}</style>
+</head>
+<body>
+<div id="ft-window-study" aria-label="Vinduesvalg med arkitektur og integreret LCA">
+ <header class="vw-top"><div><strong>SolidCraft</strong><span> / Vinduesundersøgelse</span></div><span class="vw-eyebrow">Interfaceudkast</span></header>
+ <div class="vw-demo">Fiktive mål, parti og klimatal · ingen forbindelse til din model</div>
+ <div class="vw-layout">
+  <section class="vw-work" aria-label="Rum og konsekvenser">
+   <div class="vw-heading"><span class="vw-eyebrow">Opholdsrum · én åbning</span><span class="vw-preview">Reference</span></div>
+   <div class="vw-options"><label><input class="vw-lock" type="checkbox" checked> Bevar åbningen</label><label><input class="vw-air" type="checkbox"> Vis ønsket luftvej</label></div>
+   <svg class="vw-scene" viewBox="0 0 640 430" role="img" aria-label="Rumskitse med vinduesopdeling"><g class="vw-drawing"></g></svg>
+   <p class="vw-scene-note">Rumskitse · ingen lys-, temperatur- eller luftberegning</p>
+   <div class="vw-measures"><div><span>Vinduesenheder</span><strong class="vw-units">1 × 2.400 × 1.800 mm</strong></div><div><span>Udvendigt karmareal</span><strong class="vw-area">4,32 m²</strong></div></div>
+   <p class="vw-geometry-note">Karmmål er skitsemål. Råhul og montagefuger er ikke projekteret.</p>
+   <section class="vw-consequences" aria-label="Relevante faglige konsekvenser">
+    <h3>Det skal valget hænge sammen med</h3>
+    <details open><summary><strong>Rum & udsyn</strong><span>Illustreret</span></summary><p class="vw-room"></p></details>
+    <details><summary><strong>Lys & sommerkomfort</strong><span>Ikke beregnet</span></summary><p class="vw-light"></p><p>Kræver blandt andet orientering, omgivelser, faktisk glasareal, rudedata, brug og vejr.</p></details>
+    <details><summary><strong>Naturlig ventilation</strong><span>Ikke eftervist</span></summary><p class="vw-vent"></p><p>Afklar indtag, overstrømning og aftræk, fri åbning og betjening ved svag vind, vinter og nat. En luftpil er ikke dokumentation.</p></details>
+    <details><summary><strong>Bygbarhed & økonomi</strong><span>Åbent grundlag</span></summary><p class="vw-build"></p><p>Tilbud, montage, tætning, fugt, lyd og relevante brandforhold mangler. Et beholdt forslag er ingen faglig frigivelse.</p></details>
+   </section>
+  </section>
+  <aside class="vw-panel" aria-label="Vinduesvalg og klima">
+   <span class="vw-eyebrow">Afprøv et vinduesvalg</span><h2>Samme rum.<br>Flere muligheder.</h2>
+   <div class="vw-reference">Reference: nyt vindue · 2.400 × 1.800 mm</div>
+   <div class="vw-candidates" role="group" aria-label="Vinduesalternativer">
+    <button class="vw-candidate cursor-interaction" data-choice="new" type="button" aria-pressed="true"><span class="vw-window-symbol"><span></span><span></span></span><span><strong>Nyt · reference</strong><small>Én enhed i den tegnede åbning</small></span></button>
+    <button class="vw-candidate cursor-interaction" data-choice="fit" type="button" aria-pressed="false"><span class="vw-window-symbol vw-infill"><span></span><span></span></span><span><strong>Genbrug · bevar åbningen</strong><small>To enheder + tilpasningsfelter</small></span></button>
+    <button class="vw-candidate cursor-interaction" data-choice="adapt" type="button" aria-pressed="false"><span class="vw-window-symbol vw-small"><span></span><span></span></span><span><strong>Genbrug · tilpas åbningen</strong><small>To enheder · mindre åbning</small></span></button>
+   </div>
+   <div class="vw-source-note">Genbrug: fiktivt eksempel med 2 × 1.000 × 1.600 mm. Intet lageropslag eller valgt produkt.</div>
+   <div class="vw-design-controls"><label><input class="vw-shade" type="checkbox"> Tilføj udvendig afskærmning</label><label><input class="vw-open" type="checkbox" checked> Opluk ønskes i forslaget</label></div>
+   <section class="vw-climate" aria-label="Integreret klimavisning" aria-live="polite"><div class="vw-climate-title"><h3>LCA · fiktiv klimadelsum</h3><span>A1–A5</span></div><div class="vw-totals"><div><span>Reference</span><strong>900</strong></div><div><span>Forslag</span><strong class="vw-total">900</strong></div><div><span>Forskel</span><strong class="vw-delta">0</strong></div></div><div class="vw-unit">kg CO₂e · kun oplyste demoposter</div><p class="vw-climate-gap">Ingen produktkilder. Hele livscyklussen er ikke opgjort.</p><p class="vw-function"></p></section>
+   <details class="vw-breakdown"><summary>Se poster og mangler</summary><table><caption>Demonstrationstal · kg CO₂e</caption><thead><tr><th>Post</th><th>Forslag</th></tr></thead><tbody class="vw-rows"></tbody></table><p>B6/driftsenergi, vedligehold, udskiftninger og slutbehandling mangler. D er særskilt og ikke beregnet. Projekttotal og pris er ikke beregnet.</p></details>
+   <p class="vw-conflict" role="status" hidden>Du har fastholdt åbningen. Genåbn dit valg for at beholde denne variant; du kan stadig afprøve den.</p>
+   <div class="vw-actions"><button class="vw-keep cursor-interaction" type="button">Behold i udkastet</button><button class="vw-reset cursor-interaction" type="button">Tilbage til reference</button></div>
+   <p class="vw-notice" role="status">Kun undersøgelse · modellen ændres ikke.</p>
+  </aside>
+ </div>
+</div>
+<style>
+ #ft-window-study{--w-bg:light-dark(#f7f8f6,#20282c);--w-paper:light-dark(#fff,#293237);--w-work:light-dark(#edf1ec,#303c3d);--w-text:light-dark(#23362e,#e9f1eb);--w-muted:light-dark(#5c6e64,#b7c6be);--w-line:light-dark(#d5dfd6,#4c5c52);--w-accent:light-dark(#295d46,#add7ba);--w-soft:light-dark(#e2ede2,#364e3c);--w-button:light-dark(#295d46,#add7ba);--w-buttontext:light-dark(#fff,#1d3426);color:var(--w-text);background:var(--w-bg);border:1px solid var(--w-line);border-radius:14px;overflow:hidden;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:light dark}
+ #ft-window-study *{box-sizing:border-box}#ft-window-study h2{font-size:25px;line-height:1.2;font-weight:600;letter-spacing:-.03em;margin:10px 0 19px}#ft-window-study h3{font-size:13px;font-weight:600;margin:0}#ft-window-study strong{font-weight:600}#ft-window-study p{margin:0}#ft-window-study button{font:inherit}#ft-window-study button:focus-visible,#ft-window-study summary:focus-visible{outline:3px solid var(--w-accent);outline-offset:3px}
+ #ft-window-study .vw-top{background:#20292d;color:#f1f4ed;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding:16px 110px 16px 24px}#ft-window-study .vw-top span:not(.vw-eyebrow){color:#bdcbc1}#ft-window-study .vw-eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.08em}#ft-window-study .vw-demo{background:var(--w-soft);padding:9px 24px;font-size:12px}
+ #ft-window-study .vw-layout{display:grid;grid-template-columns:minmax(0,1fr) 340px}#ft-window-study .vw-work{padding:24px;background:var(--w-work);min-width:0}#ft-window-study .vw-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}#ft-window-study .vw-preview{font-size:12px;color:var(--w-accent)}#ft-window-study .vw-options{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:16px;font-size:12px}#ft-window-study label{display:flex;align-items:center;gap:8px;min-height:36px}#ft-window-study input{width:16px;height:16px;accent-color:var(--w-accent);margin:0;flex-shrink:0}#ft-window-study .vw-scene{display:block;width:100%;height:auto;margin-top:8px;max-height:360px}#ft-window-study .vw-scene-note{font-size:11px;color:var(--w-muted);margin-bottom:18px}
+ #ft-window-study .vw-measures{display:flex;gap:16px;flex-wrap:wrap;border-top:1px solid var(--w-line);padding-top:16px;justify-content:space-between}#ft-window-study .vw-measures span{display:block;color:var(--w-muted);font-size:11px}#ft-window-study .vw-measures strong{display:block;margin-top:4px;font-size:14px;font-variant-numeric:tabular-nums}#ft-window-study .vw-geometry-note{font-size:11px;color:var(--w-muted);margin-top:11px}
+ #ft-window-study .vw-consequences{margin-top:24px}#ft-window-study .vw-consequences h3{margin-bottom:8px}#ft-window-study details{border-bottom:1px solid var(--w-line);font-size:12px}#ft-window-study summary{padding:13px 0}#ft-window-study .vw-consequences summary strong{display:inline-block;margin-left:3px}#ft-window-study .vw-consequences summary span{float:right;font-size:11px;color:var(--w-muted);padding-left:6px}#ft-window-study details p{color:var(--w-muted);margin-bottom:13px}#ft-window-study details p+p{margin-top:8px}
+ #ft-window-study .vw-panel{padding:24px;background:var(--w-paper);border-left:1px solid var(--w-line);min-width:0}#ft-window-study .vw-reference{font-size:11px;color:var(--w-muted);margin-bottom:12px}#ft-window-study .vw-candidates{display:grid;gap:8px}#ft-window-study .vw-candidate{display:flex;align-items:center;gap:12px;padding:11px 9px;text-align:left;color:var(--w-text);border:1px solid var(--w-line);border-radius:8px;background:var(--w-paper);min-height:69px;width:100%}#ft-window-study .vw-candidate[aria-pressed=true]{background:var(--w-soft);border-color:var(--w-accent);box-shadow:inset 0 0 0 1px var(--w-accent)}#ft-window-study .vw-candidate strong{font-size:12px}#ft-window-study .vw-candidate small{display:block;margin-top:3px;color:var(--w-muted);font-size:11px}
+ #ft-window-study .vw-window-symbol{width:41px;height:33px;display:flex;gap:2px;border:3px solid #716a50;background:#716a50;flex-shrink:0}#ft-window-study .vw-window-symbol span{background:#b7d0cd;flex:1}#ft-window-study .vw-infill{padding:3px}#ft-window-study .vw-small{border:5px solid var(--w-line);outline:1px dashed var(--w-muted);outline-offset:0;padding:1px;background:#716a50}
+ #ft-window-study .vw-source-note{font-size:11px;color:var(--w-muted);margin:11px 0 16px}#ft-window-study .vw-design-controls{font-size:12px;border-top:1px solid var(--w-line);padding:10px 0;display:grid;gap:1px}#ft-window-study .vw-climate{border-top:1px solid var(--w-line);padding-top:17px}#ft-window-study .vw-climate-title{display:flex;justify-content:space-between;align-items:center;gap:8px}#ft-window-study .vw-climate-title>span{font-size:11px;color:var(--w-muted)}#ft-window-study .vw-totals{display:flex;justify-content:space-between;gap:10px;margin-top:15px;font-variant-numeric:tabular-nums}#ft-window-study .vw-totals span{display:block;font-size:11px;color:var(--w-muted)}#ft-window-study .vw-totals strong{font-size:24px;letter-spacing:-.03em}#ft-window-study .vw-totals>div:last-child{text-align:right}#ft-window-study .vw-unit{font-size:11px;color:var(--w-muted);margin-top:4px}#ft-window-study .vw-climate-gap{margin-top:13px;font-size:12px}#ft-window-study .vw-function{font-size:11px;margin:9px 0 13px;color:var(--w-muted)}
+ #ft-window-study .vw-breakdown table{width:100%;border-collapse:collapse;font-size:11px;margin:0 0 12px;font-variant-numeric:tabular-nums}#ft-window-study caption{text-align:left;color:var(--w-muted);margin-bottom:7px}#ft-window-study th,#ft-window-study td{text-align:left;padding:5px 0}#ft-window-study th:last-child,#ft-window-study td:last-child{text-align:right}#ft-window-study .vw-conflict{margin-top:13px;padding-left:10px;border-left:3px solid var(--w-accent);font-size:12px}#ft-window-study .vw-actions{display:grid;gap:7px;margin-top:18px}#ft-window-study .vw-actions button{border-radius:7px;padding:12px;font-size:12px}#ft-window-study .vw-keep{background:var(--w-button);color:var(--w-buttontext);border:1px solid var(--w-button);font-weight:600}#ft-window-study .vw-keep:disabled{opacity:.5;cursor:not-allowed}#ft-window-study .vw-reset{background:var(--w-paper);color:var(--w-text);border:1px solid var(--w-line)}#ft-window-study .vw-notice{font-size:11px;color:var(--w-muted);margin-top:12px}
+ @media(max-width:800px){#ft-window-study .vw-layout{grid-template-columns:minmax(0,1fr) 310px}#ft-window-study .vw-work,#ft-window-study .vw-panel{padding:18px}#ft-window-study .vw-consequences summary span{display:block;float:none;padding:3px 0 0 16px}}
+ @media(max-width:620px){#ft-window-study .vw-layout{display:flex;flex-direction:column}#ft-window-study .vw-panel{border-left:0;border-top:1px solid var(--w-line)}#ft-window-study .vw-top{padding-left:18px}#ft-window-study .vw-top>div>span{display:none}#ft-window-study .vw-measures{gap:15px}#ft-window-study .vw-consequences summary span{float:right;padding:0 0 0 5px}#ft-window-study .vw-demo{padding:9px 18px}}
+ @media(pointer:coarse){#ft-window-study label{min-height:44px}}
+</style>
+<script>
+(()=>{
+ const root=document.getElementById('ft-window-study'),q=s=>root.querySelector(s);
+ const choices={
+  new:{name:'Nyt · reference',units:'1 × 2.400 × 1.800 mm',area:4.32,w:240,h:180,parts:[780,70,0,50],room:'Den tegnede åbning bevares. En lodret post deler feltet; placering og brystning er faste i skitsen.',light:'Reference med 4,32 m² udvendigt karmareal. Glasareal og dagslyseffekt er ukendte.',build:'Råhul, understøtning og montagedetaljer skal afklares med et konkret vinduessystem.'},
+  fit:{name:'Genbrug · bevar åbningen',units:'2 × 1.000 × 1.600 mm',area:3.2,w:202,h:160,parts:[200,90,140,70],room:'Åbningens omrids bevares. To genbrugsenheder og tilpasningsfelter ændrer rytme og de synlige felter.',light:'Mindre samlet karmareal: 3,20 m². Lyset kan ikke sammenlignes ud fra karmareal alene; felter og rudedata skal med.',build:'Tilpasningsfelter, samlinger, tætning og beslag skal projekteres. Fiktive enheder er ikke verificerede lagervarer.'},
+  adapt:{name:'Genbrug · tilpas åbningen',units:'2 × 1.000 × 1.600 mm',area:3.2,w:202,h:160,parts:[200,110,90,70],room:'Åbningen bliver mindre, og vægfelterne udvides. Samme to genbrugsenheder bruges uden de ydre tilpasningsfelter.',light:'Karmarealet er som i den anden genbrugsvariant, men lysninger og vægfelter er anderledes. Samme karmareal garanterer ikke samme lysoplevelse.',build:'Stolper, overligger og vægfelter omkring åbningen berøres og kræver afklaring. Ingen bærende ændring er eftervist.'}
+ };
+ const state={choice:'new',lock:true,air:false,shade:false,open:true,kept:null};
+ const look={showRoom:true};
+ const fmt=n=>new Intl.NumberFormat('da-DK',{maximumFractionDigits:2}).format(n);
+ const sig=()=>JSON.stringify([state.choice,state.shade,state.open]);
+ const poly=(pts,fill,stroke='var(--w-line)',sw=1)=>`<polygon points="${pts}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`;
+ function draw(){const c=choices[state.choice],x=320-c.w/2,y=290-c.h;let s='';
+  s+=poly('85,65 555,65 555,335 85,335','var(--w-paper)');s+=poly('0,15 85,65 85,335 0,425','var(--w-line)');s+=poly('555,65 640,15 640,425 555,335','var(--w-line)');s+=poly('85,335 555,335 640,425 0,425','var(--w-soft)');
+  s+='<rect x="200" y="110" width="240" height="180" fill="none" stroke="var(--w-muted)" stroke-dasharray="5 4"/>';
+  if(state.choice==='fit')s+='<rect x="200" y="110" width="240" height="180" fill="#b8a888" stroke="#80765f"/>';
+  s+=`<rect x="${x}" y="${y}" width="${c.w}" height="${c.h}" fill="#b5cfcc" stroke="#726b52" stroke-width="7"/>`;
+  s+=`<path d="M${x+4} ${y+c.h*.68} Q320 ${y+c.h*.46} ${x+c.w-4} ${y+c.h*.68} V${y+c.h-4} H${x+4}Z" fill="#819f8d" opacity=".7"/>`;
+  s+=`<path d="M320 ${y+3}V${y+c.h-3}" stroke="#726b52" stroke-width="${state.choice==='new'?5:7}"/>`;
+  if(state.shade)s+=poly(`${x-12},${y-9} ${x+c.w+12},${y-9} ${x+c.w+28},${y-26} ${x+4},${y-26}`,'#686d59','#575e4c',1);
+  s+=poly('110,345 250,345 280,365 130,365','#af9471','#7d6e55');s+='<path d="M135 365V403M265 365V403" stroke="#7d6e55" stroke-width="5"/>';
+  if(state.open)s+=`<path d="M${x+8} ${y+8}L${x+c.w/2-8} ${y+c.h/2}L${x+8} ${y+c.h-8}" fill="none" stroke="#526e65" stroke-width="1.4"/>`;
+  if(state.air&&state.open)s+='<path d="M190 240Q280 315 450 285" fill="none" stroke="var(--w-accent)" stroke-width="3" stroke-dasharray="8 6"/><path d="M438 277L453 285L441 296" fill="none" stroke="var(--w-accent)" stroke-width="3"/>';
+  q('.vw-drawing').innerHTML=s;q('.vw-scene').style.display=look.showRoom?'block':'none';
+  q('.vw-scene').setAttribute('aria-label',`Rumskitse: ${c.name}. ${state.shade?'Udvendig afskærmning illustreret. ':''}${state.air&&state.open?'Ønsket luftvej tegnet; ingen flowberegning. ':''}Ingen tekniske eftervisninger.`);
+ }
+ function render(){const c=choices[state.choice],reuse=state.choice!=='new',conflict=state.lock&&state.choice==='adapt',total=c.parts.reduce((a,b)=>a+b,0)+(state.shade?50:0),delta=total-900;
+  root.querySelectorAll('[data-choice]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.choice===state.choice)));
+  for(const [cls,key] of [['lock','lock'],['air','air'],['shade','shade'],['open','open']])q('.vw-'+cls).checked=state[key];
+  q('.vw-preview').textContent=c.name;q('.vw-units').textContent=c.units;q('.vw-area').textContent=fmt(c.area)+' m²';q('.vw-room').textContent=c.room;
+  q('.vw-light').textContent=c.light+(state.shade?' Afskærmning er tilføjet som ønske; effekt på lys og varme er ikke beregnet.':' Ingen ekstra udvendig afskærmning er tilføjet til forslaget.');
+  q('.vw-vent').textContent=state.open?'Opluk ønskes, men oplukstype, fri åbning, produktets data og den sammenhængende luftvej er uafklaret.':'Intet opluk er ønsket her. Afklar en anden planlagt luftvej; rummets ventilation er ikke eftervist.';
+  q('.vw-build').textContent=c.build;q('.vw-total').textContent=fmt(total);q('.vw-delta').textContent=(delta<0?'−':delta>0?'+':'')+fmt(Math.abs(delta));
+  q('.vw-climate-gap').textContent=reuse?'Istandsættelse er uafklaret. Den lavere kendte demodelsum er ingen eftervist samlet fordel.':'Ingen produktkilder. Hele livscyklussen er ikke opgjort.';
+  q('.vw-function').textContent=(reuse?'Ændret funktion: mindre karmareal og anden opdeling. ':'')+(!state.open?'Materialefølgen af ændret opluk er ikke opgjort. ':'')+(state.shade?'Afskærmning inkl. beslag er et fiktivt tillæg på 50 kg CO₂e.':'');
+  q('.vw-rows').innerHTML=['Vindue / genbrugsproces','Montage / beslag','Tilpasnings- eller vægfelter','Transport'].map((t,i)=>`<tr><td>${t}</td><td>${fmt(c.parts[i])}</td></tr>`).join('')+(reuse?'<tr><td>Istandsættelse</td><td>Uafklaret</td></tr>':'')+(state.shade?'<tr><td>Afskærmning inkl. beslag</td><td>50</td></tr>':'');
+  q('.vw-conflict').hidden=!conflict;q('.vw-keep').disabled=conflict;q('.vw-keep').textContent=state.kept===sig()?'Beholdt i udkastet':'Behold i udkastet';
+  q('.vw-notice').textContent=conflict?'Genåbn “Bevar åbningen” for at beholde forslaget.':state.kept===sig()?'Forslaget er beholdt her. Ingen modelændring, reservation eller faglig frigivelse.':'Kun undersøgelse · modellen ændres ikke.';
+  q('.vw-scene-note').textContent=state.air?(state.open?'Ønsket luftvej illustreret · ingen luftmængde eller årsdrift eftervist':'Ingen luftvej tegnet: opluk er ikke ønsket. Ventilation er uafklaret.'):'Rumskitse · ingen lys-, temperatur- eller luftberegning';draw();
+ }
+ root.querySelectorAll('[data-choice]').forEach(b=>b.addEventListener('click',()=>{state.choice=b.dataset.choice;render();}));
+ for(const k of ['lock','air','shade','open'])q('.vw-'+k).addEventListener('change',e=>{state[k]=e.target.checked;render();});
+ q('.vw-keep').addEventListener('click',()=>{state.kept=sig();render();});q('.vw-reset').addEventListener('click',()=>{state.choice='new';state.shade=false;state.open=true;state.kept=null;render();});
+render();
+})();
+</script>
+</body>
+</html>

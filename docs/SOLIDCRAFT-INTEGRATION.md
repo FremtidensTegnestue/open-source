@@ -2,7 +2,7 @@
 
 Undersøgelsesnotat, 18. november 2026. **Ingen ny integration er implementeret.**
 
-Et [interaktivt interfaceudkast til beklædningsvalg](../examples/design-ui/README.md) afprøver nu layout, materialevalg og samtidig del-/projektsammenligning. **Alle klimatal er fiktive.** Det er en visuel undersøgelse uden CAD-/Rust-forbindelse, ikke et installerbart plugin eller et valgt slutdesign.
+De [interaktive interfaceudkast](../examples/design-ui/README.md) afprøver nu beklædningsvalg med arkitektonisk fastholdelse, lag/følgeposter og transportfølsomhed samt et samlet vinduesvalg med rumskitse, LCA og åbne fagspørgsmål. **Alle klimatal, opbygninger, partier og mål er fiktive.** Det er visuelle undersøgelser uden CAD-/Rust-forbindelse, ikke installerbare plugins eller valgte slutdesign. Se [produktgrundlag, research og læring](DESIGN-TOOL.md) for den videre undersøgelse af LCA som integreret projekteringsredskab. Udkast og noter er samlet til publicering 19. november 2026; nedenstående tekniske integrationsfund er fortsat bundet til deres angivne kodepunkt/læsedato.
 
 Målet er at markere en bygningsdel i SolidCraft, afprøve alternative løsninger og se virkningen på klimaregnskabet samtidig. Arkitekten vælger frit mellem blandt andet bevaring, reparation, genbrug og nye produkter. Kilder, antagelser og datamangler skal kunne undersøges uden at fylde hele arbejdsfladen.
 
