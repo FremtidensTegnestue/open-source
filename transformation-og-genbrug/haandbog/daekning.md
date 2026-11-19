@@ -1,6 +1,6 @@
 # Dækning, kildekontrol og åbne spørgsmål
 
-Status for første udgave, 19. november 2026. [Læs spørgsmålene i den låste læseprøve](laeseproeve.md). Udgaven bygger videre på de fem projekter og de tematiske fagartikler i den tidligere wiki.
+Status for første udgave, 19. november 2026. [Læs spørgsmålene i den låste læseprøve](laeseproeve.md). [Se agentens svar og de kontrollerede læsesteder](proeveresultat.md). Udgaven bygger videre på de fem projekter og de tematiske fagartikler i den tidligere wiki.
 
 | Beslutninger | Hvad er undersøgt? | Hvad kræver mere end litteratur? |
 | --- | --- | --- |
@@ -10,6 +10,8 @@ Status for første udgave, 19. november 2026. [Læs spørgsmålene i den låste 
 | [Genbrug](genbrug.md) | Donorsted, modtagerkrav, skader, prøvegrundlag, lager, pasform og langtidsopfølgning | Om netop det leverede parti opfylder den nye funktion, og hvorfor dele senere tages ud |
 | [Gammelt og nyt](gammelt-og-nyt.md) | Forsats, isolering, samlinger, ventilation og installationer i en eksisterende bygning | Eksponering, udførelsesdetaljer, førmåling og virkning under faktisk brug |
 | [Klima og ansvar](klima-og-ansvar.md) | Masse og klima, transport, økonomi over tid, alternativ anvendelse, affaldsstatus og nedrivning | Lokalt udbytte, aktuelle priser, afgrænsning af etageareal og konkret myndighedsafgørelse |
+
+De seks kapitler indeholder 64 konkrete beslutningsspørgsmål. Projektkapitlet gennemgår 14 forskellige danske byggesager. [Kilderegisteret for første udgave](../kilder/foerste-udgave.md) forbinder de tilhørende kapitler med 78 offentlige kildeadresser, herunder udgiversider, PDF’er og myndighedstekster.
 
 ## Hvilken ny viden vil ændre et svar?
 
