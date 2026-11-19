@@ -5,8 +5,10 @@ description: Dansk opslagsværk om transformation og genbrug med fagartikler, ge
 tags: [transformation, reuse, retrofit, discussion]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-19T07:44:51.896Z
+    at: 2026-11-19T07:50:48.569Z
 sources:
+  - id: openwiki-source-678884f587ced1a681778868
+    resource: repo://kilder/beboere-og-miljoe.md
   - id: openwiki-source-19e5da57104b6bc4ab7b4818
     resource: repo://kilder/bygningen.md
   - id: openwiki-source-ecccbfde362d27e9c1472c39
@@ -17,7 +19,7 @@ sources:
     resource: repo://oplaeg/vinduer.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "codex", at: "2026-11-19T07:44:51.896Z" }
+generated: { by: "codex", at: "2026-11-19T07:50:48.569Z" }
 ---
 
 # Kom i gang med transformation og genbrug
@@ -50,13 +52,13 @@ På bygningsniveau kan spørgsmålet være, om en ny indretning kan udnytte de e
 
 ## Faglige opslag
 
-- [Fredning, bevaringsværdi og vedligehold](viden/kulturarv.md)
-- [Asbest, PCB, bly og afgrænsning af prøver](viden/miljoefarlige-stoffer.md)
-- [Bærende konstruktioner, træstyrke og branddøre](viden/konstruktioner-og-brand.md)
-- [Dagslys, lyd, ventilation og adgang i boliger](viden/boligkvalitet.md)
-- [Hvad fortæller de danske mængder om genbrug?](viden/danske-maengder.md)
-- [Prøver af mursten og bevarede sanitetsinstallationer](viden/partier-og-installationer.md)
-- [Aftaler, aflevering og dokumentation fra drift](viden/aftaler-og-drift.md)
-- [Skybrud, grundvand og sommervarme](viden/klimatilpasning.md)
+| Emne | Læs videre |
+| --- | --- |
+| Bygningen og menneskene | [Fredning og bevaringsværdi](viden/kulturarv.md) · [Dagslys, lyd, ventilation og adgang](viden/boligkvalitet.md) · [Husleje, genhusning og beboererfaringer](viden/beboere-og-genhusning.md) |
+| Materialet og dets nye funktion | [Asbest, PCB og bly](viden/miljoefarlige-stoffer.md) · [Bæreevne og brand](viden/konstruktioner-og-brand.md) · [Afprøvede mursten og sanitetsinstallationer](viden/partier-og-installationer.md) |
+| Ressourcer og miljø | [Hvor meget genbruger Danmark?](viden/danske-maengder.md) · [Miljø ud over CO₂](viden/miljoe-ud-over-klima.md) · [Skybrud, grundvand og sommervarme](viden/klimatilpasning.md) |
+| Leverance og drift | [Bygherreleverance, funktionsafprøvning og erfaringer efter ibrugtagning](viden/aftaler-og-drift.md) |
+
+**[Hvad ved vi, og hvilke svar mangler?](viden/hvad-ved-vi.md)** Her kan du se, hvor kilderne rækker til en konkret konklusion, og hvor flere undersøgelser kan gøre en forskel.
 
 Viden om en bygningsdel kan komme fra en bestemmelse, en prøve, en besigtigelse eller erfaring med en bygning i brug. Kilderegisteret viser, hvilken type grundlag der er tale om, og hvor man kan læse videre. [Kilder om eksisterende bygninger og deres dele](../kilder/bygningen.md)

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:64b154d1d85e48c5337b6eaae71c5613025bdfbf5d993cee684022b96e02cd4a",
+  "claims": [
+    {
+      "id": "claim_d3c101b9503447f6a268a850ace67556",
+      "statement": "§ 37 knytter urafstemning ved en lejeforhøjelse over 15 procent til krav fra et vedtægtsbestemt antal stemmeberettigede deltagere.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/beboere-og-miljoe.md#L9-L13",
+          "version": "repo-lines-v1:sha256:e1136ba1cf9450af20e65ed8857ecf067734aef4aa93406e26265c0a060201dd:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2U3YmI0MWFiZmYwZjZjODQ2NzI2YWI5OGY2YjIxMGU3MzBiNWQ1ODM5MzQwOTg4N2FmZTI3NGFjNDM2YjlkNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjJkMTUwOTQ5ODEyMTg1NDZhYzQzOGE4YmRmMTQ3M2RmNzE3NWQxY2I4YjYxYTc5YzZkZDg4NWJiNDJkMzYwYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU1NDkxMGMyYmZjODgzNmQ2ZDJhMTViMmVmNDI2MjA0M2U5ZTUxMTlhMjQ5YTQ2ODYzYTQyZDJmOTIzNWIxNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGU3YzkyMDZmMjJlMDJjZGVlNzUxOGE5MjlkZGIzOTgyYzAyZmUyN2UzYWE4NjVhNGJiZWEzMDllMTFmOTg0YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_75f0b3b0d92b4ff7849e8cede0a1b5a4",
+      "statement": "Almenlejeloven og ministeriets vejledning skelner mellem midlertidig og permanent genhusning ved nærmere bestemt ombygning.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/beboere-og-miljoe.md#L15-L19",
+          "version": "repo-lines-v1:sha256:0324708efa1b1e91554c0bca8f42a48eb4f766730350525e5696261ecab63e8c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRhOWYzM2NmZWNlYzZlOWRiMTZiNzVhNTQ1ODkxOTZmMzZkNzlhNzA5YmRmNjdmOWVjYTUwNzRjY2FlMDcwMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmU1ZTY4Y2EwNWQ3NmNhYTJhM2Y1MWE1MjZmMDQwYzE3YzdiN2NhN2UwN2Y3ZTQ3ZDM3Y2M0ZGM3MWQ1ZDg2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWFjYjExNWQ0ZGQ2NmZhYTVhMjkyMGU1YTUxOTRmNWM0ZTRkZWZmM2YyOTc3MTNkYzI4YjRlYTAzODAwYTU5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWQ3OTM5MzdiYjgwYjNmZmYzMzcwMTE0MDVkOGVlMjY2Yjk4ZWI5NTI4NTg1MDcxMDZkMmQ4NjEwZDlkYmFhNCJ9"
+        },
+        {
+          "resource": "repo://kilder/beboere-og-miljoe.md#L49-L53",
+          "version": "repo-lines-v1:sha256:d9f3054ff325904550a6c1ba227034fd2aaee796c489849bac287b66434994fa:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGJlZWI1Mzc0ZmM4ZTE5YWJkZWQ5ZGI2ZDZjNzk4MWI0NjVjNWIwY2YyY2VkYmIwNWZmMTljZTAyZDkwNDc0YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzFlMjM5MDM0MjEwMGJmYjM5ODIyYWExZGExMjg4MmRmZTdhNzY4NzNmYzViZGYzMjE0NTNjYjYzNGY1M2UzNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOWI2MTcwOWUyZWJiNmI4NzAyNDUwZjA5ZjNkZGU5ZmNhZDRmM2Q1ODJjMzY5NDVjNzk1ODRjNDNhMTA5MWNmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_38f4c4b4c7624176bd1ef5468c2dc3da",
+      "statement": "Beboerinterviewene i BUILD 2021:02 belyser erfaringer fra få udvalgte personer og kan ikke i sig selv fastlægge repræsentative andele.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/beboere-og-miljoe.md#L21-L25",
+          "version": "repo-lines-v1:sha256:ee14750de5a712f2b0ab0e96528152df1bea578dd9b398a922698ff2dd81d976:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE3N2RmZDVkZDA5YTQxY2U4ZjM5ODUzZDkyZTllYmZlNzZkMGIxNmRiZDZhN2JjNzNhMjZlNDY4NDA5MGU4MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMxY2JhNzlhNDI2NWI5MWEwMDQwM2FlMmFhMzZiMmMxZjJmZjc3MmEyNjAxYmMzMzI5YTNiZjgwOTNhZDZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzE5NWFhOGYzYjIzMDBkNzRlMjQyMTgwNGQ5Yjg1ODVhNjgzY2MzYTQzZjEwZjk4MjkyOTRjYTUyZDJhYTFmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWI4YjQ1MmFhYzhjY2UzZTg5ZDllMGMzNDc2NjY1MDE3NWUzOTNhYzIxMmQ3NjZkNjcyZGYyYmQzYmRkMzk4NyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.9.0",
+    "at": "2026-11-19T07:50:48.569Z"
+  }
+}

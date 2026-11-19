@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:4c3ed00ed092d9e64eb30d43be37658f8be77507c683ffbbfef473b08354c321",
+  "pageVersion": "sha256:7beb7090c6a4e573e178de5ab6d7277f40a5c894843a43b4bd17e0d8b226ed68",
   "claims": [
     {
       "id": "claim_e09c0474a39448bcaa092916485b9356",
@@ -85,10 +85,28 @@
           "version": "repo-lines-v1:sha256:71fc9ad2fd3c49be4f2cf282cf215d7cc4069e6b880b82c13c7e18ec9058a0ea:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjg2ZGQzNGM0YWYzNjliNWNlMjQyYTlmYTdiNzY0ODNhYzFkN2I2N2U2ZWI1NGU1YTAzOGY2YzdjNWY3MDJhZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZhYzQwMTliZTcwN2NiMzlkZTg5NGFjNjJhMmZiYWU4MThmODk4OGMyZDJjZTQ3MWEyY2Q2M2Y2MGY4YTk3YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjQ4MTQ1MDE1YTYzY2YwMzcxYWNjNDk5YjIwMjA2OTYyNWY1ZjRkMTYzMTU5NTJkNWJiNzg4MWRlYjU0ZDhjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2Q0OTM1MGYyZGEzNGJlODNjOTc5YjUzZjljOTBjMDY4MGJkZjJkNmNjMjJiMmY0MDA3ODlhYTdiMjY0YTVkMCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_e0cfd90d9011480f96c24b813587ae1e",
+      "statement": "Emneindgangen omfatter nu forskning i beboererfaringer og miljøpåvirkninger ud over klima med afgrænsning af resultater fra konkrete cases.",
+      "evidence": [
+        {
+          "resource": "repo://kilder/beboere-og-miljoe.md#L21-L25",
+          "version": "repo-lines-v1:sha256:ee14750de5a712f2b0ab0e96528152df1bea578dd9b398a922698ff2dd81d976:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE3N2RmZDVkZDA5YTQxY2U4ZjM5ODUzZDkyZTllYmZlNzZkMGIxNmRiZDZhN2JjNzNhMjZlNDY4NDA5MGU4MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWMxY2JhNzlhNDI2NWI5MWEwMDQwM2FlMmFhMzZiMmMxZjJmZjc3MmEyNjAxYmMzMzI5YTNiZjgwOTNhZDZiZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzE5NWFhOGYzYjIzMDBkNzRlMjQyMTgwNGQ5Yjg1ODVhNjgzY2MzYTQzZjEwZjk4MjkyOTRjYTUyZDJhYTFmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWI4YjQ1MmFhYzhjY2UzZTg5ZDllMGMzNDc2NjY1MDE3NWUzOTNhYzIxMmQ3NjZkNjcyZGYyYmQzYmRkMzk4NyJ9"
+        },
+        {
+          "resource": "repo://kilder/beboere-og-miljoe.md#L29-L33",
+          "version": "repo-lines-v1:sha256:c66a1578e65e5f20410aae2490eac77152cb70c6f7e5bda9a1eb96040f7921cd:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTJjNWI5Njk1YWFhZTk2NTdhNGIxZDI3N2YxZWNhMzMyYWIyY2Q4ZGE1MzFjYzYyMzJjYjMzMzk2MDEwNGI1NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWJiZGMyMGYxMTNkZGJlMGJiYmE0NTc4MDY1YmE5MGZmYzc2OGFlOWZkOTg0ZGVjNmJhZDZkYjZhZDJhNGM3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWI4YjQ1MmFhYzhjY2UzZTg5ZDllMGMzNDc2NjY1MDE3NWUzOTNhYzIxMmQ3NjZkNjcyZGYyYmQzYmRkMzk4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMThhY2VhMzFjMmQ3ZGUzYzYwMDI2NWJlODM5MDY0YjA4ODM1MjhlNWJkMzY3ZjZjODhiYzA2ZWM4NjRiMTQxZCJ9"
+        },
+        {
+          "resource": "repo://kilder/beboere-og-miljoe.md#L41-L45",
+          "version": "repo-lines-v1:sha256:b495be72143c800db648e80eb84a886d5d1827be714435a155e16feef6c4a371:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDc4ZDE4ZWZhN2I2MzI5Y2QxN2I0MTVjZDI5YjMzMzQ4ODJjNzFlMDdkM2I4MTZjNDY4YWU5OWM1ZTY0MDJkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDRjN2VhM2I1YWRiYTA4N2RiYmUzZjllZDI2YTAzYzk5Y2JlZjAyNTBhNjk3NGVlYzY2ODViYjYxY2JkMmIzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjE3YTMzZmQ0NDk3YWRjMDg1ZDJlOGU4ZDYzM2VjMjkxZGY4ZmRhOWE4OGE0YzI4ZjU0MzYyZWEyMDdhMDYzYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWI2MTcwOWUyZWJiNmI4NzAyNDUwZjA5ZjNkZGU5ZmNhZDRmM2Q1ODJjMzY5NDVjNzk1ODRjNDNhMTA5MWNmYiJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.9.0",
-    "at": "2026-11-19T07:44:51.896Z"
+    "at": "2026-11-19T07:50:48.569Z"
   }
 }
