@@ -149,7 +149,7 @@
       "unknowns": [
         "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
         "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
-        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues-/bygningsLCA."
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
       ]
     },
     {
@@ -286,7 +286,7 @@
       "unknowns": [
         "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
         "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
-        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues-/bygningsLCA."
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
       ]
     }
   ]

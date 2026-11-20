@@ -5,7 +5,7 @@
     "id": "window-core",
     "function": "Samme oplukkelige vinduesfunktion, foreløbig ikke eftervist.",
     "project_kind": "renovation",
-    "intervention": "Ét indgreb nu; materialereferencer, ikke en50årigLCA.",
+    "intervention": "Ét indgreb nu, med nutidige materialereferencer.",
     "model": null
   },
   "indicator": "global_warming_potential",
@@ -189,7 +189,7 @@
       "unknowns": [
         "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
         "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
-        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues-/bygningsLCA."
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
       ]
     },
     {
@@ -393,7 +393,7 @@
       "unknowns": [
         "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
         "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
-        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues-/bygningsLCA."
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
       ]
     },
     {
@@ -570,7 +570,7 @@
       "deliveries": [
         {
           "id": "pane",
-          "name": "Generisk trelagsrude; vægt/false/Uwog egnethed er ikke eftervist.",
+          "name": "Generisk trelagsrude; vægt, false, Uw og egnethed er ikke eftervist.",
           "covers_parts": [
             "pane"
           ],
@@ -596,7 +596,7 @@
       "unknowns": [
         "Tilstand, faktisk rudetype, fastgørelse og kompatible reservedele er ikke undersøgt.",
         "Adgang/arbejde, rengøring, glasbånd/lim, brud, emballage og tilstødende retablering er ikke fuldt kvantificeret.",
-        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues-/bygningsLCA."
+        "Karm-væg-forbindelse og fuldt livscyklusforløb ligger uden for denne vindueskerne; ingen fuld vindues- eller bygnings-LCA."
       ]
     }
   ]

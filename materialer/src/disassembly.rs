@@ -384,6 +384,20 @@ fn assess(
             break;
         }
     }
+    for (id, requested) in &v.actions {
+        if *requested == Action::RepairInPlace {
+            let note = match actions[id] {
+                Action::TemporarilyRemove => {
+                    "Der er bestilt reparation på stedet, men adgang til en anden del kræver, at denne del tages af. Afklar, hvordan den ønskede reparation skal udføres."
+                }
+                Action::Replace => {
+                    "Der er bestilt reparation på stedet, men adgangsplanen kræver udskiftning af denne del. Afklar, om delen skal repareres, eller om udskiftning accepteres."
+                }
+                _ => continue,
+            };
+            issue(&mut issues, "repair_in_place_conflict", id, note);
+        }
+    }
     let mut missing_mass = vec![];
     let (mut retained, mut removed) = (0., 0.);
     for p in &v.parts {
@@ -396,12 +410,19 @@ fn assess(
                 }
             } else {
                 missing_mass.push(p.id.clone());
+                issue(
+                    &mut issues,
+                    "current_mass_missing",
+                    &p.id,
+                    "Delens nuværende masse mangler til beregningen af den bevarede masseandel.",
+                );
             }
         }
     }
-    ensure!(retained.is_finite() && removed.is_finite(), "Mass overflow");
-    let fraction = if missing_mass.is_empty() && retained + removed > 0. {
-        Some(retained / (retained + removed))
+    let total_mass = retained + removed;
+    ensure!(total_mass.is_finite(), "Mass overflow");
+    let fraction = if missing_mass.is_empty() && total_mass > 0. {
+        Some(retained / total_mass)
     } else {
         None
     };
@@ -410,8 +431,9 @@ fn assess(
     let mut totals = BTreeMap::<String, f64>::new();
     let mut coverage = BTreeMap::<String, usize>::new();
     let mut results = vec![];
-    let mut product_complete = v.supplied_inventory_complete;
-    if !product_complete {
+    let mut inventory_complete = v.supplied_inventory_complete;
+    let mut requested_modules_complete = true;
+    if !inventory_complete {
         issue(
             &mut issues,
             "product_inventory_open",
@@ -465,8 +487,9 @@ fn assess(
                     "Incompatible climate indicator in {}",
                     d.id
                 );
-                methods.insert(serde_json::to_string(&r["indicator_method"])?);
-                if r["indicator_method"].is_null() || r["indicator_method"] == "" {
+                let method = r["indicator_method"].as_str().unwrap_or_default().trim();
+                methods.insert(method.to_owned());
+                if method.is_empty() {
                     issue(
                         &mut issues,
                         "climate_method_not_reported",
@@ -495,13 +518,11 @@ fn assess(
             .iter()
             .filter(|m| !reported.contains_key(*m))
             .collect::<Vec<_>>();
-        for m in &req.modules {
-            if reported.contains_key(m) {
-                *coverage.entry(m.clone()).or_default() += 1;
-            }
+        for module in reported.keys() {
+            *coverage.entry(module.clone()).or_default() += 1;
         }
         if !missing.is_empty() {
-            product_complete = false;
+            requested_modules_complete = false;
             issue(
                 &mut issues,
                 "product_data_missing",
@@ -513,7 +534,7 @@ fn assess(
     }
     for (id, a) in &actions {
         if a.supplies() && !covered.contains(id) {
-            product_complete = false;
+            inventory_complete = false;
             issue(
                 &mut issues,
                 "replacement_product_missing",
@@ -523,6 +544,7 @@ fn assess(
         }
     }
     ensure!(totals.values().all(|v| v.is_finite()), "Climate overflow");
+    let product_complete = inventory_complete && requested_modules_complete;
     let total = if product_complete {
         Some(
             req.modules
@@ -573,6 +595,12 @@ fn assess(
         })
         .collect::<BTreeMap<_, _>>();
     let module_coverage=req.modules.iter().map(|m|(m.clone(),json!({"calculated_deliveries":coverage.get(m).copied().unwrap_or(0),"declared_deliveries":v.deliveries.len()}))).collect::<BTreeMap<_,_>>();
+    let d_count = coverage.get("D").copied().unwrap_or(0);
+    let d_coverage = json!({
+        "calculated_deliveries": d_count,
+        "declared_deliveries": v.deliveries.len(),
+        "complete": inventory_complete && d_count > 0 && d_count == v.deliveries.len()
+    });
     Ok(
         json!({"id":v.id,"name":v.name,"equivalence":v.equivalence,"parts":v.parts,"requested_actions":v.actions,
         "proposed_actions":actions,"follow_on_work":follow_on,"disassembly_order":operations,"access_requirements":access_requirements,
@@ -580,7 +608,7 @@ fn assess(
             "scenario_retained_fraction":fraction,"basis":"declared current part masses; not an independently verified reuse percentage"},
         "products":{"inventory_declared_complete":v.supplied_inventory_complete,"data_complete":product_complete,
             "known_totals_by_module":module_totals,"coverage_by_module":module_coverage,
-            "D_separate":totals.get("D"),"total_for_requested_modules":total,"deliveries":results},
+            "D_separate":totals.get("D"),"D_coverage":d_coverage,"total_for_requested_modules":total,"deliveries":results},
         "complete_lifecycle_total":null,"issues":issues}),
     )
 }
@@ -595,7 +623,7 @@ pub fn run(path: &Path, db: &Database, snapshot: &str) -> Result<Value> {
     named(&req.scope.id)?;
     named(&req.scope.function)?;
     named(&req.scope.intervention)?;
-    named(&req.indicator)?;
+    cad::validate_gwp_indicator(&req.indicator)?;
     ensure!(
         !req.modules.is_empty() && !req.variants.is_empty(),
         "Modules and variants are required"
@@ -659,14 +687,32 @@ pub fn run(path: &Path, db: &Database, snapshot: &str) -> Result<Value> {
         "Incompatible climate methods; do not combine declarations"
     );
     let reference = &variants[0];
-    let comparison=variants.iter().map(|v| {
-        let comparable=reference["products"]["data_complete"]==true && v["products"]["data_complete"]==true
-            && reference["equivalence"]["basis"]!="unknown" && v["equivalence"]["basis"]!="unknown"
-            && !methods.contains("null") && !methods.contains("\"\"");
-        let delta=if comparable { Some(v["products"]["total_for_requested_modules"].as_f64().unwrap()-reference["products"]["total_for_requested_modules"].as_f64().unwrap()) } else {None};
-        json!({"variant_id":v["id"],"reference_variant_id":reference["id"],"supplied_products_delta_kg_CO2e":delta,
-            "basis":"conditional supplied-product reference only; excludes intervention processes, operational energy and future generations"})
-    }).collect::<Vec<_>>();
+    let method_known = !methods.contains("");
+    let mut comparison = Vec::with_capacity(variants.len());
+    for variant in &variants {
+        let comparable = method_known
+            && reference["products"]["data_complete"] == true
+            && variant["products"]["data_complete"] == true
+            && reference["equivalence"]["basis"] != "unknown"
+            && variant["equivalence"]["basis"] != "unknown";
+        let delta = if comparable {
+            let product_total = |v: &Value| {
+                v["products"]["total_for_requested_modules"]
+                    .as_f64()
+                    .context("Missing product total")
+            };
+            let difference = product_total(variant)? - product_total(reference)?;
+            ensure!(difference.is_finite(), "Climate difference overflow");
+            Some(difference)
+        } else {
+            None
+        };
+        comparison.push(json!({
+            "variant_id": variant["id"], "reference_variant_id": reference["id"],
+            "supplied_products_delta_kg_CO2e": delta,
+            "basis": "conditional supplied-product reference only; excludes intervention processes, operational energy and future generations"
+        }));
+    }
     let partial = variants
         .iter()
         .any(|v| !v["issues"].as_array().unwrap().is_empty());
@@ -739,9 +785,18 @@ pub fn render(report: &Value) -> String {
             "Tilførte produkter, samlet for de valgte moduler: {}",
             amount(&variant["products"]["total_for_requested_modules"])
         ));
+        let d_coverage = &variant["products"]["D_coverage"];
+        let d_status = if d_coverage["complete"] == true {
+            "fuld dækning"
+        } else {
+            "ufuldstændig dækning"
+        };
         lines.push(format!(
-            "Modul D, særskilt og uden for summen: {}",
-            amount(&variant["products"]["D_separate"])
+            "Modul D, kendt delsum uden for de valgte moduler: {} ({} af {} registrerede leverancer, {}).",
+            amount(&variant["products"]["D_separate"]),
+            d_coverage["calculated_deliveries"],
+            d_coverage["declared_deliveries"],
+            d_status
         ));
         let operations = variant["disassembly_order"].as_array().unwrap();
         if !operations.is_empty() {
@@ -875,6 +930,60 @@ mod tests {
         assert!(text.contains("samlet for de valgte moduler: ukendt"));
     }
     #[test]
+    fn missing_mass_alone_marks_the_assessment_partial() {
+        let mut req = request();
+        req["variants"][0]["parts"][0]["current_mass"] = Value::Null;
+        let r = run_request(&req, &db()).unwrap();
+        let variant = &r["variants"][0];
+        assert_eq!(r["status"], "partial");
+        assert!(variant["issues"].as_array().unwrap().iter().any(|issue| {
+            issue["code"] == "current_mass_missing" && issue["part_id"] == "frame"
+        }));
+        assert!(variant["mass"]["scenario_retained_fraction"].is_null());
+        assert_eq!(variant["products"]["data_complete"], true);
+    }
+
+    #[test]
+    fn separate_d_subtotal_reports_covered_deliveries_and_open_inventory() {
+        let mut req = request();
+        let database = db();
+        let initial = run_request(&req, &database).unwrap();
+        let coverage = &initial["variants"][0]["products"]["D_coverage"];
+        assert_eq!(
+            coverage,
+            &json!({"calculated_deliveries":2,"declared_deliveries":2,"complete":true})
+        );
+
+        req["variants"][0]["deliveries"][1]["gwp_observation_ids"] = json!(["a", "c3", "c4"]);
+        let r = run_request(&req, &database).unwrap();
+        let products = &r["variants"][0]["products"];
+        assert_eq!(products["D_separate"], -4.0);
+        assert_eq!(
+            products["D_coverage"],
+            json!({"calculated_deliveries":1,"declared_deliveries":2,"complete":false})
+        );
+        assert_eq!(
+            products["total_for_requested_modules"],
+            initial["variants"][0]["products"]["total_for_requested_modules"]
+        );
+        assert_eq!(products["data_complete"], true);
+        assert!(render(&r).contains("1 af 2 registrerede leverancer, ufuldstændig dækning"));
+
+        req["variants"][0]["deliveries"][1]["gwp_observation_ids"] = json!(["a", "c3", "c4", "d"]);
+        req["variants"][0]["supplied_inventory_complete"] = json!(false);
+        let r = run_request(&req, &database).unwrap();
+        let products = &r["variants"][0]["products"];
+        assert_eq!(
+            products["D_separate"],
+            initial["variants"][0]["products"]["D_separate"]
+        );
+        assert_eq!(
+            products["D_coverage"],
+            json!({"calculated_deliveries":2,"declared_deliveries":2,"complete":false})
+        );
+    }
+
+    #[test]
     fn grouped_source_modules_are_not_invented_as_separate_c3_c4() {
         let db = db();
         db.execute(
@@ -923,6 +1032,27 @@ mod tests {
         );
     }
     #[test]
+    fn requested_repair_remains_visible_when_access_requires_removal_or_replacement() {
+        let mut req = request();
+        req["variants"][0]["actions"]["bead"] = json!("repair_in_place");
+        req["variants"][0]["actions"]["seal"] = json!("repair_in_place");
+        let r = run_request(&req, &db()).unwrap();
+        assert_eq!(r["status"], "partial");
+        let v = &r["variants"][0];
+        assert_eq!(v["proposed_actions"]["bead"], "temporarily_remove");
+        assert_eq!(v["proposed_actions"]["seal"], "replace");
+        for id in ["bead", "seal"] {
+            assert_eq!(v["requested_actions"][id], "repair_in_place");
+            assert!(v["issues"].as_array().unwrap().iter().any(|issue| {
+                issue["code"] == "repair_in_place_conflict" && issue["part_id"] == id
+            }));
+        }
+        let text = render(&r);
+        assert!(text.contains("Afklaring (bead): Der er bestilt reparation på stedet"));
+        assert!(text.contains("Afklaring (seal): Der er bestilt reparation på stedet"));
+    }
+
+    #[test]
     fn destructive_access_creates_a_replacement_gap_and_unknown_release_stays_open() {
         let mut req = request();
         req["variants"][0]["parts"][2]["joints"][0]["outcome"] = json!("destructive");
@@ -932,6 +1062,20 @@ mod tests {
         req["variants"][0]["parts"][2]["joints"][0]["outcome"] = json!("unknown");
         assert_eq!(run_request(&req, &db()).unwrap()["status"], "partial");
     }
+    #[test]
+    fn preservation_alone_still_requires_a_climate_indicator() {
+        let mut req = request();
+        req["variants"][0]["actions"] = json!({});
+        req["variants"][0]["deliveries"] = json!([]);
+        req["indicator"] = json!("density");
+        assert!(
+            run_request(&req, &db())
+                .unwrap_err()
+                .to_string()
+                .contains("GWP indicator")
+        );
+    }
+
     #[test]
     fn wrong_quantity_source_indicator_and_overlapping_modules_fail_without_fallback() {
         let mut req = request();

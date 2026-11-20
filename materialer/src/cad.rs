@@ -4,6 +4,7 @@ mod extract;
 mod fields;
 mod mesh;
 use anyhow::{Context, Result, bail, ensure};
+pub(crate) use calculation::validate_gwp_indicator;
 pub use calculation::{calculate, normalize};
 use clap::ValueEnum;
 pub use extract::extract;

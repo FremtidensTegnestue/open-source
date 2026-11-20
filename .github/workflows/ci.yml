@@ -59,6 +59,19 @@ jobs:
           diff -u data/releases/coverage-public-v0.3.0.json /tmp/ft-coverage.json
           target/release/ft-materials verify
           target/release/ft-materials calculate examples/requests/environmental-1000kg.json | jq -e '.value == 429.5'
+      - name: Check both window examples against the public edition
+        run: |
+          for name in existing-window new-build-window; do
+            request="examples/disassembly/$name.json"
+            report="$RUNNER_TEMP/$name.json"
+            status=0
+            target/release/ft-materials disassembly "$request" > "$report" || status=$?
+            test "$status" -eq 2
+            jq -e '.status == "partial" and .winner == null and all(.variants[]; .complete_lifecycle_total == null)' "$report"
+            target/release/ft-materials disassembly "$request" --check "$report" | jq -e '.current'
+          done
+          jq -e '.variants[] | select(.id == "repair") | .products.known_totals_by_module["A1-A3"] | ((. - 0.36471079) | fabs) < 0.000001' "$RUNNER_TEMP/existing-window.json"
+          jq -e '(.variants | map(.proposed_actions.beads)) == ["temporarily_remove", "replace"] and all(.variants[]; (.products.known_totals_by_module["A1-A3"] - 71.43004994 | fabs) < 0.000001)' "$RUNNER_TEMP/new-build-window.json"
       - name: Package tested Linux x86-64 binary
         run: tar -C target/release -czf ft-materials-linux-x86_64.tar.gz ft-materials
       - uses: actions/upload-artifact@v4

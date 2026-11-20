@@ -2,7 +2,7 @@
 
 **DfD er et tilvalg.** Værktøjets almindelige materiale-, klima-, pris- og budgetarbejde forudsætter ikke DfD. Brugeren vælger det for et projekt eller bestemte bygningsdele. Særlige DfD-konstruktioner og deres pris-/materialefølger indføres kun i det valgte omfang. De eksisterende DfD-eksempler er forsøg, ikke standardkonstruktioner for nye projekter.
 
-`ft-materials disassembly` vurderer konkrete indgreb på bygningsdele. Kommandoen kan bruges ved nybyggeri, renovering og transformation. Funktionen findes i kildekoden, men er ikke med i den oprindeligt udgivne v0.3.0-binærfil.
+`ft-materials disassembly` vurderer konkrete indgreb på bygningsdele. Kommandoen kan bruges ved nybyggeri, renovering og transformation. Funktionen kan bygges fra `main`, men er ikke med i den oprindeligt udgivne v0.3.0-binærfil.
 
 Du beskriver delene, deres forbindelser og det ønskede indgreb. Programmet udvider adgangsplanen med berørte dele, viser nødvendige erstatninger og beregner tilførte produkter med den eksisterende Rust-beregner. Det ændrer ikke CAD-modellen og udsteder ikke teknisk godkendelse.
 
@@ -77,7 +77,7 @@ Adgangsafhængigheder udvides, indtil planen er stabil. Cykliske adgangskrav afv
 
 ### Handlinger og materialer
 
-`actions` forbinder del-ID'er med `retain`, `repair_in_place`, `temporarily_remove`, `remove`, `replace` eller `install`. Ikke nævnte, tilstedeværende dele foreslås bevaret. En ikke-tilstedeværende del kræver en eksplicit installation. Reparation på stedet åbner ikke automatisk alle delens forbindelser.
+`actions` forbinder del-ID'er med `retain`, `repair_in_place`, `temporarily_remove`, `remove`, `replace` eller `install`. Ikke nævnte, tilstedeværende dele foreslås bevaret. En ikke-tilstedeværende del kræver en eksplicit installation. Reparation på stedet åbner ikke automatisk alle delens forbindelser. Hvis andre arbejder kræver, at den samme del tages af eller erstattes, viser rapporten den oprindelige bestilling, den foreslåede handling og den konflikt, der skal afklares.
 
 `deliveries` er tilførte produkter med ID, navn, `covers_parts`, eksplicit `material_id`, mængde/enhed/evidens og valgte GWP-observations-ID'er. En manglende mængde er `null`. Forkert enhed, materialekobling eller indikator giver fejl fra den eksisterende beregner uden fallback. Samme del må ikke dækkes af både et komplet produkt og en ekstra produktberegning; overlappende `covers_parts` afvises. Separate slid-/overfladelag registreres som selvstændige dele, når de tilføres særskilt.
 
@@ -87,10 +87,10 @@ Adgangsafhængigheder udvides, indtil planen er stabil. Cykliske adgangskrav afv
 
 Standardoutput er JSON med foreslåede handlinger, følgearbejder, adgangsafhængigheder, kildeberegninger og konkrete mangler. `--text` viser samme vurdering på dansk.
 
-- Ukendt gammel masse giver ingen bevaret masseprocent. En beregnet andel er et scenarie ud fra de angivne masser, ikke en eftervist genbrugsprocent.
+- Manglende masse for en oprindelig del giver status `partial` og en ukendt bevaret masseprocent. En beregnet andel er et scenarie ud fra de angivne masser, ikke en eftervist genbrugsprocent.
 - `known_totals_by_module` viser kun den kendte produktdelsum og ledsages af leverancedækning. Et modul uden beregnede leverancer er `null`; et kendt nul fra kilden bevares som nul. En fuldt erklæret situation uden nye produkter kan have nul produktbidrag uden at være en nul-LCA.
 - Samlet produktreference kræver alle ønskede moduler og tilstrækkelig registrering. Et samlet C1–C4-tal fordeles ikke til C3/C4. Overlappende moduler afvises.
-- Modul D vises særskilt og tælles aldrig med i summen. Negative kildetal ændres ikke til nul.
+- Modul D vises særskilt. `D_separate` er den kendte delsum for de leverancer, der har D. `D_coverage` angiver antal oplyste og registrerede leverancer, og om hele inventaret har D-dækning. Negative kildetal ændres ikke til nul.
 - En produktdifference beregnes kun med deklareret funktionel sammenlignelighed, komplet produktdækning og ens, oplyst klimametode. Fx mangler BR-referencernes `method`-felt i den aktive dataudgave: faktorerne kan beregnes, men denne kommando laver ikke automatisk en variantdifference på det grundlag.
 - `complete_lifecycle_total` og `winner` er altid `null`. Der tilføjes ingen undgået belastning, fremtidig genbrugskredit eller samlet grøn score.
 

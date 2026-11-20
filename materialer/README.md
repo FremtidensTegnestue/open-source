@@ -26,7 +26,7 @@ Du kan allerede:
 - **Læse modeller fra SolidCraft og BIMCraft**, afprøve ændringer og få en oversigt over manglende oplysninger.
 - **Lade en AI-agent hjælpe med arbejdet**, mens materialevalg, kilder og antagelser forbliver synlige.
 
-En kildebygget CLI kan også **undersøge reparation og adskillelse**: foreslå nødvendige adgangs-/erstatningsposter og beregne tilførte produkter med samme Rust-motor. [Prøv vindues- og nybyggerieksemplerne](docs/DISASSEMBLY.md). Dette er en afgrænset indgrebsvurdering, ikke en ny bygnings-LCA eller et installeret SolidCraft-panel.
+En CLI bygget fra `main` kan også **undersøge reparation og adskillelse**: foreslå nødvendige adgangs-/erstatningsposter og beregne tilførte produkter med samme Rust-motor. [Prøv vindues- og nybyggerieksemplerne](docs/DISASSEMBLY.md). Dette er en afgrænset indgrebsvurdering, ikke en ny bygnings-LCA eller et installeret SolidCraft-panel.
 
 **Prisarbejdet skal give overslag og et grundlag for tilbudssammenligning og prisforhandling.** Første afgrænsede import og budgetberegning findes i Python. [Prøv flere leverandører med testdata](examples/pricing/README.md), eller [læs grundlaget](docs/PRICING.md). Ingen virkelig leverandørforbindelse er aktiveret. DfD er et frivilligt tilvalg og er ikke en forudsætning for materiale-, klima- eller økonomiarbejdet.
 
