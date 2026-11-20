@@ -27,12 +27,12 @@ fn dictionary_and_real_evidence_use_the_same_subjects() {
     let root = tmp.path();
     let fields = run(root, &["fields"]);
     let dictionary = fields["fields"].as_array().unwrap();
-    assert_eq!(dictionary.len(), 158);
+    assert_eq!(dictionary.len(), 169);
     let ids = dictionary
         .iter()
         .map(|f| f["field_id"].as_str().unwrap())
         .collect::<std::collections::HashSet<_>>();
-    assert_eq!(ids.len(), 158);
+    assert_eq!(ids.len(), dictionary.len());
     assert!(
         dictionary
             .iter()
@@ -157,11 +157,11 @@ fn dictionary_and_real_evidence_use_the_same_subjects() {
     );
     assert_eq!(b["fields"][0]["subjects_not_recorded"], 1);
     assert_eq!(b["fields"][0]["subjects_reported"], 0);
-    let pair = root.join("field-sources");
+    let pair = root.join("mechanics-sample");
     fs::create_dir(&pair).unwrap();
     write(
         &pair.join("summary.json"),
-        &json!({"dataset":"field-sources","materials":1,"sources":1,"observations":1,"facts":1}),
+        &json!({"dataset":"mechanics-sample","materials":1,"sources":1,"observations":1,"facts":1}),
     );
     write(
         &pair.join("sources.jsonl"),
@@ -189,13 +189,15 @@ fn dictionary_and_real_evidence_use_the_same_subjects() {
             "--supplement",
             "wood",
             "--supplement",
-            "field-sources",
+            "mechanics-sample",
         ],
     );
     let paired = run(root, &["facts", "paired", "--field", "density"]);
     assert_eq!(paired["total_records"], 1);
     assert_eq!(paired["records"][0]["value"], 570);
     assert_eq!(paired["records"][0]["observation_id"], "d1:observation");
+    let ids = run(root, &["facts", "paired", "--field", "observation_id"]);
+    assert_eq!(ids["records"][0]["value"], "d1:observation");
     let pair_meta = run(root, &["facts", "paired", "--field", "reported_value"]);
     assert_eq!(pair_meta["total_records"], 1);
     let pair_count = run(

@@ -1,0 +1,21 @@
+This README file was generated on 2024-03-28 by Janem Novákem.
+Last updated: 2024-03-28
+---------------------------
+GENERAL INFORMATION
+---------------------------
+1. Title of Dataset: Fatigue Resistance of Concrete Revisited: Wide Range Data from Low-cycle to High-cycle and Influence of Aggregate on Fatigue Lifetimes
+
+2. DOI: 10.5281/zenodo.15633218
+
+3. Contact information
+   Name: Petr Miarka
+   Institution: Institute of Physics of Materials, CAS, Zizkova 22, Brno, Czech Republic
+   Email: miarka@ipm.cz
+   ORCID:0000-0002-4103-8617
+
+4. Date of data collection: 2025-10-02
+
+5. Geographic location: Brno
+
+6. Description of dataset: 
+This is a dataset for the paper: Fatigue Resistance of Concrete Revisited: Wide Range Data from Low-cycle to High-cycle and Influence of Aggregate on Fatigue Lifetimes

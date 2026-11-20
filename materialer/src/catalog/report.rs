@@ -97,7 +97,7 @@ impl Page<'_> {
 const DIRECT_RECORD: &str = "SELECT f.id,f.field_id,f.source_id,f.source_locator,f.value_json,f.unit,
     f.conditions_json,f.value_status,json_extract(f.metadata_json,'$.missing_reason') AS missing_reason,
     s.source_version_id,s.url AS source_url,
-    (SELECT o.id FROM observations o WHERE o.id=f.id||':observation' AND o.dataset_id='field-sources'
+    (SELECT o.id FROM observations o WHERE o.id=f.id||':observation'
      AND o.material_id=f.material_id AND o.source_id=f.source_id AND o.source_locator=f.source_locator
      AND o.property=f.field_id) AS observation_id
     FROM catalog_facts f JOIN unified_sources s ON s.id=f.source_id WHERE f.id=?";

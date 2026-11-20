@@ -53,10 +53,10 @@ jobs:
           target/release/ft-materials collect-field-sources
           target/release/ft-materials collect-heating
           git diff --exit-code -- data/supplements/field-sources data/supplements/ens-varme
-          target/release/ft-materials build --expect "$(jq -r '.editions.public.snapshot' data/releases/unified-v0.3.0.json)"
-          target/release/ft-materials fields | jq -e '.count == 158'
+          target/release/ft-materials build --expect "$(jq -r '.editions.public.snapshot' data/releases/mechanics-2026-11-20.json)"
+          target/release/ft-materials fields | jq -e '.count == 169'
           target/release/ft-materials coverage > /tmp/ft-coverage.json
-          diff -u data/releases/coverage-public-v0.3.0.json /tmp/ft-coverage.json
+          diff -u data/releases/coverage-public-mechanics-2026-11-20.json /tmp/ft-coverage.json
           target/release/ft-materials verify
           target/release/ft-materials calculate examples/requests/environmental-1000kg.json | jq -e '.value == 429.5'
       - name: Check both window examples against the public edition

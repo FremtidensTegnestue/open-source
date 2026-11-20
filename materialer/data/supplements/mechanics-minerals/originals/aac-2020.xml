@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">materials</journal-id>
+      <journal-title-group>
+        <journal-title>Materials</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Materials</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Materials</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1996-1944</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ma13071680</article-id>
+      <article-id pub-id-type="publisher-id">materials-13-01680</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Fundamental Properties and Thermal Transferability of Masonry Built by Autoclaved Aerated Concrete Self-Insulation Blocks</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-3747-5168</contrib-id>
+          <name>
+            <surname>Li</surname>
+            <given-names>Fenglan</given-names>
+          </name>
+          <xref rid="af1-materials-13-01680" ref-type="aff">1</xref>
+          <xref rid="af2-materials-13-01680" ref-type="aff">2</xref>
+          <xref rid="c1-materials-13-01680" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Gonglian</given-names>
+          </name>
+          <xref rid="af1-materials-13-01680" ref-type="aff">1</xref>
+          <xref rid="af2-materials-13-01680" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Yunyun</given-names>
+          </name>
+          <xref rid="af2-materials-13-01680" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hao</surname>
+            <given-names>Yongchang</given-names>
+          </name>
+          <xref rid="af2-materials-13-01680" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Si</surname>
+            <given-names>Zhengkai</given-names>
+          </name>
+          <xref rid="af3-materials-13-01680" ref-type="aff">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-materials-13-01680"><label>1</label>School of Civil Engineering and Communication, North China University of Water Resources and Electric Power, Huayuan Campus, No. 36 Beihuan Road, Zhengzhou 450045, China; <email>chengonglian@ncwu.edu.cn</email></aff>
+      <aff id="af2-materials-13-01680"><label>2</label>International Joint Research Lab for Eco-building Materials and Engineering of Henan, North China University of Water Resources and Electric Power, Zhengzhou 450045, China; <email>zhangyyun1990@163.com</email> (Y.Z.); <email>silence_is_gold666@163.com</email> (Y.H.)</aff>
+      <aff id="af3-materials-13-01680"><label>3</label>Henan Xing&#x2019;an New Building Materials CO., LTD, Xingyang National Electric Industrial Park, Zhengzhou 450000; China; <email>sizhengkai@hnxan.com</email></aff>
+      <author-notes>
+        <corresp id="c1-materials-13-01680"><label>*</label>Correspondence: <email>lifl64@ncwu.edu.cn</email>; Tel.: +86-371-6912-7378</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>03</day>
+        <month>04</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>04</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>7</issue>
+      <elocation-id>1680</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>02</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>31</day>
+          <month>03</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2020 by the authors.</copyright-statement>
+        <copyright-year>2020</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This paper performed a detailed study on the fundamental properties and thermal conductivity of autoclaved aerated concrete (AAC) self-insulation block, and the mechanical properties and heat transfer resistance of the AAC self-insulation block masonry. Different kinds of joints and the plastering surface were used to build the masonry specimens. The distinctive feature of the blocks and mortars is the lower thermal conductivity with expected strength. Compared to those with larger thickness of insulation mortar joints, the masonry with thin-layer mortar joints had better compressive performance and lower shear strength. The compressive strength of masonry was related with the block and mortar strengths, the shear strength of masonry along mortar joints was related with the mortar strength. The stress&#x2013;strain relationship of masonry in compression could be predicted by the similar expression of conventional block masonry. The tested heat transfer coefficient of AAC self-insulation block masonry with thickness of 250 mm without plastering surfaces was (0.558 &#xB1; 0.003) W/(m<sup>2</sup>&#xB7;K). With the plastering surfaces, the heat transfer coefficient reduced by 4.4% to 8.9%. Good agreements in values of heat transfer coefficient existed by using the test, theoretical computation and ANSYS (ANSYS Inc. Canonsburg, PA, USA) analytical methods. Based on the extensibility analyses, the heat transfer coefficients of AAC self-insultation block masonry with different thickness are proposed. The best thickness is proposed for the outer walls of residential buildings in different cold zone to meet the design requirement of energy conservation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>autoclave aerated concrete (AAC)</kwd>
+        <kwd>self-insulation block</kwd>
+        <kwd>masonry</kwd>
+        <kwd>fundamental property</kwd>
+        <kwd>thermal conductivity</kwd>
+        <kwd>heat transfer coefficient</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-materials-13-01680" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>In the past century, research and production technology of autoclaved aerated concrete (AAC) have been constantly developed. With the feature of integrated performance in thermal insulation, fireproofing and durability, AAC becomes a green lightweight building material [<xref ref-type="bibr" rid="B1-materials-13-01680">1</xref>,<xref ref-type="bibr" rid="B2-materials-13-01680">2</xref>,<xref ref-type="bibr" rid="B3-materials-13-01680">3</xref>]. In China, to meet the design standard of the 65% energy-saving buildings with class-A fireproof ability, AAC has popularly applied to construct the self-supporting walls as partition or filled in the frame structures and the bearing walls of low-rise civil buildings [<xref ref-type="bibr" rid="B4-materials-13-01680">4</xref>,<xref ref-type="bibr" rid="B5-materials-13-01680">5</xref>,<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>]. </p>
+      <p>Based on the literature, a variety of important researches on AAC have performed to investigate the composition and microstructures affected by the constituent materials, quartz particle size, autoclaving process and the dry&#x2013;wet circulation of service environment. The basic performances including density, water absorption, strength, drying shrinkage, freeze&#x2013;thaw resistance as well as the thermal insulation properties were also studied [<xref ref-type="bibr" rid="B1-materials-13-01680">1</xref>,<xref ref-type="bibr" rid="B3-materials-13-01680">3</xref>,<xref ref-type="bibr" rid="B7-materials-13-01680">7</xref>,<xref ref-type="bibr" rid="B8-materials-13-01680">8</xref>,<xref ref-type="bibr" rid="B9-materials-13-01680">9</xref>,<xref ref-type="bibr" rid="B10-materials-13-01680">10</xref>,<xref ref-type="bibr" rid="B11-materials-13-01680">11</xref>,<xref ref-type="bibr" rid="B12-materials-13-01680">12</xref>,<xref ref-type="bibr" rid="B13-materials-13-01680">13</xref>,<xref ref-type="bibr" rid="B14-materials-13-01680">14</xref>,<xref ref-type="bibr" rid="B15-materials-13-01680">15</xref>]. AAC is commonly produced through molding and autoclaved aeration process of constituent materials including cement, lime, sand, water and aluminum powder. At present with the needs of environmental protection, the raw materials changed to be various industrial by-products and other wastes mainly containing silicon and calcium [<xref ref-type="bibr" rid="B3-materials-13-01680">3</xref>,<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>]. The industrial by-products included fly ash, silica fume, bottom ash and iron ore tailing, copper tailing, blast furnace slag, coal gauge [<xref ref-type="bibr" rid="B16-materials-13-01680">16</xref>,<xref ref-type="bibr" rid="B17-materials-13-01680">17</xref>,<xref ref-type="bibr" rid="B18-materials-13-01680">18</xref>,<xref ref-type="bibr" rid="B19-materials-13-01680">19</xref>]. A study indicated that using rice husk ash as partial replacement for fine aggregate reduced the strength and density of AAC with a tendency to reduce the autoclaving time and autoclaving temperature required [<xref ref-type="bibr" rid="B20-materials-13-01680">20</xref>]. Another effort was done to enhance the mechanical properties especially fracture toughness and promote the thermal insulation performance of AAC by using the wood fiber and the rubber powder [<xref ref-type="bibr" rid="B21-materials-13-01680">21</xref>]. The thermal conductivity of AAC was linear with the substitution of sand with equal volume fibers, the higher thermal conductivity got from the substituting of basalt fiber, the best compressive and flexural strengths got due to the reinforcement of carbon fiber [<xref ref-type="bibr" rid="B22-materials-13-01680">22</xref>]. Whatever the constituent materials used, the core concern is the thermal insulation of AAC with the premise of sufficient strength and durability. </p>
+      <p>Normally, the thermal conductivity of AAC block varies from 0.1 to 0.7 W/(m&#xB7;K) for density of 400&#x2013;1700 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B3-materials-13-01680">3</xref>]. In China, the thermal conductivity of AAC block applied in civil building varies from 0.13 to 0.22 W/(m&#xB7;K) for density of 400&#x2013;700 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>]. As per China codes [<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>,<xref ref-type="bibr" rid="B23-materials-13-01680">23</xref>,<xref ref-type="bibr" rid="B24-materials-13-01680">24</xref>], the thickness of the outer walls built by AAC blocks should be no less than 400 mm and 300 mm, respectively for residential buildings in the severe cold zone and the cold zone. This faces a challenge to reduce the thermal conductivity of AAC blocks to reduce the wall thickness. An effective method is filling AAC with phase changed materials [<xref ref-type="bibr" rid="B25-materials-13-01680">25</xref>,<xref ref-type="bibr" rid="B26-materials-13-01680">26</xref>]. This paper follows another route of improving the production technology to get the AAC with a lower thermal conductivity. To identify this new AAC, it is called as the AAC self-insulation block.</p>
+      <p>As an indispensable component of the masonry, the mortar joints play an important role in the loading and thermal transferring [<xref ref-type="bibr" rid="B27-materials-13-01680">27</xref>,<xref ref-type="bibr" rid="B28-materials-13-01680">28</xref>]. Normally, the loading performance of AAC block masonry is enhanced by the mortar joints due to the higher strength of mortar, while the thermal resistance of AAC block masonry is reduced due to the formation of a microthermal bridge through the mortar joints. Based on a case study, the energy consumption of masonry with insulation mortar could reduce by 21.5% [<xref ref-type="bibr" rid="B29-materials-13-01680">29</xref>]. The tensile and shear strength of masonry are greatly affected by the bond strength of block-mortar interface formed with different mortars [<xref ref-type="bibr" rid="B29-materials-13-01680">29</xref>]. Therefore, it is valuable to develop the thermal insulation masonry mortar. By replacing the river sand with lightweight sand, the thermal conductivity of mortar reduced by 25.9% to 46.5% [<xref ref-type="bibr" rid="B30-materials-13-01680">30</xref>]. By using ordinary silicate cement, fly ash, river sand, water retaining agent and dispersed latex powder, a thin-layer masonry mortar with thickness of mortar joint from 3 mm to 5 mm was developed [<xref ref-type="bibr" rid="B31-materials-13-01680">31</xref>]. However, the validity of the mortars used for the masonry with AAC self-insulation blocks needs to be further studied. </p>
+      <p>At present, based on investigations of mechanical properties and thermal insulation performance of conventional AAC block masonry, the masonry structures can be designed in accordance with the standard specifications [<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>,<xref ref-type="bibr" rid="B27-materials-13-01680">27</xref>,<xref ref-type="bibr" rid="B28-materials-13-01680">28</xref>,<xref ref-type="bibr" rid="B29-materials-13-01680">29</xref>,<xref ref-type="bibr" rid="B32-materials-13-01680">32</xref>,<xref ref-type="bibr" rid="B33-materials-13-01680">33</xref>,<xref ref-type="bibr" rid="B34-materials-13-01680">34</xref>]. A composite wall with the AAC block masonry filled in and completely linked with the lightweight concrete frame was proposed by Gao et al. [<xref ref-type="bibr" rid="B35-materials-13-01680">35</xref>]. This provides a feasible technical solution for the loading combination in relation with the thermal insulation of AAC block masonry with lightweight concrete. A new attempt is to apply AAC in the seismic and energy retrofit of reinforced concrete framed buildings by the replacement of the external layer of double-leaf infill walls made of hollow bricks. With the improvement of seismic resistance, the energy demand can be reduced by 10% and 4% for heating and cooling, respectively [<xref ref-type="bibr" rid="B36-materials-13-01680">36</xref>]. However, in view of the thermal transfer properties of AAC block masonry, less experimental studies except numerical analyses were performed [<xref ref-type="bibr" rid="B27-materials-13-01680">27</xref>,<xref ref-type="bibr" rid="B37-materials-13-01680">37</xref>,<xref ref-type="bibr" rid="B38-materials-13-01680">38</xref>]. </p>
+    </sec>
+    <sec id="sec2-materials-13-01680">
+      <title>2. Research Significance</title>
+      <p>The AAC self-insulation block with a smaller thermal conductivity and the special masonry mortar were developed to meet the requirement of building energy conservation. However, as a new product, there is lack of the research on the fundamental properties of the block masonry in cooperation with the heat transfer property [<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>,<xref ref-type="bibr" rid="B32-materials-13-01680">32</xref>]. This is not conductive to the promotion of AAC self-insulation blocks due to no reliable data in standards. To bridge this gap, a detailed experimental study was conducted to determine the fundamental properties and the thermal transferability of the AAC self-insulation block, masonry mortars, plastering mortar and masonry. Test results are presented in this paper. Meanwhile, the design parameters and predictive formulas for the compressive strength and stress&#x2013;strain relationship, the shear strength along mortar joints, and the heat transfer coefficient of AAC self-insulation block masonry are proposed.</p>
+    </sec>
+    <sec id="sec3-materials-13-01680">
+      <title>3. Experimental Work</title>
+      <sec id="sec3dot1-materials-13-01680">
+        <title>3.1. Production of AAC Self-Insulation Block</title>
+        <p>The specific mix proportion for a batch of AAC self-insulation blocks was 2900 kg pulverized coal ash slurry with a diffusion degree at 390&#x2013;400 mm, 100 kg plaster paste, 330 kg lime, 260 kg ordinary silicate cement of 42.5 strength grade, 3.5 kg aluminum paste and 800 mL foam stabilizer. </p>
+        <p>To produce AAC self-insulation blocks, the constitute materials are firstly prepared. The lime is prehomogenized with complete internal reaction for a period of time after ground, and the aluminum paste is dissolved in water at room temperature to be aluminum liquid. Then the slurry is made with a diffusion degree of 280 mm at temperature of 40.2 &#xB0;C. The slurry is cast into the mould preheated at temperature of 50 &#xB0;C and stands for 31 min at temperature of 64 &#xB0;C to complete the process of foaming, thickening and hardening. After demolding, the blocks are placed into the autoclave for steam-curing for 3 h under the pressure of 1.0 MPa and the temperature of 185 &#xB0;C. The blocks were 600 mm long, 300 mm height and 250 mm thick. As per the regulation of size deviation and appearance [<xref ref-type="bibr" rid="B5-materials-13-01680">5</xref>], the blocks belong to superior class product. </p>
+      </sec>
+      <sec id="sec3dot2-materials-13-01680">
+        <title>3.2. Preparation of Mortars</title>
+        <p>Two kinds of masonry mortar were made of cement and sand by admixing water retaining agent and other additives. One was the thin-layer mortar used for the joints with thickness of 5 mm, in engineering it is commonly suitable for the superior product of blocks. The dry materials of thin-layer masonry mortar were market supplied [<xref ref-type="bibr" rid="B31-materials-13-01680">31</xref>]. The mass proportion of dry mortar materials to water was 1:0.48; the mixing time was about 5 min. Another was the insulation mortar used for the joints of qualified product of blocks with a thickness of 10 mm. The insulation mortar was made of thin-layer mortar admixed with expanded perlite and vitrified microsphere to reduce the heat loss of mortar joint. The mass proportion of dry mortar materials: expanded perlite and vitrified microsphere: water of 1:0.15:0.46, the mixing time was about 4 min.</p>
+        <p>The plastering mortar was prepared by admixing the polypropylene fiber with volume fraction of 0.04% into the thin-layer mortar. The function of polypropylene fiber is to prevent shrinkage cracking of plastering surfaces.</p>
+      </sec>
+      <sec id="sec3dot3-materials-13-01680">
+        <title>3.3. Tests for Fundamental Properties</title>
+        <p>The tests for fundamental properties of the AAC self-insulation blocks were in accordance with China code GB 11969 [<xref ref-type="bibr" rid="B39-materials-13-01680">39</xref>]. The standard cubic specimens with dimension of 100 mm were cut from the blocks. The dry density, moisture content, water absorption and compressive strength were measured. The loading direction was perpendicular to the curing steam direction of blocks. Tests were conducted on 100 kN hydraulic pressure tester with the loading speed of 0.15 kN/s. The tester was manufactured by Sansi Testing Machine and Equipment Co. Ltd., Tianjin, China.</p>
+        <p>The tests for fundamental properties of mortars were in accordance with China code JGJ/T 70 [<xref ref-type="bibr" rid="B40-materials-13-01680">40</xref>]. The dry density, segregation degree, compressive strength, bond strength, setting time at penetration resistance of 0.5 MPa, freeze-thaw resistance after 25 cycles and linear shrinkage were measured respectively by using the standard methods.</p>
+        <p>The tests for basic mechanical performances of AAC insulation block masonry were in accordance with China code GB/T 50129 [<xref ref-type="bibr" rid="B41-materials-13-01680">41</xref>]. As presented in <xref ref-type="fig" rid="materials-13-01680-f001">Figure 1</xref>a, the compressive strength, deformation, crack pattern and failure modes of the masonry were measured. </p>
+        <p>The axial deformation along the height and the transversal deformations at the middle height of the specimen were measured by two meters. Six masonry specimens, three per group, were built with the thin-layer mortar. Six masonry specimens, three per group, were built with the insulation mortar. As presented in <xref ref-type="fig" rid="materials-13-01680-f001">Figure 1</xref>b, the shear strength along mortar joints, deformation, crack pattern and failure modes of the masonry were measured. The shear deformation at the middle height of the specimen was measured by a meter. Six masonry specimens, three per group, were built with the thin layer mortar. Six masonry specimens, three per group were built with the insulation mortar. </p>
+        <p>The masonry specimens were covered by the plastic film for moisturizing and curing the mortar joints after construction. This remained for 28 days before testing.</p>
+      </sec>
+      <sec id="sec3dot4-materials-13-01680">
+        <title>3.4. Tests for Thermal Transferability</title>
+        <p>As per China code GB 10295 which equals to ISO 8301 [<xref ref-type="bibr" rid="B42-materials-13-01680">42</xref>], the one-dimensional steady-state heat flow method was used to measure the thermal conductivity of AAC self-insulation block and mortars. The heat flow meter was used as the test machine [<xref ref-type="bibr" rid="B15-materials-13-01680">15</xref>,<xref ref-type="bibr" rid="B30-materials-13-01680">30</xref>,<xref ref-type="bibr" rid="B43-materials-13-01680">43</xref>,<xref ref-type="bibr" rid="B44-materials-13-01680">44</xref>]. The plate specimens, two of them per trial, were 300 mm long and 300 mm wide, 50 mm thick for the block and 30 mm thick for mortars. The specimens of the block were cut from the block products. The specimens of mortars were prepared by casting in steel moulds.</p>
+        <p>As mentioned above, two kinds of mortar were used to construct the specimens of the block masonry. Three specimens per group were built respectively with the thin-layer mortar and the insulation mortar. The other group was built with the horizontal thin-layer mortar joints accompanied the vertical joints filled with elastic rock wool and sealed by the outside mortar. The product of elastic rock wool was market supplied with the dry density of 85 kg/m<sup>3</sup>, and the thermal conductivity of 0.12 W/(m&#xB7;K). <xref ref-type="fig" rid="materials-13-01680-f002">Figure 2</xref> presents the construction of the block masonry specimens.</p>
+        <p>To ensure better bonding between the mortar and the blocks, the joint surfaces of the blocks were wetted by spraying water. The mortar joints were covered by plastic film for 28 days before testing. After tested for heat transfer coefficient, all specimens were plastered with the plastering mortar as displayed in <xref ref-type="fig" rid="materials-13-01680-f002">Figure 2</xref>d. After maintaining for 28 days, the heat transfer coefficient of each specimen was measured again. </p>
+        <p><xref ref-type="table" rid="materials-13-01680-t001">Table 1</xref> presents the details of AAC self-insulation block masonry specimens for the testing of thermal conductivity.</p>
+        <p>Of which the environmental relative humidity was the value at the time of starting test, the monthly environmental relative humidity at the curing stage of the specimens was 57% in May, 55% in June and 68% in July. The heat transfer performance of the specimens was measured during June and July.</p>
+        <p>The heat transfer coefficient of AAC self-insulation block masonry was measured by using WTRZ series testing machine produced by Shenyang Weite Co. Ltd., Liaoning, China. As per China code GB 10294, which is similar to ISO 8302 [<xref ref-type="bibr" rid="B45-materials-13-01680">45</xref>], the schematic diagram of the test method of the guarded hot plate apparatus is exhibited in <xref ref-type="fig" rid="materials-13-01680-f003">Figure 3</xref>. </p>
+        <p>The hot and cold boxes simulate the room condition and the external condition in winter, the measured area is 1.2 m &#xD7; 1.2 m. The test machine and the installed specimen are exhibited in <xref ref-type="fig" rid="materials-13-01680-f004">Figure 4</xref>. </p>
+        <p>The specimen is installed in the mid-box between the hot and the cold, then the three boxes are tightened by the lock devices. After few hours of operation, the test system reaches steady state entirely, the air temperatures and surface airflow speeds on the two sides of specimen, the temperature of the protection chest can be measured. When the power <italic>Q</italic><sub>P</sub> of electric heater is inputted in the hot box, the heat quantity <italic>Q</italic><sub>1</sub> transmitted through the specimen can be measured. Finally, the heat transfer coefficient and total specific heat resistance of the specimen can be computed [<xref ref-type="bibr" rid="B46-materials-13-01680">46</xref>]. In this study, the temperature of hot and cold boxes was 30 &#xB0;C and &#x2212;10 &#xB0;C.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-materials-13-01680">
+      <title>4. Fundamental Properties</title>
+      <sec id="sec4dot1-materials-13-01680">
+        <title>4.1. Fundamental Properties of AAC Block</title>
+        <p>The dry density, moisture content, water absorption and compressive strength of AAC blocks are presented in <xref ref-type="table" rid="materials-13-01680-t002">Table 2</xref>. </p>
+        <p>The dry density of the block is 558 kg/m<sup>3</sup>, the moisture content is 1.3%, the water absorption rate is 63.5%, and the compressive strength is 4.0 MPa. The specimens presented higher brittleness during the loading process of compression. Visible cracks appeared when the load reached about 50% ultimate, then the cracks irregularly developed until the specimens damaged at the ultimate load. This outlines the lightweight feature of AAC self-insulation block with large porosity. The high-water absorption needs to take care of by covering water-proofing films before constructions.</p>
+      </sec>
+      <sec id="sec4dot2-materials-13-01680">
+        <title>4.2. Fundamental Properties of Mortars</title>
+        <p>The tested fundamental properties of masonry mortars and plastering mortar are presented in <xref ref-type="table" rid="materials-13-01680-t003">Table 3</xref>. </p>
+        <p>The strength grade of masonry mortars fits the M7.5 as per China code GB 50003 [<xref ref-type="bibr" rid="B32-materials-13-01680">32</xref>] and is adapted to be applied for AAC self-insulation block masonry.</p>
+      </sec>
+      <sec id="sec4dot3-materials-13-01680">
+        <title>4.3. Compression Performance of AAC Block Masonry</title>
+        <p>As presented in <xref ref-type="fig" rid="materials-13-01680-f005">Figure 5</xref>, three parts of the stress&#x2013;strain curves reflect the loading performance of the AAC self-insulation block masonry in compression. </p>
+        <p>The first linear part represents the elastic body of masonry before the short cracks initially appeared on the vertical mortar joint at 58%~75% peak stress. The second nonlinear part accompanies the extending of the initial crack up and down to the blocks until they went through the blocks. At the end, the stress reached the ultimate. After that is the third part: the cracks developed rapidly and divided the masonry into a plurality of column body, which crushed or became instable, then the whole masonry crushed as exhibited in <xref ref-type="fig" rid="materials-13-01680-f006">Figure 6</xref>.  </p>
+        <p>Test results of featured values of the AAC block masonry under compression are presented in <xref ref-type="table" rid="materials-13-01680-t004">Table 4</xref>, of which the modulus of elasticity <italic>E</italic> is the secant modulus on stress&#x2013;strain curve at a stress of 0.4<italic>&#x3C3;</italic><sub>p</sub>, and &#x3B5;<sub>0</sub> is the strain corresponding to the peak-stress <italic>&#x3C3;</italic><sub>p</sub>.</p>
+        <p>The Poisson&#x2019;s ratio is computed by the tested transversal deformation. Due to the transversal expansion increased with the axial compressive stress, the Poisson&#x2019;s ratio <italic>&#x3BD;</italic> was taking in corresponding to the stress of 0.4<italic>&#x3C3;</italic><sub>p</sub>. </p>
+        <p>Based on the modification of the formula of compressive strength for aerated concrete block masonry [<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>,<xref ref-type="bibr" rid="B32-materials-13-01680">32</xref>], the compressive strength <italic>f</italic><sub>c,m</sub> of AAC self-insulation block masonry can be calculated by Formula (1). The average ratio of tested to calculated compressive strength is 1.015, with a dispersion coefficient of 0.014.
+        <disp-formula id="FD2-materials-13-01680"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mrow><mml:mi mathvariant="normal">c</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0.52</mml:mn><mml:msubsup><mml:mi>f</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mn>0.46</mml:mn></mml:mrow></mml:msubsup><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mn>0.07</mml:mn><mml:msub><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula> where <italic>f</italic><sub>c,m</sub> is the compressive strength of the masonry (MPa), <italic>f</italic><sub>1</sub> is the strength of the block (MPa), <italic>f</italic><sub>2</sub> is the strength of masonry mortar (MPa).</p>
+        <p>The modulus of elasticity of the block masonry with thin-layer mortar joints is 1.42 times of that with insulation mortar joints, and the Poisson&#x2019;s ratio of the former is 1.13 times of the later. This is due to the direct connection of the blocks by thinner joints of thin-layer mortar. A slight effect of mortars was exerted due to the higher strength than that of AAC blocks.</p>
+        <p>Based on the stress&#x2013;strain model proposed by Mander et al. [<xref ref-type="bibr" rid="B47-materials-13-01680">47</xref>,<xref ref-type="bibr" rid="B48-materials-13-01680">48</xref>], the stress&#x2013;strain curve for the AAC self-insulation block masonry under uniaxial compression is expressed as follows:<disp-formula id="FD3-materials-13-01680"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mrow><mml:mi mathvariant="normal">c</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:mrow></mml:msub><mml:mfenced><mml:mrow><mml:mfrac><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced><mml:mi>&#x3B3;</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x3B3;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mfenced><mml:mrow><mml:mfrac><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mi>&#x3B3;</mml:mi></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD4-materials-13-01680"><label>(3)</label><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B3;</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub></mml:mrow><mml:mo>/</mml:mo><mml:mrow><mml:mfenced><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>sec</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>E</italic><sub>m</sub> is the average elastic modulus of the masonry, <italic>E</italic><sub>sec</sub> is the secant modulus with the ratio of <italic>f</italic><sub>c,m</sub> to <italic>&#x3B5;</italic><sub>0</sub>.</p>
+        <p>Another unified compressive stress&#x2013;strain model used for all kinds of masonry in China code [<xref ref-type="bibr" rid="B32-materials-13-01680">32</xref>] is also applied for the AAC self-insulation block masonry, which is expressed as follows:<disp-formula id="FD5-materials-13-01680"><label>(4)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>&#x3BE;</mml:mi><mml:msqrt><mml:mrow><mml:msub><mml:mstyle mathsize="140%" displaystyle="true"><mml:mi>f</mml:mi></mml:mstyle><mml:mrow><mml:mrow><mml:mi mathvariant="normal">c</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mi>ln</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:msub><mml:mstyle mathsize="140%" displaystyle="true"><mml:mi>f</mml:mi></mml:mstyle><mml:mrow><mml:mrow><mml:mi mathvariant="normal">c</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula> where <italic>&#x3BE;</italic> is the coefficient related to the elastic properties of masonry. </p>
+        <p>The stress&#x2013;strain curves of the block masonry computed by Formula (2) with average tested values of <italic>f</italic><sub>c,m</sub>, <italic>E</italic><sub>m</sub> and <italic>&#x3B5;</italic><sub>0</sub> are exhibited in <xref ref-type="fig" rid="materials-13-01680-f005">Figure 5</xref>. Good fitness is obtained for the ascending portion of the curve, and better trends can be predicted although a large deviation exists at the descending portion. Meanwhile, <xref ref-type="fig" rid="materials-13-01680-f005">Figure 5</xref> also presents the calculation results of Formula (4) with <italic>&#x3BE;</italic> = 620; a greater difference exists for the masonry with thin-layer mortar joints after the stress is over 0.5<italic>&#x3C3;</italic><sub>p</sub>.</p>
+      </sec>
+      <sec id="sec4dot4-materials-13-01680">
+        <title>4.4. Shear Performance of AAC block Masonry</title>
+        <p>Generally, the masonry with higher shear strength has lower shear strain along the mortar joints. The AAC block masonry damaged in brittle under shear peak-load, most of them had cracks along the two sides mortar joints before the failure took place. <xref ref-type="fig" rid="materials-13-01680-f007">Figure 7</xref> presents two special failure modes of specimens under shear, of which specimens S1-3 and S2-5 failed along one side of the mortar joint accompanied with the bending fracture of the middle blocks. This led to the higher shear strength as presented in <xref ref-type="table" rid="materials-13-01680-t005">Table 5</xref>.</p>
+        <p>Opposite to the changes of compressive strength, the average shear strength of the masonry with thin-layer mortar joints is smaller than that with insulation mortar joints. Meanwhile, the dispersion coefficient of the former is smaller than that of the latter. This indicates the importance of good bond between mortar and blocks for the shear resistance. The block surfaces bonded well and remained entirety with a larger thickness of insulation mortar joints, which provided good condition of shear along the mortar joints. </p>
+        <p>Based on the modification of the formula of shear strength for aerated concrete block masonry [<xref ref-type="bibr" rid="B32-materials-13-01680">32</xref>], the average shear strength of AAC self-insulation block masonry can be predicted as follows:  <disp-formula id="FD6-materials-13-01680"><label>(5)</label><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mrow><mml:mi mathvariant="normal">v</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mn>5</mml:mn></mml:msub><mml:msqrt><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>f</italic><sub>v,m</sub> is the average shear strength of the masonry (MPa); <italic>k</italic> is the coefficient related to the mortar joints. <italic>k</italic> = 0.105 for the masonry with insulation mortar joints, and <italic>k</italic> = 0.084 for the masonry with thin-layer mortar joints.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-materials-13-01680">
+      <title>5. Thermal Transferability</title>
+      <sec id="sec5dot1-materials-13-01680">
+        <title>5.1. Test Results</title>
+        <p>The test results of heat transfer coefficient of the masonry are presented in <xref ref-type="table" rid="materials-13-01680-t006">Table 6</xref>. </p>
+        <p>Without the plastering surfaces, the AAC self-insulation block masonry had the heat transfer coefficient of (0.558 &#xB1; 0.003) W/(m<sup>2</sup>&#xB7;K). This indicates the slight influence of different mortar joints on the thermal insulation of the masonry. With the plastering surfaces, the heat transfer coefficient of the masonry reduced by 4.4% to 8.9%. This indicates that the plastering mortar benefits to rise the thermal resistance of the masonry. Moreover, the results provide another foundation of masonry construction having similar thermal insulation. This provides a selection of the convenient and fast construction for AAC self-insulation block masonry with the thin-layer mortar joints, the insulation mortar joints or the horizontal mortar joints with vertical joints filled by rock wool.</p>
+      </sec>
+      <sec id="sec5dot2-materials-13-01680">
+        <title>5.2. Theoretical Computed Results</title>
+        <p>Without the plastering surfaces, the AAC self-insulation block masonry composed with blocks and mortar joints, as presented in <xref ref-type="fig" rid="materials-13-01680-f008">Figure 8</xref>. </p>
+        <p>The thermal resistance is calculated by parallel mode due to the micro-thermal bridge effect of mortar joints [<xref ref-type="bibr" rid="B2-materials-13-01680">2</xref>,<xref ref-type="bibr" rid="B49-materials-13-01680">49</xref>]. Taking the blocks, mortar joints and rock wool as the single-layer homogeneous materials, the heat transfer resistances <italic>R</italic> can be computed as,
+        <disp-formula id="FD7-materials-13-01680"><label>(6)</label><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mi>&#x3B4;</mml:mi><mml:mo>/</mml:mo><mml:mi>&#x3BB;</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>&#x3B4;</italic> is the layer thickness of material (m); <italic>&#x3BB;</italic> is the thermal conductivity of material [W/(m&#xB7;K)].</p>
+        <p>The heat transfer resistance <italic>R</italic><sub>0</sub> of the masonry can be calculated as [<xref ref-type="bibr" rid="B2-materials-13-01680">2</xref>,<xref ref-type="bibr" rid="B49-materials-13-01680">49</xref>],
+        <disp-formula id="FD8-materials-13-01680"><label>(7)</label><mml:math display="block" id="mm7"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mi>A</mml:mi><mml:mo>/</mml:mo><mml:mrow><mml:mfenced><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>jh</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>jh</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>jv</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>jv</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mi mathvariant="normal">b</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi mathvariant="normal">b</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>R</italic><sub>jh</sub>, <italic>R</italic><sub>jv</sub>, <italic>R</italic><sub>b</sub> are the heat transfer resistance of horizontal joints, vertical joints and blocks, respectively (m<sup>2</sup>&#xB7;K/W); <italic>A</italic><sub>jh</sub>, <italic>A</italic><sub>jv</sub>, <italic>A</italic><sub>b</sub> are the area of horizontal mortar joints, vertical mortar joints and blocks, respectively (m<sup>2</sup>); <italic>A</italic> is the total area of the masonry (m<sup>2</sup>), <italic>A</italic> = <italic>A</italic><sub>jh</sub> + <italic>A</italic><sub>jv</sub> + <italic>A</italic><sub>b</sub>.</p>
+        <p>With the plastering surfaces, the plaster layers are regarded as the layered homogeneous material, the heat transfer resistance <italic>R</italic><sub>p</sub> is also computed by Formula (5). The heat transfer resistance of the masonry with plastering is calculated by a series model as follows [<xref ref-type="bibr" rid="B2-materials-13-01680">2</xref>,<xref ref-type="bibr" rid="B49-materials-13-01680">49</xref>]
+        <disp-formula id="FD9-materials-13-01680"><label>(8)</label><mml:math display="block" id="mm8"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>in</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi mathvariant="normal">p</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>ex</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>R</italic><sub>in</sub>, <italic>R</italic><sub>ex</sub> are the heat transfer resistance of internal surface and external surface. </p>
+        <p>The heat transfer coefficient <italic>K</italic><sub>0</sub> [W/(m<sup>2</sup>&#xB7;K)] of the masonry is calculated as,
+        <disp-formula id="FD10-materials-13-01680"><label>(9)</label><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Under dry condition, the tested thermal conductivity of the self-insulating block, the insulation mortar, the thin-layer mortar and the plaster mortar was 0.11 W/(m&#xB7;K), 0.19 W/(m&#xB7;K), 0.50 W/(m&#xB7;K) and 0.50 W/(m&#xB7;K), respectively. However, the thermal conductivity of AAC block increases with the increase of moist content [<xref ref-type="bibr" rid="B15-materials-13-01680">15</xref>,<xref ref-type="bibr" rid="B44-materials-13-01680">44</xref>,<xref ref-type="bibr" rid="B50-materials-13-01680">50</xref>], the increment is about 0.02 W/(K&#xB7;m) for AAC with dry density of 350&#x2013;450 kg/m<sup>3</sup> when the moist content is within 9% at environment temperature 20 &#xB0;C and <italic>RH</italic> = 80% [<xref ref-type="bibr" rid="B44-materials-13-01680">44</xref>]; the increment is about 20% for AAC with dry density of 400&#x2013;600 kg/m<sup>3</sup> when the moist content is within 10% at environment temperature of 20 &#xB0;C and <italic>RH</italic> = 20&#x2013;40% [<xref ref-type="bibr" rid="B15-materials-13-01680">15</xref>]. Therefore, in the theoretical computations, the thermal conductivity of above materials was taken as 0.13 W/(m&#xB7;K), 0.23 W/(m&#xB7;K), 0.60 W/(m&#xB7;K) and 0.58 W/(m&#xB7;K), respectively.</p>
+        <p>Take <italic>R</italic><sub>in</sub> = 0.10 (m<sup>2</sup>&#xB7;K/W) and <italic>R</italic><sub>ex</sub> = 0.01 (m<sup>2</sup>&#xB7;K/W) based on the test data, the theoretical computed values of heat transfer coefficient are presented in <xref ref-type="table" rid="materials-13-01680-t007">Table 7</xref>. </p>
+        <p>The heat transfer coefficient computed was almost lower than tested, and larger difference from 6.5% to 11.2% took place on the specimens without plastering while less difference from 1.7% to 8.8% took place on the specimens with plastering. This is due to the thermal bridge effect of mortar joints and rock wool with higher thermal conductivity than AAC self-insulation blocks. The exposed mortar joints had a higher thermal bridge than the plastered mortar joints. Accompanied with the uniform distribution of heat transferred from hot side surface through the plastering mortar, the thermal bridge effect can be weakened by the plastering layer. Meanwhile, the largest difference between tested and computed heat transfer coefficient took place on the specimens with vertical joints filled by rock wool. This may be due to the filling quality in this test only relied on the compression from the blocks on the two sides of mortar joint. If the rock wool is bonded to the blocks by adhesive, the thermal bridge effect of rock wool should be reduced.</p>
+      </sec>
+      <sec id="sec5dot3-materials-13-01680">
+        <title>5.3. Analytical Values by ANSYS</title>
+        <p>The two-dimensional analysis method is often used to analyze the thermal properties of walls, ignoring the influence of thermal conductivity of vertical mortar joints on the heat transfer coefficient of masonry wall. By using the ANSYS (ANSYS Inc. Canonsburg, PA, USA) 3D thermal analysis technology, the influence of horizontal and vertical mortar joints on heat transfer resistance of masonry wall can be comprehensively dealt with. The steady state heat transfer model of the masonry wall is built on the hypotheses of one-dimensional variation of temperature and symmetrical heat transfer. </p>
+        <p>The blocks and mortar joints are divided into three-dimensional 8-node four-side SOLID70 elements, each node has one degree of temperature freedom. According to the energy conservation principle, the initial conditions and the boundary conditions, the heat balance equation is built for each node of SOLID70 element. Therefore, the temperature, heat flux gradient and heat flux density of each node are obtained.</p>
+        <p>In the ANSYS model, the tested temperature of hot and cold sides at 30 &#xB0;C and &#x2212;10 &#xB0;C, and the tested thermal conductivity of AAC self-insulating block and insulation mortar, thin-layer mortar, plaster mortar of 0.13 W/(m&#xB7;K), 0.23 W/(m&#xB7;K), 0.60 W/(m&#xB7;K) and 0.58 W/(m&#xB7;K) were taken into account. The convective heat transfer coefficients at high and low temperatures were 9 W/(m<sup>2</sup>&#xB7;K) and 25 W/(m<sup>2</sup>&#xB7;K). The distribution nephograms of heat flux density and temperature gradient can be got. The average surface temperature and heat flux of the high and low temperature sides can be calculated by extracting their data of nodes. Then the heat transfer coefficient can be calculated by the average heat flux divided by the difference of average surface temperature between the two sides. Taking M1= specimen as an example, the average surface temperatures at high and low temperature sides are 27.63 &#xB0;C and &#x2212;9.13 &#xB0;C, the average heat flux is 20.40 W/m<sup>2</sup>, then the heat transfer coefficient is 0.555 W/(m<sup>2</sup>&#xB7;K). Similarly, the heat transfer coefficient of the masonry under different conditions can be obtained.</p>
+        <p>The ANSYS analytical results of heat transfer coefficient are presented in <xref ref-type="table" rid="materials-13-01680-t007">Table 7</xref>. Compared with the experimental, good agreement with average ratio of 1.002 is given out with slight differences. This provides a reliable method by using the ANSYS simulation to get the thermal transfer property of AAC self-insulation block masonry. </p>
+      </sec>
+    </sec>
+    <sec id="sec6-materials-13-01680" sec-type="discussion">
+      <title>6. Discussion</title>
+      <sec id="sec6dot1-materials-13-01680">
+        <title>6.1. Loading Capactity of Masonry</title>
+        <p>The AAC self-insulation blocks had the compressive strength of 4.0 MPa, the dry density of 558 kg/m<sup>3</sup>, the moisture content of 1.3%, the water absorption rate of 63.5%. Based on the specification in China code GB 11968 [<xref ref-type="bibr" rid="B5-materials-13-01680">5</xref>], the block belongs to the superior product with class of strength A5.0 and density B06. The lower thermal conductivity of 0.11 W/(m&#xB7;K) than the limit of 0.16 W/(m&#xB7;K) provides a salient feature of the block masonry with higher thermal resistance. </p>
+        <p>With rational compressive stress&#x2013;strain relationship, the AAC self-insulation block masonry has compressive strength relied on the strengths of block and mortar, and the shear strength along mortar joints relied on the mortar strength. Without any doubt, the AAC self-insulation block masonry has enough self-supporting capacity and is adaptable to be used for the bearing walls of masonry structure buildings. The loading performances of AAC self-insulation block masonry under compression and shear along joints are similar with those of block masonry specified in design code for masonry structures [<xref ref-type="bibr" rid="B6-materials-13-01680">6</xref>,<xref ref-type="bibr" rid="B32-materials-13-01680">32</xref>].</p>
+      </sec>
+      <sec id="sec6dot2-materials-13-01680">
+        <title>6.2. Thermal Trasfer of Masonry</title>
+        <p>No obvious difference of heat transfer coefficient exists on the AAC self-insulation block masonry with three kinds of joints. This gives a selection of joints for the convenient constructions. The joints can be made with the insulation mortar and the thin-layer mortar, or with the horizontal mortar joint with vertical rock wool joint. </p>
+        <p>The study provides the heat transfer coefficients of AAC self-insulation block masonry without plastering. This is to verify the function of plastering mortar on the thermal resistance. Generally, the test specimens with plastering had a reduced heat transfer coefficient about 5%. In view of that the plastering is part of the construction, the heat transfer coefficient of AAC self-insulation block masonry with plastering is proposed for building design of energy conservation.</p>
+      </sec>
+      <sec id="sec6dot3-materials-13-01680">
+        <title>6.3. Thermal Design of Masonry Walls</title>
+        <p>The extensibility analyses are performed to get the heat transfer coefficient of AAC self-insulation block masonry with different thickness of blocks. The plastering mortar is 5 mm thick. The blocks are produced with standard thickness of 150 mm, 180 mm, 200 mm, 250mm and 300 mm. The walls with thickness of 360 mm and 400 mm are composited by the blocks with thickness of 180 mm and 200 mm. Results of proposed heat transfer coefficient are presented in <xref ref-type="table" rid="materials-13-01680-t007">Table 7</xref>. </p>
+        <p>The validity of AAC self-insulation block masonry used for the outer wall of residential buildings to meet the energy conservation of China codes JGJ 26 [<xref ref-type="bibr" rid="B23-materials-13-01680">23</xref>] and JGJ 134 [<xref ref-type="bibr" rid="B24-materials-13-01680">24</xref>] is also indicated in <xref ref-type="table" rid="materials-13-01680-t007">Table 7</xref>. </p>
+        <p>The best thickness of the blocks applied for the outer wall of residential buildings with different storeys in different energy conservation zones are proposed. Generally, the AAC self-insulation block masonry can be applied for almost all the residential buildings except those with less of 3 storeys in the severe cold zones A and B. The AAC self-insulation block masonry with thickness no less than 300 mm can be applied for the outer wall of residential buildings with no less than 9 storeys. </p>
+      </sec>
+    </sec>
+    <sec id="sec7-materials-13-01680" sec-type="conclusions">
+      <title>7. Conclusions</title>
+      <p>Based on the study of this paper, conclusions can be drawn as follows:<list list-type="order"><list-item><label>(1)</label><p>The superior products of the AAC self-insulation block were prepared with the compressive strength of 4.0 MPa and the dry density of 558 kg/m<sup>3</sup>. The AAC self-insulation block had a thermal conductivity of 0.11 W/(m&#xB7;K). This is smaller than the limit of 0.16 W/(m&#xB7;K) of conventional AAC block with similar strength and density.</p></list-item><list-item><label>(2)</label><p>Two kinds of masonry mortar and a plastering mortar were prepared for the AAC self-insulation block masonry. The fundamental properties of them were measured by experiments. The feature of the mortars is the lower thermal conductivity with expected strength. The thermal conductivity of the thin-layer mortar and the insulation mortar was 0.50 W/(m&#xB7;K) and 0.19 W/(m&#xB7;K), respectively. The thermal conductivity of plastering mortar was 0.48 W/(m&#xB7;K).</p></list-item><list-item><label>(3)</label><p>The loading performances of AAC self-insulation block masonry under compression and shear along mortar joints are like that of the masonry with conventional blocks. The compressive strength of AAC self-insulation block masonry can be computed by the formula with the strengths of the block and mortar. The shear strength along mortar joints can be computed by the formula in relation with the mortar strength.</p></list-item><list-item><label>(4)</label><p>The heat transfer coefficient of AAC self-insulation block masonry can be determined with good agreement by the tests, the theoretical computation and the ANSYS analysis. A little deviation exists due to the difference of mortar joints including the thin-layer mortar joints, the insulation mortar joints and the horizontal mortar joints with filled vertical joints by rock wool. Therefore, the masonry can be built by any of each kind of mortar joints for the convenience of construction.</p></list-item><list-item><label>(5)</label><p>The heat transfer coefficient of AAC self-insulation block masonry wall with block thickness differing from 150 mm to 400 mm are proposed. Compared with the specification of China codes, the best thickness of AAC self-insulation block masonry is suggested for the outer wall of residential buildings in the severe cold zone, the cold zone and the hot summer and cold winter zone.</p></list-item></list></p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Methodology, F.L. and G.C.; investigation and writing&#x2014;original draft preparation, Y.Z., Y.H. and Z.S.; writing&#x2014;review and editing, G.C. and F.L.; funding acquisition, F.L. and G.C. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>The study was financially supported by the Industry&#x2013;University&#x2013;Research Cooperation Project of Henan Province, China (152107000040), the Key Scientific Research Projects in Universities of Henan, China (19A560012), the Science and Technology Plan of Zhengzhou City, Henan Province, China (153PXXCY183), and the Key Scientific and Technological Research Projects of Henan, China (192102310017).</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors of this paper would like to say thanks to Shunbo Zhao for his guidance as the leader of the research team.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-materials-13-01680">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narayanan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ramamurthy</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and properties of aerated concrete: A review</article-title>
+          <source>Cem. Concr. Compos.</source>
+          <year>2000</year>
+          <volume>22</volume>
+          <fpage>321</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0958-9465(00)00016-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-materials-13-01680">
+        <label>2.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Housing and Urban-Rural Construction of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Thermal Design Code for Civil Building</source>
+          <comment>GB 50176-2016</comment>
+          <publisher-name>China Building Industry Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2016</year>
+        </element-citation>
+      </ref>
+      <ref id="B3-materials-13-01680">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qu</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>X.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Previous and present investigations on the components, microstructure and main properties of autoclaved aerated concrete- a review</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2017</year>
+          <volume>135</volume>
+          <fpage>505</fpage>
+          <lpage>516</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2016.12.208</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-materials-13-01680">
+        <label>4.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G.L.</given-names>
+            </name>
+          </person-group>
+          <source>Reinforced Concrete Wall Composited with Internal Insulation Layer</source>
+          <publisher-name>China Water Power Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B5-materials-13-01680">
+        <label>5.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>General Administration of Quality Supervision of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Autoclaved Aerated Concrete Block</source>
+          <comment>GB11968-2006</comment>
+          <publisher-name>Standards Press of China</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-materials-13-01680">
+        <label>6.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Housing and Urban-Rural Construction of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Technical Specification for Application of Autoclaved Aerated Concrete</source>
+          <comment>JGJ/T17-2008</comment>
+          <publisher-name>China Building Industry Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B7-materials-13-01680">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Isu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ishida</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mitsuda</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of quartz particle size on the chemical and mechanical properties of autoclaved aerated concrete (I) tobermorite formation</article-title>
+          <source>Cem. Concr. Res.</source>
+          <year>1995</year>
+          <volume>25</volume>
+          <fpage>243</fpage>
+          <lpage>248</lpage>
+          <pub-id pub-id-type="doi">10.1016/0008-8846(95)00003-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-materials-13-01680">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Isu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ishida</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mitsuda</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of quartz particle size on the chemical and mechanical properties of autoclaved aerated concrete (II) fracture toughness, strength and micropore</article-title>
+          <source>Cem. Concr. Res.</source>
+          <year>1995</year>
+          <volume>25</volume>
+          <fpage>249</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="doi">10.1016/0008-8846(95)00004-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-materials-13-01680">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramamurthy</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Narayanan</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of composition and curing on drying shrinkage of aerated concrete</article-title>
+          <source>Mater. Struct.</source>
+          <year>2000</year>
+          <volume>33</volume>
+          <fpage>243</fpage>
+          <lpage>250</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02479334</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-materials-13-01680">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garbalinska</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Stasiak</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bochenek</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of a new method for determining the relationship between effective diffusivity and moisture concentration-exemplified by autoclaved aerated concrete of four density classes</article-title>
+          <source>Intern. J. Heat Mass Transf.</source>
+          <year>2018</year>
+          <volume>124</volume>
+          <fpage>288</fpage>
+          <lpage>297</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijheatmasstransfer.2018.03.051</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-materials-13-01680">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of dry-wet circulation on the mechanical properties and pore structure of autoclaved aerated concrete</article-title>
+          <source>Mater. Tech.</source>
+          <year>2019</year>
+          <volume>2</volume>
+          <fpage>177</fpage>
+          <lpage>182</lpage>
+          <pub-id pub-id-type="doi">10.17222/mit.2018.190</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-materials-13-01680">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alexanderson</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relations between structure and mechanical properties of autoclaved aerated concrete</article-title>
+          <source>Cem. Concr. Res.</source>
+          <year>1991</year>
+          <volume>21</volume>
+          <fpage>655</fpage>
+          <lpage>662</lpage>
+          <pub-id pub-id-type="doi">10.1016/0008-8846(79)90049-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-materials-13-01680">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>J.X.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Q.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Water absorption characteristics of autoclaved aerated concrete</article-title>
+          <source>J. Wuhan Univ. Tech.</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>22</fpage>
+          <lpage>26</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14-materials-13-01680">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jerman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Keppert</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>V&#xFD;born&#xFD;</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Robert</surname>
+              <given-names>&#x10C;.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hygric, thermal and durability properties of autoclaved aerated concrete</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2013</year>
+          <volume>41</volume>
+          <fpage>352</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2012.12.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-materials-13-01680">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yao</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>L.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effective thermal conductivity of moist aerated concrete with different porosities</article-title>
+          <source>J. Zhejiang Univ. (Eng. Sci.)</source>
+          <year>2015</year>
+          <volume>49</volume>
+          <fpage>1101</fpage>
+          <lpage>1107</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B16-materials-13-01680">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wongkeo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Thongsanitgrrn</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pimraksa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chaipanich</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Compressive strength, flexural strength and thermal conductivity of autoclaved concrete block made using bottom ash as cement replacement materials</article-title>
+          <source>Mater. Des.</source>
+          <year>2012</year>
+          <volume>35</volume>
+          <fpage>434</fpage>
+          <lpage>439</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matdes.2011.08.046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-materials-13-01680">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gai</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation and properties of autoclaved aerated concrete using coal gauge and iron ore tailings</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2016</year>
+          <volume>104</volume>
+          <fpage>109</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2015.12.041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-materials-13-01680">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>L.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation of autoclaved aerated concrete using copper tailings and blast furnace slag</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2012</year>
+          <volume>27</volume>
+          <fpage>1</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2011.08.034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-materials-13-01680">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cai</surname>
+              <given-names>L.X.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>B.G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.G.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.L.</given-names>
+            </name>
+            <name>
+              <surname>Jian</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical and hydration characteristics of autoclaved aerated concrete (AAC) containing iron-tailings: Effect of content and fineness</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2016</year>
+          <volume>128</volume>
+          <fpage>361</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2016.10.031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-materials-13-01680">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kunchariyakun</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Asavapisit</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sombatsompop</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Properties of autoclaved aerated concrete incorporating rice husk ash as partial replacement for fine aggregate</article-title>
+          <source>Cem. Concr. Compos.</source>
+          <year>2015</year>
+          <volume>55</volume>
+          <fpage>11</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cemconcomp.2014.07.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-materials-13-01680">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Da</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study of high-performance autoclaved aerated concrete produced with recycled wood fibre and rubber powder</article-title>
+          <source>J. Clean. Product.</source>
+          <year>2019</year>
+          <volume>234</volume>
+          <fpage>559</fpage>
+          <lpage>567</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2019.06.276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-materials-13-01680">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pehlivanli</surname>
+              <given-names>Z.O.</given-names>
+            </name>
+            <name>
+              <surname>Uzun</surname>
+              <given-names>&#x130;.</given-names>
+            </name>
+            <name>
+              <surname>Y&#xFC;cel</surname>
+              <given-names>Z.P.</given-names>
+            </name>
+            <name>
+              <surname>Demir</surname>
+              <given-names>&#x130;.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of different fiber reinforcement on the thermal and mechanical properties of autoclaved aerated concrete</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2016</year>
+          <volume>112</volume>
+          <fpage>325</fpage>
+          <lpage>330</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2016.02.223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-materials-13-01680">
+        <label>23.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Housing and Urban-Rural Construction of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Design Standard for Energy Efficiency of Residential Buildings in Severe Cold and Cold Zones</source>
+          <comment>JGJ26-2018</comment>
+          <publisher-name>China Building Industry Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2018</year>
+        </element-citation>
+      </ref>
+      <ref id="B24-materials-13-01680">
+        <label>24.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Housing and Urban-Rural Construction of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Design Standard for Energy Efficiency of Residential Buildings in Hot Summer and Cold Winter Zone</source>
+          <comment>JGJ134-2010</comment>
+          <publisher-name>China Building Industry Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B25-materials-13-01680">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thongtha</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Khongthon</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Boonsri</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hoy-Yen</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal effectiveness enhancement of autoclaved aerated concrete wall with PCM-contained conical holes to reduce the cooling load</article-title>
+          <source>Materials</source>
+          <year>2019</year>
+          <volume>12</volume>
+          <elocation-id>2170</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ma12132170</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-materials-13-01680">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Punlek</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Maneewan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Thongtha</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phase change material coating on autoclaved aerated lightweight concrete for cooling load reduction</article-title>
+          <source>Mater. Sci.</source>
+          <year>2017</year>
+          <volume>23</volume>
+          <fpage>145</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="doi">10.5755/j01.ms.23.2.15451</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-materials-13-01680">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research of the mortar effect on the energy consumption of walls</article-title>
+          <source>J. Harbin Architec. Civ. Eng. Inst.</source>
+          <year>1994</year>
+          <volume>27</volume>
+          <fpage>58</fpage>
+          <lpage>63</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-materials-13-01680">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jasi&#x144;ski</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research on the influence of bed joint reinforcement on strength and deformability of masonry shear walls</article-title>
+          <source>Materials</source>
+          <year>2019</year>
+          <volume>12</volume>
+          <elocation-id>2543</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ma12162543</pub-id>
+          <pub-id pub-id-type="pmid">31405027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-materials-13-01680">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raj</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Borsaikia</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Dixit</surname>
+              <given-names>U.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bond strength of autoclaved aerated concrete (AAC) masonry using various joint materials</article-title>
+          <source>J. Build. Eng.</source>
+          <year>2020</year>
+          <volume>28</volume>
+          <fpage>101039</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jobe.2019.101039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-materials-13-01680">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research in basic thermal conductivity of insulation mortar and ordinary mortar</article-title>
+          <source>J. Hunan Inst. Eng.</source>
+          <year>2013</year>
+          <volume>23</volume>
+          <fpage>84</fpage>
+          <lpage>86</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B31-materials-13-01680">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Si</surname>
+              <given-names>Z.K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study on thin layer mortar formulation for self-insulation system</article-title>
+          <source>China Concr. Cem. Products</source>
+          <year>2016</year>
+          <volume>43</volume>
+          <fpage>61</fpage>
+          <lpage>65</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B32-materials-13-01680">
+        <label>32.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Housing and Urban-Rural Construction of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Code for Design of Masonry Structures</source>
+          <comment>GB50003-2011</comment>
+          <publisher-name>China Building Industry Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2011</year>
+        </element-citation>
+      </ref>
+      <ref id="B33-materials-13-01680">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Avadhoot</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nikhil</surname>
+              <given-names>P.Z.</given-names>
+            </name>
+            <name>
+              <surname>Robin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Pradip</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental investigation of autoclaved aerated concrete masonry</article-title>
+          <source>J. Mater. Civ. Eng.</source>
+          <year>2019</year>
+          <volume>7</volume>
+          <fpage>04019109</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B34-materials-13-01680">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jasi&#x144;ski</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Drobiec</surname>
+              <given-names>&#x141;.</given-names>
+            </name>
+            <name>
+              <surname>Mazur</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Validation of selected non-destructive methods for determining the compressive strength of masonry units made of autoclaved aerated concrete</article-title>
+          <source>Materials</source>
+          <year>2019</year>
+          <volume>12</volume>
+          <elocation-id>389</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ma12030389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-materials-13-01680">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.B.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experiment and analysis on load bearing of thermal insulation composite wall</article-title>
+          <source>J. Hunan Inst. Eng.</source>
+          <year>2014</year>
+          <volume>4</volume>
+          <fpage>87</fpage>
+          <lpage>90</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B36-materials-13-01680">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Artino</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Evola</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Margani</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Marino</surname>
+              <given-names>E.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic and energy retrofit of apartment buildings through autoclaved aerated concrete (AAC) blocks infill walls</article-title>
+          <source>Sustainability</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>3939</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su11143939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-materials-13-01680">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Reinborn</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling of masonry infill panels for structural analysis</article-title>
+          <source>Concrete</source>
+          <year>1997</year>
+          <volume>12</volume>
+          <fpage>1295</fpage>
+          <lpage>1302</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)0733-9445(1997)123:10(1295)</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-materials-13-01680">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>She</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Numerical analysis of the thermal behaviors of cellular concrete in two and three dimensional models</article-title>
+          <source>Comput. Concr.</source>
+          <year>2016</year>
+          <volume>18</volume>
+          <fpage>319</fpage>
+          <lpage>336</lpage>
+          <pub-id pub-id-type="doi">10.12989/cac.2016.18.3.319</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-materials-13-01680">
+        <label>39.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>General Administration of Quality Supervision of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Test Methods of Autoclaved Aerated Concrete</source>
+          <comment>GB11969-2008</comment>
+          <publisher-name>Standards Press of China</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B40-materials-13-01680">
+        <label>40.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Housing and Urban-Rural Construction of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Test Method for Basic Properties of Building Mortar</source>
+          <comment>JGJ/T70-2009</comment>
+          <publisher-name>China Building Industry Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B41-materials-13-01680">
+        <label>41.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Housing and Urban-Rural Construction of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Standard for Test Method of Basic Mechanical Properties of Masonry</source>
+          <comment>GB/T50129-2011</comment>
+          <publisher-name>China Building Industry Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2011</year>
+        </element-citation>
+      </ref>
+      <ref id="B42-materials-13-01680">
+        <label>42.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>General Administration of Quality Supervision of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Thermal Insulation- Determination of Steady-state Thermal Resistance and Related Properties&#x2014;Heat Flow Meter Apparatus</source>
+          <comment>GB10295-2008</comment>
+          <comment>ISO8301:1991</comment>
+          <publisher-name>Standards Press of China</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B43-materials-13-01680">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>X.Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study on thermal conductivity of concrete for building reinforced concrete composite wall</article-title>
+          <source>Appl. Mechan. Mater.</source>
+          <year>2013</year>
+          <volume>438</volume>
+          <fpage>329</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/AMM.438-439.329</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-materials-13-01680">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Campanale</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Deganello</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Moro</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of moisture movement on tested thermal conductivity of moist aerated autoclaved concrete</article-title>
+          <source>Transp. Porous Med.</source>
+          <year>2013</year>
+          <volume>98</volume>
+          <fpage>125</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11242-013-0136-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-materials-13-01680">
+        <label>45.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>General Administration of Quality Supervision of the People&#x2019;s Republic of China</collab>
+          </person-group>
+          <source>Thermal Insulation Determination of Steady-State Thermal Resistance and Related Properties&#x2014;Guarded Hot Plate Apparatus</source>
+          <comment>GB/T 10294-2008</comment>
+          <comment>ISO8302:1991</comment>
+          <publisher-name>Standards Press of China</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B46-materials-13-01680">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>F.L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>L.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal insulation behavior of reinforced concrete composite wall with internal insulating layer</article-title>
+          <source>Adv. Mater. Res.</source>
+          <year>2011</year>
+          <volume>152&#x2013;153</volume>
+          <fpage>395</fpage>
+          <lpage>398</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B47-materials-13-01680">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mander</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Priestley</surname>
+              <given-names>M.J.N.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Therotical stress-strain behavior of confined concrete</article-title>
+          <source>J. Struct. Div. ASCE</source>
+          <year>1988</year>
+          <volume>8</volume>
+          <fpage>1827</fpage>
+          <lpage>1849</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)0733-9445(1988)114:8(1827)</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-materials-13-01680">
+        <label>48.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reinborn</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Madan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Valles</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Reichamnn</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mander</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <source>Modelling of Masonry Infill Panels for Structural Analysis</source>
+          <comment>Tchnical Report NCEER-95-0018</comment>
+          <publisher-name>State University of New York at Buffalo</publisher-name>
+          <publisher-loc>Buffalo, NY, USA</publisher-loc>
+          <year>1995</year>
+        </element-citation>
+      </ref>
+      <ref id="B49-materials-13-01680">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>C.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study on thermal insulation properties of reinforced concrete composite wall</article-title>
+          <source>Appl. Mechan. Mater.</source>
+          <year>2011</year>
+          <volume>99&#x2013;100</volume>
+          <fpage>676</fpage>
+          <lpage>679</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/AMM.99-100.676</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-materials-13-01680">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>H.Q.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>L.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental determination and fractal modeling of the effective thermal conductivity of autoclaved aerated concrete: Effects of moisture content</article-title>
+          <source>Intern. J. Heat Mass Transf.</source>
+          <year>2016</year>
+          <volume>92</volume>
+          <fpage>589</fpage>
+          <lpage>602</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijheatmasstransfer.2015.08.103</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="materials-13-01680-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Tests of block masonry: (<bold>a</bold>) compression; (<bold>b</bold>) shear along mortar joints.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g001.tif"/>
+      </fig>
+      <fig id="materials-13-01680-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Construction of masonry specimens: (<bold>a</bold>) finished specimens; (<bold>b</bold>) flatting horizontal mortar joint; (<bold>c</bold>) rock wool for vertical joint; (<bold>d</bold>) finished specimens with plastering surface.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g002.tif"/>
+      </fig>
+      <fig id="materials-13-01680-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Testing schematic diagram for thermal conductivity.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g003.tif"/>
+      </fig>
+      <fig id="materials-13-01680-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Testing device and installed specimen for thermal conductivity: (<bold>a</bold>) installed specimen; (<bold>b</bold>) internal meters; (<bold>c</bold>) close state of device.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g004.tif"/>
+      </fig>
+      <fig id="materials-13-01680-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Compressive stress&#x2013;strain curve of the block masonry: (<bold>a</bold>) insulation mortar joint; (<bold>b</bold>) thin-layer mortar joint.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g005.tif"/>
+      </fig>
+      <fig id="materials-13-01680-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Compressive failure of the block masonry: (<bold>a</bold>) central crack; (<bold>b</bold>) unsymmetrical crack; (<bold>c</bold>) eccentric crack.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g006.tif"/>
+      </fig>
+      <fig id="materials-13-01680-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Shear failure pattern of AAC block masonry: (<bold>a</bold>) S1-3; (<bold>b</bold>) S2-5.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g007.tif"/>
+      </fig>
+      <fig id="materials-13-01680-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Composition of calculated masonry without plastering (unit: mm).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-01680-g008.tif"/>
+      </fig>
+      <table-wrap id="materials-13-01680-t001" position="float">
+        <object-id pub-id-type="pii">materials-13-01680-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Details of AAC self-insulation block masonry specimens.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Group of Specimens</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin">Wall Size (mm)</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin">Mortar Joint (mm)</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Plastering Thickness</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Length</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Height</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Width</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Horizontal</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Vertical</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">M1</td>
+              <td align="center" valign="middle">1205</td>
+              <td align="center" valign="middle">1215</td>
+              <td align="center" valign="middle">250</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">No</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M1P</td>
+              <td align="center" valign="middle">1205</td>
+              <td align="center" valign="middle">1215</td>
+              <td align="center" valign="middle">260</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M2</td>
+              <td align="center" valign="middle">1210</td>
+              <td align="center" valign="middle">1230</td>
+              <td align="center" valign="middle">250</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">No</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M2P</td>
+              <td align="center" valign="middle">1210</td>
+              <td align="center" valign="middle">1230</td>
+              <td align="center" valign="middle">270</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M3</td>
+              <td align="center" valign="middle">1205</td>
+              <td align="center" valign="middle">1215</td>
+              <td align="center" valign="middle">250</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">Rock wool</td>
+              <td align="center" valign="middle">No</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M3P</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1205</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1215</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">260</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Rock wool</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-01680-t002" position="float">
+        <object-id pub-id-type="pii">materials-13-01680-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Test results of fundamental properties of AAC self-insulation blocks.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Specimen</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Group 1</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Group 2</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Group 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Dry density (kg/m<sup>3</sup>)</td>
+              <td align="center" valign="middle">558</td>
+              <td align="center" valign="middle">555</td>
+              <td align="center" valign="middle">560</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Moisture content (%)</td>
+              <td align="center" valign="middle">1.43</td>
+              <td align="center" valign="middle">1.07</td>
+              <td align="center" valign="middle">1.33</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Water absorption (%)</td>
+              <td align="center" valign="middle">63.5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cubic compressive strength (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.1</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-01680-t003" position="float">
+        <object-id pub-id-type="pii">materials-13-01680-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Test results of fundamental properties of mortars.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Item</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Thin-Layer Mortar</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Insulation Mortar</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Plastering Mortar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Dry density (kg/m<sup>3</sup>)</td>
+              <td align="center" valign="middle">855</td>
+              <td align="center" valign="middle">782</td>
+              <td align="center" valign="middle">850</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Segregation degree (mm)</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Compressive strength (MPa)</td>
+              <td align="center" valign="middle">13..6</td>
+              <td align="center" valign="middle">12.0</td>
+              <td align="center" valign="middle">9.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Bond strength (MPa)</td>
+              <td align="center" valign="middle">1.0</td>
+              <td align="center" valign="middle">0.75</td>
+              <td align="center" valign="middle">0.89</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Setting time (h)</td>
+              <td align="center" valign="middle">3.8</td>
+              <td align="center" valign="middle">4.4</td>
+              <td align="center" valign="middle">3.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Freeze-thaw resistance <break/>after 25 cycles</td>
+              <td align="center" valign="middle">Mass loss 2.9%<break/>Strength loss 12%</td>
+              <td align="center" valign="middle">Mass loss 3.6%<break/>Strength loss 10%</td>
+              <td align="center" valign="middle">Mass loss 2.5%<break/>Strength loss 11%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Linear shrinkage (mm/m)</td>
+              <td align="center" valign="middle">0.70</td>
+              <td align="center" valign="middle">0.90</td>
+              <td align="center" valign="middle">0.65</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Thermal conductivity [W/(m&#xB7;K)]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.19</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.48</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-01680-t004" position="float">
+        <object-id pub-id-type="pii">materials-13-01680-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Test results of compressive strength of AAC self-insulation masonry.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Specimen</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>f</italic><sub>1</sub><break/>(MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>f</italic><sub>2</sub><break/>(MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>f</italic><sub>c,i</sub><break/>(MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>E</italic><break/>(MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>&#x3BD;</italic>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3B5;<sub>0</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mortar Joint</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">C1-1~C1-3</td>
+              <td align="center" valign="middle">4.1</td>
+              <td align="center" valign="middle">12.0</td>
+              <td align="center" valign="middle">1.91</td>
+              <td align="center" valign="middle">1021</td>
+              <td align="center" valign="middle">0.158</td>
+              <td align="center" valign="middle">0.00269</td>
+              <td rowspan="2" align="center" valign="middle">Insulation mortar with thickness of 10 mm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">C1-4~C1-6</td>
+              <td align="center" valign="middle">4.1</td>
+              <td align="center" valign="middle">12.0</td>
+              <td align="center" valign="middle">1.77</td>
+              <td align="center" valign="middle">944</td>
+              <td align="center" valign="middle">0.212</td>
+              <td align="center" valign="middle">0.00398</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">C2-1~C2-3</td>
+              <td align="center" valign="middle">4.1</td>
+              <td align="center" valign="middle">13.6</td>
+              <td align="center" valign="middle">2.01</td>
+              <td align="center" valign="middle">1628</td>
+              <td align="center" valign="middle">0.243</td>
+              <td align="center" valign="middle">0.00178</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Thin-layer mortar with thickness of 5 mm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C2-4~C2-6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.98</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1925</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.157</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.00221</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-01680-t005" position="float">
+        <object-id pub-id-type="pii">materials-13-01680-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Test results of shear strength of self-insulation AAC masonry.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Specimen</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>f</italic><sub>1</sub><break/>(MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>f</italic><sub>2</sub><break/>(MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>f</italic><sub>v,m</sub><break/>(MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mortar Joint</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">S1-1~S1-3</td>
+              <td align="center" valign="middle">4.1</td>
+              <td align="center" valign="middle">12.0</td>
+              <td align="center" valign="middle">0.390</td>
+              <td rowspan="2" align="center" valign="middle">Insulation mortar with thickness of 10 mm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">S1-4~S1-6</td>
+              <td align="center" valign="middle">4.1</td>
+              <td align="center" valign="middle">12.0</td>
+              <td align="center" valign="middle">0.343</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">S2-1~S2-3</td>
+              <td align="center" valign="middle">4.1</td>
+              <td align="center" valign="middle">13.6</td>
+              <td align="center" valign="middle">0.280</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Thin-layer mortar with thickness of 5 mm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">S2-4~S2-6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.370</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-01680-t006" position="float">
+        <object-id pub-id-type="pii">materials-13-01680-t006_Table 6</object-id>
+        <label>Table 6</label>
+        <caption>
+          <p>Test results and analytical results for thermal transfer of AAC block masonry.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Group of Specimens</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Measured Surface Thermal Resistance (m<sup>2</sup>&#xB7;K/W)</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Heat Transfer Coefficient [W/(m<sup>2</sup>&#xB7;K)]</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Hot Side</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Cold Side</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Tested Value</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Theoretical Computed</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">ANSYS Analytical</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">M1</td>
+              <td align="center" valign="middle">0.091</td>
+              <td align="center" valign="middle">0.006</td>
+              <td align="center" valign="middle">0.559</td>
+              <td align="center" valign="middle">0.523</td>
+              <td align="center" valign="middle">0.555</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M1P</td>
+              <td align="center" valign="middle">0.105</td>
+              <td align="center" valign="middle">0.001</td>
+              <td align="center" valign="middle">0.509</td>
+              <td align="center" valign="middle">0.518</td>
+              <td align="center" valign="middle">0.549</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M2</td>
+              <td align="center" valign="middle">0.096</td>
+              <td align="center" valign="middle">0.006</td>
+              <td align="center" valign="middle">0.561</td>
+              <td align="center" valign="middle">0.505</td>
+              <td align="center" valign="middle">0.548</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M2P</td>
+              <td align="center" valign="middle">0.087</td>
+              <td align="center" valign="middle">0.012</td>
+              <td align="center" valign="middle">0.533</td>
+              <td align="center" valign="middle">0.497</td>
+              <td align="center" valign="middle">0.529</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">M3</td>
+              <td align="center" valign="middle">0.094</td>
+              <td align="center" valign="middle">0.001</td>
+              <td align="center" valign="middle">0.555</td>
+              <td align="center" valign="middle">0.493</td>
+              <td align="center" valign="middle">0.541</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M3P</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.097</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.008</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.536</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.489</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.536</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-01680-t007" position="float">
+        <object-id pub-id-type="pii">materials-13-01680-t007_Table 7</object-id>
+        <label>Table 7</label>
+        <caption>
+          <p>Proposed heat transfer coefficient of AAC self-insulation block walls and applied conditions.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Environment</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Storeys of Building</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Block Thickness (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">400</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">360</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">300</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">250</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">200</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">180</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">150</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> [W/(m<sup>2</sup>&#xB7;K)]</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0.35</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0.40</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0.48</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0.55</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0.66</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0.72</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0.84</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Severe cold zone A </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2264;3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4&#x2013;8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2265;9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Severe cold zone B </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2264;3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4&#x2013;8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.45</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2265;9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.55</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Severe cold zone C </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2264;3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.35</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4&#x2013;8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2265;9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.60</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Cold zone </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2264;3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.45</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4&#x2013;8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.60</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2265; 9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 0.70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#xD7;</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hot summer and cold winter zone</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">all</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>K</italic><sub>0</sub> &#x2264; 1.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>&#x221A;</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>best</bold>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

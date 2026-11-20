@@ -1,0 +1,38 @@
+{
+  "dataset": "mechanics-polymers",
+  "documentation": "data/supplements/mechanics-polymers/README.md",
+  "materials": 303,
+  "sources": 22,
+  "facts": 586,
+  "observations": 586,
+  "curve_points": 116097,
+  "by_material_category": {
+    "Biogene byggematerialer · bundne rishalmballer": 30,
+    "Elastomerer · enaksede laboratorieprøver": 92,
+    "Fugematerialer · konstruktionssilikone": 1,
+    "Isolering · ekspanderet polystyren": 22,
+    "Isolering · polyurethanskum": 9,
+    "Klæbestoffer · tokomponent-epoxylim": 1,
+    "Kompositter · ensrettet glasfiber/epoxy": 28,
+    "Polymerer og kompositter · sprøjtestøbte prøver": 8,
+    "Polymerer · FDM-bøjeprøver": 38,
+    "Polymerer · filamenter og ekstruderede prøver": 74
+  },
+  "facts_by_field": {
+    "bending_strength": 38,
+    "compressive_stress_at_strain": 48,
+    "creep": 8,
+    "density": 80,
+    "elastic_modulus": 140,
+    "fatigue_resistance": 23,
+    "flexural_modulus": 38,
+    "hardness": 1,
+    "hyperelastic_coefficient": 3,
+    "poisson_ratio": 31,
+    "shear_modulus": 1,
+    "shear_strength": 1,
+    "stress_strain_curve": 92,
+    "tensile_strength": 81,
+    "yield_strength": 1
+  }
+}

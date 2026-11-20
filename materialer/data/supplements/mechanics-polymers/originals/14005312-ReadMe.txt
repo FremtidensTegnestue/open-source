@@ -1,0 +1,20 @@
+This README file was generated on 2024-12-28 by Martinem Vašinou.
+Last updated: 2024-12-28
+---------------------------
+GENERAL INFORMATION
+---------------------------
+1. Title of Dataset: Influence of 3D Printing Conditions on Physical–Mechanical Properties of Polymer Materials
+
+2. DOI: https://doi.org/10.5281/zenodo.14005312
+
+3. Contact information
+   Name: Martin Vašina
+   Institution: VŠB-TU Ostrava
+   Email: martin.vasina@vsb.cz
+   ORCID: https://orcid.org/0000-0002-8506-098X
+
+4. Date of data collection: 2024-12-28
+
+5. Geographic location: Ostrava
+
+6. Description of dataset: Currently, 3D printing technology is widely used around the world, and its popularity is increasing. It can be applied to metals, ceramics, composites, hybrids, and polymers. 3D printing has the po-tential to replace conventional manufacturing technologies because it is cost-effective and envi-ronmentally friendly. This paper focuses on the influence of 3D printing conditions on the physical and mechanical properties of polylactic acid (PLA), poly(methyl methacrylate) (PMMA), and poly(ethylene terephthalate glycol-modified) (PETG) materials produced using Fused Deposition Modeling (FDM) technology. The effects of nozzle diameter, layer height, and printing temperature on the mechanical (i.e., bending stiffness and vibration damping) and physical (i.e., sound absorp-tion and light transmission) properties of the studied polymer materials were investigated. It was found that 3D printing conditions significantly influence the structure and surface shape of the 3D printed polymer samples, and consequently, their physical and mechanical properties. Therefore, it is very important to consider not only the type of filament used but also the 3D printing conditions for specific 3D printed material applications.

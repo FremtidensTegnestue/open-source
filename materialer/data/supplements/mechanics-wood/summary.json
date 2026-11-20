@@ -1,0 +1,28 @@
+{
+  "dataset": "mechanics-wood",
+  "title": "FPL: directional wood elasticity, creep, cyclic loading and wood-based composites",
+  "sources": 2,
+  "materials": 143,
+  "observations": 841,
+  "facts": 874,
+  "scalar_facts": 841,
+  "range_facts": 33,
+  "facts_by_field": {
+    "bending_strength": 114,
+    "compressive_strength": 7,
+    "creep": 2,
+    "density": 8,
+    "elastic_modulus": 217,
+    "elastic_modulus_ratio": 162,
+    "fatigue_resistance": 15,
+    "poisson_ratio": 177,
+    "shear_modulus": 70,
+    "shear_strength": 16,
+    "tensile_strength": 86
+  },
+  "facts_by_status": {
+    "reported": 729,
+    "derived": 145
+  },
+  "documentation": "data/supplements/mechanics-wood/README.md"
+}

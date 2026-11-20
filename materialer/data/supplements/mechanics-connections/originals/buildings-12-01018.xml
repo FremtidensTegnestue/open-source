@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">buildings</journal-id>
+      <journal-title-group>
+        <journal-title>Buildings</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Buildings</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Buildings</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2075-5309</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/buildings12071018</article-id>
+      <article-id pub-id-type="publisher-id">buildings-12-01018</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Behavior of Self-Tapping Screws Used in Hybrid Light Wood Frame Structures Connected to a CLT Core</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eini</surname>
+            <given-names>Ariya</given-names>
+          </name>
+          <xref rid="af1-buildings-12-01018" ref-type="aff">1</xref>
+          <xref rid="c1-buildings-12-01018" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7910-4923</contrib-id>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Lina</given-names>
+          </name>
+          <xref rid="af1-buildings-12-01018" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ni</surname>
+            <given-names>Chun</given-names>
+          </name>
+          <xref rid="af2-buildings-12-01018" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Branco</surname>
+            <given-names>Jorge Manuel</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-buildings-12-01018"><label>1</label>Department of Civil Engineering, University of Victoria, Victoria, BC V8P 5C2, Canada; <email>linazhou@uvic.ca</email></aff>
+      <aff id="af2-buildings-12-01018"><label>2</label>Building Systems, FPInnovations, Vancouver, BC V6T 1Z4, Canada; <email>chun.ni@fpinnovations.ca</email></aff>
+      <author-notes>
+        <corresp id="c1-buildings-12-01018"><label>*</label>Correspondence: <email>ariyaeini@uvic.ca</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>07</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>07</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>7</issue>
+      <elocation-id>1018</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>06</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>07</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 by the authors.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Light-frame wood structures are the most common type of construction for residential and low-rise buildings in North America. The 2015 edition of the National Building Code of Canada has increased the height limit for light-frame wood construction from 4 to 6 stories. With the increase in building height, it was noticed that light-frame wood structures may be governed by inter-story drift under wind and seismic loads. To reduce the inter-story drift, a hybrid system, consisting of CLT cores and light-frame structures, is proposed. The efficiency of this hybrid system is dependent on the performance of the connections between the two sub-systems. In this project, self-tapping screws (STSs) were used to connect the CLT core and light-frame wood structures on the floor level. Monotonic and reversed-cyclic tests were carried out on CLT-wood frame connections connected with STSs inserted at 45&#xB0;, 90&#xB0;, and mixed angles (45&#xB0; and 90&#xB0;). The connection performance was evaluated in terms of strength, stiffness, ultimate displacement, ductility, and energy dissipation capacity. Results show that a joint with STSs inserted at 45&#xB0; had high stiffness and ductility but low energy dissipation, while connections with STSs installed at 90&#xB0; had high ductility and energy dissipation but low stiffness. Connections with STSs inserted at mixed angles (45&#xB0; and 90&#xB0;) achieved the advantages of both configurations when the STSs were inserted at 45&#xB0; or 90&#xB0; individually, i.e., high stiffness, ductility, and energy dissipation. The ductility and energy dissipation were significantly improved compared with connections with STSs only inserted at 45&#xB0; or 90&#xB0;. This mixed angle connection can be an ideal design for connecting light-frame wood structures to a CLT core to resist wind and seismic load.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>light-frame wood structure</kwd>
+        <kwd>cross-laminated timber</kwd>
+        <kwd>self-tapping screw</kwd>
+        <kwd>monotonic test</kwd>
+        <kwd>reversed-cyclic test</kwd>
+        <kwd>connection capacity</kwd>
+        <kwd>ductility</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>Forestry Innovation Investment Ltd.</funding-source>
+          <award-id>21/22-UVIC-W22-043</award-id>
+        </award-group>
+        <funding-statement>This study was funded by Forestry Innovation Investment Ltd. through the BC Wood First Program, 21/22-UVIC-W22-043.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-buildings-12-01018" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Traditional light-frame wood buildings have proven to be a practical and sustainable solution for residential construction. The height limit of light-frame wood construction has been increased from four to six stories in the National Building Code of Canada (NBCC) [<xref ref-type="bibr" rid="B1-buildings-12-01018">1</xref>]. With the increase in building height, these structures become more flexible and may have large lateral deformation under wind and seismic loads. As a result, the drift requirements may be hard to meet for the design of mid-rise wood frame buildings. Elevator shafts and stairwells commonly exist in multi-story buildings and can be used as part of the lateral load resisting system to reduce the lateral drift of the wood frame system. Cross-Laminated Timber (CLT) core has become more popular in multi-story light-frame wood buildings due to its fast construction compared with a reinforced concrete or masonry core. This core can provide the building with additional lateral load resistance, if sufficiently connected to the wood frame, and reduce the lateral deformation [<xref ref-type="bibr" rid="B2-buildings-12-01018">2</xref>]. In this project, a hybrid system consisting of a light-frame wood structure connected to a CLT core was proposed. CLT cores are connected to light-frame structures on the floor level as shown in <xref ref-type="fig" rid="buildings-12-01018-f001">Figure 1</xref>a, where light-frame wood shear walls dissipate energy through deformation of the sheathing-to-framing nail joints [<xref ref-type="bibr" rid="B3-buildings-12-01018">3</xref>], while CLT panels are rigid and rely on the panel-to-panel and panel-to-foundation connections to provide ductility [<xref ref-type="bibr" rid="B4-buildings-12-01018">4</xref>]. Therefore, connections between the two sub-systems play an important role in the performance of the hybrid structure and can be used as one source of energy dissipation for seismic design if ductile performance is achieved through detailed design. In this project, self-tapping screws were used to transmit lateral loads between the two sub-systems.</p>
+      <p>Previous studies on CLT light-frame wood hybrid structures have been very limited. Nguyen et al. [<xref ref-type="bibr" rid="B5-buildings-12-01018">5</xref>] tested a hybrid shear wall system consisting of wood frame shear wall segments and post-tensioned CLT panels. The CLT wall was connected to the studs of the wood frame shear wall using common nails. Test results showed that this hybrid wall system had high stiffness, energy dissipation, and a self-centering capability. Anandan et al. [<xref ref-type="bibr" rid="B6-buildings-12-01018">6</xref>] conducted a full-scale shake table test on a one-story post-tensioned CLT building. Additional wood frame shear walls were connected to the CLT floor diaphragm through threaded steel rods. The hybrid system was tested under the 1994 Northridge earthquake, with a hazard level of 10% and a 2% probability of exceedance in 50 years, which corresponds to design-basis earthquake (DBE) and maximum considered earthquake (MCE), respectively. Results showed that the system was able to recenter itself after shaking. The sheathing of the wood frame was marginally shifted after DBE excitation. The wood frame sustained moderate damage under MCE excitation.</p>
+      <p>Self-tapping screws (STSs) are commonly used in CLT construction [<xref ref-type="bibr" rid="B7-buildings-12-01018">7</xref>]. With relatively higher capacity compared with dowel-type connections, STSs are very efficient in resisting lateral and axial loads for timber-to-timber connections [<xref ref-type="bibr" rid="B8-buildings-12-01018">8</xref>]. There has been much research conducted on the STSs used in CLT structures. Munoz et al. [<xref ref-type="bibr" rid="B9-buildings-12-01018">9</xref>] studied typical CLT floor-to-floor and wall-to-floor connections connected with STSs. Results showed that lap connections using STSs had better lateral capacity, stiffness, and ductility than spline configurations with normal wood screws. Hossain et al. [<xref ref-type="bibr" rid="B10-buildings-12-01018">10</xref>] studied the performance of STS connections connecting 3-ply CLT panels under cyclic and monotonic loading. They found that STS connections with mixed angles had high stiffness and ductility. Tomasi et al. [<xref ref-type="bibr" rid="B11-buildings-12-01018">11</xref>] also confirmed the superior performance of STSs installed with mixed angles in glued laminated timber joints. Gavric et al. [<xref ref-type="bibr" rid="B12-buildings-12-01018">12</xref>] performed reversed-cyclic tests on different configurations of STS connections used in coupled CLT wall panels. They concluded that 90&#xB0; STSs can achieve high ductility if sufficient spacing is provided. Brown et al. [<xref ref-type="bibr" rid="B13-buildings-12-01018">13</xref>] investigated the behavior of STS joints between CLT panels with varying ratios of STSs installed inclined and at 90&#xB0; to the timber grain. They found that a ratio of 2:1 yielded more efficient design. These studies were all focused on CLT-to-CLT or CLT-to glulam connections. There has been no investigation on CLT shear wall-to-light-frame wood floor, i.e., CLT-lumber connections connected with STSs. In this project, cyclic and monotonic tests were conducted on CLT-lumber STS connections to assess the stiffness, load-carrying capacity, ductility, and energy dissipation capacity of this connection. In order to obtain a ductile connection system, CLT-lumber connections with different STS insertion angles were investigated.</p>
+    </sec>
+    <sec id="sec2-buildings-12-01018">
+      <title>2. Test Program</title>
+      <p><xref ref-type="fig" rid="buildings-12-01018-f001">Figure 1</xref>a shows a schematic of the CLT-lumber connection. The CLT wall panel was directly connected to the floor headers of light-frame wood structures with STSs. <xref ref-type="fig" rid="buildings-12-01018-f001">Figure 1</xref>b shows the test setup of the connection specimen. Five-layer CLT panels with a thickness of 175 mm were used in this project. The panel had an E1 stress grade according to ANSI/APA PRG 320 [<xref ref-type="bibr" rid="B14-buildings-12-01018">14</xref>] and was made of Spruce-Pine-Fir (SPF) machine stress rated lumber in longitudinal layers and No. 3/Stud SPF lumber in transverse layers [<xref ref-type="bibr" rid="B15-buildings-12-01018">15</xref>]. <xref ref-type="table" rid="buildings-12-01018-t001">Table 1</xref> shows the mechanical properties of E1 stress grade CLT panels cited from ANSI/APA PRG 320 [<xref ref-type="bibr" rid="B14-buildings-12-01018">14</xref>] as no material tests were performed in this project. Three types of connection configurations with different STS insertion angles were studied, i.e., STS inserted at 90&#xB0; (<xref ref-type="fig" rid="buildings-12-01018-f002">Figure 2</xref>a), 45&#xB0; (<xref ref-type="fig" rid="buildings-12-01018-f002">Figure 2</xref>b), and mixed angles (90&#xB0; and 45&#xB0;) (<xref ref-type="fig" rid="buildings-12-01018-f002">Figure 2</xref>c) to the grain of the lumber (hereafter named 90&#xB0; STS, 45&#xB0; STS, and mixed angle STS). Two diameters of ASSY<sup>&#xAE;</sup> SK and VG CSK STSs made from carbon steel (8 and 10 mm) were tested (<xref ref-type="fig" rid="buildings-12-01018-f002">Figure 2</xref>d). The mechanical properties of STSs cited from the CCMC report [<xref ref-type="bibr" rid="B16-buildings-12-01018">16</xref>] are listed in <xref ref-type="table" rid="buildings-12-01018-t001">Table 1</xref>. The 90&#xB0; STS loaded in shear was partially threaded (PT) and 160 mm long, and the 45&#xB0; STS loaded in both shear and withdrawal was fully threaded (FT) and 240 mm long. The floor header was composed of double 2 &#xD7; 6 SPF lumber. For the 90&#xB0; STS or 45&#xB0; STS connections, each specimen had 2 screws. The mixed angle (90&#xB0; and 45&#xB0;) connection had two screws installed at 45&#xB0; and the other two installed at 90&#xB0;. Screws penetrated around two and a half layers into the CLT panel for all cases. Initially, 10d (d = 10 mm) was used as the screw spacing and end distance for both diameter screws. However, with the splitting of lumber in two replicates of STS connections with 10 mm diameter screws inserted at 90&#xB0; under monotonic load, it was decided that 12d and 15d (d = 10 mm) be used for screw spacing and end distance, respectively, according to the MTC Solution Handbook [<xref ref-type="bibr" rid="B17-buildings-12-01018">17</xref>].</p>
+      <p>In the proposed hybrid system, lateral forces were assumed to be transferred between the CLT core and floor header through the STSs. Cyclic and monotonic loadings were applied parallel to the grain of the lumber (<xref ref-type="fig" rid="buildings-12-01018-f001">Figure 1</xref>b). A summary of tested series is provided in <xref ref-type="table" rid="buildings-12-01018-t002">Table 2</xref>. Four replicates were tested for each configuration, and there were 48 specimens tested in total. According to ASTM 1761-20 [<xref ref-type="bibr" rid="B18-buildings-12-01018">18</xref>], the speed of the monotonic and cyclic test was set to 0.05 and 2 mm/s, respectively. Test method C (CUREE) [<xref ref-type="bibr" rid="B19-buildings-12-01018">19</xref>] was used to define the loading protocol of the reversed-cyclic tests. The reference deformation of the CUREE protocol was derived based on monotonic test results, which were 3.6 and 30 mm for the 45&#xB0; and 90&#xB0; STS connection test, respectively. To measure the relative displacement between lumber and the CLT panel, two Linear Variable Differential Transformers (LVDTs) were attached to both sides of the lumber, as shown in <xref ref-type="fig" rid="buildings-12-01018-f001">Figure 1</xref>b. Prior to testing, lumbers were conditioned in an environmental room with 20&#xB0; C and 65% relative humidity until they reached equilibrium moisture content (EMC). Lumber with relative density within 0.4 &#xB1; 0.04 were used in this project.</p>
+    </sec>
+    <sec id="sec3-buildings-12-01018">
+      <title>3. Experimental Results</title>
+      <p>Displacement from both LVDTs was averaged. Data was recorded at a frequency of 10 and 100 Hz for the monotonic and cyclic tests, respectively. An example of cyclic load-deformation curves is shown in <xref ref-type="fig" rid="buildings-12-01018-f003">Figure 3</xref>a&#x2013;c. It can be seen that both 90&#xB0; STS and mixed angle STS connections achieved large displacement at around 30 mm without significant reduction in resistance, while the 45&#xB0; STS connection had higher resistance compared with the 90&#xB0; STS but failed at much smaller displacement. <xref ref-type="fig" rid="buildings-12-01018-f003">Figure 3</xref>d,e shows comparisons of individual backbone curves for each connection configuration and the superposition of 45&#xB0; STS and 90&#xB0; STS curves under cyclic and monotonic load, respectively. It can be seen that the shape of the superposition curve and mixed angle connection curve were similar, which indicates that in the mixed angle connection, 45&#xB0; STSs mostly contribute to the initial stiffness and 90&#xB0; STSs mainly contribute to the ultimate displacement. There was a clear drop-down phase of the curve in the mixed angle connection when the 45&#xB0; STSs withdrew from the CLT panel. After that, the resistance recovered and further increased when the 90&#xB0; STSs contributed more resistance due to redistribution of the load between the two groups of fasteners.</p>
+      <p>The positive and negative backbones of the cyclic tests were averaged. All the averaged backbone and monotonic curves of tests with their associated failure points are shown in <xref ref-type="fig" rid="buildings-12-01018-f004">Figure 4</xref>. Failure was defined when the load dropped to 80% of the maximum resistance. In the case of the mixed angle connections, failure was defined after the second peak load when the 90&#xB0; STSs also lost their resistance. Although in some cases there was a 20% drop-down after the first peak when the 45&#xB0; STSs lost their resistance, the overall resistance of the mixed angle connections was recovered due to redistribution of forces between the two groups of fasteners. The drop-down amount after the first peak can be optimized by adjusting the ratio of 45&#xB0; STSs over 90&#xB0; STSs [<xref ref-type="bibr" rid="B13-buildings-12-01018">13</xref>]. As shown in <xref ref-type="fig" rid="buildings-12-01018-f004">Figure 4</xref>, two specimens of 10 mm STSs inserted at 90&#xB0; under monotonic load (10d screw spacing, 10d end distance, and 7d edge distance) and one specimen of 10 mm STS inserted at 90&#xB0; under cyclic load (12d screw spacing, 15d end distance, and 7d edge distance) failed at much smaller ultimate displacement than the other replicates. One specimen of 8 mm STS inserted at mixed angles (12d screw spacing, 15d end distance, and 3d edge distance) failed at a slightly smaller displacement than the other replicates. These failures happened because of splitting in the lumber (<xref ref-type="fig" rid="buildings-12-01018-f005">Figure 5</xref>d,e). In the other cases, wood only showed localized crushing around the STSs (<xref ref-type="fig" rid="buildings-12-01018-f005">Figure 5</xref>a&#x2013;c). Therefore, connections with lumber splitting showed a less ductile behavior compared with the other replicates. With larger end distances or predrilling, this failure may be prevented. In general, 10 mm STS connections have higher resistance and are more prone to splitting wood than 8 mm STS connections. Mixed angle and 90&#xB0; STS connections failed at much smaller displacement under cyclic load compared to those under monotonic load; however, there was not much difference for 45&#xB0; STS connections.</p>
+      <p>Using the Equivalent Energy Elastic-Plastic [<xref ref-type="bibr" rid="B19-buildings-12-01018">19</xref>] method, the mechanical properties of CLT-lumber STS connections were obtained. The ultimate displacement was defined as the displacement at 80% of the maximum load on the descending phase (after the second peak in the case of mixed angle connections) (<xref ref-type="fig" rid="buildings-12-01018-f004">Figure 4</xref>) [<xref ref-type="bibr" rid="B19-buildings-12-01018">19</xref>]. The mean and coefficient of variation (COV) of these properties were: yield force (F<sub>y</sub>) and its corresponding yield displacement (&#x394;<sub>y</sub>), peak force (F<sub>peak</sub>) and its corresponding displacement (&#x394;<sub>peak</sub>), ultimate displacement (&#x394;<sub>u</sub>), stiffness (K), ductility (&#xB5;), and energy dissipation (E). These are presented in <xref ref-type="table" rid="buildings-12-01018-t003">Table 3</xref> and <xref ref-type="table" rid="buildings-12-01018-t004">Table 4</xref> for monotonic and cyclic loading. Comparison of the mean values of these mechanical properties is shown in <xref ref-type="fig" rid="buildings-12-01018-f006">Figure 6</xref>. Specimens with STSs installed at 90&#xB0; had larger ultimate displacement (around 70 mm under monotonic load and 30 mm under cyclic load) than that of STSs inserted at 45&#xB0; (around 5 mm under both monotonic and cyclic loads). Interestingly, although the 90&#xB0; STS connections had much larger ultimate displacement, the ductility was similar to that of the 45&#xB0; STS connections. This is because the 45&#xB0; STS is much stiffer than the 90&#xB0; STS, so the yield displacement of STSs inserted at 45&#xB0; (around 1.1 mm under both monotonic and cyclic loads) was much smaller than STSs inserted at 90&#xB0; (around 17 mm under monotonic and 6 mm under cyclic load). Therefore, the ratio of ultimate displacement to yield displacement (i.e., ductility value) was similar for these two groups of connections. It is worth mentioning this conclusion is dependent on the definition of the ductility ratio. Despite having similar ductility, 90&#xB0; STS connections have higher energy dissipation capacity than that of 45&#xB0; STS connections (more than six times under monotonic load and 1.9 times under cyclic load). For the mixed angle STS (45&#xB0; and 90&#xB0;) connections, small yield displacement and large ultimate displacement are both presented. Accordingly, the ductility of the specimens with mixed angle connections greatly increased (around 56 under monotonic and 32 under cyclic load) compared with connections with 90&#xB0; STSs or 45&#xB0; STSs. Mixed angle STS connections had an energy dissipation of more than 11 times the value of 45&#xB0; STS connections. This effect was more pronounced in 8 mm STSs compared with 10 mm STS specimens. The 45&#xB0; STS connection had on average more than 50% load-carrying capacity (52% for 10 mm STSs and 64% for 8 mm STSs) compared with 90&#xB0; STS under cyclic loading. However, it had relatively less capacity under monotonic loading. Connections with mixed 45&#xB0; and 90&#xB0; STSs had higher peak resistance compared with that with 90&#xB0; STSs or 45&#xB0; STSs only but less than the sum of the resistance of the two connections. This is because the 45&#xB0; STSs and 90&#xB0; STSs in the mixed angle connections did not reach their peak resistance at the same displacement. A transition of load sharing between 45&#xB0; STSs and 90&#xB0; STSs was observed in mixed angle connections.</p>
+      <p>There was a high variance in the stiffness of 10 mm STSs inserted at 45&#xB0; under cyclic load (<xref ref-type="table" rid="buildings-12-01018-t004">Table 4</xref>). This was due to the eccentric installation of STSs. There was a 2d offset (<xref ref-type="fig" rid="buildings-12-01018-f002">Figure 2</xref>b) between the two 45&#xB0; STSs, which led to twisting in the lumber. <xref ref-type="fig" rid="buildings-12-01018-f007">Figure 7</xref> demonstrates the failure modes of self-tapping screws under monotonic and cyclic loads. All specimens with STSs inserted at 90&#xB0; showed two yielding points under monotonic loading, but all of them broke at these two points under cyclic loading. The breaking of 90&#xB0; STSs under cyclic load was due to the cumulated damage in plastic deformation, which causes reduction of the ultimate displacement under cyclic load compared with that under monotonic load (<xref ref-type="table" rid="buildings-12-01018-t003">Table 3</xref> and <xref ref-type="table" rid="buildings-12-01018-t004">Table 4</xref>). In 45&#xB0; STS connections, one of the screws inserted at 45&#xB0; broke due to a combination of compression and shear, and the other yielded in shear and was withdrawn under monotonic loading. When loaded under reversed-cyclic load, all STSs inserted at 45&#xB0; were slightly bent at two points. Therefore, the ultimate displacement of STSs inserted at 45&#xB0; under cyclic load was similar to that under monotonic load (<xref ref-type="table" rid="buildings-12-01018-t003">Table 3</xref> and <xref ref-type="table" rid="buildings-12-01018-t004">Table 4</xref>). The 45&#xB0; STS broken because of the combination of compression and shear under monotonic load may have been due to buckling. Similarly, the 45&#xB0; STSs in mixed angle connections remained unbroken and slightly bent, while the 90&#xB0; STSs were broken under cyclic tests. Specimens with mixed angle STSs had the same failure modes as individual 45&#xB0; STS and 90&#xB0; STS connections under monotonic loading.</p>
+      <p>The relationship between energy dissipation and ductility is not usually straightforward. The total energy dissipation depends largely on the displacement history, i.e., the loading protocol. However, the ductility is sensitive to the yielding displacement or initial stiffness. Therefore, another parameter commonly used for evaluation of the energy dissipation capacity of a system, the equivalent viscous damping, is calculated for each cycle of the hysteresis loops using Equation (1) [<xref ref-type="bibr" rid="B20-buildings-12-01018">20</xref>].
+      <disp-formula id="FD1-buildings-12-01018"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B6;</mml:mi><mml:mrow><mml:mi>h</mml:mi><mml:mi>y</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B6;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mi>q</mml:mi><mml:mo>.</mml:mo><mml:mi>v</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>=</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>f</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mo>.</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <italic>A<sub>half-loop</sub></italic> is half of the energy dissipated in each hysteresis loop. <italic>F<sub>max</sub></italic> and <italic>D<sub>max</sub></italic> are the maximum force and displacement of the same loop, respectively.</p>
+      <p>Equivalent viscous damping characterizes the energy dissipation due to plastic behavior. As shown in <xref ref-type="fig" rid="buildings-12-01018-f008">Figure 8</xref>, before yielding, the equivalent viscous damping was more than 10% for connections with 90&#xB0; STSs, but for connections with 45&#xB0; STSs and mixed angle connections, damping was smaller. At higher displacement, the equivalent viscous damping reached up to at least 20% for all configurations, which indicates good energy dissipation capacities of these connections. This conclusion seems neither consistent with what is derived based on ductility ratio nor energy dissipation. This is because the equivalent hysteretic damping is proportional to the energy dissipation normalized with the peak load and its corresponding displacement on each cycle (see Equation (1)), which is different from the value of total energy dissipation and ductility ratio. Further research should be carried out on the energy dissipation capacity of the three types of STS connections used in a hybrid CLT-wood frame structure through time history analysis.</p>
+    </sec>
+    <sec id="sec4-buildings-12-01018" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Forty-eight self-tapping screw (STS) connections used to connect a CLT core to light-frame wood floor headers were tested under monotonic and reversed-cyclic load to investigate the strength, stiffness, ductility, and energy dissipation capacity of the connections. Three types of STS insertion angles were tested and compared: 45&#xB0;, 90&#xB0;, and mixed angles (90&#xB0; and 45&#xB0;). The results showed that all configurations of the connections have acceptable lateral load capacity and ductility. Furthermore, the connections with mixed angle STSs possessed high stiffness, ductility, and energy dissipation capacity and can be an efficient way to connect the light-frame wood structure to CLT cores under wind and seismic load. The detailed findings are summarized below:<list list-type="bullet"><list-item><p>STSs were capable of transferring high lateral forces, which makes them feasible to be used in hybrid light-frame wood structures connected to CLT cores where a limited length of CLT core is available for installing the connections.</p></list-item><list-item><p>Connections with 10 mm STSs had slightly higher strength than that with 8 mm STSs. However, 10 mm STSs were more prone to splitting wood; therefore, distance should be maintained between screws when they are connected to dimension lumber. Predrilling may also help prevent lumber splitting if enough distance cannot be guaranteed.</p></list-item><list-item><p>45&#xB0; STS connections had greater stiffness but significantly lower ultimate displacement than 90&#xB0; STS connections. It is recommended that these connections be detailed in accordance with capacity design principles and be regarded as non-dissipative (force-controlled) connections.</p></list-item><list-item><p>Although the 90&#xB0; STS connections had similar ductility to 45&#xB0; STS connections, which is due to the definition of ductility ratio, their energy dissipation capacity was much larger than that of 45&#xB0; STS connections.</p></list-item><list-item><p>When combining 45&#xB0; and 90&#xB0; STSs in a connection, the system benefitted from the advantages of individual connection and made the STS joint a much more ductile connection.</p></list-item><list-item><p>All test specimens provided acceptable energy dissipation capacity, as indicated by equivalent viscous damping values, which is not consistent with the conductions derived based on ductility ratio and energy dissipation values. Further research is needed to address this issue.</p></list-item></list></p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, L.Z. and A.E.; methodology, L.Z. and C.N.; validation, L.Z. and C.N.; formal analysis, A.E.; investigation, A.E.; data curation, A.E.; writing&#x2014;original draft preparation, A.E.; writing&#x2014;review and editing, L.Z. and C.N.; visualization, A.E.; supervision, L.Z.; funding acquisition, L.Z. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>Please email the corresponding author(s) to acquire data.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We express special thanks to Solomon Rosenberg, technician of the structures lab at the University of Victoria, for his valuable support; and many thanks are given to MTC solutions for their donations of STSs.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-buildings-12-01018">
+        <label>1.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>NBCC 2015</collab>
+          </person-group>
+          <source>National Building Code of Canada: Ottawa, Canadian Commission on Building and Fire Code</source>
+          <publisher-name>National Research Council of Canada</publisher-name>
+          <publisher-loc>Ottawa, ON, Canada</publisher-loc>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-buildings-12-01018">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Polastri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pozza</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Loss</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Numerical analyses of high- and medium-rise CLT buildings braced with cores and additional shear walls</article-title>
+          <source>Struct. Archit.</source>
+          <year>2016</year>
+          <volume>5</volume>
+          <fpage>128</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="doi">10.1201/b20891-15</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-buildings-12-01018">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van de Lindt</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Asce</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution of Wood Shear Wall Testing, Modeling, and Reliability Analysis: Bibliography</article-title>
+          <source>Pract. Period. Struct. Des. Constr.</source>
+          <year>2004</year>
+          <volume>1</volume>
+          <fpage>44</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)1084-0680(2004)9:1(44)</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-buildings-12-01018">
+        <label>4.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ceccotti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lauriola</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Pinna</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sandhaas</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>SOFIE project-cyclic tests on cross-laminated wooden panels</article-title>
+          <source>Proceedings of the 9th World Conference on Timber Engineering (WCTE)</source>
+          <conf-loc>Portland, OR, USA</conf-loc>
+          <conf-date>6&#x2013;10 August 2006</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B5-buildings-12-01018">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Dao</surname>
+              <given-names>T.N.</given-names>
+            </name>
+            <name>
+              <surname>Aaleti</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>van de Lindt</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Fridley</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic assessment of a three-story wood building with an integrated CLT-lightframe system using RTHS</article-title>
+          <source>Eng. Struct.</source>
+          <year>2018</year>
+          <volume>167</volume>
+          <fpage>695</fpage>
+          <lpage>704</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2018.01.025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-buildings-12-01018">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anandan</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>van de Lindt</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Amini</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Dao</surname>
+              <given-names>T.N.</given-names>
+            </name>
+            <name>
+              <surname>Aaleti</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental Dynamic Testing of Full-Scale Light-Frame-CLT Wood Shear Wall System</article-title>
+          <source>J. Archit. Eng.</source>
+          <year>2021</year>
+          <volume>1</volume>
+          <fpage>04020042</fpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)AE.1943-5568.0000443</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-buildings-12-01018">
+        <label>7.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karacabeyli</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gagnon</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>P&#xEE;rvu, Canadian CLT Handbook: Cross-Laminated Timber</source>
+          <publisher-name>FPInnovations</publisher-name>
+          <publisher-loc>Qu&#xE9;bec, QC, Canada</publisher-loc>
+          <year>2019</year>
+        </element-citation>
+      </ref>
+      <ref id="B8-buildings-12-01018">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loss</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hossain</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tannert</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simple cross-laminated timber shear connections with spatially arranged screws</article-title>
+          <source>Eng. Struct.</source>
+          <year>2018</year>
+          <volume>173</volume>
+          <fpage>340</fpage>
+          <lpage>356</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2018.07.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-buildings-12-01018">
+        <label>9.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mu&#xF1;oz</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Mohammad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gagnon</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lateral and withdrawal resistance of typical CLT connections</article-title>
+          <source>Proceedings of the 11th World Conference on Timber Engineering (WCTE )</source>
+          <conf-loc>Riva del Garda, Italy</conf-loc>
+          <conf-date>20&#x2013;24 June 2010</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B10-buildings-12-01018">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hossain</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Popovski</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tannert</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cross-laminated timber connections assembled with a combination of screws in withdrawal and screws in shear</article-title>
+          <source>Eng. Struct.</source>
+          <year>2018</year>
+          <volume>168</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2018.04.052</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-buildings-12-01018">
+        <label>11.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tomasi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Piazza</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Angeli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mores</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new ductile approach design of joints assembled with screw connectors</article-title>
+          <source>Proceedings of the 9th World Conference on Timber Engineering (WCTE)</source>
+          <conf-loc>Portland, OR, USA</conf-loc>
+          <conf-date>6&#x2013;10 August 2006</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B12-buildings-12-01018">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gavric</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Fragiacomo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ceccotti</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic behavior of typical screwed connections for cross-laminated (CLT) structures</article-title>
+          <source>Eur. J. Wood Wood Prod.</source>
+          <year>2015</year>
+          <volume>2</volume>
+          <fpage>179</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00107-014-0877-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-buildings-12-01018">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brown</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tannert</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Moroder</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study on orthogonal joints in cross-laminated timber with self-tapping screws installed with mixed angles</article-title>
+          <source>Eng. Struct.</source>
+          <year>2021</year>
+          <volume>228</volume>
+          <fpage>111560</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2020.111560</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-buildings-12-01018">
+        <label>14.</label>
+        <element-citation publication-type="standard">
+          <std>CSA O86</std>
+          <article-title>Engineering Design in Wood</article-title>
+          <publisher-name>Canadian Standard Association</publisher-name>
+          <publisher-loc>Toronto, ON, Canada</publisher-loc>
+          <year>2019</year>
+        </element-citation>
+      </ref>
+      <ref id="B15-buildings-12-01018">
+        <label>15.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>MTC</collab>
+          </person-group>
+          <article-title>Solutions. Structural Screw Design Guide 2019</article-title>
+          <source>P&#xEE;rvu, Canadian CLT Handbook: Cross-Laminated Timber</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Karacabeyli</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gagnon</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>FPInnovations</publisher-name>
+          <publisher-loc>Vancouver, BC, Canada</publisher-loc>
+          <year>2020</year>
+        </element-citation>
+      </ref>
+      <ref id="B16-buildings-12-01018">
+        <label>16.</label>
+        <element-citation publication-type="standard">
+          <std>ANSI/APA PRG 320</std>
+          <article-title>Standard for Performance-rated Cross Laminates Timber</article-title>
+          <publisher-name>American National Standards Institute, The Engineered Wood Association</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2018</year>
+        </element-citation>
+      </ref>
+      <ref id="B17-buildings-12-01018">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>CCMC</collab>
+          </person-group>
+          <source>Evaluation Report SWG ASSY&#xAE; VG Plus and SWG ASSY&#xAE; 3.0 Self-Tapping Wood Screws</source>
+          <publisher-name>CCMC</publisher-name>
+          <publisher-loc>Ottawa, ON, Canada</publisher-loc>
+          <year>2020</year>
+        </element-citation>
+      </ref>
+      <ref id="B18-buildings-12-01018">
+        <label>18.</label>
+        <element-citation publication-type="standard">
+          <std>ASTM D1761</std>
+          <article-title>Standard test Methods for Mechanical Fasteners in Wood</article-title>
+          <publisher-name>American Society for Testing Material Standard</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2020</year>
+          <pub-id pub-id-type="doi">10.1520/D1761-20</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-buildings-12-01018">
+        <label>19.</label>
+        <element-citation publication-type="standard">
+          <std>ASTM E2126</std>
+          <article-title>Standard Test Methods for Cyclic (Reversed) Load Test for Shear Resistance of Vertical Elements of the Lateral Force Resisting Systems for Buildings</article-title>
+          <publisher-name>American Society for Testing Material Standard</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2019</year>
+          <pub-id pub-id-type="doi">10.1520/E2126-19</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-buildings-12-01018">
+        <label>20.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Varum</surname>
+              <given-names>H.S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic Assessment, Strengthening and Repair of Existing Buildings</article-title>
+          <source>Doctoral Dissertation</source>
+          <publisher-name>Universidade de Aveiro</publisher-name>
+          <publisher-loc>Aveiro, Portugal</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="buildings-12-01018-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Self-tapping screw connections: (<bold>a</bold>) schematic of STS connections used in CLT and light-frame wood hybrid systems; (<bold>b</bold>) test specimen setup.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g001.tif"/>
+      </fig>
+      <fig id="buildings-12-01018-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>STS connection configurations (mm): (<bold>a</bold>) 90&#xB0; STS; (<bold>b</bold>) 45&#xB0; STS; (<bold>c</bold>) mixed angle (45&#xB0; and 90&#xB0;) STS; (<bold>d</bold>) self-tapping screws.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g002.tif"/>
+      </fig>
+      <fig id="buildings-12-01018-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Load-displacement curves for 8 mm STSs (single replicate data): (<bold>a</bold>) 90&#xB0; STS; (<bold>b</bold>) 45&#xB0; STS; (<bold>c</bold>) mixed angle STS; (<bold>d</bold>) cyclic backbone curves; (<bold>e</bold>) monotonic curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g003.tif"/>
+      </fig>
+      <fig id="buildings-12-01018-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Cyclic backbones and monotonic curves of STS connections: (<bold>a</bold>) 90&#xB0; STS under monotonic; (<bold>b</bold>) 90&#xB0; STS under cyclic; (<bold>c</bold>) 45&#xB0; STS under monotonic; (<bold>d</bold>) 45&#xB0; STS under cyclic; (<bold>e</bold>) mixed angle (45&#xB0; and 90&#xB0;) STS under monotonic; (<bold>f</bold>) mixed angle (45&#xB0; and 90&#xB0;) STS under cyclic. <bold>Notes:</bold> Failure points are marked with dots at 80% of maximum load on the descending phase.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g004.tif"/>
+      </fig>
+      <fig id="buildings-12-01018-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Failure on wood: (<bold>a</bold>) wood crush in 90&#xB0; STSs; (<bold>b</bold>) wood crush in 45&#xB0; STSs; (<bold>c</bold>) wood crush in mixed angle connection (90&#xB0; and 45&#xB0;); (<bold>d</bold>) wood splitting in 10 mm connection with STSs installed at 90&#xB0;; and (<bold>e</bold>) wood splitting in 8 mm connection with STSs installed at mixed angles (90&#xB0; and 45&#xB0;).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g005.tif"/>
+      </fig>
+      <fig id="buildings-12-01018-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Comparison of average mechanical properties of STS connections: (<bold>a</bold>) yield displacement; (<bold>b</bold>) energy dissipation; (<bold>c</bold>) peak force; (<bold>d</bold>) ultimate displacement; (<bold>e</bold>) stiffness; (<bold>f</bold>) ductility ratio.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g006.tif"/>
+      </fig>
+      <fig id="buildings-12-01018-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Failure modes of STSs in CLT-lumber connections: (<bold>a</bold>) 90&#xB0; STS; (<bold>b</bold>) 45&#xB0; STS; (<bold>c</bold>) mixed angle STS (45&#xB0; and 90&#xB0;); (<bold>d</bold>) STS at 90&#xB0;; (<bold>e</bold>) STS at 45&#xB0;; and (<bold>f</bold>) STS at mixed angles (90&#xB0; and 45&#xB0;).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g007.tif"/>
+      </fig>
+      <fig id="buildings-12-01018-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Equivalent viscous damping ratio of STS connections under reversed-cyclic loading: (<bold>a</bold>) 8 mm STS at 90&#xB0;; (<bold>b</bold>) 10 mm STS at 90&#xB0;; (<bold>c</bold>) 8 mm STS at 45&#xB0;; (<bold>d</bold>) 10 mm STS at 45&#xB0;; (<bold>e</bold>) 8 mm STS at mixed angles (45&#xB0; and 90&#xB0;); and (<bold>f</bold>) 10 mm STS at angles (45&#xB0; and 90&#xB0;).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-12-01018-g008.tif"/>
+      </fig>
+      <table-wrap id="buildings-12-01018-t001" position="float">
+        <object-id pub-id-type="pii">buildings-12-01018-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Material properties.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CLT [<xref ref-type="bibr" rid="B14-buildings-12-01018">14</xref>]</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Layers</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Longitudinal</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Transversal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Bending at extreme fibre, f<sub>b</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.0</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Longitudinal shear, f<sub>v</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Rolling shear, f<sub>s</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.5</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Compression parallel to grain, f<sub>c</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.0</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Compression perpendicular to grain, f<sub>cp</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.3</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Tension parallel to grain, f<sub>t</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.2</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Modulus of elasticity, E (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11700</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9000</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Shear modulus, G (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">731</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">563</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Longitudinal shear, f<sub>v</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">73.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">56.3</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="left" valign="middle" style="border-bottom:solid thin">
+                <bold>STS [<xref ref-type="bibr" rid="B16-buildings-12-01018">16</xref>]</bold>
+              </td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Diameter</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>8 mm</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>10 mm</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Bending yield strength (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1015</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">942</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Unfactored tension strength (kN)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Unfactored shear strength (kN)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">641</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">691</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="buildings-12-01018-t002" position="float">
+        <object-id pub-id-type="pii">buildings-12-01018-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Test matrix.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Loading Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">STS Insertion Angle</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">STS Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Diameter of Fasteners (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Length of Fasteners (mm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">Monotonic</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">90&#xB0;</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">PT <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0;</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">FT <sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">240</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">240</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0; + 90&#xB0;</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">FT + PT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160 + 240</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160 + 240</td>
+            </tr>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">Cyclic</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">90&#xB0;</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">PT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0;</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">FT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">240</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">240</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0; + 90&#xB0;</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">FT + PT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160 + 240</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160 + 240</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: <sup>1</sup>: partially threaded. <sup>2</sup>: fully threaded.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="buildings-12-01018-t003" position="float">
+        <object-id pub-id-type="pii">buildings-12-01018-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Mechanical properties of STS connections under monotonic loading.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Monotonic</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Screw Diameter</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394;<sub>y</sub> (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">F<sub>y</sub> (kN)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">F<sub>peak</sub> (kN)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394;<sub>peak</sub> (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394;<sub>u</sub> (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">K (kN/mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#xB5;</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E <sup>2</sup> (kN&#xB7;mm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">8 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">53.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">66.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1217.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">61.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">86.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1542.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1243.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">61.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">79.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1240.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">57.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">76.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1311.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">8 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">54.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">86.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">83.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">81.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0; + 90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">8 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">56.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">61.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1699.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">55.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">75.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">63.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2053.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">47.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">58.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1274.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">40.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">58.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">73.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">62.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2438.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">54.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">69.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">55.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1866.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">10 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">57.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">75.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1486.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.1 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.1 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.7 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39.3 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.1 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.9 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">718.5 <sup>1</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.6 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.2 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.8 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.7 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.3 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.9 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.2 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">332.1 <sup>1</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">64.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1394.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">70.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1440.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">10 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">137.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">176.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">132.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">146.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">148.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0; + 90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">10 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.21</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">44.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">51.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">59.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2821.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">37.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">63.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">64.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2768.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">40.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">44.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">55.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2903.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.53</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">47.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">47.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3412.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">45.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">49.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">73.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">57.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2976.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><bold>Notes:</bold><sup>1</sup> The specimen failed due to splitting of wood, and its mechanical properties are not used in calculation of mean and COV. <sup>2</sup> Energy dissipation under monotonic load is calculated to the failure point (<xref ref-type="fig" rid="buildings-12-01018-f004">Figure 4</xref>). The energy dissipation under cyclic load is calculated to the end of the first primary cycle that causes drop of the peak resistance below 80% of the maximum load. The two subsequent cycles with 75% amplitude are not included.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="buildings-12-01018-t004" position="float">
+        <object-id pub-id-type="pii">buildings-12-01018-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Mechanical properties of STS connections under reversed-cyclic loading.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cyclic</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Screw Diameter</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394;<sub>y</sub> (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">F<sub>y</sub> (KN)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">F<sub>peak</sub> (KN)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394;<sub>peak</sub> (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394;<sub>u</sub> (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">K (kN/mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#xB5;</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E <sup>2</sup> (kN&#xB7;mm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">8 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">550.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">495.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">530.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">520.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">524.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">8 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">174.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">150.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">174.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">151.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">162.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0; + 90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">8 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.92</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">37.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2214.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.81</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2184.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.91</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2411.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2409.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2304.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">10 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">621.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">663.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">608.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.1 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.4 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.0 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.0 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.2 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.2 <sup>1</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">163.0 <sup>1</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">631.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">10 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">250.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">261.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">300.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">252.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">265.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">59%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">47%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">45&#xB0; + 90&#xB0;</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">10 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">37.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3052.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3252.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">44.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3326.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.06</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2614.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">44.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3061.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">COV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9%</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><bold>Notes:</bold>&#xA0;<sup>1</sup> The specimen failed due to splitting of wood and its mechanical properties are not used in calculation of mean and COV. <sup>2</sup> Energy dissipation under monotonic load is calculated to the failure point (<xref ref-type="fig" rid="buildings-12-01018-f004">Figure 4</xref>). The energy dissipation under cyclic load is calculated to the end of the first primary cycle that causes drop of the peak resistance below 80% of the maximum load. The two subsequent cycles with 75% amplitude are not included.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

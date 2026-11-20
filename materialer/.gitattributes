@@ -13,3 +13,4 @@ src/catalog.rs text eol=lf
 src/catalog/*.rs text eol=lf
 data/supplements/field-sources/originals/** binary
 data/supplements/ens-varme/originals/** binary
+data/supplements/mechanics-*/originals/** binary
