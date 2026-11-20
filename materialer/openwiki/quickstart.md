@@ -5,7 +5,7 @@ description: "Find projektmateriale, materialedata, det afprøvede samlede CAD/B
 tags: ["programs", "cad", "agents"]
 verified:
   - by: openwiki/0.9.0
-    at: 2026-11-20T21:01:37.522Z
+    at: 2026-11-20T21:14:54.927Z
 sources:
   - id: openwiki-source-16ad9c57da182f87c66c86c2
     resource: repo://catalog/coverage.json
@@ -17,7 +17,7 @@ sources:
     resource: repo://docs/PROGRAMMER.md
   - id: openwiki-source-af5ac3680872a1b8fc55ee8d
     resource: repo://sources/programmer/installation.json
-generated: { by: "codex", at: "2026-11-20T21:01:37.522Z" }
+generated: { by: "codex", at: "2026-11-20T21:14:54.927Z" }
 ---
 
 # Start her — åbne materialedata og modelberegninger
@@ -39,6 +39,7 @@ Hele materialedatasættet følger med som Parquet i `data/parquet/`. Gendan den 
 | Søg i den leverede materialedatabase | [Database, kilder og CLI](data/materialedatabase.md) |
 | Fælles vision: brede materialedata, beregninger, CLI og agent-skills | [Åben materialeplatform](ideer/aaben-materialeplatform.md) |
 | Produktidéer og prioritering for danske arkitekter | [Idékatalog](ideer/danske-arkitektvaerktoejer.md) |
+| Lær hele forløbet på en hylde med to materialer | [Masse, klima og nedbøjning trin for trin](workflows/hyldekonsol.md) |
 | Vælg værktøj til bygningsmodel, detaljetegning eller statisk beregning | [Programmerne forklaret med en facadeplade](programmer/fieldcraft.md) |
 | Parametrisk CAD, detaljer og 3D-print | [Solidcraft](programmer/solidcraft.md) |
 | Bygningsmodeller, tegninger og IFC | [BIMcraft](programmer/bimcraft.md) |
@@ -77,3 +78,5 @@ For Vandkunstens oprindelige værktøjer er blandt andet makroafvikling og valid
 ## Afprøvet samlet forløb
 
 [Solidcraft → BIMcraft → materialeværktøj](../examples/integrated-workflow/README.md) er gennemført på en lille, veldokumenteret model med tre dele og en modelændring. Geometrien overføres gennem GLB og måles fra BIMcrafts egne familietrekanter. Materialereferencer er eksplicitte, og både beregninger, returimport og afvisning af gamle bindinger er efterprøvet. Det er et generisk komponentforløb med nyt BIM-projekt pr. revision.
+
+Som næste øvelse kan du følge en 300 × 300 mm hylde hele vejen til en statisk beregning. SolidCraft og BIMCraft leverer mængderne, materialeværktøjet vælger kildeværdier, og FieldCraft beregner den ene stålskinnes nedbøjning. [Begynd med hylden](workflows/hyldekonsol.md).
