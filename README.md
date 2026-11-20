@@ -9,4 +9,6 @@ Hvordan kan vi bruge viden om materialer til at træffe bedre valg om de bygning
 
 Du kan læse begge dele direkte på GitHub. Materialeværktøjet kan også bruges på din egen computer. Efter download eller kloning ligger installationsvejledningen, kildekoden og dataene samlet i [materialer](materialer/docs/RUST.md).
 
+Vil du genbruge en facadeplade og tegne et nyt beslag til den? Se, hvordan BIMCraft beskriver bygningen, SolidCraft tegner beslaget, og FieldCraft kan beregne dets nedbøjning. [Sådan bruger du de tre programmer og vores materialedata](materialer/docs/PROGRAMMER.md).
+
 De to områder mødes i konkrete valg. Et materialetal kan fortælle, hvad fremstillingen af en ny rude belaster klimaet med. Før en arkitekt kan sammenligne den med at bevare et bestemt vindue, skal man også vide, hvordan vinduet har det, hvad der kan repareres, og hvor længe de to løsninger forventes at holde. Det er den slags spørgsmål, vi åbner for i [den nye wiki](transformation-og-genbrug/openwiki/quickstart.md).

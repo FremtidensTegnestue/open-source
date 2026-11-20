@@ -42,7 +42,9 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 | Forstå ord som EPD, BIM, CLI og MCP | [Ordliste](docs/ORDLISTE.md) |
 | Se afprøvningen på et rigtigt byggeri | [Lisbjerg Bakke](reports/lisbjerg-bakke/README.md) |
 
-## Tre værktøjer, der arbejder sammen
+## SolidCraft, BIMCraft, FieldCraft og materialeværktøjet
+
+Følg en facadeplade fra bygningsmodel til materialevalg, og se, hvilke oplysninger der skal til for at beregne dens beslag. [Guide til programmerne med et gennemregnet eksempel](docs/PROGRAMMER.md).
 
 ### SolidCraft: formen og detaljen
 
@@ -55,6 +57,10 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 **BIMCraft** fra IPedrax er et selvstændigt, åbent BIM-program. Det arbejder med bygningsdele som vægge, dæk, vinduer, rum og etager samt tegninger og IFC-modeller. Det kan også importere generisk geometri fra SolidCraft. Programmet har ligesom SolidCraft en kommandolinje til agenter og automatisering.
 
 [Hent den afprøvede BIMCraft 0.12.0](https://github.com/IPedrax/BIMCraft/releases/tag/v0.12.0) · [Officiel vejledning og kildekode](https://github.com/IPedrax/BIMCraft)
+
+### FieldCraft beregner, hvordan delen opfører sig under last
+
+I FieldCraft kan du undersøge, hvor meget et beslag bøjer, og hvor spændingerne er størst. Du vælger materiale, last og fastholdelser. Vores guide viser, hvordan forsøgsdata kan bruges til at vælge input, og hvor langt vi er kommet med at afprøve forbindelsen. [Guide til programmerne](docs/PROGRAMMER.md) · [Hent FieldCraft](https://github.com/tangency-labs/fieldcraft/releases)
 
 ### Materialeværktøjet: egenskaber, kilder og beregninger
 
