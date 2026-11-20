@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "command": "file.export",
+      "params": {
+        "path": "rail.3mf",
+        "format": "3mf-tagged",
+        "bodies": ["Rail_A"]
+      }
+    }
+  ]
+}

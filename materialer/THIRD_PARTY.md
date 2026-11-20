@@ -37,3 +37,7 @@ EPD Danmark-tillæggets kildefiler, udtrukne resultater og arbejdsdatabase hente
 Energistyrelsens regneark for individuel opvarmning angiver CC BY 4.0. BUILDs tabel over middellevetider indlæses fra Aalborg Universitet til lokalt studium eller forskning under portalens vilkår. [Udgivere, præcise udgaver og bearbejdning](docs/sources/danske-levetider.md)
 
 Prøvningsdata, inventarlister, produktdeklarationer og producentvejledninger har særskilte vilkår. Hver kilde har egen kreditering og kontrolsum. [Faglige kilder og oprindelige filer](docs/sources/field-sources.md) · [Levetid og driftskilder](docs/sources/operations.md)
+
+## Mekaniske materialedata
+
+Hvert nyt tillæg ledsages af et kilderegister med downloadadresse, filens SHA-256 og dens licens. Licenser og kreditering følger hver original, herunder forskningsartikler, datasæt, håndbogskapitler og FieldCrafts materialekort. De to rapporter fra Teknologisk Institut bruges i tegnestuens lokale tillæg. [Oversigt og originale kilder](docs/sources/mekanik.md)

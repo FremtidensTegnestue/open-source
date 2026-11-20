@@ -1,0 +1,51 @@
+{
+  "cases_by_category": {
+    "Aluminiumlegeringer": 4,
+    "Armeringsstål": 1,
+    "Brændt ler og keramik": 7,
+    "Bygningsglas": 1,
+    "Bygningsglas, styrkeklasse": 6,
+    "Gipsprøver": 1,
+    "Glasprøver": 7,
+    "Grafitprøver": 10,
+    "Ikke-jernmetaller og legeringer": 43,
+    "Jern og stål": 36,
+    "Keramiske og uorganiske prøver": 16,
+    "Kompositprøver": 11,
+    "Konstruktionsstål": 2,
+    "Mørtelprøver": 7,
+    "Polymerprøver": 9,
+    "Rustfrit stål": 2,
+    "Sten og mineralprøver": 29,
+    "Titaniumlegeringer": 1
+  },
+  "cases_by_source": {
+    "mechanics-metals-glass:source:fieldcraft": 9,
+    "mechanics-metals-glass:source:glass26": 5,
+    "mechanics-metals-glass:source:jrc-ec2-2014": 1,
+    "mechanics-metals-glass:source:jrc14": 2,
+    "mechanics-metals-glass:source:ono20": 114,
+    "mechanics-metals-glass:source:ono22": 62
+  },
+  "conflicting_facts": 10,
+  "dataset": "mechanics-metals-glass",
+  "facts": 848,
+  "facts_by_field": {
+    "bending_strength": 6,
+    "density": 189,
+    "dynamic_elastic_modulus": 174,
+    "dynamic_poisson_ratio": 174,
+    "dynamic_shear_modulus": 176,
+    "elastic_modulus": 11,
+    "hardness": 80,
+    "poisson_ratio": 10,
+    "specific_heat_capacity": 3,
+    "tensile_strength": 6,
+    "thermal_conductivity": 4,
+    "thermal_expansion_coefficient": 8,
+    "yield_strength": 7
+  },
+  "materials": 193,
+  "observations": 848,
+  "sources": 9
+}

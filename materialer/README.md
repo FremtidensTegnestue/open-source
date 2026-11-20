@@ -6,7 +6,7 @@
 
 Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, studerende og udviklere.
 
-[De 158 materialefelter](docs/MATERIALEFELTER.md) · [Kom godt i gang med Rust-CLI’et](docs/RUST.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
+[De 169 materialefelter](docs/MATERIALEFELTER.md) · [Kom godt i gang med Rust-CLI’et](docs/RUST.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
 
 </div>
 
@@ -18,6 +18,7 @@ Forestil dig, at du har tegnet en bygningsdel og vil vide, hvad den vejer, hvord
 
 Du kan allerede:
 
+- **Undersøge styrke, stivhed og deformation over tid** for konkrete prøver. Find originalens tal og se, hvilke laster og materialeretninger det gælder. [Mekaniske forsøgsdata](docs/sources/mekanik.md)
 - **Søge i materialedata** og finde værdier med enheder, betingelser og kildehenvisninger.
 - **Finde levetid og vedligehold** for den relevante bygningsdel og se, om et interval kommer fra en driftsvejledning eller en miljøberegning. [Læs eksemplet med en glasdør](docs/sources/operations.md).
 - **Beregne vægt** fra en dokumenteret mængde og en valgt densitet.
@@ -38,6 +39,7 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 
 | Du vil … | Start her |
 | --- | --- |
+| Gennemgå en lille hylde fra materialetal til statik | [Hyldens masse, produktionsklima og nedbøjning](examples/hyldekonsol/README.md) |
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
 | Have en AI-agent til at hjælpe | [Materialevalget i SolidCraft og BIMCraft](examples/unified-workflow/README.md) |
 | Søge og beregne selv | [Installation og dine første kommandoer](docs/RUST.md) |
@@ -45,7 +47,9 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 | Forstå ord som EPD, BIM, CLI og MCP | [Ordliste](docs/ORDLISTE.md) |
 | Se afprøvningen på et rigtigt byggeri | [Lisbjerg Bakke](reports/lisbjerg-bakke/README.md) |
 
-## Tre værktøjer, der arbejder sammen
+## SolidCraft, BIMCraft, FieldCraft og materialeværktøjet
+
+Følg en facadeplade fra bygningsmodel til materialevalg, og se, hvilke oplysninger der skal til for at beregne dens beslag. [Guide til programmerne med et gennemregnet eksempel](docs/PROGRAMMER.md).
 
 ### SolidCraft: formen og detaljen
 
@@ -58,6 +62,10 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 **BIMCraft** fra IPedrax er et selvstændigt, åbent BIM-program. Det arbejder med bygningsdele som vægge, dæk, vinduer, rum og etager samt tegninger og IFC-modeller. Det kan også importere generisk geometri fra SolidCraft. Programmet har ligesom SolidCraft en kommandolinje til agenter og automatisering.
 
 [Hent den afprøvede BIMCraft 0.12.0](https://github.com/IPedrax/BIMCraft/releases/tag/v0.12.0) · [Officiel vejledning og kildekode](https://github.com/IPedrax/BIMCraft)
+
+### FieldCraft beregner, hvordan delen opfører sig under last
+
+I FieldCraft kan du undersøge, hvor meget et beslag bøjer, og hvor spændingerne er størst. Du vælger materiale, last og fastholdelser. Vi har afprøvet dette på en hylde. Materialeværktøjet leverede stålets elasticitetsdata, og en beregning med bjælketeori kontrollerede simuleringen. [Gennemgå hyldens statik](examples/hyldekonsol/README.md). [Guide til programmerne](docs/PROGRAMMER.md) · [Hent FieldCraft](https://github.com/tangency-labs/fieldcraft/releases)
 
 ### Materialeværktøjet: egenskaber, kilder og beregninger
 
@@ -81,12 +89,12 @@ Den offentlige udgave kombinerer de fire Parquet-grunddatasæt med kildebelagte 
 
 | Dataudgave | Materiale- og referenceposter | Observationer | Direkte feltregistreringer |
 | --- | ---: | ---: | ---: |
-| Offentlig v0.3 | 12.817 | 1.998.293 | 10.712 |
-| Udvidet lokal med bl.a. BUILD og EPD Danmark | 14.379 | 2.013.687 | 13.781 |
+| Offentlig mekanikudgave | 19.918 | 2.007.877 | 20.329 |
+| Udvidet lokal med danske murværksforsøg, BUILD og EPD Danmark | 21.509 | 2.023.345 | 23.472 |
 
 En post kan være et konkret produkt, en prøve, en opbygning eller et generisk scenarie. Den sidste kolonne omfatter bl.a. levetidsudsagn, genbrugsregistreringer og kildereview. Nogle målinger findes i begge tekniske formater. Registre og observationer skal derfor læses som særskilte optællinger.
 
-**93 af de 158 felter** har mindst én dokumenteret værdi i den offentlige materialedatabase. I den udvidede lokale udgave gælder det **96 felter**. For et bestemt materiale er dækningen typisk mindre. Fire yderligere felter vedrører selve projektet og er afprøvet på samme facadeplade i både SolidCraft og BIMCraft. [Dækning felt for felt](data/releases/coverage-public-v0.3.0.json) · [Levetid på modelpladen](examples/model-fields/README.md) · [Alle datakilder](data/README.md)
+**106 af de 169 felter** har mindst én dokumenteret værdi i den offentlige materialedatabase. I den udvidede lokale udgave gælder det **109 felter**. For et bestemt materiale er dækningen typisk mindre. Fire yderligere felter vedrører selve projektet og er afprøvet på samme facadeplade i både SolidCraft og BIMCraft. [Dækning felt for felt](data/releases/coverage-public-mechanics-2026-11-20.json) · [Levetid på modelpladen](examples/model-fields/README.md) · [Alle datakilder](data/README.md)
 
 Programmet bygger den store SQLite-base én gang fra omkring 91 MB Parquet. Efterfølgende udgaver genbruger den samme base og gemmer tillæg i separate SQLite-filer. Hver udgave har et fast ID, så et gammelt projekt kan genberegnes efter en dataopdatering. [Datamodel, løbende kildetjek og installation](docs/RUST.md)
 
@@ -112,7 +120,7 @@ git clone https://github.com/FremtidensTegnestue/open-source.git
 cd open-source/materialer
 ```
 
-Med Rust og Cargo installeret kan du bygge CLI'et og bruge det fra mappen `materialer`. På Linux kan du også hente en færdig binærfil til din processor fra [projektets udgivelser](https://github.com/FremtidensTegnestue/open-source/releases).
+Med Rust og Cargo installeret kan du bygge CLI'et og bruge det fra mappen `materialer`. Byg fra samme checkout som dataene for at få mekanikfelterne.
 
 ```sh
 cargo install --locked --path .
@@ -140,7 +148,7 @@ Der følger ingen AI-tjeneste, API-nøgle eller abonnement med. Brug af en valgt
 
 ## Hvad er efterprøvet — og hvor går grænsen?
 
-Den samlede modelkæde er afprøvet med **SolidCraft CLI 0.44.0** og **BIMCraft CLI 0.12.0**. De afprøvede modeller, programversioner og kontrolresultater ligger sammen med eksemplerne. Andre versioner og operativsystemer er ikke automatisk dækket af samme kontrol.
+Modelforløbene er afprøvet med **SolidCraft CLI 0.44.0** og **BIMCraft CLI 0.12.0**. Hyldeeksemplet bruger desuden **FieldCraft CLI 0.8.1** til lineær statik. De afprøvede modeller, programversioner og kontrolresultater ligger sammen med eksemplerne. Andre versioner og operativsystemer er ikke automatisk dækket af samme kontrol.
 
 Kernen omfatter masse, modulvis GWP-skalering og en afgrænset træfugtmetode. Databasen indeholder flere egenskaber, end beregningsværktøjet endnu har metoder til. En hel bygnings LCA, bæreevne, brand, lyd og fugtsikkerhed kræver yderligere grundlag og relevante faglige beregninger. Et materialematch på navn er et forslag, og uafklarede værdier bliver ikke til nul.
 

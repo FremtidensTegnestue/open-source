@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "snapshot": "u2-92e6ff304206a189861d717c33037b9e9f98cbc38d24ac36b0bb767ccced5dfb",
+  "inputs": {
+    "steel_density": {
+      "material_id": "mechanics-metals-glass:material:en10025-s235",
+      "observation_id": "mechanics-metals-glass:material:en10025-s235:density:observation",
+      "property_id": "property:density",
+      "value": 7850.0,
+      "unit": "kg/m3",
+      "source_id": "mechanics-metals-glass:source:fieldcraft",
+      "source_url": "https://raw.githubusercontent.com/tangency-labs/fieldcraft/c1bec5b74f666f40b2fa45db89ff2aeccbe61431/crates/model/data/materials.json",
+      "source_locator": "crates/model/data/materials.json: entry id=EN10025-S235/properties/density",
+      "source_version_id": "mechanics-metals-glass:source:fieldcraft#sha256:4f49a905d3cfa81bea079b5ff40831d3f64e070e8015dec42e79e987b03a50d7"
+    },
+    "steel_young": {
+      "material_id": "mechanics-metals-glass:material:en10025-s235",
+      "observation_id": "mechanics-metals-glass:material:en10025-s235:elastic_modulus:observation",
+      "property_id": "source-property:mechanics-metals-glass:elastic_modulus",
+      "value": 210000000000.0,
+      "unit": "Pa",
+      "source_id": "mechanics-metals-glass:source:fieldcraft",
+      "source_url": "https://raw.githubusercontent.com/tangency-labs/fieldcraft/c1bec5b74f666f40b2fa45db89ff2aeccbe61431/crates/model/data/materials.json",
+      "source_locator": "crates/model/data/materials.json: entry id=EN10025-S235/properties/young",
+      "source_version_id": "mechanics-metals-glass:source:fieldcraft#sha256:4f49a905d3cfa81bea079b5ff40831d3f64e070e8015dec42e79e987b03a50d7"
+    },
+    "steel_poisson": {
+      "material_id": "mechanics-metals-glass:material:en10025-s235",
+      "observation_id": "mechanics-metals-glass:material:en10025-s235:poisson_ratio:observation",
+      "property_id": "source-property:mechanics-metals-glass:poisson_ratio",
+      "value": 0.3,
+      "unit": "1",
+      "source_id": "mechanics-metals-glass:source:fieldcraft",
+      "source_url": "https://raw.githubusercontent.com/tangency-labs/fieldcraft/c1bec5b74f666f40b2fa45db89ff2aeccbe61431/crates/model/data/materials.json",
+      "source_locator": "crates/model/data/materials.json: entry id=EN10025-S235/properties/poisson",
+      "source_version_id": "mechanics-metals-glass:source:fieldcraft#sha256:4f49a905d3cfa81bea079b5ff40831d3f64e070e8015dec42e79e987b03a50d7"
+    },
+    "steel_yield": {
+      "material_id": "mechanics-metals-glass:material:en10025-s235",
+      "observation_id": "mechanics-metals-glass:material:en10025-s235:yield_strength:observation",
+      "property_id": "source-property:mechanics-metals-glass:yield_strength",
+      "value": 235000000.0,
+      "unit": "Pa",
+      "source_id": "mechanics-metals-glass:source:fieldcraft",
+      "source_url": "https://raw.githubusercontent.com/tangency-labs/fieldcraft/c1bec5b74f666f40b2fa45db89ff2aeccbe61431/crates/model/data/materials.json",
+      "source_locator": "crates/model/data/materials.json: entry id=EN10025-S235/properties/yield",
+      "source_version_id": "mechanics-metals-glass:source:fieldcraft#sha256:4f49a905d3cfa81bea079b5ff40831d3f64e070e8015dec42e79e987b03a50d7"
+    },
+    "steel_gwp": {
+      "material_id": "br18:t7:D1591:row129",
+      "observation_id": "br18:t7:D1591:row129:gwp:A1-A3",
+      "property_id": "property:gwp_total",
+      "value": 1639.0000000000002,
+      "unit": "kg CO2-eq",
+      "declared_unit": "1 ton",
+      "module": "A1-A3",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_locator": "Sheet1!E129",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18"
+    },
+    "board_density": {
+      "material_id": "br18:t7:B1496:row35",
+      "observation_id": "br18:t7:B1496:row35:mass",
+      "property_id": "property:density",
+      "value": 480.0,
+      "unit": "kg/m³",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_locator": "Sheet1!K35:L35",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18"
+    },
+    "board_gwp": {
+      "material_id": "br18:t7:B1496:row35",
+      "observation_id": "br18:t7:B1496:row35:gwp:A1-A3",
+      "property_id": "property:gwp_total",
+      "value": -599.0,
+      "unit": "kg CO2-eq",
+      "declared_unit": "1 m³",
+      "module": "A1-A3",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_locator": "Sheet1!E35",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18"
+    },
+    "board_c3": {
+      "material_id": "br18:t7:B1496:row35",
+      "observation_id": "br18:t7:B1496:row35:gwp:C3",
+      "property_id": "property:gwp_total",
+      "value": 743.0,
+      "unit": "kg CO2-eq",
+      "declared_unit": "1 m³",
+      "module": "C3",
+      "source_id": "br18:source:table-7-2025.xlsx",
+      "source_url": "https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx",
+      "source_locator": "Sheet1!F35",
+      "source_version_id": "br18:source:table-7-2025.xlsx#sha256:3ac0babdd803cc688e058c9b1096c9871c849362014d4da80564000b73bcdb18"
+    }
+  }
+}

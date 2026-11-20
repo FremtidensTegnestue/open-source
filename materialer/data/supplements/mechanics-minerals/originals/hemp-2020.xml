@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">materials</journal-id>
+      <journal-title-group>
+        <journal-title>Materials</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Materials</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Materials</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1996-1944</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ma13215000</article-id>
+      <article-id pub-id-type="publisher-id">materials-13-05000</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Mechanical, Thermal, and Moisture Buffering Properties of Novel Insulating Hemp-Lime Composite Building Materials</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abdellatef</surname>
+            <given-names>Yaser</given-names>
+          </name>
+          <xref rid="af1-materials-13-05000" ref-type="aff">1</xref>
+          <xref rid="af2-materials-13-05000" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Khan</surname>
+            <given-names>Mohammad Amil</given-names>
+          </name>
+          <xref rid="af3-materials-13-05000" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1135-4918</contrib-id>
+          <name>
+            <surname>Khan</surname>
+            <given-names>Asif</given-names>
+          </name>
+          <xref rid="af3-materials-13-05000" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5356-5668</contrib-id>
+          <name>
+            <surname>Alam</surname>
+            <given-names>Mehdi Iftekharul</given-names>
+          </name>
+          <xref rid="af3-materials-13-05000" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kavgic</surname>
+            <given-names>Miroslava</given-names>
+          </name>
+          <xref rid="af1-materials-13-05000" ref-type="aff">1</xref>
+          <xref rid="af3-materials-13-05000" ref-type="aff">3</xref>
+          <xref rid="c1-materials-13-05000" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-materials-13-05000"><label>1</label>Civil Engineering Department, University of Ottawa, 161 Louis Pasteur, Ottawa, ON K1N 6N5, Canada; <email>yabde079@uottawa.ca</email></aff>
+      <aff id="af2-materials-13-05000"><label>2</label>Mechanical Power Department, Faculty of Engineering, Cairo University, Giza 12613, Egypt</aff>
+      <aff id="af3-materials-13-05000"><label>3</label>Civil Engineering Department, University of Manitoba, 15 Gillson St., Winnipeg, MB R3T 5V6, Canada; <email>mohammadamilkhan@gmail.com</email> (M.A.K.); <email>asifkhantupu@gmail.com</email> (A.K.); <email>mehdi17uofm@gmail.com</email> (M.I.A.)</aff>
+      <author-notes>
+        <corresp id="c1-materials-13-05000"><label>*</label>Correspondence: <email>mkavgic@ottawa.ca</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>21</issue>
+      <elocation-id>5000</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>09</day>
+          <month>10</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>11</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2020 by the authors.</copyright-statement>
+        <copyright-year>2020</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Hempcrete is a sustainable biocomposite that can reduce buildings&#x2019; embodied energy while improving energy performance and indoor environmental quality. This research aims to develop novel insulating hemp-lime composites using innovative binder mixes made of recycled and low-embodied energy pozzolans. The characterization of composites&#x2019; mechanical and hygrothermal properties includes measuring compressive strength, splitting tensile strength, thermal conductivity, specific heat capacity, and moisture buffer capacities. This study also investigates the impact of sample densities and water content on compressive strength at different ages. The findings suggest that mixes with a 1:1 binder to hemp ratio and 300&#x2212;400 kg/m<sup>3</sup> density have hygrothermal and mechanical properties suitable for insulating infill wall applications. Hence, compressive strengths, thermal conductivity, and specific heat capacity values range from 0.09 to 0.57 MPa, 0.087 to 0.10 W/m K, and 1250 to 1557 J/kg K, respectively. The average moisture buffer value for all hempcrete samples of 2.78 (gm/m<sup>2</sup> RH%) indicates excellent moisture buffering capacity. Recycled crushed brick pozzolan can enhance the hygrothermal performance of the hemp-lime composites. Thus, samples with 10% crushed brick have the lowest thermal conductivity considering their density and the highest moisture buffer capacity. The new formulas of hydrated lime and crushed brick have mechanical properties comparable to metakaolin and hydraulic lime formulas.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>hemp-lime composites</kwd>
+        <kwd>mechanical properties</kwd>
+        <kwd>thermal properties</kwd>
+        <kwd>moisture buffering capacity</kwd>
+        <kwd>crushed brick</kwd>
+        <kwd>metakaolin</kwd>
+        <kwd>hydrated lime</kwd>
+        <kwd>hydraulic lime</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-materials-13-05000" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Hempcrete, made of the hemp plant&#x2019;s inner woody core mixed with a lime-based binder, is a promising lightweight biocomposite material that holds the potential to considerably improve energy and indoor environmental performance and sustainability of buildings [<xref ref-type="bibr" rid="B1-materials-13-05000">1</xref>,<xref ref-type="bibr" rid="B2-materials-13-05000">2</xref>]. Nevertheless, the utilization of hempcrete in the construction industry remains low, mainly due to the high variability of hemp-lime composites and lack of formulas that use widely available and locally sourced ingredients. For example, hempcrete&#x2019;s production cost and embodied energy could be considerably higher in Canada than in Europe due to imported materials [<xref ref-type="bibr" rid="B3-materials-13-05000">3</xref>]. The use of innovative binders and a better understanding of the material&#x2019;s performance are indispensable steps for addressing hempcrete underutilization.</p>
+      <p>Previous studies have shown that hempcrete hygrothermal and mechanical properties depended on various factors. The binder to hemp ratio, compaction level, water content, and binder mix design have been considered to be critical [<xref ref-type="bibr" rid="B4-materials-13-05000">4</xref>,<xref ref-type="bibr" rid="B5-materials-13-05000">5</xref>,<xref ref-type="bibr" rid="B6-materials-13-05000">6</xref>,<xref ref-type="bibr" rid="B7-materials-13-05000">7</xref>]. For instance, an increase in the proportion of porous hemp hurd in hempcrete mixture reduced the dry density and the thermal conductivity [<xref ref-type="bibr" rid="B6-materials-13-05000">6</xref>,<xref ref-type="bibr" rid="B8-materials-13-05000">8</xref>]. In contrast, there was a positive correlation between density and thermal conductivity of the hempcrete [<xref ref-type="bibr" rid="B9-materials-13-05000">9</xref>,<xref ref-type="bibr" rid="B10-materials-13-05000">10</xref>]. Thus, studies have reported thermal conductivity in the range of 0.06&#x2212;0.11 W/m K for hempcrete mixtures with dry densities ranging from 200 to 400 kg/m<sup>3</sup> and hemp/binder ratios of 1:1, 1:1.5, and 1:2 [<xref ref-type="bibr" rid="B11-materials-13-05000">11</xref>,<xref ref-type="bibr" rid="B12-materials-13-05000">12</xref>]. In comparison, hempcrete samples with higher dry density and hemp/binder ratio in the range of 450&#x2212;800 kg/m<sup>3</sup> and 1:2&#x2212;1:4, respectively, had higher thermal conductivity ranging from 0.12 to 0.18 W/m K [<xref ref-type="bibr" rid="B11-materials-13-05000">11</xref>,<xref ref-type="bibr" rid="B12-materials-13-05000">12</xref>]. Previous findings have also indicated a negative correlation between hempcrete&#x2019;s density and moisture buffering capacity. For example, Latif et al. (2015) reported a moisture buffer value (MBV) of 3.47 gm/m<sup>2</sup>%RH with a binder to hemp ratio of 1.2:1, and density of 290 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B13-materials-13-05000">13</xref>], while Collet et al. (2013) reported an MBV of 2.14 gm/m<sup>2</sup>%RH, with a binder to hemp ratio of 2:1, and density of 430 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B14-materials-13-05000">14</xref>].</p>
+      <p>Furthermore, an increase in water content tends to increase the thermal conductivity of the hempcrete mixes. Rahim et al. (2016) reported a rise in thermal conductivity of approximately 8% and 16% at 10 &#xB0;C and 40 &#xB0;C, respectively, due to an increase in the water content of 0.08 kg/kg from the dry state [<xref ref-type="bibr" rid="B15-materials-13-05000">15</xref>]. The variation in specific heat capacity and thermal diffusivity under different humidity conditions was considerably less apparent than the variation in thermal conductivity [<xref ref-type="bibr" rid="B8-materials-13-05000">8</xref>]. Thus, specific heat capacity in the range of 1000&#x2212;1590 J/kg K was reported for hempcrete with dry densities ranging from 381 to 627 kg/m<sup>3</sup> and hemp to binder ratio 1:2 [<xref ref-type="bibr" rid="B5-materials-13-05000">5</xref>,<xref ref-type="bibr" rid="B10-materials-13-05000">10</xref>]. Thermal diffusivity in the range of 1.48 &#xD7; 10<sup>&#x2212;7</sup> m<sup>2</sup>/s in the dry state to 0.98 &#xD7; 10<sup>&#x2212;7</sup> m<sup>2</sup>/s in the fully saturated condition and high specific heat capacity can provide a better thermal performance than suggested by hempcrete&#x2019;s thermal transmittance [<xref ref-type="bibr" rid="B16-materials-13-05000">16</xref>]. Moreover, hempcrete integration with other innovative materials can modify its thermal energy storage properties [<xref ref-type="bibr" rid="B17-materials-13-05000">17</xref>].</p>
+      <p>The typical value of the compressive strength of hempcrete mixes is between 0.2 and 1.15 MPa, whereas their flexural and splitting tensile strength values are in the range of 0.06&#x2212;1.3 MPa and 0.02&#x2212;0.15 MPa, respectively [<xref ref-type="bibr" rid="B9-materials-13-05000">9</xref>,<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>]. A high content of hemp hurd in the design mix reduces the compressive and flexural strength of hemp-lime composites [<xref ref-type="bibr" rid="B9-materials-13-05000">9</xref>,<xref ref-type="bibr" rid="B19-materials-13-05000">19</xref>]. However, an increase in the density through compaction of the hempcrete can enhance its mechanical characteristics while reducing the binder&#x2019;s quantity, which is the major contributor to embodied carbon [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>,<xref ref-type="bibr" rid="B20-materials-13-05000">20</xref>,<xref ref-type="bibr" rid="B21-materials-13-05000">21</xref>]. In this respect, Dinh (2014) reported approximately 15% higher compressive strength of a 556.0 kg/m<sup>3</sup> hempcrete sample than a 439.7 kg/m<sup>3</sup> sample with a compressive strength of 0.65 &#xB1; 0.06 MPa [<xref ref-type="bibr" rid="B6-materials-13-05000">6</xref>]. Likewise, the hempcrete mixes&#x2019; splitting tensile strength increased with their density [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>]. For instance, Elfordy et al. (2008) reported flexural strength in the range of 0.749&#x2212;1.209 MPa, with a 2:1 binder to hemp ratio and a high-density range of 430&#x2212;607 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>].</p>
+      <p>Calcium hydroxide (i.e., hydrated lime) is particularly suitable for hemp-lime composites&#x2019; production due to advantages such as breathability, high water vapour permeability, durability, mould resistance, and pest deterrence [<xref ref-type="bibr" rid="B22-materials-13-05000">22</xref>,<xref ref-type="bibr" rid="B23-materials-13-05000">23</xref>]. Furthermore, adding hydraulic lime and metakaolin can improve hempcrete&#x2019;s performance due to their fast setting, high reactivity, and lower embodied energy as compared with Portland cement [<xref ref-type="bibr" rid="B22-materials-13-05000">22</xref>,<xref ref-type="bibr" rid="B24-materials-13-05000">24</xref>]. Crushed brick is another promising pozzolan that belongs to an aluminosilicate group and is reactive towards lime, creating interfacial surface alkaline [<xref ref-type="bibr" rid="B25-materials-13-05000">25</xref>]. Therefore, utilizing reclaimed bricks from demolished buildings as pozzolanic lime mortars could extend their lifetime and reduce hempcrete&#x2019;s embodied energy.</p>
+      <p>This research study aims to develop innovative insulating hemp-lime composites made of recycled and locally sourced materials. To the best of the authors&#x2019; knowledge, this is the first study that has used recycled crushed brick as a pozzolan to increase hemp-lime composites&#x2019; availability and performance, while reducing their environmental impact. Unlike most previous studies that focused on hempcrete&#x2019;s mechanical, thermal, or moisture properties [<xref ref-type="bibr" rid="B10-materials-13-05000">10</xref>,<xref ref-type="bibr" rid="B23-materials-13-05000">23</xref>], this study experimentally estimated the mechanical strength (compressive and splitting tensile strength), thermal performance, and moisture regulation capabilities of eight hempcrete design mixes. Furthermore, in contrast to the existing studies that utilized a hemp/binder ratio of 1:2 or higher for wall formulas [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>,<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>], this research focused on maximizing the hemp hurd ratio to improve the thermal properties of the hempcrete mixtures. Therefore, a hemp/binder ratio of 1:1 with a targeted density of 300 to 400 kg/m<sup>3</sup> was applied to create an insulating &#x201D;infill wall&#x201D; formula. The effect of water content on the mechanical properties was also studied. Consequently, this research provides valuable information about insulating hemp-lime composites&#x2019; critical performance required for material characterization that is likely to interest audiences in academia and industry, focusing on sustainable low-carbon composite building materials.</p>
+    </sec>
+    <sec id="sec2-materials-13-05000">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-materials-13-05000">
+        <title>2.1. Raw Materials</title>
+        <p>Local hemp producer &#x201C;Plains Hemp&#x201D; provided the hemp hurd used as aggregate in this study. The bulk density of the hurd at room temperature of 20 &#xB0;C was 110 &#xB1; 5 kg/m<sup>3</sup>, whereas its dry density after oven drying at 105 &#xB0;C for 24 hours was 101 &#xB1; 2 kg/m<sup>3</sup>. Sieve analysis was performed on an oven-dried batch of 100 g, according to ASTM C136&#x2013;06 [<xref ref-type="bibr" rid="B27-materials-13-05000">27</xref>], to determine the distribution of fine and coarse aggregates. Approximately 87% of the particles were less than 2.36 mm, and 10% were between 2.36 and 6.3 mm. The hydrated lime, metakaolin, and hydraulic lime, used in this study complied with ASTM C207&#x2212;06 [<xref ref-type="bibr" rid="B28-materials-13-05000">28</xref>], ASTM C618&#x2212;12 [<xref ref-type="bibr" rid="B29-materials-13-05000">29</xref>], and ASTM 1707&#x2212;09 [<xref ref-type="bibr" rid="B30-materials-13-05000">30</xref>], respectively. Utilized recycled pozzolanic crushed brick had a density of ~1355 kg/m<sup>3</sup>, firing temperature between 600 and 900 &#xB0;C, and it was primarily composed of silicon dioxide (50&#x2212;60%) and aluminum oxide (20&#x2212;30%).</p>
+      </sec>
+      <sec id="sec2dot2-materials-13-05000">
+        <title>2.2. Compositions of Hempcrete Samples</title>
+        <p>This study focused on maximizing the hemp hurd ratio within the hempcrete mixture to improve its thermal properties while reducing its environmental impact. Hence, the hemp hurd to binder ratio used in the hempcrete sample preparation was 1:1 with a wall application density of 300 and 400 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B5-materials-13-05000">5</xref>,<xref ref-type="bibr" rid="B31-materials-13-05000">31</xref>]. <xref ref-type="table" rid="materials-13-05000-t001">Table 1</xref> summarizes eight hempcrete design mixes with varying pozzolan concentrations and fifteen batches with varying water contents. The amount of water added to hemp-lime composites affects their physical properties. For instance, low water content may cause incomplete hydration and unreacted binder in powder form, leading to reduced compressive strength [<xref ref-type="bibr" rid="B23-materials-13-05000">23</xref>,<xref ref-type="bibr" rid="B32-materials-13-05000">32</xref>]. In contrast, high water content can result in higher density, leading to an increase in thermal conductivity, issues with a setting for the lime binder, and excessively long drying times for the hempcrete [<xref ref-type="bibr" rid="B6-materials-13-05000">6</xref>,<xref ref-type="bibr" rid="B33-materials-13-05000">33</xref>]. Furthermore, there is a lack of tests for measuring the workability of hemp-lime concretes, and experience is used to determine the appropriate water content. Therefore, we investigated different water contents that allowed the suitable workability of the developed hempcrete mixes.</p>
+      </sec>
+      <sec id="sec2dot3-materials-13-05000">
+        <title>2.3. Mixing, Moulding, and Curing</title>
+        <p>Mixing binders and water to create a slurry was the first step in creating hempcrete samples. Then, hemp hurd was added to the slurry and blended in an industrial mixer for approximately 5 min until a uniform mixture was obtained. For the thermal properties&#x2019; tests and moisture buffering tests, rectangular wooden moulds (26 cm wide &#xD7; 26 cm long &#xD7; 5.5 cm high) were filled with the mixture and tamped until reaching the desired wet density. The cylindrical moulds (10 cm diameter &#xD7; 20 cm long) for compression tests were prepared according to ASTM C39/C39M&#x2212;12 [<xref ref-type="bibr" rid="B34-materials-13-05000">34</xref>]. Furthermore, for splitting tensile tests, the cylindrical moulds (15 cm diameter &#xD7; 30 cm long) were produced by following ASTM C496/C496M&#x2013;17 [<xref ref-type="bibr" rid="B35-materials-13-05000">35</xref>]. Then, a one-quarter portion of the mould at a time was filled with the mixture and tamped until the desired wet density was reached (i.e., 750&#x2212;800 kg/m<sup>3</sup>). The samples were demolded after seven days and cured at room temperature of 22 &#xB1; 1 &#xB0;C, with RH ~50% for another 21&#x2212;28 days until they reached a constant mass. In total, approximately 220 samples were tested for their mechanical, thermal, and moisture buffering properties.</p>
+      </sec>
+      <sec id="sec2dot4-materials-13-05000">
+        <title>2.4. Experimental Tests</title>
+        <sec id="sec2dot4dot1-materials-13-05000">
+          <title>2.4.1. Mechanical Tests</title>
+          <p>The compression and splitting tensile tests were performed by following the ASTM D4832 [<xref ref-type="bibr" rid="B36-materials-13-05000">36</xref>] and ASTM C496 [<xref ref-type="bibr" rid="B35-materials-13-05000">35</xref>] standards, respectively. The compressive strength was measured after 28, 60, and 90 days, while splitting tensile strength was measured after 90 days. The load was applied continuously without any shock at a 5 mm/min rate and run for approximately 4&#x2212;5 min per specimen. The mode of failure was determined by the drop observed in the load-displacement curve after the initial increase. For each design mix and age, we tested four samples and calculated compressive strength as their average. Data obtained from the compression test were used to calculate Young&#x2019;s modulus, according to ASTM C469 [<xref ref-type="bibr" rid="B37-materials-13-05000">37</xref>]. For splitting tensile tests, we tested two samples for each design mix and computed their averages.</p>
+        </sec>
+        <sec id="sec2dot4dot2-materials-13-05000">
+          <title>2.4.2. Thermal Tests</title>
+          <p>A FOX 314 Heat Flow Meter Apparatus (HFMA) was used for thermal conductivity and specific heat capacity measurements of the hempcrete samples, according to ASTM C518 [<xref ref-type="bibr" rid="B38-materials-13-05000">38</xref>] and ASTM C1784 [<xref ref-type="bibr" rid="B39-materials-13-05000">39</xref>] standards, respectively. Thermal tests included &#x201D;wet&#x201D; samples at room temperature of 22 &#xB1; 1 &#xB0;C, with RH ~50% and &#x201D;dry&#x201D; samples, oven-dried at 100 &#xB1; 5 &#xB0;C until a constant mass was reached (i.e., changes in weight readings of less than 0.1%). The HFMA created steady one-dimensional heat flux through the specimens by setting both plates at constant but different temperatures with an accuracy of &#xB1; 0.03 &#xB0;C. The HFMA applied Fourier&#x2019;s law of heat conduction to obtain hempcrete&#x2019;s thermal conductivity with an accuracy of approximately 1% at a specific mean temperature of the plates. Additionally, we calibrated the HFMA to convert transducers&#x2019; voltage signals to heat fluxes using NIST 1450b SRM (Standard Reference Material of the National Institute of Standards and Technology) [<xref ref-type="bibr" rid="B40-materials-13-05000">40</xref>]. The HFMA was modified to measure hempcrete samples&#x2019; specific heat capacity by first maintaining both plates at the equal temperature until reaching a steady-state condition, then changing the plates&#x2019; temperatures by the same step, and holding them until reaching a new steady-state condition. By assuming transient heat conduction in a finite body for a significant time, the specific heat capacity was determined at each temperature step using Equation (1), according to Tleoubaev and Brzezinski (2007) [<xref ref-type="bibr" rid="B41-materials-13-05000">41</xref>]:<disp-formula id="FD1-materials-13-05000"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mi>k</mml:mi><mml:mrow><mml:mi>&#x3C1;</mml:mi><mml:msup><mml:mi>L</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>&#xA0;</mml:mo><mml:msup><mml:mi>&#x3C0;</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mi>n</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <italic>L</italic> is sample thickness (m), <italic>&#x3C1;</italic> is density (kg/m<sup>3</sup>), <italic>k</italic> is thermal conductivity (W/m K), and (<inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mo>&#x394;</mml:mo></mml:semantics></mml:math></inline-formula><italic>lnQ<sub>i</sub></italic><sub>/</sub><inline-formula><mml:math id="mm3" display="block"><mml:semantics><mml:mo>&#x394;</mml:mo></mml:semantics></mml:math></inline-formula><italic>t</italic>) is the slope of the curve of the natural logarithm of HFMA output values versus time.</p>
+          <p>The uncertainty in specific heat capacity was calculated at each temperature setpoint to be approximately &#xB1; 2.5%, using Equation (2):<disp-formula id="FD2-materials-13-05000"><label>(2)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="normal">U</mml:mi><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mi>U</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mi>U</mml:mi><mml:mi>&#x3C1;</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>L</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mi>U</mml:mi><mml:mi>L</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>s</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <italic>U<sub>k</sub></italic> is uncertainty in thermal conductivity ( &#xB1; 1%), <italic>U<sub>&#x3C1;</sub></italic> is uncertainty in density (&#xB1;1.75%), <italic>U<sub>L</sub></italic> is uncertainty in thickness (&#xB1;0.025 mm), and <italic>U<sub>slope</sub></italic> is uncertainty in slope (&#xB1;0.4% with 95% confidence level).</p>
+          <p>Furthermore, the hempcrete samples&#x2019; thermal diffusivity was calculated using HFMA measurements of thermal conductivity and specific heat capacity, as shown in Equation (3):<disp-formula id="FD3-materials-13-05000"><label>(3)</label><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B1;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>k</mml:mi><mml:mrow><mml:mi>&#x3C1;</mml:mi><mml:mo>&#xA0;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#xA0;</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <italic>k</italic> is the thermal conductivity (W/m K), <inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mi>&#x3C1;</mml:mi></mml:semantics></mml:math></inline-formula> is density (kg/m<sup>3</sup>), and <italic>C<sub>p</sub></italic> is the specific heat capacity (J/kg K).</p>
+        </sec>
+        <sec id="sec2dot4dot3-materials-13-05000">
+          <title>2.4.3. Moisture Buffering Capacity Tests</title>
+          <p>According to the NORDTEST protocol [<xref ref-type="bibr" rid="B42-materials-13-05000">42</xref>], the measurements of hempcrete&#x2019;s moisture buffer capacity included sealing all specimens&#x2019; sides except the upper surface (26 cm &#xD7; 26 cm), exposed to humidity cycles. The air temperature in the climate chamber was kept constant at 23 &#xB1; 1 &#xB0;C, while the relative humidity (RH) was kept constant at 75 &#xB1; 2% for 8 hours and 33 &#xB1; 2% for 16 hours. Due to the importance of the initial conditions of the samples&#x2019; moisture contents [<xref ref-type="bibr" rid="B43-materials-13-05000">43</xref>,<xref ref-type="bibr" rid="B44-materials-13-05000">44</xref>], their effect was studied using two different initial states, high moisture content (75% RH) and low moisture content (33% RH). The mass of each sample mass was measured using an electronic scale with an accuracy &#xB1; 0.01 gm to monitor the mass change during the uptake and release phases. The humidity cycles were repeated until the steady-state condition was reached, and the mass change in the cycles&#x2019; uptake and release phases was less than 5% [<xref ref-type="bibr" rid="B42-materials-13-05000">42</xref>]. The moisture buffer value (MBV) was calculated as the average of the last three steady cycles, using Equation (4):<disp-formula id="FD4-materials-13-05000"><label>(4)</label><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mi mathvariant="italic">MBV</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mo>=</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi>m</mml:mi></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mo>(</mml:mo><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi mathvariant="italic">RH</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mo>%</mml:mo><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where &#x394;<italic>m</italic> in the mass change (gm), A is the exposed surface area (m<sup>2</sup>), and &#x394;<italic>RH</italic>% is the difference between the high and low relative humidity.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-materials-13-05000" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-materials-13-05000">
+        <title>3.1. Density Results</title>
+        <p><xref ref-type="fig" rid="materials-13-05000-f001">Figure 1</xref> shows that approximately 91% of the specimens are within the density range from 300 to 350 kg/m<sup>3</sup>. The average density and the amount of variation are 323 kg/m<sup>3</sup> and 12 kg/m<sup>3</sup>, respectively, the minimum is 290 kg/m<sup>3</sup>, and the maximum is 372 kg/m<sup>3</sup>. These results suggest consistency between the average densities of hempcrete samples produced in this study. Furthermore, <xref ref-type="table" rid="materials-13-05000-t002">Table 2</xref> summarizes descriptive statistics of compression, tensile, and thermal samples. The samples prepared for compressive tests have the highest average density (&#x2053;340 kg/m<sup>3</sup>), followed by the splitting tensile samples (&#x2053;324 kg/m<sup>3</sup>), and thermal samples (&#x2053;315 kg/m<sup>3</sup>). Similarly, the specimens created for the compressive tests exhibit the highest standard deviation of 17.2 kg/m<sup>3</sup> (&#x2053;5%), followed by tensile specimens with a standard deviation of 12.1 kg/m<sup>3</sup> (&#x2053;3.8%). Thermal samples share similar variations in density (&#x2053;2.7%), for both wet and dry tests.</p>
+      </sec>
+      <sec id="sec3dot2-materials-13-05000">
+        <title>3.2. Compression and Splitting Tensile Test Results</title>
+        <p><xref ref-type="table" rid="materials-13-05000-t003">Table 3</xref> summarizes the average compressive strength, splitting tensile strength, modulus of elasticity, and hempcrete samples&#x2019; densities. The samples&#x2019; average compressive strength is 0.28 MPa, with a standard deviation of 0.098 MPa (35%), and it ranges from 0.11 MPa (LMK70B) to 0.47 MPa (LMK50B). Due to less variation in the samples&#x2019; density for splitting tensile tests than compressive tests (see <xref ref-type="table" rid="materials-13-05000-t002">Table 2</xref>), tensile strength dispersion is slightly lower than compression values. Thus, the average splitting tensile strength of all samples is 0.024 MPa, with a standard deviation of 0.0065 MPa (27%), and it ranges from 0.0101 MPa to 0.0348 MPa.</p>
+        <p>Overall, an increase in hempcrete density leads to a rise in its compressive and tensile strengths. These findings are consistent with the results of previous studies [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>]. Thus, the hempcrete samples of 350 kg/m<sup>3</sup> and denser have an average compressive strength of 0.33 MPa and higher. In contrast, the specimens with the lowest density, including LMK70B (303.5 kg/m<sup>3</sup>), LMK70 (318.8 kg/m<sup>3</sup>), and LMK70C (327.1 kg/m<sup>3</sup>), have the lowest average compressive strength ranging from 0.11 MPa to 0.18 MPa. Similarly, the highest splitting tensile strength of 0.0348 MPa has the LNHL50B sample with the highest density of 339.15 kg/m<sup>3</sup>, whereas the least dense LMK70B (&#x2053;289 kg/m<sup>3</sup>) has the lowest splitting tensile strength of 0.01 MPa. Nevertheless, the two samples with the highest compressive strengths, LMK50B, and LNHL50B, are not the most compacted hempcrete samples. These results suggest that water content, binder type, and content also significantly impact hemp-lime concretes&#x2019; mechanical properties.</p>
+        <p>Hence, on the one hand, an increase in the water content increases the compressive strength, even of the samples with lower densities. For example, the LCB20 sample with 2.5 kg of water and 344.1 kg/m<sup>3</sup> density has a compressive strength of 0.19 MPa, while the LCB20B sample with 3 kg of water and 323.8 kg/m<sup>3</sup> density has a compressive strength of 0.26 MPa. Metakaolin samples with percentages above 20%, and all LNHL samples exhibit a similar trend. On the other hand, the design mixes with smaller water content (i.e., 2.5:1 water to hemp ratio) show inferior compressive and tensile strengths compared with other hempcrete specimens. These results echo Walker and Pavia&#x2019;s (2014) observations regarding hemp&#x2019;s high suction ability that undermined the binder&#x2019;s hydration and adversely affected the strength of hemp-lime composites [<xref ref-type="bibr" rid="B23-materials-13-05000">23</xref>]. The sample produced from LMK70 (lime 30% and metakaolin 70%) show the highest amount of unreacted binder and has the lowest compressive and splitting tensile strengths. The LNHL50 sample, cast in two batches, shows an average compressive strength of only 0.26 MPa using a water to hemp ratio of 2.5:1 and approximately 60% higher (0.42 MPa) using a water to hemp ratio of 3:1. Similarly, the LNHL70 sample prepared with a water to hemp ratio of 2.5:1 exhibits an average compressive strength of 0.30 MPa, which is around 21% below the compressive strength of the sample with water to hemp ratio of 3:1.</p>
+        <p>Furthermore, an increase in the percent of metakaolin and crushed brick above a certain amount reduces the compressive strength of hempcrete. This effect is most pronounced in the LMK samples in which compressive strength decreases from 62% to 76%, with an increase in the percent share of metakaolin from 50% to 70%. Similarly, an increase in the percent share of metakaolin and NHL hurts the tensile strength of hempcrete. Thus, an increase in the percentage of metakaolin from 50% to 70% results in a 16% to 62% decrease in hempcrete tensile strength, depending on the batch. An increase in hydraulic lime from 50% to 70% decreases the tensile strength for approximately 15% to 34%, whereas an increase in the crushed brick from 10% to 20% exhibits the lowest decreases in the tensile strength of 8% to 10%. On the one hand, these results support Dinh (2014) findings regarding the adverse effect of an increase in metakaolin share above 70% on the compressive strength of hempcrete [<xref ref-type="bibr" rid="B6-materials-13-05000">6</xref>]. On the other hand, Eires et al. (2006) stated that 75% of metakaolin and 25% of lime were the best binder mix [<xref ref-type="bibr" rid="B45-materials-13-05000">45</xref>]. However, they also reported that this design mix required higher curing temperatures to increase strength gain.</p>
+        <p>As presented in <xref ref-type="table" rid="materials-13-05000-t003">Table 3</xref>, the modulus of elasticity shows a wide variation between design mixes and a weak relationship with the samples&#x2019; density. Thus, Young&#x2019;s modulus ranges from 3.16 to 10.84 MPa, and its average value of all samples is 7.46 MPa, with a standard deviation of 2.327 MPa (31%). Increasing the metakaolin and crushed brick content reduces Young&#x2019;s modulus, whereas increasing hydraulic lime does not have the same effect. The LCB20 sample shows the lowest value of Young&#x2019;s modulus (3.16 MPa), followed by LMK70C (4.00 MPa). In contrast, the LMK10 specimen has the highest Young&#x2019;s modulus (10.84 MPa), followed by LCB10 (10.42 MPa) and LNHL70 (10.22 MPa).</p>
+        <p><xref ref-type="fig" rid="materials-13-05000-f002">Figure 2</xref> compares densities and compressive strengths on the 28th, 60th, and 90th day among the developed samples and against previous studies with similar hempcrete densities [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>,<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>]. The results show that specimens, on the one hand, with the lowest densities of approximately 303 kg/m<sup>3</sup> and 318 kg/m<sup>3</sup> have 30&#x2013;50% lower compressive strength than the results in the literature [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>,<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>]. The likely reason is a higher content of binder used in these studies. In this regard, Elfordy et al. (2008) [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>] and Williams et al. (2017) [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>] used a 2:1 and 2.25:1, respectively, binder to hemp ratio. On the other hand, samples with a density of approximately 340 kg/m<sup>3</sup> and above have compressive strength comparable with Elfordy et al. (2008) [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>] and Williams et al. (2017) [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>]. Some studies have also differentiated between testing in the perpendicular (&#x22A5;) and the parallel (&#x2225;) direction to the direction of compaction. In this respect, Williams et al. (2017) reported slightly higher compressive strengths of the samples with similar density tested in perpendicular than parallel direction (see <xref ref-type="fig" rid="materials-13-05000-f002">Figure 2</xref>) [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>]. In this research, the compaction and testing directions (i.e., perpendicular or parallel) were designed to present the worst-case scenario for mechanical properties. Therefore, parallel testing to the compaction direction might be another reason for differences between our results and values reported by Williams et al. (2017) [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>].</p>
+      </sec>
+      <sec id="sec3dot3-materials-13-05000">
+        <title>3.3. Thermal Properties Results</title>
+        <p><xref ref-type="table" rid="materials-13-05000-t004">Table 4</xref> presents the dry and wet hempcrete samples&#x2019; thermal properties, including their density, thermal conductivity, specific heat capacity, and thermal diffusivity. The wet hempcrete samples have higher density, thermal conductivity, and specific heat capacity than their dry counterparts due to the higher moisture content. Thus, the wet density ranges from 304 kg/m<sup>3</sup> to 336 kg/m<sup>3</sup>, and the average is 322 kg/m<sup>3</sup>. In comparison, the dry density is approximately 4.5% lower, ranging from 291 kg/m<sup>3</sup> to 321 kg/m<sup>3</sup> with an average of 307 kg/m<sup>3</sup>. The thermal conductivities of wet and dry samples vary from 0.091 to 0.101 W/m K and from 0.087 to 0.096 W/m K, with averages of 0.096 and 0.0913 W/m K, respectively. Furthermore, the specific heat capacities of wet and dry samples range from 1398 to 1557 J/kg K and from 1250 to 1421 J/kg K, with averages of 1508 and 1365 J/kg K, respectively. These results range from specific heat capacity values reported in the literature, between 1000 and 1560 J/kg K [<xref ref-type="bibr" rid="B5-materials-13-05000">5</xref>,<xref ref-type="bibr" rid="B46-materials-13-05000">46</xref>].</p>
+        <p>In addition, the wet samples&#x2019; thermal diffusivity is lower as compared with their dry counterparts. In this respect, thermal diffusivity of the wet samples ranges from 1.893 to 2.069 (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup>, whereas dry specimens range from 2.076 to 2.321 (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup>, with averages of 1.970 (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup> and 2.182 (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup>, respectively. These findings indicate that, in the wet state, the total increase in heat storage <inline-formula><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x3C1;</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is higher than the increase in thermal conductivity. Thus, the wet state&#x2019;s thermal diffusivity <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>k</mml:mi><mml:mrow><mml:mi>&#x3C1;</mml:mi><mml:mo>&#xA0;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#xA0;</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is lower than that of the dry state (i.e., have higher thermal inertia than the dry samples.) Our results are slightly higher than the range of thermal diffusivity values reported in the literature, between 0.98 and 1.68 (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup> [<xref ref-type="bibr" rid="B5-materials-13-05000">5</xref>,<xref ref-type="bibr" rid="B47-materials-13-05000">47</xref>]. A possible explanation might be the higher density values that previous studies used to calculate thermal diffusivity.</p>
+        <p>The results presented in <xref ref-type="table" rid="materials-13-05000-t004">Table 4</xref> indicate that the hempcrete samples with crushed brick have the lowest thermal conductivity and specific heat capacity, considering their density and the highest thermal diffusivity. For example, the average density, thermal conductivity, specific heat capacity, and thermal diffusivity of all hempcrete samples with crushed brick (wet and dry) are approximately 318 kg/m<sup>3</sup>, 0.93 W/m K, 1376 J/kg K, and 2.142 (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup>, respectively. In comparison, the metakaolin hempcrete samples have a similar average density (&#x2053;317 kg/m<sup>3</sup>) but higher thermal conductivity (&#x2053;0.95 W/m K) and specific heat capacity (&#x2053;1450 J/kg K). The LNHL hempcrete samples have the lowest average density of approximately 307 kg/m<sup>3</sup>, and therefore the lowest thermal conductivity of 0.091 W/m K. Nevertheless, they have the highest average specific heat capacity of 1470 J/kg K, and the lowest thermal diffusivity of 2.020 (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup>.</p>
+        <p><xref ref-type="fig" rid="materials-13-05000-f003">Figure 3</xref> illustrates the relation between thermal conductivity and density in the dry and wet states for all design mixes. Similar to previous studies [<xref ref-type="bibr" rid="B9-materials-13-05000">9</xref>,<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>], both the dry and wet samples show a positive linear relationship between the samples&#x2019; conductivities and densities with R<sup>2</sup> values of 0.907. Thus, the LNHL50 samples with the lowest dry and wet densities of 291 and 304 kg/m<sup>3</sup> have the lowest thermal conductivity of approximately 0.087 and 0.90 W/m K, respectively. In contrast, the LMK10 samples with the highest dry and wet densities of 321 and 336 kg/m<sup>3</sup> have the highest thermal conductivity of approximately 0.096 and 0.1 W/m K, respectively.</p>
+        <p><xref ref-type="fig" rid="materials-13-05000-f004">Figure 4</xref> compares the experimental average thermal conductivities of hempcrete samples against the results of previous studies. The results show that the thermal conductivities and their increase with density are comparable to the values reported by previous studies for the specimens with similar densities. Furthermore, some studies differentiate between testing in the perpendicular (&#x22A5;) and parallel (&#x2225;) direction (i.e., heat flux direction) to the compaction of the samples. In this respect, Williams et al. (2017) [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>] and Nguyen et al. (2010) [<xref ref-type="bibr" rid="B48-materials-13-05000">48</xref>] reported higher thermal conductivity of the samples with similar density tested in perpendicular than parallel direction (see <xref ref-type="fig" rid="materials-13-05000-f004">Figure 4</xref>). Moreover, Nguyen et al. (2010) [<xref ref-type="bibr" rid="B48-materials-13-05000">48</xref>] reported a higher difference between the parallel and perpendicular conductivities than Williams et al. (2017) [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>]. The likely reason is the higher density range of the samples in the first study compared with that of the second study. In this research, the compaction and testing directions (i.e., perpendicular or parallel) represent the worst-case scenario for the thermal properties. In this respect, the HFMA created heat flux across the samples, perpendicular to the compaction direction. Thus, our results show a good match with experiments conducted in the perpendicular direction [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>], and a more significant discrepancy with those performed in the parallel orientation [<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>].</p>
+      </sec>
+      <sec id="sec3dot4-materials-13-05000">
+        <title>3.4. Moisture Buffering Results</title>
+        <p><xref ref-type="fig" rid="materials-13-05000-f005">Figure 5</xref> presents a comparison of moisture buffer values (MBV) for each cycle&#x2019;s uptake and release phases until reaching the steady-state of three selected hempcrete samples, LMK50, LNHL50, and LCB10, with two initial moisture conditions, high and low. As shown for the high moisture initial condition, the MBV for the release phase starts with a higher value (2.4&#x2212;2.6 gm/m<sup>2</sup> RH%) than that of the uptake phase (1.3&#x2212;1.7 gm/m<sup>2</sup> RH%). The hempcrete samples tend to lose the high moisture content obtained from the initial condition more than absorbing more moisture. However, after the initial moisture content reduces, the MBV for the uptake phase increases again. In contrast, the MBV for the release phase slightly decreases until both reach steady-state starting from the fourth cycle with less than 5% difference between MBV for uptake and release. For the low moisture initial condition case, the MBV for the uptake phase starts with a higher value (3&#x2212;4 gm/m<sup>2</sup> RH%) than that of the release phase (2&#x2212;2.8 gm/m<sup>2</sup> RH%). The hempcrete samples are capable of absorbing more moisture due to the low initial moisture content. The MBV for the uptake phase decreases again, and the MBV for the release phase slightly increases until both reach steady-state starting from the fourth cycle, with a difference of less than 5% between MBV for uptake and release.</p>
+        <p>The three design mixes express different moisture buffering behaviors. For example, the LNHL50 with high initial moisture condition starts with 14% and 26% higher MBV as compared with LCB10 and LMK50, in the uptake phase and 2.6% and 13.8% higher in the release phase, respectively. Furthermore, the starting MBV values of the LCB10 with low initial conditions are 11.2% and 39% higher than those of the LNHL50 and LMK50 counterparts in the uptake phase. Similarly, in the release phase, the starting MBV values of the LCB10 are 14% and 42% higher than those of LNHL50 and LMK50, respectively. Moreover, the LCB10 shows approximately 1.2% higher steady-state MBV than LNHL50, and 18% higher than LMK50.</p>
+        <p><xref ref-type="fig" rid="materials-13-05000-f006">Figure 6</xref> shows the percentage mass change relative to the initial mass during the test for the selected samples subjected to the humidity cycles. As presented, all specimens show the same mass change profile with a gradual increase or decrease, depending on the initial condition, until they reach a steady-state starting from the fourth cycle. Moreover, the LCB10 sample has the highest mass gain and release in the uptake and release portions of the cycle, respectively, regardless of the initial condition. The LNHL50 and LMK50 samples show comparable rates of mass gain and release.</p>
+        <p><xref ref-type="fig" rid="materials-13-05000-f007">Figure 7</xref> presents the average steady-state MBV values of the hempcrete samples. The average steady-state MBV for all hempcrete samples of 2.78 gm/m<sup>2</sup> RH%, with a standard deviation of 0.24 gm/m<sup>2</sup> RH% (8.6%), falls in the range reported in the literature. For example, Collet et al. (2013) reported an MBV of 2.14 gm/m<sup>2</sup> %RH, with a binder to hemp ratio of 2:1, and density of 430 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B14-materials-13-05000">14</xref>], while Latif et al. (2015) reported an MBV of 3.47 gm/m<sup>2</sup> %RH with a binder to hemp ratio of 1.2:1, and density of 290 kg/m<sup>3</sup> [<xref ref-type="bibr" rid="B13-materials-13-05000">13</xref>]. The findings suggest that the initial moisture content condition does not significantly affect the final steady-state average MBV for each design mix (i.e., the difference is less than 1%).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-materials-13-05000" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The overall findings suggest that hempcrete mixes with 1:1 binder to hemp hurd ratio and 300&#x2212;400 kg/m<sup>3</sup> density have mechanical and hygrothermal properties suitable for infill wall applications. For instance, the compressive strengths ranging from 0.09 to 0.57 MPa are comparable to the values reported by the previous studies that used higher binder to hurd ratios (i.e., 2:1 and 2.25:1) [<xref ref-type="bibr" rid="B18-materials-13-05000">18</xref>,<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>]. Similarly, thermal conductivity and specific heat capacity values in the range of 0.087&#x2212;0.10 W/m K and 1250&#x2013;1557 J/kg K correspond to the values reported by the studies that developed hempcrete samples with similar densities [<xref ref-type="bibr" rid="B5-materials-13-05000">5</xref>,<xref ref-type="bibr" rid="B10-materials-13-05000">10</xref>,<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>,<xref ref-type="bibr" rid="B46-materials-13-05000">46</xref>]. Furthermore, the average steady-state moisture buffer value (MBV) for all hempcrete samples of 2.78 gm/m<sup>2</sup> RH indicates excellent moisture storage capabilities. The splitting tensile strength ranging from 0.0101 to 0.0348 MPa is the only measured parameter that is comparatively lower than the previous studies&#x2019; results. The likely reasons are the lower density range and the binder to this study&#x2019;s hemp hurd ratio. In addition, hempcrete composites made from hydrated lime have significantly lower flexural strength than composites made from commercial composites [<xref ref-type="bibr" rid="B4-materials-13-05000">4</xref>,<xref ref-type="bibr" rid="B49-materials-13-05000">49</xref>].</p>
+      <p>The novel hempcrete mixes with hydrated lime and crushed brick (LCB) show comparable compressive and tensile strength to other design mixes, with the advantage of being composed of recycled material. For instance, the hempcrete samples with 10% crushed brick have compressive strengths higher than the average of all the design mixes. Additionally, the LCB samples have the lowest thermal conductivity considering their density and the highest average moisture buffer values for high and low initial moisture contents, which are approximately 18% higher than metakaolin formulas and comparable to design mixes with hydraulic lime.</p>
+      <p>The hempcrete&#x2019;s density is a vital design parameter due to its significant effects on the material&#x2019;s mechanical and thermal properties. For instance, on the one hand, hempcrete samples of approximately 340 kg/m<sup>3</sup> and above have 45%&#x2013;75% higher compressive and tensile strengths than those with lower density (i.e., 300&#x2212;330 kg/m<sup>3</sup>). On the other hand, the low-density hempcrete samples (i.e., 290&#x2212;310 kg/m<sup>3</sup>) have 8&#x2212;13% lower thermal conductivity than those in the range of 320&#x2212;336 kg/m<sup>3</sup>. Furthermore, as illustrated in <xref ref-type="fig" rid="materials-13-05000-f008">Figure 8</xref>, an increase in thermal conductivity with a rise of compressive strength tends to be higher in the low than the upper range of compressive strength values. These findings indicate that the specific application should determine the density of the hempcrete biocomposites. The results also show that similar to previous studies [<xref ref-type="bibr" rid="B9-materials-13-05000">9</xref>,<xref ref-type="bibr" rid="B26-materials-13-05000">26</xref>], there is a strong positive linear correlation (R<sup>2</sup> = 0.91) between the dry and wet samples&#x2019; conductivities and their densities. The relationship between compressive strength and density is weaker and increases over time from 0.36 at 28 days to 0.77 at 90 days.</p>
+      <p>The results also indicate that binder mix design and water content impact the prepared hempcrete samples&#x2019; thermal and mechanical properties. For example, an increase in the percent share of metakaolin and crushed brick reduces thermal conductivity and specific heat capacity. In contrast, increasing the hydraulic lime percentage increases the conductivity and specific heat capacity. In addition, an increase in the percent share of pozzolans above a certain amount can harm the mechanical properties of hempcrete, particularly when combined with reduced water content (i.e., 2.5:1 water to hemp ratio). This hindering effect is most significant when metakaolin is increased above 50%, followed by crushed brick above 10%.</p>
+    </sec>
+    <sec id="sec5-materials-13-05000" sec-type="conclusions">
+      <title>5. Conclusions and Future Research</title>
+      <p>Despite excellent hemp-lime composites&#x2019; hygrothermal properties, their utilization in the construction industry remains low due to the high variability and lack of formulas with widely available ingredients. The use of innovative binders and a better understanding of the material&#x2019;s performance are indispensable steps for addressing hempcrete&#x2019;s underutilization. This is the first research study that applies recycled crushed brick as a pozzolan in hempcrete mixes to increase their availability and performance while reducing their environmental impact. Another contribution to the body of knowledge is the comprehensive mechanical and hygrothermal characterization of hemp-lime composites with different binder mix designs. Consequently, this study provides valuable information about insulating hemp-lime composites&#x2019; critical performance required for material characterization that is likely to interest audiences, in academia and industry, who are focused on sustainable low-carbon composite building materials. The main conclusions of this study that point to the need for future work and investigation are as follows:<list list-type="bullet"><list-item><p>The thermal and mechanical properties of hempcrete depend on its density. Hence, the large-scale utilization of hemp-lime composites in the construction industry requires the use of manufactured blocks, wall panels, or spraying techniques to enable the construction of consistent code complying envelope systems. Therefore, future work should focus on the processing methods for optimizing and standardization of hempcrete design mixes for different envelope applications and installations. Furthermore, future work should increase the number of tested samples for each design mix to ensure consistency.</p></list-item><list-item><p>The higher content of hemp hurd combined with an application-orientated level and direction of compaction can lead to the development of products suitable for infill wall utilizations. A follow-up study should investigate mechanical properties in the perpendicular and thermal behavior in the parallel direction of hempcrete formulas with a 1:1 binder to hemp hurd ratio and 300&#x2212;400 kg/m<sup>3</sup> density. Further research should also optimize compaction levels and orientations for infill wall installations of hemp-lime composites using blocks or wall panels.</p></list-item><list-item><p>Although all the developed design mixes have mechanical and hygrothermal properties suitable for infill wall applications, in small amounts, recycled crushed brick is an excellent alternative to conventional pozzolans for creating more environmentally-friendly hempcrete composites. For example, the hempcrete samples with 10% crushed brick have the lowest thermal conductivity considering their density and the highest moisture buffer capacity. Furthermore, the new hydrated lime and crushed brick formulas have comparable mechanical properties to metakaolin and hydraulic lime formulas. Future research should combine and optimize the use of the investigated lime mortars and pozzolans in hemp-lime mixes. A follow-up study should also explore other locally available materials that can improve hemp-lime composites&#x2019; performance and affordability while reducing their environmental impact.</p></list-item><list-item><p>The water content is an essential design parameter due to its significant impact on the hempcrete samples&#x2019; mechanical and thermal properties. This study indicates that a smaller amount of water (i.e., &#x2264;2.5 kg) leads to some specimens&#x2019; inferior mechanical properties due to incomplete hydration caused by the high suction ability of the hemp hurd. A follow-up study should optimize water content for different infill wall application approaches such as blocks, wall panels, or spray-in. Further research should also develop a hemp pretreatment process and investigate water retainers&#x2019; application to balance the high suction of the hurd and improve mechanical behavior and durability of hemp-lime composites. Future research should also investigate hemp-lime composites&#x2019; durability and decay under different environmental conditions.</p></list-item></list>
+			  </p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, Y.A. and M.C.; methodology, Y.A., M.A.K., A.K., M.I.A., and M.K.; software, Y.A.; validation, Y.A., M.A.K., A.K.; M.I.A., and M.K.; formal analysis, Y.A., M.A.K., A.K., M.I.A., and M.K.; investigation, Y.A., M.A.K., A.K.; M.I.A., and M.K.; resources M.K.; data curation, Y.A. and M.K.; writing&#x2014;original draft preparation Y.A.; writing&#x2014;review and editing, M.K., M.A.K., A.K., and M.I.A.; visualization, Y.A.; supervision M.K.; project administration, M.K.; funding acquisition, M.K. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by the Natural Sciences and Engineering Research Council (NSERC) Discovery Grant, grant number RGPIN-05481.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to acknowledge the in-kind contributions of &#x201C;Plains Hemp&#x201D; and &#x201C;WhiteMud Resources&#x201D;.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-materials-13-05000">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stanwix</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Sparrow</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <source>The Hempcrete Book: Designing and Building with Hemp-Lime</source>
+          <comment>Green Books</comment>
+          <publisher-name>UK Hempcrete</publisher-name>
+          <publisher-loc>Matlock, UK</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-materials-13-05000">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pochwala</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Makiola</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Anweiler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bohm</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Heat Conductivity Properties of Hemp-Lime Composite Material Used in Single-Family Buildings</article-title>
+          <source>Materials</source>
+          <year>2020</year>
+          <volume>13</volume>
+          <elocation-id>1011</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ma13041011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-materials-13-05000">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Magwood</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>Essential Hempcrete Construction: The Complete Step-by-Step Guide</source>
+          <publisher-name>New Society Publishers</publisher-name>
+          <publisher-loc>Gabriola Island, BC, Canada</publisher-loc>
+          <year>2016</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-materials-13-05000">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jami</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Karade</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>L.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A review of the properties of hemp concrete for green building applications</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2019</year>
+          <volume>239</volume>
+          <fpage>117852</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2019.117852</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-materials-13-05000">
+        <label>5.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Evrard</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transient Hygrothermal Behavior of Lime-Hemp Materials</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Universite Catholique De Louvain</publisher-name>
+          <publisher-loc>Ottignies-Louvain-la-Neuve, Belgium</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-materials-13-05000">
+        <label>6.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Manh</surname>
+              <given-names>D.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contribution to the Development of Precast Hempcrete Using Innovative Pozzolanic Binder</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Universit&#xE9; Toulouse III-Paul Sabatier</publisher-name>
+          <publisher-loc>Toulouse, France</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B7-materials-13-05000">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ntimugura</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Vinai</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Harper</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical, thermal, hygroscopic and acoustic properties of bio-aggregates&#x2014;Lime and alkali&#x2014;Activated insulating composite materials: A review of current status and prospects for miscanthus as an innovative resource in the South West of England</article-title>
+          <source>Sustain. Mater. Technol.</source>
+          <year>2020</year>
+          <volume>26</volume>
+          <fpage>e00211</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.susmat.2020.e00211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-materials-13-05000">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Bruijn</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Johansson</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Moisture fixation and thermal properties of lime&#x2013;hemp concrete</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2013</year>
+          <volume>47</volume>
+          <fpage>1235</fpage>
+          <lpage>1242</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2013.06.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-materials-13-05000">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>C&#xE9;r&#xE9;zo</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <source>Propri&#xE9;t&#xE9;s M&#xE9;caniques, Thermiques et Acoustiques d&#x2019;un Mat&#xE9;riau &#xE0; Base de Particules V&#xE9;g&#xE9;tales: Approche Exp&#xE9;rimentale et Mod&#xE9;lisation Th&#xE9;orique</source>
+          <publisher-name>Le grade de docteur L&#x2019;Institut National des Sciences Appliqu&#xE9;es de Lyon</publisher-name>
+          <publisher-loc>Lyon, France</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B10-materials-13-05000">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Pav&#xED;a</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Moisture transfer and thermal properties of hemp&#x2013;lime concretes</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2014</year>
+          <volume>64</volume>
+          <fpage>270</fpage>
+          <lpage>276</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2014.04.081</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-materials-13-05000">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arnaud</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Boyeux</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hustache</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <source>Hemp and the Construction Industry</source>
+          <comment>Hemp: Industrial Production and Uses</comment>
+          <publisher-name>CABI</publisher-name>
+          <publisher-loc>Wallingford, UK</publisher-loc>
+          <year>2013</year>
+          <fpage>239</fpage>
+          <lpage>259</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B12-materials-13-05000">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fodde</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Paine</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hygrothermal Performance of an Experimental Hemp-Lime Building</article-title>
+          <source>Key Eng. Mater.</source>
+          <year>2012</year>
+          <volume>517</volume>
+          <fpage>413</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/KEM.517.413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-materials-13-05000">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Latif</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Moisture buffer potential of experimental wall assemblies incorporating formulated hemp-lime</article-title>
+          <source>Build. Environ.</source>
+          <year>2015</year>
+          <volume>93</volume>
+          <fpage>199</fpage>
+          <lpage>209</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.buildenv.2015.07.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-materials-13-05000">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collet</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Chamoin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pretot</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lanos</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of the hygric behaviour of three hemp concretes</article-title>
+          <source>Energy Build.</source>
+          <year>2013</year>
+          <volume>62</volume>
+          <fpage>294</fpage>
+          <lpage>303</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enbuild.2013.03.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-materials-13-05000">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahim</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Douzane</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Tran Le</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Langlet</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of moisture and temperature on thermal properties of three bio-based materials</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2016</year>
+          <volume>111</volume>
+          <fpage>119</fpage>
+          <lpage>127</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2016.02.061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-materials-13-05000">
+        <label>16.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yates</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>Final Report on the Construction of the Hemp House at Haverhill, Suffolk</source>
+          <publisher-name>Building Research Establishment</publisher-name>
+          <publisher-loc>Watford, UK</publisher-loc>
+          <year>2002</year>
+        </element-citation>
+      </ref>
+      <ref id="B17-materials-13-05000">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abdellatef</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kavgic</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal, microstructural and numerical analysis of hempcrete-microencapsulated phase change material composites</article-title>
+          <source>Appl. Therm. Eng.</source>
+          <year>2020</year>
+          <volume>178</volume>
+          <fpage>115520</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.applthermaleng.2020.115520</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-materials-13-05000">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elfordy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lucas</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tancret</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Scudeller</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Goudet</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical and thermal properties of lime and hemp concrete (&#x201C;hempcrete&#x201D;) manufactured by a projection process</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>2116</fpage>
+          <lpage>2123</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2007.07.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-materials-13-05000">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barnat-Hunek</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Smarzewski</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Fic</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical and Thermal Properties of Hemp-Lime Composites</article-title>
+          <source>Compos. Theory Pract.</source>
+          <year>2015</year>
+          <volume>15</volume>
+          <fpage>21</fpage>
+          <lpage>27</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-materials-13-05000">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T.-T.</given-names>
+            </name>
+            <name>
+              <surname>Picandet</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Amziane</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Baley</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of compactness and hemp hurd characteristics on the mechanical properties of lime and hemp concrete</article-title>
+          <source>Eur. J. Environ. Civ. Eng.</source>
+          <year>2009</year>
+          <volume>13</volume>
+          <fpage>1039</fpage>
+          <lpage>1050</lpage>
+          <pub-id pub-id-type="doi">10.1080/19648189.2009.9693171</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-materials-13-05000">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tronet</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lecompte</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Picandet</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Baley</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of lime hemp composite precasting by compaction of fresh mix&#x2014;An instrumented die to measure friction and stress state</article-title>
+          <source>Powder Technol.</source>
+          <year>2014</year>
+          <volume>258</volume>
+          <fpage>285</fpage>
+          <lpage>296</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.powtec.2014.03.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-materials-13-05000">
+        <label>22.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Pav&#xED;a</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Behaviour and Properties of Lime-Pozzolan Pastes</article-title>
+          <source>Proceedings of the 8th International Masonry Conference</source>
+          <conf-loc>Dresden, Germany</conf-loc>
+          <conf-date>4&#x2013;7 July 2010</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B23-materials-13-05000">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Pavia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical properties and durability of hemp-lime concretes</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2014</year>
+          <volume>61</volume>
+          <fpage>340</fpage>
+          <lpage>348</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2014.02.065</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-materials-13-05000">
+        <label>24.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sheridan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sonebi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Amziane</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of linseed oil and metakaolin on the mechanical, thermal and transport properties of hemp-lime concrete</article-title>
+          <source>Proceedings of the 2nd International Conference on Bio-Based Building Materials</source>
+          <conf-loc>Clermont Ferrand, France</conf-loc>
+          <conf-date>21&#x2013;23 June 2017</conf-date>
+          <fpage>125</fpage>
+          <lpage>133</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B25-materials-13-05000">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silva</surname>
+              <given-names>R.V.</given-names>
+            </name>
+            <name>
+              <surname>De Brito</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dhir</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Properties and composition of recycled aggregates from construction and demolition waste suitable for concrete production</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2014</year>
+          <volume>65</volume>
+          <fpage>201</fpage>
+          <lpage>217</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2014.04.117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-materials-13-05000">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of the casting process on the internal structure and physical properties of hemp-lime</article-title>
+          <source>Mater. Struct.</source>
+          <year>2017</year>
+          <volume>50</volume>
+          <fpage>108</fpage>
+          <pub-id pub-id-type="doi">10.1617/s11527-016-0976-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-materials-13-05000">
+        <label>27.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C136&#x2013;06, Standard Test Method for Sieve Analysis of Fine and Coarse Aggregates</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B28-materials-13-05000">
+        <label>28.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C207-06, Standard Specification for Hydrated Lime for Masonry Purposes</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B29-materials-13-05000">
+        <label>29.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C618, Standard Specification for Coal Fly Ash and Raw or Calcined Natural Pozzolan for Use in Concrete</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B30-materials-13-05000">
+        <label>30.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C1707, Standard Specification for Pozzolanic Hydraulic Lime for Structural Purposes</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B31-materials-13-05000">
+        <label>31.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contribution &#xE0; l&#x2019;&#xE9;tude de la Formulation et du Proc&#xE9;d&#xE9; de Fabrication d&#x2019;&#xE9;l&#xE9;ments de Construction en B&#xE9;ton de Chanvre</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Universit&#xE9; de Bretagne Sud</publisher-name>
+          <publisher-loc>Morbihan, France</publisher-loc>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B32-materials-13-05000">
+        <label>32.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pinkos</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Effectiveness of Hempcrete as an Infill Insulation in the Prairies Compared to a Standard Building Based on Power Consumption</article-title>
+          <source>Master&#x2019;s Thesis</source>
+          <publisher-name>University of Manitoba</publisher-name>
+          <publisher-loc>Winnipeg, MB, Canada</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B33-materials-13-05000">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collet</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pretot</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal conductivity of hemp concretes: Variation with formulation, density and water content</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2014</year>
+          <volume>65</volume>
+          <fpage>612</fpage>
+          <lpage>619</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2014.05.039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-materials-13-05000">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C39/C39M, Standard Test Method for Compressive Strength of Cylindrical Concrete Specimens</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B35-materials-13-05000">
+        <label>35.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C496/C496M-17, Standard Test Method for Splitting Tensile Strength of Cylindrical Concrete Specimens</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B36-materials-13-05000">
+        <label>36.</label>
+        <element-citation publication-type="book">
+          <source>ASTM D4832-16e1, Standard Test Method for Preparation and Testing of Controlled Low Strength Material (CLSM) Test Cylinders</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2016</year>
+        </element-citation>
+      </ref>
+      <ref id="B37-materials-13-05000">
+        <label>37.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C469/C469M-14, Standard Test Method for Static Modulus of Elasticity and Poisson&#x2019;s Ratio of Concrete in Compression</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B38-materials-13-05000">
+        <label>38.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C518&#x2013;17, Standard Test Method for Steady-State Thermal Transmission Properties by Means of the Heat Flow Meter Apparatus</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B39-materials-13-05000">
+        <label>39.</label>
+        <element-citation publication-type="book">
+          <source>ASTM C1784-14, Standard Test Method for Using a Heat Flow Meter Apparatus for Measuring Thermal Storage Properties of Phase Change Materials and Products</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B40-materials-13-05000">
+        <label>40.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>NIST SRM 1450</collab>
+          </person-group>
+          <article-title>Energy and Environment Division, NIST</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.nist.gov/energy-andenvironment-division/nist-srm-1450" ext-link-type="uri">https://www.nist.gov/energy-andenvironment-division/nist-srm-1450</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2018-11-10">(accessed on 10 November 2018)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B41-materials-13-05000">
+        <label>41.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tleoubaev</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Brzezinski</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal Diffusivity and Volumetric Specific Heat Measurements Using Heat Flow Meter Instruments</article-title>
+          <source>Proceedings of the Thermal Conductivity 29/Thermal Expansion 17 Conference</source>
+          <conf-loc>Birmingham, Alabama</conf-loc>
+          <conf-date>24&#x2013;27 June 2007</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B42-materials-13-05000">
+        <label>42.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rode</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Peuhkuri</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Time</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Svennberg</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Arfvidsson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ojanen</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>NORDTEST Project on Moisture Buffer Value of Materials</article-title>
+          <source>Proceedings of the AIVC 26th Conference: Ventilation in Relation to the Energy Performance of Buildings</source>
+          <conf-loc>Brussels, Belgium</conf-loc>
+          <conf-date>21&#x2013;23 September 2005</conf-date>
+          <fpage>47</fpage>
+          <lpage>52</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B43-materials-13-05000">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ge</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fazio</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of moisture load profiles on moisture buffering potential and moisture residuals of three groups of hygroscopic materials</article-title>
+          <source>Build. Environ.</source>
+          <year>2014</year>
+          <volume>81</volume>
+          <fpage>162</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.buildenv.2014.06.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-materials-13-05000">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fazio</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>An investigation of moisture buffering performance of wood paneling at room level and its buffering effect on a test room</article-title>
+          <source>Build. Environ.</source>
+          <year>2012</year>
+          <volume>47</volume>
+          <fpage>205</fpage>
+          <lpage>216</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.buildenv.2011.07.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-materials-13-05000">
+        <label>45.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eires</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Nunes</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Fangueiro</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Jalali</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cam&#xF5;es</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>New Eco-Friendly Hybrid Composite Materials for Civil Construction</article-title>
+          <source>Proceedings of the European Conference on Composite Materials Biarritz</source>
+          <conf-loc>Biarritz, France</conf-loc>
+          <conf-date>29 August&#x2013;1 September 2006</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B46-materials-13-05000">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tran Le</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Maalouf</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mai</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Wurtz</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Collet</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transient hygrothermal behaviour of a hemp concrete building envelope</article-title>
+          <source>Energy Build.</source>
+          <year>2010</year>
+          <volume>42</volume>
+          <fpage>1797</fpage>
+          <lpage>1806</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enbuild.2010.05.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-materials-13-05000">
+        <label>47.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Evrard</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Herde</surname>
+              <given-names>A.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bioclimatic envelopes made of lime and hemp concrete</article-title>
+          <source>Proceedings of the CISBAT2005 Conference&#x2014;Renewables in a Changing Climate&#x2014;Innovation in Building Envelopes and Environmental Systems at Lausanne</source>
+          <conf-loc>Lausanne, Switzerland</conf-loc>
+          <conf-date>27&#x2013;28 September 2005</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B48-materials-13-05000">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Picandet</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Carre</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lecompte</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Amziane</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Baley</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of compaction on mechanical and thermal properties of hemp concrete</article-title>
+          <source>Eur. J. Environ. Civ. Eng.</source>
+          <year>2010</year>
+          <volume>14</volume>
+          <fpage>545</fpage>
+          <lpage>560</lpage>
+          <pub-id pub-id-type="doi">10.1080/19648189.2010.9693246</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-materials-13-05000">
+        <label>49.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murphy</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pav&#xED;a</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>An assessment of some physical properties of hemp-lime concrete</article-title>
+          <source>Proceedings of the BCRI Bridge Infrastructure Concrete Research Ireland</source>
+          <conf-loc>Cork, Ireland</conf-loc>
+          <conf-date>2 September 2010</conf-date>
+          <fpage>431</fpage>
+          <lpage>438</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="materials-13-05000-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Average densities of all hempcrete samples.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g001.tif"/>
+      </fig>
+      <fig id="materials-13-05000-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Comparison of density, compressive strength, and age.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g002.tif"/>
+      </fig>
+      <fig id="materials-13-05000-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Thermal conductivity as a function of density.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g003.tif"/>
+      </fig>
+      <fig id="materials-13-05000-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Thermal conductivity comparison with other studies.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g004.tif"/>
+      </fig>
+      <fig id="materials-13-05000-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Moisture buffer value with cycles with different initial conditions. (<bold>a</bold>) High moisture content initial condition; (<bold>b</bold>) Low moisture content initial condition.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g005a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g005b.tif"/>
+      </fig>
+      <fig id="materials-13-05000-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Typical steady cycle with different boundary conditions. (<bold>a</bold>) High moisture content initial condition; (<bold>b</bold>) Low moisture content initial condition.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g006a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g006b.tif"/>
+      </fig>
+      <fig id="materials-13-05000-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Average steady-state moisture buffer value (MBV).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g007.tif"/>
+      </fig>
+      <fig id="materials-13-05000-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Thermal conductivity as a function of compressive strength.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-05000-g008.tif"/>
+      </fig>
+      <table-wrap id="materials-13-05000-t001" position="float">
+        <object-id pub-id-type="pii">materials-13-05000-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Composition of hempcrete samples.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Design Mix</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Name</th>
+              <th colspan="6" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mix Ratio by Mass Hemp/Lime/Pozzolan/Water *</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Hemp/Lime/Pozzolan/Water (by Mass)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">H</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">L</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">CB</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">MK</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">NHL</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Water</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Hydrated lime-crushed brick</td>
+              <td align="center" valign="middle">LCB10</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.9</td>
+              <td align="center" valign="middle">0.1</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">22%/21%/2%/55%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LCB20</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.8</td>
+              <td align="center" valign="middle">0.2</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">22%/18%/4%/56%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LCB20A</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20%/16%//4%/60%</td>
+            </tr>
+            <tr>
+              <td rowspan="8" align="center" valign="middle" style="border-bottom:solid thin">Hydrated lime-metakaolin</td>
+              <td align="center" valign="middle">LMK10</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.9</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.1</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2.6</td>
+              <td align="center" valign="middle">22%//20%/2%/56%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK20</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.8</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.2</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">20%/16%/4%/60%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK20A</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.8</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.2</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">22%/18%/4%/56%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK50</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">20%/10%/10%/60%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK50A</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">22%/11%/11%/56%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK70</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.7</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">22%/7%/15%/56%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK70A</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.7</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2.75</td>
+              <td align="center" valign="middle">21%/6%/15%/58%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LMK70B</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20%/6%/14%/60%</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Hydrated lime-natural hydraulic lime</td>
+              <td align="center" valign="middle">LNHL50</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">22%/11%/11%/56%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LNHL50A</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">20%/10%/10%/60%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LNHL70</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">0.7</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">22%/7%/15%/56%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LNHL70A</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20%/6%/14%/60%</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>* H, hemp hurd; L, hydrated lime; MK, metakaolin; NHL, natural hydraulic lime; CB, crushed brick.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="materials-13-05000-t002" position="float">
+        <object-id pub-id-type="pii">materials-13-05000-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Descriptive statistics of samples.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Density (kg/m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Compression</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Splitting Tensile</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Thermal Wet</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Thermal Dry</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Minimum</td>
+              <td align="center" valign="middle">304</td>
+              <td align="center" valign="middle">290</td>
+              <td align="center" valign="middle">304</td>
+              <td align="center" valign="middle">291</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Average *</td>
+              <td align="center" valign="middle">340 &#xB1; 9</td>
+              <td align="center" valign="middle">324 &#xB1; 6</td>
+              <td align="center" valign="middle">322 &#xB1; 6</td>
+              <td align="center" valign="middle">307 &#xB1; 6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Maximum</td>
+              <td align="center" valign="middle">372</td>
+              <td align="center" valign="middle">339</td>
+              <td align="center" valign="middle">336</td>
+              <td align="center" valign="middle">321</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Standard deviation </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.3</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>* Confidence intervals (for 95% confidence level.).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="materials-13-05000-t003" position="float">
+        <object-id pub-id-type="pii">materials-13-05000-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Average compression strength, tensile strength, Young&#x2019;s modulus, density, and water content.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Name</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Water (kg)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Density (CT <sup>1</sup>) (kg/m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Compressive Strength (MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E (MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Density (STT <sup>2</sup>) (kg/m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Splitting Tensile Strength (MPa)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">LCB10</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">339</td>
+              <td align="center" valign="middle">0.32</td>
+              <td align="center" valign="middle">10.42</td>
+              <td align="center" valign="middle">326</td>
+              <td align="center" valign="middle">0.0244</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LCB20</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">344</td>
+              <td align="center" valign="middle">0.19</td>
+              <td align="center" valign="middle">6.38</td>
+              <td align="center" valign="middle">310</td>
+              <td align="center" valign="middle">0.0219</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LCB20B</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">324</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.26</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">312</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0223</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK10</td>
+              <td align="center" valign="middle">2.6</td>
+              <td align="center" valign="middle">372</td>
+              <td align="center" valign="middle">0.36</td>
+              <td align="center" valign="middle">10.84</td>
+              <td align="center" valign="middle">329</td>
+              <td align="center" valign="middle">0.0219</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK20</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">326</td>
+              <td align="center" valign="middle">0.21</td>
+              <td align="center" valign="middle">7.20</td>
+              <td align="center" valign="middle">330</td>
+              <td align="center" valign="middle">0.0270</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK20B</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">348</td>
+              <td align="center" valign="middle">0.28</td>
+              <td align="center" valign="middle">9.00</td>
+              <td align="center" valign="middle">323</td>
+              <td align="center" valign="middle">0.0222</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK50</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">365</td>
+              <td align="center" valign="middle">0.33</td>
+              <td align="center" valign="middle">8.05</td>
+              <td align="center" valign="middle">338</td>
+              <td align="center" valign="middle">0.0307</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK50B</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">350</td>
+              <td align="center" valign="middle">0.47</td>
+              <td align="center" valign="middle">8.31</td>
+              <td align="center" valign="middle">337</td>
+              <td align="center" valign="middle">0.0342</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK70</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">319</td>
+              <td align="center" valign="middle">0.14</td>
+              <td align="center" valign="middle">7.64</td>
+              <td align="center" valign="middle">327</td>
+              <td align="center" valign="middle">0.0160</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LMK70B</td>
+              <td align="center" valign="middle">2.75</td>
+              <td align="center" valign="middle">304</td>
+              <td align="center" valign="middle">0.11</td>
+              <td align="center" valign="middle">4.27</td>
+              <td align="center" valign="middle">290</td>
+              <td align="center" valign="middle">0.0101</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LMK70C</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">327</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">323</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0183</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LNHL50</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">341</td>
+              <td align="center" valign="middle">0.26</td>
+              <td align="center" valign="middle">9.01</td>
+              <td align="center" valign="middle">329</td>
+              <td align="center" valign="middle">0.0307</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LNHL50B</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">352</td>
+              <td align="center" valign="middle">0.42</td>
+              <td align="center" valign="middle">5.21</td>
+              <td align="center" valign="middle">339</td>
+              <td align="center" valign="middle">0.0348</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LNHL70</td>
+              <td align="center" valign="middle">2.5</td>
+              <td align="center" valign="middle">340</td>
+              <td align="center" valign="middle">0.30</td>
+              <td align="center" valign="middle">10.22</td>
+              <td align="center" valign="middle">324</td>
+              <td align="center" valign="middle">0.0260</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LNHL70B</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">351</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.38</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.22</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">324</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0229</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><sup>1</sup> Compression test; <sup>2</sup> splitting tensile test.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="materials-13-05000-t004" position="float">
+        <object-id pub-id-type="pii">materials-13-05000-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Thermal properties of the hempcrete samples.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">State</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Density (kg/m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Thermal Conductivity (W/m K)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Specific Heat Capacity (J/kg K)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Thermal Diffusivity (m<sup>2</sup>/s) &#xD7; 10<sup>&#x2212;7</sup></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">LCB10</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">325</td>
+              <td align="center" valign="middle">0.0962</td>
+              <td align="center" valign="middle">1504</td>
+              <td align="center" valign="middle">1.968</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">dry</td>
+              <td align="center" valign="middle">309</td>
+              <td align="center" valign="middle">0.0921</td>
+              <td align="center" valign="middle">1350</td>
+              <td align="center" valign="middle">2.209</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">LCB20</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">326</td>
+              <td align="center" valign="middle">0.0943</td>
+              <td align="center" valign="middle">1398</td>
+              <td align="center" valign="middle">2.069</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">dry</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">311</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0902</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1250</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.321</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">LMK10</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">336</td>
+              <td align="center" valign="middle">0.1007</td>
+              <td align="center" valign="middle">1536</td>
+              <td align="center" valign="middle">1.951</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">dry</td>
+              <td align="center" valign="middle">321</td>
+              <td align="center" valign="middle">0.0959</td>
+              <td align="center" valign="middle">1397</td>
+              <td align="center" valign="middle">2.140</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">LMK20</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">328</td>
+              <td align="center" valign="middle">0.0981</td>
+              <td align="center" valign="middle">1530</td>
+              <td align="center" valign="middle">1.955</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">dry</td>
+              <td align="center" valign="middle">312</td>
+              <td align="center" valign="middle">0.0937</td>
+              <td align="center" valign="middle">1385</td>
+              <td align="center" valign="middle">2.169</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">LMK50</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">318</td>
+              <td align="center" valign="middle">0.0955</td>
+              <td align="center" valign="middle">1523</td>
+              <td align="center" valign="middle">1.972</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">dry</td>
+              <td align="center" valign="middle">303</td>
+              <td align="center" valign="middle">0.0910</td>
+              <td align="center" valign="middle">1379</td>
+              <td align="center" valign="middle">2.178</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">LMK70</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">316</td>
+              <td align="center" valign="middle">0.0941</td>
+              <td align="center" valign="middle">1498</td>
+              <td align="center" valign="middle">1.988</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">dry</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">301</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0898</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1352</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.206</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">LNHL50</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">304</td>
+              <td align="center" valign="middle">0.0907</td>
+              <td align="center" valign="middle">1520</td>
+              <td align="center" valign="middle">1.962</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">dry</td>
+              <td align="center" valign="middle">291</td>
+              <td align="center" valign="middle">0.0868</td>
+              <td align="center" valign="middle">1383</td>
+              <td align="center" valign="middle">2.156</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">LNHL70</td>
+              <td align="center" valign="middle">wet</td>
+              <td align="center" valign="middle">323</td>
+              <td align="center" valign="middle">0.0952</td>
+              <td align="center" valign="middle">1557</td>
+              <td align="center" valign="middle">1.893</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">dry</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">309</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0912</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1421</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.076</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

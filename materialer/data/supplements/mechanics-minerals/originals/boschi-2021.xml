@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">heritage</journal-id>
+      <journal-title-group>
+        <journal-title>Heritage</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Heritage</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Heritage</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2571-9408</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/heritage4010014</article-id>
+      <article-id pub-id-type="publisher-id">heritage-04-00014</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Tuscany Masonry Database Website</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4887-1713</contrib-id>
+          <name>
+            <surname>Boschi</surname>
+            <given-names>Sonia</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5569-2022</contrib-id>
+          <name>
+            <surname>Bernardini</surname>
+            <given-names>Chiara</given-names>
+          </name>
+          <xref rid="c1-heritage-04-00014" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vignoli</surname>
+            <given-names>Andrea</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-heritage-04-00014">Department of Civil and Environmental Engineering, University of Florence, Via di S. Marta 3, 50139 Florence, Italy; <email>sonia.boschi@unifi.it</email> (S.B.); <email>andrea.vignoli@unifi.it</email> (A.V.)</aff>
+      <author-notes>
+        <corresp id="c1-heritage-04-00014"><label>*</label>Correspondence: <email>chiara.bernardini@unifi.it</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>01</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2021</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>1</issue>
+      <fpage>230</fpage>
+      <lpage>248</lpage>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>12</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>01</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2021 by the authors.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The Tuscany Masonry Database (TMDB) is an online database containing the results and the complete experimental data of in situ experimental tests carried out on masonry panels of masonry buildings located in the Tuscany Region (Italy), starting from 1990. The results can be freely downloaded by users after registration on the site. To date, the TMDB includes 142 georeferenced tests, comprising 50 diagonal tests, 5 compression tests, and 87 flat-jack tests. In addition, there are tests on the components, such as compression tests on blocks, penetrometric testing on mortar, macroscopic or microscopic analysis of mortar, and coring. The results are supported by a qualitative description of the masonry texture and are compared with the reference values of the mechanical characteristics proposed by the Italian Building Code. The data come from scientific literature and are the result of collaborations between the Seismic Sector of the Tuscany Region and some Tuscan University Laboratories, or they are shared by private test laboratories mainly acting in Tuscany. The TMDB was developed and is constantly updated by the authors to provide support to researchers and freelance engineers in the knowledge process phase of masonry buildings, as well as for that of particular structures, such as heritage buildings. Furthermore, it allows for the filling of the lack of particularity of masonry classification and for the consideration of particular masonry types existing in local areas, for which there are no literature data or specific experimentation. Further tests are currently being processed to be included in the database, and divulgation activity on the project is foreseen. Furthermore, national and international collaborations are underway for the expansion of the database, with the aim of unifying test procedures and updating the codes.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Tuscany Masonry Database</kwd>
+        <kwd>historic masonry</kwd>
+        <kwd>mechanical properties</kwd>
+        <kwd>in situ tests</kwd>
+        <kwd>flat-jack test</kwd>
+        <kwd>diagonal test</kwd>
+        <kwd>compression test</kwd>
+        <kwd>DRMS test</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-heritage-04-00014" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The Tuscany Masonry Database (TMDB) website (<uri>https://www.abacomurature.it/index.php</uri>) is a free online application that collects the results of in situ experimental tests on masonry walls carried out in the Tuscany Region. In order to access the database and download the test results, it is necessary to register on the website for free. The results are cataloged, processed, and georeferenced, and are supported by a complete qualitative characterization of the masonry type. The project arises from a scientific collaboration between the Seismic Sector of the Tuscany Region and the Department of Civil and Environmental Engineering of the University of Florence (DICEA) research group. It was also included in the DPC-ReLUIS 2014&#x2013;2018 research program on masonry structures [<xref ref-type="bibr" rid="B1-heritage-04-00014">1</xref>]. The project has been already introduced in [<xref ref-type="bibr" rid="B2-heritage-04-00014">2</xref>,<xref ref-type="bibr" rid="B3-heritage-04-00014">3</xref>] and the results of some tests included in the database are illustrated in previous works [<xref ref-type="bibr" rid="B4-heritage-04-00014">4</xref>,<xref ref-type="bibr" rid="B5-heritage-04-00014">5</xref>,<xref ref-type="bibr" rid="B6-heritage-04-00014">6</xref>].</p>
+      <p>It is well known that a correct evaluation of the structural safety of existing buildings depends on the knowledge process, which allows for the identification of the resistant structural organisms and for the defining of the mechanical properties of the materials. Numerous research studies have been published over the years on this topic, with the aim of providing procedures for the safety assessment of masonry buildings and the design of proper interventions [<xref ref-type="bibr" rid="B7-heritage-04-00014">7</xref>,<xref ref-type="bibr" rid="B8-heritage-04-00014">8</xref>,<xref ref-type="bibr" rid="B9-heritage-04-00014">9</xref>,<xref ref-type="bibr" rid="B10-heritage-04-00014">10</xref>,<xref ref-type="bibr" rid="B11-heritage-04-00014">11</xref>]. The assessment procedure based on the so-called &#x201C;confidence factor&#x201D; is proposed in EC8-3 [<xref ref-type="bibr" rid="B12-heritage-04-00014">12</xref>], similar to the &#x201C;knowledge factor&#x201D; introduced in FEMA 356 [<xref ref-type="bibr" rid="B13-heritage-04-00014">13</xref>].</p>
+      <p>Along the same line, the Italian Building Code [<xref ref-type="bibr" rid="B14-heritage-04-00014">14</xref>,<xref ref-type="bibr" rid="B15-heritage-04-00014">15</xref>] and the corresponding Instructions [<xref ref-type="bibr" rid="B16-heritage-04-00014">16</xref>,<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>], provide, within the knowledge process, the possibility of carrying out experimental tests in order to directly identify the mechanical parameters of masonry. However, the execution of exhaustive in situ experimental tests can often be difficult both for economic and executive aspects, especially in the case of historic and monumental buildings [<xref ref-type="bibr" rid="B18-heritage-04-00014">18</xref>,<xref ref-type="bibr" rid="B19-heritage-04-00014">19</xref>,<xref ref-type="bibr" rid="B20-heritage-04-00014">20</xref>,<xref ref-type="bibr" rid="B21-heritage-04-00014">21</xref>,<xref ref-type="bibr" rid="B22-heritage-04-00014">22</xref>,<xref ref-type="bibr" rid="B23-heritage-04-00014">23</xref>,<xref ref-type="bibr" rid="B24-heritage-04-00014">24</xref>]. For this reason, in the event that no experimental tests are performed, the mechanical characteristics can be deduced from Table C.8.5.I (<xref ref-type="table" rid="heritage-04-00014-t001">Table 1</xref>, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]), which provides the minimum and maximum values of resistance and deformability for masonry types typical of the Italian territory, with reference to specific conditions: mortar with modest characteristics, absence of stringcourses, absence of transversal connection, non-consolidated masonry, and so forth. If the masonry is in better condition, it is possible to apply the improvement coefficients of Table C.8.5.II (<xref ref-type="table" rid="heritage-04-00014-t002">Table 2</xref>, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]).</p>
+      <p>Nevertheless, frequently, masonries belonging to homogeneous territorial areas (for example, regional territories) deviate from the national classification since the construction techniques are strongly influenced by aspects such as the availability of specific materials, the particular construction tradition of the area, the availability of clients, and so forth. Therefore, the numerous experiments that have been carried out over the years for the characterization of different types of masonry provide important information [<xref ref-type="bibr" rid="B25-heritage-04-00014">25</xref>,<xref ref-type="bibr" rid="B26-heritage-04-00014">26</xref>,<xref ref-type="bibr" rid="B27-heritage-04-00014">27</xref>,<xref ref-type="bibr" rid="B28-heritage-04-00014">28</xref>,<xref ref-type="bibr" rid="B29-heritage-04-00014">29</xref>,<xref ref-type="bibr" rid="B30-heritage-04-00014">30</xref>,<xref ref-type="bibr" rid="B31-heritage-04-00014">31</xref>,<xref ref-type="bibr" rid="B32-heritage-04-00014">32</xref>,<xref ref-type="bibr" rid="B33-heritage-04-00014">33</xref>,<xref ref-type="bibr" rid="B34-heritage-04-00014">34</xref>,<xref ref-type="bibr" rid="B35-heritage-04-00014">35</xref>,<xref ref-type="bibr" rid="B36-heritage-04-00014">36</xref>,<xref ref-type="bibr" rid="B37-heritage-04-00014">37</xref>].</p>
+      <p>In this context, the TMDB represents a useful support tool for users in the preliminary phase of the knowledge process. Indeed, it was developed to complete the lack of specificity of the masonry characterization defined at the national level and to consider peculiar masonry types existing locally. The TMDB can be used freely by researchers and freelancers directly through the website.</p>
+    </sec>
+    <sec id="sec2-heritage-04-00014">
+      <title>2. Reference Database</title>
+      <p>To date, the TMDB has collected 142 tests, 50 of which are diagonal tests (DT, 35%), 5 are compression tests (CT, 4%) and 87 are flat-jack tests (FJT, 61%). Some of them are accompanied by tests on components, such as compression on blocks (CB, 12%), penetrometric testing on mortar (DRMS, 34%), and macroscopic or microscopic analysis of mortar (AM, 8%). In some cases, cylindrical cores (CAR, 18%) were extracted to examine the internal characteristics of the wall sections. The reference standards for the abovementioned tests are summarized in <xref ref-type="table" rid="heritage-04-00014-t003">Table 3</xref>.</p>
+      <p>The database is continuously updated to reach a statistically significant number of experimental tests. The experimental tests are georeferenced with hidden sensitive data. The results are supported by a qualitative description of the masonry and the evaluation of the Masonry Quality Index (hereinafter referred to as MQI [<xref ref-type="bibr" rid="B38-heritage-04-00014">38</xref>,<xref ref-type="bibr" rid="B39-heritage-04-00014">39</xref>,<xref ref-type="bibr" rid="B40-heritage-04-00014">40</xref>]). In addition, they are compared with the reference values of the mechanical characteristics of resistance and deformability proposed by the Italian Building Code, considering both the previous and the current version [<xref ref-type="bibr" rid="B16-heritage-04-00014">16</xref>,<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]. </p>
+      <p><xref ref-type="fig" rid="heritage-04-00014-f001">Figure 1</xref> shows the contents of the TMDB.</p>
+      <p>The data included in the TMDB come from the following sources:<list list-type="bullet"><list-item><p>Scientific collaborations between the DICEA and public and private clients; the tests were performed by the Structural and Materials Testing Laboratory in connection with DICEA;</p></list-item><list-item><p>Scientific collaborations between the Seismic Sector of the Tuscany Region and the DICEA and the Department of Architecture (DiDA) of the University of Florence [<xref ref-type="bibr" rid="B41-heritage-04-00014">41</xref>] and the Department of Civil and Industrial Engineering (DICI) of the University of Pisa [<xref ref-type="bibr" rid="B42-heritage-04-00014">42</xref>];</p></list-item><list-item><p>The activity of the private company SIGMA Laboratory SRL, tests on building materials for private and public clients);</p></list-item><list-item><p>The activity of the private company DELTA Laboratory SRL, tests on building materials for private and public clients);</p></list-item><list-item><p>Scientific collaborations between the DICEA of the University of Florence and the Consiglio Nazionale delle Ricerche (CNR), Institute for the Conservation and Enhancement of Cultural Heritage.</p></list-item></list></p>
+      <p>The data sources of the tests are summarized in <xref ref-type="fig" rid="heritage-04-00014-f002">Figure 2</xref>. Of the tests, 56% were conducted directly from DICEA. The DICEA research group and Tuscany Region also coordinated the activities of the private companies of testing material Sigma SRL (15%) and Delta SRL (22%), for a total of 92% of the tests.</p>
+      <p>The distribution of the tests, by type and location, is shown in <xref ref-type="fig" rid="heritage-04-00014-f003">Figure 3</xref>. </p>
+      <p>As noted in <xref ref-type="fig" rid="heritage-04-00014-f003">Figure 3</xref>b, most of the tests are located in the Provinces of Firenze, Arezzo, Lucca, and Massa Carrara, where there are many municipalities characterized by a medium-high seismic hazard.</p>
+      <p>The classifications of the buildings where the tests were carried out, by destination use and age of construction, considering the total sample and distinguishing by type of test, are shown in <xref ref-type="fig" rid="heritage-04-00014-f004">Figure 4</xref>. From <xref ref-type="fig" rid="heritage-04-00014-f004">Figure 4</xref>a, it is possible to observe that 16% are private buildings, about 78% are public ordinary buildings (e.g., schools or hospitals) and 6% are not ordinary buildings (e.g., towers or domes). With reference to the age of construction (<xref ref-type="fig" rid="heritage-04-00014-f004">Figure 4</xref>b), the proposed classification considers the typological class of the buildings and if they were designed for seismic actions; about 41% of the sample concerns historical constructions (prior to 1919), while recent buildings (post-1981) represent only a small part of the database sample (3%). The rest of the sample is equally distributed between the periods 1920&#x2013;1949 and 1950&#x2013;1980. It should be noted that for the historical buildings, mostly semi-destructive tests were performed (mainly FJT, 36%), given the greater difficulty in carrying out destructive tests (DT, 5%).</p>
+      <p>The results of the classification of the tested panels (whose dimensions are defined in accordance with the reference standards summarized in <xref ref-type="table" rid="heritage-04-00014-t003">Table 3</xref>) according to the Italian categories of Table C.8.5.I (<xref ref-type="table" rid="heritage-04-00014-t001">Table 1</xref>, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]) are shown in <xref ref-type="fig" rid="heritage-04-00014-f005">Figure 5</xref>. The masonry categories of <xref ref-type="table" rid="heritage-04-00014-t001">Table 1</xref> are indicated with Roman numerals (&#x201C;I-VII&#x201D; with Category IV split into &#x201C;IVa&#x201D; and &#x201C;IVb&#x201D;), while the corrective coefficients of Table C8.5.II (<xref ref-type="table" rid="heritage-04-00014-t002">Table 2</xref>, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]) are indicated with Arabic numerals.</p>
+      <p>In order to consider all the conditions that walls can assume with reference to the classification of the Italian Instructions (MIT 2019, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]), three additional coefficients are used in the TMDB in addition to the coefficients in <xref ref-type="table" rid="heritage-04-00014-t002">Table 2</xref>:<list list-type="bullet"><list-item><p>&#x201C;<bold>9</bold>&#x201D; if the masonry has mortar with particularly poor characteristics (average compressive strength fm &lt; 0.7 N/mm<sup>2</sup>), for which MIT 2019 [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>] proposes the use of a reduction coefficient of 0.7 for the resistances and 0.8 for the elastic modules;</p></list-item><list-item><p>&#x201C;<bold>10</bold>&#x201D; if the brick masonry has thick mortar joints, that is greater than 13 mm, for which MIT 2019 [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>] proposes the use of a reduction coefficient of 0.7 for resistances and 0.8 for elastic modulus;</p></list-item><list-item><p>&#x201C;<bold>11</bold>&#x201D; for the presence of deep wedges in Category II, for which MIT 2019 [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>] proposes the use of an improved coefficient of 1.2 for stiffness and strength.</p></list-item></list></p>
+      <p>It is also specified that, after upgrading the TMDB in accordance with the Italian Code update, the coefficients introduced by the previous classification (Table C8.A.2.2, [<xref ref-type="bibr" rid="B16-heritage-04-00014">16</xref>]) but omitted from the current one (<xref ref-type="table" rid="heritage-04-00014-t002">Table 2</xref>, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]) were removed (i.e., &#x201C;2&#x201D; for thin joints and &#x201C;5&#x201D; for a poor core).</p>
+      <p>From <xref ref-type="fig" rid="heritage-04-00014-f005">Figure 5</xref>, it is possible to notice the following:<list list-type="bullet"><list-item><p>About 39% of the tests were performed on irregular stone masonry (<xref ref-type="fig" rid="heritage-04-00014-f006">Figure 6</xref>a), of which 7% have stringcourses (I-3) and 5% have good mortar (I-1);</p></list-item><list-item><p>About 22% of the tests were performed on barely cut stone masonry (<xref ref-type="fig" rid="heritage-04-00014-f006">Figure 6</xref>b), of which 5% have brick stringcourses (II-3);</p></list-item><list-item><p>About 8% of the tests were performed on roughly cut stone masonry with good texture, with medium-large stones of regular square shape (<xref ref-type="fig" rid="heritage-04-00014-f006">Figure 6</xref>c);</p></list-item><list-item><p>About 17% of the sample consists of brick masonry (<xref ref-type="fig" rid="heritage-04-00014-f006">Figure 6</xref>e), of which 6% have good mortar (VI-1);</p></list-item><list-item><p>The tuff walls are only 3% of the sample, all characterized by good mortar (IVb-1, <xref ref-type="fig" rid="heritage-04-00014-f006">Figure 6</xref>d);</p></list-item><list-item><p>About 1% of the sample consists of stone square block masonry made up of large square stone blocks (even larger than 50 cm) with good mortar (V-1);</p></list-item><list-item><p>About 14% of the sample concerns non-classifiable masonry (NC), not included in the Italian classification. These include tests on mixed masonry, consisting of stones and bricks, and on particular masonries ([<xref ref-type="bibr" rid="B4-heritage-04-00014">4</xref>]), such as the hollow brick block masonry (so-called &#x201C;occhialoni&#x201D;, <xref ref-type="fig" rid="heritage-04-00014-f007">Figure 7</xref>a, or &#x201C;foratoni&#x201D;, <xref ref-type="fig" rid="heritage-04-00014-f007">Figure 7</xref>b), characterized by a perforation percentage greater than 45%, and the hand-made concrete block masonry (so-called &#x201C;masselli&#x201D;, <xref ref-type="fig" rid="heritage-04-00014-f007">Figure 7</xref>c), composed of built-in-work-site concrete elements, made up of sand and river pebbles with a great granulometric irregularity.</p></list-item></list></p>
+    </sec>
+    <sec id="sec3-heritage-04-00014">
+      <title>3. The TMDB Website</title>
+      <p>The website features a <italic>Home Page</italic> and three sub-pages: <italic>Method</italic>, <italic>Research,</italic> and <italic>Contacts</italic>, which interact according to the following scheme (<xref ref-type="fig" rid="heritage-04-00014-f008">Figure 8</xref>). </p>
+      <p>The content of each webpage is briefly described below. </p>
+      <sec id="sec3dot1-heritage-04-00014">
+        <title>3.1. Home Page</title>
+        <p>The <italic>Home</italic> page (<xref ref-type="fig" rid="heritage-04-00014-f009">Figure 9</xref>) describes the origin and the contents of the project. In addition, it shows Table C8.5.I and Table C8.5.II [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>].</p>
+      </sec>
+      <sec id="sec3dot2-heritage-04-00014">
+        <title>3.2. Method Page</title>
+        <p>The <italic>Method</italic> page describes the procedure for collecting and cataloging tests and processing the data. The main phases of the work can be summarized as follows:<list list-type="bullet"><list-item><p>Data collection and cataloging: acquisition of all available documentation of the experimental tests (photographic documentation, qualitative descriptions, diagnostic reports, test certificates, etc.) and their georeferencing.</p></list-item><list-item><p>Qualitative characterization of masonry and assessment of the MQI for each panel through the compilation of the Masonry Quality Form (MQF, [<xref ref-type="bibr" rid="B1-heritage-04-00014">1</xref>,<xref ref-type="bibr" rid="B3-heritage-04-00014">3</xref>]).</p></list-item><list-item><p>Categorization of masonry, according to the national [<xref ref-type="bibr" rid="B16-heritage-04-00014">16</xref>,<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>] and regional classification [<xref ref-type="bibr" rid="B43-heritage-04-00014">43</xref>].</p></list-item><list-item><p>Treatment of tests and processing of numerical results according to a unitary approach. This step was crucial as the results were often treated differently since, for in situ tests of masonry characterization, there are no binding codified regulations and, consequently, results were not comparable to each other.</p></list-item></list></p>
+        <p>In addition, in this section, it is possible to download the website guide and some in-depth documents.</p>
+        <sec id="sec3dot2dot1-heritage-04-00014">
+          <title>3.2.1. Qualitative Characterization of Masonry</title>
+          <p>The qualitative characterization of the masonry types was carried out by compiling the MQF, implemented by the authors in the research project [<xref ref-type="bibr" rid="B1-heritage-04-00014">1</xref>], and starting with the one proposed by [<xref ref-type="bibr" rid="B44-heritage-04-00014">44</xref>], to which further details have been added. </p>
+          <p>The compilation of the MQF allows for a complete characterization of the masonry, paying attention to the parameters and specific characteristics of the masonry and the components that define the &#x201C;rules of art&#x201D; [<xref ref-type="bibr" rid="B38-heritage-04-00014">38</xref>]. </p>
+          <p>The form is organized into three parts, as defined below. Each form of each panel can be downloaded from the site.
+          <list list-type="order"><list-item><p><bold>Section one</bold> (<xref ref-type="fig" rid="heritage-04-00014-f010">Figure 10</xref>): Contains general information about the building and the masonry type, such as the name of the panel, the location in the building, some pictures, the date of the survey, and information about the detector. Furthermore, it contains information about the masonry category according to the regional [<xref ref-type="bibr" rid="B43-heritage-04-00014">43</xref>] and national [<xref ref-type="bibr" rid="B16-heritage-04-00014">16</xref>,<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>] classification; this attribution can only be made after compiling the entire form.</p></list-item><list-item><p><bold>Section two</bold> (<xref ref-type="fig" rid="heritage-04-00014-f011">Figure 11</xref>): Contains the main macroscopic characteristics of the wall and the section (if evaluable). The masonry elements (blocks and mortar) are characterized by shape, size, type, origin, and so forth.</p></list-item><list-item><p><bold>Section three</bold> (<xref ref-type="fig" rid="heritage-04-00014-f012">Figure 12</xref>): Contains the observations deriving from the compilation of the first two sections, in relation to the masonry type and the state of conservation. Furthermore, based on the results obtained from the compilation, the MQI is attributed to the masonry.</p></list-item></list>
+		  </p>
+        </sec>
+        <sec id="sec3dot2dot2-heritage-04-00014">
+          <title>3.2.2. Experimental Tests</title>
+          <p>Each panel is associated with an experimental test (the &#x201C;main&#x201D; test), that can be destructive, such as the diagonal test (DT) or the compression test (CT), or semi-destructive, such as the single and double flat-jack tests (FJT). As mentioned above, in some cases, the main tests are accompanied by &#x201C;secondary&#x201D; tests on the components: compression tests on blocks (C<sub>B</sub>), penetrometric testing on mortar (DRMS), macroscopic or microscopic analysis of mortar (A<sub>M</sub>), and coring (CAR). From the main tests, it is possible to evaluate the parameters of resistance and deformability of the masonry, while from the secondary tests on block and mortar it is possible to derive some characteristics, mainly qualitative, that allow for greater reliability in the classification of the masonry.</p>
+          <p><xref ref-type="table" rid="heritage-04-00014-t003">Table 3</xref> shows all the experimental tests present in the project, the reference standards, and the derived parameters.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-heritage-04-00014">
+        <title>3.3. Research Page</title>
+        <p>The <italic>Research</italic> page is the core of the TMDB website and allows the user to search and extract data. The research scheme is summarized in <xref ref-type="fig" rid="heritage-04-00014-f013">Figure 13</xref>. The search for qualitative and quantitative information of the masonry types is carried out by means of search filters, which allow a versatile search, useful for finding data related to experimental tests conducted on masonry types more associable with the one for which the user seeks information.</p>
+        <p>The search is carried out on a qualitative basis and each feature listed in the MQF represents a filter through which to search for similar masonry types within the web application. It is possible to carry out two types of research:<list list-type="bullet"><list-item><p>easy research, filtering results through macro-topics;</p></list-item><list-item><p>advanced research, using the easy research filters and some detailed search keys (such as type of masonry, block, mortar, etc.).</p></list-item></list></p>
+        <p>The two research modes are detailed below.</p>
+        <sec id="sec3dot3dot1-heritage-04-00014">
+          <title>3.3.1. Easy Research</title>
+          <p>The easy research filters allow the user to search for records based on the following macro-topics.</p>
+          <list list-type="bullet">
+            <list-item>
+              <p><bold>Building location</bold>: all tests are georeferenced, and this aspect allows the user to search by geographical area (i.e., Region, Province, Municipality, or coordinates).</p>
+            </list-item>
+            <list-item>
+              <p><bold>Masonry type</bold>: this aspect allows the user to identify masonry types with similar typological/mechanical correspondence. The user can search for: classification of Tuscany Region [<xref ref-type="bibr" rid="B43-heritage-04-00014">43</xref>], classification of Table C8A2.1 and Table C8A2.1 [<xref ref-type="bibr" rid="B16-heritage-04-00014">16</xref>], classification of Table C.8.5.I and Table C.8.5.II [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>], or masonry type (identified on the basis of the constituent material, if not included in the previous classifications).</p>
+            </list-item>
+            <list-item>
+              <p><bold>Age of building</bold>: this filter allows the user to choose the time interval of the age of the construction to compare the masonry types by period of construction.</p>
+            </list-item>
+            <list-item>
+              <p><bold>Type of building</bold>: buildings are classified by destination use, that is, &#x201C;private ordinary&#x201D;, &#x201C;public ordinary&#x201D;, and &#x201C;not ordinary&#x201D;. This aspect allows the user to extract results related to the type of building more similar to the one of interest and excludes those with very different construction features. The choices can be multiple.</p>
+            </list-item>
+            <list-item>
+              <p><bold>Type of test</bold>: the user can search by test type; the choices can be made based on the main tests (i.e., DT, CT, and FJT) and can be multiple. Further filters relating to the secondary tests (i.e., DRMS, CB, AM, and CAR) can be added to them.</p>
+            </list-item>
+            <list-item>
+              <p><bold>In situ or laboratory test</bold>: the search can be filtered by choosing between in situ or laboratory tests. At present, the database includes only in situ tests.</p>
+            </list-item>
+          </list>
+        </sec>
+        <sec id="sec3dot3dot2-heritage-04-00014">
+          <title>3.3.2. Advanced Research</title>
+          <p>The advanced research can be carried out with secondary filters in addition to the previous ones mentioned and allows the user to filter the records according to the characteristics of blocks and mortar.</p>
+          <list list-type="bullet">
+            <list-item>
+              <p><bold>Type of block</bold>: blocks can be filtered by considering the element type (i.e., the composition, such as sandstone, limestone, travertine, tuff, concrete, etc.), the manufacturing (i.e., absent, barely rough-hewed, natural square block, or artificial square block), the shape (i.e., pebbles, erratic block, sheets, ashlars, etc.) and the dimension (i.e., small, medium, or large).</p>
+            </list-item>
+            <list-item>
+              <p><bold>Type of mortar</bold>: mortar can be filtered by considering the consistency (i.e., inconsistency, friable, compact, or hard) and the regularity of the joints (i.e., not regular, partially regular, or regular).</p>
+            </list-item>
+          </list>
+        </sec>
+        <sec id="sec3dot3dot3-heritage-04-00014">
+          <title>3.3.3. Results</title>
+          <p>The results are georeferenced and classified according to the following sections, as shown in <xref ref-type="fig" rid="heritage-04-00014-f014">Figure 14</xref>:<list list-type="bullet"><list-item><p><bold>Applied search filter</bold>: this section shows the summary of the set filters.</p></list-item><list-item><p><bold>Records found</bold>: this section shows the overall results of the records found, divided by type of test.</p></list-item><list-item><p><bold>Details of found records</bold>: this section shows the details of each record (i.e., ID form, picture, type of test, classification of Tuscany Region [<xref ref-type="bibr" rid="B43-heritage-04-00014">43</xref>], classification of Table C8A2.1 and Table C8A2.1 [<xref ref-type="bibr" rid="B16-heritage-04-00014">16</xref>], classification of Table C.8.5.I and Table C.8.5.II [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>], QMI for vertical and coplanar actions, and the results of the mechanical characteristics associated with the tests). This section is interactive and allows the user to open in-depth pages explaining the found results.</p></list-item><list-item><p><bold>Statistics of the sample</bold> (i.e., maximum, minimum, average, standard deviation, and coefficient of variation): this section is interactive and shows the results of some basic statistics of the extrapolated sample for homogeneous mechanical quantities.</p></list-item></list></p>
+        </sec>
+      </sec>
+      <sec id="sec3dot4-heritage-04-00014">
+        <title>3.4. Contacts Page</title>
+        <p>The <italic>Contacts</italic> page contains the authors&#x2019; references and downloadable publications.</p>
+      </sec>
+      <sec id="sec3dot5-heritage-04-00014">
+        <title>3.5. Examples of Easy Research</title>
+        <p>This section illustrates some examples of easy research carried out for &#x201C;not ordinary&#x201D; buildings and &#x201C;ordinary&#x201D; public buildings, considering double flat-jack tests. The results are shown in terms of MQI, compression strength <italic>f</italic>, and elastic modulus <italic>E.</italic></p>
+        <sec id="sec3dot5dot1-heritage-04-00014">
+          <title>3.5.1. Brick Masonry in not Ordinary Buildings</title>
+          <p>As the first example, the results obtained by performing easy research for not ordinary buildings (i.e., monumental buildings) are shown by considering the following filters:<list list-type="bullet"><list-item><p>Building location: Region = Tuscany</p></list-item><list-item><p>Masonry type: classification of Table C.8.5.I = VI (&#x201C;bricks and lime mortar&#x201D;)</p></list-item><list-item><p>Type of building: not ordinary buildings</p></list-item><list-item><p>Type of test: FJT</p></list-item></list></p>
+          <p>Among all 142 tests, 4 outputs are provided for double flat-jack tests carried out in Siena, Pistoia, and near Arezzo (<xref ref-type="fig" rid="heritage-04-00014-f015">Figure 15</xref>). The results are summarized in <xref ref-type="table" rid="heritage-04-00014-t004">Table 4</xref>. </p>
+          <p>Statistics are available only for the elastic modulus <italic>E</italic> since the compression strength <italic>f</italic> was evaluated only for test n&#xB0; 120. The <italic>E</italic> average value, equal to 1472 N/mm<sup>2</sup>, is close to the average value of Table C.8.5.I (1500 N/mm<sup>2</sup>, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]) but the dispersion is about 37%. The single <italic>f</italic> value is lower than the minimum value of Table C.8.5.I (2.6 N/mm<sup>2</sup>).</p>
+        </sec>
+        <sec id="sec3dot5dot2-heritage-04-00014">
+          <title>3.5.2. Roughly Cut Stone Masonry in Ordinary Public Buildings</title>
+          <p>In the following, the results obtained by performing easy research for ordinary public buildings (i.e., schools or hospitals), are shown by considering the following filters:<list list-type="bullet"><list-item><p>Building location: Region = Tuscany; Province = Florence</p></list-item><list-item><p>Masonry type: classification of Table C.8.5.I = III (roughly cut stone with good texture); classification of Table C.8.5.II = 1 (good mortar)</p></list-item><list-item><p>Type of building: ordinary public buildings.</p></list-item><list-item><p>Type of test: FJT.</p></list-item></list></p>
+          <p>Among all 142 tests, 6 outputs are provided related to double flat-jack tests carried out in the Florence area (<xref ref-type="fig" rid="heritage-04-00014-f016">Figure 16</xref>). The results are summarized in <xref ref-type="table" rid="heritage-04-00014-t005">Table 5</xref>. </p>
+          <p>Statistics are available for both the compression strength <italic>f</italic> (2 records) and the elastic modulus <italic>E</italic> (6 records). The <italic>f</italic> average value is equal to the minimum value of Table C.8.5.I (2.6 N/mm<sup>2</sup>, [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]). The <italic>E</italic> value is higher than the maximum value of Table C.8.5.I (1980 N/mm<sup>2</sup>) for all tests, with the exception of n&#xB0; 077. The <italic>E</italic> average value, equal to 2485 N/mm<sup>2</sup>, exceeds the maximum value of Table C.8.5.I by about 25%.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec4-heritage-04-00014" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>In recent years, the DICEA research group of the University of Florence and the Seismic Sector of the Tuscany Region have collected and grouped in situ experimental tests carried out in Tuscany, in order to describe and catalog the various masonry types in the region and check the congruence of the mechanical characteristic values with those provided by the Italian Code.</p>
+      <p>The results of these tests, suitably cataloged, processed, and georeferenced, are collected in the Tuscany Masonry Database website (TMDB, <uri>https://www.abacomurature.it/index.php</uri>), where they are supported by a complete qualitative characterization of the masonry, by images and evaluation of the MQI.</p>
+      <p>The TMDB web application is a free online tool developed to provide support to researchers and freelance engineers in choosing the qualitative and mechanical characteristics of the masonry and its components. The search for information can be carried out in an easy mode, filtering results based on macro-aspects, such as the location of the building, the type of masonry, the age of the building, the type of building, the type of test, or in advanced mode, filtering records according to the characteristics of blocks and mortar.</p>
+      <p>To date, the TMDB includes 142 tests and is constantly updated. More than 1500 users are registered on the site and have access to the results of the tests; they also have the possibility to provide data to be entered into the database.</p>
+      <p>The future developments of the project foresee both divulgation activity, by means of conferences and training days for professional orders, and the implementation of the database through the acquisition of data of further experimental tests, deriving from campaigns coordinated by the Tuscany Region or by private users, and the processing of numerical results. Currently, 10 more tests from private laboratories are being processed. </p>
+      <p>At present, the database is defined for Tuscan masonries but can include results of experimental tests carried out in any territory and also those of laboratory tests, as long as the data are entered in accordance with the cataloging procedure specifically implemented in the system. </p>
+      <p>In addition, national and international collaborations are underway for the expansion of the database, with the aim of unifying test procedures and updating the codes.</p>
+      <p>The cataloging of a significant number of experimental tests for the specific masonry categories of Tuscany, as well as at the national level, would allow for a peculiar reformulation of the mechanical characteristics of the masonry with a view to the regionalization of the normative indications, for easier recognition of the masonry types and the identification of the mechanical characteristics to be adopted in building safety verifications.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, S.B. and A.V.; methodology, S.B. and A.V.; data curation, S.B. and C.B.; writing&#x2014;original draft preparation, C.B.; writing&#x2014;review and editing, C.B., S.B. and A.V.; supervision: A.V. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This project was supported by the Tuscany Region and by the ReLUIS 2014-16 research program on masonry buildings. The authors thank the Universities of Tuscany, all the private companies, and the persons who took part in the research.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-heritage-04-00014">
+        <label>1.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>ReLUIS</collab>
+          </person-group>
+          <article-title>DPC 2014&#x2013;2018</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.reluis.it/index.php?option=com_content&amp;view=article&amp;id=320&amp;Itemid=170&amp;lang=it" ext-link-type="uri">http://www.reluis.it/index.php?option=com_content&amp;view=article&amp;id=320&amp;Itemid=170&amp;lang=it</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2020-10-19">(accessed on 19 October 2020)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B2-heritage-04-00014">
+        <label>2.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bernardini</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Borghini</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ciavattone</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>del Monte</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analisi dei risultati di prove sperimentali su murature Toscane</article-title>
+          <source>Proceedings of the XVI Convegno Nazionale ANIDIS</source>
+          <conf-loc>L&#x2019;Aquila, Italia</conf-loc>
+          <conf-date>13&#x2013;17 September 2015</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B3-heritage-04-00014">
+        <label>3.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Signorini</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Abaco delle Murature della Regione Toscana</article-title>
+          <source>Proceedings of the XVI Convegno Nazionale ANIDIS</source>
+          <conf-loc>Pistoia, Italy</conf-loc>
+          <conf-date>17&#x2013;21 September 2017</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B4-heritage-04-00014">
+        <label>4.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bernardini</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Borghini</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ciavattone</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>del Monte</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical characterization of particular masonry panels in Tuscany</article-title>
+          <source>Proceedings of the XVI International Brick and Block Masonry Conference 1561&#x2013;1570</source>
+          <conf-loc>Padova, Italy</conf-loc>
+          <conf-date>26&#x2013;30 June 2016</conf-date>
+          <pub-id pub-id-type="doi">10.1201/b21889-194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-heritage-04-00014">
+        <label>5.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Modena</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cescatti</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>In-situ mechanical characterization of existing masonry typologies: A research project in Italy finalized to update the structural codes</article-title>
+          <source>Proceedings of the XVI International Brick and Block Masonry Conference 1983&#x2013;1991</source>
+          <conf-loc>Padova, Italy</conf-loc>
+          <conf-date>26&#x2013;30 June 2016</conf-date>
+          <pub-id pub-id-type="doi">10.1201/b21889-247</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-heritage-04-00014">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Galano</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical characterisation of Tuscany masonry typologies by in situ tests</article-title>
+          <source>Bull. Earthq. Eng.</source>
+          <year>2019</year>
+          <volume>17</volume>
+          <fpage>413</fpage>
+          <lpage>438</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10518-018-0451-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-heritage-04-00014">
+        <label>7.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Binda</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gambarotta</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lagomarsino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Modena</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>A multilevel approach to the damage assessment and the seismic improvement of masonry buildings in Italy</article-title>
+          <source>Seismic Damage to Masonry Buildings</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Bernardini</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Balkema</publisher-name>
+          <publisher-loc>Rotterdam, The Netherlands</publisher-loc>
+          <year>1999</year>
+          <fpage>179</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="doi">10.1201/9780203740040-17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-heritage-04-00014">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tondelli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rota</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Penna</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Magenes</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of uncertainties in the seismic assessment of existing masonry buildings</article-title>
+          <source>J. Earthq. Eng.</source>
+          <year>2012</year>
+          <volume>16</volume>
+          <fpage>36</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="doi">10.1080/13632469.2012.670578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-heritage-04-00014">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rota</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Penna</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Magenes</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A framework for the seismic assessment of existing masonry buildings accounting for different sources of uncertainty</article-title>
+          <source>Earthq. Eng. Struct. Dyn.</source>
+          <year>2014</year>
+          <pub-id pub-id-type="doi">10.1002/eqe.2386</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-heritage-04-00014">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cattari</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lagomarsino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bosiljkov</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Ayala</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sensitivity analysis for setting up the investigation protocol and defining proper confidence factors for masonry buildings</article-title>
+          <source>Bull. Earthq. Eng.</source>
+          <year>2015</year>
+          <volume>13</volume>
+          <fpage>129</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10518-014-9648-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-heritage-04-00014">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Binda</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Cardani</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic vulnerability of historic centers: A methodology to study the vulnerability assessment of masonry building typologies in seismic area</article-title>
+          <source>Handbook of Research on Seismic Assessment and Rehabilitation of Historic Structures</source>
+          <publisher-name>IGI Global</publisher-name>
+          <publisher-loc>Hershey, PA, USA</publisher-loc>
+          <year>2015</year>
+          <fpage>1</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.4018/978-1-4666-8286-3.ch001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-heritage-04-00014">
+        <label>12.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>European Committee for Standardization (CEN)</collab>
+          </person-group>
+          <source>Eurocode 8: Design of Structures for Earthquake Resistance&#x2013;Part. 3: Assessment and Retrofitting of Buildings</source>
+          <publisher-name>European Committee for Standardization (CEN)</publisher-name>
+          <publisher-loc>Brussels, Belgium</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B13-heritage-04-00014">
+        <label>13.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>Federal Emergency Management Agency</collab>
+          </person-group>
+          <source>Prestandard and Commentary for the Seismic Rehabilitation of Buildings</source>
+          <comment>FEMA 356</comment>
+          <publisher-name>Federal Emergency Management Agency</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2000</year>
+        </element-citation>
+      </ref>
+      <ref id="B14-heritage-04-00014">
+        <label>14.</label>
+        <note>
+          <p>NTC 2008. D.M. del Ministero delle Infrastrutture e dei Trasporti del 14/01/2008. Nuove Norme Tecniche per le Costruzioni. G.U. n. 29 del 04.02.2008, S.O. n. 30; Rome, Italy, 2008</p>
+        </note>
+      </ref>
+      <ref id="B15-heritage-04-00014">
+        <label>15.</label>
+        <note>
+          <p>NTC 2018. D.M. del Ministero delle Infrastrutture e dei Trasporti del 17/01/2018. Aggiornamento delle &#x201C;Norme Tecniche per le Costruzioni&#x201D;. G.U. n. 42 del 20 febbraio 2018; Rome, Italy, 2018. (In Italian)</p>
+        </note>
+      </ref>
+      <ref id="B16-heritage-04-00014">
+        <label>16.</label>
+        <note>
+          <p>MIT 2009. Circolare del Ministero delle Infrastructure e dei Trasporti, n.617 del 2 Febbraio 2009: &#x2018;Istruzioni per l&#x2019;applicazione Nuove Norme Tecniche per le Costruzioni di cui al D.M. 14 gennaio 2008&#x2032;; Rome, Italy, 2009. (In Italian).</p>
+        </note>
+      </ref>
+      <ref id="B17-heritage-04-00014">
+        <label>17.</label>
+        <note>
+          <p>MIT 2019. Circolare del Ministero delle Infrastructure e dei Trasporti, n.7 del 21 Gennaio 2019: &#x2018;Istruzioni per l&#x2019;applicazione dell&#x2019;aggiornamento delle Norme Tecniche per le Costruzioni di cui al D.M. 17 gennaio 2018&#x2032;. Consiglio Superiore dei Lavori Pubblici. G.U. n.35 del 11.02.2019; Rome, Italy, 2019. (In Italian).</p>
+        </note>
+      </ref>
+      <ref id="B18-heritage-04-00014">
+        <label>18.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Antonelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bartoli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Betti</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental and numerical analyses for static retrofitting intervention on the &#x2018;Cappella dei Principi&#x2019; in Firenze</article-title>
+          <source>Structural Analysis of Historic Construction: Preserving Safety and Significance</source>
+          <publisher-name>CRC Press</publisher-name>
+          <publisher-loc>Boca Raton, CA, USA</publisher-loc>
+          <year>2008</year>
+          <pub-id pub-id-type="doi">10.1201/9781439828229.ch102</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-heritage-04-00014">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Betti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Orlando</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Static behaviour of an Italian Medieval Castle: Damage assessment by numerical modelling</article-title>
+          <source>Comput. Struct.</source>
+          <year>2011</year>
+          <volume>89</volume>
+          <fpage>1956</fpage>
+          <lpage>1970</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compstruc.2011.05.022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-heritage-04-00014">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cardani</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Binda</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Guidelines for the evaluation of the load-bearing masonry quality in built heritage</article-title>
+          <source>Res. Dev.</source>
+          <year>2015</year>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-08533-3_11</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-heritage-04-00014">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bartoli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Betti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A numerical study on seismic risk assessment of historic masonry towers: A case study in San Gimignano</article-title>
+          <source>Bull. Earthq. Eng.</source>
+          <year>2016</year>
+          <volume>14</volume>
+          <fpage>1475</fpage>
+          <lpage>1518</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10518-016-9892-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-heritage-04-00014">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Betti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Borghini</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ciavattone</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative seismic risk assessment of basilica-type churches</article-title>
+          <source>J. Earthq. Eng.</source>
+          <year>2018</year>
+          <pub-id pub-id-type="doi">10.1080/13632469.2017.1309602</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-heritage-04-00014">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dall&#x2019;Asta</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Leoni</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Meschini</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Petrucci</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zona</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Integrated approach for seismic vulnerability analysis of historic massive defensive structures</article-title>
+          <source>J. Cult. Herit.</source>
+          <year>2019</year>
+          <volume>35</volume>
+          <fpage>86</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.culher.2018.07.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-heritage-04-00014">
+        <label>24.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haddad</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cattari</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lagomarsino</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sensitivity and preliminary analyses for the seismic assessment of Ardinghelli Palace: An interdisciplinary approach</article-title>
+          <source>Structural Analysis of Historical Constructions</source>
+          <publisher-name>Springer International Publishing</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2019</year>
+          <fpage>2412</fpage>
+          <lpage>2421</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-99441-3_259</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-heritage-04-00014">
+        <label>25.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turnsek</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Sheppard</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shear and flexural resistance of masonry walls</article-title>
+          <source>Proceedings of the International Research Conference on Earthquake Engineering</source>
+          <conf-date>30 June&#x2013;3 July 1980</conf-date>
+          <fpage>517</fpage>
+          <lpage>573</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B26-heritage-04-00014">
+        <label>26.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sheppard</surname>
+              <given-names>P.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>In-situ test of the shear strength and deformability of an 15th Century stone-and brick masonry wall</article-title>
+          <source>Proceedings of the 7th International Brick-Masonry Conference</source>
+          <conf-loc>Melobourne, Autralia</conf-loc>
+          <conf-date>17&#x2013;20 February 1985</conf-date>
+          <fpage>149</fpage>
+          <lpage>160</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B27-heritage-04-00014">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiostrini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>An experimental research program on the behavior of stone masonry structures</article-title>
+          <source>J. Test. Eval.</source>
+          <year>1992</year>
+          <volume>20</volume>
+          <fpage>190</fpage>
+          <lpage>206</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-heritage-04-00014">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiostrini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>In-situ determination of the strength properties of masonry walls by destructive shear and compression tests</article-title>
+          <source>Mason. Int</source>
+          <year>1993</year>
+          <volume>7</volume>
+          <fpage>87</fpage>
+          <lpage>96</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29-heritage-04-00014">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toma&#x17E;evi&#x10D;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lutman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Petkovi&#x107;</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic Behavior of Masonry Walls: Experimental Simulation</article-title>
+          <source>J. Struct. Eng.</source>
+          <year>1996</year>
+          <volume>122</volume>
+          <fpage>1040</fpage>
+          <lpage>1047</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)0733-9445(1996)122:9(1040)</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-heritage-04-00014">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Binda</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Saisi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tiraboschi</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation procedures for the diagnosis of historic masonries</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2000</year>
+          <volume>14</volume>
+          <fpage>199</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0950-0618(00)00018-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-heritage-04-00014">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiostrini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Galano</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>In situ shear and compression tests in ancient stone masonry walls of Tuscany, Italy</article-title>
+          <source>J. Test. Eval.</source>
+          <year>2003</year>
+          <volume>31</volume>
+          <fpage>289</fpage>
+          <lpage>303</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B32-heritage-04-00014">
+        <label>32.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Corradi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Speranzini</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Caratterizzazione meccanica di murature del XX secolo: Alcune sperimentazioni</article-title>
+          <source>Proceedings of the XIII Convegno Nazionale ANIDIS</source>
+          <conf-loc>Bologna, Italy</conf-loc>
+          <conf-date>28 June&#x2013;2 July 2009</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B33-heritage-04-00014">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Castori</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Corradi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Speranzini</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shear behavior of unreinforced and reinforced masonry panels subjected to in situ diagonal compression tests</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <fpage>4403</fpage>
+          <lpage>4414</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2011.01.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-heritage-04-00014">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Milosevic</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gago</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Lopes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bento</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental assessment of shear strength parameters on rubble stone masonry specimens</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2013</year>
+          <volume>47</volume>
+          <fpage>1372</fpage>
+          <lpage>1380</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2013.06.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-heritage-04-00014">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Castori</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Corradi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determination of shear strength of masonry panels through different tests</article-title>
+          <source>Int. J. Archit. Herit.</source>
+          <year>2015</year>
+          <volume>9</volume>
+          <fpage>913</fpage>
+          <lpage>927</lpage>
+          <pub-id pub-id-type="doi">10.1080/15583058.2013.804607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-heritage-04-00014">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vicente</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ferreira</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Mendes da Silva</surname>
+              <given-names>J.A.R.</given-names>
+            </name>
+            <name>
+              <surname>Varum</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>In situ flat-jack testing of traditional masonry walls: Case study of the old city center of Coimbra, Portugal</article-title>
+          <source>Int. J. Archit. Herit.</source>
+          <year>2015</year>
+          <volume>9</volume>
+          <fpage>794</fpage>
+          <lpage>810</lpage>
+          <pub-id pub-id-type="doi">10.1080/15583058.2013.855840</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-heritage-04-00014">
+        <label>37.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ferreira</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Vicente</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative analysis between Tuscan and Portuguese traditional masonries: Qualitative and mechanical characterisation</article-title>
+          <source>Proceedings of the 10th International Masonry Conference (10 IMC)</source>
+          <conf-loc>Milan, Italy</conf-loc>
+          <conf-date>9&#x2013;11 July 2018</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B38-heritage-04-00014">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Corradi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Castori</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>de Maria</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A method for the analysis and classification of historic masonry</article-title>
+          <source>Bull. Earthq. Eng.</source>
+          <year>2015</year>
+          <volume>13</volume>
+          <fpage>2647</fpage>
+          <lpage>2665</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10518-015-9731-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-heritage-04-00014">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>de Maria</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The masonry quality index after the 2019 Italian Guidelines</article-title>
+          <source>Structural</source>
+          <year>2019</year>
+          <volume>222</volume>
+          <fpage>1</fpage>
+          <lpage>21</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B40-heritage-04-00014">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Corradi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The failure of masonry walls by disaggregation and the masonry quality index</article-title>
+          <source>Heritage</source>
+          <year>2020</year>
+          <volume>3</volume>
+          <fpage>1162</fpage>
+          <lpage>1198</lpage>
+          <pub-id pub-id-type="doi">10.3390/heritage3040065</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-heritage-04-00014">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alecci</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Fagone</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rotunno</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>de Stefano</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shear strength of brick masonry walls assembled with different types of mortar</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2013</year>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2012.11.107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-heritage-04-00014">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andreini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>de Falco</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Giresini</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sassu</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical characterization of masonry walls with chaotic texture: Procedures and results of in-situ tests</article-title>
+          <source>Int. J. Archit. Herit.</source>
+          <year>2014</year>
+          <pub-id pub-id-type="doi">10.1080/15583058.2013.826302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-heritage-04-00014">
+        <label>43.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferrini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Melozzi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pagliazzi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Scarparo</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>Rilevamento della vulnerabilit&#xE0; sismica degli edifici in muratura. Manuale per la compilazione della Scheda GNDT/CNR di II livello-Versione modificata dalla Regione Toscana</source>
+          <publisher-name>Regione Toscana</publisher-name>
+          <publisher-loc>Toscana, Italy</publisher-loc>
+          <year>2003</year>
+          <comment>(in Italian)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B44-heritage-04-00014">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Binda</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Borri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cardani</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Doglioni</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Scheda qualit&#xE0; muraria: Relazione finale e linee guida per la compilazione della scheda di valutazione della qualit&#xE0; muraria</article-title>
+          <source>Rep. Progett. ReLUIS</source>
+          <year>2009</year>
+          <volume>2005&#x2013;2008</volume>
+        </element-citation>
+      </ref>
+      <ref id="B45-heritage-04-00014">
+        <label>45.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>ASTM E519/E519M-15</collab>
+          </person-group>
+          <source>Standard Test Method for Diagonal Tension (Shear) in Masonry Assemblages</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Coshohocken, PA, USA</publisher-loc>
+          <year>2015</year>
+          <pub-id pub-id-type="doi">10.1520/E0519_E0519M-15</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-heritage-04-00014">
+        <label>46.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>46.	RILEM TC. 76-LUM</collab>
+          </person-group>
+          <source>76-LUM. Diagonal Tensile Strength Tests of Small Wall Specimens</source>
+          <publisher-name>RILEM</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1994</year>
+          <fpage>488</fpage>
+          <lpage>489</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B47-heritage-04-00014">
+        <label>47.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>ReLUIS</collab>
+          </person-group>
+          <source>Linea di Ricerca 1-Valutazione e Riduzione Della Vulnerabilit&#xE0; di Edifici in Muratura-Sub Task 3b3-Indagini Diagnostiche su Tipologie Murarie</source>
+          <publisher-name>ReLUIS</publisher-name>
+          <publisher-loc>Naples, Italy</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B48-heritage-04-00014">
+        <label>48.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>ASTM C1197-14a</collab>
+          </person-group>
+          <source>Standard Test Method for In Situ Measurement of Masonry Deformability Properties Using the Flatjack Method</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Coshohocken, PA, USA</publisher-loc>
+          <year>2014</year>
+          <pub-id pub-id-type="doi">10.1520/C1197-14A</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-heritage-04-00014">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>RILEM TC 177</collab>
+          </person-group>
+          <article-title>Masonry durability and on-site testing-D.5: In-situ stress-strain behaviour tests based on the flat jack</article-title>
+          <source>Mater. Struct.</source>
+          <year>2004</year>
+          <volume>37</volume>
+          <fpage>497</fpage>
+          <lpage>501</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B50-heritage-04-00014">
+        <label>50.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>UNI EN 772-1</collab>
+          </person-group>
+          <source>Metodi di Prova Per Elementi Per Muratura - Parte 1: Determinazione Della Resistenza a Compressione</source>
+          <publisher-name>UNI</publisher-name>
+          <publisher-loc>Milan, Italy</publisher-loc>
+          <year>2015</year>
+          <comment>(in Italian)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B51-heritage-04-00014">
+        <label>51.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Del Monte</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>In situ mechanical characterization of the mortar in masonry buildings with DRMS</article-title>
+          <source>SACoMaTiS 2008-RILEM Symposium on Site Assessment of Concrete, Masonry and Timber Structures</source>
+          <publisher-name>RILEM</publisher-name>
+          <publisher-loc>Paris, France</publisher-loc>
+          <year>2008</year>
+          <fpage>421</fpage>
+          <lpage>430</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B52-heritage-04-00014">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Del Monte</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Boschi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vignoli</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of compression strength of ancient mortars through in situ drilling resistance technique</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2020</year>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2019.117563</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="heritage-04-00014-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Tuscany Masonry Database contents.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g001.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Data source of tests.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g002.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Distribution of tests: (<bold>a</bold>) type; (<bold>b</bold>) location.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g003.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Classification of the buildings: (<bold>a</bold>) destination use; (<bold>b</bold>) age of construction.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g004.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Classification of tested panels according to the Italian masonry categories (Table C.8.5.I [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g005.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Examples of tested masonry types: (<bold>a</bold>) Cat. I; (<bold>b</bold>) Cat. II; (<bold>c</bold>) Cat. III; (<bold>d</bold>) Cat. IVb; (<bold>e</bold>) Cat. VI; (<bold>f</bold>) Cat. VII.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g006.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Examples of non-classifiable masonry (NC): (<bold>a</bold>) circular hollow brick blocks (&#x201C;occhialoni&#x201D;); (<bold>b</bold>) rectangular hollow brick blocks (&#x201C;foratoni&#x201D;); (<bold>c</bold>) hand-made concrete blocks (&#x201C;masselli&#x201D;).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g007.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Tuscany Masonry Database structure.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g008.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>&#x201C;Home Page&#x201D; screen.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g009.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Masonry Quality Form (MQF), Section one.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g010.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>MQF, Section two: (<bold>a</bold>) wall weaving; (<bold>b</bold>) wall material characterization.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g011.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>MQF, Section three.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g012.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>Website research scheme.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g013.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>&#x201C;Search results&#x201D; screen.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g014.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>Masonry type VI, not ordinary buildings&#x2014;ID panels: (<bold>a</bold>) 070; (<bold>b</bold>) 071; (<bold>c</bold>) 072; (<bold>d</bold>) 120.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g015.tif"/>
+      </fig>
+      <fig id="heritage-04-00014-f016" position="float">
+        <label>Figure 16</label>
+        <caption>
+          <p>Masonry type III-1, ordinary public buildings&#x2014;ID panels: (<bold>a</bold>) 064; (<bold>b</bold>) 075; (<bold>c</bold>) 076; (<bold>d</bold>) 077; (<bold>e</bold>) 090; (<bold>f</bold>) 092.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="heritage-04-00014-g016.tif"/>
+      </fig>
+      <table-wrap id="heritage-04-00014-t001" position="float">
+        <object-id pub-id-type="pii">heritage-04-00014-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Mechanical parameters of existing Italian masonry categories (Table C8.5.I [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Masonry Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cat.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">f<sub>m</sub> N/mm<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3C4;<sub>0</sub> N/mm<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">f<sub>V0</sub> N/mm<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E N/mm<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">G N/mm<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">w N/mm<sup>3</sup></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Disorganized irregular stone</td>
+              <td align="center" valign="middle">
+                <bold>I</bold>
+              </td>
+              <td align="center" valign="middle">1.0<break/>2.0</td>
+              <td align="center" valign="middle">0.018<break/>0.032</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">690<break/>1050</td>
+              <td align="center" valign="middle">230<break/>350</td>
+              <td align="center" valign="middle">19</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Barely cut stone with leaves of uneven thickness</td>
+              <td align="center" valign="middle">
+                <bold>II</bold>
+              </td>
+              <td align="center" valign="middle">2.0</td>
+              <td align="center" valign="middle">0.035<break/>0.051</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1020<break/>1440</td>
+              <td align="center" valign="middle">340<break/>480</td>
+              <td align="center" valign="middle">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Roughly cut stone with good texture</td>
+              <td align="center" valign="middle">
+                <bold>III</bold>
+              </td>
+              <td align="center" valign="middle">2.6<break/>3.8</td>
+              <td align="center" valign="middle">0.056<break/>0.074</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1500<break/>1980</td>
+              <td align="center" valign="middle">500<break/>660</td>
+              <td align="center" valign="middle">21</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Irregular soft stone<break/>(tuff, limestone, etc.)</td>
+              <td align="center" valign="middle">
+                <bold>IVa</bold>
+              </td>
+              <td align="center" valign="middle">1.4<break/>2.2</td>
+              <td align="center" valign="middle">0.028<break/>0.042</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">900<break/>1260</td>
+              <td align="center" valign="middle">300<break/>420</td>
+              <td align="center" valign="middle">13&#x2013;16</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Ashlars of soft stone<break/>(tuff, limestone, etc.)</td>
+              <td align="center" valign="middle">
+                <bold>IVb</bold>
+              </td>
+              <td align="center" valign="middle">2.0<break/>3.2</td>
+              <td align="center" valign="middle">0.04<break/>0.08</td>
+              <td align="center" valign="middle">0.10<break/>0.19</td>
+              <td align="center" valign="middle">1200<break/>1620</td>
+              <td align="center" valign="middle">400<break/>500</td>
+              <td align="center" valign="middle">13&#x2013;16</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Stone square blocks</td>
+              <td align="center" valign="middle">
+                <bold>V</bold>
+              </td>
+              <td align="center" valign="middle">5.8<break/>8.2</td>
+              <td align="center" valign="middle">0.09<break/>0.12</td>
+              <td align="center" valign="middle">0.18<break/>0.28</td>
+              <td align="center" valign="middle">2400<break/>3300</td>
+              <td align="center" valign="middle">800<break/>1100</td>
+              <td align="center" valign="middle">22</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Bricks and lime mortar</td>
+              <td align="center" valign="middle">
+                <bold>VI</bold>
+              </td>
+              <td align="center" valign="middle">2.6<break/>4.3</td>
+              <td align="center" valign="middle">0.05<break/>0.13</td>
+              <td align="center" valign="middle">0.13<break/>0.27</td>
+              <td align="center" valign="middle">1200<break/>1800</td>
+              <td align="center" valign="middle">400<break/>600</td>
+              <td align="center" valign="middle">18</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hollow bricks with cementitious mortar (e.g., holes &lt;= 40%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>VII</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.0<break/>8.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.08<break/>0.17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.20<break/>0.36</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3500<break/>5600</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">875<break/>1400</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="heritage-04-00014-t002" position="float">
+        <object-id pub-id-type="pii">heritage-04-00014-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Correction coefficients of the mechanical parameters of <xref ref-type="table" rid="heritage-04-00014-t001">Table 1</xref> (Table C8.5.II [<xref ref-type="bibr" rid="B17-heritage-04-00014">17</xref>]).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">State of Fact</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Strengthening Interventions</th>
+              <th rowspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Maximum Overall<break/>Coefficient</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Code</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">1</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">3</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">4</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">6</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">7</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">8</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Cat.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Good Mortar</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Stringcourses or<break/>Edging</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Transversal<break/>Connections</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Injections</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Jacketing</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Reinforced Joints Sealing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">II</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">IVa</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">IVb</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">V</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">VI</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">VII</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="heritage-04-00014-t003" position="float">
+        <object-id pub-id-type="pii">heritage-04-00014-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Experimental tests.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Test</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reference Documents</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Derived Parameters</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Minimum Panel <break/>Dimensions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">DT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ASTM E 519-07 [<xref ref-type="bibr" rid="B45-heritage-04-00014">45</xref>]<break/>RILEM TC [<xref ref-type="bibr" rid="B46-heritage-04-00014">46</xref>]<break/>ReLUIS [<xref ref-type="bibr" rid="B47-heritage-04-00014">47</xref>]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x3C4;<sub>0</sub>, G</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">120 cm &#xD7; 120 cm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ReLUIS [<xref ref-type="bibr" rid="B47-heritage-04-00014">47</xref>]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">f<sub>c</sub>, E</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90 cm &#xD7; 180 cm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">FJT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ASTM C 1196-1197 [<xref ref-type="bibr" rid="B48-heritage-04-00014">48</xref>]<break/>RILEM TC [<xref ref-type="bibr" rid="B49-heritage-04-00014">49</xref>]<break/>ReLUIS [<xref ref-type="bibr" rid="B47-heritage-04-00014">47</xref>]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(f<sub>c</sub>) E</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100 cm &#xD7; 100 cm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C<sub>B</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">UNI EN 772-1 2015 [<xref ref-type="bibr" rid="B50-heritage-04-00014">50</xref>]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">f<sub>b</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">DRMS</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Procedure defined in [<xref ref-type="bibr" rid="B51-heritage-04-00014">51</xref>,<xref ref-type="bibr" rid="B52-heritage-04-00014">52</xref>]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">f<sub>cm</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100 cm &#xD7; 100 cm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">A<sub>M</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Macro and microscopic description of the mortar</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CAR</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Analysis of the wall section</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="heritage-04-00014-t004" position="float">
+        <object-id pub-id-type="pii">heritage-04-00014-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Results for FJT tests, masonry type VI, not ordinary buildings.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">ID Panel</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MQI <break/>Vertical Actions</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MQI <break/>Coplanar Actions</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">f [N/mm<sup>2</sup>]</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E [N/mm<sup>2</sup>]</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">070</td>
+              <td align="center" valign="middle">4.2</td>
+              <td align="center" valign="middle">5.525</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1240</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">071</td>
+              <td align="center" valign="middle">4.2</td>
+              <td align="center" valign="middle">5.525</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1767</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">072</td>
+              <td align="center" valign="middle">1.3</td>
+              <td align="center" valign="middle">0.55</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">832</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">120</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2051</td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" valign="middle">Average</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">1472.5</td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" valign="middle">Standard deviation</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">543.35</td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin">Variation coefficient</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">37%</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="heritage-04-00014-t005" position="float">
+        <object-id pub-id-type="pii">heritage-04-00014-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Results for FJT tests, masonry type III-1, Province of Florence, ordinary public buildings.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">ID Panel</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MQI <break/>Vertical Actions</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MQI <break/>Coplanar Actions</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">f [N/mm<sup>2</sup>]</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">E [N/mm<sup>2</sup>]</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">064</td>
+              <td align="center" valign="middle">3.5</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2700</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">075</td>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2573</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">076</td>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">2408</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">077</td>
+              <td align="center" valign="middle">5.5</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">1675</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">090</td>
+              <td align="center" valign="middle">3.5</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">2.08</td>
+              <td align="center" valign="middle">2442</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">092</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3117</td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" valign="middle">Average</td>
+              <td align="center" valign="middle">2.60</td>
+              <td align="center" valign="middle">2485.83</td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" valign="middle">Standard deviation</td>
+              <td align="center" valign="middle">0.74</td>
+              <td align="center" valign="middle">472.71</td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin">Variation coefficient</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19%</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

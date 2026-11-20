@@ -1,0 +1,17 @@
+[package]
+name = "ft-concrete-time-collector"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+anyhow = "1"
+calamine = "0.37"
+flate2 = "1"
+serde_json = { version = "1", features = ["float_roundtrip"] }
+sha2 = "0.10"
+tempfile = "3"
+
+[profile.dev]
+debug = 0
+incremental = false

@@ -27,7 +27,7 @@ Fagligt grundlag: BAMB beskriver reversible bygninger gennem tilpasning, genbrug
 
 ## Prøv et eksempel
 
-Byg fra denne checkout i `materialer/` og brug et allerede installeret datalager eller kør den normale `build` én gang. Eksemplerne fastholder den offentlige v0.3-dataudgave; et andet lager skal indeholde netop denne udgave. Kommandoerne her bruger standardlageret. Et eksisterende eksternt lager vælges med `--store STI`.
+Byg fra denne checkout i `materialer/` og brug et allerede installeret datalager eller kør den normale `build` én gang. Eksemplerne fastholder mekanikudgaven af de offentlige data fra 20. november 2026. Et andet lager skal indeholde samme udgave. Kommandoerne her bruger standardlageret. Et eksisterende eksternt lager vælges med `--store STI`.
 
 ```sh
 cargo build --locked

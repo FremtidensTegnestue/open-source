@@ -1,0 +1,10 @@
+new {"name":"Hylde med to stålskinner"}
+import_mesh {"path":"transfer.glb"}
+material {"name":"S235"}
+material {"name":"Krydsfiner, ubehandlet"}
+@rail_a = family {"name":"Rail_A"}
+family {"name":"Rail_A","form":{"id":"@rail_a.family.forms.0.id","material":"S235"}}
+@rail_b = family {"name":"Rail_B"}
+family {"name":"Rail_B","form":{"id":"@rail_b.family.forms.0.id","material":"S235"}}
+@shelf = family {"name":"Shelf"}
+family {"name":"Shelf","form":{"id":"@shelf.family.forms.0.id","material":"Krydsfiner, ubehandlet"}}

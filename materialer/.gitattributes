@@ -13,3 +13,7 @@ src/catalog.rs text eol=lf
 src/catalog/*.rs text eol=lf
 data/supplements/field-sources/originals/** binary
 data/supplements/ens-varme/originals/** binary
+data/supplements/mechanics-*/originals/** binary
+examples/hyldekonsol/cad/*.sc binary
+examples/hyldekonsol/cad/*.solidcraft binary
+examples/hyldekonsol/cad/*.bimc binary

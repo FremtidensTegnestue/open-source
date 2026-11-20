@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">buildings</journal-id>
+      <journal-title-group>
+        <journal-title>Buildings</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Buildings</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Buildings</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2075-5309</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/buildings10030057</article-id>
+      <article-id pub-id-type="publisher-id">buildings-10-00057</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>In-Plane Shear Resistance between the Rammed Earth Blocks with Simple Interventions: Experimentation and Finite Element Study</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9007-852X</contrib-id>
+          <name>
+            <surname>Shrestha</surname>
+            <given-names>Kshitij C.</given-names>
+          </name>
+          <xref rid="af1-buildings-10-00057" ref-type="aff">1</xref>
+          <xref rid="c1-buildings-10-00057" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aoki</surname>
+            <given-names>Takayoshi</given-names>
+          </name>
+          <xref rid="af1-buildings-10-00057" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miyamoto</surname>
+            <given-names>Mitsuhiro</given-names>
+          </name>
+          <xref rid="af2-buildings-10-00057" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wangmo</surname>
+            <given-names>Phuntsho</given-names>
+          </name>
+          <xref rid="af3-buildings-10-00057" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0894-2786</contrib-id>
+          <name>
+            <surname>Pema</surname>
+            <given-names/>
+          </name>
+          <xref rid="af3-buildings-10-00057" ref-type="aff">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-buildings-10-00057"><label>1</label>Graduate School of Design and Architecture, Nagoya City University, Nagoya 464-0083, Japan; <email>aoki@sda.nagoya-cu.ac.jp</email></aff>
+      <aff id="af2-buildings-10-00057"><label>2</label>Faculty of Engineering and Design, Kagawa University, Takamatsu 761-0396, Japan; <email>miyamoto@eng.kagawa-u.ac.jp</email></aff>
+      <aff id="af3-buildings-10-00057"><label>3</label>Department of Culture, Ministry of Home and Cultural Affairs, Thimphu 133, Bhutan; <email>pwangmo@mohca.gov.bt</email> (P.W.); <email>pema_engineer@mohca.gov.bt</email> (P.)</aff>
+      <author-notes>
+        <corresp id="c1-buildings-10-00057"><label>*</label>Correspondence: <email>kshitij@sda.nagoya-cu.ac.jp</email>; Tel.: +81-52-721-3157</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>03</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>3</issue>
+      <elocation-id>57</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>02</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>03</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2020 by the authors.</copyright-statement>
+        <copyright-year>2020</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The paper presents experimental and numerical works to assess the in-plane shear characteristics of rammed earth (RE) structures in Bhutan. The material characterization works involve compressive and tensile splitting strength tests on extracted cylindrical core samples. The effects of the RE layer thickness and drying period in the strength characteristics of the rammed earth is presented. The main experimental part reports in-plane shear tests on 3 test specimens, 1200 mm long, 1200 mm high, and 600 mm wide. The test matrix has unreinforced and reinforced specimens with variable RE layer thicknesses. For the reinforced RE specimen, the effectiveness of a simple intervention with insertion of reinforced concrete dowel at the RE block interface as a strengthening measure is discussed. Furthermore, corresponding finite element models were developed to verify the test observations. Both the experimental observations and numerical computations showed the effectiveness of proposed intervention technique in enhancing the shear strength and delaying the slip along the RE joint interface. The results showed that the shear strength of the reinforced specimen increased by 12.3% over the benchmark specimen.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>sustainable building</kwd>
+        <kwd>rammed earth</kwd>
+        <kwd>in-plane shear</kwd>
+        <kwd>finite element</kwd>
+        <kwd>strengthening</kwd>
+        <kwd>dowel</kwd>
+        <kwd>Bhutan</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-buildings-10-00057" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Rammed earth (RE) construction is an ancient building practice, which has been followed and passed on through generations in human infrastructure development. Generally, rammed earth construction process utilizes earth soil compacted between the formwork boards to form a homogeneous wall; these formworks are later removed leaving a compacted mass of soil rammed earth wall and cured to strengthen by drying. This construction practice has been found to be followed all over the world starting from China (2300&#x2013;1810 BC) based on the historical records and gradually spread throughout the Himalayan range (Ladakh, Mustang in Nepal and Bhutan), Europe, North Africa, Middle East, Americas, and Australasia [<xref ref-type="bibr" rid="B1-buildings-10-00057">1</xref>]. Furthermore, the adoption of rammed earth construction around the globe and its popularity in certain region is largely dependent on easy availability of suitable earth soil, not predominantly clayey and also not excessively sandy. The material used is predominantly earth sub-soil, where top-soil is generally unsuitable [<xref ref-type="bibr" rid="B2-buildings-10-00057">2</xref>]. </p>
+      <p>The construction technique, though traditional, has been used extensively even at the present day [<xref ref-type="bibr" rid="B3-buildings-10-00057">3</xref>,<xref ref-type="bibr" rid="B4-buildings-10-00057">4</xref>]. Bhutan, for example, has its 66% of household living in such traditional buildings, comprising rammed earth (Western part of Bhutan) and stone masonry in mud mortar (Eastern part). The rammed earth structures are, however, found vulnerable to seismic forces due to their heavy weight, low strength and brittle behavior [<xref ref-type="bibr" rid="B5-buildings-10-00057">5</xref>,<xref ref-type="bibr" rid="B6-buildings-10-00057">6</xref>,<xref ref-type="bibr" rid="B7-buildings-10-00057">7</xref>]. The earthquake of magnitude M6.9 which occurred in September 18, 2011 near Nepal&#x2013;India border destroyed remarkable numbers (around 26% as total collapse) of rammed earth structures in Bhutan. A similar case in China showed over 30,600 house collapses as a result of the M5.7 Yiliang Earthquake in September 2012 in Yunnan Province, China [<xref ref-type="bibr" rid="B8-buildings-10-00057">8</xref>]. Another earthquake hit the same province in 2014 (Ludan earthquake M6.5), where more than 66,400 houses experienced severe damage and 90% of affected houses were rammed earth structures [<xref ref-type="bibr" rid="B5-buildings-10-00057">5</xref>]. As per UNESCO [<xref ref-type="bibr" rid="B9-buildings-10-00057">9</xref>], 10% of World Heritage properties are earthen architectural sites and one-fourth of sites included in the World Heritage List of sites in Danger are earthen sites [<xref ref-type="bibr" rid="B10-buildings-10-00057">10</xref>]. To maintain these heritage structures and rural homes, it is critical to understand scientific knowledge on rammed earth structure to assess appropriate renovations [<xref ref-type="bibr" rid="B11-buildings-10-00057">11</xref>].</p>
+      <p>The vulnerabilities associated with rammed earth structures are evident from above events and few studies have already been carried out to address the possible strengthening measures by using flax&#x2013;fiber reinforcement [<xref ref-type="bibr" rid="B12-buildings-10-00057">12</xref>], polyester fabric strips [<xref ref-type="bibr" rid="B13-buildings-10-00057">13</xref>] and jute fabric [<xref ref-type="bibr" rid="B14-buildings-10-00057">14</xref>], cement mortar&#x2013;steel fiber reinforcement [<xref ref-type="bibr" rid="B15-buildings-10-00057">15</xref>], and canvas/tarpaulin [<xref ref-type="bibr" rid="B5-buildings-10-00057">5</xref>]. Embedded reinforcements within the rammed earth wall, with post-tensioned vertical rebar [<xref ref-type="bibr" rid="B16-buildings-10-00057">16</xref>] and reinforced concrete column [<xref ref-type="bibr" rid="B17-buildings-10-00057">17</xref>], are also proposed. Authors [<xref ref-type="bibr" rid="B18-buildings-10-00057">18</xref>,<xref ref-type="bibr" rid="B19-buildings-10-00057">19</xref>] recently did some work to see the effectiveness of simple intervention techniques with insertion of dowels and wedges between the RE blocks in resisting the out-of-plane collapse of rammed earth walls. The present work is an extension of the previous work [<xref ref-type="bibr" rid="B18-buildings-10-00057">18</xref>,<xref ref-type="bibr" rid="B19-buildings-10-00057">19</xref>] with element tests done to understand the in-plane shear characteristics of the rammed earth wall and subsequent enhancement in strength with the use of reinforced concrete dowel within the RE block interface. The present work also tries to analyze the effect of RE layer thickness (60&#x2013;120 mm prevalent to the Bhutanese practice) on the strength characteristics of the RE itself at varying drying periods. This was primarily done to assess variability found in practice regarding the RE layer thickness. </p>
+      <p>Therefore, the objectives of the present work are two-fold: first understand the effect of RE layer thickness on strength characteristics of the RE and second analyze the shear strength characteristics of RE block interface. To achieve these objectives, material characterization tests and element shear tests have been conducted to see the efficacy of a simple strengthening method, where a reinforced concrete dowel is inserted at the RE block interface. The experimental observations are also verified through detailed 3D finite element (FE) models.</p>
+    </sec>
+    <sec id="sec2-buildings-10-00057">
+      <title>2. Specimen and Materials </title>
+      <sec id="sec2dot1-buildings-10-00057">
+        <title>2.1. Specimen</title>
+        <p><xref ref-type="fig" rid="buildings-10-00057-f001">Figure 1</xref> illustrates the step by step construction procedures of the rammed earth specimens, 1200 mm long, 1200 mm high, and 600 mm wide. The specimens were prepared by the local craftsmen having experience in constructing the rammed earth buildings. Enough quantity of soil was excavated from the nearby site and stocked near the construction site. Prior to the usage, the earth soil was moistened with adequate water until it formed a lump while grasping in hand. Subsequently, a formwork was being fixed to the required dimensions as shown in <xref ref-type="fig" rid="buildings-10-00057-f001">Figure 1</xref>a. It should be noted that, in Bhutan, the rammed earth layer thickness varies from one building to another. The present work has considered <italic>&#x201C;RE layer thickness&#x201D;</italic> as one of the parameters and will discuss its effect in the mechanical properties of RE. The two different layer thicknesses (120 mm and 60 mm) chosen for the present work is as per the prevailing thickness of Bhutanese rammed earth buildings. The soil was then poured inside the formwork till the measured height depending on its layer thickness, 240 mm for 120 mm thick layered RE and 120 mm for 60 mm layered RE; a 50% compaction achieved in both the cases. The ramming process as shown in <xref ref-type="fig" rid="buildings-10-00057-f001">Figure 1</xref>b was continued till the desired thickness. The process was repeated until one block was completed, 5 layers for 120 mm thickness layered RE and 10 layers for 60 mm layered RE. The completed RE block is kept for at least a day to dry before ramming the new layer of the next block. In case of the reinforced specimen, a rectangular hole of size 100 mm x 80 mm and 120 mm deep was cut from the top of the first RE block to place the reinforced concrete (RC) dowel (<xref ref-type="fig" rid="buildings-10-00057-f001">Figure 1</xref>c,e) prior to ramming the next block. The RC dowel is then rammed together with the upper block. The RC dowel has a 16 mm diameter and 180 mm long reinforcing bar inside. The same process is being followed to manufacture one complete specimen with two RE blocks. The specimens&#x2019; construction started from 30th July and was completed on 10th August, 2017. The test matrix involves three different types of specimens: (i) Unreinforced RE with 120 mm layer thickness (TEST&#x2013;U120), (ii) Reinforced RE with 120 mm layer thickness (TEST&#x2013;R120), and (iii) Reinforced RE with 60mm layer thickness (TEST&#x2013;R60). <xref ref-type="fig" rid="buildings-10-00057-f002">Figure 2</xref> shows the schematic drawings for the specimen TEST&#x2013;R120 and TEST&#x2013;R60. The unreinforced TEST&#x2013;U120 specimen is same as TEST&#x2013;R120 except for the precast RC dowel element. The shear tests on all the specimens were done after a drying period of around one month.</p>
+      </sec>
+      <sec id="sec2dot2-buildings-10-00057">
+        <title>2.2. Material</title>
+        <p>The rammed earth (RE) material used was from the excavated earth soil from the local nearby site. The soil was reddish&#x2013;yellow clay with small pebbles. The grain size distribution of the RE has a particle size range of 0&#x2013;10 mm as illustrated in <xref ref-type="fig" rid="buildings-10-00057-f003">Figure 3</xref>. The particle size distribution test method follows JIS A 1204 [<xref ref-type="bibr" rid="B20-buildings-10-00057">20</xref>], where sieve analysis was done for particle size of 0.075 mm or more and sedimentation analysis for size less than 0.075 mm. A total of eighteen RE cylindrical core samples, 92&#x2013;96 mm in diameter and 163&#x2013;200 mm length, were extracted from the test specimens using core drilling machine with diamond core bits for dry core drilling to evaluate the compressive strength [<xref ref-type="bibr" rid="B21-buildings-10-00057">21</xref>] and splitting tensile strength [<xref ref-type="bibr" rid="B22-buildings-10-00057">22</xref>].</p>
+        <p><xref ref-type="fig" rid="buildings-10-00057-f004">Figure 4</xref> shows the test set&#x2013;up for the material characterization tests. Load cell (KCM&#x2013;20kNA) was used to record both compression and tension load and four displacement transducers (CDP&#x2013;10MT) were fixed at four corners to measure the displacement. The test matrix for the material characterization tests involved two parameters, first rammed earth type based on two rammed earth layer thicknesses and second the drying time. <xref ref-type="table" rid="buildings-10-00057-t001">Table 1</xref> shows the results of the material characterization tests performed on the specimens. For 120 mm RE layer thickness, the average cylinder compressive strength was 0.5 MPa at 1 month drying and 1.15 MPa at 6 months drying. Similarly, this was 0.56 MPa at 1 month drying and 1.18 MPa at 6 months drying for 60 mm RE layer. There is around 120% increment in compressive strength on average with the sample dried between 1 month and 6 months. The RE layer of 60 mm thickness has slightly higher strength characteristics compared to 120 mm thickness. The average splitting tensile strengths were 0.06 MPa and 0.11 MPa for the RE layer of 120 mm and 60 mm, respectively, at a one month drying period. <xref ref-type="fig" rid="buildings-10-00057-f005">Figure 5</xref> shows typical stress&#x2013;strain curves for the RE under compression at 6 months drying. It should be noted that the strain values shown in <xref ref-type="fig" rid="buildings-10-00057-f005">Figure 5</xref> could possibly be overestimated due to the linear displacement measurements within the specimen height. As a result, the elastic modulus reported in <xref ref-type="table" rid="buildings-10-00057-t001">Table 1</xref> may be less than the actual values.</p>
+        <p>From the material characterization tests, it may be concluded that there is minimal increment in strength characteristics with change in the RE layer thickness from 120 mm to 60 mm. The strength characteristics of RE improves considerably with the drying time. However, the strength difference between the 120 mm layered RE and 60 mm layered RE becomes negligible with the longer drying time.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-buildings-10-00057">
+      <title>3. Test Set&#x2013;Up</title>
+      <p>The test set-up for in-plane shear test is illustrated in <xref ref-type="fig" rid="buildings-10-00057-f006">Figure 6</xref>. The wall was pulled in a horizontal direction with the help of chain block anchored to a steel anchor reaction frame. To apply uniform load on the wall, two planks were placed on two faces of the wall and were tied with nuts and bolts of 16mm diameter. Torsion wire rope was then inserted through the holes in planks to wrap the whole wall block. The load applied to the wall is recorded by a tension load cell (TLP&#x2013;200kNB) which is placed in between the connecting chain block and torsion wire wrapping the wall. The displacement transducers were placed at the back of the specimens as shown in <xref ref-type="fig" rid="buildings-10-00057-f006">Figure 6</xref> with their locations as illustrated in <xref ref-type="fig" rid="buildings-10-00057-f002">Figure 2</xref>. The data acquisition of the measurements was performed at a frequency of 100 Hz. </p>
+    </sec>
+    <sec id="sec4-buildings-10-00057">
+      <title>4. Finite Element Modeling</title>
+      <p>A 3D finite element (FE) model was generated and analyzed using the DIANA10.2 FE program [<xref ref-type="bibr" rid="B23-buildings-10-00057">23</xref>]. Both the unreinforced and the reinforced RE models were developed. The major FE elements involved the rammed earth blocks, the RC dowel, and the interface joint [<xref ref-type="bibr" rid="B24-buildings-10-00057">24</xref>,<xref ref-type="bibr" rid="B25-buildings-10-00057">25</xref>,<xref ref-type="bibr" rid="B26-buildings-10-00057">26</xref>] between the rammed earth blocks. The interfaces between the RE layers were not taken in to account.</p>
+      <sec id="sec4dot1-buildings-10-00057">
+        <title>4.1. Rammed Earth Block</title>
+        <p>The FE model used the eight-node isoparametric solid brick elements HX24L to model the rammed earth block as a homogeneous continuum element. The adopted constitutive model for rammed earth block was a total strain based rotating crack model to describe both the tensile and the compressive behavior of the rammed earth with one stress&#x2013;strain relation. The compressive strength characteristic of the wall was assumed to be parabolic and the fracture energy based exponential softening was assumed. The compressive fracture energy, <italic>G</italic><sub>c</sub> was assumed as 1.5 <italic>f</italic><sub>c</sub> and mode-I tensile fracture energy, <italic>G</italic><sub>f</sub><sup>I</sup> as 0.1 <italic>f</italic><sub>t</sub>. The adopted constitutive models are consistent with previous works [<xref ref-type="bibr" rid="B27-buildings-10-00057">27</xref>,<xref ref-type="bibr" rid="B28-buildings-10-00057">28</xref>]. The material constants in <xref ref-type="table" rid="buildings-10-00057-t002">Table 2</xref> were obtained through compressive tests and splitting tensile tests on cylindrical core samples as reported in <xref ref-type="table" rid="buildings-10-00057-t001">Table 1</xref>.</p>
+      </sec>
+      <sec id="sec4dot2-buildings-10-00057">
+        <title>4.2. Reinforced Concrete Dowel</title>
+        <p>The eight-node isoparametric solid brick elements HX24L was used to model the reinforced concrete dowel. The location of the RC dowel is as shown in <xref ref-type="fig" rid="buildings-10-00057-f002">Figure 2</xref> at the center, half inserted in each RE block. The following material parameters were assumed for concrete: the compressive strength of 20 MPa, the elastic modulus of 22000 MPa, and the tensile strength of 1.6 MPa. The rebar was represented by regular embedded reinforcement element and perfect bond assumed with the concrete element. The adopted material parameter for the rebar was assumed with the yield stress of 400 MPa and Young&#x2019;s modulus of 210 GPa.</p>
+      </sec>
+      <sec id="sec4dot3-buildings-10-00057">
+        <title>4.3. Rammed Earth Block Interface</title>
+        <p>The three-dimensional plane interface elements Q24IF was used to model the rammed earth block interface. The constitutive model adopted was nonlinear Coulomb friction model with tension cut-off. Here, a gap arises if the tensile traction normal to the interface exceeds the interface tensile strength, <italic>f</italic><sub>ti</sub>. Further, slip occurs if the traction parallel to the interface exceeds the shear strength contributed by the cohesion, <italic>c</italic> and the frictional resistance, tan<italic>&#x3D5;</italic>. The material constants in <xref ref-type="table" rid="buildings-10-00057-t002">Table 2</xref> are assumed where (i) the gap tensile strength of the interface <italic>f</italic><sub>ti</sub> is 0.004 MPa less than 10% of the rammed earth tensile strength <italic>f</italic><sub>t</sub>, (ii) cohesion is twice the gap tensile strength, (iii) friction angle is 0.8. Since no material tests were done to characterize the RE block interface, the interface characteristics and material constants are based on authors&#x2019; previous works [<xref ref-type="bibr" rid="B27-buildings-10-00057">27</xref>] and some calibration and matching with the test results. Furthermore, there is also limitation in experimentation with limited availability of instrumentation for material tests to understand the interface characteristics and material constants in Bhutan.</p>
+        <p>The adopted mesh size was 60 mm. The displacement-controlled loading was applied at the level of 720 mm from the bottom with a multi-point tying at the level of loading with the loaded point as a master node. The boundary constraints provided do not allow the movement of the bottom RE block in horizontal direction</p>
+      </sec>
+    </sec>
+    <sec id="sec5-buildings-10-00057" sec-type="results">
+      <title>5. Results and Discussion</title>
+      <sec id="sec5dot1-buildings-10-00057">
+        <title>5.1. Shear Test Results</title>
+        <p><xref ref-type="fig" rid="buildings-10-00057-f007">Figure 7</xref>a shows the load&#x2013;shear displacement profiles for the tested specimens. A mean of the two transducers at the top level (<xref ref-type="fig" rid="buildings-10-00057-f006">Figure 6</xref>) is taken for the shear displacement plot. The maximum shear load recorded was 13.55 kN for unreinforced specimen TEST&#x2013;U120, 17.57 kN for reinforced specimen TEST&#x2013;R120, and 19.73 kN for TEST&#x2013;R60. The shear strength observed for the TEST&#x2013;U120 was 18.8 kPa which is around 4% of the average compressive strength of the RE block. This value is lower than the value recommended by Cheah et al. [<xref ref-type="bibr" rid="B29-buildings-10-00057">29</xref>] of 7% and El-Nabouch et al. [<xref ref-type="bibr" rid="B30-buildings-10-00057">30</xref>] of around 10%. However, it should be noted that the work of Cheah et al. [<xref ref-type="bibr" rid="B29-buildings-10-00057">29</xref>] involved triplet and triaxial shear test methods, where the failure planes were either the interface between the RE layers or the diagonal shear plane. Here, the test set-up of the present work allows the failure plane to occur along the weaker RE block interface. The enhancement in the load carrying capacity was around 29% for TEST&#x2013;R120 over TEST&#x2013;U120. This increment in the strength of around 4 kN was contributed by the presence of dowel in TEST&#x2013;R120. There is a slight increment in strength characteristics for TEST&#x2013;R60 over TEST&#x2013;R120. This is possibly contributed by slightly higher bulk density and strength characteristics of the 60 mm thick RE layer. This will be further evaluated theoretically and numerically in the following section.</p>
+        <p><xref ref-type="fig" rid="buildings-10-00057-f008">Figure 8</xref> shows the failure modes and crack patterns for all the specimens tested in shear. The upper rammed earth block of specimen TEST&#x2013;U120 glided along the horizontal crack formed between the interface of two rammed earth block during the application of pull-down load. For the reinforced specimens, TEST&#x2013;R120 and TEST&#x2013;R60, similar sliding of an upper block was observed. In general, the specimens tested in shear showed the similar cracking mechanism, where sliding failure was observed along the interface between the two RE blocks.</p>
+        <p>It should be noted that increase in the number of embedded RC dowel will result in enhancement of the load bearing capability. Higher number of dowels can also change the mode of failure from bearing failure of rammed earth to uplifting/rocking at the RE joint. However, increasing the number of RC dowels within a rammed earth block is not an alternative the authors are looking for, since multiple numbers of dowels (more than two) within a single block may adversely affect the ramming process of the RE itself. In a different scenario, failure in RC dowel may also happen when the concrete material strength of the dowel is very low compared to the rammed earth, but possibility of such event would be rare in the present strengthening scheme.</p>
+      </sec>
+      <sec id="sec5dot2-buildings-10-00057">
+        <title>5.2. Theoretical Formulation</title>
+        <p>For reference, a classical shear strength formulation is presented to assume the strength of the tested specimens as given below:<disp-formula><italic>F</italic><sub>th</sub>=<italic>F</italic><sub>s</sub>+<italic>F</italic><sub>dow</sub>,<label>(1)</label></disp-formula></p>
+        <p>In Equation (1), <italic>F</italic><sub>s</sub> is the shear strength of the unreinforced rammed earth block interface given by, <italic>F</italic><sub>s</sub> = (<italic>c</italic> + <italic>f</italic><sub>n</sub> tan<italic>&#x3D5;</italic>)<italic>A</italic><sub>block</sub>, where <italic>c</italic> is the cohesion of the interface, <italic>f</italic><sub>n</sub> is the normal stress at the interface (based on mass density and geometry), tan<italic>&#x3D5;</italic> is the friction coefficient, and <italic>A</italic><sub>block</sub> is the RE block cross-sectional area (1200 mm &#xD7; 600 mm).</p>
+        <p><italic>F</italic><sub>dow</sub> is the resistance offered by the dowel at the RE block interface given by, <italic>F</italic><sub>dow</sub> = (<italic>f</italic><sub>bear</sub> <italic>A</italic><sub>bear</sub>), where <italic>f</italic><sub>bear</sub> is the bearing resistance of the rammed earth in compression (<italic>f</italic><sub>c</sub>) and <italic>A</italic><sub>bear</sub> is the cross-sectional bearing area of the rammed earth with dowel (120 mm &#xD7; 80 mm).</p>
+        <p><xref ref-type="fig" rid="buildings-10-00057-f007">Figure 7</xref>a shows the comparison of values experimentally observed (<italic>F</italic><sub>test</sub>) and theoretically computed (<italic>F</italic><sub>th</sub>) using Equation (1) in dotted lines. Here, the values of the material constants for Equation (1) are based on the values listed in <xref ref-type="table" rid="buildings-10-00057-t002">Table 2</xref>. The theoretically computed values based on classical formulation agree well with slight underestimation compared to the experimental observations. Furthermore, the computed value of <italic>F</italic><sub>dow</sub> for R120 specimen is 4.8 kN which approves with the increment in strength of 4 kN observed experimentally.</p>
+      </sec>
+      <sec id="sec5dot3-buildings-10-00057">
+        <title>5.3. FE Simulation Results</title>
+        <p><xref ref-type="fig" rid="buildings-10-00057-f007">Figure 7</xref>b shows the comparison of load displacement curves made between the experimental and FE simulation. The FE results are in good agreement with the test results in predicting the ultimate shear resistance, however, there are some discrepancies over relatively higher initial stiffnesses. The peak shear forces computed numerically are 12.7 kN for FE&#x2013;U120, 17.5 kN for FE&#x2013;R120, and 18.6 kN for FE&#x2013;R60. The response of the unreinforced model is simple, where the RE block showed almost linear increment in strength until the slip along the interface initiates. Once the slip occurs, no further increment in strength is observed with constant shear strength. <xref ref-type="fig" rid="buildings-10-00057-f009">Figure 9</xref>a shows the deformed shape for the FE&#x2013;U120 where slip along the RE block interface is clearly seen.</p>
+        <p>For the reinforced FE model, the presence of dowel enhances the strength characteristics. Here, there is increment in strength until the RE element around the dowel reaches the bearing strength, given by the compressive strength of the RE. It should be noted that there is some discrepancy for the stiffness characteristics between test and FE results, where the FE results showed comparatively stiff response for the reinforced models. This is possibly due to the absence of interface elements between the RC dowel and the RE block. Such overestimation of wall&#x2019;s stiffness was also reported in FE work of Miccoli et al. [<xref ref-type="bibr" rid="B31-buildings-10-00057">31</xref>]. Nevertheless, the FE model effectively represents the slip along the RE block interface (<xref ref-type="fig" rid="buildings-10-00057-f009">Figure 9</xref>b) and the stress concentration region around the RC dowel as shown in <xref ref-type="fig" rid="buildings-10-00057-f010">Figure 10</xref>. The stresses around the RC dowel keeps on increasing with the increased shear displacement. Once the stress reaches the bearing stress of the RE taken as the compressive strength, the strength no longer rises and has gradual drop.</p>
+        <p>To further understand the shear behavior characteristics of the unreinforced rammed earth wall, the sensitivity analysis is done on four primary parameters of the interface joint. The variation range is decided based on some parametric study to properly identify the changes in shear load displacement plots and some previous works [<xref ref-type="bibr" rid="B26-buildings-10-00057">26</xref>]. The lists of parameters, their variation and corresponding FE&#x2013;IDs are detailed in <xref ref-type="table" rid="buildings-10-00057-t003">Table 3</xref>. The influence of each parameter is quantified based on the maximum shear force and the changes in the force&#x2013;displacement plots. The parametric study was compared with the reference FE model, FE&#x2013;Reference, reported in the preceding section with material properties based on <xref ref-type="table" rid="buildings-10-00057-t002">Table 2</xref>.</p>
+        <p><xref ref-type="fig" rid="buildings-10-00057-f011">Figure 11</xref> shows the shear force versus the shear displacement plots for the parametric study performed. The effect of the change in stiffness characteristics as shown in <xref ref-type="fig" rid="buildings-10-00057-f011">Figure 11</xref>a showed no change to the ultimate shear strength of the wall. The only difference seen is on the initial stiffness of the models, where the initiation of slip starts early for stiff interface properties. The cohesion of the RE joint interface plays an important role, where changes in the value of cohesion result in subsequent change to the strength parameters (<xref ref-type="fig" rid="buildings-10-00057-f011">Figure 11</xref>b). The gap tensile strength of the interface shows no effect on the shear strength characteristics, either pre- or post- shear slip phases (<xref ref-type="fig" rid="buildings-10-00057-f011">Figure 11</xref>c). Understandably, the change in the coefficient of friction has strong effect on the shear strength characteristics of the wall as illustrated in <xref ref-type="fig" rid="buildings-10-00057-f011">Figure 11</xref>d. Similar observations were reported by Miccoli et al. [<xref ref-type="bibr" rid="B32-buildings-10-00057">32</xref>], where cohesion and friction angle are critical parameters for shear behavior in RE walls.</p>
+      </sec>
+    </sec>
+    <sec id="sec6-buildings-10-00057" sec-type="conclusions">
+      <title>6. Conclusions</title>
+      <p>Experimental campaign with the material characterization and the in-plane shear tests has been presented in this paper. First, the material tests focus on compressive and tensile splitting strength tests on extracted cylindrical core samples with comparisons on two different types of RE, varying in the thickness of the RE layer. The second phase consists of in-plane shear tests to understand the shear strength characteristics of the RE block interfaces. Here, specimens with different RE layer thicknesses are tested and further, the effectiveness of a simple strengthening intervention providing RC dowel at the RE block interface is assessed. FE models are also developed to verify and understand the test observations. The following general conclusions can be drawn from the presented works:<list list-type="bullet"><list-item><p>A slight increment, about 12%, in strength characteristics for RE blocks was observed when the layer thickness decreased from 120 mm to 60 mm at 1 month of drying. This increment was reduced to about 2.6% for 6 months&#x2019; dried specimen.</p></list-item><list-item><p>The specimens gained strength with drying. There was about 120% increment in compressive strength for specimen after 6 months of drying over the one dried for 1 month.</p></list-item><list-item><p>An enhancement in the load carrying capacity of around 29% for reinforced TEST&#x2013;R120 over unreinforced TEST&#x2013;U120 was observed. There was about 12.3% increment in strength for TEST&#x2013;R60 over TEST&#x2013;R120 with the change in the RE layer thickness. A simple insertion of RC dowel at the RE block interface effectively delayed the initiation of slip along the interface joint and enhanced the shear strength characteristics.</p></list-item><list-item><p>The FE simulation predicted the test observations reasonably well for unreinforced as well as reinforced specimens. The sensitivity studies showed negligible effect of interfacial stiffness and tensile strength on shear strength characteristics. On the other hand, cohesion and friction angle properties of RE interface are critical parameters for shear behavior in RE walls.</p></list-item></list></p>
+      <p>The results show that drying period plays an important role in strength characteristics of RE walls. RC dowel insertion at the RE joint interface also effectively helps in enhancing the shear strength along the joint. It should be noted, however, that the current study is limited to small element tests to understand the shear strength characteristics of RE joint interfaces and this will be extended in authors&#x2019; future works with focus towards full-scale experimentations and realistic boundary conditions. </p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, K.C.S, T.A. and M.M.; methodology, K.C.S, T.A. and M.M.; software, K.C.S.; validation, K.C.S, T.A. and M.M.; formal analysis, K.C.S, T.A. and M.M.; investigation, K.C.S, T.A., M.M., P.W. and P.; resources, K.C.S, T.A., M.M., P.W. and P.; data curation, K.C.S, T.A., M.M., P.W. and P.; writing&#x2014;original draft preparation, K.C.S; writing&#x2014;review and editing, K.C.S, T.A., M.M., P.W. and P.; visualization, K.C.S, T.A. and M.M.; supervision, T.A.; project administration, K.C.S, T.A., M.M., P.W. and P.; funding acquisition, T.A. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by the JST/JICA, SATREPS (Science and Technology Research Partnership for Sustainable Development) project (Grant No. JPMJSA1611).</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would also like to acknowledge the technical assistance of Engineer Kunzang and Technician Lhendup from Department of Culture, Ministry of Home and Cultural Affairs, The Royal Government of Bhutan, in undertaking the experimental works.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-buildings-10-00057">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jaquin</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Augarde</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Gerrard</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chronological description of the spatial development of rammed earth techniques</article-title>
+          <source>Int. J. Arch. Herit.</source>
+          <year>2008</year>
+          <volume>2</volume>
+          <fpage>377</fpage>
+          <lpage>400</lpage>
+          <pub-id pub-id-type="doi">10.1080/15583050801958826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-buildings-10-00057">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hall</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Djerbib</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rammed earth sample production: Context, recommendations and consistency</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2004</year>
+          <volume>18</volume>
+          <fpage>281</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2003.11.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-buildings-10-00057">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hodson</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Innovations in rammed earth construction, Western Australia</article-title>
+          <source>Struct. Eng.</source>
+          <year>2006</year>
+          <volume>84</volume>
+          <fpage>30</fpage>
+          <lpage>36</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4-buildings-10-00057">
+        <label>4.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Keable</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Maniatidis</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <source>Rammed Earth: Design and Construction Guidelines</source>
+          <publisher-name>BRE Press</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B5-buildings-10-00057">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic retrofitting of rural rammed earth buildings using externally bonded fibers</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2015</year>
+          <volume>100</volume>
+          <fpage>91</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2015.09.048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-buildings-10-00057">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bui</surname>
+              <given-names>Q.B.</given-names>
+            </name>
+            <name>
+              <surname>Morel</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Reddy</surname>
+              <given-names>B.V.V.</given-names>
+            </name>
+            <name>
+              <surname>Ghayad</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Durability of rammed earth walls exposed for 20 years to natural weathering</article-title>
+          <source>Build. Environ.</source>
+          <year>2009</year>
+          <volume>44</volume>
+          <fpage>912</fpage>
+          <lpage>919</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.buildenv.2008.07.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-buildings-10-00057">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bui</surname>
+              <given-names>Q.B.</given-names>
+            </name>
+            <name>
+              <surname>Hans</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Morel</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Do</surname>
+              <given-names>A.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>First exploratory study on dynamic characteristics of rammed earth buildings</article-title>
+          <source>Eng. Struct.</source>
+          <year>2011</year>
+          <volume>33</volume>
+          <fpage>3690</fpage>
+          <lpage>3695</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2011.08.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-buildings-10-00057">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shaking table tests on seismic retrofitting of rammed&#x2013;earth structures</article-title>
+          <source>Bull. Earthq. Eng.</source>
+          <year>2016</year>
+          <volume>15</volume>
+          <fpage>1037</fpage>
+          <lpage>1055</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10518-016-9996-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-buildings-10-00057">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>UNESCO</collab>
+          </person-group>
+          <source>Report on Consultation Meeting on the Implementation of the World Heritage Earthen Architecture Programme (WHEAP) in the Arab States&#x2013;Strategies and Approaches</source>
+          <publisher-name>United Nations Educational, Scientific and Cultural Organization</publisher-name>
+          <publisher-loc>Paris, France</publisher-loc>
+          <year>2010</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://whc.unesco.org/document/107242" ext-link-type="uri">https://whc.unesco.org/document/107242</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2020-02-02">(accessed on 2 February 2020)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B10-buildings-10-00057">
+        <label>10.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>UNESCO</collab>
+          </person-group>
+          <article-title>World Heritage Inventory of Earthen Architecture</article-title>
+          <comment>World Heritage Earthen Architecture Programme, CRAterre&#x2013;ENSAG.</comment>
+          <year>2012</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://unesdoc.unesco.org/ark:/48223/pf0000217020" ext-link-type="uri">https://unesdoc.unesco.org/ark:/48223/pf0000217020</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2020-02-02">(accessed on 2 February 2020)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B11-buildings-10-00057">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bui</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Bui</surname>
+              <given-names>Q.B.</given-names>
+            </name>
+            <name>
+              <surname>Limam</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Maximilien</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Failure of rammed earth walls: From observations to quantifications</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2013</year>
+          <volume>51</volume>
+          <fpage>295</fpage>
+          <lpage>302</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2013.10.053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-buildings-10-00057">
+        <label>12.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheah</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Morgan</surname>
+              <given-names>T.K.K.B.</given-names>
+            </name>
+            <name>
+              <surname>Ingham</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic testing of a full&#x2013;size stablized, flax&#x2013;fibre reinforced earth (Uku) wall system with openings</article-title>
+          <source>Proceedings of the The 14th World Conference on Earthquake Engineering</source>
+          <conf-loc>Beijing, China</conf-loc>
+          <conf-date>12&#x2013;17 October 2008</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B13-buildings-10-00057">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miccoli</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Pospisil</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rammed earth walls strengthened with polyester fabric strips: Experimental analysis under in&#x2013;plane cyclic loading</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2017</year>
+          <volume>149</volume>
+          <fpage>29</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2017.05.115</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-buildings-10-00057">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fagone</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kloft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Loccarini</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ranocchiai</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Jute fabric as a reinforcement for rammed earth structures</article-title>
+          <source>Compos. Part B Eng.</source>
+          <year>2019</year>
+          <volume>175</volume>
+          <fpage>107064</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2019.107064</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-buildings-10-00057">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study of cement mortar&#x2013;steel fiber reinforced rammed earth wall</article-title>
+          <source>Sustainability</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>2630</fpage>
+          <lpage>2638</lpage>
+          <pub-id pub-id-type="doi">10.3390/su4102630</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-buildings-10-00057">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hamilton</surname>
+              <given-names>H.R.</given-names>
+            </name>
+            <name>
+              <surname>McBride</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Grill</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic testing of rammed&#x2013;earth walls containing post&#x2013;tensioned reinforcement</article-title>
+          <source>Earthq. Spectra</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>937</fpage>
+          <lpage>959</lpage>
+          <pub-id pub-id-type="doi">10.1193/1.2358382</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-buildings-10-00057">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study on the shaking table tests of a modern inner&#x2013;reinforced rammed earth structure</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2019</year>
+          <volume>203</volume>
+          <fpage>567</fpage>
+          <lpage>578</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2019.01.070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-buildings-10-00057">
+        <label>18.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shrestha</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Konishi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Miyamoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wangmo</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Aramaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yuasa</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Full-scale pull-down tests on a two-storied rammed earth building with possible strengthening interventions</article-title>
+          <source>Structural Analysis of Historical Constructions</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Aguilar</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Torrealva</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Moreira</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pando</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>L.F.</given-names>
+            </name>
+          </person-group>
+          <series>RILEM Bookseries</series>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Basel, Switzerland</publisher-loc>
+          <year>2019</year>
+          <volume>Volume 18</volume>
+          <fpage>1557</fpage>
+          <lpage>1565</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-99441-3_167</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-buildings-10-00057">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shrestha</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Miyamoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wangmo</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pema</surname>
+              <given-names/>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Strengthening of rammed earth structures with simple interventions</article-title>
+          <source>J. Build. Eng.</source>
+          <year>2020</year>
+          <volume>29</volume>
+          <fpage>101179</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jobe.2020.101179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-buildings-10-00057">
+        <label>20.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>JIS A 1204</collab>
+          </person-group>
+          <source>Test Method for Particle Size Distribution of Soils</source>
+          <publisher-name>Japan Industrial Standard</publisher-name>
+          <publisher-loc>Tokyo, Japan</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B21-buildings-10-00057">
+        <label>21.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>ASTM C39/C39M&#x2013;17b</collab>
+          </person-group>
+          <source>Standard Test Method for Compressive Strength of Cylindrical Concrete Specimens</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2017</year>
+          <pub-id pub-id-type="doi">10.1520/C0039_C0039M-17B</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-buildings-10-00057">
+        <label>22.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>ASTM C496/C496&#x2013;17</collab>
+          </person-group>
+          <source>Standard Test Method for Splitting Tensile Strength of Cylindrical Concrete Specimens</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <year>2017</year>
+          <pub-id pub-id-type="doi">10.1520/C0496_C0496M-17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-buildings-10-00057">
+        <label>23.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>DIANA</collab>
+          </person-group>
+          <source>User&#x2019;s Manual Release 10.1</source>
+          <publisher-name>DIANA FEA BV</publisher-name>
+          <publisher-loc>Delft, The Netherlands</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B24-buildings-10-00057">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lourenco</surname>
+              <given-names>P.B.</given-names>
+            </name>
+            <name>
+              <surname>Rots</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multisurface interface model for analysis of masonry structures</article-title>
+          <source>ASCE J. Eng. Mech.</source>
+          <year>1997</year>
+          <volume>123</volume>
+          <fpage>660</fpage>
+          <lpage>668</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)0733-9399(1997)123:7(660)</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-buildings-10-00057">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shrestha</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Pareek</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Araki</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pinning retrofit technique in masonry with application of polymer&#x2013;cement pastes as bonding agents</article-title>
+          <source>Earthq. Struct. Int. J.</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>477</fpage>
+          <lpage>497</lpage>
+          <pub-id pub-id-type="doi">10.12989/eas.2013.5.4.477</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-buildings-10-00057">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shrestha</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Nagae</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Araki</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Finite element modeling of cyclic out&#x2013;of&#x2013;plane response of masonry walls retrofitted by inserting inclined stainless steel bars</article-title>
+          <source>J. Dis. Res.</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <fpage>36</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.20965/jdr.2011.p0036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-buildings-10-00057">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wangmo</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Shrestha</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Miyamoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of out&#x2013;of&#x2013;plane behaviour of rammed earth walls by pull&#x2013;down tests</article-title>
+          <source>Int. J. Arch. Herit.</source>
+          <year>2019</year>
+          <volume>13</volume>
+          <fpage>273</fpage>
+          <lpage>287</lpage>
+          <pub-id pub-id-type="doi">10.1080/15583058.2018.1433903</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-buildings-10-00057">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bui</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Bui</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Bui</surname>
+              <given-names>Q.B.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Limam</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Out-of-plane behavior of rammed earth walls under seismic loading: Finite element simulation</article-title>
+          <source>Structures</source>
+          <year>2020</year>
+          <volume>24</volume>
+          <fpage>191</fpage>
+          <lpage>208</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.istruc.2020.01.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-buildings-10-00057">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheah</surname>
+              <given-names>J.S.J.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Heath</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Morgan</surname>
+              <given-names>T.K.K.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluating shear test methods for stabilized rammed earth</article-title>
+          <source>Constr. Mater.</source>
+          <year>2012</year>
+          <volume>165</volume>
+          <fpage>325</fpage>
+          <lpage>334</lpage>
+          <pub-id pub-id-type="doi">10.1680/coma.10.00061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-buildings-10-00057">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El-Nabouch</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bui</surname>
+              <given-names>Q.B.</given-names>
+            </name>
+            <name>
+              <surname>Ple</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Perrotin</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterizing the shear parameters of rammed earth material by using a full-scale direct shear box</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2018</year>
+          <volume>171</volume>
+          <fpage>414</fpage>
+          <lpage>420</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2018.03.142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-buildings-10-00057">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miccoli</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Drougkas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>In&#x2013;plane behaviour of rammed earth under cyclic loading: Experimental testing and finite element modeling</article-title>
+          <source>Eng. Struct.</source>
+          <year>2016</year>
+          <volume>125</volume>
+          <fpage>144</fpage>
+          <lpage>152</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2016.07.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-buildings-10-00057">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miccoli</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Oliviera</surname>
+              <given-names>D.V.</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Schueremans</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Static behaviour of rammed earth: Experimental testing and finite element modelling</article-title>
+          <source>Mater. Struct.</source>
+          <year>2014</year>
+          <volume>48</volume>
+          <fpage>3443</fpage>
+          <lpage>3456</lpage>
+          <pub-id pub-id-type="doi">10.1617/s11527-014-0411-7</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="buildings-10-00057-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Rammed earth (RE) specimen construction: (<bold>a</bold>) formwork placement for the lower RE block; (<bold>b</bold>) ramming of earth soil, (<bold>c</bold>) insertion of the reinforced concrete (RC) dowel, (<bold>d</bold>) formwork placement for the upper RE block, (<bold>e</bold>) details of RC dowel, (<bold>f</bold>) completed rammed earth specimens.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g001.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Test specimen details and measuring points: (<bold>a</bold>) Reinforced RE with 120mm layer thickness (TEST&#x2013;R120); (<bold>b</bold>) Reinforced RE with 60mm layer thickness (TEST&#x2013;R60).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g002.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Particle size distribution of the rammed earth soil used.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g003.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Material characterization test: (<bold>a</bold>) Compressive test; (<bold>b</bold>) Tensile splitting test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g004.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Compressive test results on cylindrical core samples at 6 months drying for: (<bold>a</bold>) 120 mm layer RE; (<bold>b</bold>) 60 mm layer RE.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g005.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Test set up and instrumentation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g006.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Shear force vs. shear displacement for: (<bold>a</bold>) Experimental and theoretical; (<bold>b</bold>) Experimental and FE simulation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g007.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Crack patterns observed for: (<bold>a</bold>) Unreinforced RE with 120 mm layer thickness (TEST&#x2013;U120); (<bold>b</bold>) TEST&#x2013;R120; (<bold>c</bold>) TEST&#x2013;R60.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g008.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>FE deformed shapes at 1 mm shear deformation for: (<bold>a</bold>) FE&#x2013;U120; (<bold>b</bold>) FE&#x2013;R120 (FE elements are hidden for the upper RE block of FE&#x2013;R120.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g009.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Primary stress for RE element around the RC dowel with stress concentration region around the RC dowel.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g010.tif"/>
+      </fig>
+      <fig id="buildings-10-00057-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Shear force vs. shear displacement plot for the parametric study with changes in interface material properties: (<bold>a</bold>) stiffness (<italic>k</italic><sub>sx</sub>, <italic>k</italic><sub>sy</sub>); (<bold>b</bold>) cohesion, <italic>c</italic>; (<bold>c</bold>) interface tensile strength, <italic>f</italic><sub>ti</sub>; (<bold>d</bold>) friction coefficient, tan<italic>&#x3D5;</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="buildings-10-00057-g011.tif"/>
+      </fig>
+      <table-wrap id="buildings-10-00057-t001" position="float">
+        <object-id pub-id-type="pii">buildings-10-00057-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Material properties of rammed earth from material characterization tests.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Rammed Earth Layer Thickness&#x2014;Drying Period</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Bulk Density (kg/m<sup>3</sup>)</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Compressive Strength (MPa)</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tensile Strength (MPa)</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Elastic Modulus (MPa)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Mean</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Std. Dev.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Mean</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Std. Dev.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Mean</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Std. Dev.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Mean</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Std. Dev.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">120 mm&#x2014;1 month</td>
+              <td align="center" valign="middle">1918</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">0.50</td>
+              <td align="center" valign="middle">0.07</td>
+              <td align="center" valign="middle">0.06</td>
+              <td align="center" valign="middle">0.006</td>
+              <td align="center" valign="middle">59.96</td>
+              <td align="center" valign="middle">8.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">60 mm&#x2014;1 month</td>
+              <td align="center" valign="middle">1985</td>
+              <td align="center" valign="middle">32</td>
+              <td align="center" valign="middle">0.56</td>
+              <td align="center" valign="middle">0.04</td>
+              <td align="center" valign="middle">0.11</td>
+              <td align="center" valign="middle">0.006</td>
+              <td align="center" valign="middle">66.76</td>
+              <td align="center" valign="middle">27.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">120 mm&#x2014;6 months</td>
+              <td align="center" valign="middle">2060</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">1.15</td>
+              <td align="center" valign="middle">0.05</td>
+              <td align="center" valign="middle">&#x2013;</td>
+              <td align="center" valign="middle">&#x2013;</td>
+              <td align="center" valign="middle">255.5</td>
+              <td align="center" valign="middle">47.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">60 mm&#x2014;6 months</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2080</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2013;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2013;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">186.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="buildings-10-00057-t002" position="float">
+        <object-id pub-id-type="pii">buildings-10-00057-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Material properties of RE element and RE block interface element adopted in the finite element (FE) model.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Material Properties</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RE Layer 120 mm<break/>(FE&#x2013;U120/FE&#x2013;R120)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RE Layer 60 mm<break/>(FE&#x2013;R60)</th>
+            </tr>
+            <tr>
+              <th colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Mass Density, <italic>&#x3C1;</italic><sub>r</sub> (kg/m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">1918</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">1985</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2" align="center" valign="middle">Poisson&#x2019;s ratio, <italic>&#x3BD;</italic></td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">0.15</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle">Elastic modulus, <italic>E</italic><sub>r</sub> (MPa)</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">67</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle">Tensile strength, <italic>f</italic><sub>t</sub> (MPa)</td>
+              <td align="center" valign="middle">0.06</td>
+              <td align="center" valign="middle">0.11</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle">Mode&#x2013;I tensile fracture energy, <italic>G</italic><sub>f</sub><sup>I</sup> (N/mm)</td>
+              <td align="center" valign="middle">0.005</td>
+              <td align="center" valign="middle">0.01</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle">Compressive strength, <italic>f</italic><sub>c</sub> (MPa)</td>
+              <td align="center" valign="middle">0.50</td>
+              <td align="center" valign="middle">0.56</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Compressive fracture energy, <italic>G</italic><sub>c</sub> (N/mm)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.79</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.84</td>
+            </tr>
+            <tr>
+              <td rowspan="7" align="center" valign="middle" style="border-bottom:solid thin">RE block Interface properties</td>
+              <td align="center" valign="middle">Normal stiffness, <italic>k</italic><sub>nz</sub> (N/mm<sup>3</sup>)</td>
+              <td align="center" valign="middle">150</td>
+              <td align="center" valign="middle">150</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Shear stiffness, <italic>k</italic><sub>sx</sub> (N/mm<sup>3</sup>)</td>
+              <td align="center" valign="middle">75</td>
+              <td align="center" valign="middle">75</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Shear stiffness, <italic>k</italic><sub>sy</sub> (N/mm<sup>3</sup>)</td>
+              <td align="center" valign="middle">75</td>
+              <td align="center" valign="middle">75</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cohesion, <italic>c</italic> (MPa)</td>
+              <td align="center" valign="middle">0.008</td>
+              <td align="center" valign="middle">0.008</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Friction angle, tan<italic>&#x3D5;</italic></td>
+              <td align="center" valign="middle">0.8</td>
+              <td align="center" valign="middle">0.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Dilatancy angle, tan<italic>&#x3C8;</italic></td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Tensile strength, <italic>f</italic><sub>ti</sub> (MPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.004</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.004</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="buildings-10-00057-t003" position="float">
+        <object-id pub-id-type="pii">buildings-10-00057-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Material parameters for FE sensitivity study and corresponding FE model IDs.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="4" align="center" valign="bottom" style="border-top:solid thin;border-bottom:solid thin">Stiffness,<break/><italic>k</italic><sub>sx</sub>, <italic>k</italic><sub>sy</sub></th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cohesion,<break/><italic>c</italic></th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tensile Strength, <italic>f</italic><sub>ti</sub></th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Friction Angle, tan<italic>&#x3D5;</italic></th>
+            </tr>
+            <tr>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">Change (%)</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">20</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;20</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">40</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;40</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">20</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;20</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">40</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;40</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">20</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;20</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">40</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;40</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">13</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;13</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">19</th>
+              <th align="center" valign="bottom" style="border-bottom:solid thin">&#x2212;19</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">FE&#x2013;ID</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">2 </td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">4</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">6</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">8 </td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">11</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">12</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">13</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">14 </td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">15</td>
+              <td align="center" valign="bottom" style="border-bottom:solid thin">16</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,6 +1,6 @@
 # Brug materialedata fra Rust
 
-Kør kommandoerne fra undermappen `materialer` i din kopi af projektet. Du kan også angive dens placering med `ft-materials --root /sti/til/open-source/materialer status`. På en maskine med Rust 1.95 eller nyere og Cargo kan du installere CLI'et én gang. Har du hentet en færdig binærfil fra projektets udgivelser, kan du begynde ved `ft-materials build`.
+Kør kommandoerne fra undermappen `materialer` i din kopi af projektet. Du kan også angive dens placering med `ft-materials --root /sti/til/open-source/materialer status`. På en maskine med Rust 1.95 eller nyere og Cargo kan du installere CLI'et én gang. For at bruge mekanikdata fra denne checkout skal du bygge dens Rust-program.
 
 ```sh
 cargo install --locked --path .
@@ -33,9 +33,9 @@ ft-materials coverage --field maintenance_frequency
 
 `fields` viser dansk definition, niveau, værdiform, enhed og betingelser. `facts` leverer de faktiske kildeudsagn, også kurver og intervaller, med observations- eller faktum-ID, kildens URL, kildeversion og tabel, celle eller side. `coverage` tæller kildeposter med angivne værdier, udtrykkelige mangler, konflikter, »gælder ikke« og uregistrerede felter. En feltgruppe kan indeholde flere modsatrettede udsagn. `--dataset` i dækning vælger materialeposternes datasæt. Et tillæg kan levere oplysninger om en materialepost i et andet datasæt.
 
-Databasens udgave-ID fastholder input. Feltopslag viser også fortolkerens kontrolsum. Når du skal genskabe både data og fortolkning, skal du vælge samme dataudgave og samme CLI-udgivelse. [Alle 158 definitioner](MATERIALEFELTER.md) · [Maskinlæsbar dækning](../data/releases/coverage-public-v0.3.0.json)
+Databasens udgave-ID fastholder input. Feltopslag viser også fortolkerens kontrolsum. Når du skal genskabe både data og fortolkning, skal du vælge samme dataudgave og samme CLI-udgivelse. [Alle 169 definitioner](MATERIALEFELTER.md) · [Maskinlæsbar dækning](../data/releases/coverage-public-mechanics-2026-11-20.json)
 
-## Tag danske produktdeklarationer og BUILD med
+## Tag danske produktdeklarationer, BUILD og mekanik med
 
 ```sh
 ft-materials build
@@ -44,17 +44,20 @@ ft-materials collect-epd --locked
 ft-materials collect-operations
 ft-materials collect-operations --danish
 ft-materials collect-lifetimes
-ft-materials build --require-originals \
-  --supplement data/supplements/tampere \
-  --supplement data/supplements/ens-varme \
-  --supplement data/supplements/field-sources \
-  --supplement data/supplements/operations \
-  --supplement data/supplements/oekobaudat-review \
-  --supplement data/staging/epd-danmark \
-  --supplement data/staging/operations-dk \
-  --supplement data/staging/build-levetid
+# Bash. Tilføj alle versionsstyrede mekaniksamlinger og lokale tillæg.
+bundles=()
+for dir in data/supplements/{tampere,ens-varme,field-sources,operations,oekobaudat-review,mechanics-*} \
+           data/staging/{epd-danmark,operations-dk,build-levetid}; do
+  bundles+=(--supplement "$dir")
+done
+if [ -d data/staging/mechanics-dk ]; then
+  bundles+=(--supplement data/staging/mechanics-dk)
+fi
+ft-materials build --require-originals "${bundles[@]}"
 ft-materials observations --property property:gwp_total --dataset epd-danmark --module A1-A3 --limit 3
 ```
+
+Tillægget `data/staging/mechanics-dk/` er arkiveret på tegnestuens NAS og kan kopieres til samme relative placering under `materialer/`. De åbne mekaniksamlinger følger med projektet. [Mekaniske forsøgsdata og danske originalrapporter](sources/mekanik.md)
 
 Den udvidede kontrol med `--require-originals` kræver bl.a. de oprindelige ÖKOBAUDAT-filer bag reviewoplysningerne. Det kan give flere tusinde HTTP-opslag ved første hentning. Indsamlerne henter de versionslåste originaler fra udgiverne og bevarer dem lokalt med SHA-256. `build` aktiverer den udvidede lokale udgave. Angiver du selv `--supplement`, udgør de angivne mapper hele listen over tillæg. En almindelig `build` opretter den offentlige udgave fra materialet i Git. [Danske EPD’er](../data/supplements/epd-danmark/README.md) · [Vedligehold og modstridende kilder](sources/operations.md) · [Danske levetidstabeller](sources/danske-levetider.md)
 
@@ -97,4 +100,4 @@ Se filnavne og kommandoer til begge modelprogrammer i [det gennemførte forløb]
 
 Cargo bygger med højst tre samtidige jobs, uden inkrementelle mellemprodukter og uden debugsymboler i projektets standardprofiler. Brug én `CARGO_TARGET_DIR` pr. vedligeholdt checkout, hvis du selv udvikler på CLI'et. Efter installationen kan `cargo clean` i denne checkout fjerne de genopbyggelige filer fra den valgte target-mappe. Efter en afbrudt dataimport rydder næste bygning også genkendelige, ufuldstændige arbejdsmapper under datalagerets byggelås. Kildearkivet under `data/raw` og de fastlåste databaser under `data/editions` har deres egen levetid og indgår ikke i Cargo-cachen.
 
-[Aktuelle dataudgaver og inputkontrolsummer](../data/releases/unified-v0.3.0.json) · [Færdige programmer til Linux](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.3.0) · [Historiske udgaver i v0.2](../data/releases/unified-v0.2.0.json)
+[Aktuelle dataudgaver og inputkontrolsummer](../data/releases/mechanics-2026-11-20.json) · [Færdige programmer til Linux](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.3.0) · [Historiske udgaver i v0.2](../data/releases/unified-v0.2.0.json)

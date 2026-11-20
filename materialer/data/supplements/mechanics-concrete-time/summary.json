@@ -1,0 +1,37 @@
+{
+  "creep": {
+    "excluded_rows_suspicious_point": 481,
+    "excluded_rows_test_ERROR": 1509,
+    "negative_time_points": 19,
+    "repeated_time_points": 181,
+    "retained_curves": 1411,
+    "retained_rows": 28519,
+    "source_rows": 30509,
+    "source_tests": 1469
+  },
+  "dataset": "mechanics-concrete-time",
+  "documentation": "data/supplements/mechanics-concrete-time/README.md",
+  "facts": 7053,
+  "facts_by_field": {
+    "compressive_strength": 1482,
+    "creep": 1411,
+    "elastic_modulus": 632,
+    "fatigue_resistance": 16,
+    "shrinkage_strain_time": 3512
+  },
+  "materials": 6328,
+  "observations": 7053,
+  "shrinkage": {
+    "excluded_rows_missing_numeric_pair": 4,
+    "excluded_rows_suspicious_point": 198,
+    "excluded_rows_test_ERROR": 478,
+    "negative_time_points": 1312,
+    "repeated_time_points": 968,
+    "retained_curves": 3512,
+    "retained_rows": 69267,
+    "source_rows": 69947,
+    "source_tests": 3570
+  },
+  "sources": 4,
+  "title": "Laboratory creep, shrinkage, mix strength and cyclic loading of cementitious materials"
+}

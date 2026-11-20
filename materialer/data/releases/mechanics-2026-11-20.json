@@ -1,0 +1,265 @@
+{
+  "release": "mechanics-2026-11-20",
+  "edition_format": 2,
+  "date": "2026-11-20",
+  "field_count": 169,
+  "group_count": 19,
+  "editions": {
+    "public": {
+      "snapshot": "u2-92e6ff304206a189861d717c33037b9e9f98cbc38d24ac36b0bb767ccced5dfb",
+      "counts": {
+        "datasets": 15,
+        "materials": 19918,
+        "observations": 2007877,
+        "sources": 7212
+      },
+      "catalog_evidence": {
+        "by_dataset": {
+          "ens-varme": 45,
+          "field-sources": 4391,
+          "mechanics-concrete-time": 7053,
+          "mechanics-connections": 79,
+          "mechanics-metals-glass": 848,
+          "mechanics-minerals": 177,
+          "mechanics-polymers": 586,
+          "mechanics-wood": 874,
+          "oekobaudat-review": 6141,
+          "operations": 135
+        },
+        "facts": 20329
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "catalog_sha256": "c9f45f362956fdadf7798c20f3a2062e895ffc525aaa95b3c2190cfc80815869",
+        "supplements": {
+          "ens-varme": {
+            "facts.jsonl": "80003ee6807e9d977678a69be351ffd13c0208fe1ca62fc7b8c3ccaeddff2942",
+            "materials.jsonl": "9e20ddac5ef57f62eaffb4aaa9d2cf0152f2581ba6db659f73eb21f161504a9a",
+            "observations.jsonl.gz": "a59e8c68cea055128c15511440134877ce03a1aeb72d38ec34e92d58f5a534cf",
+            "sources.jsonl": "97c99fa8fab17cee8795ec8c57633a45d8b3f43b0f7b7500e8107447c357af66",
+            "summary.json": "b740b6cd2a1e97f04455dae3c970cabbafa87f013175378ef0b02fe31bc13120"
+          },
+          "field-sources": {
+            "facts.jsonl.gz": "9340ec0c8ca48188a7908c968765768917baabe8c4375121aef48b09dc915c24",
+            "materials.jsonl.gz": "052e6882385077f79c09bb3584f7b9043a23fc974da1decccc622f051e9a4b65",
+            "observations.jsonl.gz": "840851a13064dfbed609ef33a89fe8f91bf51634fc8a8ca23b99fba225e307c5",
+            "sources.jsonl": "e87a841e1bcbbb7b3467a5fb07edd04d5b7eee81ebaba23790330fc86f22d93a",
+            "summary.json": "a75b5bdef5ec41867740118d24319f22511425cd142dff98b0f78bf3dcd2c2dc"
+          },
+          "mechanics-concrete-time": {
+            "facts.jsonl.gz": "aa49eb80435c24d350e68b7831a5f596edd699d0c93cba684cc3dce0ef9e9a02",
+            "materials.jsonl.gz": "f79e55cb144959a9396e2ab01ae40a995df88138c4abd5994f94cb101f3cf20a",
+            "observations.jsonl.gz": "8e809ab097d2804a24ae68de281eacf173bb4530e935fffc75a8acc965f74113",
+            "sources.jsonl": "99ba3be64a4dc96b703eb84d93ec4b0c7e79089e3fd782da0e9f89e9a97524a5",
+            "summary.json": "97ba9137ce6a135f287978729bb5fc59af3519998593bf9073433b79da7dfe49"
+          },
+          "mechanics-connections": {
+            "facts.jsonl.gz": "0e9c26f65f7118122f905ee4b274e19a931fa5181c73537eff3f5a734bf0f293",
+            "materials.jsonl.gz": "f5a25b70db544f4797318ff386f6668a923bffe3506720ca4d84f532a8fd1aa4",
+            "observations.jsonl.gz": "257cacf0689a3c11287244feff0793bf9673363e3f61414774eb66b9f835e95e",
+            "sources.jsonl": "6274a88f3dbd9e0e3583380a86148fbbfae137b3accbd88ef55b1d4d77573903",
+            "summary.json": "6e5c6f23dab72fe7e152fb5537c9e573d8b237a5407288e3cfb6d9862db675e6"
+          },
+          "mechanics-metals-glass": {
+            "facts.jsonl.gz": "7384beef8af16d396862ee9102844e62332ae46b648d8d6277038231d5bb2c09",
+            "materials.jsonl.gz": "4a7153c8fd84e698f65890ed779e25c8990d10afb1ad3f47eaeace8507190d86",
+            "observations.jsonl.gz": "44963e5cacbd2b31dcfbf51e8d1982c9756cf7980b1899cf20652f912f34b0b8",
+            "sources.jsonl": "11ef8fc6af68cf680fdd6f007dbe9fd8a13c9f0bcb5ec45eed8b938772f4de09",
+            "summary.json": "2e40c21e902ec5818b9d7c9e768c7e3b70480d2c6fe1f173ce62238acbee2b66"
+          },
+          "mechanics-minerals": {
+            "facts.jsonl": "f74074bbbcceaa197b3653dc32fa9f8854e3b70a6e782e087617b0fe8a850ca3",
+            "materials.jsonl": "ce4d492cb7e34e170c3c7814f065760b5a95c2cac717dc0607fbca70ae6755cb",
+            "observations.jsonl": "fc78b7e6d748b55708c1dbac4df233ae72aef8d2de898e44dc9586e339496083",
+            "sources.jsonl": "2f7e59a6aec338d377b9f065a66ca1cdd27179dd08527b2f41c4d62a16b5d617",
+            "summary.json": "52ee23b70ec9b8b7477083bfb6f9bb62e5bacbeb2efe699f3d9d6edfd4728248"
+          },
+          "mechanics-polymers": {
+            "facts.jsonl.gz": "d969b5d9948508b273eb02bf6df40dfc01852499e794ea80053f15c979a7c4ef",
+            "materials.jsonl.gz": "f08f3dd559f54239e44a52da59147af3e90638d6b93d3cc459bc9428484753f2",
+            "observations.jsonl.gz": "fb961f40b646524ee9595349f7c0dcf76d8093ff1cba8d1475bfdeeafb770928",
+            "sources.jsonl": "266c695d69ff1d566abd317274f60a58d0b57e5855841fb419e1f5c8b24f1d0c",
+            "summary.json": "277f87c1339ab2fc769c8bc8c79fa91d84ee790de751aed2f42bbcdf302ffaaa"
+          },
+          "mechanics-wood": {
+            "facts.jsonl.gz": "76396d251d9d74d1d858ae7d804bf7f5c588c902d57e7caa5bdf1e50fe8998c5",
+            "materials.jsonl.gz": "56cdef81e73cf412f68f5af088ba3a9e199b141474f02bdc0dac31dcfc383e10",
+            "observations.jsonl.gz": "07c547d9364bb19bdf0c8dfd90b026d7052e914574f42d5fe6fc88ecdfdd0ef8",
+            "sources.jsonl": "4d16bd3c732f75af7842655f2561adbea6846d4682274f9b34c24f503ca43ee6",
+            "summary.json": "73b3003066b9d67f6b038ad646aba0794870909c90ceed0d41b553f97cb51d44"
+          },
+          "oekobaudat-review": {
+            "facts.jsonl.gz": "cb9adc03b30771244a3179932d92f53a13f87e793e4514420985b7067332a83d",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "summary.json": "9c76edf643aa5849639625f33dd01b3448bba150fdc0b24e2ada1b605b9535d6"
+          },
+          "operations": {
+            "facts.jsonl": "66d4dd521d38bf1c7050a609fac445c452fcdab68be33ad137956b7ccf79f9fa",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "ba24e55687e97a699c23aeb5cc047f93b66c0349d2ca154142bed8960e1e86ba",
+            "summary.json": "47c1dabf57cf0a4a8bc05913e8773866525ba7477106b9d6497392dfd98b8512"
+          },
+          "tampere": {
+            "materials.jsonl": "e3220af1514a48ca2a754c20316fdd8c68a9d4a4a2e00a1a4d4f214407b34b39",
+            "observations.jsonl": "e50f3223b8f81ee94aab56b1733e39583e41b33d0e9f648067a7abb9643fbed3",
+            "sources.jsonl": "da9011722f1cf67a9855bf4c94e76ef9fa41f009a9d3bb86823a3292c3ba3437",
+            "summary.json": "811f75fe5ab581ae0ce7dbc118ada81a33d559c1993a31c0c9f63dfb90c598e7"
+          }
+        }
+      },
+      "fields_with_reported_values": 106,
+      "coverage_file": "coverage-public-mechanics-2026-11-20.json"
+    },
+    "local": {
+      "snapshot": "u2-6e13d58131c3d08c74daa4dad4976596e0a7d1f72b3b946af2c3cda9a67593a6",
+      "counts": {
+        "datasets": 19,
+        "materials": 21509,
+        "observations": 2023345,
+        "sources": 8137
+      },
+      "catalog_evidence": {
+        "by_dataset": {
+          "build-levetid": 2960,
+          "ens-varme": 45,
+          "field-sources": 4391,
+          "mechanics-concrete-time": 7053,
+          "mechanics-connections": 79,
+          "mechanics-dk": 74,
+          "mechanics-metals-glass": 848,
+          "mechanics-minerals": 177,
+          "mechanics-polymers": 586,
+          "mechanics-wood": 874,
+          "oekobaudat-review": 6141,
+          "operations": 135,
+          "operations-dk": 109
+        },
+        "facts": 23472
+      },
+      "inputs": {
+        "base": {
+          "format": 2,
+          "parquet_manifest_sha256": "f3a1949f33747289d193f5de0b23ec5c9125691989ce179a396c4297f542e1c2",
+          "schema_sha256": "84ea6bb69e2d07b40d0ef26dcd5e0c5a6720882f8c809522137ebba7d5420b05",
+          "vocabulary_sha256": "bef4d69c19512d474b3481ce15aaa78967c560a2c4bd0f4fe6ebeb221e363917"
+        },
+        "catalog_sha256": "c9f45f362956fdadf7798c20f3a2062e895ffc525aaa95b3c2190cfc80815869",
+        "supplements": {
+          "build-levetid": {
+            "facts.jsonl": "447a0cd8f06adcb4088851e02cb68558feb0b903c4fa43578193f8efbfaff35e",
+            "materials.jsonl": "a89c832cdc4ce15ffa83c9bf6a8807a58548050d1bc637c5b6c24435d2b0439b",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "fa681064df4822d547e4ee8ccaa63ecb1d876236359b8270f5fe1b69c84f584e",
+            "summary.json": "0ecbaa137a8e06da1f03f1e8d107c822703176b6a79564c0fde475ddb634e0b2"
+          },
+          "ens-varme": {
+            "facts.jsonl": "80003ee6807e9d977678a69be351ffd13c0208fe1ca62fc7b8c3ccaeddff2942",
+            "materials.jsonl": "9e20ddac5ef57f62eaffb4aaa9d2cf0152f2581ba6db659f73eb21f161504a9a",
+            "observations.jsonl.gz": "a59e8c68cea055128c15511440134877ce03a1aeb72d38ec34e92d58f5a534cf",
+            "sources.jsonl": "97c99fa8fab17cee8795ec8c57633a45d8b3f43b0f7b7500e8107447c357af66",
+            "summary.json": "b740b6cd2a1e97f04455dae3c970cabbafa87f013175378ef0b02fe31bc13120"
+          },
+          "epd-danmark": {
+            "materials.jsonl": "ef05549e035862b5450ca4a741c39d3a563dbb26875bfebed6905feeeea5bcc7",
+            "observations.jsonl": "8304c456a52ed79bbc40146a15f4fa150bc802033e5c9e97ded1332809e8757b",
+            "sources.jsonl": "d551999819c5f8a8e0184dba16e05bb2d2b01609c033c44cf220cf760d9f0873",
+            "summary.json": "bae92f69088c7bd172c28f3bf7e4b4b58b7908b878b35d96f416ce34fa0c8404"
+          },
+          "field-sources": {
+            "facts.jsonl.gz": "9340ec0c8ca48188a7908c968765768917baabe8c4375121aef48b09dc915c24",
+            "materials.jsonl.gz": "052e6882385077f79c09bb3584f7b9043a23fc974da1decccc622f051e9a4b65",
+            "observations.jsonl.gz": "840851a13064dfbed609ef33a89fe8f91bf51634fc8a8ca23b99fba225e307c5",
+            "sources.jsonl": "e87a841e1bcbbb7b3467a5fb07edd04d5b7eee81ebaba23790330fc86f22d93a",
+            "summary.json": "a75b5bdef5ec41867740118d24319f22511425cd142dff98b0f78bf3dcd2c2dc"
+          },
+          "mechanics-concrete-time": {
+            "facts.jsonl.gz": "aa49eb80435c24d350e68b7831a5f596edd699d0c93cba684cc3dce0ef9e9a02",
+            "materials.jsonl.gz": "f79e55cb144959a9396e2ab01ae40a995df88138c4abd5994f94cb101f3cf20a",
+            "observations.jsonl.gz": "8e809ab097d2804a24ae68de281eacf173bb4530e935fffc75a8acc965f74113",
+            "sources.jsonl": "99ba3be64a4dc96b703eb84d93ec4b0c7e79089e3fd782da0e9f89e9a97524a5",
+            "summary.json": "97ba9137ce6a135f287978729bb5fc59af3519998593bf9073433b79da7dfe49"
+          },
+          "mechanics-connections": {
+            "facts.jsonl.gz": "0e9c26f65f7118122f905ee4b274e19a931fa5181c73537eff3f5a734bf0f293",
+            "materials.jsonl.gz": "f5a25b70db544f4797318ff386f6668a923bffe3506720ca4d84f532a8fd1aa4",
+            "observations.jsonl.gz": "257cacf0689a3c11287244feff0793bf9673363e3f61414774eb66b9f835e95e",
+            "sources.jsonl": "6274a88f3dbd9e0e3583380a86148fbbfae137b3accbd88ef55b1d4d77573903",
+            "summary.json": "6e5c6f23dab72fe7e152fb5537c9e573d8b237a5407288e3cfb6d9862db675e6"
+          },
+          "mechanics-dk": {
+            "facts.jsonl": "17bde863d1602aabe74cfd9200034349ceab2b7188546adc4e5b032133fe2f6c",
+            "materials.jsonl": "3980c789e1fb7a70188dfc400ea91d4d5526c48cbacac2101294075c9bfd690e",
+            "observations.jsonl": "015d045af81c424eb1daa8650f56cb75e9cca93ffda954b69a58d35a0ff7a2c8",
+            "sources.jsonl": "423c4384c11d0eeeb79e335a6e5c5c5ac78b2c7cee90fefa4be2fc617a9c1139",
+            "summary.json": "55af91d47d0683561bac6197e184ba86136a82bd2243a8c3e0ac9090d20c9ffd"
+          },
+          "mechanics-metals-glass": {
+            "facts.jsonl.gz": "7384beef8af16d396862ee9102844e62332ae46b648d8d6277038231d5bb2c09",
+            "materials.jsonl.gz": "4a7153c8fd84e698f65890ed779e25c8990d10afb1ad3f47eaeace8507190d86",
+            "observations.jsonl.gz": "44963e5cacbd2b31dcfbf51e8d1982c9756cf7980b1899cf20652f912f34b0b8",
+            "sources.jsonl": "11ef8fc6af68cf680fdd6f007dbe9fd8a13c9f0bcb5ec45eed8b938772f4de09",
+            "summary.json": "2e40c21e902ec5818b9d7c9e768c7e3b70480d2c6fe1f173ce62238acbee2b66"
+          },
+          "mechanics-minerals": {
+            "facts.jsonl": "f74074bbbcceaa197b3653dc32fa9f8854e3b70a6e782e087617b0fe8a850ca3",
+            "materials.jsonl": "ce4d492cb7e34e170c3c7814f065760b5a95c2cac717dc0607fbca70ae6755cb",
+            "observations.jsonl": "fc78b7e6d748b55708c1dbac4df233ae72aef8d2de898e44dc9586e339496083",
+            "sources.jsonl": "2f7e59a6aec338d377b9f065a66ca1cdd27179dd08527b2f41c4d62a16b5d617",
+            "summary.json": "52ee23b70ec9b8b7477083bfb6f9bb62e5bacbeb2efe699f3d9d6edfd4728248"
+          },
+          "mechanics-polymers": {
+            "facts.jsonl.gz": "d969b5d9948508b273eb02bf6df40dfc01852499e794ea80053f15c979a7c4ef",
+            "materials.jsonl.gz": "f08f3dd559f54239e44a52da59147af3e90638d6b93d3cc459bc9428484753f2",
+            "observations.jsonl.gz": "fb961f40b646524ee9595349f7c0dcf76d8093ff1cba8d1475bfdeeafb770928",
+            "sources.jsonl": "266c695d69ff1d566abd317274f60a58d0b57e5855841fb419e1f5c8b24f1d0c",
+            "summary.json": "277f87c1339ab2fc769c8bc8c79fa91d84ee790de751aed2f42bbcdf302ffaaa"
+          },
+          "mechanics-wood": {
+            "facts.jsonl.gz": "76396d251d9d74d1d858ae7d804bf7f5c588c902d57e7caa5bdf1e50fe8998c5",
+            "materials.jsonl.gz": "56cdef81e73cf412f68f5af088ba3a9e199b141474f02bdc0dac31dcfc383e10",
+            "observations.jsonl.gz": "07c547d9364bb19bdf0c8dfd90b026d7052e914574f42d5fe6fc88ecdfdd0ef8",
+            "sources.jsonl": "4d16bd3c732f75af7842655f2561adbea6846d4682274f9b34c24f503ca43ee6",
+            "summary.json": "73b3003066b9d67f6b038ad646aba0794870909c90ceed0d41b553f97cb51d44"
+          },
+          "oekobaudat-review": {
+            "facts.jsonl.gz": "cb9adc03b30771244a3179932d92f53a13f87e793e4514420985b7067332a83d",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "summary.json": "9c76edf643aa5849639625f33dd01b3448bba150fdc0b24e2ada1b605b9535d6"
+          },
+          "operations": {
+            "facts.jsonl": "66d4dd521d38bf1c7050a609fac445c452fcdab68be33ad137956b7ccf79f9fa",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "ba24e55687e97a699c23aeb5cc047f93b66c0349d2ca154142bed8960e1e86ba",
+            "summary.json": "47c1dabf57cf0a4a8bc05913e8773866525ba7477106b9d6497392dfd98b8512"
+          },
+          "operations-dk": {
+            "facts.jsonl": "4f2ed6d26115623e909cb5b7f02527332e7646fb137780a0bc2b329db7dc0ff6",
+            "materials.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "observations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sources.jsonl": "df4b5e3b8f1fc92f1ed237e23a2e111743a987f5674ecf8a13ad569f2e7cdaba",
+            "summary.json": "1fc37a869143e58d488ea919a517a074747928c261c81449b130634872f85654"
+          },
+          "tampere": {
+            "materials.jsonl": "e3220af1514a48ca2a754c20316fdd8c68a9d4a4a2e00a1a4d4f214407b34b39",
+            "observations.jsonl": "e50f3223b8f81ee94aab56b1733e39583e41b33d0e9f648067a7abb9643fbed3",
+            "sources.jsonl": "da9011722f1cf67a9855bf4c94e76ef9fa41f009a9d3bb86823a3292c3ba3437",
+            "summary.json": "811f75fe5ab581ae0ce7dbc118ada81a33d559c1993a31c0c9f63dfb90c598e7"
+          }
+        }
+      },
+      "fields_with_reported_values": 109,
+      "coverage_file": "coverage-local-mechanics-2026-11-20.json"
+    }
+  }
+}

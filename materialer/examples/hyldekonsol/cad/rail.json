@@ -1,0 +1,8 @@
+{
+  "commands": [
+    {
+      "command": "solid.remove",
+      "params": {"bodies": ["Rail_B", "Shelf"]}
+    }
+  ]
+}

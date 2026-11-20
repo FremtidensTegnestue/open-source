@@ -1,6 +1,8 @@
 # Hele datasættet — Parquet og SQLite
 
-Brug `ft-materials build` fra mappen `materialer` for den offentlige Rust-udgave. Den kombinerer Parquet-grundlaget med versionsstyrede tillæg. `supplements/` indeholder kilderegistre, observationer og eksternt dokumenterede feltværdier som JSONL eller komprimeret JSONL. Fjernede eller lokalt tilføjede tillæg giver en anden dataudgave. [Feltkatalog og mål](../docs/MATERIALEFELTER.md) · [Aktuelle udgaver og optællinger](releases/unified-v0.3.0.json) · [Installation og brug](../docs/RUST.md)
+Brug `ft-materials build` fra mappen `materialer` for den offentlige Rust-udgave. Den kombinerer Parquet-grundlaget med versionsstyrede tillæg. `supplements/` indeholder kilderegistre, observationer og eksternt dokumenterede feltværdier som JSONL eller komprimeret JSONL. Fjernede eller lokalt tilføjede tillæg giver en anden dataudgave. [Feltkatalog og mål](../docs/MATERIALEFELTER.md) · [Aktuelle udgaver og optællinger](releases/mechanics-2026-11-20.json) · [Installation og brug](../docs/RUST.md)
+
+De åbne mekaniktillæg indeholder de mekaniske egenskaber og deres originaler. Et yderligere tillæg med dansk murværk er tilgængeligt i den lokale tegnestueudgave. [Materialer, forsøgsmetoder og kildehenvisninger](../docs/sources/mekanik.md)
 
 **Tallene følger med projektet.** Mappen [parquet/](parquet/) indeholder alle 1.985.582 observationer, 11.161 materiale-/produktposter, 7.135 kilder og fire datasæt fra snapshot 17. november 2026. Alle tabeller og kolonner er med; ingen materialegruppe er fjernet for at gøre pakken lille.
 

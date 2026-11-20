@@ -1,0 +1,17 @@
+{
+  "dataset": "mechanics-connections",
+  "title": "Timber screw withdrawal and CLT-to-lumber joint peak loads",
+  "sources": 2,
+  "materials": 79,
+  "observations": 79,
+  "facts": 79,
+  "scalar_facts": 79,
+  "facts_by_field": {
+    "fastener_capacity": 79
+  },
+  "individual_screw_withdrawal": 31,
+  "whole_connection_monotonic": 24,
+  "whole_connection_reversed_cyclic": 24,
+  "wood_splitting_flagged": 3,
+  "documentation": "data/supplements/mechanics-connections/README.md"
+}

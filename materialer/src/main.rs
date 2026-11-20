@@ -158,6 +158,12 @@ fn run(cli: Cli) -> Result<Value> {
                     "field-sources",
                     "ens-varme",
                     "oekobaudat-review",
+                    "mechanics-minerals",
+                    "mechanics-metals-glass",
+                    "mechanics-polymers",
+                    "mechanics-wood",
+                    "mechanics-concrete-time",
+                    "mechanics-connections",
                 ]
                 .iter()
                 .map(|name| root.join("data/supplements").join(name))

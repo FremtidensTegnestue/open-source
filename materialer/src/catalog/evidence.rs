@@ -197,9 +197,9 @@ pub fn observation_fields(
     }
 }
 
-// The field-sources collector emits one optional numeric representation of a first-class
-// fact for the legacy calculation API. Only collapse the collector's exact paired IDs.
-pub const OBS_IS_PRIMARY: &str = "(o.dataset_id!='field-sources' OR NOT EXISTS(
+// Supplements may emit a numeric observation for the calculation API alongside a fact.
+// Independent records are preserved even when they refer to the same physical property.
+pub const OBS_IS_PRIMARY: &str = "(substr(o.id,-12)!=':observation' OR NOT EXISTS(
     SELECT 1 FROM catalog_facts f WHERE f.id=substr(o.id,1,length(o.id)-12)
       AND o.id=f.id||':observation' AND f.material_id=o.material_id AND f.field_id=o.property
       AND f.source_id=o.source_id AND f.source_locator=o.source_locator))";
@@ -259,6 +259,7 @@ pub fn fact_value(key: &str, f: &Value) -> Value {
         return f["value"].clone();
     }
     match key {
+        "observation_id" if f["observation_id"].is_string() => f["observation_id"].clone(),
         "observation_id" => f["id"].clone(),
         "property_definition" => f["field_id"].clone(),
         "value_status" => f["value_status"].clone(),

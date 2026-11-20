@@ -2,21 +2,21 @@
 
 Vi vil kunne følge et materialevalg fra den første skitse til den dag, en bygningsdel skal vedligeholdes, udskiftes eller genbruges. Målet er, at en arkitekt kan slå et produkt op og få svar på *hvad det kan, under hvilke forhold, og hvor vi ved det fra*. SolidCraft, BIMCraft og en agent skal kunne bruge de samme oplysninger.
 
-[Feltkataloget som tabel](MATERIALEFELTER.tsv) definerer **158 felter og gentagelige feltgrupper inden for 19 områder**. Hver række angiver felt-ID, dansk navn, hvad det gælder for, værdiform, enhed eller referencegrundlag samt definition og betingelser. Tabellen kan åbnes som en tabulatorsepareret UTF-8-fil i et regneark.
+[Feltkataloget som tabel](MATERIALEFELTER.tsv) definerer **169 felter og gentagelige feltgrupper inden for 19 områder**. Hver række angiver felt-ID, dansk navn, hvad det gælder for, værdiform, enhed eller referencegrundlag samt definition og betingelser. Tabellen kan åbnes som en tabulatorsepareret UTF-8-fil i et regneark.
 
 ## Mål og efterprøvning
 
-Målet er, at arkitekten kan vælge et materiale eller en modeldel, få de dokumenterede værdier, finde originalen og se, hvilke oplysninger der stadig skal fremskaffes. Rust-CLI’et indlæser tabellens 158 rækker som den fælles feltordbog. Der kan være mange observationer for ét felt. En families egenskaber, en produkttest, et projekteret valg og en registrering af det faktisk monterede produkt har forskellige anvendelsesområder.
+Målet er, at arkitekten kan vælge et materiale eller en modeldel, få de dokumenterede værdier, finde originalen og se, hvilke oplysninger der stadig skal fremskaffes. Rust-CLI’et indlæser tabellens 169 rækker som den fælles feltordbog. Der kan være mange observationer for ét felt. En families egenskaber, en produkttest, et projekteret valg og en registrering af det faktisk monterede produkt har forskellige anvendelsesområder.
 
-| Hvad skal være opfyldt? | Sådan kan det kontrolleres i v0.3 |
+| Hvad skal være opfyldt? | Sådan kan det kontrolleres i mekanikudgaven |
 | --- | --- |
-| Alle felter har en dansk definition og et oplyst niveau, værdiform og grundlag | `ft-materials fields` giver 158 definitioner fordelt på 19 områder. |
+| Alle felter har en dansk definition og et oplyst niveau, værdiform og grundlag | `ft-materials fields` giver 169 definitioner fordelt på 19 områder. |
 | Hvert udsagn kan følges til et bestemt emne og en præcis kilde | `facts ID --field FELT` viser posterne. `source KILDE_ID` viser originalens adresse, kontrolsum og rettigheder. Ukendte felt-, materiale- og kilde-ID’er afvises ved import. |
 | Mangler og konkurrerende tal er synlige | `coverage --material ID` viser feltdækningen for den enkelte post. En målt nulværdi og en udokumenteret egenskab har forskellige statusser. |
 | Levetid og vedligehold kan bruges i praksis | Der findes tal fra både produktdeklarationer, producentvejledninger, forsøg og generiske scenarier. Handling og hyppighed forbindes via opgavens ID og komponent i dens betingelser. |
 | Begge modelprogrammer kan finde den samme dokumentation | LinCrete-eksemplet kontrollerer to levetidsudsagn fra den samme kildeversion på en faktisk SolidCraft-krop og dens tilsvarende BIMCraft-element. |
 
-[Offentlig dækning felt for felt](../data/releases/coverage-public-v0.3.0.json) · [Udvidet lokal dækning](../data/releases/coverage-local-v0.3.0.json) · [Modeltesten](../examples/model-fields/README.md)
+[Offentlig dækning felt for felt](../data/releases/coverage-public-mechanics-2026-11-20.json) · [Udvidet lokal dækning](../data/releases/coverage-local-mechanics-2026-11-20.json) · [Modeltesten](../examples/model-fields/README.md)
 
 ## Hvad skal en ny post som minimum fortælle?
 

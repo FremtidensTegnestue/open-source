@@ -1,0 +1,11 @@
+{
+  "commands": [
+    {"command":"solid.box", "params":{"body_name":"Rail_A", "length":300, "width":30, "height":10, "corner":[0,0,0]}},
+    {"command":"solid.box", "params":{"body_name":"Rail_B", "length":300, "width":30, "height":10, "corner":[0,270,0]}},
+    {"command":"solid.box", "params":{"body_name":"Shelf", "length":300, "width":300, "height":20, "corner":[0,0,10]}},
+    {"command":"material.create", "params":{"name":"S235", "density_g_cm3":7.85, "color":"#54677a"}},
+    {"command":"material.create", "params":{"name":"Krydsfiner, ubehandlet", "density_g_cm3":0.48, "color":"#ce9959"}},
+    {"command":"material.assign", "params":{"bodies":["Rail_A","Rail_B"], "material":"S235"}},
+    {"command":"material.assign", "params":{"bodies":["Shelf"], "material":"Krydsfiner, ubehandlet"}}
+  ]
+}
