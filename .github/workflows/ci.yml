@@ -46,7 +46,9 @@ jobs:
       - name: Install the Rust toolchain
         run: rustup toolchain install 1.95.0 --profile minimal && rustup override set 1.95.0
       - name: Test the native CLI
-        run: cargo test --locked --release
+        run: |
+          cargo test --locked --release
+          cargo test --locked --release --example hyldekonsol
       - name: Build and check the public data edition
         run: |
           cargo build --locked --release --bin ft-materials

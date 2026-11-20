@@ -1,0 +1,19 @@
+[
+  {"command": "model.units", "params": {"system": "mm-t-s-N-MPa"}},
+  {"command": "geometry.import.mesh", "params": {"path": "../cad/rail.3mf"}},
+  {"command": "mesh.surface.check", "params": {"surface": 0}},
+  {"command": "mesh.hex.generate", "params": {"surface": 0, "size": 10, "order": 2}},
+  {"command": "model.set.create", "params": {"name": "Skinne", "geometry": [{"body": "Rail_A"}]}},
+  {"command": "model.set.create", "params": {"name": "Vaeg", "geometry": [{"body": "Rail_A", "face": "2"}]}},
+  {"command": "model.set.create", "params": {"name": "Spids", "geometry": [{"body": "Rail_A", "face": "4"}]}},
+  {"command": "model.material.create", "params": {"name": "S235", "elastic": {"type": "isotropic", "young": 210000.0, "poisson": 0.3}}},
+  {"command": "model.section.create", "params": {"name": "Tvaersnit", "set": "Skinne", "material": "S235", "kind": {"type": "solid"}}},
+  {"command": "model.boundary_condition.create", "params": {"name": "Fast", "type": "fixed", "target": {"set": "Vaeg"}}},
+  {"command": "model.load.create", "params": {"name": "Endekraft", "type": "force", "target": {"set": "Spids"}, "vector": [0, 0, -50], "distribution": "total"}},
+  {"command": "model.step.create", "params": {"name": "Last", "procedure": {"type": "static"}, "boundary_conditions": ["Fast"], "loads": ["Endekraft"]}},
+  {"command": "model.check", "params": {}},
+  {"command": "solve.static", "params": {"step": "Last"}},
+  {"command": "results.export.csv", "params": {"what": "probe", "path": "tip.csv", "step": "Last", "set": "Spids"}},
+  {"command": "results.export.csv", "params": {"what": "probe", "path": "nodes.csv", "step": "Last", "set": "Skinne"}},
+  {"command": "results.export.csv", "params": {"what": "reactions", "path": "reactions.csv", "step": "Last", "sets": ["Vaeg"], "about": [0, 15, 5]}}
+]

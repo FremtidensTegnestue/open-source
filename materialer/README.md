@@ -35,6 +35,7 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 
 | Du vil … | Start her |
 | --- | --- |
+| Gennemgå en lille hylde fra materialetal til statik | [Hyldens masse, produktionsklima og nedbøjning](examples/hyldekonsol/README.md) |
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
 | Have en AI-agent til at hjælpe | [Materialevalget i SolidCraft og BIMCraft](examples/unified-workflow/README.md) |
 | Søge og beregne selv | [Installation og dine første kommandoer](docs/RUST.md) |
@@ -60,7 +61,7 @@ Følg en facadeplade fra bygningsmodel til materialevalg, og se, hvilke oplysnin
 
 ### FieldCraft beregner, hvordan delen opfører sig under last
 
-I FieldCraft kan du undersøge, hvor meget et beslag bøjer, og hvor spændingerne er størst. Du vælger materiale, last og fastholdelser. Vores guide viser, hvordan forsøgsdata kan bruges til at vælge input, og hvor langt vi er kommet med at afprøve forbindelsen. [Guide til programmerne](docs/PROGRAMMER.md) · [Hent FieldCraft](https://github.com/tangency-labs/fieldcraft/releases)
+I FieldCraft kan du undersøge, hvor meget et beslag bøjer, og hvor spændingerne er størst. Du vælger materiale, last og fastholdelser. Vi har afprøvet dette på en hylde. Materialeværktøjet leverede stålets elasticitetsdata, og en beregning med bjælketeori kontrollerede simuleringen. [Gennemgå hyldens statik](examples/hyldekonsol/README.md). [Guide til programmerne](docs/PROGRAMMER.md) · [Hent FieldCraft](https://github.com/tangency-labs/fieldcraft/releases)
 
 ### Materialeværktøjet: egenskaber, kilder og beregninger
 
@@ -143,7 +144,7 @@ Der følger ingen AI-tjeneste, API-nøgle eller abonnement med. Brug af en valgt
 
 ## Hvad er efterprøvet — og hvor går grænsen?
 
-Den samlede modelkæde er afprøvet med **SolidCraft CLI 0.44.0** og **BIMCraft CLI 0.12.0**. De afprøvede modeller, programversioner og kontrolresultater ligger sammen med eksemplerne. Andre versioner og operativsystemer er ikke automatisk dækket af samme kontrol.
+Modelforløbene er afprøvet med **SolidCraft CLI 0.44.0** og **BIMCraft CLI 0.12.0**. Hyldeeksemplet bruger desuden **FieldCraft CLI 0.8.1** til lineær statik. De afprøvede modeller, programversioner og kontrolresultater ligger sammen med eksemplerne. Andre versioner og operativsystemer er ikke automatisk dækket af samme kontrol.
 
 Kernen omfatter masse, modulvis GWP-skalering og en afgrænset træfugtmetode. Databasen indeholder flere egenskaber, end beregningsværktøjet endnu har metoder til. En hel bygnings LCA, bæreevne, brand, lyd og fugtsikkerhed kræver yderligere grundlag og relevante faglige beregninger. Et materialematch på navn er et forslag, og uafklarede værdier bliver ikke til nul.
 

@@ -2,6 +2,8 @@
 
 En arkitekt kan spørge, hvor meget et bestemt materiale giver efter, om det opfører sig forskelligt på langs og på tværs, eller hvordan det ændrer sig under en last over tid. Materialekataloget giver adgang til målinger, kurver og kildebelagte referenceværdier, som kan bruges, når man vælger eller kontrollerer input til en beregning.
 
+Et gennemført eksempel følger to skinner i S235 og en krydsfinerplade fra modellerne i SolidCraft og BIMCraft til stivhed, last og nedbøjning i FieldCraft. [Følg hyldeeksemplet](../../examples/hyldekonsol/README.md).
+
 ## Hvad kan jeg slå op?
 
 | Område | Hvilke forskelle kan jeg undersøge? | Data og originalkilder |

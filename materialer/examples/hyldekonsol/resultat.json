@@ -1,0 +1,148 @@
+{
+  "fieldcraft_front_load_only": {
+    "coarse": {
+      "applied_z_n": -50.0,
+      "element_type": "hex20",
+      "elements": 90,
+      "mesh_max_mm": [
+        300.0,
+        30.0,
+        10.0
+      ],
+      "mesh_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_size_mm": 10.0,
+      "nodes": 798,
+      "poisson_ratio": 0.3,
+      "reaction_y_nm": -15.00000000393316,
+      "reaction_z_n": 50.00000001617866,
+      "stress_probe_xyz_mm": [
+        150.0,
+        15.0,
+        10.0
+      ],
+      "stress_xx_mpa": 14.999999852646589,
+      "tip_nodes": 18,
+      "tip_z_mm": -0.8478055113480937,
+      "young_modulus_pa": 210000000000.0
+    },
+    "fine": {
+      "applied_z_n": -49.999999999999986,
+      "element_type": "hex20",
+      "elements": 720,
+      "mesh_max_mm": [
+        300.0,
+        30.0,
+        10.0
+      ],
+      "mesh_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mesh_size_mm": 5.0,
+      "nodes": 4493,
+      "poisson_ratio": 0.3,
+      "reaction_y_nm": -15.000000027852881,
+      "reaction_z_n": 50.00000011839255,
+      "stress_probe_xyz_mm": [
+        149.99999999999997,
+        15.0,
+        10.0
+      ],
+      "stress_xx_mpa": 14.999999883933056,
+      "tip_nodes": 53,
+      "tip_z_mm": -0.8507818293247111,
+      "young_modulus_pa": 210000000000.0
+    },
+    "fine_vs_beam_tip_difference_percent": 0.7421199121170285,
+    "mesh_tip_change_percent": 0.349833279699902,
+    "midspan_upper_fibre_beam_stress_mpa": 14.999999999999996
+  },
+  "front_load_total_n": 100.0,
+  "parts": {
+    "Rail_A": {
+      "bim_guid": "f10c6d2e-742b-4176-91b5-467986e8665d",
+      "bim_volume_m3": 0.00008999999999999999,
+      "cad_volume_m3": 0.00009,
+      "dimensions_m": {
+        "x": 0.3,
+        "y": 0.03,
+        "z": 0.01
+      },
+      "gwp_a1_a3_kg_co2e": 1.1579535,
+      "mass_kg": 0.7065,
+      "model_material": "S235"
+    },
+    "Rail_B": {
+      "bim_guid": "f96ebb22-6807-4102-806e-8708dda1cd18",
+      "bim_volume_m3": 0.00008999999999999999,
+      "cad_volume_m3": 0.00009,
+      "dimensions_m": {
+        "x": 0.3,
+        "y": 0.03,
+        "z": 0.01
+      },
+      "gwp_a1_a3_kg_co2e": 1.1579535,
+      "mass_kg": 0.7065,
+      "model_material": "S235"
+    },
+    "Shelf": {
+      "bim_guid": "ee7e346c-16df-4e7f-82c1-717dc33f1477",
+      "bim_volume_m3": 0.0018,
+      "cad_volume_m3": 0.0018,
+      "dimensions_m": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.02
+      },
+      "gwp_a1_a3_kg_co2e": -1.0782,
+      "mass_kg": 0.864,
+      "model_material": "Krydsfiner, ubehandlet"
+    }
+  },
+  "per_rail_analytical": {
+    "front_load_only": {
+      "distributed_load_n_m": 0.0,
+      "max_rectangular_shear_mpa": 0.25000000000000006,
+      "nominal_outer_fibre_stress_mpa": 29.999999999999993,
+      "nominal_stress_over_reference_yield": 0.12765957446808507,
+      "nominal_stress_reaches_reference_yield": false,
+      "second_moment_m4": 2.5000000000000005e-9,
+      "tip_displacement_over_span": 0.002857142857142857,
+      "tip_force_down_n": 50.0,
+      "tip_z_mm": -0.8571428571428571,
+      "wall_moment_magnitude_nm": 15.0,
+      "wall_reaction_up_n": 50.0
+    },
+    "front_load_plus_uniform_self_weight": {
+      "distributed_load_n_m": 37.228950000000005,
+      "max_rectangular_shear_mpa": 0.30584342500000006,
+      "nominal_outer_fibre_stress_mpa": 33.35060549999999,
+      "nominal_stress_over_reference_yield": 0.14191747021276593,
+      "nominal_stress_reaches_reference_yield": false,
+      "second_moment_m4": 2.5000000000000005e-9,
+      "tip_displacement_over_span": 0.0030964718214285714,
+      "tip_force_down_n": 50.0,
+      "tip_z_mm": -0.9289415464285714,
+      "wall_moment_magnitude_nm": 16.67530275,
+      "wall_reaction_up_n": 61.168685
+    }
+  },
+  "snapshot": "u2-92e6ff304206a189861d717c33037b9e9f98cbc38d24ac36b0bb767ccced5dfb",
+  "software": {
+    "bimcraft": "bimcraft-cli 0.12.0",
+    "fieldcraft": "fieldcraft-cli 0.8.1",
+    "solidcraft": "solidcraft-cli 0.44.0"
+  },
+  "steel_reference_yield_mpa": 235.0,
+  "totals": {
+    "board_only_c3_kg_co2e": 1.3374,
+    "gwp_a1_a3_kg_co2e": 1.2377070000000001,
+    "mass_kg": 2.277,
+    "self_weight_n": 22.337370000000004
+  }
+}

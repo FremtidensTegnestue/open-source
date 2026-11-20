@@ -1,0 +1,11 @@
+# Hvor kommer hyldens tal fra?
+
+[Materialevalget](materialevalg.json) fastholder den offentlige dataudgave og otte observationer. Hver observation har sit eget id, enhed, kildeplacering og kontrolsum for originalen. Eksemplet bruger materialereferencer til en tegnet hylde.
+
+| Del | Hvad bruger beregningen? | Kilde |
+| --- | --- | --- |
+| To varmvalsede skinner i S235 | Densitet 7.850 kg/m³, elasticitetsmodul 210 GPa, Poissons tal 0,30 og nominel flydegrænse 235 MPa. Kortet gælder ved normal temperatur og højst 40 mm nominel tykkelse. Vores skinner er 10 mm tykke. | [FieldCrafts S235-kort med afsnit og sider i standarderne](https://github.com/tangency-labs/fieldcraft/blob/c1bec5b74f666f40b2fa45db89ff2aeccbe61431/crates/model/data/materials.json#L1-L83) |
+| Skinnernes produktionsklima | 1.639 kg CO₂e pr. ton. Række 129 er en dansk, generisk reference for valsede stålprofiler med lille forarbejdning. Et konkret stålværks produktion kan have andre værdier. | [BR18-tabel 7, celle E129](https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx) · [Baggrundsrapport fra BUILD](https://vbn.aau.dk/da/publications/udvikling-af-dansk-generisk-lca-data) |
+| Hyldeplade af ubehandlet krydsfiner | Densitet 480 kg/m³ og produktionsklima −599 kg CO₂e/m³. Række 35 henviser til en branchedeklaration for ubelagt grankrydsfiner. Kilden vises her som grundlag for 2025-tabellens værdier. Deklarationens egen gyldighed udløb 22. april 2025. | [BR18-tabel 7, cellerne E35 og K35–L35](https://www.bygningsreglementet.dk/media/1o1nnozd/tabel-7-2025.xlsx) · [Træ.dk’s originaldeklaration, side 2, 4 og 6](https://www.epddanmark.dk/media/luijc3vg/md-20008-en_rev2_tr%C3%A6dk.pdf) |
+
+**Hvorfor er pladens produktionstal negativt?** Træet optager kulstof under væksten. Produktionsmodulerne A1–A3 omfatter denne del af regnskabet. Deklarationen viser også et scenarie, hvor træet forbrændes efter brug. I affaldsbehandlingen (C3) er værdien her +743 kg CO₂e/m³. For pladens 0,0018 m³ svarer det til +1,3374 kg CO₂e i C3. Regneeksemplet viser dette scenarie særskilt. For en samlet livscyklusvurdering skal de øvrige relevante livscyklusmoduler og det konkrete affaldsscenarie også vælges. [Originaldeklaration, side 5–6](https://www.epddanmark.dk/media/luijc3vg/md-20008-en_rev2_tr%C3%A6dk.pdf#page=5)

@@ -24,7 +24,7 @@ Du kan selv kontrollere den første vægt ved at gange 1 m × 0,5 m × 0,020 m �
 
 To ens beslag kan bøje forskelligt under samme vægt. Det har betydning, om pladen hviler tæt på væggen eller længere ude på beslaget. Før en beregning i FieldCraft skal du derfor kende lastens størrelse og placering, stålets egenskaber og den måde, beslaget er fastgjort på. Ved genbrug kan korrosion, gamle huller eller usikkerhed om stålkvaliteten kræve opmåling eller prøvning.
 
-FieldCraft 0.8.1 dokumenterer import af SolidCraft-geometri i formatet `.solidcraft` og 3MF med mærkede flader. Vores pladeforsøg brugte `.sc` og GLB. Forsøget efterprøvede mængder, vægt og produktionsklima. En samlet prøve af geometri, materialetal fra `ft-materials` og nedbøjning i FieldCraft står stadig åben. [FieldCrafts geometriimport](https://github.com/tangency-labs/fieldcraft/blob/v0.8.1/README.md#what-it-does-today) · [FieldCrafts materialemodeller](https://github.com/tangency-labs/fieldcraft/blob/v0.8.1/docs/manual/structural/materials.md)
+I hyldeeksemplet har vi gennemført hele forløbet. SolidCraft og BIMCraft gav de samme mængder for en plade og to stålskinner. Rust-værktøjet slog de valgte materialers egenskaber op og sendte stålets stivhed til FieldCraft. Vi overførte skinnen som en flademærket 3MF-fil, så beregningen kunne skelne vægfladen fra den frie ende. Ved en samlet frontlast på 100 N fik hver skinne 50 N. FieldCraft gav 0,851 mm nedbøjning pr. skinne på det fine net. En uafhængig bjælkeformel gav 0,857 mm. [Hylden med modeller og beregninger](../examples/hyldekonsol/README.md) · [FieldCrafts materialemodeller](https://github.com/tangency-labs/fieldcraft/blob/v0.8.1/docs/manual/structural/materials.md)
 
 ## Prøv med din egen AI-agent
 
