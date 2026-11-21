@@ -1,50 +1,42 @@
 # Træsamlinger
 
-To illustrerede fagbøger fra Fremtidens Tegnestue. Begynd med en bygningsdel, følg montagen, og åbn snittet gennem træet.
+Hvorfor kan én bjælke løftes fri, mens en anden først skal skydes sidelæns og have to stifter ud? De to fagbøger følger træet fra den synlige fuge til samlingens indre. Hver bog har en indholdsfortegnelse, fire faglige dele, et alfabetisk register, studietavler og opgaver med gennemarbejdede svar.
 
-| Bog | Læs | Hent | Kapitler |
-| --- | --- | --- | --- |
-| Danske træsamlinger · Læs et hus gennem dets samlinger | [Indhold og modeller](danske/README.md) | [Dansk bog (PDF)](danske/bog.pdf?raw=true) | Lige stød, lige blad, hjørneblad, stolpens tap, kæmning og lask |
-| Japanske træsamlinger · Forstå formen ved at samle den | [Indhold og modeller](japanske/README.md) | [Japansk bog på dansk (PDF)](japanske/bog.pdf?raw=true) | Koshikaketsugi, sogitsugi, aritsugi, aigaki, hirahozo og tome |
+| Anden udgave | Indhold og modeller | Læs hele bogen |
+| --- | --- | --- |
+| **Danske træsamlinger** · 42 sider | [25 samlinger](danske/README.md) fra remmens stød og hageblade til skråbånd, kamme og bræddeprofiler | [PDF](danske/bog.pdf?raw=true) · [HTML til offlinebrug](danske/bog.html?raw=true) |
+| **Japanske træsamlinger** · 36 sider · på dansk | [20 samlinger og forbindelser](japanske/README.md) fra enkle sæder og kryds til skjulte kiler og halvblinde T-ender | [PDF](japanske/bog.pdf?raw=true) · [HTML til offlinebrug](japanske/bog.html?raw=true) |
 
-**Prøv de to bøger sammen.** Åbn [lige blad](danske/lige-blad/README.md) og [koshikaketsugi](japanske/koshikaketsugi/README.md). De har samme demonstrationsmål og synsvinkel. Følg sædet, skuldrene og den bevægelse, der kan åbne forbindelsen igen. Læs derefter de to kilders oplysninger om fastholdelse.
+**Tre måder at bruge bøgerne på**
 
-## Fra vidensbank til originalkilde
+- Skal du registrere et eksisterende hus, kan du begynde med [fire snit gennem en dansk rem](danske/studietavler/pl-lige-blad.md). Følg først støtten og dernæst de synlige skuldre.
+- Skal du forklare en montage, kan du sammenligne [okkake-daisen-tsugi](japanske/okkake/README.md) og [kanawatsugi](japanske/kanawa/README.md). Begge har træstifter, men bjælkerne skal kunne bevæges i forskellige retninger.
+- Skal du vurdere en skjult detalje, kan du gå til [studietavlen om jigokuhozo](japanske/studietavler/pl-jigoku.md). Den viser, hvorfor to separate former er nødvendige for at forklare kilernes virkning.
 
-Vi brugte tegnestuens `vidensbank-soeg` til at finde tekst og billedopslag. Den danske tekstsøgning fandt blandt andet *Kortfattet Lærebog i Husbygning*, PDF-side 56 (trykt side 108–109). Den japanske kombinerede søgning fandt JAANUS’ egne opslag om koshikaketsugi, aigaki, sogitsugi og aritsugi. En separat billedsøgning gav også resultater fra andre byggeområder. Kildevalget bygger på læsning af den relevante originalside. Kapitelhenvisningerne fører til udgiveren.
+## Fra vidensbanken til originalen
 
-```sh
-vidensbank-soeg --tekst 'Tømrerarbejde lige blad lige hjørneblad svalehale blad tap taphul bindingsværk'
-vidensbank-soeg 'Japanese joinery koshikaketsugi aritsugi aigaki hirahozo sogitsugi lap joint mortise timber drawings'
-vidensbank-soeg --billeder 'Tømmer samlinger sidebillede lige blad hageblad hjørneblad tap svalehale'
-```
+Tegnestuens CLI søger i PDF-tekst, billeder og bibliografiske oplysninger. Søgeresultaterne blev brugt til at finde læsesteder. I bøgerne er der direkte henvisninger til de konkrete udgiveropslag, figurer eller PDF-sider. Bøgerne bruger egne modeller og gengiver originalernes principper med valgte illustrationsmål.
 
-## Hvad er efterprøvet?
+[Søgelog med spørgsmål og fund](kildespor.md) · [Originalkilder pr. samling](kilder.tsv)
 
-Hvert kapitel indeholder en placeringsskitse, tre billeder af montagen, et snit og en redigerbar SolidCraft-model. Placeringsskitsens ring viser stedet i en større sammenhæng. Den detaljerede geometri er i de fire følgende billeder. Pilen viser den okkerfarvede dels bevægelsesretning.
+## Modelkontrol
 
-Originalerne er sammenholdt med samlingens form, orientering og eventuel særskilt fastgørelse. Kapitlerne angiver, når forlægget viser en anden variant eller en nagle, et søm eller en anden fastholdelse, som er udeladt i undervisningsmodellen. Illustrationerne er vores egne. Alle mål i tabellen er valgte modelmål i mm. De angiver den samlede models omsluttende kasse langs X, Y og Z. De to bøger deler enkelte grundformer.
+De 45 kapitler har 46 redigerbare SolidCraft-modeller. Jigokuhozo har to, fordi træet ændrer form. For hver model medfølger byggeopskriften samt en køreklar montagekontrol. Tabellen med resultater angiver modelmål i mm, antal legemer og antal kontrollerede stillinger. Målene gælder bogens model.
 
-SolidCraft har kontrolleret, at alle legemer er lukkede, og at deres volumener svarer til de opstillede profiler. Interferenskontrollen er kørt med den bevægelige del i seks afstande fra slutstillingen (32, 16, 8, 4, 1 og 0 mm) langs den viste bane. Alle seks stillinger på hvert opslag gav nul overlap og nul ukontrollerede par. Det er en stikprøve langs en nominelt retlinjet montage. Der er ikke udført værkstedsprøver, dimensionering eller uafhængig tømrermæssig bedømmelse.
+- **280 kontrollerede stillinger.** De lukkede legemer er genåbnet, målt og kontrolleret for indbyrdes overlap ved udvalgte stillinger langs den viste bevægelse. De flertrins samlinger omfatter også indføring af låsene. Ingen af de prøvede tilladte stillinger gav overlap eller ukontrollerede par.
+- **Fem låseprøver.** Her er en ellers låst del bevidst flyttet i en spærret retning. Det målte overlap viser, hvor en stiv geometrisk bevægelse ville tvinge trædelene ind i hinanden. Volumenet måler hverken kraft, friktion eller brudstyrke.
+- **Jigokuhozo.** Den uspredte models sidste stilling har kilerne mod hulbunden. Den udspændte models skulder ligger an, og tapspidsen har luft under sig. Overgangen mellem de to former er en forklaring af mekanismen; den er ikke en elastisk materialesimulering.
 
-| Kapitel | Modelmål X × Y × Z (mm) | Dele |
-| --- | ---: | ---: |
-| [Lige stød](danske/lige-stoed/README.md) | 88 × 20 × 40 | 3 |
-| [Lige blad](danske/lige-blad/README.md) | 92 × 20 × 16 | 2 |
-| [Lige hjørneblad](danske/hjoerneblad/README.md) | 56 × 55 × 16 | 2 |
-| [Stolpens lige tap](danske/tap/README.md) | 76 × 20 × 51 | 2 |
-| [Kæmning ved kryds](danske/kaemning/README.md) | 84 × 74 × 26 | 2 |
-| [Lask over et stød](danske/lask/README.md) | 84 × 18 × 20 | 3 |
-| [腰掛継 · Koshikaketsugi](japanske/koshikaketsugi/README.md) | 92 × 20 × 16 | 2 |
-| [殺継 · Sogitsugi](japanske/sogitsugi/README.md) | 86 × 20 × 14 | 2 |
-| [蟻継 · Aritsugi](japanske/aritsugi/README.md) | 84 × 22 × 9 | 2 |
-| [相欠 · Aigaki](japanske/aigaki/README.md) | 84 × 74 × 16 | 2 |
-| [平ほぞ · Hirahozo](japanske/hirahozo/README.md) | 76 × 20 × 51 | 2 |
-| [留 · Tome](japanske/tome/README.md) | 52 × 52 × 11 | 2 |
+[Alle modeller og kontrolresultater](modelkontrol.tsv) · [Retning og resultat af låseprøverne](laaseproever.tsv)
 
-Kontrollér en model fra denne mappe med SolidCraft CLI.
+### Gentag en kontrol
+
+Kør fra denne mappe. Montageopskriften flytter delene i hukommelsen og måler interferens for hver stilling.
 
 ```sh
-solidcraft-cli eval danske/lige-blad/model.sc
-solidcraft-cli run ../fagordbog/cad/kollision.json --in japanske/aritsugi/model.sc --results
+solidcraft-cli eval danske/hage/model.sc
+solidcraft-cli run japanske/kanawa/montage.json --in japanske/kanawa/model.sc --results
+solidcraft-cli run japanske/jigoku/montage-foer.json --in japanske/jigoku/model-foer.sc --results
 ```
+
+Pasning i træ, fugtbevægelser, brudlast og egnethed i en bestemt bygning er ikke afprøvet for undervisningsmodellerne. Der er ikke foretaget en uafhængig håndværksfaglig bedømmelse.

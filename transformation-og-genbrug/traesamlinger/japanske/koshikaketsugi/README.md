@@ -4,13 +4,13 @@ Ved en forlængelse kan det ene bjælkeemne danne et sæde for det andet. Koshik
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
-![1 · Adskilt – 腰掛継 · Koshikaketsugi](figur-1.svg)
+![1. Adskilt – 腰掛継 · Koshikaketsugi](figur-1.svg)
 
-![2 · Under montage – 腰掛継 · Koshikaketsugi](figur-2.svg)
+![2. Under montage – 腰掛継 · Koshikaketsugi](figur-2.svg)
 
-![3 · Samlet – 腰掛継 · Koshikaketsugi](figur-3.svg)
+![3. Samlet – 腰掛継 · Koshikaketsugi](figur-3.svg)
 
-![4 · Lodret længdesnit – 腰掛継 · Koshikaketsugi](figur-4.svg)
+![4. Lodret snit – 腰掛継 · Koshikaketsugi](figur-4.svg)
 
 ## Samleretningen
 

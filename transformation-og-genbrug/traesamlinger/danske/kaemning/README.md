@@ -4,13 +4,13 @@ Forestil dig to vandrette stykker tømmer i forskellig højde. Ved krydset sænk
 
 ![Kryds i en tømmerramme](placering.svg)
 
-![1 · Adskilt – Kæmning ved kryds](figur-1.svg)
+![1. Adskilt – Kæmning ved kryds](figur-1.svg)
 
-![2 · Under montage – Kæmning ved kryds](figur-2.svg)
+![2. Under montage – Kæmning ved kryds](figur-2.svg)
 
-![3 · Samlet – Kæmning ved kryds](figur-3.svg)
+![3. Samlet – Kæmning ved kryds](figur-3.svg)
 
-![4 · Lodret længdesnit – Kæmning ved kryds](figur-4.svg)
+![4. Lodret snit – Kæmning ved kryds](figur-4.svg)
 
 ## Samleretningen
 

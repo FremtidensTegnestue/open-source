@@ -4,13 +4,13 @@ Følg en vandret tømmerlængde til en forlængelse. Når skuldrene er synlige f
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
-![1 · Adskilt – Lige blad](figur-1.svg)
+![1. Adskilt – Lige blad](figur-1.svg)
 
-![2 · Under montage – Lige blad](figur-2.svg)
+![2. Under montage – Lige blad](figur-2.svg)
 
-![3 · Samlet – Lige blad](figur-3.svg)
+![3. Samlet – Lige blad](figur-3.svg)
 
-![4 · Lodret længdesnit – Lige blad](figur-4.svg)
+![4. Lodret snit – Lige blad](figur-4.svg)
 
 ## Samleretningen
 

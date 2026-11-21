@@ -4,13 +4,13 @@ En stolpe kan slutte i en rektangulær tap med skuldre omkring. JAANUS skelner b
 
 ![Stolpefod i et vægfag](placering.svg)
 
-![1 · Adskilt – 平ほぞ · Hirahozo](figur-1.svg)
+![1. Adskilt – 平ほぞ · Hirahozo](figur-1.svg)
 
-![2 · Under montage – 平ほぞ · Hirahozo](figur-2.svg)
+![2. Under montage – 平ほぞ · Hirahozo](figur-2.svg)
 
-![3 · Samlet – 平ほぞ · Hirahozo](figur-3.svg)
+![3. Samlet – 平ほぞ · Hirahozo](figur-3.svg)
 
-![4 · Lodret længdesnit – 平ほぞ · Hirahozo](figur-4.svg)
+![4. Lodret snit – 平ほぞ · Hirahozo](figur-4.svg)
 
 ## Samleretningen
 

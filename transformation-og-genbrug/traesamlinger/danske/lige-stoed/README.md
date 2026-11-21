@@ -4,13 +4,13 @@ Se op langs en vandret rem til det sted, hvor to længder tømmer mødes over en
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
-![1 · Adskilt – Lige stød](figur-1.svg)
+![1. Adskilt – Lige stød](figur-1.svg)
 
-![2 · Under montage – Lige stød](figur-2.svg)
+![2. Under montage – Lige stød](figur-2.svg)
 
-![3 · Samlet – Lige stød](figur-3.svg)
+![3. Samlet – Lige stød](figur-3.svg)
 
-![4 · Lodret længdesnit – Lige stød](figur-4.svg)
+![4. Lodret snit – Lige stød](figur-4.svg)
 
 ## Samleretningen
 

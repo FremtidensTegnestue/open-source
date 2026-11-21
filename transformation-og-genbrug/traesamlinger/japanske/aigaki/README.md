@@ -4,13 +4,13 @@ Følg to emner, der krydser vinkelret. Aigaki bruges også ved hjørner. Her und
 
 ![Kryds i en tømmerramme](placering.svg)
 
-![1 · Adskilt – 相欠 · Aigaki](figur-1.svg)
+![1. Adskilt – 相欠 · Aigaki](figur-1.svg)
 
-![2 · Under montage – 相欠 · Aigaki](figur-2.svg)
+![2. Under montage – 相欠 · Aigaki](figur-2.svg)
 
-![3 · Samlet – 相欠 · Aigaki](figur-3.svg)
+![3. Samlet – 相欠 · Aigaki](figur-3.svg)
 
-![4 · Vandret snit – 相欠 · Aigaki](figur-4.svg)
+![4. Vandret snit – 相欠 · Aigaki](figur-4.svg)
 
 ## Samleretningen
 

@@ -4,13 +4,13 @@ To brædder mødes ende mod ende. På fladsiden ses en tap, der er bredere ved h
 
 ![Bræddeende i en ramme](placering.svg)
 
-![1 · Adskilt – 蟻継 · Aritsugi](figur-1.svg)
+![1. Adskilt – 蟻継 · Aritsugi](figur-1.svg)
 
-![2 · Under montage – 蟻継 · Aritsugi](figur-2.svg)
+![2. Under montage – 蟻継 · Aritsugi](figur-2.svg)
 
-![3 · Samlet – 蟻継 · Aritsugi](figur-3.svg)
+![3. Samlet – 蟻継 · Aritsugi](figur-3.svg)
 
-![4 · Vandret snit – 蟻継 · Aritsugi](figur-4.svg)
+![4. Vandret snit – 蟻継 · Aritsugi](figur-4.svg)
 
 ## Samleretningen
 

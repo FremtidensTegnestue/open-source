@@ -4,13 +4,13 @@ Ved en samling med lask er der et tredje stykke at finde. Det kan krydse en fuge
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
-![1 · Adskilt – Lask over et stød](figur-1.svg)
+![1. Lask fri af stødet – Lask over et stød](figur-1.svg)
 
-![2 · Under montage – Lask over et stød](figur-2.svg)
+![2. Under montage – Lask over et stød](figur-2.svg)
 
-![3 · Samlet – Lask over et stød](figur-3.svg)
+![3. Samlet – Lask over et stød](figur-3.svg)
 
-![4 · Lodret længdesnit – Lask over et stød](figur-4.svg)
+![4. Lodret snit – Lask over et stød](figur-4.svg)
 
 ## Samleretningen
 

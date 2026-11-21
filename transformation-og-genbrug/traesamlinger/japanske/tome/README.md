@@ -4,13 +4,13 @@ På et synligt listehjørne kan fugen halvere hjørnets vinkel. JAANUS beskriver
 
 ![Geringshjørne i en liste](placering.svg)
 
-![1 · Adskilt – 留 · Tome](figur-1.svg)
+![1. Adskilt – 留 · Tome](figur-1.svg)
 
-![2 · Under montage – 留 · Tome](figur-2.svg)
+![2. Under montage – 留 · Tome](figur-2.svg)
 
-![3 · Samlet – 留 · Tome](figur-3.svg)
+![3. Samlet – 留 · Tome](figur-3.svg)
 
-![4 · Vandret snit – 留 · Tome](figur-4.svg)
+![4. Vandret snit – 留 · Tome](figur-4.svg)
 
 ## Samleretningen
 

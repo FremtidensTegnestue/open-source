@@ -4,13 +4,13 @@ Ved foden af et bindingsværksfag står stolpens ende over fodremmen. Den synlig
 
 ![Stolpefod i et vægfag](placering.svg)
 
-![1 · Adskilt – Stolpens lige tap](figur-1.svg)
+![1. Adskilt – Stolpens lige tap](figur-1.svg)
 
-![2 · Under montage – Stolpens lige tap](figur-2.svg)
+![2. Under montage – Stolpens lige tap](figur-2.svg)
 
-![3 · Samlet – Stolpens lige tap](figur-3.svg)
+![3. Samlet – Stolpens lige tap](figur-3.svg)
 
-![4 · Lodret længdesnit – Stolpens lige tap](figur-4.svg)
+![4. Lodret snit – Stolpens lige tap](figur-4.svg)
 
 ## Samleretningen
 

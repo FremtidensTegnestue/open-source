@@ -4,13 +4,13 @@ Forestil dig et let spær, der skal forlænges. I stedet for en kort endeflade k
 
 ![Forlængelse langs et spær](placering.svg)
 
-![1 · Adskilt – 殺継 · Sogitsugi](figur-1.svg)
+![1. Adskilt – 殺継 · Sogitsugi](figur-1.svg)
 
-![2 · Under montage – 殺継 · Sogitsugi](figur-2.svg)
+![2. Under montage – 殺継 · Sogitsugi](figur-2.svg)
 
-![3 · Samlet – 殺継 · Sogitsugi](figur-3.svg)
+![3. Samlet – 殺継 · Sogitsugi](figur-3.svg)
 
-![4 · Lodret længdesnit – 殺継 · Sogitsugi](figur-4.svg)
+![4. Lodret snit – 殺継 · Sogitsugi](figur-4.svg)
 
 ## Samleretningen
 
