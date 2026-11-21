@@ -1,4 +1,10 @@
-# Illustreret fagordbog · Når tag og ydermur mødes
+# Illustreret fagordbog for byggeriet
+
+**[Alle 14 emneblade og det alfabetiske register](OVERSIGT.md)** · **[Hent den samlede fagordbog som PDF](fagordbog.pdf?raw=true)** · [Åbn vinduet som første øvelse](vindue/README.md)
+
+Fagordbogen har 110 opslag i fem etaper. Gå fra den del, du kan pege på, til navnet og originalkilden, eller slå ordet op og find det på tegningen. Herunder finder du det første blad.
+
+## Når tag og ydermur mødes
 
 Du står på gaden, kigger op og ser, at taget bliver fladere lige over muren. Hvad kalder man det lille svaj? Eller tømreren har skrevet *trempel* på en tegning. Hvor skal du kigge? Her kan du finde ordet ud fra formen og formen ud fra ordet.
 

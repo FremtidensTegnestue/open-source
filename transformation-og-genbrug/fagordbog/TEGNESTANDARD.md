@@ -13,6 +13,8 @@ Vi bruger den lyse palette og typografi fra [fremtidenstegnestue.dk](https://fre
 - Markér ét fagligt spørgsmål ad gangen. Kald en principskitse »uden mål«. Ved en opmåling skal kilde, målestok, enhed og måleusikkerhed stå på bladet.
 - Skriv en billedbeskrivelse og en nummerliste, der også fungerer uden farver eller mus. Originalerne skal kunne åbnes hos udgiveren.
 
+For hele udgaven findes et [bladregister](OVERSIGT.md) og [kontrolresultater for alle fem etaper](KONTROL.md).
+
 ## Sådan er de første snit bygget og kontrolleret
 
 [Tegneopskriften](cad/tagsnit.json) opbygger to selvstændige profilsnit i SolidCraft. Hver del har en lukket skitse i XZ-planet, eget navn og 100 mm ekstrudering. Dybden og profilernes mål er illustrative. A viser en muret trempel, B en opskalket tagfod. [Åbn den redigerbare SolidCraft-model](cad/tagsnit.sc).

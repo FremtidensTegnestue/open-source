@@ -4,7 +4,7 @@ En arkitekt skal kunne finde et ord til en tegningsnote. En lærling eller en be
 
 ## Atlas over bygningen
 
-Rækkefølgen er et forslag. Første række er udgivet i en første udgave. De øvrige rækker er planlagt indhold.
+Alle fem etaper er nu udgivet som en første, kildekontrolleret udgave. [Vælg et af de 14 emneblade](OVERSIGT.md) · [Se kontrolstatus og de udestående læserprøver](KONTROL.md).
 
 | Etape | Motiv og fagord | Hvad skal læseren kunne kende forskel på? |
 | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 | Det står du med | Begynd her |
 | --- | --- |
-| Du kan pege på en bygningsdel, men mangler ordet, eller vil se en skalk eller en trempel på et tagsnit | [Illustreret fagordbog](../fagordbog/README.md) |
+| Du kan pege på en bygningsdel, men mangler ordet, eller vil se delen på en tegning | [Illustreret fagordbog](../fagordbog/README.md) |
 | I vil se, om huset kan rumme en anden brug, før I køber, udvider eller river ned | [Bygningens muligheder](bygningen.md) |
 | En ny plan ændrer lys, adgang, husleje eller hverdagen under byggeriet | [Mennesker og boligkvalitet](mennesker.md) |
 | Du har fundet revner, vand i kælderen eller en konstruktion, som skal bære eller beskytte på en ny måde | [Byggeteknik](byggeteknik.md) |
