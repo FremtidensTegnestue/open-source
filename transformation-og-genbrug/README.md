@@ -6,6 +6,8 @@ Hvad kan en bygning blive til med det, der allerede er der? Vi vil undersøge, h
 
 **[Se danske bygninger før og efter transformation](atlas/README.md)**. Find plantegninger fra husopdelinger, regnskaber for genbrugsdele, observationer efter års drift og erfaringer fra både tilbageflyttede og fraflyttede beboere.
 
+**Hvad hedder den del af huset?** Peg på en detalje i et tagsnit, eller slå et ord op og find det på tegningen. [Prøv den illustrerede fagordbog](fagordbog/README.md)
+
 ## Hvad vil vi gerne finde ud af?
 
 - **Bygningen.** Kan den rumme den ønskede brug med færre indgreb? Hvilke rum, dagslysforhold og spor af tidligere brug er værd at bevare?
