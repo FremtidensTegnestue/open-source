@@ -55,11 +55,11 @@ def normalize_offer(raw):
     """Never infer identity, VAT, discounts or pack size from a product name."""
     r = dict(raw)
     for key in ('supplier_id', 'supplier_name', 'account_id', 'sku', 'product_id',
-                'mapping_reference', 'source_url', 'observed_on', 'review_on'):
+                'mapping_reference', 'observed_on', 'review_on'):
         identifier(r, key)
     if r.get('currency') != 'DKK' or r.get('unit') not in UNITS:
         raise ValueError('Kun DKK og eksplicit understøttet fysisk enhed')
-    if r.get('kind') not in ('budget_reference', 'quote', 'test'):
+    if r.get('kind') not in ('budget_reference', 'quote', 'test', 'estimate'):
         raise ValueError('Ukendt priskildetype')
     if r.get('origin') not in ('nyt', 'genbrug', 'eksisterende'):
         raise ValueError('Oprindelse skal angives')
@@ -89,7 +89,12 @@ def normalize_offer(raw):
         amount *= 1 - discount / 100
     elif r.get('price_basis') != 'net' or discount not in (None, '', 0, '0'):
         raise ValueError('Nettopris må ikke få rabat igen; listepris kræver rabatgrundlag')
-    https_url(r['source_url'])
+    if r['kind'] == 'estimate':
+        identifier(r, 'source_reference')
+        if r.get('source_url'):
+            https_url(r['source_url'])
+    else:
+        https_url(identifier(r, 'source_url'))
     for key in ('price_quantity', 'purchase_step'):
         number(r.get(key), positive=True)
     number(r.get('minimum_quantity'))
@@ -386,7 +391,8 @@ def assess(project, store, as_of, allow_test=False):
             purchase, cost = (None, None) if remaining is None else cost_for(offer, remaining)
             option = {'offer_id': offer['id'], 'supplier_id': raw['supplier_id'], 'supplier_name': raw['supplier_name'],
                       'sku': raw['sku'], 'account_id': raw['account_id'], 'kind': raw['kind'], 'availability': raw['availability'],
-                      'observed_on': raw['observed_on'], 'review_on': raw['review_on'], 'source_url': raw['source_url'],
+                      'observed_on': raw['observed_on'], 'review_on': raw['review_on'], 'source_url': raw.get('source_url'),
+                      'source_reference': raw.get('source_reference'),
                       'purchase_quantity': None if purchase is None else str(purchase),
                       'goods_excl_vat': None if cost is None or issues else cash(cost), 'issues': issues}
             row['options'].append(option)
@@ -469,8 +475,9 @@ def render(report):
         for o in line['options']:
             chosen = line['selected'] and line['selected']['offer_id'] == o['offer_id']
             cost = 'Uafklaret' if o['goods_excl_vat'] is None else fmt(o['goods_excl_vat']) + ' kr.'
-            label = 'TESTDATA' if o['kind'] == 'test' else ('Tilbud' if o['kind'] == 'quote' else 'Budgetreference')
-            options.append(f"<li><b>{e(o['supplier_name'])}</b> {'· Valgt' if chosen else ''}: {cost} · {label}<br><small>Indkøb: {fmt(o['purchase_quantity'])} {e(line['unit'])} · Pris observeret {e(o['observed_on'])} · {e(availability[o['availability']])} · <a href='{e(o['source_url'])}'>Kilde</a> {e('; '.join(o['issues']))}</small></li>")
+            label = {'test':'TESTDATA','quote':'Tilbud','estimate':'Eget overslag'}.get(o['kind'],'Budgetreference')
+            source = f"<a href='{e(o['source_url'])}'>Kilde</a>" if o.get('source_url') else e(o.get('source_reference') or 'Kilde mangler')
+            options.append(f"<li><b>{e(o['supplier_name'])}</b> {'· Valgt' if chosen else ''}: {cost} · {label}<br><small>Indkøb: {fmt(o['purchase_quantity'])} {e(line['unit'])} · Pris observeret {e(o['observed_on'])} · {e(availability[o['availability']])} · {source} {e('; '.join(o['issues']))}</small></li>")
         rows.append(f"<tr><td><b>{e(line['label'])}</b><br><small>Behov inkl. tillæg: {fmt(line['required_quantity'])} {e(line['unit'])}<br>Ikke bestilt: {fmt(line['unordered_quantity'])}</small></td><td><ul>{''.join(options) or '<li>Ingen sammenlignelig pris</li>'}</ul></td><td>{fmt(line['actual_excl_vat'])} kr.</td><td>{fmt(line['committed_remaining_excl_vat'])} kr.</td><td>{fmt(line['estimated_unordered_excl_vat']) if line['estimated_unordered_excl_vat'] is not None else 'Mangler'} kr.</td></tr>")
     rate_labels = {'contractor_rate':'Faktureret timepris ekskl. moms', 'employer_cost':'Samlet lønomkostning', 'gross_wage':'Bruttotimeløn med angivne tillæg'}
     labor_rows = ''.join(f"<tr><td>{e(x['label'])}</td><td>{fmt(x['hours'])}</td><td>{fmt(x['hourly_rate'])} kr.<br><small>{e(rate_labels[x['rate_basis']])}</small></td><td>{fmt(x['additional_excl_vat'])} kr.<br><small>{'Indeholdt i '+e(x['included_in_line_id']) if x['included_in_line_id'] else e('; '.join(x['issues']))}</small></td></tr>" for x in report['labor'])

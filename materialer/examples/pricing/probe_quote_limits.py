@@ -74,8 +74,8 @@ try:
     pricing.normalize_offer(raw(kind='estimate'))
 except ValueError as error:
     result['findings'].append(dict(id='estimate-kind', observed={'error':str(error)},
-        meaning='Internal estimating has no dedicated price-kind contract; current supported budget_reference must retain honest provenance.'))
+        meaning='An internal estimate without source_reference is rejected. Dated local estimates with an explicit source_reference are now supported.'))
 else:
-    raise AssertionError('Expected unsupported estimate kind')
+    raise AssertionError('Expected estimate without provenance to be rejected')
 
 print(json.dumps(result, ensure_ascii=False, indent=2))

@@ -14,3 +14,11 @@ This repository has a generated `openwiki/` evidence index. It is optional just-
 Use the repository's documented maintenance process to refresh generated pages after source changes. Check its configuration and completed runs before relying on automatic updates. Do not hand-edit generated OpenWiki pages unless explicitly asked; prefer updating source code/docs and letting OpenWiki regenerate.
 
 <!-- OPENWIKI:END -->
+
+## Live modelkobling
+
+Ved flere lokale CAD-instanser er discoveryfilens seneste port ikke automatisk brugerens synlige vindue. Kontrollér appinstans, dokument/projektidentitet og faktisk UI hver for sig, og fasthold den valgte forbindelse under arbejdet. Bevar eksisterende dokumenter og ugemte tilstande; en fungerende baggrundssession er ikke bevis for brugerens oplevelse. Se facadeeksemplets dokumenterede afgrænsning og acceptprøver før et nyt live-/panel-løfte.
+
+## Enkel og ærlig regnskabsvisning
+
+Vis først konsekvens og få konkrete næste handlinger; fold kilde-/grundlagsdetaljer ud efter behov. Nye parametre skal have en konkret beslutning, beregning eller afklaring som modtager. Registreret dokumentation er ikke teknisk eftervist; en levetid og et hændelsesantal er ikke en beregnet livscyklus. Skift af valgt del/fag i en formular er visningskontekst og må ikke skabe nye input eller gøre ukendte felter til nul. Se den faktiske facadefunktion og docs/DESIGN-TOOL-REVIEW-2026-11-21.md før nye produktløfter.

@@ -1,0 +1,4231 @@
+{
+  "format": "solidcraft/58",
+  "name": "Facade-eksempel",
+  "units": "mm",
+  "metadata": {
+    "com.fremtidenstegnestue.facade": {
+      "bindings": {
+        "1": "plywood",
+        "10": "vent",
+        "11": "frame",
+        "12": "vent",
+        "13": "frame",
+        "14": "frame",
+        "15": "slate",
+        "16": "slate",
+        "17": "slate",
+        "18": "slate",
+        "19": "slate_battens",
+        "2": "windboard",
+        "20": "slate",
+        "21": "slate",
+        "22": "slate",
+        "23": "slate",
+        "24": "slate_battens",
+        "25": "slate",
+        "26": "slate",
+        "27": "slate",
+        "28": "slate",
+        "29": "slate_battens",
+        "3": "frame",
+        "30": "slate",
+        "31": "slate",
+        "32": "slate",
+        "33": "slate",
+        "34": "slate_battens",
+        "35": "slate",
+        "36": "slate",
+        "37": "slate",
+        "38": "slate",
+        "39": "slate_battens",
+        "4": "vent",
+        "40": "slate",
+        "41": "slate",
+        "42": "slate",
+        "43": "slate",
+        "44": "slate_battens",
+        "45": "slate",
+        "46": "slate",
+        "47": "slate",
+        "48": "slate",
+        "49": "slate_battens",
+        "5": "frame",
+        "50": "slate",
+        "51": "slate",
+        "52": "slate",
+        "53": "slate",
+        "54": "slate_battens",
+        "55": "wood",
+        "56": "wood",
+        "57": "wood",
+        "58": "wood",
+        "59": "wood",
+        "6": "vent",
+        "60": "wood",
+        "61": "wood",
+        "62": "wood",
+        "63": "wood",
+        "64": "wood",
+        "65": "wood",
+        "66": "wood",
+        "67": "wood",
+        "68": "wood",
+        "69": "wood",
+        "7": "frame",
+        "70": "wood",
+        "8": "vent",
+        "9": "frame"
+      },
+      "element_id": "facade-01",
+      "project_id": "example-facade",
+      "schema": 1,
+      "scope": "Åben facadeprøve; faste5 stolpelinjer og visningsgrid, ikke produktformat"
+    },
+    "description": "Live facadeprøve. Ret mål/materiale i Parameters. Regnskab følger via lokal facade_live."
+  },
+  "params": [
+    {
+      "name": "Facade_bredde",
+      "expr": "2400",
+      "unit": "mm",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning",
+      "model": false
+    },
+    {
+      "name": "Facade_hoejde",
+      "expr": "2400",
+      "unit": "mm",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning",
+      "model": false
+    },
+    {
+      "name": "Trae_tykkelse",
+      "expr": "22",
+      "unit": "mm",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning",
+      "model": false
+    },
+    {
+      "name": "Krydsfiner_tykkelse",
+      "expr": "22",
+      "unit": "mm",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning",
+      "model": false
+    },
+    {
+      "name": "Beklaedning",
+      "expr": "0",
+      "unit": "",
+      "comment": "0=skifer, 1=træ",
+      "model": false
+    },
+    {
+      "name": "Indkoebstillæg_procent",
+      "expr": "5",
+      "unit": "",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning",
+      "model": false
+    },
+    {
+      "name": "Skifer_indkoebstillæg_procent",
+      "expr": "10",
+      "unit": "",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning",
+      "model": false
+    },
+    {
+      "name": "Pris_skelet_m",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_ventlaegte_m",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_krydsfiner_m2",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_vindplade_m2",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_skifer_m2",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_skiferlaegte_m",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_trae_m2",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_skruer_stk",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_clips_stk",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Timer_skifer_pr_m2",
+      "expr": "-1",
+      "unit": "",
+      "comment": "Eget montageoverslag i persontimer pr. m² facade; -1=ukendt",
+      "model": false
+    },
+    {
+      "name": "Timer_trae_pr_m2",
+      "expr": "-1",
+      "unit": "",
+      "comment": "Eget montageoverslag i persontimer pr. m² facade; -1=ukendt",
+      "model": false
+    },
+    {
+      "name": "Timepris",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Levering",
+      "expr": "-1",
+      "unit": "",
+      "comment": "-1=ukendt; priser DKK ekskl.moms, egne daterede skøn",
+      "model": false
+    },
+    {
+      "name": "Pris_trae_gaelder_mm",
+      "expr": "22",
+      "unit": "mm",
+      "comment": "Træpris gælder kun denne tykkelse; afstem ved ændring",
+      "model": false
+    },
+    {
+      "name": "Pris_krydsfiner_gaelder_mm",
+      "expr": "22",
+      "unit": "mm",
+      "comment": "Krydsfinerpris gælder kun denne tykkelse; afstem ved ændring",
+      "model": false
+    }
+  ],
+  "text_params": [
+    {
+      "name": "Prisgrundlag",
+      "text": "Ikke oplyst",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning"
+    },
+    {
+      "name": "Pris_dato",
+      "text": "2026-11-21",
+      "comment": "Afgrænset facadeprøve; regnskab i lokal beregningsvisning"
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "name": "F56_Krydsfiner",
+      "suppressed": false,
+      "body_names": [
+        "F56_Krydsfiner"
+      ],
+      "param_names": [
+        "d1",
+        "d2",
+        "d3"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        145.0,
+        0.0
+      ],
+      "length": "Facade_bredde",
+      "width": "Krydsfiner_tykkelse",
+      "height": "Facade_hoejde",
+      "operation": "new_body"
+    },
+    {
+      "id": 2,
+      "name": "F56_Vindplade",
+      "suppressed": false,
+      "body_names": [
+        "F56_Vindplade"
+      ],
+      "param_names": [
+        "d4",
+        "d5",
+        "d6"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -12.0,
+        0.0
+      ],
+      "length": "Facade_bredde",
+      "width": "12",
+      "height": "Facade_hoejde",
+      "operation": "new_body"
+    },
+    {
+      "id": 3,
+      "name": "F56_Stolpe_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Stolpe_0"
+      ],
+      "param_names": [
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        0.0,
+        45.0
+      ],
+      "length": "45",
+      "width": "145",
+      "height": "Facade_hoejde-90",
+      "operation": "new_body"
+    },
+    {
+      "id": 4,
+      "name": "F56_Vent_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Vent_0"
+      ],
+      "param_names": [
+        "d10",
+        "d11",
+        "d12"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -40.0,
+        0.0
+      ],
+      "length": "45",
+      "width": "28",
+      "height": "Facade_hoejde",
+      "operation": "new_body"
+    },
+    {
+      "id": 5,
+      "name": "F56_Stolpe_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Stolpe_1"
+      ],
+      "param_names": [
+        "d13",
+        "d14",
+        "d15"
+      ],
+      "type": "box",
+      "corner": [
+        "(Facade_bredde-45)*1/4",
+        0.0,
+        45.0
+      ],
+      "length": "45",
+      "width": "145",
+      "height": "Facade_hoejde-90",
+      "operation": "new_body"
+    },
+    {
+      "id": 6,
+      "name": "F56_Vent_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Vent_1"
+      ],
+      "param_names": [
+        "d16",
+        "d17",
+        "d18"
+      ],
+      "type": "box",
+      "corner": [
+        "(Facade_bredde-45)*1/4",
+        -40.0,
+        0.0
+      ],
+      "length": "45",
+      "width": "28",
+      "height": "Facade_hoejde",
+      "operation": "new_body"
+    },
+    {
+      "id": 7,
+      "name": "F56_Stolpe_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Stolpe_2"
+      ],
+      "param_names": [
+        "d19",
+        "d20",
+        "d21"
+      ],
+      "type": "box",
+      "corner": [
+        "(Facade_bredde-45)*2/4",
+        0.0,
+        45.0
+      ],
+      "length": "45",
+      "width": "145",
+      "height": "Facade_hoejde-90",
+      "operation": "new_body"
+    },
+    {
+      "id": 8,
+      "name": "F56_Vent_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Vent_2"
+      ],
+      "param_names": [
+        "d22",
+        "d23",
+        "d24"
+      ],
+      "type": "box",
+      "corner": [
+        "(Facade_bredde-45)*2/4",
+        -40.0,
+        0.0
+      ],
+      "length": "45",
+      "width": "28",
+      "height": "Facade_hoejde",
+      "operation": "new_body"
+    },
+    {
+      "id": 9,
+      "name": "F56_Stolpe_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Stolpe_3"
+      ],
+      "param_names": [
+        "d25",
+        "d26",
+        "d27"
+      ],
+      "type": "box",
+      "corner": [
+        "(Facade_bredde-45)*3/4",
+        0.0,
+        45.0
+      ],
+      "length": "45",
+      "width": "145",
+      "height": "Facade_hoejde-90",
+      "operation": "new_body"
+    },
+    {
+      "id": 10,
+      "name": "F56_Vent_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Vent_3"
+      ],
+      "param_names": [
+        "d28",
+        "d29",
+        "d30"
+      ],
+      "type": "box",
+      "corner": [
+        "(Facade_bredde-45)*3/4",
+        -40.0,
+        0.0
+      ],
+      "length": "45",
+      "width": "28",
+      "height": "Facade_hoejde",
+      "operation": "new_body"
+    },
+    {
+      "id": 11,
+      "name": "F56_Stolpe_4",
+      "suppressed": false,
+      "body_names": [
+        "F56_Stolpe_4"
+      ],
+      "param_names": [
+        "d31",
+        "d32",
+        "d33"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde-45",
+        0.0,
+        45.0
+      ],
+      "length": "45",
+      "width": "145",
+      "height": "Facade_hoejde-90",
+      "operation": "new_body"
+    },
+    {
+      "id": 12,
+      "name": "F56_Vent_4",
+      "suppressed": false,
+      "body_names": [
+        "F56_Vent_4"
+      ],
+      "param_names": [
+        "d34",
+        "d35",
+        "d36"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde-45",
+        -40.0,
+        0.0
+      ],
+      "length": "45",
+      "width": "28",
+      "height": "Facade_hoejde",
+      "operation": "new_body"
+    },
+    {
+      "id": 13,
+      "name": "F56_Rem_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Rem_0"
+      ],
+      "param_names": [
+        "d37",
+        "d38",
+        "d39"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "length": "Facade_bredde",
+      "width": "145",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 14,
+      "name": "F56_Rem_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Rem_1"
+      ],
+      "param_names": [
+        "d40",
+        "d41",
+        "d42"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        0.0,
+        "Facade_hoejde-45"
+      ],
+      "length": "Facade_bredde",
+      "width": "145",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 15,
+      "name": "F56_Skifer_0_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_0_0"
+      ],
+      "param_names": [
+        "d43",
+        "d44",
+        "d45"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*0/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 16,
+      "name": "F56_Skifer_0_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_0_1"
+      ],
+      "param_names": [
+        "d46",
+        "d47",
+        "d48"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*0/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 17,
+      "name": "F56_Skifer_0_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_0_2"
+      ],
+      "param_names": [
+        "d49",
+        "d50",
+        "d51"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*0/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 18,
+      "name": "F56_Skifer_0_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_0_3"
+      ],
+      "param_names": [
+        "d52",
+        "d53",
+        "d54"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*0/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 19,
+      "name": "F56_Skiferlaegte_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_0"
+      ],
+      "param_names": [
+        "d55",
+        "d56",
+        "d57"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(0+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 20,
+      "name": "F56_Skifer_1_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_1_0"
+      ],
+      "param_names": [
+        "d58",
+        "d59",
+        "d60"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*1/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 21,
+      "name": "F56_Skifer_1_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_1_1"
+      ],
+      "param_names": [
+        "d61",
+        "d62",
+        "d63"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*1/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 22,
+      "name": "F56_Skifer_1_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_1_2"
+      ],
+      "param_names": [
+        "d64",
+        "d65",
+        "d66"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*1/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 23,
+      "name": "F56_Skifer_1_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_1_3"
+      ],
+      "param_names": [
+        "d67",
+        "d68",
+        "d69"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*1/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 24,
+      "name": "F56_Skiferlaegte_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_1"
+      ],
+      "param_names": [
+        "d70",
+        "d71",
+        "d72"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(1+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 25,
+      "name": "F56_Skifer_2_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_2_0"
+      ],
+      "param_names": [
+        "d73",
+        "d74",
+        "d75"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*2/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 26,
+      "name": "F56_Skifer_2_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_2_1"
+      ],
+      "param_names": [
+        "d76",
+        "d77",
+        "d78"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*2/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 27,
+      "name": "F56_Skifer_2_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_2_2"
+      ],
+      "param_names": [
+        "d79",
+        "d80",
+        "d81"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*2/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 28,
+      "name": "F56_Skifer_2_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_2_3"
+      ],
+      "param_names": [
+        "d82",
+        "d83",
+        "d84"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*2/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 29,
+      "name": "F56_Skiferlaegte_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_2"
+      ],
+      "param_names": [
+        "d85",
+        "d86",
+        "d87"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(2+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 30,
+      "name": "F56_Skifer_3_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_3_0"
+      ],
+      "param_names": [
+        "d88",
+        "d89",
+        "d90"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*3/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 31,
+      "name": "F56_Skifer_3_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_3_1"
+      ],
+      "param_names": [
+        "d91",
+        "d92",
+        "d93"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*3/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 32,
+      "name": "F56_Skifer_3_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_3_2"
+      ],
+      "param_names": [
+        "d94",
+        "d95",
+        "d96"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*3/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 33,
+      "name": "F56_Skifer_3_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_3_3"
+      ],
+      "param_names": [
+        "d97",
+        "d98",
+        "d99"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*3/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 34,
+      "name": "F56_Skiferlaegte_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_3"
+      ],
+      "param_names": [
+        "d100",
+        "d101",
+        "d102"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(3+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 35,
+      "name": "F56_Skifer_4_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_4_0"
+      ],
+      "param_names": [
+        "d103",
+        "d104",
+        "d105"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*4/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 36,
+      "name": "F56_Skifer_4_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_4_1"
+      ],
+      "param_names": [
+        "d106",
+        "d107",
+        "d108"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*4/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 37,
+      "name": "F56_Skifer_4_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_4_2"
+      ],
+      "param_names": [
+        "d109",
+        "d110",
+        "d111"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*4/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 38,
+      "name": "F56_Skifer_4_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_4_3"
+      ],
+      "param_names": [
+        "d112",
+        "d113",
+        "d114"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*4/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 39,
+      "name": "F56_Skiferlaegte_4",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_4"
+      ],
+      "param_names": [
+        "d115",
+        "d116",
+        "d117"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(4+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 40,
+      "name": "F56_Skifer_5_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_5_0"
+      ],
+      "param_names": [
+        "d118",
+        "d119",
+        "d120"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*5/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 41,
+      "name": "F56_Skifer_5_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_5_1"
+      ],
+      "param_names": [
+        "d121",
+        "d122",
+        "d123"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*5/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 42,
+      "name": "F56_Skifer_5_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_5_2"
+      ],
+      "param_names": [
+        "d124",
+        "d125",
+        "d126"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*5/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 43,
+      "name": "F56_Skifer_5_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_5_3"
+      ],
+      "param_names": [
+        "d127",
+        "d128",
+        "d129"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*5/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 44,
+      "name": "F56_Skiferlaegte_5",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_5"
+      ],
+      "param_names": [
+        "d130",
+        "d131",
+        "d132"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(5+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 45,
+      "name": "F56_Skifer_6_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_6_0"
+      ],
+      "param_names": [
+        "d133",
+        "d134",
+        "d135"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*6/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 46,
+      "name": "F56_Skifer_6_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_6_1"
+      ],
+      "param_names": [
+        "d136",
+        "d137",
+        "d138"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*6/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 47,
+      "name": "F56_Skifer_6_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_6_2"
+      ],
+      "param_names": [
+        "d139",
+        "d140",
+        "d141"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*6/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 48,
+      "name": "F56_Skifer_6_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_6_3"
+      ],
+      "param_names": [
+        "d142",
+        "d143",
+        "d144"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*6/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 49,
+      "name": "F56_Skiferlaegte_6",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_6"
+      ],
+      "param_names": [
+        "d145",
+        "d146",
+        "d147"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(6+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 50,
+      "name": "F56_Skifer_7_0",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_7_0"
+      ],
+      "param_names": [
+        "d148",
+        "d149",
+        "d150"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*0/4+5",
+        -73.0,
+        "Facade_hoejde*7/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 51,
+      "name": "F56_Skifer_7_1",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_7_1"
+      ],
+      "param_names": [
+        "d151",
+        "d152",
+        "d153"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*1/4+5",
+        -73.0,
+        "Facade_hoejde*7/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 52,
+      "name": "F56_Skifer_7_2",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_7_2"
+      ],
+      "param_names": [
+        "d154",
+        "d155",
+        "d156"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*2/4+5",
+        -73.0,
+        "Facade_hoejde*7/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 53,
+      "name": "F56_Skifer_7_3",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skifer_7_3"
+      ],
+      "param_names": [
+        "d157",
+        "d158",
+        "d159"
+      ],
+      "type": "box",
+      "corner": [
+        "Facade_bredde*3/4+5",
+        -73.0,
+        "Facade_hoejde*7/8+5"
+      ],
+      "length": "Facade_bredde/4-10",
+      "width": "8",
+      "height": "Facade_hoejde/8-10",
+      "operation": "new_body"
+    },
+    {
+      "id": 54,
+      "name": "F56_Skiferlaegte_7",
+      "suppressed": false,
+      "body_names": [
+        "F56_Skiferlaegte_7"
+      ],
+      "param_names": [
+        "d160",
+        "d161",
+        "d162"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        -65.0,
+        "Facade_hoejde*(7+.5)/8-22.5"
+      ],
+      "length": "Facade_bredde",
+      "width": "25",
+      "height": "45",
+      "operation": "new_body"
+    },
+    {
+      "id": 55,
+      "name": "F56_Braet_0",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_0"
+      ],
+      "param_names": [
+        "d163",
+        "d164",
+        "d165"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*0/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 56,
+      "name": "F56_Braet_1",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_1"
+      ],
+      "param_names": [
+        "d166",
+        "d167",
+        "d168"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*1/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 57,
+      "name": "F56_Braet_2",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_2"
+      ],
+      "param_names": [
+        "d169",
+        "d170",
+        "d171"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*2/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 58,
+      "name": "F56_Braet_3",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_3"
+      ],
+      "param_names": [
+        "d172",
+        "d173",
+        "d174"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*3/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 59,
+      "name": "F56_Braet_4",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_4"
+      ],
+      "param_names": [
+        "d175",
+        "d176",
+        "d177"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*4/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 60,
+      "name": "F56_Braet_5",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_5"
+      ],
+      "param_names": [
+        "d178",
+        "d179",
+        "d180"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*5/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 61,
+      "name": "F56_Braet_6",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_6"
+      ],
+      "param_names": [
+        "d181",
+        "d182",
+        "d183"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*6/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 62,
+      "name": "F56_Braet_7",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_7"
+      ],
+      "param_names": [
+        "d184",
+        "d185",
+        "d186"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*7/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 63,
+      "name": "F56_Braet_8",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_8"
+      ],
+      "param_names": [
+        "d187",
+        "d188",
+        "d189"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*8/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 64,
+      "name": "F56_Braet_9",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_9"
+      ],
+      "param_names": [
+        "d190",
+        "d191",
+        "d192"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*9/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 65,
+      "name": "F56_Braet_10",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_10"
+      ],
+      "param_names": [
+        "d193",
+        "d194",
+        "d195"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*10/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 66,
+      "name": "F56_Braet_11",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_11"
+      ],
+      "param_names": [
+        "d196",
+        "d197",
+        "d198"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*11/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 67,
+      "name": "F56_Braet_12",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_12"
+      ],
+      "param_names": [
+        "d199",
+        "d200",
+        "d201"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*12/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 68,
+      "name": "F56_Braet_13",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_13"
+      ],
+      "param_names": [
+        "d202",
+        "d203",
+        "d204"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*13/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 69,
+      "name": "F56_Braet_14",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_14"
+      ],
+      "param_names": [
+        "d205",
+        "d206",
+        "d207"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*14/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    },
+    {
+      "id": 70,
+      "name": "F56_Braet_15",
+      "suppressed": true,
+      "body_names": [
+        "F56_Braet_15"
+      ],
+      "param_names": [
+        "d208",
+        "d209",
+        "d210"
+      ],
+      "type": "box",
+      "corner": [
+        0.0,
+        "-40-Trae_tykkelse",
+        "Facade_hoejde*15/16+1"
+      ],
+      "length": "Facade_bredde",
+      "width": "Trae_tykkelse",
+      "height": "Facade_hoejde/16-2",
+      "operation": "new_body"
+    }
+  ],
+  "next_id": 73,
+  "next_component_color_index": 0,
+  "configs": {
+    "columns": [
+      {
+        "param": "Beklaedning"
+      },
+      {
+        "suppress": 15
+      },
+      {
+        "suppress": 16
+      },
+      {
+        "suppress": 17
+      },
+      {
+        "suppress": 18
+      },
+      {
+        "suppress": 19
+      },
+      {
+        "suppress": 20
+      },
+      {
+        "suppress": 21
+      },
+      {
+        "suppress": 22
+      },
+      {
+        "suppress": 23
+      },
+      {
+        "suppress": 24
+      },
+      {
+        "suppress": 25
+      },
+      {
+        "suppress": 26
+      },
+      {
+        "suppress": 27
+      },
+      {
+        "suppress": 28
+      },
+      {
+        "suppress": 29
+      },
+      {
+        "suppress": 30
+      },
+      {
+        "suppress": 31
+      },
+      {
+        "suppress": 32
+      },
+      {
+        "suppress": 33
+      },
+      {
+        "suppress": 34
+      },
+      {
+        "suppress": 35
+      },
+      {
+        "suppress": 36
+      },
+      {
+        "suppress": 37
+      },
+      {
+        "suppress": 38
+      },
+      {
+        "suppress": 39
+      },
+      {
+        "suppress": 40
+      },
+      {
+        "suppress": 41
+      },
+      {
+        "suppress": 42
+      },
+      {
+        "suppress": 43
+      },
+      {
+        "suppress": 44
+      },
+      {
+        "suppress": 45
+      },
+      {
+        "suppress": 46
+      },
+      {
+        "suppress": 47
+      },
+      {
+        "suppress": 48
+      },
+      {
+        "suppress": 49
+      },
+      {
+        "suppress": 50
+      },
+      {
+        "suppress": 51
+      },
+      {
+        "suppress": 52
+      },
+      {
+        "suppress": 53
+      },
+      {
+        "suppress": 54
+      },
+      {
+        "suppress": 55
+      },
+      {
+        "suppress": 56
+      },
+      {
+        "suppress": 57
+      },
+      {
+        "suppress": 58
+      },
+      {
+        "suppress": 59
+      },
+      {
+        "suppress": 60
+      },
+      {
+        "suppress": 61
+      },
+      {
+        "suppress": 62
+      },
+      {
+        "suppress": 63
+      },
+      {
+        "suppress": 64
+      },
+      {
+        "suppress": 65
+      },
+      {
+        "suppress": 66
+      },
+      {
+        "suppress": 67
+      },
+      {
+        "suppress": 68
+      },
+      {
+        "suppress": 69
+      },
+      {
+        "suppress": 70
+      }
+    ],
+    "rows": [
+      {
+        "id": 71,
+        "name": "Skifer",
+        "cells": [
+          "0",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "Træ",
+        "cells": [
+          "1",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "true",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false",
+          "false"
+        ]
+      }
+    ],
+    "row_identities": {
+      "71": 1892443796753954704,
+      "72": 2843098655843654580
+    },
+    "rules": [
+      {
+        "id": "F56_Skifer_0_00",
+        "name": "F56_Skifer_0_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 15,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_0_01",
+        "name": "F56_Skifer_0_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 15,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_0_10",
+        "name": "F56_Skifer_0_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 16,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_0_11",
+        "name": "F56_Skifer_0_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 16,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_0_20",
+        "name": "F56_Skifer_0_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 17,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_0_21",
+        "name": "F56_Skifer_0_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 17,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_0_30",
+        "name": "F56_Skifer_0_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 18,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_0_31",
+        "name": "F56_Skifer_0_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 18,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_00",
+        "name": "F56_Skiferlaegte_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 19,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_01",
+        "name": "F56_Skiferlaegte_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 19,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_1_00",
+        "name": "F56_Skifer_1_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 20,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_1_01",
+        "name": "F56_Skifer_1_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 20,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_1_10",
+        "name": "F56_Skifer_1_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 21,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_1_11",
+        "name": "F56_Skifer_1_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 21,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_1_20",
+        "name": "F56_Skifer_1_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 22,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_1_21",
+        "name": "F56_Skifer_1_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 22,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_1_30",
+        "name": "F56_Skifer_1_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 23,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_1_31",
+        "name": "F56_Skifer_1_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 23,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_10",
+        "name": "F56_Skiferlaegte_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 24,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_11",
+        "name": "F56_Skiferlaegte_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 24,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_2_00",
+        "name": "F56_Skifer_2_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 25,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_2_01",
+        "name": "F56_Skifer_2_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 25,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_2_10",
+        "name": "F56_Skifer_2_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 26,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_2_11",
+        "name": "F56_Skifer_2_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 26,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_2_20",
+        "name": "F56_Skifer_2_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 27,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_2_21",
+        "name": "F56_Skifer_2_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 27,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_2_30",
+        "name": "F56_Skifer_2_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 28,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_2_31",
+        "name": "F56_Skifer_2_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 28,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_20",
+        "name": "F56_Skiferlaegte_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 29,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_21",
+        "name": "F56_Skiferlaegte_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 29,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_3_00",
+        "name": "F56_Skifer_3_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 30,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_3_01",
+        "name": "F56_Skifer_3_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 30,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_3_10",
+        "name": "F56_Skifer_3_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 31,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_3_11",
+        "name": "F56_Skifer_3_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 31,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_3_20",
+        "name": "F56_Skifer_3_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 32,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_3_21",
+        "name": "F56_Skifer_3_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 32,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_3_30",
+        "name": "F56_Skifer_3_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 33,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_3_31",
+        "name": "F56_Skifer_3_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 33,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_30",
+        "name": "F56_Skiferlaegte_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 34,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_31",
+        "name": "F56_Skiferlaegte_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 34,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_4_00",
+        "name": "F56_Skifer_4_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 35,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_4_01",
+        "name": "F56_Skifer_4_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 35,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_4_10",
+        "name": "F56_Skifer_4_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 36,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_4_11",
+        "name": "F56_Skifer_4_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 36,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_4_20",
+        "name": "F56_Skifer_4_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 37,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_4_21",
+        "name": "F56_Skifer_4_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 37,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_4_30",
+        "name": "F56_Skifer_4_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 38,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_4_31",
+        "name": "F56_Skifer_4_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 38,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_40",
+        "name": "F56_Skiferlaegte_4 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 39,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_41",
+        "name": "F56_Skiferlaegte_4 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 39,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_5_00",
+        "name": "F56_Skifer_5_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 40,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_5_01",
+        "name": "F56_Skifer_5_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 40,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_5_10",
+        "name": "F56_Skifer_5_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 41,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_5_11",
+        "name": "F56_Skifer_5_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 41,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_5_20",
+        "name": "F56_Skifer_5_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 42,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_5_21",
+        "name": "F56_Skifer_5_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 42,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_5_30",
+        "name": "F56_Skifer_5_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 43,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_5_31",
+        "name": "F56_Skifer_5_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 43,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_50",
+        "name": "F56_Skiferlaegte_5 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 44,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_51",
+        "name": "F56_Skiferlaegte_5 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 44,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_6_00",
+        "name": "F56_Skifer_6_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 45,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_6_01",
+        "name": "F56_Skifer_6_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 45,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_6_10",
+        "name": "F56_Skifer_6_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 46,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_6_11",
+        "name": "F56_Skifer_6_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 46,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_6_20",
+        "name": "F56_Skifer_6_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 47,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_6_21",
+        "name": "F56_Skifer_6_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 47,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_6_30",
+        "name": "F56_Skifer_6_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 48,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_6_31",
+        "name": "F56_Skifer_6_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 48,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_60",
+        "name": "F56_Skiferlaegte_6 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 49,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_61",
+        "name": "F56_Skiferlaegte_6 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 49,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_7_00",
+        "name": "F56_Skifer_7_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 50,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_7_01",
+        "name": "F56_Skifer_7_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 50,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_7_10",
+        "name": "F56_Skifer_7_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 51,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_7_11",
+        "name": "F56_Skifer_7_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 51,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_7_20",
+        "name": "F56_Skifer_7_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 52,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_7_21",
+        "name": "F56_Skifer_7_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 52,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skifer_7_30",
+        "name": "F56_Skifer_7_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 53,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skifer_7_31",
+        "name": "F56_Skifer_7_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 53,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_70",
+        "name": "F56_Skiferlaegte_7 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 54,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Skiferlaegte_71",
+        "name": "F56_Skiferlaegte_7 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 54,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_00",
+        "name": "F56_Braet_0 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 55,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_01",
+        "name": "F56_Braet_0 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 55,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_10",
+        "name": "F56_Braet_1 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 56,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_11",
+        "name": "F56_Braet_1 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 56,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_20",
+        "name": "F56_Braet_2 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 57,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_21",
+        "name": "F56_Braet_2 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 57,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_30",
+        "name": "F56_Braet_3 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 58,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_31",
+        "name": "F56_Braet_3 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 58,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_40",
+        "name": "F56_Braet_4 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 59,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_41",
+        "name": "F56_Braet_4 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 59,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_50",
+        "name": "F56_Braet_5 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 60,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_51",
+        "name": "F56_Braet_5 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 60,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_60",
+        "name": "F56_Braet_6 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 61,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_61",
+        "name": "F56_Braet_6 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 61,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_70",
+        "name": "F56_Braet_7 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 62,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_71",
+        "name": "F56_Braet_7 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 62,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_80",
+        "name": "F56_Braet_8 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 63,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_81",
+        "name": "F56_Braet_8 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 63,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_90",
+        "name": "F56_Braet_9 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 64,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_91",
+        "name": "F56_Braet_9 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 64,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_100",
+        "name": "F56_Braet_10 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 65,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_101",
+        "name": "F56_Braet_10 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 65,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_110",
+        "name": "F56_Braet_11 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 66,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_111",
+        "name": "F56_Braet_11 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 66,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_120",
+        "name": "F56_Braet_12 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 67,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_121",
+        "name": "F56_Braet_12 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 67,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_130",
+        "name": "F56_Braet_13 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 68,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_131",
+        "name": "F56_Braet_13 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 68,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_140",
+        "name": "F56_Braet_14 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 69,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_141",
+        "name": "F56_Braet_14 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 69,
+          "value": false
+        }
+      },
+      {
+        "id": "F56_Braet_150",
+        "name": "F56_Braet_15 valg 0",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "0"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 70,
+          "value": true
+        }
+      },
+      {
+        "id": "F56_Braet_151",
+        "name": "F56_Braet_15 valg 1",
+        "enabled": true,
+        "length_unit": "mm",
+        "condition": {
+          "type": "parameter",
+          "parameter": "Beklaedning",
+          "operator": "eq",
+          "expression": "1"
+        },
+        "effect": {
+          "type": "drive_suppression",
+          "feature": 70,
+          "value": false
+        }
+      }
+    ]
+  },
+  "favorites": [
+    "Beklaedning",
+    "Facade_bredde",
+    "Facade_hoejde",
+    "Indkoebstillæg_procent",
+    "Krydsfiner_tykkelse",
+    "Levering",
+    "Pris_clips_stk",
+    "Pris_dato",
+    "Pris_krydsfiner_m2",
+    "Pris_skelet_m",
+    "Pris_skifer_m2",
+    "Pris_skiferlaegte_m",
+    "Pris_skruer_stk",
+    "Pris_trae_m2",
+    "Pris_ventlaegte_m",
+    "Pris_vindplade_m2",
+    "Prisgrundlag",
+    "Skifer_indkoebstillæg_procent",
+    "Timepris",
+    "Timer_skifer_pr_m2",
+    "Timer_trae_pr_m2",
+    "Trae_tykkelse"
+  ],
+  "materials": {
+    "F56_Braet_0": "FT56_timber",
+    "F56_Braet_1": "FT56_timber",
+    "F56_Braet_10": "FT56_timber",
+    "F56_Braet_11": "FT56_timber",
+    "F56_Braet_12": "FT56_timber",
+    "F56_Braet_13": "FT56_timber",
+    "F56_Braet_14": "FT56_timber",
+    "F56_Braet_15": "FT56_timber",
+    "F56_Braet_2": "FT56_timber",
+    "F56_Braet_3": "FT56_timber",
+    "F56_Braet_4": "FT56_timber",
+    "F56_Braet_5": "FT56_timber",
+    "F56_Braet_6": "FT56_timber",
+    "F56_Braet_7": "FT56_timber",
+    "F56_Braet_8": "FT56_timber",
+    "F56_Braet_9": "FT56_timber",
+    "F56_Krydsfiner": "FT56_plywood",
+    "F56_Rem_0": "FT56_timber",
+    "F56_Rem_1": "FT56_timber",
+    "F56_Skifer_0_0": "FT56_slate",
+    "F56_Skifer_0_1": "FT56_slate",
+    "F56_Skifer_0_2": "FT56_slate",
+    "F56_Skifer_0_3": "FT56_slate",
+    "F56_Skifer_1_0": "FT56_slate",
+    "F56_Skifer_1_1": "FT56_slate",
+    "F56_Skifer_1_2": "FT56_slate",
+    "F56_Skifer_1_3": "FT56_slate",
+    "F56_Skifer_2_0": "FT56_slate",
+    "F56_Skifer_2_1": "FT56_slate",
+    "F56_Skifer_2_2": "FT56_slate",
+    "F56_Skifer_2_3": "FT56_slate",
+    "F56_Skifer_3_0": "FT56_slate",
+    "F56_Skifer_3_1": "FT56_slate",
+    "F56_Skifer_3_2": "FT56_slate",
+    "F56_Skifer_3_3": "FT56_slate",
+    "F56_Skifer_4_0": "FT56_slate",
+    "F56_Skifer_4_1": "FT56_slate",
+    "F56_Skifer_4_2": "FT56_slate",
+    "F56_Skifer_4_3": "FT56_slate",
+    "F56_Skifer_5_0": "FT56_slate",
+    "F56_Skifer_5_1": "FT56_slate",
+    "F56_Skifer_5_2": "FT56_slate",
+    "F56_Skifer_5_3": "FT56_slate",
+    "F56_Skifer_6_0": "FT56_slate",
+    "F56_Skifer_6_1": "FT56_slate",
+    "F56_Skifer_6_2": "FT56_slate",
+    "F56_Skifer_6_3": "FT56_slate",
+    "F56_Skifer_7_0": "FT56_slate",
+    "F56_Skifer_7_1": "FT56_slate",
+    "F56_Skifer_7_2": "FT56_slate",
+    "F56_Skifer_7_3": "FT56_slate",
+    "F56_Skiferlaegte_0": "FT56_timber",
+    "F56_Skiferlaegte_1": "FT56_timber",
+    "F56_Skiferlaegte_2": "FT56_timber",
+    "F56_Skiferlaegte_3": "FT56_timber",
+    "F56_Skiferlaegte_4": "FT56_timber",
+    "F56_Skiferlaegte_5": "FT56_timber",
+    "F56_Skiferlaegte_6": "FT56_timber",
+    "F56_Skiferlaegte_7": "FT56_timber",
+    "F56_Stolpe_0": "FT56_timber",
+    "F56_Stolpe_1": "FT56_timber",
+    "F56_Stolpe_2": "FT56_timber",
+    "F56_Stolpe_3": "FT56_timber",
+    "F56_Stolpe_4": "FT56_timber",
+    "F56_Vent_0": "FT56_timber",
+    "F56_Vent_1": "FT56_timber",
+    "F56_Vent_2": "FT56_timber",
+    "F56_Vent_3": "FT56_timber",
+    "F56_Vent_4": "FT56_timber",
+    "F56_Vindplade": "FT56_windboard"
+  },
+  "user_materials": [
+    {
+      "name": "FT56_timber",
+      "density": 0.456,
+      "appearance": {
+        "name": "FT56_timber",
+        "color": [
+          186,
+          137,
+          89
+        ],
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "FT56_plywood",
+      "density": 0.48,
+      "appearance": {
+        "name": "FT56_plywood",
+        "color": [
+          216,
+          188,
+          133
+        ],
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "FT56_windboard",
+      "density": 0.255,
+      "appearance": {
+        "name": "FT56_windboard",
+        "color": [
+          177,
+          152,
+          119
+        ],
+        "opacity": 1.0
+      }
+    },
+    {
+      "name": "FT56_slate",
+      "density": 2.7,
+      "appearance": {
+        "name": "FT56_slate",
+        "color": [
+          69,
+          78,
+          88
+        ],
+        "opacity": 1.0
+      }
+    }
+  ]
+}

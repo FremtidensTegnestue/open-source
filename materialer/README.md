@@ -14,6 +14,8 @@ Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, stud
 
 ## Hvad kan du bruge det til?
 
+**Nyt afgrænset facadeforløb:** ændr mål og beklædning i SolidCraft og lad en lokal regnskabsvisning genberegne materialemængder, kildebaseret klimadelsum og egne prisoverslag. [Start med facadeprøven](examples/facade/README.md). Det er én parametrisk prøve, ikke et installeret SolidCraft-panel eller en fuld bygnings-LCA. Priser starter som ukendte; der følger ingen leverandørforbindelse med.
+
 Forestil dig, at du har tegnet en bygningsdel og vil vide, hvad den vejer, hvordan dens produktionsklima ændrer sig med tykkelsen, eller hvor meget et træemne kan bevæge sig ved ændret fugt. Modellen beskriver formen. Materialedataene beskriver egenskaberne. Vores værktøj forbinder dem og viser, hvor tallene kommer fra.
 
 Du kan allerede:
