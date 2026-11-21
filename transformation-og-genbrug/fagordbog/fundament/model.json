@@ -29,7 +29,7 @@
     {"command": "sketch.finish", "params": {}},
     {"command": "solid.extrude", "params": {"distance": 50, "operation": "new", "body_name": "S1_7_underlag_1"}},
     {"command": "sketch.create", "params": {"plane": "XZ", "name": "S2_1_syldsten_1-profil"}},
-    {"command": "sketch.line", "params": {"points": [[1125.0, -215.0], [1155.0, -255.0], [1285.0, -265.0], [1335.0, -225.0], [1310.0, -175.0], [1170.0, -170.0]], "closed": true, "infer": false}},
+    {"command": "sketch.line", "params": {"points": [[1125.0, -215.0], [1155.0, -255.0], [1175.0, -265.0], [1285.0, -265.0], [1335.0, -225.0], [1310.0, -175.0], [1170.0, -170.0]], "closed": true, "infer": false}},
     {"command": "sketch.finish", "params": {}},
     {"command": "solid.extrude", "params": {"distance": 50, "operation": "new", "body_name": "S2_1_syldsten_1"}},
     {"command": "sketch.create", "params": {"plane": "XZ", "name": "S2_2_fodrem_1-profil"}},

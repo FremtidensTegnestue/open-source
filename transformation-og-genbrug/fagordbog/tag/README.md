@@ -12,7 +12,7 @@ Principsnit og opstalter uden mål. Numrene følger delene på tegningen.
 
 ### Kip
 
-**[Punkt 1 på tegningen](snit-1.svg).** Den øverste linje, hvor de to store tagflader mødes. I et lodret snit ses kippen som tagets øverste punkt. [Søren Koch · Fagudtryk fra det traditionelle byggeri · PDF-s. 26](https://danskbyggeskik.dk/publikationer/ordbog_fagudtryk_fra_det_traditionelle_byggeri.pdf#page=26)
+**[Punkt 1 på tegningen](snit-1.svg).** Den øverste linje, hvor de to store tagflader mødes. Til venstre er rygningsstenene udeladt, så linjen er synlig. [Søren Koch · Fagudtryk fra det traditionelle byggeri · PDF-s. 26](https://danskbyggeskik.dk/publikationer/ordbog_fagudtryk_fra_det_traditionelle_byggeri.pdf#page=26)
 
 ### Rygning
 

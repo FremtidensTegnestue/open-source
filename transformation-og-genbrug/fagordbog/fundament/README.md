@@ -44,4 +44,4 @@ Principsnit og opstalter uden mål. Numrene følger delene på tegningen.
 
 ### Omfangsdræn
 
-**[Punkt 7 på tegningen](snit-3.svg).** Et drænrør langs bygningens yderside opsamler vand i jorden. Her ses røret i tværsnit. Dybde og afledning fastlægges for det konkrete hus. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 145](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=145)
+**[Punkt 7 på tegningen](snit-3.svg).** Et drænrør langs bygningens yderside opsamler vand i jorden. Her ses røret i tværsnit. Dybde og afledning fastlægges for det konkrete hus. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 142](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=142)
