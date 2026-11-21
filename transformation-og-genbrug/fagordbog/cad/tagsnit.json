@@ -1,0 +1,529 @@
+{
+  "commands": [
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "A_Ydermur_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            630,
+            -1285
+          ],
+          [
+            915,
+            -1285
+          ],
+          [
+            915,
+            -720
+          ],
+          [
+            730,
+            -720
+          ],
+          [
+            730,
+            -595
+          ],
+          [
+            915,
+            -595
+          ],
+          [
+            915,
+            -270
+          ],
+          [
+            630,
+            -270
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "A_Ydermur"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "A_Rem_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            630,
+            -1325
+          ],
+          [
+            915,
+            -1325
+          ],
+          [
+            915,
+            -1285
+          ],
+          [
+            630,
+            -1285
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "A_Rem"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "A_Bjaelke_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            730,
+            -720
+          ],
+          [
+            2055,
+            -720
+          ],
+          [
+            2055,
+            -595
+          ],
+          [
+            730,
+            -595
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "A_Bjaelke"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "A_Gulv_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            915,
+            -765
+          ],
+          [
+            2055,
+            -765
+          ],
+          [
+            2055,
+            -720
+          ],
+          [
+            915,
+            -720
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "A_Gulv"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "A_Spaer_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            630,
+            -1325
+          ],
+          [
+            1435,
+            -2130
+          ],
+          [
+            1505,
+            -2060
+          ],
+          [
+            770,
+            -1325
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "A_Spaer"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "A_Tagflade_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            560,
+            -1255
+          ],
+          [
+            1435,
+            -2130
+          ],
+          [
+            1415,
+            -2150
+          ],
+          [
+            540,
+            -1275
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "A_Tagflade"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "B_Gesimsmur_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            3055,
+            -900
+          ],
+          [
+            3805,
+            -900
+          ],
+          [
+            3805,
+            -265
+          ],
+          [
+            3390,
+            -265
+          ],
+          [
+            3390,
+            -755
+          ],
+          [
+            3290,
+            -755
+          ],
+          [
+            3290,
+            -805
+          ],
+          [
+            3170,
+            -805
+          ],
+          [
+            3170,
+            -845
+          ],
+          [
+            3055,
+            -845
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "B_Gesimsmur"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "B_Bjaelke_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            3240,
+            -1050
+          ],
+          [
+            4215,
+            -1050
+          ],
+          [
+            4215,
+            -900
+          ],
+          [
+            3240,
+            -900
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "B_Bjaelke"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "B_Spaer_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            3055,
+            -900
+          ],
+          [
+            4325,
+            -2170
+          ],
+          [
+            4410,
+            -2085
+          ],
+          [
+            3375,
+            -1050
+          ],
+          [
+            3240,
+            -1050
+          ],
+          [
+            3240,
+            -900
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "B_Spaer"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "B_Skalk_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            3055,
+            -900
+          ],
+          [
+            3830,
+            -1675
+          ],
+          [
+            3055,
+            -1150
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "B_Skalk"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "B_Tagflade_profil"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            2900,
+            -1045
+          ],
+          [
+            3830,
+            -1675
+          ],
+          [
+            4325,
+            -2170
+          ],
+          [
+            4305,
+            -2190
+          ],
+          [
+            3815,
+            -1700
+          ],
+          [
+            2880,
+            -1070
+          ]
+        ],
+        "closed": true
+      }
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "distance": 100,
+        "operation": "new",
+        "body_name": "B_Tagflade"
+      }
+    }
+  ]
+}

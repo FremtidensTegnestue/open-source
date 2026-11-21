@@ -4,7 +4,7 @@
 
 Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Sammen bygger vi de værktøjer, vi selv gerne vil have ved tegnebordet. Her deler vi vores materialedata, beregninger og en håndbog om transformation og genbrug. Du kan åbne en byggesag, se hvad beboerne oplevede, eller tage tallene med ind i din egen model.
 
-**[Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md)** · **[Gå på opdagelse i materialerne](materialer/README.md)** · **[Mød tegnestuen](https://fremtidenstegnestue.dk/om)**
+**[Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md)** · **[Prøv den illustrerede fagordbog](transformation-og-genbrug/fagordbog/README.md)** · **[Gå på opdagelse i materialerne](materialer/README.md)** · **[Mød tegnestuen](https://fremtidenstegnestue.dk/om)**
 
 ![Illustration af et gammelt trævindue på arbejdsbordet med et afmonteret hjørnebeslag og en tegning af vinduesprofilet](.github/billeder/vindue-under-reparation.webp)
 
