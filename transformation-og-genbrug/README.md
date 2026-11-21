@@ -8,6 +8,8 @@ Hvad kan en bygning blive til med det, der allerede er der? Vi vil undersøge, h
 
 **Hvad hedder den del af huset?** Peg på en detalje i et af de 14 emneblade, eller slå et ord op og find det på tegningen. [Prøv den illustrerede fagordbog](fagordbog/README.md)
 
+**Hvordan samles træet?** Se samlingen adskilt, følg montagen og læs snittet i [de to illustrerede bøger om danske og japanske træsamlinger](traesamlinger/README.md).
+
 ## Hvad vil vi gerne finde ud af?
 
 - **Bygningen.** Kan den rumme den ønskede brug med færre indgreb? Hvilke rum, dagslysforhold og spor af tidligere brug er værd at bevare?
