@@ -1,0 +1,32 @@
+/* Fælles skærm- og printstil. Indlejres i selvstændige fagark til offlinebrug. */
+@page {size:A4 landscape;margin:0}
+*{box-sizing:border-box} html{font-size:11pt}body{margin:0;background:#fafbf9;color:#20211e;font-family:Arial, Helvetica, sans-serif;line-height:1.4}
+.sheet {position:relative;width:297mm;min-height:209mm;padding:10mm 16mm 13mm;break-after:page}
+.sheet:last-child{break-after:auto} .kicker{font-size:9pt;letter-spacing:.035em;color:#806747;text-transform:uppercase;font-weight:700; margin-bottom:1.2mm}
+h1,h2,h3,p,figure,nav {margin:0}
+h1,h2{font-family:Arial, Helvetica, sans-serif;line-height:1.18;letter-spacing:-.035em}
+h1{font-size:24pt} h2{font-size:24pt}
+.front header p{margin-top:1mm} .front figure{width:256mm; margin:3.5mm auto 3mm;position:relative;line-height:0}
+.front figure img {width:100%;height:auto}
+.spot{display:block;position:absolute;color:transparent;overflow:hidden;font-size:1pt;line-height:1}
+.spot span{opacity:0}
+nav {border-top:.25mm solid #aaa39c;padding-top:2.7mm;display:flex;gap:5.7mm;justify-content:center}
+a {color:#695437;text-decoration:underline; text-underline-offset:.13em}
+nav a{font-weight:700;font-size:10pt} .back{position:absolute;top:17mm;right:16mm;font-size:10pt}
+article{margin-top:3.5mm; border-top:.25mm solid #bdb7b0;display:grid;grid-template-columns:45mm 1fr;gap:7mm;padding-top:2.5mm;break-inside:avoid}
+h3{font-family:Arial, Helvetica, sans-serif;font-size:17pt;letter-spacing:-.02em;font-weight:700} h3 span{display:block;font-size:10pt;color:#806747;letter-spacing:.05em;font-family:Arial, Helvetica, sans-serif}
+.def{font-size:12pt;line-height:1.4}.def p + p{margin-top:1.6mm}.def .sources{font-size:10pt;line-height:1.32}.hint{text-align:center;margin-top:2.6mm;font-size:9pt;color:#555950}.terms article{min-height:47mm;}
+footer{position:absolute;bottom:5mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:flex-end;color:#555950;font-size:8.6pt}
+
+@media screen {
+ body{padding:24px 16px;background:#e6e9e2}
+ .sheet{background:#fafbf9;max-width:1080px;width:100%;min-height:0;margin:0 auto 24px;padding:clamp(18px,4vw,56px)}
+ .front figure{width:100%;margin:24px 0 12px}
+ footer{position:static;margin-top:22px;gap:16px}
+ .back{position:static;display:inline-block;margin:8px 0}
+ nav{flex-wrap:wrap;gap:8px 20px}
+ .terms article{min-height:0;padding:18px 0}
+ :focus-visible{outline:3px solid #806747;outline-offset:2px}
+ :target{scroll-margin-top:20px}
+ @media(max-width:640px){body{padding:0}.sheet{margin-bottom:8px}.terms article{grid-template-columns:1fr;gap:8px}.front figure{overflow:auto}.def{font-size:11pt}h3 span{display:inline;margin-right:8px}}
+}

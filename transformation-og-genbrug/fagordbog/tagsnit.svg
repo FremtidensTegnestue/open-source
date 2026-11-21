@@ -3,17 +3,17 @@
   <desc id="tekst">A viser en ydermur over gulvet i tagetagen. 1 er tremplen, 2 det skrå spær og 6 bjælkelaget ved gulvet. B viser tagkanten i et andet hus. 3 er trækilen oven på spæret, 4 murens gesims og 5 området ved tagfoden. Ude er til venstre i begge snit.</desc>
   <defs>
     <pattern id="mur" width="42" height="22" patternUnits="userSpaceOnUse">
-      <rect width="42" height="22" fill="#e2bfaa"/>
-      <path d="M0 0H42 M0 11H42 M10 0V11 M31 11V22" fill="none" stroke="#a07765" stroke-width="1.3"/>
+      <rect width="42" height="22" fill="#e6e9e2"/>
+      <path d="M0 0H42 M0 11H42 M10 0V11 M31 11V22" fill="none" stroke="#767b71" stroke-width="1.3"/>
     </pattern>
     <pattern id="kile" width="9" height="9" patternUnits="userSpaceOnUse">
-      <rect width="9" height="9" fill="#f4d572"/>
-      <path d="M-1 8L8 -1 M7 10L10 7" stroke="#ad8738" stroke-width="1.2"/>
+      <rect width="9" height="9" fill="#eee5d7"/>
+      <path d="M-1 8L8 -1 M7 10L10 7" stroke="#806747" stroke-width="1.2"/>
     </pattern>
   </defs>
-  <rect width="960" height="480" fill="#faf7ef"/>
-  <path d="M480 27V453" stroke="#c8c1af" stroke-width="1.5"/>
-  <g font-family="sans-serif" fill="#273b39">
+  <rect width="960" height="480" fill="#fafbf9"/>
+  <path d="M480 27V453" stroke="#c6cec0" stroke-width="1.5"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#20211e">
     <text x="28" y="45" font-size="20" font-weight="bold">A · Muren over gulvet</text>
     <text x="509" y="45" font-size="20" font-weight="bold">B · Tagets kant</text>
     <g font-size="16">
@@ -22,39 +22,38 @@
     </g>
   </g>
   <!-- A: opmuret trempel, et spær og den øverste etageadskillelse -->
-  <g stroke="#473e35" stroke-width="2.4" stroke-linejoin="round">
-    <path d="M126 219H183V426H126Z" fill="url(#mur)"/>
-    <path d="M146 336H411V361H146Z" fill="#d8b67c"/>
-    <path d="M181 327H411V336H181Z" fill="#f2deac"/>
-    <path d="M180 361H411V368H180Z" fill="#e2ded3"/>
-    <path d="M126 214H171V222H126Z" fill="#b98e54"/>
-    <path d="M96 252L298 66L313 81L170 213V214H160L109 263Z" fill="#d8b67c"/>
-    <path d="M88 250L295 59L300 65L93 256Z" fill="#975039"/>
+  <g stroke="#20211e" stroke-width="2.4" stroke-linejoin="round">
+    <polygon id="A_Ydermur" points="126,426 183,426 183,361 146,361 146,336 183,336 183,223 126,223" fill="url(#mur)"/>
+    <polygon id="A_Rem" points="126,223 183,223 183,215 126,215" fill="#d9cbb6"/>
+    <polygon id="A_Bjaelke" points="146,361 411,361 411,336 146,336" fill="#d9cbb6"/>
+    <polygon id="A_Gulv" points="183,336 411,336 411,327 183,327" fill="#d9cbb6"/>
+    <polygon id="A_Spaer" points="126,215 154,215 301,68 287,54" fill="#d9cbb6"/>
+    <polygon id="A_Tagflade" points="283,50 108,225 112,229 287,54" fill="#555950"/>
   </g>
-  <path d="M197 221h8v106h-8" stroke="#425e59" stroke-width="2.4" fill="none"/>
+  <path d="M197 215h8v112h-8" stroke="#555950" stroke-width="2.4" fill="none"/>
   <!-- B: opskalket tagprofil; kilen ligger over spærets øvre kant -->
-  <g stroke="#473e35" stroke-width="2.4" stroke-linejoin="round">
-    <path d="M611 299H761V427H678V329H658V319H634V311H611Z" fill="url(#mur)"/>
-    <path d="M648 268H843V298H648Z" fill="#d8b67c"/>
-    <path d="M611 298L865 77L881 93L680 267V268H664L626 300Z" fill="#d8b67c"/>
-    <path d="M611 298L611 254L766 163Z" fill="url(#kile)"/>
-    <path d="M578 269L762 160L863 71L867 77L766 166L582 276Z" fill="#975039"/>
+  <g stroke="#20211e" stroke-width="2.4" stroke-linejoin="round">
+    <polygon id="B_Gesimsmur" points="611,300 611,311 634,311 634,319 658,319 658,329 678,329 678,427 761,427 761,300" fill="url(#mur)"/>
+    <polygon id="B_Bjaelke" points="648,300 843,300 843,270 648,270" fill="#d9cbb6"/>
+    <polygon id="B_Spaer" points="882,63 865,46 611,300 648,300 648,270 675,270" fill="#d9cbb6"/>
+    <polygon id="B_Skalk" points="611,300 766,145 611,250" fill="url(#kile)"/>
+    <polygon id="B_Tagflade" points="763,140 576,266 580,271 766,145 865,46 861,42" fill="#555950"/>
   </g>
   <!-- Punkt 5 angiver et område: stiplet afgrænsning omkring tagkant og understøtning. -->
-  <path d="M623 217C544 230 540 301 603 316C652 328 704 306 719 274C734 244 694 212 649 215" fill="none" stroke="#35615a" stroke-width="2.8" stroke-dasharray="5 4"/>
-  <g stroke="#365851" stroke-width="2.3" stroke-linejoin="round" fill="none">
+  <path d="M623 217C544 230 540 301 603 316C652 328 704 306 719 274C734 244 694 212 649 215" fill="none" stroke="#555950" stroke-width="2.8" stroke-dasharray="5 4"/>
+  <g stroke="#555950" stroke-width="2.3" stroke-linejoin="round" fill="none">
     <path d="M273 245H242L205 269"/>
-    <path d="M382 121H323L258 116"/>
+    <path d="M382 121H323L252 102"/>
     <path d="M617 131H646L659 239"/>
     <path d="M550 348H592L645 315"/>
     <path d="M532 215V243L566 275"/>
     <path d="M339 409V380L308 350"/>
   </g>
-  <g fill="#365851">
-    <circle cx="258" cy="116" r="3.5"/><circle cx="659" cy="239" r="3.5"/>
+  <g fill="#555950">
+    <circle cx="252" cy="102" r="3.5"/><circle cx="659" cy="239" r="3.5"/>
     <circle cx="645" cy="315" r="3.5"/><circle cx="308" cy="350" r="3.5"/>
   </g>
-  <g fill="#234943" stroke="#faf7ef" stroke-width="2.5">
+  <g fill="#695437" stroke="#fafbf9" stroke-width="2.5">
     <circle id="punkt-1" cx="273" cy="245" r="19"/>
     <circle id="punkt-2" cx="382" cy="121" r="19"/>
     <circle id="punkt-3" cx="617" cy="131" r="19"/>
@@ -62,7 +61,7 @@
     <circle id="punkt-5" cx="532" cy="215" r="19"/>
     <circle id="punkt-6" cx="339" cy="409" r="19"/>
   </g>
-  <g fill="#ffffff" font-family="sans-serif" font-size="21" font-weight="bold" text-anchor="middle">
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="middle">
     <text x="273" y="252">1</text><text x="382" y="128">2</text>
     <text x="617" y="138">3</text><text x="550" y="355">4</text>
     <text x="532" y="222">5</text><text x="339" y="416">6</text>

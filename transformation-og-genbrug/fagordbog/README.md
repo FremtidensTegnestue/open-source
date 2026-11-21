@@ -2,6 +2,8 @@
 
 Du står på gaden, kigger op og ser, at taget bliver fladere lige over muren. Hvad kalder man det lille svaj? Eller tømreren har skrevet *trempel* på en tegning. Hvor skal du kigge? Her kan du finde ordet ud fra formen og formen ud fra ordet.
 
+[Hent den selvstændige browserudgave i tegnestuens design](tagsnit.html?raw=true). Gem filen og åbn den i din browser.
+
 **[Hent det klikbare tegneark (PDF)](tagsnit.pdf?raw=true)** og tryk på et nummer for at læse om detaljen. Du kan også bruge tegningen og nummerlisten her på siden.
 
 **Kender du ordet?** [Bjælkelag](#bjælkelag) · [Gesims](#gesims) · [Skalk og opskalkning](#skalk) · [Spær](#spær) · [Tagfod](#tagfod) · [Trempel](#trempel)
@@ -44,6 +46,10 @@ Et snit viser huset, som hvis du skar lodret igennem det. Udenfor er til venstre
 ## Bjælkelag
 
 **[A · punkt 6](#find-detaljen-på-tegningen).** Under gulvbrædderne ligger en række vandrette bjælker, som bærer gulvet. Tilsammen kaldes de et *bjælkelag*. Snittet følger én af bjælkerne ind fra ydermuren. Gulvets overside hjælper dig også med at finde den nederste ende af tremplen ved punkt 1. [Søren Kochs tegning af bjælker, gulvbrædder og mur, PDF-s. 7](https://danskbyggeskik.dk/publikationer/ordbog_fagudtryk_fra_det_traditionelle_byggeri.pdf#page=7)
+
+## Om tegningerne
+
+[Se SolidCraft-modellen og læs om kontrollen af tegningen](TEGNESTANDARD.md) · [Se planen for hele fagordbogen](REDAKTIONSPLAN.md)
 
 ## Tag arket med ud
 
