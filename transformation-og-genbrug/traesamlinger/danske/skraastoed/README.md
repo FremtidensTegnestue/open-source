@@ -1,6 +1,6 @@
 # Skråt stød
 
-En rem krydser en understøtning på skrå. I plan kan tømreren lade stødet følge understøtningens retning. Den grå understøtning er på modellen reduceret til et bredt anlægsfelt.
+Prøv at lægge en lineal skråt hen over en planke. Lad de to bjælkeender mødes langs linealen, og du har ideen i et skråt stød. Tømreren kan på den måde lade fugen følge en støtte, der går skråt under remmen.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ En rem krydser en understøtning på skrå. I plan kan tømreren lade stødet f�
 
 ![4. Vandret snit – Skråt stød](figur-4.svg)
 
-## Samleretningen
+Begge ender får samme skrå snit. Når bjælkerne føres sammen på langs, mødes endefladerne fra kant til kant. Set oppefra tegner samlingen en diagonal. Ser du kun bjælkens side, får du måske øje på en ganske almindelig lodret fuge.
 
-Før enderne sammen på langs. Hele endefladen er skåret skråt i plan. Der er hverken et underblad eller en tap at lægge på plads.
-
-## Læs snittet
-
-Set ovenfra mødes enderne langs én skrå linje. Set fra siden kan den samme samling ligne et almindeligt lige stød.
-
-## Ved en besigtigelse
-
-Tegn støttens og remmens retning på samme skitse. Hvis du kun har et facadefoto, kan vinklen mellem dem mangle helt.
+Derfor er det værd at gå et skridt til siden med skitsebogen. Få både bjælkens kanter og støttens retning med på samme tegning. Så bliver det synligt, hvorfor tømreren har lagt snittet netop dér.
 
 [Kaare Kristensen · fig. 16 · PDF-s. 26](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=26)
 

@@ -1,6 +1,6 @@
 # 金輪継 · Kanawatsugi
 
-To skjulte T-formede ender gør en forskel på byggepladsen: bjælkerne skal kunne forskydes på langs i sidste del af montagen. Den blågrå tværnøgle monteres bagefter.
+Står du med de to halvdele af en kanawatsugi, kan de godt se ud, som om de blot skal lægges oven på hinanden. Prøv at følge det lille T for enden af hvert blad. Hovedet er for bredt til at gå direkte ned gennem halsen på sin lomme.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -14,17 +14,9 @@ To skjulte T-formede ender gør en forskel på byggepladsen: bjælkerne skal kun
 
 ![5. Snit gennem låsen – 金輪継 · Kanawatsugi](figur-5.svg)
 
-## Samleretningen
+Tømreren begynder derfor lidt forskudt. Først ned, så enderne kommer i højde, og derefter på langs, så hvert T glider ind bag sin skulder. Midt i bjælken er der nu en fri åbning. Den blågrå tværnøgle føres igennem til sidst.
 
-Sænk overstykket lidt forskudt, så enderne kommer i højde med deres lommer. Skyd det derefter langs bjælkeaksen til skuldrene. Før til sidst nøglen på tværs gennem den midterste åbning.
-
-## Læs snittet
-
-Længdesnittet gennem midten viser de modsatrettede endefremspring og tværnøglen. T-hovedets bredde ses bedst i den adskilte figur eller ved at dreje CAD-modellen.
-
-## Ved en besigtigelse
-
-Kan den ene bjælke stadig flyttes på langs, når nabofaget er samlet? Undersøg også adgang til nøglens to ender. Den viste variant har én nøgle; opslaget omtaler flere låseformer.
+Gå baglæns gennem samlingen i tankerne. Først må nøglen ud. Derefter skal der være rum til at skyde T-enderne fri. Først da kan den ene bjælke løftes. Med ét bliver den tomme plads omkring bjælken lige så interessant som alt det træ, der er skåret væk.
 
 [JAANUS · kanawatsugi](https://www.aisf.or.jp/~jaanus/deta/k/kanawatsugi.htm)
 

@@ -1,6 +1,6 @@
 # 真継 · Shintsugi
 
-To åsestykker mødes over stolpens midte. Her ligger oplysningen først og fremmest i placeringen af stødet. JAANUS viser også et eksempel fra Anzai-huset.
+På fotografiet fra Anzai-huset er stolpen lige så vigtig som fugen. Find dens midte og løft blikket en smule. Lige dér mødes længderne i den vandrette ås, som bærer en del af taget.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ To åsestykker mødes over stolpens midte. Her ligger oplysningen først og frem
 
 ![4. Lodret snit – 真継 · Shintsugi](figur-4.svg)
 
-## Samleretningen
+Shintsugi er en hjælp til at læse dette sted i huset. På tegningen har åsestykkerne plane ender og stolpen en flad top. Sænk den ene ende på plads ved siden af den anden. Nu kan de dele stolpehovedet mellem sig. I andre udførelser kan der også være en nøgle, og en rund ås kan få et krumt sæde.
 
-Modellen isolerer placeringen med to rektangulære ender på et plant stolpehoved. Sænk det andet emne på den frie halvdel. Kildens muligheder for nøgle og afrundet sæde er ikke med i denne variant.
-
-## Læs snittet
-
-Det lodrette snit viser den lodrette stødlinje direkte over stolpens midte. Her er sædet fælles, men hvert emne har sin egen del af anlægsfladen.
-
-## Ved en besigtigelse
-
-Find midterlinjerne for både stolpe og fuge. Går samlingen ud over understøtningen, har du en anden placeringssituation, selv når de ydre endeflader ser ens ud.
+Lægger man de to åsestykker alene på et bord, mister man det væsentligste spor. Det er først sammen med stolpen, at tegningen fortæller, hvor forbindelsen hører hjemme.
 
 [JAANUS · shintsugi](https://www.aisf.or.jp/~jaanus/deta/s/shintsugi.htm)
 

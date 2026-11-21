@@ -1,6 +1,6 @@
 # 腰掛継 · Koshikaketsugi
 
-Ved en forlængelse kan det ene bjælkeemne danne et sæde for det andet. Koshikaketsugi er et godt sted at begynde, fordi samlingens vigtigste flade kan ses både før og efter montage.
+Den nederste bjælke har fået et sæde. Det er et godt sted at begynde en bog om japanske træsamlinger, for man kan forstå det meste af koshikaketsugi ved at forestille sig vægten af det stykke, man står med i hænderne.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ Ved en forlængelse kan det ene bjælkeemne danne et sæde for det andet. Koshik
 
 ![4. Lodret snit – 腰掛継 · Koshikaketsugi](figur-4.svg)
 
-## Samleretningen
+Den ene bjælkeende er skåret som et trin. Den anden vender trinnet modsat. Løft det øverste stykke ind over det nederste og sænk det. Så snart de brede, vandrette flader mødes, har den øverste ende et sted at hvile.
 
-Vend det ene trin op og det andet ned. Før overstykket ned til den vandrette anlægsflade. I denne enkle variant er der fri vej tilbage op.
-
-## Læs snittet
-
-Længdesnittet viser overlappet som en bænk med en skulder i hver ende. JAANUS beskriver også fastholdelse og brug af sædet som led i mere sammensatte forbindelser.
-
-## Ved en besigtigelse
-
-Sammenlign med det danske lige blad. De to undervisningsmodeller har samme mål, så ligheden kan efterprøves direkte. Betegnelsernes øvrige anvendelser følger hver sin kilde.
+Løft den igen. I denne enkle form er vejen op stadig åben. Senere i bogen vender sædet tilbage sammen med en svalehale. Dér kan du genkende den samme brede flade og samtidig se, hvad det nye indgreb gør.
 
 [JAANUS · koshikaketsugi](https://www.aisf.or.jp/~jaanus/deta/k/koshikaketsugi.htm)
 

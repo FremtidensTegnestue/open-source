@@ -1,6 +1,6 @@
 # 渡欠 · Watarikaki
 
-Overemnet kan gribe ned over et helt, ubearbejdet underemne. JAANUS beskriver denne enklere variant i opslaget om watariago.
+Løft den øverste bjælke og lad blikket blive på den nederste. Dens overside er hel. Ved denne watarikaki ligger tømrerens indhug i det stykke, der lige er blevet løftet.
 
 ![Kryds i en tømmerramme](placering.svg)
 
@@ -12,17 +12,9 @@ Overemnet kan gribe ned over et helt, ubearbejdet underemne. JAANUS beskriver de
 
 ![4. Lodret tværsnit – 渡欠 · Watarikaki](figur-4.svg)
 
-## Samleretningen
+Vend blikket mod undersiden af det øverste stykke. Udskæringen har plads til underbjælkens bredde. Når stykket sænkes, går de to fremspring ned på hver sin side af underbjælken.
 
-Vend udskæringen i overemnet nedad, og lad de to fremspring passere på hver sin side af underemnet.
-
-## Læs snittet
-
-Tværsnittet viser underemnets fulde rektangel. Overemnets udsparing omfatter dets overkant, og der er ingen smal ryg i midten af underemnet.
-
-## Ved en besigtigelse
-
-Tegn de to varianter ved siden af hinanden. Markér med én farve, hvor der måtte fjernes træ fra den nederste del i hvert tilfælde.
+Prøv at tegne underbjælken alene, sådan som den ligger tilbage. Gem det enkle rektangel i hukommelsen. På næste side skal samme bjælke have en ganske anden ryg.
 
 [JAANUS · watariago](https://www.aisf.or.jp/~jaanus/deta/w/watariago.htm)
 

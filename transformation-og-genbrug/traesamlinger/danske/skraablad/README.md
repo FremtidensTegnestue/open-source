@@ -1,6 +1,6 @@
 # Skråt blad
 
-Ved en længdesamling kan tykkelsen af bladet ændre sig hele vejen fra skulder til spids. Den tykke del bliver siddende ved sit eget emne.
+Et tyndt stykke træ er let at få øje på mellem fingrene. På det skrå blad sidder den tynde ende længst ude, mens tømreren har ladet mere træ stå tilbage inde ved roden, hvor bladet vokser ud af bjælken.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ Ved en længdesamling kan tykkelsen af bladet ændre sig hele vejen fra skulder 
 
 ![4. Lodret snit – Skråt blad](figur-4.svg)
 
-## Samleretningen
+Vend den anden bjælke modsat. Dens tynde ende lander nu over den førstes tykke del. Lader du blikket løbe langs fugen fra siden, følger du én lang skrå flade mellem to korte, lodrette skuldre.
 
-Læg den tynde ende af overbladet ved underbladets tykke rod. Sænk det, til de skrå flader mødes. I eksemplet er spidserne 3 mm af den samlede højde på 18 mm.
-
-## Læs snittet
-
-Profilen har små lodrette skuldre ved begge ender af den skrå flade. Følg dem for at skelne et skråt blad fra en skrå afskæring, der ender i nul.
-
-## Ved en besigtigelse
-
-Se efter både anlæg under samlingen og eventuelle nagler eller bolte. Bogen beskriver begge forhold; demonstrationen åbner træfladerne før fastholdelse.
+Læg især mærke til spidsen. I bogens eksempel er der stadig 3 mm træ tilbage af de oprindelige 18 mm. Den lille kant giver et synligt spor, også når bjælkerne ligger samlet.
 
 [Kaare Kristensen · fig. 20 · PDF-s. 26](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=26)
 

@@ -1,6 +1,6 @@
 # 千切継 · Chigiritsugi
 
-En tredje del kan binde to bjælkeender sammen. JAANUS beskriver en variant med et kroghoved i hver ende af en løs tap.
+Tæl træstykkerne, før du følger stregerne. To bjælker ligger ende mod ende, og oven over fugen svæver et tredje lille stykke. Det har et hoved i hver ende.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ En tredje del kan binde to bjælkeender sammen. JAANUS beskriver en variant med 
 
 ![4. Vandret snit – 千切継 · Chigiritsugi](figur-4.svg)
 
-## Samleretningen
+Tømreren former et leje i begge bjælker. Når det løse stykke sænkes, får det ene hoved fat i den venstre bjælke og det andet i den højre. Den smalle hals kommer til at spænde lige hen over stødet. Under den ligger der stadig træ.
 
-Lad bjælkeenderne mødes. Sænk derefter det okkerfarvede dobbeltstykke ned i de to åbne lejer. Hvert hoved får fat i sit eget emne.
-
-## Læs snittet
-
-I plansnittet kan halsen følges hele vejen hen over bjælkernes stød. Der står stadig træ under den løse del i denne variant.
-
-## Ved en besigtigelse
-
-Markér de to bjælker og det løse stykke særskilt. En enkelt synlig kontur kan ellers let blive læst som en tap skåret ud af den ene bjælke.
+I den forrige samling voksede hoved og hals ud af selve bjælken. Her kan begge bjælker blive liggende, mens man løfter forbindelsesstykket frit. Den forskel er let at mærke i hånden og let at overse på en plantegning.
 
 [JAANUS · kamatsugi](https://www.aisf.or.jp/~jaanus/deta/k/kamatsugi.htm)
 

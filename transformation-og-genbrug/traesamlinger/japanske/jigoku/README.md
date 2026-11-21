@@ -1,6 +1,6 @@
 # 地獄ほぞ · Jigokuhozo
 
-I en skjult kilet tap ligger låsningen inde i hullet. De to små kiler sættes løst i tapendens slidser, mens samlingen endnu er åben.
+To små kiler stikker frem af tapenden. De skal med ind i et blindt hul, og når samlingen er færdig, kan tømreren ikke længere nå dem. Så hvordan får kilerne det sidste tryk? Det får de af hullets bund.
 
 ![Skjult tap i rammehjørne](placering.svg)
 
@@ -14,17 +14,9 @@ I en skjult kilet tap ligger låsningen inde i hullet. De to små kiler sættes 
 
 ![5. Snit efter spredning – 地獄ほぞ · Jigokuhozo](figur-5.svg)
 
-## Samleretningen
+Kilerne sidder først løst i hver sin slids. Når tappen føres ind, rammer deres ender bunden før selve tapspidsen. Fortsætter stolpen det sidste stykke, presses kilerne op i slidserne. Tapenden breder sig ud i det hulrum, tømreren har gjort bredere forneden.
 
-Før tap og kiler ned samlet. Når kilernes brede ender rammer hulbunden, kan yderligere indføring presse tapenden ud til siderne. Tegningen skifter her fra en uspredt til en udspændt form.
-
-## Læs snittet
-
-I slutsnittet når kilerne til bunden; tapspidsen har fri afstand. Hulrummet er bredere nederst end ved mundingen. De to CAD-modeller viser geometriske øjebliksbilleder før og efter spredningen.
-
-## Ved en besigtigelse
-
-Overvej adskillelse, før du vælger denne detalje ved genbrug. I lukket tilstand kan kilernes placering være usynlig. Tegningerne beregner hverken træets deformation eller faren for flækning.
+Se på de to snit bag i bogen: Samme tap, først ved berøring, siden spændt ud. Nu er enden bredere end mundingen. Den bevægelse, der førte træet ind, kan ikke bare spilles baglæns. Det får betydning den dag, nogen vil skille huset eller møblet ad.
 
 [JAANUS · jigokuhozo](https://www.aisf.or.jp/~jaanus/deta/j/jigokuhozo.htm)
 

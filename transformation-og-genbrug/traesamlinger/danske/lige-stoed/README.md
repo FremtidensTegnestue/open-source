@@ -1,6 +1,6 @@
 # Lige stød
 
-Se op langs en vandret rem til det sted, hvor to længder tømmer mødes over en stolpe. En smal lodret fuge kan være det eneste synlige spor.
+To bjælker er for korte. Stolpen mellem dem er til gengæld bred nok til, at begge ender kan hvile på den. Her begynder det lige stød, en af de enkleste måder at lade en vandret rem fortsætte gennem huset på.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ Se op langs en vandret rem til det sted, hvor to længder tømmer mødes over en
 
 ![4. Lodret snit – Lige stød](figur-4.svg)
 
-## Samleretningen
+Tømreren skærer hver ende vinkelret af. Det første stykke får plads på den ene side af stolpens top. Det næste sænkes ned ved siden af. Fra siden kan alt arbejdet ende med at se ud som en enkelt lodret blyantstreg.
 
-Læg den første ende på stolpen, og sænk den anden ved siden af. Begge ender skal nå ind over understøtningen. Den grå del på tegningen er stolpens top.
-
-## Læs snittet
-
-Længdesnittet viser to plane endeflader og en ubrudt stolpetop nedenunder. Hver ende har sit eget anlæg.
-
-## Ved en besigtigelse
-
-Kan du se understøtningen under begge ender? Hvis loft eller beklædning skjuler den, så tegn dens placering som uafklaret.
+Vil du forstå den streg, så kig nedenunder. Hvor langt når hver ende ind på stolpen? Det er dér, du finder de to små flader, som bjælkerne faktisk hviler på.
 
 [Koch · Lige stød](https://danskbyggeskik.dk/publikationer/ordbog_fagudtryk_fra_det_traditionelle_byggeri.pdf#page=30)
 

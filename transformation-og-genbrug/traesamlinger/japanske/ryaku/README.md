@@ -1,6 +1,6 @@
 # 略鎌 · Ryakukama
 
-En forlængelse kan skjule et lille modhak mellem to længere skrå flader. I den historiske undersøgelse af ryakukama viser første side både grundformen og flere kombinationer.
+Lad blyanten følge den lange skrå fuge. Et lille stykke inde vender den kort opad, før den fortsætter ned igen. Det lille modhak er værd at standse ved. På afstand kunne man have taget det hele for ét skråt snit.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ En forlængelse kan skjule et lille modhak mellem to længere skrå flader. I de
 
 ![4. Lodret snit – 略鎌 · Ryakukama](figur-4.svg)
 
-## Samleretningen
+I denne ryakukama sænkes de to halvdele sammen. De skrå flader kommer til at ligge mod hinanden, og ved hakket møder træet en flade, der vender den anden vej. Den historiske undersøgelses første figurblad viser både denne grundprofil og former, hvor tømreren har føjet andre indgreb til.
 
-Her modelleres profilen i figur 2. Den ene del sænkes, så de skrå anlæg og det korte modhak kommer på plads. Andre varianter i afhandlingen kombinerer formen med yderligere indgreb.
-
-## Læs snittet
-
-Længdesnittet viser en faldende linje, et kort stykke med modsat hældning og endnu en faldende linje. De to lave skuldre ved enderne bliver stående. Følg profilens retning før du sammenligner med kamatsugis hals og hoved.
-
-## Ved en besigtigelse
-
-Notér hvor i huset et muligt eksempel er fundet, og hvilke flader der er synlige. Studiet sammenholder netop form, bygningsdel og placering. Betegnelsen alene giver ikke en entydig historisk datering.
+Når du møder formen i et hus, så tag også dens omgivelser med på skitsen. Hvor i bygningen sidder den? Hvilke sider kunne oprindelig ses? De spørgsmål hjalp forskeren med at følge samlingens historie. En bestemt hakform giver ikke i sig selv en datering.
 
 [JAANUS · ryakukama](https://www.aisf.or.jp/~jaanus/deta/r/ryakukama.htm) · [Architectural Institute of Japan · fig. 1–3](https://www.jstage.jst.go.jp/article/aijax/356/0/356_KJ00004080403/_pdf#page=1)
 

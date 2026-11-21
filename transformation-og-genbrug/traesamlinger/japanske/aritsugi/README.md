@@ -1,6 +1,6 @@
 # 蟻継 · Aritsugi
 
-To brædder mødes ende mod ende. På fladsiden ses en tap, der er bredere ved hovedet end ved halsen. JAANUS beskriver blandt andet møbler og dørrammer.
+Hvordan får man et bredt hoved ind gennem en smal hals? Løft det op over brættet. Det lille retningsskift er hele fornøjelsen ved at prøve en aritsugi mellem hænderne.
 
 ![Bræddeende i en ramme](placering.svg)
 
@@ -12,17 +12,9 @@ To brædder mødes ende mod ende. På fladsiden ses en tap, der er bredere ved h
 
 ![4. Vandret snit – 蟻継 · Aritsugi](figur-4.svg)
 
-## Samleretningen
+På det ene bræt skærer tømreren en tap med skrå sider. Det andet får en udskæring med samme kontur. Hovedet sænkes ind fra fladsiden. Prøv nu at trække brædderne fra hinanden på langs. Det brede træ møder de to skrå flanker, længe før hovedet kan slippe ud.
 
-Placér tappen ud for den åbne udskæring og sænk den gennem brættets tykkelse. Et forsøg på at føre det brede hoved ind gennem halsen på langs ville blive standset af flankerne.
-
-## Læs snittet
-
-Plansnittet gennem brædderne viser den udadgående bredde og de to flanker. Her er valgt en gennemgående undervisningsvariant. JAANUS viser desuden en sammensat variant med sæde.
-
-## Ved en besigtigelse
-
-Hold øje med halsen og træet på hver side af udskæringen. Formens indgreb fortæller, hvilken bevægelse den spærrer. Brudlasten kræver andre oplysninger.
+Eksemplet her går igennem brættets tykkelse. På JAANUS’ tegning kan du også se en udgave, hvor der stadig er træ under hovedet. Vend siden, og se hvad den bund gør ved samlingen.
 
 [JAANUS · aritsugi](https://www.aisf.or.jp/~jaanus/deta/a/aritsugi.htm)
 

@@ -1,6 +1,6 @@
 # 大入ほぞ差 · Ōire-hozosashi
 
-Et vandret emne kan ende ved en stolpe med en tap, der når ud på den modsatte side. JAANUS beskriver både kortere og gennemgående indgreb i oversigten over vinklede samlinger.
+Gå om på bagsiden af stolpen. Her stikker en lille ende træ ud. På forsiden kommer en hel bjælke hen imod dig. Sammen afslører de to sider, hvordan bjælken er gjort smallere, inden den passerer gennem stolpen.
 
 ![Tilslutning ved en stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ Et vandret emne kan ende ved en stolpe med en tap, der når ud på den modsatte 
 
 ![4. Vandret snit – 大入ほぞ差 · Ōire-hozosashi](figur-4.svg)
 
-## Samleretningen
+Før tappen vandret ind. Den brede skulder standser ved stolpens forside. Den smallere tap fortsætter og viser lidt endetræ på bagsiden. På originaltegningen finder du også en kortere tap, som standser inde i stolpen.
 
-Før tappen vandret ind, indtil skulderen på den større bjælkeende møder stolpen. I den valgte gennemgående variant går tapenden lidt ud over bagsiden.
-
-## Læs snittet
-
-Plansnittet går gennem tappens midterhøjde. Bjælkens fulde bredde standser ved stolpen, mens den smallere del fortsætter. Sammenlign med nuki, hvor det gennemførte emne har konstant tværsnit.
-
-## Ved en besigtigelse
-
-Undersøg den modsatte side. Et synligt endefelt kan høre til en gennemgående tap; et bredere emne, som fortsætter, giver et andet spor.
+Prøv at følge kun den del, der stikker frem. Hører den til en bjælke, der ender her, eller til et vandret stykke, der fortsætter mod næste stolpe? Nuki på næste side giver den anden mulighed.
 
 [JAANUS · shiguchi](https://www.aisf.or.jp/~jaanus/deta/s/shiguchi.htm)
 

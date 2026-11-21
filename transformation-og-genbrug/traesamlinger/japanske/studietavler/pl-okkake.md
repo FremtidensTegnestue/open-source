@@ -1,14 +1,14 @@
 # Okkake-daisen-tsugi · find begge stifthuller
 
-Begge snit er vandrette, parallelle og lagt i den samme model. Det øverste åbner de to profiler; det nederste går gennem stifternes midterhøjde.
+På den øverste tegning kan du lede længe efter stifterne. Et lille stykke længere nede i nøjagtig samme bjælke kommer de begge til syne. Det eneste, der har flyttet sig, er snittet.
 
 ![Over stifterne · de skrå anlæg](pl-okkake-1.svg)
 
 ![I stifthøjde · begge tværgående stifter](pl-okkake-2.svg)
 
-Læs den samme ende af samlingen på begge billeder. Profilerne ligger i identisk position. Det ekstra blågrå træ i nederste billede skyldes udelukkende snittets højde. Stifterne går gennem begge emner efter samling.
+Følg den skrå fuge ud til siden i det øverste billede. Den viser vejen, de to træstykker kan mødes ad. Først når de ligger på plads, kan stifterne føres gennem begge dele. På nederste tegning kan du se, hvor de krydser fugen.
 
-Gå tilbage til kanawatsugi-tavlens T-profil. Okkake-modellen har en åben sidevej til samling, mens kanawa-endestykkerne kræver en sidste bevægelse på langs. Den forskel er relevant ved udskiftning af ét stykke i et eksisterende fag.
+Prøv nu at forestille dig bjælken med en mur tæt op ad siden. Er der plads til den bevægelse, du lige har fulgt? Det spørgsmål er værd at stille, længe før man løfter et nyt stykke tømmer op i et gammelt hus.
 
 [JAANUS · okkake daisentsugi](https://www.aisf.or.jp/~jaanus/deta/o/okkakedaisentsugi.htm)
 

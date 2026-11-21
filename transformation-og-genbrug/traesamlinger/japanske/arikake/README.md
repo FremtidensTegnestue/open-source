@@ -1,6 +1,6 @@
 # 蟻掛 · Arikake
 
-En bjælke kan ende mod langsiden af en anden. Her sættes en svalehale på omtrent en halv bjælkehøjde i en tilsvarende udskæring i den gennemgående del.
+Stil dig ved langsiden af den grønne bjælke. Den fortsætter både til højre og til venstre. Det er her, den anden bjælke skal ende, vinkelret på den første.
 
 ![Bjælkeende mod langsiden](placering.svg)
 
@@ -12,17 +12,9 @@ En bjælke kan ende mod langsiden af en anden. Her sættes en svalehale på omtr
 
 ![4. Vandret snit – 蟻掛 · Arikake](figur-4.svg)
 
-## Samleretningen
+På enden af den korte bjælke former tømreren en svalehale i omtrent halv højde. Løft hovedet over den åbne udskæring i den lange bjælkes side og sænk det. Set fra oven kan du nu følge de skrå flanker helt ind til halsen. Nedenunder hviler bladet på træet i den gennemgående bjælke.
 
-Før den smalle hals forbi bjælkens side, mens hovedet er hævet. Sænk derefter bladet i lejet. Den afbildede form svarer til første betydning i JAANUS-opslaget.
-
-## Læs snittet
-
-I plansnittet ses den vinkelrette tilslutning, den brede ende og halsen. Følg den grønne bjælke forbi samlingen i begge retninger.
-
-## Ved en besigtigelse
-
-Begynd ved den gennemgående bjælke. Så er det lettere at skelne en tilslutning fra en længdesamling med næsten samme svalehalekontur.
+Svalehaleformen ligner den, du så ved bræddernes forlængelse. Træd et skridt tilbage, og forskellen bliver tydelig: Her går én bjælke lige igennem, mens den anden slutter ved dens side. Det er denne udgave af arikake, tegningen viser.
 
 [JAANUS · arikake](https://www.aisf.or.jp/~jaanus/deta/a/arikake.htm)
 

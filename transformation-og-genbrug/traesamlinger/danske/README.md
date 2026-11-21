@@ -2,19 +2,19 @@
 
 ## Læs et hus gennem dets samlinger
 
-Følg træet fra remmens stød til det skrå bånd og videre til brædderne på husets flader. Hver familie undersøges gennem konkrete samlinger, historiske tavler og spørgsmål til en besigtigelse.
+Oppe under taget mødes to bjælker over en stolpe. Fra gulvet kan du se en fuge. Hvis du kunne løfte den ene ende, ville du se de snit, der får træet til at passe. Den bevægelse kan du følge her, fra det første lige stød til den franske lås med to kiler.
 
 [Hent bogen som PDF](bog.pdf?raw=true) · [Offlineudgave](bog.html?raw=true)
 
 ## Forlæng en rem
 
-Hvor ender træet, og hvor begynder understøtningen?
+Remmen ender, før huset gør. Hvordan kommer tømreren videre?
 
-Start under stødet. I et bjælke- eller remforløb kan en lille fuge ligge lige over stolpen, skråt over en bæring eller midt i et synligt spænd. Indtegn bæringen på samme opmåling som fugen. En opmåling af formen alene kan ellers give en forkert forestilling om træets arbejde.
+Begynd med det stykke træ, du står på gulvet og kigger op på. Følg det hen over stolpen. Forsvinder fugen lige gennem bjælken, kan to endeflader mødes her. Springer fugen et stykke sidelæns, er der måske mere træ bag den, end man først tror.
 
-Følg derefter samlingslinjen fra den ene kant til den anden. Ét snit gennem hele tværsnittet peger mod stød. To forskudte skuldre med et mellemliggende anlæg peger mod blad. På hagebladet kommer et tredje kendetegn til: vender man den ene halvdel og prøver at trække dem fra hinanden langs bjælken, møder hagen en modstående flade.
+Læg de adskilte blade ved siden af hinanden på tegningen. Det ene er fladt, et andet løber skråt, og på et tredje har tømreren ladet en hage stå ved midten. På en værkstedsprøve ville du kunne kende de tre fra hinanden med lukkede øjne.
 
-Beskriv et synligt stød med tre mål: afstand fra fugen til støttens forkant, til dens bagkant og til næste synlige skulder. Angiv tegningens retning. Målene gør det muligt for en kollega at tegne både støtte og samling.
+Har du en rem foran dig, så få stolpen med på dit billede. Et nærfoto af fugen er godt til at se snittet. Et skridt tilbage kan vise, om begge ender overhovedet får støtte samme sted.
 
 [Originalkilde](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=26)
 
@@ -30,13 +30,13 @@ Beskriv et synligt stød med tre mål: afstand fra fugen til støttens forkant, 
 
 ## Drej om hjørnet og kryds et fag
 
-Hvor mange arme går ud fra forbindelsen?
+Ved et hjørne kan du følge træet to veje. Ved et kryds må du vælge mellem fire.
 
-Følg de enkelte emner væk fra knudepunktet. To arme kan være et hjørne, tre en tilslutning og fire et kryds. Den optælling kan foretages, selv når samlingens indre er skjult. Et blad med ens form kan optræde i flere af situationerne.
+Lad først blikket løbe langs bjælkerne uden at stirre på knudepunktet. Drejer begge stykker af her? Ender kun det ene? Eller kan du genfinde begge på den anden side? Det spørgsmål kan besvares fra rummet, også når den eneste synlige fuge er en mørk streg.
 
-Læg en tænkt lineal over de to oversider. Ved overskramningen i bogen ligger de i samme plan. Ved kamforbindelserne bevarer det øverste stykke en højere overside. Et plansnit forklarer, hvilket emne der fortsætter, mens et snit på tværs er bedre til at vise kammens placering.
+Sænk så blikket til oversiderne. Ved overskramningen ligger de i samme højde. Ved kæmningen ligger den ene bjælke højere, som en hånd lagt løst på tværs af den anden. Inde i træet har tømreren skåret de kanter, der holder hånden på sit sted.
 
-Tegn oversiderne på hver side af krydset og skriv kote eller målt spring på skitsen. Gæt dernæst hvor en kam kunne ligge. Hold gættet på en særskilt skitse, indtil du har en fri kant eller en detailtegning.
+Huths gamle tavler er gode at gå på opdagelse i her. Prøv at finde den samme kam i et snit og på en tegning af de åbne dele. Den lille ryg, man let overser fra siden, er pludselig det første, øjet finder.
 
 [Originalkilde](https://danskbyggeskik.dk/publikationer/324%20-%20tr%C3%A6forbindelser%20for%20br%C3%A6der,%20planker%20og%20t%C3%B8mmer.%2024%20tavler%20med%20bem%C3%A6rkninger.pdf#page=33)
 
@@ -49,13 +49,13 @@ Tegn oversiderne på hver side af krydset og skriv kote eller målt spring på s
 
 ## Før en tap ind
 
-Hvilken del styrer, og hvilken flade ligger an?
+Det er let at tegne en tap i et hul. Prøv bagefter at få hele vægfaget til at gå sammen.
 
-Betragt en stolpe ved dens fod. Skulderen kan være synlig hele vejen rundt, selv om man hverken kan se, hvor dybt tappen går, eller om der findes to tappe. På en tegning af det lukkede hus bør den synlige fuge derfor have en anden signatur end en form, der er hentet fra et typisk lærebogseksempel.
+En stolpe kan sænkes lige ned i sin rem. Et skråbånd beder om en anden bevægelse. Forestil dig stolpen allerede på plads og båndet i hænderne. Hvor skal du selv stå, og hvor skal den frie ende af båndet hen, mens tappen finder vej?
 
-Før den ene hånd langs indføringsretningen og hold den anden som hullets kind. Gentag med det skrå bånd. Den lokale samling kan være mulig at samle alene og samtidig kræve, at hele vægfaget rejses i en bestemt rækkefølge. Et bærebryst kræver desuden, at endnu en kort flade når sit leje.
+Tømrerens snit rummer to slags spor. Det, der rager frem, fortæller, hvad der føres ind. De flader, der bliver tilbage rundt om tappen, fortæller, hvor delene standser mod hinanden. På en dobbelttap får man to huller at ramme. På en brysttap får man en ekstra lille hylde at lande på.
 
-Find tre forskellige stop i kapitlerne: en skulder der når remmens overside, en tap der ender inde i hullet og et bryst med et særskilt anlæg. Markér præcis hvilken af dem der kan ses i et lukket fag.
+Se efter det sidste øjeblik i hver tegning: Hvilken flade møder træ først? Det er ofte dér, man forstår både samlingen og det håndværk, der skulle til for at få en hel væg til at lukke.
 
 [Originalkilde](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=28)
 
@@ -69,13 +69,13 @@ Find tre forskellige stop i kapitlerne: en skulder der når remmens overside, en
 
 ## Gør en flade bredere
 
-Hvad kan man aflæse i en bræddekant?
+Her får vi brug for at kigge på tværs af et bræt.
 
-Ved en væg eller et gulv kan snesevis af fuger se ens ud. Den mest værdifulde iagttagelse findes ofte ved en eksisterende afslutning. En tværskåret kant kan vise hele tværprofilet på få centimeter, hvor en meter synlig overflade kun viser én streg.
+På en vægflade kan øjet løbe fra fuge til fuge og se næsten den samme linje hver gang. Kommer du til en eksisterende kant ved en åbning, ændrer billedet sig. Dér kan ét lille snit røbe, hvordan hele fladen er bygget op.
 
-Følg fibrene og de separate dele. En fast fjeder hører til brættet, en løs fjeder er et selvstændigt stykke, og ved fals i fals får man to åbne trin. Under en optagning kan det løse stykke blive liggende i en not og derfor ligne en fast fjeder på afstand.
+Først møder du fjederen, den smalle tunge, som går ind i en not på nabobrættet. Se godt efter, om tungen hænger sammen med brættet. Gør den ikke det, står du måske med en løs liste i hånden, når brædderne skilles.
 
-Tegn et snit fra den observerede kant. Notér hvilken side der vender ud eller op. Huth skelner mellem vandret og lodret brug og mellem udsat og beskyttet side. De oplysninger hører med til en genbrugsbeskrivelse.
+Den tredje forbindelse er en fals: to åbne trin, der dækker hinanden. Forestil dig regn på en udvendig bræddevæg, og vend tegningen den ene og den anden vej. Pludselig er det værd at vide, hvilken kant tømreren lagde yderst.
 
 [Originalkilde](https://danskbyggeskik.dk/publikationer/324%20-%20tr%C3%A6forbindelser%20for%20br%C3%A6der,%20planker%20og%20t%C3%B8mmer.%2024%20tavler%20med%20bem%C3%A6rkninger.pdf#page=6)
 
@@ -85,25 +85,25 @@ Tegn et snit fra den observerede kant. Notér hvilken side der vender ud eller o
 
 ## Feltøvelse · To streger over en stolpe
 
-Du ser en kort vandret linje og to lodrette ender i siden af en rem. Under en del af linjen står en stolpe. Ejerens tegning kalder stedet en lask. Hvad skal der til for at kunne bruge den betegnelse?
+På tegningen står der »lask«. Over stolpen ser du to lodrette streger og en kort, vandret fuge. Kan du finde det stykke træ, som tegningen har givet navn?
 
-**Tegn det synlige.** Mål de to lodrette linjers placering i forhold til stolpens kanter. Kig efter en separat del, som fortsætter hen over en fuge. En pålagt lask har egne ender. Ved et blad er overlappet skåret ud af selve de to emner.
+Begynd ved en af de lodrette streger. Hører den til enden af en løs planke, som rækker hen over stødet? Følg i så fald planken til dens anden ende. Hvis den vandrette linje i stedet ligger midt inde i bjælkens egen højde, har du også grund til at overveje et blad.
 
-**Prøv to forklaringer.** Tegn først et lige blad og derefter to stødte emner med en lask. Hold bjælkens ydre mål ens. Tegn i begge forslag, hvilke fugeafsnit der ville kunne ses fra din position. En tegning, der kræver en synlig tredje kant uden at du kan finde den, giver et konkret spørgsmål at undersøge.
+Tegn begge muligheder på samme lille stykke papir: to ender med en lask hen over sig, og to bjælker med et blad skåret i hver ende. Se på huset igen. Hvilken kant skulle du kunne se, hvis den første tegning var rigtig?
 
-**Aflever en brugbar registrering.** Angiv hvilke flader du faktisk har haft adgang til, og hvilke forbindelsesmidler du har set. Brug formuleringen »synligt overlap over stolpe, indre profil uafklaret«, hvis besigtigelsen ender dér. Ved senere åbning kan en kollega teste begge forklaringer.
+Måske får du ikke svaret den dag. Så er »synligt overlap over stolpen; træet bagved er skjult« en præcis besked til den næste, som åbner stedet. Det er mere værd end et samlingsnavn, der har sneget sig ind på tegningen som et gæt.
 
 [Originalkilde](https://danskbyggeskik.dk/publikationer/ordbog_fagudtryk_fra_det_traditionelle_byggeri.pdf#page=30)
 
 ## Regneøvelse · Hvor er træet blevet af?
 
-Et principsnit gennem en overskramning er 20 mm bredt og 16 mm højt i det ubearbejdede emne. Hvad kan man beregne ud fra de mål alene?
+To bjælker krydser, og da det øverste stykke er sænket, er hele krydset fyldt af træ. Hvor er det træ så blevet af, som tømreren tog ud med stemmejernet?
 
-**Beregn ét emnes synlige tværsnit.** Det hele rektangel er 20 × 16 = 320 mm². Hvis indhakket tager halvdelen af højden over hele bredden, er det tilbageværende rektangel 20 × 8 = 160 mm². Det andet emne fylder resten af krydset i den samlede model.
+Se kun på den ene bjælke. I vores lille eksempel måler den 20 × 16 mm. Før indhugget giver det 320 mm² i tværsnit. Midt i krydset har tømreren taget halvdelen af højden bort. Her er der 20 × 8 = 160 mm² tilbage af netop dette stykke.
 
-**Skift spørgsmålet.** At begge dele tilsammen udfylder højden på 16 mm giver ikke det gennemgående træ i det første emne tilbage. Dets fibre er afbrudt ved hakket. Kontakt mellem stykkerne og sikring mod åbning skal vurderes særskilt.
+Læg nu den anden bjælke på plads. Den fylder den ledige halvdel ud med fibre, der løber på tværs. Det er derfor, krydset kan se helt ud fra siden, selv om kun halvdelen af den første bjælkes træ fortsætter lige igennem.
 
-**Brug samme metode ved kammen.** På en enkelkam udgør det borttagne areal et smallere felt. Mål først feltets bredde og dybde hver for sig. Angiv om regnestykket gælder ét tværsnit, begge emner eller hele trævolumenet. Beregningen kan gentages på CAD-modellen; den giver ingen tilladelig last.
+Du kan gentage regnestykket for en kam ved at måle både bredde og dybde på indhugget. Det giver dig træarealet i det snit, du har tegnet. Skal du vide, hvad en virkelig bjælke kan bære, behøver du blandt andet træets kvalitet, understøtningen og de kræfter, som virker på den.
 
 [Originalkilde](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=27)
 

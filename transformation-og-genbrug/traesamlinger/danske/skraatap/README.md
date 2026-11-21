@@ -1,6 +1,6 @@
 # Skrå tap i et bånd
 
-Et skråbånd møder en vandret rem med en spids og en stump vinkel. En lodret montagepil ville sende tappen ind i hullets side.
+Forestil dig at rejse et skråbånd i et bindingsværksfag. Tappen skal ind i remmen, men den sidder på enden af et stykke træ, der peger skråt op. Tømreren må tænke på hele båndets bevægelse, allerede når hullet mærkes op.
 
 ![Skråbåndets fod i en ramme](placering.svg)
 
@@ -12,17 +12,9 @@ Et skråbånd møder en vandret rem med en spids og en stump vinkel. En lodret m
 
 ![4. Lodret snit – Skrå tap i et bånd](figur-4.svg)
 
-## Samleretningen
+Følg pilen ned langs båndet. Tappen og hullet har samme skrå retning, og ved skuldrene går tappen over i båndets fulde bredde. På denne tegning kan du se den enkle form før en eventuel nagling.
 
-Følg båndets akse ned mod venstre i modellens længdesnit. Det skrå hul har samme retning. Her ses en enkel tap uden ekstra forsætning eller nagle.
-
-## Læs snittet
-
-I længdesnittet kan du forlænge tappens to lange sider op i båndet. Ved skuldrene begynder båndets fulde bredde.
-
-## Ved en besigtigelse
-
-Registrér hvor der er plads til at føre tappen ind sammen med resten af faget. Den frie vej for én løs del kan være spærret, når nabostolpen allerede står.
+Prøv så at sætte en stolpe mere ind i dit tænkte fag. Er der stadig plads til at føre båndet ind? En detalje, der er let at samle på bukkene, kan bestemme, i hvilken rækkefølge hele væggen må rejses.
 
 [Kaare Kristensen · fig. 45 · PDF-s. 28](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=28)
 

@@ -1,6 +1,6 @@
 # Pløjning med løs fjeder
 
-Begge brætkanter kan have not. Forbindelsen mellem dem bliver først synlig, når den løse fjeder kommer frem.
+Man løfter et bræt fri, og en tynd liste bliver siddende i kanten. Ved første blik kunne listen være en del af brættet. Ser man efter på endefladen, dukker der en fuge op på begge sider af den.
 
 ![Langside i en bræddeflade](placering.svg)
 
@@ -12,17 +12,9 @@ Begge brætkanter kan have not. Forbindelsen mellem dem bliver først synlig, n�
 
 ![4. Lodret tværsnit – Pløjning med løs fjeder](figur-4.svg)
 
-## Samleretningen
+Her har begge brædder en not. Mellem dem ligger en løs fjeder, vist med blågrå farve. Først lægges den i den ene not. Derefter føres det andet bræt hen over den halvdel, der stadig stikker ud.
 
-Læg den blågrå fjeder i det første bræts not. På tegningen er den allerede placeret dér. Før det andet bræt på tværs hen over dens frie halvdel.
-
-## Læs snittet
-
-Snittet har tre trædele. Følg fugen langs begge sider af den blågrå liste. Den gennemgående linje mellem brædderne er synlig udenpå i begge typer pløjning.
-
-## Ved en besigtigelse
-
-Ved registrering tælles den løse fjeder som en selvstændig del. Angiv om den blev set i enden, fundet løs eller alene er foreslået ud fra en tegning.
+Ved nedtagning er den lille liste en del, man kan miste. Læg den sammen med brædderne og tegn dens profil. Så ved den næste, hvorfor der er riller i begge kanter.
 
 [G. v. Huth · fig. 12 · PDF-s. 6](https://danskbyggeskik.dk/publikationer/324%20-%20tr%C3%A6forbindelser%20for%20br%C3%A6der,%20planker%20og%20t%C3%B8mmer.%2024%20tavler%20med%20bem%C3%A6rkninger.pdf#page=6) · [G. v. Huth · tegning 12 · PDF-s. 16](https://danskbyggeskik.dk/publikationer/324%20-%20tr%C3%A6forbindelser%20for%20br%C3%A6der,%20planker%20og%20t%C3%B8mmer.%2024%20tavler%20med%20bem%C3%A6rkninger.pdf#page=16)
 

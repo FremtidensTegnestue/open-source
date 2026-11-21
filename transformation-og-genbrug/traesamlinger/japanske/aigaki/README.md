@@ -1,6 +1,6 @@
 # 相欠 · Aigaki
 
-Følg to emner, der krydser vinkelret. Aigaki bruges også ved hjørner. Her undersøger vi krydset, hvor begge emner fortsætter ud på begge sider.
+Se krydset fra oven. Fire arme går ud fra det samme lille felt, og alle fire oversider ligger i højde med hinanden. Hvordan er der blevet plads til begge bjælker?
 
 ![Kryds i en tømmerramme](placering.svg)
 
@@ -12,17 +12,9 @@ Følg to emner, der krydser vinkelret. Aigaki bruges også ved hjørner. Her und
 
 ![4. Vandret snit – 相欠 · Aigaki](figur-4.svg)
 
-## Samleretningen
+Tømreren har taget halvdelen af højden fra oversiden af den ene og halvdelen fra undersiden af den anden. Sænk den sidste bjælke på plads. I toppen af krydset kan du følge dens træ hele vejen igennem. Nedenunder løber den første bjælke på tværs.
 
-Tag halvdelen af højden i det ene emnes overside og halvdelen i det andets underside. Den viste montage sænker det øvre blad direkte ned i krydset.
-
-## Læs snittet
-
-Det vandrette snit i øverste halvdel følger kun det ene emne gennem krydset. Efter samling ligger oversiderne i samme plan. JAANUS nævner flere former for fastgørelse.
-
-## Ved en besigtigelse
-
-Følg alle fire ender i den samlede figur. Sammenlign dernæst med det danske hjørneblad, hvor der kun går to arme ud fra samlingen.
+Aigaki kan også sidde ved et hjørne. Tæl derfor de ender, der går videre ud fra det sted, du ser på. Det er en lille oplysning, som en nærtegning af selve indhakket let mister.
 
 [JAANUS · aigaki](https://www.aisf.or.jp/~jaanus/deta/a/aigaki.htm)
 

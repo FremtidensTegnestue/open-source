@@ -1,6 +1,6 @@
 # Fire snit gennem remmens samling
 
-Læs fra venstre mod højre i hvert længdesnit. Snittene er vist i samme målestok. Start ved den første skulder og tegn med en finger hen til den sidste.
+Prøv at trække blyanten gennem fugen i hvert af de fire snit uden at løfte spidsen. Ved det lige blad går turen hen ad en hylde. Allerede ved næste blad skal håndleddet dreje en smule.
 
 ![Lige blad · ubrudt vandret leje](pl-lige-blad-1.svg)
 
@@ -10,8 +10,8 @@ Læs fra venstre mod højre i hvert længdesnit. Snittene er vist i samme måles
 
 ![Skråt hageblad · spring mellem skrå flader](pl-lige-blad-4.svg)
 
-Sammenlign først de to øverste snit. Ved det skrå blad bliver der mere træ ved hvert blads rod og mindre ved dets frie ende. På den nederste række skifter anlægget niveau ved midten. Her kan en lodret flade møde den anden del under en forskydning på langs.
+Det skrå snit lader mere træ stå ved bladets rod og mindre ude ved spidsen. På de nederste to billeder sker der noget andet midtvejs. Blyanten må op eller ned ad et trin. Det er hagen. Hvis den ene bjælke trækkes på langs, har trinnet en flade at tage imod med.
 
-Prøv at aflæse de fire samlinger på en tegning af oversiden alene. Det, der er tydeligt i længdesnittet, kan være helt skjult fra oven. Til en registrering er det ofte mere værd at have et fotografi fra den rigtige kant end flere fotografier fra samme side.
+Fra oversiden af en hel rem kan alle fire blyantsture være skjult. Vil du vise en kollega, hvilket blad du står med, så gå om til kanten, hvor fugen skifter højde.
 
 [Kristensen · fig. 18 og 20–22](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=26)

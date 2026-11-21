@@ -1,6 +1,6 @@
 # 腰掛蟻継 · Koshikake-aritsugi
 
-Når bjælker skal forlænges, kan et sæde kombineres med en svalehale. JAANUS’ figur viser den kombinerede variant under det bredere opslag aritsugi.
+På bunden af udskæringen er der plads til at lægge en finger. Det brede svalehalehoved har fået sit eget sæde. Koshikake-aritsugi forener to former, som hver for sig er lette at kende.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ Når bjælker skal forlænges, kan et sæde kombineres med en svalehale. JAANUS�
 
 ![4. Vandret snit – 腰掛蟻継 · Koshikake-aritsugi](figur-4.svg)
 
-## Samleretningen
+Før hovedet ind over åbningen og sænk det. Sædet tager imod undersiden. De skrå flanker møder hovedets sider, hvis enderne forsøges trukket fra hinanden langs bjælken.
 
-Lad det bredere hoved gå ned i modformen fra oven. Det nederste træ i modtageren giver sædet under det udragende hoved.
-
-## Læs snittet
-
-Det høje plansnit viser svalehalehalsen; sædet ligger under snitplanet. I den adskilte figur kan man se begge anlæg på samme tid.
-
-## Ved en besigtigelse
-
-Sammenlign med både aritsugi og koshikaketsugi. Peg på den konkrete flade, der er tilføjet i forhold til den gennemgående bræddesamling.
+Se først ned på det samlede træ, og find svalehalehalsen. Se dernæst på den adskilte tegning og find sædet nedenunder. Det kræver de to udsigter at få hele navnets mening med.
 
 [JAANUS · aritsugi](https://www.aisf.or.jp/~jaanus/deta/a/aritsugi.htm)
 

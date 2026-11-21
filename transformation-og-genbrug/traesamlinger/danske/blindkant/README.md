@@ -1,6 +1,6 @@
 # Halvskjult hjørnetap
 
-Fra den ene side kan et hjørne ligne en slidstap. Vend hjørnet om: en del af træet kan være bevaret foran tapenden.
+Vend hjørnet om. På den ene side ligner det en slidstap. På den anden side løber træet ubrudt hen foran tapenden. Tømreren har ladet en del af kanten blive stående.
 
 ![Geringshjørne i en liste](placering.svg)
 
@@ -12,17 +12,9 @@ Fra den ene side kan et hjørne ligne en slidstap. Vend hjørnet om: en del af t
 
 ![4. Vandret snit – Halvskjult hjørnetap](figur-4.svg)
 
-## Samleretningen
+Den flade tap går ind mellem kinderne på samme måde som før, men den er kortere. På snittet kan du følge det okkerfarvede træ hen til den grønne strimmel foran spidsen. Der standser det.
 
-Før tappen ind mellem kinderne. Den standser inde i det modtagende stykke, hvor den almindelige slidstap kunne ses helt ud til kanten.
-
-## Læs snittet
-
-I det vandrette snit ligger der et stykke grønt træ foran den okkerfarvede tapspids. Sammenlign med samme snit i slidstappen.
-
-## Ved en besigtigelse
-
-Registrér begge ydersider af hjørnet. Den side, der ser ubrudt ud, giver en anden oplysning end den flade, hvor man kan se skuldrene.
+Tænk på de to sider som hver sit vidne. Den ene viser dig, hvor delene mødes. Den anden viser, at tappen aldrig nåede helt igennem.
 
 [Kaare Kristensen · fig. 52 · PDF-s. 29](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=29)
 

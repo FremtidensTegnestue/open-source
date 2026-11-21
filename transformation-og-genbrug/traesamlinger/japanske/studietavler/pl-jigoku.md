@@ -1,13 +1,13 @@
 # Jigokuhozo · hvad kilerne ændrer
 
-Begge længdesnit bruger samme millimeterskala og viser detaljen omkring tapspidsen. Til venstre standser den uspredte tap 2 mm over slutstillingen, idet kilerne rammer hulbunden. Til højre har skuldrene nået deres anlæg.
+Kilerne er kommet i bund. Alligevel mangler skulderen på venstre tegning endnu 2 mm, før den ligger an. Hvad sker der med de sidste millimeter? Se på den samme tap til højre.
 
 ![Uspredt profil · løse kiler](pl-jigoku-1.svg)
 
 ![Slutprofil · spredt tapende](pl-jigoku-2.svg)
 
-Følg først de blågrå kiler. De rager længere ned end selve tapspidsen. Derfor kan hulbunden påvirke kilerne, før tappen støder på. Se derefter på de to yderflanker: i slutformen er tapenden bredere end hullets munding.
+Først rager kilerne længere frem end tapspidsen. Når de møder hullets bund, kan tappen fortsætte ned omkring dem. Kilerne presser dens sider udad, hvor hullet er bredere. Nu har træet fået en form, der ikke kan trækkes lige tilbage gennem mundingen.
 
-Man kan kontrollere begge former geometrisk. En stiv flytning fra den ene til den anden ville derimod skjule det afgørende fysiske trin. Spredning, eventuel flækning og det nødvendige tryk er ikke simuleret. Af den grund er der to selvstændige modeller til dette kapitel.
+De to snit viser øjeblikket før og formen efter. Hvor meget tryk der skal til, og om træet vil flække, afhænger af det stykke træ, man faktisk har i hånden. De to millimeter hører til bogens eksempel.
 
 [JAANUS · originalsnit før og efter kilning](https://www.aisf.or.jp/~jaanus/deta/j/jigokuhozo.htm)

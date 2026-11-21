@@ -1,6 +1,6 @@
 # Kanawatsugi · to ender og én nøgle
 
-Her ligger snittene i den samme låste model. De to første er parallelle tværsnit i hver sin ende af overlappet, set i samme retning.
+Vælg en farve og hold øje med den i de to øverste snit. Ved den ene ende af overlappet har din bjælke et T-formet hoved. Ved den anden er det træet i den modsatte farve, der har hovedet.
 
 ![Venstre skulder · omvendt T](pl-kanawa-1.svg)
 
@@ -10,8 +10,8 @@ Her ligger snittene i den samme låste model. De to første er parallelle tværs
 
 ![Plansnit i nøglens højde](pl-kanawa-4.svg)
 
-Ved venstre skulder tilhører T-hovedet den ene bjælke; ved højre skulder tilhører det den anden. T-hovederne kan derfor ikke passere lodret ud gennem de smalle halse, når begge er i deres lommer.
+Et T-hoved er bredere end sin hals. Prøver du at løfte det lige op, mens det sidder i sin lomme, kommer træ i vejen på begge sider. Hovedet må først ud ad den vej, det kom ind.
 
-Når nøglen er ude, kan enderne forskydes aksialt, indtil T-hovederne slipper lommerne. Først da kan delene løftes fra hinanden. I den låste model gav et forsøg på én millimeters løft geometrisk overlap mellem trædelene. Prøven dokumenterer indgrebet; den giver ingen brudkraft.
+Den lille blågrå nøgle midt i bjælken holder den vej lukket. Tag nøglen ud på tegningen, skyd enderne lidt fra hinanden på langs, og se, hvornår det igen bliver muligt at løfte. Så har du læst hele låsen fra én ende til den anden.
 
 [JAANUS · de to originaldiagrammer](https://www.aisf.or.jp/~jaanus/deta/k/kanawatsugi.htm)

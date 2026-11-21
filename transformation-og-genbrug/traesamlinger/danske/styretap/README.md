@@ -1,6 +1,6 @@
 # Styretap
 
-En lille tap kan først og fremmest styre, hvor et emne lander. Kristensen beskriver typen ved hjørneforbindelser og gør opmærksom på dens begrænsede opgave.
+På den brede ende af træet står en lille firkant. Den ser beskeden ud ved siden af skuldrene omkring den, og dens opgave er tilsvarende præcis: Den hjælper stykket med at finde sin plads.
 
 ![Stolpefod i et vægfag](placering.svg)
 
@@ -12,17 +12,9 @@ En lille tap kan først og fremmest styre, hvor et emne lander. Kristensen beskr
 
 ![4. Lodret snit – Styretap](figur-4.svg)
 
-## Samleretningen
+Tømreren har skåret tilbage fra begge sider, så tappen bliver kvadratisk. Når den lander i hullet, styres emnet af tappens sider. Samtidig kan de brede skuldre få anlæg på træet nedenunder.
 
-Ret den lille firkant ind efter hullet og sænk emnet. På hver side er der skåret materiale bort, så der står skuldre tilbage.
-
-## Læs snittet
-
-Det lodrette snit viser skuldrene på begge sider af tappen. Se dernæst den adskilte del; her kan man også se, at tappen er kvadratisk i plan.
-
-## Ved en besigtigelse
-
-Læs træets anlæg og tappens styring hver for sig. En lille styretap alene fortæller ikke, hvordan konstruktionen er sikret mod at løfte sig.
+Ved et hjørne er det værd at stille to spørgsmål. Hvad holder træet på det rigtige sted under samlingen? Og hvad sikrer det færdige hjørne mod at åbne sig? En lille styretap kan give svaret på det første, længe før du kender svaret på det andet.
 
 [Kaare Kristensen · fig. 54 · PDF-s. 29](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=29)
 

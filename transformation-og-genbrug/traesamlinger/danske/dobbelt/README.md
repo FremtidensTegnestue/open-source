@@ -1,6 +1,6 @@
 # Dobbelttap
 
-To parallelle tappe kan dele et bredt tømmerendes indgreb op. Der skal både være træ uden om yderkanterne og træ mellem hullerne.
+To aflange huller i remmen og kun én stolpe at rejse. Tømreren har delt indgrebet i to ved at lade to tappe stå tilbage på stolpens ende.
 
 ![Stolpefod i et vægfag](placering.svg)
 
@@ -12,17 +12,9 @@ To parallelle tappe kan dele et bredt tømmerendes indgreb op. Der skal både v�
 
 ![4. Lodret tværsnit – Dobbelttap](figur-4.svg)
 
-## Samleretningen
+Begge skal finde deres hul i samme bevægelse. Sidder den ene ved siden af, bliver skulderen stående over remmen. Når begge er på plads, står der stadig grønt træ mellem de to tappe.
 
-Før begge tappe ind samtidigt. Hvis blot én tap rammer ved siden af, kan skulderen ikke nå helt frem til remmen.
-
-## Læs snittet
-
-Tværsnittet går på tværs af de to tappe. Sammenlign træstykket mellem hullerne med de to yderkinder; alle tre kan ses her.
-
-## Ved en besigtigelse
-
-Tegn hullerne som to åbninger. En enkelt bred signatur ville skjule det mellemstykke, som er afgørende for at genkende typen.
+Prøv at finde det mellemstykke i tværsnittet. Det er dét, man mister af syne, hvis man tegner to tappe som ét bredt felt. Studietavlen viser stolpen skåret både på tværs og vandret.
 
 [Kaare Kristensen · fig. 39 · PDF-s. 28](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=28)
 

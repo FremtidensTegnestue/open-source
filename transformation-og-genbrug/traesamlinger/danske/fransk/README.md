@@ -1,6 +1,6 @@
 # Fransk lås
 
-En fransk lås forbinder to bjælkeender med et hageblad, styr ved enderne og forkilning i midten. Huths figur 83 viser, at endernes tværprofil også er en del af forbindelsen.
+Der ligger fire stykker træ på bukkene. To af dem skal blive til én lang bjælke. De to andre er kiler. Du kan holde én i hver hånd. I den franske lås skal alle fire på plads i den rigtige rækkefølge.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -14,17 +14,9 @@ En fransk lås forbinder to bjælkeender med et hageblad, styr ved enderne og fo
 
 ![5. Snit gennem låsen – Fransk lås](figur-5.svg)
 
-## Samleretningen
+Først sænker tømreren de lange blade forbi hinanden med lidt afstand mellem skuldrene. Dernæst skydes bjælken på langs. Nu finder den lille fjeder for enden af hvert blad sin udskæring i det andet. Først da er åbningen midt i samlingen klar. Fra hver sin side kan en kile føres ind, indtil de to skrå kileflader mødes.
 
-Læg bladene over hinanden med lidt afstand på langs. Før de korte fremspring ind i de modsatte skuldre. Før de to kiler fra hver sin side ind i midteråbningen. I principsnittet har kilerne tilsammen rektangulært omrids.
-
-## Læs snittet
-
-I længdesnittet ses hagen og nøglefeltet. På tværs er der en smal fjedertap på endestyret. Det brede fremspring ved enden og den smallere fjeder styrer i forskellige retninger.
-
-## Ved en besigtigelse
-
-Find først samlingens to yderste skuldre. Markér derefter hvor der kræves plads til langsgående forskydning og adgang fra begge sider til kilerne. Sammenlign også originalens projektioner fra oven og fra siden.
+Se det færdige arbejde på G. v. Huths tegning 83, og find så de samme dele på studietavlen bag i bogen. Udefra kan kilerne ligne ét firkantet stykke. Snittet viser den skrå fuge imellem dem. Dér ligger forklaringen på, hvordan to kiler kan udfylde ét hul.
 
 [Kaare Kristensen · fig. 25 · PDF-s. 27](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=27) · [G. v. Huth · tegning 83 · PDF-s. 24](https://danskbyggeskik.dk/publikationer/324%20-%20tr%C3%A6forbindelser%20for%20br%C3%A6der,%20planker%20og%20t%C3%B8mmer.%2024%20tavler%20med%20bem%C3%A6rkninger.pdf#page=24)
 

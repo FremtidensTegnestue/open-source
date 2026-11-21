@@ -1,6 +1,6 @@
 # 平ほぞ · Hirahozo
 
-En stolpe kan slutte i en rektangulær tap med skuldre omkring. JAANUS skelner blandt andet mellem korte og lange tappe; stedet i konstruktionen har betydning for valget.
+Løft stolpen fra remmen. På dens ende sidder en mindre firkant af træ, omgivet af brede skuldre. Det er en hirahozo, en lige tap. Hullet i remmen ligger åbent, så man kan se, hvad der skal tage imod den.
 
 ![Stolpefod i et vægfag](placering.svg)
 
@@ -12,17 +12,9 @@ En stolpe kan slutte i en rektangulær tap med skuldre omkring. JAANUS skelner b
 
 ![4. Lodret snit – 平ほぞ · Hirahozo](figur-4.svg)
 
-## Samleretningen
+Lad stolpen synke langs sin egen akse. Først forsvinder tapspidsen, så siderne, og til sidst lander skuldrene på remmen. I denne korte variant er der lidt luft mellem spidsen og hullets bund.
 
-Ret den rektangulære tap ind efter hullet i den vandrette del. Før den ned langs stolpens længderetning. Skulderen når remmen, mens modellens tapspids har fri afstand til bunden.
-
-## Læs snittet
-
-Det lodrette snit viser forskellen på den brede skulder og tappens smalle endeflade. Den valgte korte, blinde variant er tegnet med egne illustrationsmål.
-
-## Ved en besigtigelse
-
-Find først retningen på tappen. Spørg derefter, om tegningen viser hullets bund. Et længdemål for det skjulte træ kan ikke aflæses på den færdige yderside.
+Nu er der kun fugen ved skuldrene tilbage at se. Man kan kende stedet, hvor delene mødes, uden at kende tappens længde. Den afskårne tegning giver en udsigt, man sjældent får i det færdige hus.
 
 [JAANUS · hirahozo](https://www.aisf.or.jp/~jaanus/deta/h/hirahozo.htm)
 

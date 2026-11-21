@@ -1,6 +1,6 @@
 # Enkeltkam
 
-Når to tømmerstykker krydser i forskellige niveauer, kan den tilbageværende kam ligge ved den ene side af det nederste emne.
+Løft det øverste stykke i tankerne. Nede i krydset står en lille ryg af træ tilbage ved den ene kant. Den ryg er kammen, og i enkeltkammen ligger den ude til siden.
 
 ![Kryds i en tømmerramme](placering.svg)
 
@@ -12,17 +12,9 @@ Når to tømmerstykker krydser i forskellige niveauer, kan den tilbageværende k
 
 ![4. Lodret tværsnit – Enkeltkam](figur-4.svg)
 
-## Samleretningen
+Overemnets underside formes, så den passer over ryggen. Det overlapper underbjælken, mens indhakket søger ned omkring den tilbageværende kant. Her betyder det noget, hvilken vej stykket vender.
 
-Anbring overemnets tilsvarende udskæring direkte over kammen. Det skal sænkes med den rigtige kant mod kammen; tværprofilet er asymmetrisk.
-
-## Læs snittet
-
-I tværsnittet ligger den høje del af underemnet ved kanten. Ved dobbeltkammen ligger den tilbageværende ryg længere inde.
-
-## Ved en besigtigelse
-
-Notér hvilken side der bærer kammen. En spejlvending kan se overbevisende ud på en løs skitse og alligevel beskrive det forkerte hjørne.
+Tegn samlingen set fra den ende, du faktisk står ved. Skriv hvilken side kammen sidder på. Din kollega ved den modsatte ende af bjælken vil se den spejlvendt.
 
 [Kaare Kristensen · fig. 57 · PDF-s. 29](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=29)
 

@@ -1,14 +1,14 @@
 # Fransk lås · se ud gennem endestyret
 
-De to halvdele kan ligne et hageblad i længdesnit. Tværsnittet ved yderste skulder og plansnittet gennem kilerne viser, hvor de ekstra dele kommer i indgreb.
+Den letteste fuge at overse ligger midt i det blågrå træ. Ved første blik ser det ud, som om tømreren har stukket én kile gennem bjælken. Følg den skrå streg helt ud til kanten. Der ligger to.
 
 ![Tværsnit i enden · kort fjeder med bred fod](pl-fransk-1.svg)
 
 ![Plansnit · to modgående kiler](pl-fransk-2.svg)
 
-Se først på det grønne træ i tværsnittet. Den smalle del rager op fra en bredere fod. Når fremspringet skydes ind, lander fjederen i den tilsvarende smalle udsparing. Gentag aflæsningen ved den anden skulder i den redigerbare model.
+Kilerne vender hver sin vej. Den ene bliver bredere mod den side af bjælken, hvor den anden bliver smallere. I snittet set oppefra kan du følge begge stykker gennem låsen.
 
-Gå nu til plansnittet. Det blågrå felt er delt af én skrå fuge. Den ene kile bliver bredere mod den ene side af bjælken, den anden mod den modsatte side. Følger man kun længdesnittet midt i bjælken, er det let at overse, at der ligger to dele.
+Se så ind i bjælkeenden. Her har tømreren ladet en smal fjeder stå på en bred fod. Når enderne skydes sammen, finder fjederen vej ind i sin udsparing. Det lille endestyr ville du let kunne overse, hvis du kun så bjælken fra siden.
 
 [Kristensen · fransk lås](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=27)
 

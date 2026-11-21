@@ -1,6 +1,6 @@
 # Kæmning ved kryds
 
-Forestil dig to vandrette stykker tømmer i forskellig højde. Ved krydset sænkes det øverste delvis ned over det nederste.
+En bjælke skal ligge tværs over en anden og stadig rage op over den. Hvor meget træ behøver tømreren egentlig at tage væk for at få dem til at finde hinanden?
 
 ![Kryds i en tømmerramme](placering.svg)
 
@@ -12,17 +12,9 @@ Forestil dig to vandrette stykker tømmer i forskellig højde. Ved krydset sænk
 
 ![4. Lodret snit – Kæmning ved kryds](figur-4.svg)
 
-## Samleretningen
+I denne kæmning får de to emner lave indhak. Det øverste sænkes, indtil snitfladerne mødes. Indhakkenes sider hjælper med at holde krydset på det tilsigtede sted. På Slots- og Kulturstyrelsens tegning ligger indgrebet nær en ende. Her fortsætter træet lidt længere, så krydsningen er let at følge.
 
-Læg det underste emne fast, vend det andet med indhakket nedad og sænk det over krydset. Indhakkenes sideflader styrer placeringen.
-
-## Læs snittet
-
-I længdesnittet gennem underemnet ses et lavt indgreb. Det øvre tømmer rager stadig op. Styrelsens figur D viser et indgreb nær enden; her er begge emner forlænget forbi krydset.
-
-## Ved en besigtigelse
-
-Registrér indhuggets sideflader og den tilbageværende højde. Sammenlign med hjørnebladet, hvor overfladerne ender i samme niveau.
+Se langs oversiderne i den samlede figur. Der er stadig et niveauspring. Det er en forskel, du kan opdage i huset, før du får mulighed for at se ind i forbindelsen.
 
 [Slots- og Kulturstyrelsen · figur D](https://slks.dk/fileadmin/user_upload/SLKS/Omraader/Kulturarv/Bygningsfredning/Faglige_retningslinjer/3_Facader_og_ydervaegge/3.2_Bindingsvaerk.pdf#page=15)
 

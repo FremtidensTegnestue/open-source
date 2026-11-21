@@ -1,6 +1,6 @@
 # Pløjning med fast fjeder
 
-Langs kanten af et bræt kan der stå en smal fjeder tilbage. Nabobrættet har en lang not. Hos Huth hører det til forbindelser, der øger en flades bredde.
+På et færdigt bræddegulv kan man følge fugen mange meter uden at blive klogere på, hvad der ligger under den. Ved en fri bræddeende er én centimeter ofte nok.
 
 ![Langside i en bræddeflade](placering.svg)
 
@@ -12,17 +12,9 @@ Langs kanten af et bræt kan der stå en smal fjeder tilbage. Nabobrættet har e
 
 ![4. Lodret tværsnit – Pløjning med fast fjeder](figur-4.svg)
 
-## Samleretningen
+På det grønne bræt har tømreren ladet en smal tunge stå langs kanten. Den kaldes fjederen. Det andet bræt får en lang rille, noten. Før brædderne sidelæns sammen, og fjederen forsvinder ind i noten.
 
-Hold langsiderne parallelle, og før noten sidelæns over fjederen. Skulderne mødes langs fugen; tungen er skåret i samme træ som brættet.
-
-## Læs snittet
-
-Det lodrette snit går på tværs af bræddernes længde. Følg grønt træ fra brættet helt ud til fjederens spids.
-
-## Ved en besigtigelse
-
-Se på en tilgængelig endekant. Hvis samlingen kun ses oppefra som en lige fuge, kan en løs fjeder ikke udelukkes.
+På endefladen kan du følge træet hele vejen fra brættet og ud i tungen. Det er sådan, du ser, at fjederen er fast. I næste forbindelse ligger der et tredje stykke træ på samme sted.
 
 [G. v. Huth · fig. 13 · PDF-s. 6](https://danskbyggeskik.dk/publikationer/324%20-%20tr%C3%A6forbindelser%20for%20br%C3%A6der,%20planker%20og%20t%C3%B8mmer.%2024%20tavler%20med%20bem%C3%A6rkninger.pdf#page=6) · [G. v. Huth · tegning 13 · PDF-s. 16](https://danskbyggeskik.dk/publikationer/324%20-%20tr%C3%A6forbindelser%20for%20br%C3%A6der,%20planker%20og%20t%C3%B8mmer.%2024%20tavler%20med%20bem%C3%A6rkninger.pdf#page=16)
 

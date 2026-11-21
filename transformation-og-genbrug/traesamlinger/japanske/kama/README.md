@@ -1,6 +1,6 @@
 # 鎌継 · Kamatsugi
 
-Ved en bjælkeforlængelse kan enden af det ene emne formes som en hals med et bredere hoved. JAANUS viser en form, hvor hovedet minder om en afstumpet pil.
+Spidsen på denne bjælke har både hals og hoved. Følg den smalle hals ud fra det fulde tømmer. Længere ude springer siderne frem og danner et hoved, som på denne form minder om en pil med stump spids.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ Ved en bjælkeforlængelse kan enden af det ene emne formes som en hals med et b
 
 ![4. Vandret snit – 鎌継 · Kamatsugi](figur-4.svg)
 
-## Samleretningen
+Når hovedet sænkes ned i modstykket, lander det bag den smallere åbning. Træk langs bjælken, og de to små skuldre ved hovedet kommer til at stå mod det grønne træ. Løft i stedet, og hovedet kan igen komme fri af den åbne udskæring.
 
-Ret hovedet ind over den åbne udskæring og sænk det. Inde i samlingen ligger hovedets skuldre bag det andet emnes smallere åbning.
-
-## Læs snittet
-
-Plansnittet følger halsen ud til hovedet. Den største bredde kommer et stykke inde på fremspringet. Følg begge kanter tilbage til rødderne.
-
-## Ved en besigtigelse
-
-Hvad kan fastholde emnerne på langs, og hvad ville hindre et lodret løft? Forklar de to bevægelser ud fra modellen hver for sig.
+Det er værd at dvæle ved de to bevægelser. Tømreren kan med ganske få snit lade en bjælke komme ubesværet ind fra én retning og møde træ fra en anden.
 
 [JAANUS · kamatsugi](https://www.aisf.or.jp/~jaanus/deta/k/kamatsugi.htm)
 

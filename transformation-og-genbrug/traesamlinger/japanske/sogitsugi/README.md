@@ -1,6 +1,6 @@
 # 殺継 · Sogitsugi
 
-Forestil dig et let spær, der skal forlænges. I stedet for en kort endeflade kan to skrå snit lægges mod hinanden langs spæret.
+Lad øjet følge et let spær hen over en samling. Fugen begynder på den ene side og kommer først ud på den anden et godt stykke længere henne. Begge spærender er skåret skråt. Den lange skrå samling hedder sogitsugi.
 
 ![Forlængelse langs et spær](placering.svg)
 
@@ -12,17 +12,9 @@ Forestil dig et let spær, der skal forlænges. I stedet for en kort endeflade k
 
 ![4. Lodret snit – 殺継 · Sogitsugi](figur-4.svg)
 
-## Samleretningen
+Læg den ene skrå flade ned mod den anden. De passer sammen langs hele snittet, og i hver ende løber træet ud i en tynd spids. Fladerne kan stadig glide mod hinanden. I den traditionelle udførelse, som JAANUS beskriver, går der også søm gennem samlingen. Her er træet vist, før sømmene kommer i.
 
-Hold den grønne del stille og før den anden ned, så de to skrå flader mødes langs hele snittet. Placeringen skal holdes under samlingen.
-
-## Læs snittet
-
-Længdesnittet viser den lange skrå kontaktflade. Her er ingen hage, som mekanisk låser de to stykker på langs. JAANUS beskriver søm gennem samlingen; de er udeladt i træmodellen.
-
-## Ved en besigtigelse
-
-Følg de to tynde spidser. En streg på spærsiden siger noget om snitretningen. Den kan alene hverken vise sømmenes tilstand eller dokumentere samlingens kapacitet.
+Sammenlign med sædet på siden før. Begge samlinger forlænger træet. Men på sædet ender den vandrette flade brat ved en skulder; på spæret kan fingeren følge én jævn skråning helt ud til spidsen.
 
 [JAANUS · sogitsugi](https://www.aisf.or.jp/~jaanus/deta/s/sogitsugi.htm)
 

@@ -1,6 +1,6 @@
 # Skråt hageblad
 
-På et slidt stykke tømmer kan et enkelt trin ligne et nyt indhug. Se på fladen på begge sider af trinnet, før du bestemmer samlingen.
+Følgen af snit er næsten som en håndbevægelse: ned langs en skrå flade, et kort spring op, og ned igen. Springet midt på bladet gør det til et skråt hageblad.
 
 ![Forlængelse af rem over stolpe](placering.svg)
 
@@ -12,17 +12,9 @@ På et slidt stykke tømmer kan et enkelt trin ligne et nyt indhug. Se på flade
 
 ![4. Lodret snit – Skråt hageblad](figur-4.svg)
 
-## Samleretningen
+De to halvdele passer mod hinanden fra oven. Når overbladet er sænket, ligger de lange skrå flader an, og den korte kant ved springet griber bag sit modstykke. På den måde har tømreren givet forskellige flader hver sin opgave.
 
-Lad de to skrå bladflader nærme sig samtidig. I sidste del af sænkningen passer den tykkere spids ned bag den anden dels hage.
-
-## Læs snittet
-
-Hakket ses som et spring midt i det skrå længdesnit. Uden springet ville profilen kunne læses som det skrå blad.
-
-## Ved en besigtigelse
-
-Tegn rod, midtertrin og spids. Hvis én af de tre er skjult, kan du markere den som uafklaret i stedet for at tegne hagen symmetrisk af vane.
+Hvis du tegner en gammel samling, så begynd ved den ene skulder og følg hele vejen til den anden. Stop blyanten, hvor træet forsvinder bag en beklædning. Det manglende stykke kan være netop det lille hak, der skelner de to slags blade.
 
 [Kaare Kristensen · fig. 22 · PDF-s. 26](https://danskbyggeskik.dk/publikationer/487%20-%20t%C3%B8mrerarbejde.pdf#page=26)
 
