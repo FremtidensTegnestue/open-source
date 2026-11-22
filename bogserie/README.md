@@ -5,6 +5,13 @@
 | Byggeriets illustrerede fagordbog · 80 sider | [Læs](../transformation-og-genbrug/fagordbog/fagordbog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/fagordbog/tryk.pdf?raw=true) |
 | Danske træsamlinger · 76 sider | [Læs](../transformation-og-genbrug/traesamlinger/danske/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/traesamlinger/danske/tryk.pdf?raw=true) |
 | Japanske træsamlinger · 64 sider | [Læs](../transformation-og-genbrug/traesamlinger/japanske/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/traesamlinger/japanske/tryk.pdf?raw=true) |
+| Læs et hus · 36 sider | [Læs](../transformation-og-genbrug/boeger/laes-et-hus/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/boeger/laes-et-hus/tryk.pdf?raw=true) |
+| Byg videre på huset · 36 sider | [Læs](../transformation-og-genbrug/boeger/byg-videre/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/boeger/byg-videre/tryk.pdf?raw=true) |
+| Vinduet der blev siddende · 36 sider | [Læs](../transformation-og-genbrug/boeger/vinduet/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/boeger/vinduet/tryk.pdf?raw=true) |
+| Vandets vej gennem huset · 32 sider | [Læs](../transformation-og-genbrug/boeger/vandets-vej/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/boeger/vandets-vej/tryk.pdf?raw=true) |
+| En dør får et nyt liv · 32 sider | [Læs](../transformation-og-genbrug/boeger/doerens-liv/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/boeger/doerens-liv/tryk.pdf?raw=true) |
+
+Se [hvilket hus og hvilke spørgsmål de fem nye bøger følger](../transformation-og-genbrug/boeger/README.md).
 
 ## Sådan hænger bindene sammen
 
@@ -13,6 +20,8 @@ Omslaget bærer tegnestuens navn, bogens titel, én tegning fra bogen og en kort
 Playfair Display bruges til titler, Lora til læsetekst og Inter til tavlenumre, billedtekster og kilder. Typografien og grundpaletten tager udgangspunkt i pdfcn Elegant. Alle bind bruger den samme sats, de samme omslagsfunktioner og samme udskrift. [Seriens typografi og farver](pdfcn.css) · [Sidernes sats](bog.css) · [Omslag, sidefod og sidetal](serie.js)
 
 Et fagligt opslag har forklaring på venstresiden og en tavle på højresiden. I fagordbogen forbinder tal på tegningen hver bygningsdel med sit navn. I træbøgerne viser en billedfølge, hvordan delene mødes. Brug de redigerede originaltegninger og behold henvisningen til originalkilden ved forklaringen.
+
+De fem fortællende bind bruger en fælles [opslagsskabelon](fagbog.js) med kapitel til venstre og tavle til højre. Tegningerne ledsages af en billedtekst, og kilderne står på samme opslag som den faglige forklaring. På papir kan læseren bruge arbejdsbladene sidst i bogen eller scanne kolofonens QR-kode for at hente modellerne.
 
 ## Udgiv et bind
 

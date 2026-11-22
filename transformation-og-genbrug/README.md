@@ -6,6 +6,8 @@ Hvad kan en bygning blive til med det, der allerede er der? Vi vil undersøge, h
 
 **[Se danske bygninger før og efter transformation](atlas/README.md)**. Find plantegninger fra husopdelinger, regnskaber for genbrugsdele, observationer efter års drift og erfaringer fra både tilbageflyttede og fraflyttede beboere.
 
+**Hvad kan blive siddende?** Følg en lejlighed i Ryesgade, vinduerne i Stormgade, en skadesag på Vesterbro og genbrugte døre i Odense. [Læs de fem illustrerede bøger om transformation og genbrug](boeger/README.md).
+
 **Hvad hedder den del af huset?** Peg på en detalje i et af de 14 emneblade, eller slå et ord op og find det på tegningen. [Prøv den illustrerede fagordbog](fagordbog/README.md)
 
 **Hvordan samles træet?** Se samlingen adskilt, følg montagen og læs snittet i [de to illustrerede bøger om danske og japanske træsamlinger](traesamlinger/README.md).

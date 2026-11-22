@@ -20,5 +20,45 @@
     "layout": "transformation-og-genbrug/fagordbog/bogtryk.js",
     "qr": "transformation-og-genbrug/fagordbog/bog-qr.svg",
     "css": "transformation-og-genbrug/fagordbog/bogtryk.css"
+  },
+  "laes-et-hus": {
+    "folder": "transformation-og-genbrug/boeger/laes-et-hus",
+    "source": "bog.html",
+    "reader": "bog.pdf",
+    "layout": "bogserie/fagbog.js",
+    "css": "bogserie/fagbog.css",
+    "qr": "transformation-og-genbrug/boeger/laes-et-hus/bog-qr.svg"
+  },
+  "byg-videre": {
+    "folder": "transformation-og-genbrug/boeger/byg-videre",
+    "source": "bog.html",
+    "reader": "bog.pdf",
+    "layout": "bogserie/fagbog.js",
+    "css": "bogserie/fagbog.css",
+    "qr": "transformation-og-genbrug/boeger/byg-videre/bog-qr.svg"
+  },
+  "vinduet": {
+    "folder": "transformation-og-genbrug/boeger/vinduet",
+    "source": "bog.html",
+    "reader": "bog.pdf",
+    "layout": "bogserie/fagbog.js",
+    "css": "bogserie/fagbog.css",
+    "qr": "transformation-og-genbrug/boeger/vinduet/bog-qr.svg"
+  },
+  "vandets-vej": {
+    "folder": "transformation-og-genbrug/boeger/vandets-vej",
+    "source": "bog.html",
+    "reader": "bog.pdf",
+    "layout": "bogserie/fagbog.js",
+    "css": "bogserie/fagbog.css",
+    "qr": "transformation-og-genbrug/boeger/vandets-vej/bog-qr.svg"
+  },
+  "doerens-liv": {
+    "folder": "transformation-og-genbrug/boeger/doerens-liv",
+    "source": "bog.html",
+    "reader": "bog.pdf",
+    "layout": "bogserie/fagbog.js",
+    "css": "bogserie/fagbog.css",
+    "qr": "transformation-og-genbrug/boeger/doerens-liv/bog-qr.svg"
   }
 }

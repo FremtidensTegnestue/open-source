@@ -38,4 +38,4 @@ Har du et vindue, du gerne vil redde, en model med mangelfulde materialetal elle
 
 ## Bogserien
 
-Hent fagordbogen og de to illustrerede bøger om træsamlinger som [læseudgaver og trykfiler](bogserie/README.md).
+Find fem nye fagbøger om transformation og genbrug sammen med fagordbogen og de to bøger om træsamlinger. Hent alle otte som [læseudgaver og trykfiler](bogserie/README.md).
