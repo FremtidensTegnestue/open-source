@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "project_id": "example-beam-study",
+  "title": "Undersøg en bjælke · tre materialevalg",
+  "model_revision": "anonymous-example-v1",
+  "basis_reference": "Illustrativ opskrift: simpelt understøttet rektangulær bjælke uden udkragning. Ikke et lastgrundlag for et konkret byggeri.",
+  "span_mm": 5600,
+  "external_line_load_N_mm": 4.6,
+  "load_reference": "Eksplicit TEST-scenarie: jævnt fordelt nedadrettet last, uden normfaktorer eller bestemt anvendelseskategori.",
+  "include_self_weight": true,
+  "material": {
+    "E0_MPa": 11500,
+    "E90_MPa": 300,
+    "G_MPa": 650,
+    "density_kg_m3": 420,
+    "poisson": 0.3,
+    "reference": "GL24h elastisk reference: Flexwood DoP0108E ed8 23.08.2024 (anvendt i separat kildekontrol). Poisson .3 er modelantagelse; ingen styrke-/produktfrigivelse. Ubrugt ud-af-plan-egenskab G23 sættes til G/10 i 2D-opskriften."
+  },
+  "limits": {
+    "deflection_mm": 10,
+    "max_height_mm": 450,
+    "reference": "TEST-kriterier til at vise forskelle: 10 mm og højst 450 mm. Ikke normative krav eller godkendte krav til pavillonen."
+  },
+  "sensitivity": {
+    "stiffness_factor": 0.8,
+    "reference": "TEST-følsomhed: alle elastiske stivheder reduceres 20 % med uændret masse/last. Ikke målt variation eller en anden styrkeklasse."
+  },
+  "reference_candidate": "reference",
+  "candidates": [
+    {
+      "id": "reference",
+      "label": "Udgangspunkt",
+      "width_mm": 115,
+      "height_mm": 405,
+      "price": null
+    },
+    {
+      "id": "slim",
+      "label": "Smallere og højere",
+      "width_mm": 95,
+      "height_mm": 450,
+      "price": null
+    },
+    {
+      "id": "stiff",
+      "label": "Stivere alternativ",
+      "width_mm": 115,
+      "height_mm": 450,
+      "price": null
+    }
+  ]
+}

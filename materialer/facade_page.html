@@ -4,10 +4,18 @@
 <style>
 :root{font:16px/1.5 system-ui;color:#253b33;background:#f4f3ee}*{box-sizing:border-box}body{margin:0}main{max-width:1080px;margin:auto;padding:24px}h1{font-size:27px;margin:8px 0}h2{font-size:20px}h3{font-size:16px}p{margin:8px 0}button,input,select,textarea{font:inherit;border:1px solid #aebdb4;border-radius:6px;padding:10px}button{background:#244f40;color:white;cursor:pointer}button:disabled{opacity:.45;cursor:default}button.secondary{background:white;color:#244f40}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #396ab4;outline-offset:2px}.muted,small{font-size:13px;color:#56685f}.tag{font-size:12px;background:#e1e8df;padding:4px 8px;border-radius:4px}.status{border-left:4px solid #667f70;padding:10px;background:white;margin:16px 0}.tabs{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid #cbd5cd;padding-bottom:12px}.tabs button[aria-pressed=true]{background:#244f40;color:white}.tabs button{background:transparent;color:#244f40}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0}.card,details,.next,.formbox{padding:16px;border:1px solid #d7dfd7;background:white;border-radius:8px}.card strong{font-size:27px;display:block;margin:6px 0}.next{display:flex;justify-content:space-between;align-items:center;gap:14px;margin:8px 0}.next p{font-size:14px}summary{cursor:pointer;font-weight:600}details{margin:12px 0}.actions{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;text-align:left;border-bottom:1px solid #e0e5de}.scroll{overflow:auto}label{display:block;font-weight:500;margin:12px 0}input,select,textarea{display:block;width:100%;margin-top:6px;background:white;color:inherit}textarea{min-height:75px}.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px}a{color:#245342}.notice{padding:12px;background:#f0f2e9;border-radius:6px}.area{margin:10px 0}.break{overflow-wrap:anywhere}[hidden]{display:none!important}@media(max-width:650px){main{padding:14px}.fields,.cards{grid-template-columns:1fr}.next{align-items:flex-start}.card strong{font-size:25px}}
 </style>
+<style>
+#work-panel{border-left:4px solid #a86408}#work-panel[data-status=unavailable],#work-panel[data-status=recheck]{border-left-color:#ac4136}#work-context{font-weight:600}.work-card{border-left:4px solid #497a9a;padding:12px 16px;margin:12px 0;background:#f7f7f2;overflow-wrap:anywhere}.work-card.technical_review{border-color:#a86408}.work-card.formal_approval{border-color:#ac4136}.work-card.clarify{border-color:#8361a2}.work-card h3{font-size:17px;margin:6px 0}.work-card details{padding:10px;margin-bottom:0}.work-counts{font-weight:600}
+</style>
 <main>
 <span class="tag">SolidCraft · facadeprøve</span><h1>Undersøg dit materialevalg</h1>
 <p class="muted">Følg mængder, klima og overslag, mens du ændrer facaden i SolidCraft.</p>
 <p id="status" class="status" role="status" aria-live="polite">Forbinder til modellen …</p>
+<details id="work-panel"><summary id="work-summary">Arbejde og kontrol · forbinder …</summary>
+<p id="work-context"></p><p id="work-status" class="notice" role="status"></p>
+<div id="work-body" hidden><p id="work-counts" class="work-counts"></p><p id="work-scope" class="muted"></p>
+<div id="work-groups"></div><details><summary id="work-completed-summary"></summary><div id="work-completed"></div></details>
+<p id="work-note" class="muted"></p><p class="muted">Dette er projektets registrerede opgaver. Modeltal nedenfor gælder den tilknyttede facadeprøve. Registreringen redigeres i projektets arbejdsliste; denne visning afslutter ingen opgaver eller godkendelser.</p></div></details>
 <div id="content" hidden>
 <p id="choice" class="area"></p>
 <nav class="tabs" aria-label="Vælg overblik"><button data-panel="overview" aria-pressed="true">Overblik</button><button data-panel="compare" aria-pressed="false">Sammenlign</button><button data-panel="basis" aria-pressed="false">Mål og grundlag</button></nav>
@@ -33,6 +41,36 @@
 <script>
 const $=s=>document.querySelector(s),fmt=(x,d=2)=>x==null?'Ukendt':Number(x).toLocaleString('da-DK',{maximumFractionDigits:d,minimumFractionDigits:d}),el=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;return n};
 let state=null,draft=null,key=null,busy=false,rendered=null,dirty=false,lifeId=null,areaId=null;
+let workRendered=null;
+function renderWork(w){
+ const signature=JSON.stringify(w);if(signature===workRendered)return;workRendered=signature;
+ const panel=$('#work-panel'),v=w?.overview;panel.dataset.status=w?.status||'unavailable';
+ $('#work-status').textContent=w?.message||'Arbejdsoversigten kan ikke kontrolleres.';
+ $('#work-body').hidden=!v;$('#work-context').textContent=v?'Projektoversigt · '+w.label+' · '+v.project_id:'';
+ if(!v){$('#work-summary').textContent=w?.status==='not_configured'?'Arbejde og kontrol · ikke tilknyttet':'Arbejde og kontrol · kan ikke kontrolleres';return}
+ $('#work-summary').textContent='Arbejde og kontrol · '+v.open_items+' åbne · '+v.counts.technical_review+' faglige kontroller · '+v.counts.clarify+' krav uafklarede'+(v.current?'':' · genvurdering nødvendig');
+ $('#work-counts').textContent=v.counts.work+' egne opgaver · '+v.counts.technical_review+' faglige kontroller · '+v.counts.formal_approval+' afklarede formelle poster · '+v.counts.clarify+' afklaringer';
+ $('#work-scope').textContent=v.scope;
+ const groups=Object.entries(w.groups).map(([id,label])=>{
+  const d=el('details','');d.dataset.workGroup=id;d.append(el('summary',label+' · '+v.counts[id]));
+  for(const item of v.items.filter(i=>i.requirement===id&&i.derived_state!=='completed')){
+   const card=el('div','');card.className='work-card '+id;
+   card.append(el('p',item.state_label+' · '+w.routes[item.work_by]),el('h3',item.title));
+   for(const [label,value] of [['Næste handling',item.next_action],['Ansvarlig rolle',item.responsible_role]]){const p=el('p','');p.append(el('b',label+': '),document.createTextNode(value));card.append(p)}
+   const basis=el('details','');basis.append(el('summary','Omfang og grundlag'),el('p',item.scope),el('p',item.basis));
+   for(const source of item.sources){const x=v.sources[source];basis.append(el('p',source+' · '+(x.current?'filbinding matcher':'ændret eller mangler')+' · '+x.path))}
+   card.append(basis);d.append(card)
+  }
+  if(!v.counts[id])d.append(el('p',id==='formal_approval'?'Ingen konkrete erklæringskrav er registreret som afklarede. Se afklaringerne; dette betyder ikke kravfrihed.':'Ingen åbne poster registreret i denne gruppe.'));
+  return d
+ });
+ // Preserve reading context during unrelated polling and registry updates.
+ const opened=new Set([...$('#work-groups').children].filter(x=>x.open).map(x=>x.dataset.workGroup));
+ groups.forEach(x=>x.open=opened.has(x.dataset.workGroup));$('#work-groups').replaceChildren(...groups);
+ $('#work-completed-summary').textContent='Registrerede afslutninger for angivet omfang · '+v.recorded_completions;
+ $('#work-completed').replaceChildren(...v.items.filter(i=>i.derived_state==='completed').map(i=>{const d=el('div','');d.append(el('h3',i.title),el('p',i.scope),el('p',i.completion.by+' · '+i.completion.date+' · '+i.completion.reference));return d}));
+ $('#work-note').textContent=v.note
+}
 function panel(id){document.querySelectorAll('section').forEach(s=>s.hidden=s.id!==id);document.querySelectorAll('[data-panel]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.panel===id)))}
 document.querySelectorAll('[data-panel]').forEach(b=>b.onclick=()=>panel(b.dataset.panel));
 const numeric=id=>{const s=$(id).value.trim();if(!s)return null;if(!/^\d+(?:[.,]\d+)?$/.test(s))throw Error('Indtast tal uden tusindtalsseparator. Tomt felt betyder ukendt.');return Number(s.replace(',','.'))};
@@ -54,6 +92,6 @@ $('#rows').replaceChildren();$('#sources').replaceChildren();for(const row of r.
 $('#lifeschedule').replaceChildren(...g.lifetimes.map(x=>el('p',x.label+': '+(x.replacement_count==null?'periode eller levetid mangler':x.replacement_count+' mulige udskiftninger'+(x.replacement_years.length?' i år '+x.replacement_years.map(n=>fmt(n,0)).join(', '):'')))));$('#arealist').replaceChildren(...g.areas.map(x=>el('p',x.label+': '+({unknown:'mangler afklaring',recorded:'grundlag registreret · ikke eftervist',not_applicable:'ikke-relevant-notat registreret'})[x.status])));
 const prices=new Map();for(const row of r.rows)prices.set(row.price_param,[row.label,'kr./'+row.display_unit.replace('m2','m²')]);[['Levering','Levering','kr.'],['Timer_'+(r.active==='trae'?'trae':'skifer')+'_pr_m2','Montage','persontimer/m²'],['Timepris','Faktureret timepris','kr./persontime']].forEach(([id,label,u])=>prices.set(id,[label,u]));$('#pricefields').replaceChildren(...[...prices].map(([id,[label,u]])=>{const tr=document.createElement('tr');[label,r.params[id]<0?'Ukendt':fmt(r.params[id])+' '+u,id].forEach(x=>tr.append(el('td',x)));return tr}));$('#priceref').textContent='Prisgrundlag: '+r.params.Prisgrundlag+' · vurderingsdato '+r.params.Pris_dato;$('#gaps').replaceChildren(...r.unresolved.concat(r.budget.unresolved).map(x=>el('li',x)));
 if(!dirty){draft=structuredClone(s);fillForm()}}
-async function refresh(){if(busy)return;busy=true;try{const response=await fetch(location.pathname+'/state',{cache:'no-store'});const v=await response.json();if(!response.ok)throw Error(v.error);$('#status').textContent=v.state.message;$('#content').hidden=!v.result;if(!v.result){key=null;rendered=null;return}state=v;key=v.input_key;const next=key+JSON.stringify(v.comparison)+v.settings.revision;if(next===rendered)return;rendered=next;render(v)}catch(e){key=null;rendered=null;$('#content').hidden=true;$('#status').textContent='Forbindelse eller beregning afbrudt: '+e.message}finally{$('#save').disabled=!key;$('#reference').disabled=!key;busy=false}}
+async function refresh(){if(busy)return;busy=true;try{const response=await fetch(location.pathname+'/state',{cache:'no-store'});const v=await response.json();if(!response.ok)throw Error(v.error);renderWork(v.work_overview);$('#status').textContent=v.state.message;$('#content').hidden=!v.result;if(!v.result){key=null;rendered=null;return}state=v;key=v.input_key;const next=key+JSON.stringify(v.comparison)+v.settings.revision;if(next===rendered)return;rendered=next;render(v)}catch(e){key=null;rendered=null;renderWork({status:'unavailable',message:'Forbindelsen er afbrudt. Arbejdsoversigten er ikke genkontrolleret.'});$('#content').hidden=true;$('#status').textContent='Forbindelse eller beregning afbrudt: '+e.message}finally{$('#save').disabled=!key;$('#reference').disabled=!key;busy=false}}
 refresh();setInterval(refresh,900);
 </script></html>

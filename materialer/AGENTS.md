@@ -22,3 +22,9 @@ Ved flere lokale CAD-instanser er discoveryfilens seneste port ikke automatisk b
 ## Enkel og ærlig regnskabsvisning
 
 Vis først konsekvens og få konkrete næste handlinger; fold kilde-/grundlagsdetaljer ud efter behov. Nye parametre skal have en konkret beslutning, beregning eller afklaring som modtager. Registreret dokumentation er ikke teknisk eftervist; en levetid og et hændelsesantal er ikke en beregnet livscyklus. Skift af valgt del/fag i en formular er visningskontekst og må ikke skabe nye input eller gøre ukendte felter til nul. Se den faktiske facadefunktion og docs/DESIGN-TOOL-REVIEW-2026-11-21.md før nye produktløfter.
+
+## Udfør eget arbejde og vis resten
+
+Brugerens seneste regel: Vi udfører selv alt arbejde, som opgavens faktiske grundlag, metode, kompetencer og regler tillader. Manglende oplysninger eller en uprøvet metode udløser en konkret undersøgelse eller afklaring, ikke automatisk outsourcing. Påkrævede personroller, autoriseret udførelse og formelle erklæringer må ikke erstattes af AI eller softwaretests.
+
+Efter hvert væsentligt trin opdateres en enkel arbejdsoversigt: præcist omfang, eget/særskilt/uafklaret arbejde, ansvarlig rolle, næste handling, manglende grundlag og nødvendig faglig kontrol eller formel godkendelse. Uafklarede krav forbliver uafklarede; opfind ikke et certifikationskrav eller en rådgiveraftale. Afklar kritisk grundlag og kontrol tidligt frem for at søge en underskrift til sidst. Luk kun en post med konkret bilag, faktisk kontrolomfang, ansvar og dato. Ændret grundlag kræver genvurdering af berørte poster. Ingen samlet grøn status eller færdigprocent udledes af delkontroller. Se [den afgrænsede arbejdsoversigt](examples/work-overview/README.md); den registrerer dokumentation og kontrollerer filbindinger, men udsteder ingen faglig/formel godkendelse.

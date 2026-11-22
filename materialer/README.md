@@ -16,6 +16,10 @@ Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, stud
 
 **Nyt afgrænset facadeforløb:** ændr mål og beklædning i SolidCraft og lad en lokal regnskabsvisning genberegne materialemængder, kildebaseret klimadelsum og egne prisoverslag. [Start med facadeprøven](examples/facade/README.md). Det er én parametrisk prøve, ikke et installeret SolidCraft-panel eller en fuld bygnings-LCA. Priser starter som ukendte; der følger ingen leverandørforbindelse med.
 
+**Genbrugelig bjælkeundersøgelse:** sammenlign tre tværsnit, træmængde, nedbøjning, følsomhed, kildebaseret klimadelsum og prisstatus med faktisk SolidCraft-/FieldCraft-/Rust-kørsel. [Afprøv bjælkeforløbet](examples/beam-study/README.md) · [Afgræns ingeniørens leverancer](docs/ENGINEERING-SCOPE-DK.md). En fysisk delberegning er ikke en samlet statisk eftervisning.
+
+**Hold mangler og kontrol synlige:** [arbejdsoversigten](examples/work-overview/README.md) skelner eget arbejde, faglig kontrol, formelle erklæringer og uafklarede krav. Den viser næste handling og markerer berørte poster, når deres bundne grundlag ændres. Den kan tilknyttes den lokale facadevisning, så materialer, regnskab og projektopgaver findes på samme side. Den udsteder ingen godkendelser.
+
 Forestil dig, at du har tegnet en bygningsdel og vil vide, hvad den vejer, hvordan dens produktionsklima ændrer sig med tykkelsen, eller hvor meget et træemne kan bevæge sig ved ændret fugt. Modellen beskriver formen. Materialedataene beskriver egenskaberne. Vores værktøj forbinder dem og viser, hvor tallene kommer fra.
 
 Du kan allerede:

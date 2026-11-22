@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "project_id": "ANONYMT-EKSEMPEL",
+  "scope": "Fiktiv arbejdsoversigt, ingen projektspecifik faglig eller formel godkendelse.",
+  "sources": {
+    "grundlag": {
+      "path": "grundlag.txt",
+      "sha256": "962988b49e390d42775d41b140dcfe8c00ab6a422ce59d6208b5a10a61dc6ac2"
+    }
+  },
+  "items": [
+    {
+      "id": "maengder",
+      "title": "Afstem materiale- og mængdeliste",
+      "scope": "Én fiktiv facadevariant",
+      "work_by": "us",
+      "responsible_role": "Egen projekterende",
+      "requirement": "work",
+      "state": "open",
+      "basis": "TESTgrundlaget angiver manglende dækning og uafklaret klasse. Ingen regel om automatisk outsourcing.",
+      "next_action": "Registrér alle lag og følgeposter med samme omfang.",
+      "sources": [
+        "grundlag"
+      ],
+      "completion": null
+    },
+    {
+      "id": "kontrol",
+      "title": "Fastlæg og udfør relevant faglig kontrol",
+      "scope": "Én fiktiv facadevariant",
+      "work_by": "undecided",
+      "responsible_role": "Kompetent kontrollant, endnu ikke udpeget",
+      "requirement": "technical_review",
+      "state": "open",
+      "basis": "TESTgrundlaget angiver manglende dækning og uafklaret klasse. Ingen regel om automatisk outsourcing.",
+      "next_action": "Afklar metode, kontrolomfang og faktisk ansvarlig før frigivelse.",
+      "sources": [
+        "grundlag"
+      ],
+      "completion": null
+    },
+    {
+      "id": "krav",
+      "title": "Afklar klassifikation og eventuelle erklæringskrav",
+      "scope": "Én fiktiv facadevariant",
+      "work_by": "undecided",
+      "responsible_role": "Egen projekterende sammen med relevant faglig ansvarlig",
+      "requirement": "clarify",
+      "state": "open",
+      "basis": "TESTgrundlaget angiver manglende dækning og uafklaret klasse. Ingen regel om automatisk outsourcing.",
+      "next_action": "Dokumentér de konkrete krav og opret de nødvendige erklæringsposter.",
+      "sources": [
+        "grundlag"
+      ],
+      "completion": null
+    }
+  ]
+}

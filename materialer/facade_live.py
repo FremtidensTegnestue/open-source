@@ -14,6 +14,7 @@ import time
 
 import facade
 import facade_guidance
+import work_overview
 
 
 class Control:
@@ -76,8 +77,10 @@ class LiveFacade:
         self.directory.mkdir(parents=True,exist_ok=True)
         self.control=control or Control(port=self.config.get('control_port'))
         self.climate=climate or facade.RustClimate(self.config['engine'])
-        self.code_hashes={str(Path(x.__file__).resolve()):facade.file_hash(x.__file__) for x in (facade,facade.pricing,facade_guidance)}
+        self.code_hashes={str(Path(x.__file__).resolve()):facade.file_hash(x.__file__) for x in (facade,facade.pricing,facade_guidance,work_overview)}
         self.code_hashes[str(Path(__file__).resolve())]=facade.file_hash(__file__)
+        page=Path(__file__).with_name('facade_page.html').resolve()
+        self.code_hashes[str(page)]=facade.file_hash(page)
         self.lock=threading.RLock()
         self.state={'status':'waiting','message':'Venter på den tilknyttede facade i SolidCraft'}
         self.result=None;self.snapshot_data=None;self.input_key=None;self.version=None
@@ -141,8 +144,39 @@ class LiveFacade:
         facade.atomic_json(self.directory/'reference.json',{'config_sha256':self.config_sha,
             'code_hashes':self.code_hashes,'result':self.reference,'model':self.reference_export})
 
+    def work_view(self):
+        """Project work is separate from the active CAD result and never grants approval."""
+        config=self.config.get('work_overview')
+        if config is None:
+            return {'status':'not_configured','message':'Ingen arbejdsoversigt er tilknyttet. Mangler og kontrolkrav er ikke afklaret af den grund.'}
+        try:
+            if not isinstance(config,dict) or set(config)!={'path','project_id','label'} or any(
+                    not isinstance(v,str) or not v.strip() for v in config.values()):
+                raise ValueError('Arbejdsoversigten kræver filsti, projekt-ID og en læsbar projektbetegnelse')
+            paths=[self.config_path,Path(__file__).resolve(),Path(work_overview.__file__).resolve(),
+                   Path(__file__).with_name('facade_page.html').resolve()]
+            expected={**self.code_hashes,str(self.config_path):self.config_sha}
+            if any(facade.file_hash(p)!=expected[str(p)] for p in paths):
+                raise ValueError('Arbejdsoversigtens program eller projektkobling er ændret; afstem og genstart')
+            path=(self.config_path.parent/config['path']).resolve()
+            result=work_overview.view(path)
+            if result['project_id']!=config['project_id']:
+                raise ValueError('Arbejdsoversigtens projekt-ID matcher ikke den udtrykkeligt valgte kobling')
+            return {'status':'current' if result['current'] else 'recheck','label':config['label'],
+                    'message':'De bundne filer matcher registreringen. Åbne opgaver og kontroller består.' if result['current'] else
+                              'Grundlag er ændret eller mangler. Berørte poster skal genvurderes.',
+                    'key':work_overview.state_key(result),'overview':result,
+                    'groups':work_overview.GROUPS,'routes':work_overview.ROUTES}
+        except json.JSONDecodeError:
+            return {'status':'unavailable','message':'Arbejdslisten har et ugyldigt format. Ret eller gendan projektets registrering.'}
+        except OSError:
+            return {'status':'unavailable','message':'Arbejdsoversigtens filer kan ikke læses. Kontrollér koblingen og gendan eventuelle manglende filer.'}
+        except (ValueError,KeyError,TypeError) as error:
+            return {'status':'unavailable','message':'Arbejdsoversigten kan ikke kontrolleres: '+str(error)}
+
     def view(self):
         # Recheck at the HTTP read boundary: never label a completed old revision current.
+        work=self.work_view()
         try:
             self.check_basis()
             version=self.control.call('document.revision')
@@ -154,11 +188,12 @@ class LiveFacade:
             if not valid:
                 if status['status']=='current':
                     status={'status':'stale','message':'Modellen er ændret eller frakoblet — afventer genberegning'}
-                return {'state':status,'result':None,'reference':None,'comparison':None}
+                return {'state':status,'result':None,'reference':None,'comparison':None,'work_overview':work}
             return {'state':status,'result':copy.deepcopy(self.result),'reference':copy.deepcopy(self.reference),
                     'comparison':comparison(self.reference,self.result),'input_key':self.input_key,
                     'settings':copy.deepcopy(self.settings),
-                    'guidance':facade_guidance.overview(self.result,self.reference,self.settings)}
+                    'guidance':facade_guidance.overview(self.result,self.reference,self.settings),
+                    'work_overview':work}
 
     def update_settings(self, expected_key, settings):
         current=self.view()

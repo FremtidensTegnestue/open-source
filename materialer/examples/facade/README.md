@@ -71,6 +71,26 @@ Grundlaget indeholder 16 områder med konkrete afklaringer, blandt andet arkitek
 
 Indtastninger gemmes separat i `maal-og-grundlag.json`, med revision og uden ændring af CAD eller materialernes klimatal. Skift af valgt post i formularen er ikke et beregningsinput. Formularen skal gemmes eller fortrydes, før samlet model-/regnskabssnapshot gemmes. En forældet formularrevision eller ekstern filændring afvises frem for at overskrive ubemærket. Genstart indlæser den gemte fil; afstem ændrede data før videre brug. Projektfiler kan indeholde private notater og priser og skal ikke automatisk publiceres med kodeeksemplet.
 
+## Arbejde og nødvendig kontrol i samme visning
+
+Feltet **Arbejde og kontrol** står over modelregnskabet. Det viser antal egne opgaver, faglige kontroller, konkrete formelle poster og uafklarede krav. Fold feltet ud for næste handling, ansvarlig rolle, omfang og bilag. Den navngivne projektoversigt er adskilt fra den målte facadeprøve; en bygningsliste må ikke læses som en eftervisning af det valgte CAD-element.
+
+Tilknyt en eksisterende [arbejdsliste](../work-overview/README.md) udtrykkeligt i projektets `projekt.json`, før referencen dannes:
+
+```json
+"work_overview": {
+  "path": "../projektarbejde/arbejdsliste.json",
+  "project_id": "PROJEKT-ID-FRA-ARBEJDSLISTEN",
+  "label": "Fælles projektopgaver"
+}
+```
+
+Stien regnes fra konfigurationsfilens mappe. Projekt-ID skal matche selve arbejdslisten; det behøver ikke være facadeprøvens separate CAD-ID. Ingen liste er automatisk oprettet eller valgt. En uoplyst, ugyldig eller forkert projekttilknytning giver tydelig status, ikke nul mangler. Har projektet allerede en reference, kræver ændret konfiguration en kontrolleret afstemning med genberegning; ret ikke blot versionshashene.
+
+Arbejdslisten genkontrolleres ved hver aflæsning, også når CAD-revisionen er uændret eller modellen er frakoblet. Ændrede bundne filer markerer berørte poster til genvurdering. Forbindelsesfejl skjuler gamle aktuelle statusoplysninger. Gruppen med formelle poster kan være tom, fordi krav endnu er uafklarede; det betyder ikke kravfrihed. Delkontroller bliver ikke samlet til et godkendelsesstempel.
+
+Listen redigeres i projektets egen JSON-fil af den projekterende/agenten. Denne integration **læser og viser** registreringen; den opretter ingen godkendelse, rådgiverbestilling eller ny beregning. Modelkopi/regnskabssnapshot indeholder også arbejdsstatus på gemmetidspunktet. Løbende genkontrol kræver den aktive lokale proces; en gemt kopi er ikke live. Ugæmte CAD-ændringer er fortsat forskellige fra filændringer i projektarbejdslisten.
+
 Pris-/arbejdsfelterne har læsbare forklaringer her, men indtastes fortsat i SolidCrafts Parameters. De kan endnu ikke ændres direkte i ledsagervisningen. Se [gennemgangen og næste forbedringer](../../docs/DESIGN-TOOL-REVIEW-2026-11-21.md).
 
 ## Kontrol
