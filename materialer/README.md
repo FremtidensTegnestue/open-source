@@ -6,7 +6,7 @@
 
 Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, studerende og udviklere.
 
-[De 169 materialefelter](docs/MATERIALEFELTER.md) · [Kom godt i gang med Rust-CLI’et](docs/RUST.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
+[De 169 materialefelter](docs/MATERIALEFELTER.md) · [Kom hurtigt i gang](docs/KOM-GODT-I-GANG.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
 
 </div>
 
@@ -39,6 +39,7 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
 | Have en AI-agent til at hjælpe | [Materialevalget i SolidCraft og BIMCraft](examples/unified-workflow/README.md) |
 | Søge og beregne selv | [Installation og dine første kommandoer](docs/RUST.md) |
+| Udvikle programmet eller bidrage med en kilde | [Bidragsguide, kode og tests](CONTRIBUTING.md) |
 | Bruge datasættet i egne analyser | [Dataformater, indhold og versioner](data/README.md) |
 | Forstå ord som EPD, BIM, CLI og MCP | [Ordliste](docs/ORDLISTE.md) |
 | Se afprøvningen på et rigtigt byggeri | [Lisbjerg Bakke](reports/lisbjerg-bakke/README.md) |
@@ -108,6 +109,8 @@ Resultaterne stemmer med en uafhængig beregning fra mål og original Excel. Ove
 Dette er et dokumenteret referencescenarie. GLB-overførslen giver generiske BIM-komponenter, og materialereferencer kobles eksplicit. CAD-historik og en automatisk synkronisering følger ikke med gennem GLB.
 
 ## Din første beregning
+
+Vil du først slå materialetal op uden at bygge en database, så følg [startvejledningens Parquet-opslag](docs/KOM-GODT-I-GANG.md#2-slå-materialer-op-uden-database). Beregningsforløbet nedenfor bruger den aktuelle Rust-CLI.
 
 Vælg **Code → Download ZIP** på [repositoryets forside](../). Pak filen ud, og åbn en terminal i undermappen `materialer`. Med Git kan du hente projektet og åbne mappen med disse to kommandoer.
 
