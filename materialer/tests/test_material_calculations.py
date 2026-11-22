@@ -47,6 +47,22 @@ class CalculationTests(unittest.TestCase):
         self.assertEqual(r['value'],429.5)
         self.add('ambig','gwp',1,'kg CO2-eq',basis='kg',module='A1',conditions={'declared_amount':1000,'declared_references':[{'amount':1,'unit':'kg'}]})
         with self.assertRaises(calc.CalculationError):calc.reference_basis(calc.observation(self.db,'ambig','test:wood'))
+    def test_shared_climate_scaling_contract(self):
+        fixture=json.loads((Path(__file__).parent/'fixtures/climate-scaling.json').read_text(encoding='utf-8'))
+        for case in fixture['cases']:
+            with self.subTest(case=case['id']):
+                source=fixture['observation_defaults'] | case['source']
+                oid='scaling:'+case['id']
+                self.add(oid,source['property'],source['value'],source['unit'],
+                         conditions=source['conditions'],basis=source['declared_unit'],module=source['module'])
+                request=dict(kind='climate',material_id='test:wood',gwp_observation_id=oid,quantity=case['quantity'])
+                if case.get('error'):
+                    with self.assertRaises(ValueError):calc.calculate(self.db,request)
+                else:
+                    result=calc.calculate(self.db,request)
+                    self.assertAlmostEqual(result['value'],case['value'],delta=max(1e-12,abs(case['value'])*1e-12))
+                    self.assertEqual(result['module'],source['module'])
+                    self.assertEqual(result['indicator'],source['property'])
     def test_moisture_matches_published_example_and_range(self):
         q=dict(kind='moisture',material_id='test:wood',coefficient_observation_id='coefficient',dimension={'value':232,'unit':'mm'},initial_moisture_percent=8,final_moisture_percent=11,direction='tangential')
         r=calc.calculate(self.db,q);self.assertAlmostEqual(r['value'],.0017052)

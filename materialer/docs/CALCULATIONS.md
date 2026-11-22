@@ -80,6 +80,10 @@ Densitet skal være egenskaben `density` og have en kendt enhed. Arealvægt elle
 
 Metoden gælder én valgt GWP-indikator og ét kildeangivet livscyklusmodul ad gangen. Den understøtter eksplicitte referencegrundlag i masse, volumen eller areal. “1ton” er1000kg efter den dokumenterede metriske konvention. ILCD-felter som `declared_unit=kg` og `conditions.declared_amount=1000` understøttes, når kildehenvisningerne er entydige; udvekslingens `meanAmount=1` bruges ikke som erstatning.
 
+Alle angivne referencebeløb og -enheder skal stemme overens efter enhedsomregning. Hvis `declared_unit` siger `1 kg`, mens kildekonteksten siger `1000 kg`, afvises beregningen. Programmet vælger ikke automatisk den ene oplysning. `1 ton` og `1000 kg` kan derimod beskrive samme reference. Sammenligningen tillader kun en relativ forskel på 1e-12 for numerisk afrunding ved omregning. Et normaliseret referencebeløb skal være endeligt og større end nul; en tom eller blank modulangivelse giver ingen klimaberegning.
+
+Python og Rust afprøves mod de samme [48 testtilfælde](../tests/fixtures/climate-scaling.json): masse, volumen og areal, CO₂-enheder i gram/kg/ton, 1000kg-referencen, negative produktions-/D-værdier og afvisning af modstridende, manglende eller uegnede input. Numerisk over-/underløb giver en fejl; en meget lille, ikke-nul påvirkning må ikke blive et falsk nul. En udtrykkelig nulværdi eller nulmængde kan fortsat give nul. Testenes tal er særskilte regne- og afvisningskontroller, ikke dokumentation for produktækvivalens eller en fuld bygnings-LCA.
+
 Der dannes ingen global sum, som blander produktionsfase, delmoduler, modul D, forskellige indikatorer eller metoder. EPD-betingelser som R-værdi eller år accepteres ikke som et simpelt arealgrundlag. Installationsfaktorer kræver deres egen metode og kan ikke anvendes som en produktdeklaration.
 
 ### Træets fugtbevægelse
