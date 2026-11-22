@@ -39,6 +39,7 @@ Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På 
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
 | Have en AI-agent til at hjælpe | [Materialevalget i SolidCraft og BIMCraft](examples/unified-workflow/README.md) |
 | Søge og beregne selv | [Installation og dine første kommandoer](docs/RUST.md) |
+| Udvikle programmet eller bidrage med en kilde | [Bidragsguide, kode og tests](CONTRIBUTING.md) |
 | Bruge datasættet i egne analyser | [Dataformater, indhold og versioner](data/README.md) |
 | Forstå ord som EPD, BIM, CLI og MCP | [Ordliste](docs/ORDLISTE.md) |
 | Se afprøvningen på et rigtigt byggeri | [Lisbjerg Bakke](reports/lisbjerg-bakke/README.md) |

@@ -34,7 +34,7 @@ Bruger du en AI-agent, kan du åbne projektmappen og give den en opgave på almi
 
 Har du et vindue, du gerne vil redde, en model med mangelfulde materialetal eller erfaringer fra en ombygning, som andre kunne lære af? Vi vil gerne høre, hvilken beslutning I står over for på jeres tegnestue, og se på, hvordan vi kan hjælpe.
 
-**[Tal med Thais og Mikkel om din sag](https://fremtidenstegnestue.dk/kontakt-os)** · [Del en kilde, en erfaring eller en rettelse](CONTRIBUTING.md)
+**[Tal med Thais og Mikkel om din sag](https://fremtidenstegnestue.dk/kontakt-os)** · [Bidrag med viden, rettelser eller kode](CONTRIBUTING.md)
 
 ## Bogserien
 
