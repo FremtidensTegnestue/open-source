@@ -4,8 +4,10 @@ Hvorfor kan én bjælke løftes fri, mens en anden først skal skydes sidelæns 
 
 | Anden udgave | Indhold og modeller | Læs hele bogen |
 | --- | --- | --- |
-| **Danske træsamlinger** · 42 sider | [25 samlinger](danske/README.md) fra remmens stød og hageblade til skråbånd, kamme og bræddeprofiler | [PDF](danske/bog.pdf?raw=true) · [HTML til offlinebrug](danske/bog.html?raw=true) |
-| **Japanske træsamlinger** · 36 sider · på dansk | [20 samlinger og forbindelser](japanske/README.md) fra enkle sæder og kryds til skjulte kiler og halvblinde T-ender | [PDF](japanske/bog.pdf?raw=true) · [HTML til offlinebrug](japanske/bog.html?raw=true) |
+| **Danske træsamlinger** · 76 sider | [25 samlinger](danske/README.md) fra remmens stød og hageblade til skråbånd, kamme og bræddeprofiler | [PDF](danske/bog.pdf?raw=true) · [Trykfil](danske/tryk.pdf?raw=true) · [HTML til offlinebrug](danske/bog.html?raw=true) |
+| **Japanske træsamlinger** · 64 sider · på dansk | [20 samlinger og forbindelser](japanske/README.md) fra enkle sæder og kryds til skjulte kiler og halvblinde T-ender | [PDF](japanske/bog.pdf?raw=true) · [Trykfil](japanske/tryk.pdf?raw=true) · [HTML til offlinebrug](japanske/bog.html?raw=true) |
+
+Bogudgaverne har hele opslag med tekst på venstresiden og montagetegninger på højresiden. [Format og oplysninger til trykkeriet](bogtryk/README.md).
 
 **Tre måder at bruge bøgerne på**
 

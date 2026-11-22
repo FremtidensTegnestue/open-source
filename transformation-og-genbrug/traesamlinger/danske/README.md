@@ -4,7 +4,7 @@
 
 Oppe under taget mødes to bjælker over en stolpe. Fra gulvet kan du se en fuge. Hvis du kunne løfte den ene ende, ville du se de snit, der får træet til at passe. Den bevægelse kan du følge her, fra det første lige stød til den franske lås med to kiler.
 
-[Hent bogen som PDF](bog.pdf?raw=true) · [Offlineudgave](bog.html?raw=true)
+[Hent bogen som PDF](bog.pdf?raw=true) · [Hent trykfil med beskæring](tryk.pdf?raw=true) · [Offlineudgave](bog.html?raw=true)
 
 ## Forlæng en rem
 

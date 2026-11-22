@@ -4,7 +4,7 @@
 
 Du står med to bjælkeender, der passer sammen. Spørgsmålet er, hvilken vej de skal ind. Ved nogle samlinger er et enkelt løft nok. Ved andre har tømreren gemt en lås inde i træet. Her kan du tage delene fra hinanden og følge arbejdet, før du lærer navnene.
 
-[Hent bogen som PDF](bog.pdf?raw=true) · [Offlineudgave](bog.html?raw=true)
+[Hent bogen som PDF](bog.pdf?raw=true) · [Hent trykfil med beskæring](tryk.pdf?raw=true) · [Offlineudgave](bog.html?raw=true)
 
 ## Forlængelser langs træet
 
