@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "language": "da",
+  "guide": "docs/KOM-GODT-I-GANG.md",
+  "default_for_first_lookup": "parquet",
+  "implicit_database_build_or_activation": false,
+  "paths": [
+    {
+      "id": "read_example",
+      "step": 1,
+      "document": "examples/integrated-workflow/README.md",
+      "installation_required": false
+    },
+    {
+      "id": "parquet",
+      "step": 2,
+      "python_minimum": "3.11",
+      "tested_pyarrow": "26.0.1",
+      "script": "scripts/opslag_parquet.py",
+      "commands_from_materialer": [
+        "python -m pip install pyarrow==26.0.1",
+        "python scripts/opslag_parquet.py beton",
+        "python scripts/opslag_parquet.py egetræ"
+      ],
+      "data": "data/parquet",
+      "manifest": "data/parquet/manifest.json",
+      "scope": "foundation_only",
+      "loads_supplements": false,
+      "builds_database": false,
+      "performs_calculation_or_unit_conversion": false,
+      "material_limit_default": 5,
+      "observation_limit_default": 12,
+      "source_join": "observations.source_id -> sources.id"
+    },
+    {
+      "id": "rust",
+      "step": 3,
+      "document": "docs/RUST.md",
+      "rust_minimum": "1.95",
+      "commands_from_materialer": [
+        "cargo install --locked --path .",
+        "ft-materials build",
+        "ft-materials status",
+        "ft-materials search egetræ --limit 5"
+      ],
+      "build_activates_local_edition": true,
+      "public_edition_manifest": "data/releases/mechanics-2026-11-20.json",
+      "historical_python_guide": "docs/PYTHON-V01.md",
+      "disk_note": "Around 9 GB for the foundation; reserve additional space for dependencies, compilation, temporary indexes and supplements."
+    },
+    {
+      "id": "models",
+      "step": 4,
+      "document": "examples/unified-workflow/README.md",
+      "separate_programs_required": true,
+      "plate_example_tested_CLI_versions": {
+        "SolidCraft": "0.44.0",
+        "BIMCraft": "0.12.0"
+      },
+      "structural_example": "examples/beam-study/README.md"
+    }
+  ],
+  "read_together": [
+    "value", "value_text", "unit", "declared_unit", "basis", "module",
+    "method", "conditions_json", "data_status", "source_id", "source_locator"
+  ],
+  "boundaries": {
+    "missing_is_zero": false,
+    "name_match_is_product_approval": false,
+    "negative_wood_A1_A3_is_whole_life_negative": false,
+    "recorded_checksum_is_original_file_verification": false,
+    "source_rights_document": "THIRD_PARTY.md",
+    "data_license_directory": "data/licenses"
+  }
+}
