@@ -1,8 +1,8 @@
 # Illustreret fagordbog for byggeriet
 
-**[Alle 14 emneblade og det alfabetiske register](OVERSIGT.md)** · **[Hent den samlede fagordbog som PDF](fagordbog.pdf?raw=true)** · [Åbn vinduet som første øvelse](vindue/README.md)
+**[Alle 14 emneblade og det alfabetiske register](OVERSIGT.md)** · **[Læs bogudgaven · 80 sider](fagordbog.pdf?raw=true)** · [Hent trykfilen](tryk.pdf?raw=true) · [Åbn vinduet som første øvelse](vindue/README.md)
 
-Fagordbogen har 110 opslag i fem etaper. Gå fra den del, du kan pege på, til navnet og originalkilden, eller slå ordet op og find det på tegningen. Herunder finder du det første blad.
+Bogen er sat i [Fremtidens Tegnestues bogserie](../../bogserie/README.md). Fagordbogen har 110 opslag i fem etaper. Gå fra den del, du kan pege på, til navnet og originalkilden, eller slå ordet op og find det på tegningen. Herunder finder du det første blad.
 
 ## Når tag og ydermur mødes
 

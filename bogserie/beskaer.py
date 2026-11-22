@@ -21,4 +21,4 @@ with pikepdf.open(sys.argv[1]) as book:
     book.save(folder / 'tryk.pdf')
     for page in book.pages:
         page.CropBox = page.TrimBox
-    book.save(folder / 'bog.pdf')
+    book.save(folder / sys.argv[3])

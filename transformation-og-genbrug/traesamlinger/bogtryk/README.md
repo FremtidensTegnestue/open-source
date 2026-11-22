@@ -9,12 +9,4 @@ De to bøger er sat til **170 × 240 mm højformat**. Trykfilerne indeholder enk
 
 ## Sats og genopbygning
 
-Farverne og kombinationen af Playfair Display og Lora kommer fra [pdfcn Elegant](https://www.pdfcn.dev/docs/themes/elegant). Temaværdierne er overført til CSS. De to bind har hver sin omslagsfarve. Chromium sætter opslagene fra bogens selvstændige HTML-fil og de originale SolidCraft-vektortegninger. Kolofonens QR-kode fører fra papirbogen til modellerne.
-
-Kør fra mappen `traesamlinger` med Node.js, `playwright-core`, Chromium, Python 3 og `pikepdf`. Installer Inter og Noto Serif/Sans CJK JP. Bygningen henter de versionsbestemte fontfiler til Lora og Playfair Display fra Google Fonts.
-
-```sh
-CHROMIUM=/sti/til/chromium node bogtryk/byg.cjs
-```
-
-Bygningen skriver en beskåret læseudgave og en trykfil med udfald for hvert bind.
+Alle tre bind bruger [bogseriens fælles design og byggekommando](../../../bogserie/README.md).
