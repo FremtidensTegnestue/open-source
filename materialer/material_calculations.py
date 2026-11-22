@@ -67,6 +67,9 @@ def reference_basis(obj):
     text = obj.get('declared_unit')
     if not isinstance(text, str):
         raise CalculationError('reference_basis_missing', 'Source has no declared reference amount/unit')
+    context = obj.get('conditions', {})
+    if not isinstance(context, dict):
+        raise CalculationError('unsupported_reference_basis', 'Reference context must be an object')
     match = re.fullmatch(r'\s*([+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)\s+([^\s]+)\s*', text)
     if match:
         amount, unit = positive(float(match[1]), 'declared reference amount'), match[2]
@@ -75,7 +78,6 @@ def reference_basis(obj):
         # ILCD records can store unit and amount in separate source fields. Never
         # infer amount1 from the unit or use reference exchange meanAmount1.
         unit = text.strip()
-        context = obj.get('conditions', {})
         amount = context.get('declared_amount')
         refs = context.get('declared_references', [])
         matching = [ref for ref in refs if isinstance(ref, dict) and ref.get('unit') == unit]
@@ -88,27 +90,62 @@ def reference_basis(obj):
     for dimension in ('mass', 'volume', 'area'):
         try:
             result = normalize(amount, normalized_unit, dimension)
-            result.update(source_unit=unit, basis_source=origin)
-            return dimension, result
         except ValueError:
             continue
-    raise CalculationError('unsupported_reference_basis', f'Unsupported declared unit: {unit}')
+        positive(result['value'], 'normalized declared reference amount')
+        break
+    else:
+        raise CalculationError('unsupported_reference_basis', f'Unsupported declared unit: {unit}')
+
+    def confirm(value, source_unit):
+        if not isinstance(source_unit, str):
+            raise CalculationError('unsupported_reference_basis', 'Source reference needs an explicit unit')
+        source_unit = source_unit.strip()
+        reference = normalize(positive(value, 'source reference amount'),
+                              aliases.get(source_unit, source_unit), dimension)
+        if not math.isclose(reference['value'], result['value'], rel_tol=1e-12, abs_tol=0):
+            raise CalculationError('reference_basis_conflict', 'Source reference amounts or units conflict')
+
+    if context.get('reference_amount') is not None or context.get('reference_unit') is not None:
+        confirm(context.get('reference_amount'), context.get('reference_unit'))
+    refs = context.get('declared_references', [])
+    if not isinstance(refs, list):
+        raise CalculationError('unsupported_reference_basis', 'Declared references must be a list')
+    for ref in refs:
+        if not isinstance(ref, dict):
+            raise CalculationError('unsupported_reference_basis', 'Declared reference must be an object')
+        confirm(ref.get('amount'), ref.get('unit'))
+    if context.get('declared_amount') is not None:
+        source_amount = positive(context['declared_amount'], 'source declared amount')
+        if context.get('declared_unit') is not None:
+            confirm(source_amount, context['declared_unit'])
+        elif refs:
+            if not any(ref.get('amount') == source_amount for ref in refs):
+                raise CalculationError('reference_basis_conflict', 'Declared amount disagrees with source references')
+        else:
+            confirm(source_amount, unit)
+    result.update(source_unit=unit, basis_source=origin)
+    return dimension, result
 
 
 def climate(db, request):
     obj = observation(db, request['gwp_observation_id'], request['material_id'])
     if obj['property'] not in GWP_PROPERTIES or obj['unit'] not in GWP_UNITS:
         raise CalculationError('indicator_mismatch', 'Expected a supported global-warming indicator and explicit CO2-equivalent unit')
-    if not obj.get('module'):
+    if not isinstance(obj.get('module'), str) or not obj['module'].strip():
         raise CalculationError('module_missing', 'A lifecycle module must be specified by the source')
     if obj['conditions'].get('record_scope') == 'installation_area_reference_factor':
         raise CalculationError('unsupported_reference_basis', 'Installation factors require the building-area/year method, not material scaling')
     dimension, declared = reference_basis(obj)
     quantity = request['quantity']
     actual = normalize(quantity['value'], quantity['unit'], dimension)
+    positive(quantity['value'], 'quantity', zero=True)
     positive(actual['value'], 'quantity', zero=True)
     factor = actual['value'] / declared['value']
-    return finish(obj['value'] * GWP_UNITS[obj['unit']] * factor, 'kg CO2-eq',
+    value = obj['value'] * GWP_UNITS[obj['unit']] * factor
+    if value == 0 and obj['value'] != 0 and quantity['value'] != 0:
+        raise CalculationError('numeric_underflow', 'Nonzero climate contribution is outside the supported numeric range')
+    return finish(value, 'kg CO2-eq',
                   {'id': 'climate.declared_reference_scaling.v1', 'formula': 'contribution = source_value * numerator_conversion * quantity_in_source_basis / declared_amount'},
                   {'quantity': actual, 'source_observation': obj, 'declared_basis': declared, 'scaling_factor': factor, 'numerator_conversion_factor': GWP_UNITS[obj['unit']]},
                   module=obj['module'], indicator=obj['property'], indicator_method=obj['method'],
