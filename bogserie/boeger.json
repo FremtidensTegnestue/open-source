@@ -1,0 +1,24 @@
+{
+  "danske": {
+    "folder": "transformation-og-genbrug/traesamlinger/danske",
+    "source": "bog.html",
+    "reader": "bog.pdf",
+    "layout": "transformation-og-genbrug/traesamlinger/bogtryk/opslag.js",
+    "qr": "transformation-og-genbrug/traesamlinger/bogtryk/danske-qr.svg"
+  },
+  "japanske": {
+    "folder": "transformation-og-genbrug/traesamlinger/japanske",
+    "source": "bog.html",
+    "reader": "bog.pdf",
+    "layout": "transformation-og-genbrug/traesamlinger/bogtryk/opslag.js",
+    "qr": "transformation-og-genbrug/traesamlinger/bogtryk/japanske-qr.svg"
+  },
+  "fagordbog": {
+    "folder": "transformation-og-genbrug/fagordbog",
+    "source": "fagordbog.html",
+    "reader": "fagordbog.pdf",
+    "layout": "transformation-og-genbrug/fagordbog/bogtryk.js",
+    "qr": "transformation-og-genbrug/fagordbog/bog-qr.svg",
+    "css": "transformation-og-genbrug/fagordbog/bogtryk.css"
+  }
+}

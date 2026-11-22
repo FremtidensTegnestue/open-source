@@ -1,0 +1,26 @@
+body.ordbog {--ink:#3e4d37;--wash:#edf0e6}
+.ordbog .cover h1 {font-size:42pt}
+.ordbog .coverart {height:90mm}
+.catalogrows a,.indexcols a {display:flex;align-items:baseline;justify-content:space-between;gap:2mm;border-bottom:.2mm solid var(--border)}
+.catalogrows a {font:11pt/1.55 var(--body);padding:1mm 0}
+.catalogrows b,.indexcols b {font:9pt Inter,sans-serif}
+.definitions h2,.drawing h2 {font-size:23pt}
+.definitions article {margin:3mm 0}
+.definitions h3 {margin:0 0 1mm;font-size:13pt;color:var(--ink)}
+.definitions article p {margin:0;font-size:10.5pt;line-height:1.4}
+.citation {font:8pt/1.35 Inter,sans-serif;color:var(--ink);margin-top:.8mm}
+.drawing {background:var(--wash)}
+.drawing figure {margin:10mm 0 5mm}
+.drawing figure > svg {height:auto;background:#fafbf9}
+.platekey {display:flex;flex-wrap:wrap;gap:2mm 5mm;font:10pt/1.4 Inter,sans-serif}
+.roofart {position:relative;line-height:0}
+.roofart img {width:100%;height:auto}
+.spot {position:absolute;display:block}
+.spot span {opacity:0;font-size:2pt}
+.indexcols {column-count:2;column-gap:7mm}
+.indexcols a {font:9pt/1.35 Inter,sans-serif;padding:1mm 0;break-inside:avoid}
+.definitions article {margin:4mm 0}
+.definitions article p {font-size:11pt;line-height:1.5}
+.drawing main {display:flex;flex-direction:column}
+.drawing figure {margin:auto 0}
+.drawing .platekey {margin-top:5mm;padding-top:3mm;border-top:.25mm solid var(--border)}

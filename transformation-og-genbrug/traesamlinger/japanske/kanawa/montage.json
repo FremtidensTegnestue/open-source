@@ -1,0 +1,23 @@
+{
+  "commands": [
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [3.0, 0.0, 29.0]}},
+    {"command": "solid.move", "params": {"bodies": ["Noegle"], "translate": [0.0, -28.0, 0.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [0.0, 0.0, -16.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [0.0, 0.0, -8.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [0.0, 0.0, -4.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [0.0, 0.0, -1.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [-2.0, 0.0, 0.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [-1.0, 0.0, 0.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Noegle"], "translate": [0.0, 20.0, 0.0]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Noegle"], "translate": [0.0, 8.0, 0.0]}},
+    {"command": "inspect.interference", "params": {}}
+  ]
+}

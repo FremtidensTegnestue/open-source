@@ -12,7 +12,7 @@ Principsnit og opstalter uden mål. Numrene følger delene på tegningen.
 
 ### Søjle
 
-**[Punkt 1 på tegningen](snit-1.svg).** Den lodrette del modtager last fra de dele, der hviler på den. Her bærer to søjler en drager. [CRH · Projekteringsprincipper · PDF-s. 6](https://crhconcrete.dk/wp-content/uploads/2019/11/CRH-armeringsprincipper-2018-1.pdf#page=6)
+**[Punkt 1 på tegningen](snit-1.svg).** Den lodrette del modtager last fra de dele, der hviler på den. Her bærer to søjler en drager. [Industri Beton · Søjler](https://industribeton.dk/betonelementer/sojler)
 
 ### Drager
 
@@ -20,7 +20,7 @@ Principsnit og opstalter uden mål. Numrene følger delene på tegningen.
 
 ### Konsol
 
-**[Punkt 3 på tegningen](snit-1.svg).** Den korte fremspringende understøtning giver en anden del et sted at hvile. På tegningen sidder den på siden af søjlen. [CRH · Projekteringsprincipper · PDF-s. 15](https://crhconcrete.dk/wp-content/uploads/2019/11/CRH-armeringsprincipper-2018-1.pdf#page=15)
+**[Punkt 3 på tegningen](snit-1.svg).** Den korte fremspringende understøtning giver en anden del et sted at hvile. På tegningen sidder den på siden af søjlen. [Industri Beton · Søjler](https://industribeton.dk/betonelementer/sojler)
 
 ## Dæk i tværsnit og ende på leje i længdesnit
 
@@ -40,11 +40,11 @@ Principsnit og opstalter uden mål. Numrene følger delene på tegningen.
 
 ### Armering
 
-**[Punkt 6 på tegningen](snit-3.svg).** Stål indstøbt i betonen. Her skærer snittet gennem to langsgående stænger, så de ses som små cirkler. [CRH · Projekteringsprincipper · PDF-s. 2](https://crhconcrete.dk/wp-content/uploads/2019/11/CRH-armeringsprincipper-2018-1.pdf#page=2)
+**[Punkt 6 på tegningen](snit-3.svg).** Stål indstøbt i betonen. Her skærer snittet gennem to langsgående stænger, så de ses som små cirkler. [CRH · Projekteringsprincipper · PDF-s. 3](https://crhconcrete.dk/wp-content/uploads/2019/11/CRH-armeringsprincipper-2018-1.pdf#page=3)
 
 ### Dæklag
 
-**[Punkt 7 på tegningen](snit-3.svg).** Betonlaget fra overfladen til det nærmeste armeringsstål. Her ligger det mellem stangens underkant og betonens underside. [CRH · Projekteringsprincipper · PDF-s. 2](https://crhconcrete.dk/wp-content/uploads/2019/11/CRH-armeringsprincipper-2018-1.pdf#page=2)
+**[Punkt 7 på tegningen](snit-3.svg).** Betonlaget fra overfladen til det nærmeste armeringsstål. Her ligger det mellem stangens underkant og betonens underside. [CRH · Projekteringsprincipper · PDF-s. 3](https://crhconcrete.dk/wp-content/uploads/2019/11/CRH-armeringsprincipper-2018-1.pdf#page=3)
 
 ### Anker
 

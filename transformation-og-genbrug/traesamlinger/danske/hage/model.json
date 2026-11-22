@@ -1,0 +1,156 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Anlaeg-profil",
+    "plane": {
+     "origin": [
+      0,
+      10,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -45.0,
+      0.0
+     ],
+     [
+      20.0,
+      0.0
+     ],
+     [
+      20.0,
+      10.0
+     ],
+     [
+      0.0,
+      10.0
+     ],
+     [
+      0.0,
+      7.0
+     ],
+     [
+      -20.0,
+      7.0
+     ],
+     [
+      -20.0,
+      18.0
+     ],
+     [
+      -45.0,
+      18.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 20,
+    "body_name": "Anlaeg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Indsat-profil",
+    "plane": {
+     "origin": [
+      0,
+      10,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      45.0,
+      18.0
+     ],
+     [
+      45.0,
+      0.0
+     ],
+     [
+      20.0,
+      0.0
+     ],
+     [
+      20.0,
+      10.0
+     ],
+     [
+      0.0,
+      10.0
+     ],
+     [
+      0.0,
+      7.0
+     ],
+     [
+      -20.0,
+      7.0
+     ],
+     [
+      -20.0,
+      18.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 20,
+    "body_name": "Indsat"
+   }
+  }
+ ]
+}

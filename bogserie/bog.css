@@ -1,0 +1,67 @@
+@page {size:176.4mm 246.4mm; margin:0}
+* {box-sizing:border-box}
+html,body {margin:0; padding:0}
+body {font:11pt/1.55 var(--body); color:var(--foreground); --ink:var(--primary); --wash:#f3eadb; --field:#ece7db}
+body.jp {--ink:#263f41; --wash:#e7eeeb; --field:#dae5e1}
+.sheet {position:relative;width:176.4mm;height:246.4mm;break-after:page;padding:17mm 17mm 18mm 23mm;background:white}
+.sheet:last-child {break-after:auto}
+.sheet:nth-child(even) {padding-left:17mm;padding-right:23mm}
+main {position:relative;height:100%}
+footer {position:absolute;bottom:11mm;left:23mm;right:17mm;display:flex;justify-content:space-between;align-items:baseline;font:8pt Inter,sans-serif;color:var(--ink)}
+.sheet:nth-child(even) footer {left:17mm;right:23mm;flex-direction:row-reverse}
+footer b {font:11pt var(--body)}
+h1,h2,h3,p,figure {margin:0}
+h1,h2 {font:600 29pt/1.12 var(--display);color:var(--ink);text-wrap:balance;margin:4mm 0 8mm}
+h3 {font:600 13pt var(--body);margin:6mm 0 1mm}
+p {margin:0 0 3.3mm;text-wrap:pretty}
+a {color:inherit;text-decoration:none}
+.eyebrow,figcaption,.sources,.subtitle,.imprint {font:8.5pt/1.45 Inter,"Noto Sans CJK JP",sans-serif}
+.eyebrow {font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--ink)}
+svg {display:block;width:100%;height:100%;overflow:visible}
+figure {break-inside:avoid}
+figcaption {padding-top:1.5mm;color:var(--ink)}
+.sources {margin-top:4mm;border-top:.25mm solid var(--border);padding-top:2mm;font-size:8pt}
+.cover,.back,.part {background:var(--ink);color:var(--primaryForeground)}
+.cover h1,.cover .eyebrow,.part h2,.part .eyebrow,.part footer,.back .eyebrow {color:inherit}
+.cover h1 {font-size:49pt;line-height:1;margin:14mm 0 4mm;letter-spacing:-.045em}
+.coverart {height:105mm}
+.subtitle {font:15pt var(--body);margin-top:5mm}
+.cover footer,.back footer {display:none}
+.toccols,.index .contents {display:grid;grid-template-columns:1fr 1fr;gap:0 7mm}
+.toccols a,.index a {display:flex;gap:1mm;align-items:baseline;justify-content:space-between;font:8.6pt/1.25 Inter,"Noto Sans CJK JP",sans-serif;padding:.65mm 0}
+.toccols .major {border-top:.25mm solid var(--ink);color:var(--ink);font-weight:600;margin:2mm 0 1mm}
+.toccols b,.index b {font-size:8pt}
+.part h2 {font-size:34pt;margin:12mm 0 9mm}
+.part .lede,.essay .lede,.joint .first {font:14pt/1.45 var(--body)}
+.part .sources {border-color:#ffffff66}
+.familyplate,.sequence,.endplate {background:var(--wash)}
+.triptych {height:100%;display:grid;grid-template-rows:repeat(3,1fr);gap:3mm}
+.triptych figure,.steps figure {display:flex;flex-direction:column;min-height:0;border-bottom:.2mm solid #8886;padding-bottom:2mm}
+.triptych svg,.steps svg {min-height:0;flex:1}
+.triptych figcaption,.steps figcaption {flex:none}
+.joint h2 {font-size:26pt;margin:4mm 0 6mm}
+.joint main {display:flex;flex-direction:column}
+.joint .first {margin-bottom:1mm}
+.joint figure {flex:1;min-height:13mm;display:flex;flex-direction:column;align-items:flex-start;margin:2mm 0}
+.joint figure svg {min-height:0;flex:1;width:65%}
+.joint figcaption {font-size:8pt}
+.joint .sources {margin:1mm 0 0}
+.sequence main {display:flex;flex-direction:column}
+.steps {flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1.35fr 1fr 1fr;gap:3mm 5mm;margin-top:4mm}
+.steps figure:first-child {grid-column:span 2}
+.count4 figure:last-child {grid-column:span 2}
+.essay h2 {margin-top:15mm}
+.essay p {max-width:120mm}
+.study .grid {display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin:4mm 0}
+.study figure svg {height:25mm;background:var(--wash)}
+.study h2,.refs h2 {font-size:24pt}
+.source-list {columns:2;column-gap:6mm}
+.source-list p {break-inside:avoid;font:8.5pt/1.4 Inter,"Noto Sans CJK JP",sans-serif;margin-bottom:3mm}
+.index .contents {grid-auto-flow:column;grid-template-rows:repeat(13,auto)}
+.index .contents p {margin:0}
+.endplate figure svg {height:135mm}
+.colophon main {padding-top:34mm}
+.imprint {margin-top:12mm}
+.backtext {font:22pt/1.35 var(--display);margin:22mm 0 8mm}
+.backart {height:65mm}
+.qr {width:34mm;height:34mm;background:white;margin:6mm 0 2mm}

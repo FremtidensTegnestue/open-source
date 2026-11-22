@@ -1,0 +1,12 @@
+/* Adapted from pdfcn theme-elegant, https://www.pdfcn.dev/r/theme-elegant.json */
+:root {
+  --accent: #b45309;
+  --background: #ffffff;
+  --border: #d6d3d1;
+  --foreground: #1c1917;
+  --muted: #fafaf9;
+  --primary: #78350f;
+  --primaryForeground: #fffbeb;
+  --body: "Lora", "Noto Serif CJK JP", serif;
+  --display: "Playfair Display", "Noto Serif CJK JP", serif;
+}

@@ -28,7 +28,7 @@
     {"command": "sketch.finish", "params": {}},
     {"command": "solid.extrude", "params": {"distance": 50, "operation": "new", "body_name": "S1_6_sprosse_1"}},
     {"command": "sketch.create", "params": {"plane": "XZ", "name": "S2_1_bundkarm_1-profil"}},
-    {"command": "sketch.line", "params": {"points": [[1275.0, -295.0], [1405.0, -330.0], [1405.0, -355.0], [1495.0, -355.0], [1495.0, -220.0], [1275.0, -220.0]], "closed": true, "infer": false}},
+    {"command": "sketch.line", "params": {"points": [[1275.0, -295.0], [1370.0, -325.0], [1370.0, -355.0], [1495.0, -355.0], [1495.0, -280.0], [1660.0, -280.0], [1660.0, -220.0], [1275.0, -220.0]], "closed": true, "infer": false}},
     {"command": "sketch.finish", "params": {}},
     {"command": "solid.extrude", "params": {"distance": 50, "operation": "new", "body_name": "S2_1_bundkarm_1"}},
     {"command": "sketch.create", "params": {"plane": "XZ", "name": "S2_2_saalbaenk_1-profil"}},

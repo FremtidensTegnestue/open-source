@@ -4,7 +4,7 @@
 
 Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Sammen bygger vi de værktøjer, vi selv gerne vil have ved tegnebordet. Her deler vi vores materialedata, beregninger og en håndbog om transformation og genbrug. Du kan åbne en byggesag, se hvad beboerne oplevede, eller tage tallene med ind i din egen model.
 
-**[Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md)** · **[Prøv den illustrerede fagordbog](transformation-og-genbrug/fagordbog/README.md)** · **[Gå på opdagelse i materialerne](materialer/README.md)** · **[Mød tegnestuen](https://fremtidenstegnestue.dk/om)**
+**[Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md)** · **[Prøv den illustrerede fagordbog](transformation-og-genbrug/fagordbog/README.md)** · **[Læs bøgerne om træsamlinger](transformation-og-genbrug/traesamlinger/README.md)** · **[Gå på opdagelse i materialerne](materialer/README.md)** · **[Mød tegnestuen](https://fremtidenstegnestue.dk/om)**
 
 ![Illustration af et gammelt trævindue på arbejdsbordet med et afmonteret hjørnebeslag og en tegning af vinduesprofilet](.github/billeder/vindue-under-reparation.webp)
 
@@ -35,3 +35,7 @@ Bruger du en AI-agent, kan du åbne projektmappen og give den en opgave på almi
 Har du et vindue, du gerne vil redde, en model med mangelfulde materialetal eller erfaringer fra en ombygning, som andre kunne lære af? Vi vil gerne høre, hvilken beslutning I står over for på jeres tegnestue, og se på, hvordan vi kan hjælpe.
 
 **[Tal med Thais og Mikkel om din sag](https://fremtidenstegnestue.dk/kontakt-os)** · [Del en kilde, en erfaring eller en rettelse](CONTRIBUTING.md)
+
+## Bogserien
+
+Hent fagordbogen og de to illustrerede bøger om træsamlinger som [læseudgaver og trykfiler](bogserie/README.md).

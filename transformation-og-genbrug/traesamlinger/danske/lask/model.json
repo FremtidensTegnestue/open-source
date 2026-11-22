@@ -1,0 +1,184 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Anlaeg-profil",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      -9.0
+     ],
+     [
+      0.0,
+      9.0
+     ],
+     [
+      -42.0,
+      9.0
+     ],
+     [
+      -42.0,
+      -9.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 15,
+    "body_name": "Anlaeg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Modstykke-profil",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      42.0,
+      -9.0
+     ],
+     [
+      42.0,
+      9.0
+     ],
+     [
+      0.0,
+      9.0
+     ],
+     [
+      0.0,
+      -9.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 15,
+    "body_name": "Modstykke"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Indsat-profil",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      15
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.0,
+      -9.0
+     ],
+     [
+      16.0,
+      9.0
+     ],
+     [
+      -16.0,
+      9.0
+     ],
+     [
+      -16.0,
+      -9.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 5,
+    "body_name": "Indsat"
+   }
+  }
+ ]
+}

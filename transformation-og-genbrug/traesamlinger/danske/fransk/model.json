@@ -1,0 +1,752 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Noegle-profil",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      7
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -2.0,
+      -10.0
+     ],
+     [
+      1.5,
+      -10.0
+     ],
+     [
+      -1.5,
+      10.0
+     ],
+     [
+      -2.0,
+      10.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 4,
+    "body_name": "Noegle"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Noegle2-profil",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      7
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      2.0,
+      10.0
+     ],
+     [
+      2.0,
+      -10.0
+     ],
+     [
+      1.5,
+      -10.0
+     ],
+     [
+      -1.5,
+      10.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 4,
+    "body_name": "Noegle2"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Anlaeg-profil",
+    "plane": {
+     "origin": [
+      0,
+      10,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -45.0,
+      0.0
+     ],
+     [
+      -45.0,
+      18.0
+     ],
+     [
+      -22.0,
+      18.0
+     ],
+     [
+      -22.0,
+      0.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 20,
+    "body_name": "Anlaeg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Anlaeg1-profil",
+    "plane": {
+     "origin": [
+      -22,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.0,
+      0.0
+     ],
+     [
+      -10.0,
+      0.0
+     ],
+     [
+      -10.0,
+      15.0
+     ],
+     [
+      -3.0,
+      15.0
+     ],
+     [
+      -3.0,
+      12.0
+     ],
+     [
+      3.0,
+      12.0
+     ],
+     [
+      3.0,
+      15.0
+     ],
+     [
+      10.0,
+      15.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 2,
+    "body_name": "Anlaeg1"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "operation": "join",
+    "target": "Anlaeg",
+    "tools": [
+     "Anlaeg1"
+    ]
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Anlaeg2-profil",
+    "plane": {
+     "origin": [
+      0,
+      10,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -20.0,
+      0.0
+     ],
+     [
+      -20.0,
+      7.0
+     ],
+     [
+      -2.0,
+      7.0
+     ],
+     [
+      2.0,
+      7.0
+     ],
+     [
+      2.0,
+      11.0
+     ],
+     [
+      20.0,
+      11.0
+     ],
+     [
+      20.0,
+      0.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 20,
+    "body_name": "Anlaeg2"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "operation": "join",
+    "target": "Anlaeg",
+    "tools": [
+     "Anlaeg2"
+    ]
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Anlaeg3-profil",
+    "plane": {
+     "origin": [
+      20,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.0,
+      3.0
+     ],
+     [
+      10.0,
+      0.0
+     ],
+     [
+      -10.0,
+      0.0
+     ],
+     [
+      -10.0,
+      3.0
+     ],
+     [
+      -3.0,
+      3.0
+     ],
+     [
+      -3.0,
+      6.0
+     ],
+     [
+      3.0,
+      6.0
+     ],
+     [
+      3.0,
+      3.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 2,
+    "body_name": "Anlaeg3"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "operation": "join",
+    "target": "Anlaeg",
+    "tools": [
+     "Anlaeg3"
+    ]
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Indsat-profil",
+    "plane": {
+     "origin": [
+      -22,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.0,
+      15.0
+     ],
+     [
+      10.0,
+      18.0
+     ],
+     [
+      -10.0,
+      18.0
+     ],
+     [
+      -10.0,
+      15.0
+     ],
+     [
+      -3.0,
+      15.0
+     ],
+     [
+      -3.0,
+      12.0
+     ],
+     [
+      3.0,
+      12.0
+     ],
+     [
+      3.0,
+      15.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 2,
+    "body_name": "Indsat"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Indsat1-profil",
+    "plane": {
+     "origin": [
+      0,
+      10,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      2.0,
+      11.0
+     ],
+     [
+      -2.0,
+      11.0
+     ],
+     [
+      -2.0,
+      7.0
+     ],
+     [
+      -20.0,
+      7.0
+     ],
+     [
+      -20.0,
+      18.0
+     ],
+     [
+      20.0,
+      18.0
+     ],
+     [
+      20.0,
+      11.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 20,
+    "body_name": "Indsat1"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "operation": "join",
+    "target": "Indsat",
+    "tools": [
+     "Indsat1"
+    ]
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Indsat2-profil",
+    "plane": {
+     "origin": [
+      20,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -10.0,
+      18.0
+     ],
+     [
+      10.0,
+      18.0
+     ],
+     [
+      10.0,
+      3.0
+     ],
+     [
+      3.0,
+      3.0
+     ],
+     [
+      3.0,
+      6.0
+     ],
+     [
+      -3.0,
+      6.0
+     ],
+     [
+      -3.0,
+      3.0
+     ],
+     [
+      -10.0,
+      3.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 2,
+    "body_name": "Indsat2"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "operation": "join",
+    "target": "Indsat",
+    "tools": [
+     "Indsat2"
+    ]
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Indsat3-profil",
+    "plane": {
+     "origin": [
+      0,
+      10,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.0,
+      0.0
+     ],
+     [
+      22.0,
+      18.0
+     ],
+     [
+      45.0,
+      18.0
+     ],
+     [
+      45.0,
+      0.0
+     ]
+    ],
+    "closed": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "operation": "new",
+    "distance": 20,
+    "body_name": "Indsat3"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "operation": "join",
+    "target": "Indsat",
+    "tools": [
+     "Indsat3"
+    ]
+   }
+  }
+ ]
+}

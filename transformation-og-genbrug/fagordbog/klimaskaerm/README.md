@@ -12,11 +12,11 @@ Principsnit og opstalter uden mål. Numrene følger delene på tegningen.
 
 ### Isolering
 
-**[Punkt 1 på tegningen](snit-1.svg).** Materialet bremser varmestrømmen gennem væggen. Det fylder her feltet mellem den udvendige vindspærre og den indvendige membran. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 92](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=92)
+**[Punkt 1 på tegningen](snit-1.svg).** Materialet bremser varmestrømmen gennem væggen. Det fylder her feltet mellem den udvendige vindspærre og den indvendige membran. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 89](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=89)
 
 ### Vindspærre
 
-**[Punkt 2 på tegningen](snit-1.svg).** Laget på isoleringens yderside hindrer, at vind blæser ind i isoleringen. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 92](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=92)
+**[Punkt 2 på tegningen](snit-1.svg).** Laget på isoleringens yderside hindrer, at vind blæser ind i isoleringen. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 89](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=89)
 
 ### Dampspærre
 
@@ -24,7 +24,7 @@ Principsnit og opstalter uden mål. Numrene følger delene på tegningen.
 
 ### Ventilationsspalte
 
-**[Punkt 4 på tegningen](snit-1.svg).** Det åbne mellemrum bag beklædningen giver plads til luftbevægelse. Åbninger og sammenhæng i spalten afgør, om den kan ventilere. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 92](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=92)
+**[Punkt 4 på tegningen](snit-1.svg).** Det åbne mellemrum bag beklædningen giver plads til luftbevægelse. Åbninger og sammenhæng i spalten afgør, om den kan ventilere. [Videncenter for Energibesparelser · Klimaskærm · PDF-s. 89](https://byggeriogenergi.dk/sites/default/files/download/2024-01/Katalog_klimask%C3%A6rm.pdf#page=89)
 
 ## Alternativ membran og et tag mod mur
 

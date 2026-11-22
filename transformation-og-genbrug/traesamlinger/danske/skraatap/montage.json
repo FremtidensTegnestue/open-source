@@ -1,0 +1,16 @@
+{
+  "commands": [
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [19.2, 0.0, 25.6]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [-9.6, 0.0, -12.8]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [-4.8, 0.0, -6.4]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [-2.4, 0.0, -3.2]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [-1.7999999999999998, 0.0, -2.4000000000000004]}},
+    {"command": "inspect.interference", "params": {}},
+    {"command": "solid.move", "params": {"bodies": ["Indsat"], "translate": [-0.6, 0.0, -0.8]}},
+    {"command": "inspect.interference", "params": {}}
+  ]
+}
