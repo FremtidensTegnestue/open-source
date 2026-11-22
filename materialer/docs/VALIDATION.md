@@ -1,5 +1,24 @@
 # Kontrol af modelbaserede materialeberegninger
 
+## Kontrollér den udgave, nye brugere får
+
+Startvejledningens Parquet-forløb har sin egen hurtige CI-kontrol på Python 3.11 i Linux, macOS og Windows. Den installerer kun `pyarrow==26.0.1`, kontrollerer de 15 Parquet-filers kontrolsummer og rækkeantal og afprøver de dokumenterede opslag. Den bygger ingen database og kræver ingen CAD-programmer. De øvrige CI-job kontrollerer fortsat Python-databasen og Rust-motoren særskilt.
+
+```sh
+python -m unittest discover -s tests -p test_opslag_parquet.py -v
+```
+
+Før en offentlig omtale skal vi kontrollere følgende på den præcise Git-udgave, vi linker til:
+
+1. Standardgrenen eller det valgte udgivelseslink indeholder både den nye guide og de filer, dens kommandoer bruger. En grøn arbejdsgren gør ikke automatisk standardgrenens download klar.
+2. En ny kopi og et nyt Python-miljø kan følge guiden uden vores lokale database, filer, nøgler eller modelprogrammer. Gem kommandoer, version og faktisk resultat.
+3. Begynderkontrollen og de relevante beregningskontroller er grønne for denne commit. En foreslået CI-ændring er først afprøvet på et andet operativsystem, når dets kørsel faktisk er bestået.
+4. Et menneske, som ikke har skrevet guiden, kan finde et materiale, forklare dets enhed og kilde og se, om tallet er et opslag eller et beregnet bidrag. Registrér, hvor vedkommende går i stå; automatiske tests erstatter ikke denne prøve.
+
+Offentlig beskrivelse skal svare til det afprøvede omfang: materialeopslag og konkrete beregningsforløb. Et færdigt designprogram for alle brugere, en fuld bygnings-LCA eller et installeret SolidCraft-panel kræver anden dokumentation.
+
+## Gemte modelkontroller
+
 Milepælen er gennemført med 10 faktisk gemte modelcases fra Solidcraft og BIMcraft. Tabellens beregninger bruger programudtrukket volumen og eksplicit valgte referencedata; de er kontrolleret mod analytiske volumener og den originale BR18-Excel-fil. Modellerne er homogene mængdeprøver, ikke færdigprojekterede konstruktioner.
 
 | Case | Program | Volumen m³ | Vægt kg | Klimabidrag A1-A3, kg CO2-eq | Modelafrunding, ±kg |

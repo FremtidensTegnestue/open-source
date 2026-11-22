@@ -1,179 +1,143 @@
-# Kom godt i gang
+# Kom hurtigt i gang med materialedata
 
-**Start med den aktuelle Rust-CLI.** Du kan installere programmet, bruge data og afprøve de to modelprogrammer fra den nye guide. Nedenfor findes også det oprindelige Python-forløb fra v0.1. [Åbn Rust-guiden](RUST.md)
+Begynd med et færdigt eksempel. Gå videre til materialeopslag, når du vil undersøge dine egne muligheder. Du behøver først en database eller et modelprogram, når opgaven kræver det.
 
-Her kan du undersøge materialers vægt, udvalgte klimabidrag og træets fugtbevægelse med sporbare kilder. Du kan begynde med at læse et færdigt eksempel. Når du vil videre, kan en AI-agent hjælpe med filerne, eller du kan selv bruge kommandoerne.
+Projektets egen kode og tekst er udgivet under [MIT](../../LICENSE). **Kildedata og tredjepartsdokumentation beholder deres egne vilkår**; se [kilder og rettigheder](../THIRD_PARTY.md).
 
-Et beregnet klimabidrag gælder den valgte mængde, kilde og livscyklusfase. Det er ikke i sig selv en komplet bygnings-LCA eller dokumentation for, at et projekt opfylder BR18.
+## Vælg dit næste trin
 
-## Vælg en vej ind
+| Trin | Hvad du får | Tid, groft skøn | Data og plads | Kræver |
+| --- | --- | --- | --- | --- |
+| [1. Læs eksemplet](#1-læs-eksemplet) | Forstå model → mængde → kilde → resultat | 10 min | Ingen lokal installation | Browser |
+| [2. Slå materialer op](#2-slå-materialer-op-uden-database) | Se værdier, enheder og kilder direkte fra Parquet | 10 min efter download | Ca. 91 MB Parquet, plus projekt og Python-miljø | Python 3.11+ og pyarrow |
+| [3. Brug beregningsværktøjet](#3-brug-beregningsværktøjet-efter-behov) | Aktuelle dataudgaver, beregninger og kontrol | Afhænger af installation og maskine | Ca. 9 GB til grundbasen, plus byggeplads og tillæg | Rust 1.95+ og Cargo, eller den dokumenterede Linux-udgivelse |
+| [4. Brug en model](#4-brug-en-model-valgfrit) | Hent mængder fra SolidCraft eller BIMCraft | Efter behov | Afhænger af model og program | Modelprogrammernes CLI’er installeres separat |
 
-| Du vil … | Start her | Du behøver |
-| --- | --- | --- |
-| Se, hvad der allerede virker | [1. Læs et eksempel](#1-læs-et-eksempel-uden-installation) | En browser |
-| Have hjælp til din opgave | [2. Arbejd med en AI-agent](#2-arbejd-med-en-ai-agent) | Projektmappen og en agent med adgang til lokale filer og en terminal |
-| Køre værktøjet selv | [3. Prøv kommandoerne](#3-prøv-kommandoerne-selv) | Python 3.11 eller nyere; modeludtræk kræver også det relevante modelprogram |
+Pladstallene beskriver dataene, ikke hele installationen. En Git-kopi henter også dokumenter og eksempler; Python-pakker, Rust-kompilering og midlertidige databaseindeks kræver ekstra plads. Vi angiver derfor ikke 10 GB som et sikkert samlet minimum.
 
-Ukendte ord er forklaret i [ordlisten](ORDLISTE.md).
+## 1. Læs eksemplet
 
-## 1. Læs et eksempel uden installation
+Åbn [betonpladen med to stålskinner](../examples/integrated-workflow/README.md). Intet skal installeres.
 
-Åbn [det samlede model- og beregningseksempel](../examples/integrated-workflow/README.md). Du kan læse teksten og se modellen direkte på repositoryets hjemmeside.
+Når pladens tykkelse ændres fra 100 til 120 mm, stiger den samlede masse fra **cirka 336 til 401 kg** og det beregnede klimabidrag i **A1–A3 fra cirka 55,3 til 62,2 kg CO₂e**. Eksemplet viser, hvor mængder, materialevalg og kildeværdier kommer fra.
 
-Eksemplet følger en betonplade med en udsparing og to stålskinner. Pladens tykkelse ændres fra 100 til 120 mm. Med de valgte generiske materialereferencer stiger den samlede masse fra cirka 336 til 401 kg. Klimabidraget i A1–A3 stiger fra cirka 55,3 til 62,2 kg CO₂e. Det er et kontrolleret referencescenarie med tre dele.
+Tallene gælder de tre dele og deres valgte generiske referencer. A1–A3 beskriver her produktionen; resultatet er en klimadelsum. En komplet bygnings-LCA kræver flere dele, faser og forudsætninger.
 
-Geometrien oprettes i Solidcraft og overføres til BIMcraft. Begge programmer leverer mængder til beregningerne. Returgeometrien kontrolleres særskilt; CAD-modellens parametre og historik følger ikke med gennem GLB-formatet.
+## 2. Slå materialer op uden database
 
-Se især:
+Parquet er et kompakt tabelformat. Du kan læse de medfølgende filer direkte med Python. **Dette er den letteste vej til egne materialeopslag.**
 
-- [Resultat og før/efter](../examples/integrated-workflow/README.md#modellen-og-resultatet): den læsbare forklaring.
-- [Materialekortet](../examples/integrated-workflow/material-manifest.json): de valgte referencer.
-- [Grundmodellens beregning](../examples/integrated-workflow/base/solid-assessment.json): tal, enheder og kildehenvisninger i JSON.
-- [Fugt-eksemplet](../examples/reports/solidcraft-moisture-assessment.json): et 232 mm bredt træemne, hvis beregnede bevægelse er cirka 1,71 mm ved ændring fra 8 til 11 % træfugt under de angivne arts- og retningsforudsætninger.
+Hent projektet fra [GitHub](https://github.com/FremtidensTegnestue/open-source) via **Code → Download ZIP**, eller brug Git:
 
-JSON er tekst med faste feltnavne. I en beregningsrapport kan du begynde med `status`, `warnings` og hvert elements `calculations`. Kildehenvisninger står under beregningernes input. `partial` betyder, at noget er uafklaret; manglende værdier er ikke nul.
+```sh
+git clone https://github.com/FremtidensTegnestue/open-source.git
+cd open-source/materialer
+```
 
-## 2. Arbejd med en AI-agent
-
-En AI-agent er et program, som både kan forstå din beskrivelse og bruge værktøjer. I denne arbejdsgang læser den lokale filer og kører de samme kommandoer, som du selv kan køre. En almindelig chat kan forklare indsat tekst, men har ikke automatisk adgang til din mappe eller dine modelprogrammer.
-
-### Hent mappen og brug den medfølgende skill
-
-Hent eller klon projektet som beskrevet på [materialesidens forside](../README.md). Åbn undermappen `materialer` i dit agentprogram. Her ligger blandt andet `materials.py` og agentvejledningen i `.agents/`.
-
-Der følger en lokal skill med: [material-model-assessment](../.agents/skills/material-model-assessment/SKILL.md). En skill er en vejledning til agenten. Filen ligger allerede i `.agents/skills/material-model-assessment/SKILL.md`; den er ikke dermed installeret i alle dine agentprogrammer. Automatisk opdagelse afhænger af programmet. Du kan bruge den manuelt ved at give agenten denne besked:
-
-> Arbejd i denne projektmappe. Læs README.md, docs/KOM-GODT-I-GANG.md og .agents/skills/material-model-assessment/SKILL.md, og følg skillens arbejdsgang. Undersøg først, hvilke værktøjer der er tilgængelige. Brug projektets lokale Python-miljø og den fulde database i data/materials.sqlite; gendan databasen med scripts/build_database.py fra projektets Parquet-filer, hvis den mangler. Begynd med det gemte eksempel og forklar resultatet på almindeligt dansk. Vis kilder, forudsætninger og mangler.
-
-På den måde aktiverer du vejledningen i det aktuelle projekt uden at skulle ændre en global agentopsætning. Python skal være tilgængelig for at køre materialeværktøjet; læsning af de gemte eksempler kræver ingen installation. Nye modeludtræk kræver også `solidcraft-cli` eller `bimcraft-cli` på maskinen. Programmerne er [SolidCraft](https://solidcraft.io/download/) og [BIMCraft fra IPedrax](https://github.com/IPedrax/BIMCraft/releases/tag/v0.12.0). Eksemplerne er afprøvet med SolidCraft CLI 0.44.0 og BIMCraft CLI 0.12.0.
-
-### Spørgsmål, du kan kopiere
-
-**Forstå et resultat:**
-
-> Forklar examples/integrated-workflow/README.md og den tilhørende beregningsrapport. Hvilke tre dele er med? Hvor kommer densitet og klimatal fra? Hvad er beregnet, og hvad mangler for at beskrive en rigtig bygnings samlede klimaaftryk?
-
-**Vægt fra din model:**
-
-> Undersøg min model [indsæt filsti]. Brug Solidcraft eller BIMcraft til mængdeudtræk. Find mulige datakilder til densitet og vis mig kilden og dens forudsætninger, før du bruger den. Beregn derefter massen for de dele, der har et dokumenteret grundlag. Vis uafklarede dele særskilt og gem rapporten i output/.
-
-**Sammenlign klimabidrag:**
-
-> Sammenlign to tykkelser af [bygningsdel/materiale] i min model [indsæt filsti]. Afgræns sammenligningen til A1–A3 med samme indikator og kildegrundlag. Gør eventuelle generiske materialevalg til tydelige referencescenarier. Vis mængder, kildeværdier og forskellen mellem varianterne.
-
-**Træets fugtbevægelse:**
-
-> Undersøg fugtbevægelsen for et [træart]-emne med bredden [mm], fra [start] til [slut] procent træfugt. Afklar radial eller tangential retning og emnets orientering. Brug en dokumenteret koefficient inden for dens gyldighedsinterval, og fortæl hvilke oplysninger der mangler.
-
-Erstat teksten i kantede parenteser med din egen opgave. Træfugt i disse spørgsmål er vandindhold i træet, ikke luftens relative fugtighed.
-
-### Sådan bliver et tal til
-
-Arbejdsgangen er: **model → mængdeudtræk → kildevalg → binding → beregning → gennemgang**.
-
-1. Agenten læser modellens elementer, mængder og advarsler.
-2. Den søger efter mulige materialer. Et enslydende navn er kun et forslag.
-3. Du og agenten afklarer materiale, kilde, enheder og betingelser. Et ubekræftet produktvalg kan i stedet beskrives som et referencescenarie.
-4. Agenten gemmer valget i en bindingsfil, som peger på bestemte kildeobservationer og den konkrete modelversion.
-5. Værktøjet beregner de understøttede bidrag. Agenten forklarer resultat, kilder og mangler.
-
-**Vægt** kræver volumen og densitet. **Klima** kræver en valgt GWP-observation, et modul og et deklareret mængdegrundlag. **Fugtbevægelse** kræver træart, materialeretning, emnemål og start-/slutfugt. En model med en materialefarve eller navnet “træ” indeholder ikke alle disse oplysninger.
-
-## 3. Prøv kommandoerne selv
-
-### Åbn en ny lokal kopi
-
-Hent ZIP-filen eller klon repositoryet fra dets `Code`-menu, og åbn en terminal i undermappen `materialer`. Bevar mappestrukturen, også den skjulte `.agents`-mappe. Alle materialedata følger med som Parquet-filer i `data/parquet/`. De gendannes til en SQLite-database i næste trin; regn med cirka 9 GB ledig diskplads.
-
-Brug Python 3.11 eller nyere. Et lokalt Python-miljø holder projektet adskilt fra andre Python-projekter.
+Åbn en terminal i mappen `materialer`. Opret og aktivér et lokalt Python-miljø.
 
 **macOS/Linux:**
 
 ```sh
-python3 --version
 python3 -m venv .venv
 . .venv/bin/activate
 ```
 
-**Windows PowerShell, her med Python 3.11:**
+**Windows PowerShell:**
 
 ```powershell
-py -3.11 --version
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-Har du en nyere Python-version på Windows, vælger du den i stedet for `-3.11`. Hvis PowerShell afviser aktivering, kan du bruge `.\.venv\Scripts\python.exe` i stedet for `python` i kommandoerne nedenfor.
+Vælg din installerede Python-version, hvis den er nyere end 3.11. Hvis PowerShell afviser aktivering, kan du skrive `.\.venv\Scripts\python.exe` i stedet for `python` nedenfor.
 
-### Gendan hele materialedatabasen
+Installér derefter den afprøvede pakke og kør det færdige [opslagsscript](../scripts/opslag_parquet.py):
 
 ```sh
-python -m pip install -r requirements.txt
-python scripts/build_database.py
-python materials.py verify --database-only
+python -m pip install pyarrow==26.0.1
+python scripts/opslag_parquet.py beton
+python scripts/opslag_parquet.py egetræ
 ```
 
-De medfølgende Parquet-filer fylder cirka 91 MB og rummer alle tabeller og omkring 1,99 millioner observationer. Scriptet gendanner dem som hele `data/materials.sqlite`, der fylder cirka 8,8 GB. Det kræver ingen ny indsamling og ingen netadgang til data. Installation af Python-pakker kan kræve internet første gang. Databasekontrollen ovenfor kontrollerer SQLite-integritet og relationer og kræver ingen originalfiler.
+### Se, om dit første opslag virker
 
-| Filtype | Hvad den bruges til |
+Ved `egetræ` skal du finde **`br18:t7:G0407:row260`**, med navnet »Træ, egetræ (12% fugt / 10,7% H2O)«. Dets densitetsobservation har `value: 716.8` og `unit: kg/m³`. Kilden er BR18's generiske tabel 7 fra 2025, celle `Sheet1!K260:L260`; URL og rettigheder vises nederst. Det er denne references tal, ikke en kontrol af dit eget træprodukt.
+
+Du ser også klimaværdier for flere livscyklusmoduler. De vises hver for sig og bliver ikke automatisk summeret. Et negativt produktionstal for træ er ikke en komplet klimaberegning.
+
+Du skal ikke skrive et script selv, bygge SQLite eller hente nye originalkilder. Opslaget læser kun `data/parquet/` og foretager ingen beregning eller enhedsomregning.
+
+Det viser højst fem navnetræf, et afgrænset uddrag på højst 12 observationer og kilderne til netop disse observationer. Et navnetræf er en kandidat, ikke et godkendt produktmatch. Vælg et konkret ID fra listen, når du vil undersøge én post nærmere:
+
+```sh
+python scripts/opslag_parquet.py --material-id br18:t7:G0407:row260
+python scripts/opslag_parquet.py beton --limit 10 --observations 20
+```
+
+### Læs en værdi sammen med dens grundlag
+
+| Felt | Hvad du skal se efter |
 | --- | --- |
-| **SQLite** | Den fulde arbejdsdatabase til projektets kommandoer, AI-agenter og modelberegninger. Den gendannes lokalt fra Parquet-filerne. |
-| **Parquet** | Den kompakte udgave af alle tabeller, som følger med projektet i `data/parquet/`. Den kan også bruges direkte i dataanalyseprogrammer. Materialeværktøjets CLI læser SQLite. |
-| **Originalfiler** | Kildernes Excel-, PDF- og andre filer til efterprøvelse. De hentes særskilt efter behov. Kildeadresser, enheder og betingelser bevares i databasen. |
+| `value`, `value_text`, `unit` | Tal, bevaret tekst/markør og enhed. `None` i `value` betyder, at der ikke står én numerisk værdi dér; læs også teksten og status. |
+| `declared_unit`, `basis` | Hvilken mængde eller reference tallet gælder for, fx 1 kg, 1 ton eller 1 m² af en bestemt konstruktion. |
+| `module` | Livscyklusfasen. Forskellige moduler må ikke behandles som samme beregningsomfang. |
+| `method`, `conditions_json`, `data_status` | Metode, betingelser og om værdien er rapporteret eller afledt. |
+| `source_id`, `source_locator` | Kildens identitet og den konkrete celle eller placering. Scriptet viser også URL, registreret kontrolsum og rettigheder fra `sources.parquet`. |
 
-Som alternativ til lokal gendannelse kan `python scripts/download_data.py` hente en færdig SQLite-database fra udgivelsen, cirka 187 MB komprimeret. Du skal kun vælge én af de to veje.
+Et negativt A1–A3 for træ er ikke dokumentation for et samlet negativt klimaaftryk. Manglende oplysninger bliver ikke til nul. Den viste kontrolsum er registreret kildeinformation; dette lille opslag henter eller efterprøver ikke originalfilen.
 
-`requirements.txt` installerer blandt andet værktøjerne til Parquet og udpakning. Selve materiale-CLI'et bruger Pythons standardbibliotek. De enkelte datakilders rettigheder fremgår af deres metadata; en åben softwarelicens giver ikke automatisk samme licens til alle data.
+### Grunddata og nyere tillæg
 
-### Prøv en enhed og find en kilde
+Parquet-grundlaget indeholder cirka **1,99 millioner observationer**, heraf cirka **1,96 millioner fra ÖKOBAUDAT**. De præcise antal og kontrolsummer står i [Parquet-manifestet](../data/parquet/manifest.json).
 
-Kør først en enhedskonvertering. Den kræver ingen database eller modelprogrammer:
+Direkte Parquet-opslag læser **ikke de nyere tillæg**, fx ekstra mekanik-, levetids- og driftsdata. Den aktuelle Rust-udgave kombinerer grundlaget med de offentlige tillæg; se [dataudgaven og optællingerne](../data/releases/mechanics-2026-11-20.json). Danske produktdeklarationer fra EPD Danmark distribueres ikke som åbne produktdata i Git; de kan indsamles lokalt efter den særskilte vejledning.
 
-```sh
-python materials.py normalize --value 1 --unit 'lb/ft^3' --dimension density
-```
+### Hvis du går i stå
 
-Svaret indeholder cirka `16.01846` i `kg/m3`. Prøv derefter materialeopslag i den fulde database:
+| Det, du ser | Næste handling |
+| --- | --- |
+| `Mangler pyarrow` | Kør installationen med samme `python`, som du bruger til opslaget. På Windows kan du bruge `.\.venv\Scripts\python.exe` til begge kommandoer. |
+| `can't open file` eller »filen findes ikke« | Kontrollér, at terminalen står i `materialer`, og at `scripts/opslag_parquet.py` findes i din download. |
+| `Ingen træf` | Prøv et kortere navn eller det konkrete ID ovenfor. Mange kildenavne er på engelsk eller tysk; søgningen oversætter dem ikke. |
 
-```sh
-python materials.py stats
-python materials.py search beton --limit 5
-python materials.py show br18:t7:B1433:row25
-python materials.py observations --material br18:t7:B1433:row25 --limit 10
-```
+Virker det stadig ikke, så [opret et issue](https://github.com/FremtidensTegnestue/open-source/issues) med kommandoen, fejlteksten, dit operativsystem og resultatet af `python --version`. Undlad kundedata, adgangsnøgler og private modeller. Du kan fortsat læse eksemplet fra trin 1 i browseren.
 
-`show` viser den valgte materialepost. `observations` viser egenskaberne og deres grundlag. Værdier fra andre produkter, enheder eller fugtforhold må ikke automatisk erstatte hinanden. De konkrete ID'er kommer fra søgeresultaterne; ID'et ovenfor er betonreferencen i det samlede eksempel.
+## 3. Brug beregningsværktøjet efter behov
 
-### Beregn et klimabidrag uden en model
-
-Dette eksempel bruger en kendt mængde på 500 kg og én udvalgt ÖKOBAUDAT-observation. Der kræves ingen CAD- eller BIM-installation:
+Vælg den aktuelle [Rust-guide](RUST.md), når du vil bruge de samlede data, beregne et bidrag eller kontrollere et modelgrundlag. Fra mappen `materialer`, med Rust 1.95+ og Cargo installeret:
 
 ```sh
-python materials.py calculate examples/requests/environmental-1000kg.json --out output/klimabidrag-500kg.json
+cargo install --locked --path .
+ft-materials build
+ft-materials status
+ft-materials search egetræ --limit 5
 ```
 
-Åbn `output/klimabidrag-500kg.json`. Kildens grundlag er 1.000 kg; inputmængden er 500 kg. Det giver 429,5 kg CO₂e for netop den valgte indikator i modul A1. Filnavnets “1000kg” beskriver kildens grundlag. Resultatet omfatter kun dette modul.
+Dette trin bygger og aktiverer en lokal dataudgave. Grundbasen fylder omkring 9 GB; beregn ekstra plads til kompilering, indeks og tillæg. Rust-guiden beskriver også de færdige Linux-programmer og dataudgavernes identitet. Brug en motor bygget fra samme checkout som dataene til de nyeste tillæg; et program fra en ældre udgivelse dækker ikke automatisk den aktuelle dataudgave.
 
-### Hent originalkilder efter behov
+Den [detaljerede Python-vej fra v0.1](PYTHON-V01.md) er bevaret til det historiske forløb. Den gendanner Parquet-grundbasen og giver ikke automatisk samme tillæg og metoder som den aktuelle Rust-motor.
 
-Databasen bevarer kildeadresser og filfingeraftryk. Vil du også læse originalerne til de medfølgende beregningseksempler lokalt, kører du:
+## 4. Brug en model, valgfrit
 
-```sh
-python scripts/fetch_sources.py --demo
-```
+SolidCraft og BIMCraft installeres separat. Du kan begynde med [det gennemførte modelforløb](../examples/unified-workflow/README.md). Det er et eksempel med konkrete bindinger og begrænsninger.
 
-`--demo` betyder her kun, at du henter originalfilerne til eksemplerne; SQLite-databasen indeholder stadig alle observationer. Det er også disse originalfiler, det samlede eksempels uafhængige kontrol læser. Vil du efterprøve alle originalfiler, henter du dem med `--all` og kører derefter `python materials.py verify`. Se [databaseguiden](DATABASE.md) for omfang og kildekontrol.
+Betonpladeeksemplet er afprøvet med SolidCraft CLI 0.44.0 og BIMCraft CLI 0.12.0. Kontrollér den CLI, terminalen faktisk vælger; en opdateret app kan eksistere ved siden af en ældre terminalinstallation. FieldCraft er et separat program til de dokumenterede statiske delundersøgelser, fx [hyldeeksemplet](../examples/hyldekonsol/README.md). Der følger ikke adaptere til Revit, ArchiCAD eller Rhino med denne integration.
 
-### Beregn den gemte Solidcraft-model
+## Brug en AI-agent
 
-Dette trin kræver en installeret `solidcraft-cli`. Kommandoen bruger den medfølgende binding til netop grundmodellens materialer og modelversion:
+Åbn mappen `materialer` i en agent med adgang til lokale filer og terminal. Du kan begynde med:
 
-```sh
-python materials.py assess examples/integrated-workflow/base/model.sc --software solidcraft --bindings examples/integrated-workflow/base/solid-bindings.json --out output/min-foerste-beregning.json
-```
+> Læs README.md og docs/KOM-GODT-I-GANG.md. Brug kun Parquet-filerne i data/parquet; byg eller aktivér ingen database. Slå [materiale] op med scripts/opslag_parquet.py. Vis tal og value_text sammen med enhed, declared_unit, basis, modul, metode, betingelser, status og kilde. Følg source_id til URL, rettigheder og registreret kontrolsum. Fortæl, hvad der mangler, før værdien kan bruges til [formål]. Gæt ikke, og behandl ikke navnetræf som et godkendt materialevalg.
 
-Åbn `output/min-foerste-beregning.json` bagefter. Værktøjet opretter outputmappen. Resultatet indeholder beregninger for de enkelte dele og de anvendte kilder. En ændret model kræver en gennemgået, ny binding; genbrug af den gamle afvises.
+Den [medfølgende materialeskill](../.agents/skills/material-model-assessment/SKILL.md) kan bruges, når du går videre til et egentligt beregnings- eller modelforløb. En agents adgang til filer og programmer afhænger af dens opsætning; en almindelig chat har ikke automatisk lokal adgang.
 
-Materialeværktøjets svar er JSON. `--out` gemmer en rapport som JSON. Afslutningskode 0 betyder gennemført, 1 betyder fejl, og 2 betyder et delvist eller uafklaret resultat. Læs altid rapportens status og advarsler sammen med tallene.
+Den [maskinlæsbare vejvisning](../kom-i-gang.json) beskriver de samme veje og afgrænsninger. Den installerer ikke noget.
 
-Fortsæt i [beregningsguiden](CALCULATIONS.md), når du vil lave dine egne bindinger, bruge BIMcraft eller beregne ud fra en kendt mængde uden en model. [Kontrolrapporten](VALIDATION.md) viser, hvad der er afprøvet, og hvilke begrænsninger der er kendt.
+## Før du sammenligner
+
+- Kontrollér samme funktion, referenceenhed, indikator, modul, metode og relevante betingelser. Poster fra forskellige kilder er ikke harmoniseret alene ved at ligge i samme datasæt.
+- Et materialetal er ikke automatisk et produktmatch eller et dimensioneringsgrundlag.
+- Kontrollér den enkelte kildes vilkår før videredistribution: [licensarkivet](../data/licenses/) og [THIRD_PARTY.md](../THIRD_PARTY.md).
+
+[Ordliste](ORDLISTE.md) · [Datamodel](DATABASE.md) · [Beregningsmetoder](CALCULATIONS.md) · [Aktuel Rust-guide](RUST.md)

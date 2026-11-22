@@ -4,7 +4,7 @@
 
 Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Sammen bygger vi de værktøjer, vi selv gerne vil have ved tegnebordet. Her deler vi vores materialedata, beregninger og en håndbog om transformation og genbrug. Du kan åbne en byggesag, se hvad beboerne oplevede, eller tage tallene med ind i din egen model.
 
-**[Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md)** · **[Prøv den illustrerede fagordbog](transformation-og-genbrug/fagordbog/README.md)** · **[Læs bøgerne om træsamlinger](transformation-og-genbrug/traesamlinger/README.md)** · **[Gå på opdagelse i materialerne](materialer/README.md)** · **[Mød tegnestuen](https://fremtidenstegnestue.dk/om)**
+**[Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md)** · **[Prøv den illustrerede fagordbog](transformation-og-genbrug/fagordbog/README.md)** · **[Læs bøgerne om træsamlinger](transformation-og-genbrug/traesamlinger/README.md)** · **[Kom hurtigt i gang med materialedata](materialer/docs/KOM-GODT-I-GANG.md)** · **[Mød tegnestuen](https://fremtidenstegnestue.dk/om)**
 
 ![Illustration af et gammelt trævindue på arbejdsbordet med et afmonteret hjørnebeslag og en tegning af vinduesprofilet](.github/billeder/vindue-under-reparation.webp)
 
@@ -26,7 +26,7 @@ I materialebanken kan du også undersøge, hvor meget træ bevæger sig, når fu
 
 En krydsfinerplade og to stålskinner er nok til at afprøve hele forløbet. I **SolidCraft** tegner vi delene. I **BIMCraft** finder vi dem igen i bygningsmodellen. Vores materialeværktøj i Rust beregner hyldens vægt til **2,277 kg** og klimaaftrykket fra produktionen til **1,238 kg CO₂e**. I **FieldCraft** undersøger vi, hvor meget en skinne bøjer, når hylden belastes. Du kan følge regnestykket direkte i browseren eller hente modellen og ændre lasten selv. [Se hylden og beregningerne](materialer/examples/hyldekonsol/README.md) · [Hent programmerne og se, hvordan de spiller sammen](materialer/docs/PROGRAMMER.md)
 
-Bruger du en AI-agent, kan du åbne projektmappen og give den en opgave på almindeligt dansk. [Kom i gang med materialeværktøjet](materialer/docs/RUST.md)
+Bruger du en AI-agent, kan du åbne projektmappen og give den en opgave på almindeligt dansk. [Kom i gang med materialeværktøjet](materialer/docs/KOM-GODT-I-GANG.md)
 
 > Gennemgå hyldeeksemplet med mig. Hvad sker der med stålskinnens nedbøjning, hvis jeg sænker lasten fra 100 til 80 newton? Vis kilden til stålets stivhed, og fortæl mig, hvad vi stadig skal vide om væggen og skruerne.
 
