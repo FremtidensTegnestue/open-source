@@ -14,7 +14,9 @@ Søgningen gav blandt andet Realeas udgivelse om Det Harboeske Enkefruekloster p
 
 I restaureringsberetningen er tolv særskilte forsatsrammer med diagonal skævhed over seks centimeter og 28 modelstørrelser to forskellige oplysninger. De beskriver arbejdet i husets forskellige åbninger. En diagonaltegning af en bestemt karm eller et opmålt profilsnit kan ikke udledes af disse oplysninger. [Realea · PDF-side 121](https://realdaniabyogbygklubben.dk/media/1398/det-harboeske-enkefruekloster.pdf#page=121)
 
-Siderne i Raadvads tre anvisninger, *Bedre vinduer* og Slots- og Kulturstyrelsens *Forsatsvinduer* blev slået op direkte i originalernes PDF-filer. Sagsoplysninger fra Stormgade står for sig i prosaen, mens de øvrige kilder underbygger faglige observationer, værkstedsprincipper og de nye tegnede eksempler. Sidetalslinkene til de seks originalværker står ved hvert opslag.
+Siderne i Raadvads tre anvisninger, *Bedre vinduer* og Slots- og Kulturstyrelsens *Forsatsvinduer* blev slået op direkte i originalernes PDF-filer. Sagsoplysninger fra Stormgade står for sig i prosaen, mens de øvrige kilder underbygger faglige observationer, værkstedsprincipper og de nye tegnede eksempler. Sidetalslinkene til originalværkerne står ved hvert opslag.
+
+Byggeskikksenterets figur 5 viser kitlejet mellem ruden og træfalsen. Figur 6 viser stiften, og den følgende side viser den færdige kitning. Sammen med Raadvads anvisning om maling begrunder de de to forskellige kanter i bogens profilsnit. Den udvendige kit bliver under træets indvendige synskant, og malingen fortsætter et lille stykke op på ruden. [Vindusrestaurering, s. 28–29](https://byggogbevar.no/media/1002/innmat___cover.pdf#page=28) · [Nænsom istandsættelse, s. 7](https://www.bygningsbevaring.dk/uploads/files/anvisninger/10-ANVISN_Naensom_istands_vinduer.pdf#page=7)
 
 ## Fra model til tavle
 

@@ -17,17 +17,17 @@ Fra tavle 3 bruges et frit tegnet udsnit med en gang og to rum. Alt foregår på
 
 Kirstine Brøgger Jensens projektforslag til Birkevænget viser, hvordan den samme bolig kan læses på flere måder gennem adgang, privathed og gennemlysning. Det er en selvstændig case og en metodisk inspirationskilde. De viste Ryesgade-forhold kommer fra COWI. Bogens A, B og C er Fremtidens Tegnestues egne. [GI, Renoveringsguide, PDF-s. 109–111](https://gi.dk/media/11tjymxh/renoveringsguide.pdf#page=109)
 
-Københavns Kommune forklarer, hvilke oplysninger der skal fremgå af før- og efterplaner ved byggeansøgning. Bogens principsnit kan bruges ved samtalen før en opmåling. [Københavns Kommune, Plantegning til byggeriet](https://www.kk.dk/borger/bolig-og-byggeri/byggetilladelse/byggetilladelse-trin-for-trin/trin-2-naar-du-laver-din-byggeansoegning/ansoegningsmateriale-og-dokumentation-til-byggeri/plantegning-til-byggeriet)
+Københavns Kommune forklarer, hvilke oplysninger der skal fremgå af før- og efterplaner ved byggeansøgning. Bogens prøveplaner kan bruges ved samtalen før en opmåling. [Københavns Kommune, Plantegning til byggeriet](https://www.kk.dk/borger/bolig-og-byggeri/byggetilladelse/byggetilladelse-trin-for-trin/trin-2-naar-du-laver-din-byggeansoegning/ansoegningsmateriale-og-dokumentation-til-byggeri/plantegning-til-byggeriet)
 
 Dialogværktøjets opslag om genbrugte indvendige døre skelner mellem håndtering af bladet og afmontering af karmen. Bogens optælling omfatter de dørblade, der overflyttes i de enkelte forslag. Karmenes stand, pasning og muligheder for flytning er uafklarede. [Dialogværktøj, Genbrugte indvendige døre, PDF-s. 74](https://www.ucviden.dk/ws/files/107139883/Dialogv_rkt_j_samlet_20190917.pdf#page=74)
 
 ## Efterprøvning af tegningerne
 
-De syv redigerbare modeller ligger i [modeller](modeller/). Alle er oprettet, eksporteret og inspiceret med SolidCraft CLI. Tavlerne er tegnet som projektioner af modellernes eksporterede flader. Ruter, farver, målestok og tekst er redaktionelle anmærkninger.
+De syv redigerbare modeller ligger i [modeller](modeller/). Alle er oprettet, eksporteret og inspiceret med SolidCraft CLI. Tavlerne er tegnet som projektioner af modellernes eksporterede flader. Ruter, dørslagsbuer, farver, målestok og tekst er redaktionelle anmærkninger. Buerne følger de 870 mm brede modelblade. Den rå åbning er 1.000 mm. Fri passage afhænger også af karm, anslag og åbningsvinkel.
 
 | Tavler | Modeller | Kontrol |
 | --- | --- | --- |
-| 1–2 | rumfoelge.sc | Tre lukkede rumlegemer. Rumfølgen, det midterste rums knæk, gadens to vinduer og prøvevinduet mod gården er sammenholdt med figur 4. |
+| 1–2 | rumfoelge.sc | Tre lukkede rumlegemer. Rumfølgen, det midterste rums knæk, gadens to vinduer og begge prøvevinduer mod gården er sammenholdt med figur 4. |
 | 3–9, 12–14 | basis.sc, A.sc, B.sc, C.sc | Grundplanens 19 legemer og varianternes henholdsvis 21, 20 og 19 legemer er lukkede. Åbningernes koordinater og de navngivne dørblades mål er sammenholdt mellem før og efter. |
 | 10 | doersaet.sc | Fire lukkede legemer. Skematisk adskilt blad og tre karmstykker. Ingen påstand om pasning eller oprindelige Ryesgade-profiler. |
 | 11 | gulvspor.sc | Tre lukkede legemer. Det nye mellemfelt ligger mellem gulvstykkerne. Dets valgte mål gælder bogens model. |

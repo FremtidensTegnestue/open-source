@@ -14,11 +14,13 @@ vidensbank-soeg --tekst --json 'Genbrugshuset Odense fyldningsdøre karme indven
 - I de indvendige døre er både fyldningsblad og karm genbrug. Husets beslag, låsekasser og greb på disse døre er nye. Ved eftersynet i 2021 var dørene generelt i pæn stand, og flere bandt. Årsagen til, at et bestemt blad bandt, blev ikke fastslået. [Fotos 40–41 og materialeoversigt, PDF-s. 22](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--odense.pdf#page=22) · [Undersøgernes vurdering, PDF-s. 29](https://www.wsp.com/-/media/campaign/denmark/documents/c-det-genanvendte-hus--odense.pdf#page=29)
 - Sammenfatningen beskriver istandsættelsen af dørpartierne. Trykt side 18 står på PDF-side 10. [De genanvendte huse 30 år efter](https://www.tre-ing.dk/wp-content/uploads/Sammenfatningsrapport-De-Genanvendte-huse-30-aar-efter.pdf#page=10)
 
-## De to prøver
+## Fra opmåling til åbningsprøve
 
 Prøven med de ens blade isolerer hængselplaceringen. Begge blade har i CAD bredden 825 mm, højden 2.040 mm og tykkelsen 40 mm. Øverste hængselmidte ligger 200 mm under bladets overkant på A og 240 mm under overkanten på B. Nederste hængselmidte ligger i begge tilfælde 1.740 mm fra toppen. Samme lodrette forskydning kan ikke bringe begge beslag på B til at passe til de faste positioner for A. Geometrien af hængslernes blade er forenklet til placeringen af beslagene.
 
 I prøven med gulvet står bladets underkant i snittets y-koordinat 47 mm. Gulvets overside ligger ved 52 mm før og 45 mm efter et nyt lag på 7 mm. Derved skifter den frie afstand fra +5 mm til et geometrisk overlap på 2 mm. Tallene og de to prøveblade er konstruerede eksempler. De angiver hverken et opmålingsresultat fra Odense eller en monteringsanvisning.
+
+På tavle 9 åbner det 825 mm brede blad fra gangen ind i værelset. Bladet er vist i to alternative stillinger om samme punkt. Ved 45° overlapper bladets planprojektion skabets med ca. 7.876 mm². Blad og skab overlapper også i højden. Ved 0° og 90° er skabet fri af bladet. Tavlen er en egen rumlig prøve.
 
 Modellerne blev oprettet i SolidCraft med lukkede profilsnit og ekstruderede legemer. Hver gemt .sc blev kontrolleret med `solidcraft-cli eval` og eksporteret. SVG-tavlerne er ortografiske projektioner af de eksporterede overflader. Antal legemer, lukning, profilareal og volumen er sammenholdt med prøvegeometrien. Samme rammetræ går igen på tavle 1, 2, 3, 5, 8 og 13. Modellerne har lang fyldning øverst og kort nederst, i overensstemmelse med foto 41. Hængselmarkører, bevægelsesbue og målpile er forklarende påskrifter. Der er ikke udført en fysisk prøve.
 
