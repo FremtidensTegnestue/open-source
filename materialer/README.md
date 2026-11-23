@@ -29,16 +29,17 @@ Du kan allerede:
 
 Bygger du CLI’et fra `main`, kan du også undersøge, hvilke dele der skal tages af eller erstattes ved en reparation. De to vindueseksempler viser, hvordan den samme Rust-beregner finder klimabidragene for de tilførte produkter. [Prøv reparation og adskillelse](docs/DISASSEMBLY.md).
 
-Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På din egen computer kan du bruge Rust-programmet til at gentage beregningerne. [Følg guiden til installation og første opslag](docs/RUST.md).
+Du kan læse eksemplerne uden AI eller programmering. Til egne første opslag er den letteste vej det færdige Python-script, som læser Parquet direkte uden database. Rust-programmet bruges, når du vil beregne eller bruge de nyere tillæg. [Vælg dit trin i startvejledningen](docs/KOM-GODT-I-GANG.md).
 
 ## Start dér, hvor du er
 
 | Du vil … | Start her |
 | --- | --- |
-| Gennemgå en lille hylde fra materialetal til statik | [Hyldens masse, produktionsklima og nedbøjning](examples/hyldekonsol/README.md) |
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
+| Slå et materiale op uden at bygge en database | [Færdigt Python-opslag i Parquet](docs/KOM-GODT-I-GANG.md#2-slå-materialer-op-uden-database) |
+| Gennemgå en lille hylde fra materialetal til statik | [Hyldens masse, produktionsklima og nedbøjning](examples/hyldekonsol/README.md) |
 | Have en AI-agent til at hjælpe | [Materialevalget i SolidCraft og BIMCraft](examples/unified-workflow/README.md) |
-| Søge og beregne selv | [Installation og dine første kommandoer](docs/RUST.md) |
+| Beregne eller bruge de nyere datatillæg | [Rust-installation og beregninger](docs/RUST.md) |
 | Udvikle programmet eller bidrage med en kilde | [Bidragsguide, kode og tests](CONTRIBUTING.md) |
 | Bruge datasættet i egne analyser | [Dataformater, indhold og versioner](data/README.md) |
 | Forstå ord som EPD, BIM, CLI og MCP | [Ordliste](docs/ORDLISTE.md) |

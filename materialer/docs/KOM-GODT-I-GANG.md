@@ -10,7 +10,7 @@ Projektets egen kode og tekst er udgivet under [MIT](../../LICENSE). **Kildedata
 | --- | --- | --- | --- | --- |
 | [1. Læs eksemplet](#1-læs-eksemplet) | Forstå model → mængde → kilde → resultat | 10 min | Ingen lokal installation | Browser |
 | [2. Slå materialer op](#2-slå-materialer-op-uden-database) | Se værdier, enheder og kilder direkte fra Parquet | 10 min efter download | Ca. 91 MB Parquet, plus projekt og Python-miljø | Python 3.11+ og pyarrow |
-| [3. Brug beregningsværktøjet](#3-brug-beregningsværktøjet-efter-behov) | Aktuelle dataudgaver, beregninger og kontrol | Afhænger af installation og maskine | Ca. 9 GB til grundbasen, plus byggeplads og tillæg | Rust 1.95+ og Cargo, eller den dokumenterede Linux-udgivelse |
+| [3. Brug beregningsværktøjet](#3-brug-beregningsværktøjet-efter-behov) | Aktuelle dataudgaver, beregninger og kontrol | Afhænger af installation og maskine | Ca. 9 GB til grundbasen, plus byggeplads og tillæg | Rust 1.95+ og Cargo |
 | [4. Brug en model](#4-brug-en-model-valgfrit) | Hent mængder fra SolidCraft eller BIMCraft | Efter behov | Afhænger af model og program | Modelprogrammernes CLI’er installeres separat |
 
 Pladstallene beskriver dataene, ikke hele installationen. En Git-kopi henter også dokumenter og eksempler; Python-pakker, Rust-kompilering og midlertidige databaseindeks kræver ekstra plads. Vi angiver derfor ikke 10 GB som et sikkert samlet minimum.
@@ -114,7 +114,7 @@ ft-materials status
 ft-materials search egetræ --limit 5
 ```
 
-Dette trin bygger og aktiverer en lokal dataudgave. Grundbasen fylder omkring 9 GB; beregn ekstra plads til kompilering, indeks og tillæg. Rust-guiden beskriver også de færdige Linux-programmer og dataudgavernes identitet. Brug en motor bygget fra samme checkout som dataene til de nyeste tillæg; et program fra en ældre udgivelse dækker ikke automatisk den aktuelle dataudgave.
+Dette trin bygger og aktiverer en lokal dataudgave. Grundbasen fylder omkring 9 GB; beregn ekstra plads til kompilering, indeks og tillæg. Rust-guiden skelner mellem [aktuel kode og de tidligere Linux-udgivelser](RUST.md#vælg-program-og-data-fra-samme-udgave). Brug en motor bygget fra samme checkout som dataene til de nyeste tillæg; et program fra en ældre udgivelse dækker ikke automatisk den aktuelle dataudgave.
 
 Den [detaljerede Python-vej fra v0.1](PYTHON-V01.md) er bevaret til det historiske forløb. Den gendanner Parquet-grundbasen og giver ikke automatisk samme tillæg og metoder som den aktuelle Rust-motor.
 
