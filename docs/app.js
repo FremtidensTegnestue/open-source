@@ -35,6 +35,7 @@ function search(update=true) {
   shown = 12;selected = null;$('detail').hidden = true;
   if (update) updateAddress();
   renderResults();
+  if (update) {$('results-title').focus({preventScroll:true});$('results').scrollIntoView({block:'start'});}
 }
 function renderResults() {
   $('results').hidden = false;
@@ -108,7 +109,7 @@ function showMaterial(record, focus=false, push=false) {
     const values = [row.module || (row.property === 'density' ? 'Densitet' : 'Massefaktor'),row.value_text || (row.value === null ? 'Ikke oplyst' : String(row.value)),row.unit || 'Ikke oplyst',row.declared_unit || 'Se kildens betingelser',row.source_locator];
     for (const value of values) tr.append(el('td',value));body.append(tr);
   }
-  table.append(body);const rawWrap = el('div',undefined,'raw-wrap');rawWrap.append(table);exact.append(rawWrap,el('p',`Materiale-ID: ${m.id}`,'metadata'));section.append(exact);
+  table.append(body);const rawWrap = el('div',undefined,'raw-wrap');rawWrap.tabIndex=0;rawWrap.setAttribute('role','region');rawWrap.setAttribute('aria-label','Kildens præcise tal; tabellen kan rulles vandret');rawWrap.append(table);exact.append(rawWrap,el('p',`Materiale-ID: ${m.id}`,'metadata'));section.append(exact);
   const actions = el('div',undefined,'detail-actions');actions.append(button('Gem materialedata',downloadMaterial),el('span','JSON-fil med præcise tal, betingelser og kilder.','muted'));section.append(actions);
   if (push) updateAddress(m.id,true);
   if (focus) {title.focus({preventScroll:true});section.scrollIntoView({block:'start'});}
@@ -158,5 +159,6 @@ $('search-form').addEventListener('submit',event => {event.preventDefault();if(d
 for (const b of document.querySelectorAll('button[data-query]')) b.addEventListener('click',() => {$('query').value=b.dataset.query;search();});
 $('more').addEventListener('click',() => {shown+=12;renderResults();});
 $('retry').addEventListener('click',load);
+$('new-search').addEventListener('click',() => {$('query').focus({preventScroll:true});$('materialer').scrollIntoView({block:'start'});});
 window.addEventListener('popstate',() => restoreAddress(true));
 load();
