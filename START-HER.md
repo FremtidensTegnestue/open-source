@@ -4,6 +4,10 @@ Her finder du Fremtidens Tegnestues åbne bøger, materialedata og beregningseks
 
 [Til forsiden](README.md) · [Se alle bøger](bogserie/README.md)
 
+## Brug materialerne med det samme
+
+**[Åbn materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/).** Søg fx på egetræ eller isolering, vælg et materiale og se tal, referenceenhed og kilde. Du behøver ikke installere Python eller kende GitHub. Første browserudgave viser de 507 referencer fra den danske tabel 7 fra 2025; den er ikke hele projektets datalager eller en komplet klimaberegner.
+
 ## Prøv noget med det samme
 
 - **Find navnet på en bygningsdel:** [Åbn det illustrerede vindue](transformation-og-genbrug/fagordbog/vindue/README.md). Se tegningen, vælg et ord, og følg henvisningen til forklaringen og originalkilden.
