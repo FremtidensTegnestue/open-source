@@ -128,6 +128,10 @@ Betonpladeeksemplet er afprøvet med SolidCraft CLI 0.44.0 og BIMCraft CLI 0.12.
 
 ## Brug en AI-agent
 
+Vil du først have hjælp til at læse en tegning eller forstå et materialetal? [Tag din egen AI med på websiden](https://fremtidenstegnestue.github.io/open-source/#brug-ai). Du kan give den læsesidens link, kopieret tekst eller filen fra **Gem materialedata**; det afhænger af dens adgang til links og filer. Det kræver ingen lokal beregningsopsætning.
+
+Til større dataopslag og beregninger gælder forudsætningerne nedenfor.
+
 Åbn mappen `materialer` i en agent med adgang til lokale filer og terminal. Du kan begynde med:
 
 > Læs README.md og docs/KOM-GODT-I-GANG.md. Brug kun Parquet-filerne i data/parquet; byg eller aktivér ingen database. Slå [materiale] op med scripts/opslag_parquet.py. Vis tal og value_text sammen med enhed, declared_unit, basis, modul, metode, betingelser, status og kilde. Følg source_id til URL, rettigheder og registreret kontrolsum. Fortæl, hvad der mangler, før værdien kan bruges til [formål]. Gæt ikke, og behandl ikke navnetræf som et godkendt materialevalg.

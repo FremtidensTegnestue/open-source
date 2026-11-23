@@ -4,6 +4,8 @@
 
 Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der vil undersøge et byggeri. Begynd med en konkret opgave på websiden; du behøver ikke kende GitHub for at læse, søge eller hente materialerne.
 
+Brug materialet selv, eller tag din egen AI med til at forklare en tegning, forstå et materialetal og forberede spørgsmål. [Se en konkret opgave, du kan give din AI](https://fremtidenstegnestue.github.io/open-source/#brug-ai).
+
 [Ny på GitHub? Den korte vejledning](START-HER.md).
 
 **Hvad er værd at bevare, og hvad skal der til for at bygge videre på det?**
