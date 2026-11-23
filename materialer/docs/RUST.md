@@ -1,5 +1,15 @@
 # Brug materialedata fra Rust
 
+Vil du først finde et materialetal uden en stor installation, så brug [startvejledningens Parquet-opslag](KOM-GODT-I-GANG.md#2-slå-materialer-op-uden-database). Denne side gælder beregningsprogrammet og den fulde dataudgave.
+
+## Vælg program og data fra samme udgave
+
+Den aktuelle startvej bruger kode og data fra samme kopi af `main`. Byg Rust-programmet fra den kopi, når du vil bruge de nye tillæg og rettelser. Der er ingen færdig macOS- eller Windows-installationspakke i den mærkede v0.3.0-udgivelse; dens programfiler er til Linux x86-64 og aarch64.
+
+[v0.3.0](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.3.0) er en tidligere, fast udgave med sit eget kildearkiv og data. Dens Linux-programmer indeholder ikke alle senere ændringer på `main`, herunder den nyere referencekontrol i klimaberegningen. Brug den udgaves egen vejledning og data, hvis du undersøger den historiske version. Antag ikke, at et ældre installeret program kan læse eller fortolke den aktuelle dataudgave.
+
+## Installér den aktuelle kode
+
 Kør kommandoerne fra undermappen `materialer` i din kopi af projektet. Du kan også angive dens placering med `ft-materials --root /sti/til/open-source/materialer status`. På en maskine med Rust 1.95 eller nyere og Cargo kan du installere CLI'et én gang. For at bruge mekanikdata fra denne checkout skal du bygge dens Rust-program.
 
 ```sh
@@ -100,4 +110,4 @@ Se filnavne og kommandoer til begge modelprogrammer i [det gennemførte forløb]
 
 Cargo bygger med højst tre samtidige jobs, uden inkrementelle mellemprodukter og uden debugsymboler i projektets standardprofiler. Brug én `CARGO_TARGET_DIR` pr. vedligeholdt checkout, hvis du selv udvikler på CLI'et. Efter installationen kan `cargo clean` i denne checkout fjerne de genopbyggelige filer fra den valgte target-mappe. Efter en afbrudt dataimport rydder næste bygning også genkendelige, ufuldstændige arbejdsmapper under datalagerets byggelås. Kildearkivet under `data/raw` og de fastlåste databaser under `data/editions` har deres egen levetid og indgår ikke i Cargo-cachen.
 
-[Aktuelle dataudgaver og inputkontrolsummer](../data/releases/mechanics-2026-11-20.json) · [Færdige programmer til Linux](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.3.0) · [Historiske udgaver i v0.2](../data/releases/unified-v0.2.0.json)
+[Aktuelle dataudgaver og inputkontrolsummer](../data/releases/mechanics-2026-11-20.json) · [Historisk v0.3.0 med Linux-programmer](https://github.com/FremtidensTegnestue/open-source/releases/tag/v0.3.0) · [Historiske udgaver i v0.2](../data/releases/unified-v0.2.0.json)
