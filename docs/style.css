@@ -85,6 +85,10 @@ margin:1rem 0 0;
 color:var(--muted)}
 .intro .lead{
 max-width:900px}
+.intro .with-ai{
+margin:1rem 0 0}
+.ai-prompt{
+overflow-wrap:anywhere}
 .eyebrow{
 font-size:.9rem;
 font-weight:650;

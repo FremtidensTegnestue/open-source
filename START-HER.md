@@ -18,6 +18,12 @@ Websiden er indgangen for arkitekter, konstruktører, ingeniører, bygherrer, h�
 
 Brug browserens tilbageknap, når du vil tilbage. Links i teksten viser videre til næste emne eller til den kilde, forklaringen bygger på.
 
+## Tag din egen AI med
+
+Du kan bruge materialet direkte eller få din egen AI til at hjælpe med at læse, forklare og stille spørgsmål. [Åbn AI-vejledningen på websiden](https://fremtidenstegnestue.github.io/open-source/#brug-ai), og prøv opgaven om vinduet.
+
+Giv din AI et link til læsesiden, relevant kopieret tekst eller en hentet PDF/materialefil. Det afhænger af din AIs muligheder, hvad den kan læse; en chat har ikke automatisk adgang til lokale filer eller beregningsværktøjer. Bed den vise kilder og sige, hvis grundlaget mangler. Kontrollér svaret mod materialet.
+
 ## Hvad er GitHub, og hvad ser du på skærmen?
 
 GitHub er det sted, hvor vi opbevarer og deler filerne. En samling som denne kaldes et **repository** — tænk på den som en fælles projektmappe.
