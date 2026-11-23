@@ -4,14 +4,17 @@
 
 Du kan læse forklaring og gemte resultater i browseren. Installation er først nødvendig, når du vil køre et opslag, en beregning eller en model selv.
 
-| Det vil du prøve | Eksempel | Kræver, hvis du selv vil køre det |
-| --- | --- | --- |
-| Se, hvordan en ændret tykkelse påvirker vægt og produktionsklima | [Betonpladen med to stålskinner](integrated-workflow/README.md) | Følg eksemplets særskilte model- og beregningstrin. |
-| Finde dit første materialetal | [Opslag uden database](../docs/KOM-GODT-I-GANG.md#2-slå-materialer-op-uden-database) | Python 3.11+ og PyArrow. |
-| Beregne en kendt mængde uden CAD | [Referenceberegningen med 500 kg](../README.md#din-første-beregning) | Aktuel Rust-CLI og dens dataudgave. |
-| Følge samme materialevalg gennem to modelprogrammer | [SolidCraft og BIMCraft](unified-workflow/README.md) | Rust og de angivne versioner af modelprogrammernes CLI'er. |
-| Undersøge en hyldes nedbøjning | [Hylde med FieldCraft-kontrol](hyldekonsol/README.md) | Rust, modelprogrammer og FieldCraft som beskrevet i eksemplet. |
-| Undersøge reparation og udtagning af dele | [De to vindueseksempler](../docs/DISASSEMBLY.md) | Rust bygget fra samme aktuelle kode som dataene. Resultaterne er delvise scenarier. |
+- **Se virkningen af en ændret tykkelse:** [Betonpladen med to stålskinner](integrated-workflow/README.md) viser vægt og produktionsklima. For selv at køre det følger du eksemplets særskilte model- og beregningstrin.
+
+- **Find dit første materialetal:** [Opslag uden database](../docs/KOM-GODT-I-GANG.md#2-slå-materialer-op-uden-database) kræver Python 3.11+ og PyArrow.
+
+- **Beregn en kendt mængde uden CAD:** [Referenceberegningen med 500 kg](../README.md#din-første-beregning) kræver aktuel Rust-CLI og dens dataudgave.
+
+- **Følg samme materialevalg gennem to modeller:** [SolidCraft og BIMCraft](unified-workflow/README.md) kræver Rust og de angivne versioner af modelprogrammernes CLI'er.
+
+- **Undersøg en hyldes nedbøjning:** [Hylde med FieldCraft-kontrol](hyldekonsol/README.md) kræver Rust, modelprogrammer og FieldCraft som beskrevet i eksemplet.
+
+- **Undersøg reparation og udtagning af dele:** [De to vindueseksempler](../docs/DISASSEMBLY.md) kræver Rust bygget fra samme aktuelle kode som dataene. Resultaterne er delvise scenarier.
 
 Forløbene har forskelligt omfang. En korrekt prøveberegning eller en geometrisk model er ikke en godkendelse af en konstruktion, et produktvalg eller en hel bygnings LCA.
 

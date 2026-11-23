@@ -6,12 +6,13 @@ Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Samme
 
 ## Vælg det, du vil gøre
 
-| Din opgave | Start her | Det skal du bruge |
-| --- | --- | --- |
-| Læse om bygninger, genbrug og konstruktionsdetaljer | [Håndbog, fagordbog og træsamlinger](transformation-og-genbrug/README.md) | En browser. Tekster og tegninger kan læses uden installation. |
-| Finde et materialetal eller prøve en beregning | [Den korte startvejledning](materialer/docs/KOM-GODT-I-GANG.md) | Eksemplet kan læses i browseren. Egne opslag kræver Python; beregninger har deres egen installationsvej. |
-| Hente bøger til skærm eller papir | [De otte bøger og deres PDF-filer](bogserie/README.md) | En PDF-læser. Modeller og byggeprogrammer er valgfrie. |
-| Bidrage med viden, fejlrettelser eller kode | [Brug projektet og byg videre](CONTRIBUTING.md) | Start med din erfaring eller fejlbeskrivelse. Udviklerguiden viser de relevante tests. |
+- **Læse om bygninger og detaljer:** [Åbn håndbog, fagordbog og træsamlinger](transformation-og-genbrug/README.md). Tekster og tegninger kan læses i browseren uden installation.
+
+- **Finde et materialetal eller prøve en beregning:** [Følg den korte startvejledning](materialer/docs/KOM-GODT-I-GANG.md). Læs først eksemplet i browseren. Egne opslag kræver Python; beregninger har deres egen installationsvej.
+
+- **Hente bøger til skærm eller papir:** [Find de otte bøger og deres PDF-filer](bogserie/README.md). Du skal bruge en PDF-læser. Modeller og byggeprogrammer er valgfrie.
+
+- **Bidrage med viden, fejlrettelser eller kode:** [Brug projektet og byg videre](CONTRIBUTING.md). Start med din erfaring eller fejlbeskrivelse. Udviklerguiden viser de relevante tests.
 
 Er du her første gang, så [læs betonpladeeksemplet](materialer/examples/integrated-workflow/README.md). Det viser en ændring fra modelmål til masse og produktionsklima uden installation. Gå videre til egne opslag, når du har set, hvad et resultat betyder.
 
@@ -49,13 +50,15 @@ Har du et vindue, du gerne vil redde, en model med mangelfulde materialetal elle
 
 ## Hvad er afprøvet?
 
-| Indhold | Det kan du bruge det til | Kontrol og grænse |
-| --- | --- | --- |
-| Håndbog, fagordbog og bøger | Læse faglige forklaringer, finde originalkilder og forberede spørgsmål til et projekt | Kilder og afgrænsninger følger de enkelte opslag. Indholdet er ikke et samlet udførelses- eller dimensioneringsgrundlag. |
-| Materialeopslag | Finde kildeangivne værdier, enheder og betingelser | Førsteopslaget er testet på Windows, macOS og Linux og fra en offentlig ZIP i et nyt miljø. [Kontrolforløbet](materialer/docs/VALIDATION.md) beskriver omfanget. |
-| Materialeberegninger | Beregne masse, ét klimamodul eller den beskrevne træfugtbevægelse | Metoder og konkrete eksempler er kontrolleret. Et produktionsbidrag er en del af et klimaregnskab. [Metoder og forudsætninger](materialer/docs/CALCULATIONS.md). |
-| CAD/BIM og FieldCraft | Gentage de dokumenterede model- og beregningsforsøg | Eksemplerne angiver deres programversioner, input og begrænsninger. Resultaterne godkender ikke automatisk en ny konstruktion. [Vælg et eksempel](materialer/examples/README.md). |
-| Træsamlingernes modeller | Se former, snit og de viste montagetrin | Geometriprøver følger modellerne. Træets pasning, fastgørelser og bæreevne skal afklares for den konkrete konstruktion. [Modelkontrol](transformation-og-genbrug/traesamlinger/README.md#modelkontrol). |
+- **Håndbog, fagordbog og bøger:** Brug dem til at læse faglige forklaringer, finde originalkilder og forberede spørgsmål til et projekt. Kilder og afgrænsninger følger de enkelte opslag. Indholdet er ikke et samlet udførelses- eller dimensioneringsgrundlag.
+
+- **Materialeopslag:** Find kildeangivne værdier, enheder og betingelser. Førsteopslaget er testet på Windows, macOS og Linux og fra en offentlig ZIP i et nyt miljø. [Kontrolforløbet](materialer/docs/VALIDATION.md) beskriver omfanget.
+
+- **Materialeberegninger:** Beregn masse, ét klimamodul eller den beskrevne træfugtbevægelse. Metoder og konkrete eksempler er kontrolleret. Et produktionsbidrag er en del af et klimaregnskab. [Metoder og forudsætninger](materialer/docs/CALCULATIONS.md).
+
+- **CAD/BIM og FieldCraft:** Gentag de dokumenterede model- og beregningsforsøg. Eksemplerne angiver deres programversioner, input og begrænsninger. Resultaterne godkender ikke automatisk en ny konstruktion. [Vælg et eksempel](materialer/examples/README.md).
+
+- **Træsamlingernes modeller:** Se former, snit og de viste montagetrin. Geometriprøver følger modellerne. Træets pasning, fastgørelser og bæreevne skal afklares for den konkrete konstruktion. [Modelkontrol](transformation-og-genbrug/traesamlinger/README.md#modelkontrol).
 
 Det er en åben vidensbase og konkrete værktøjer, som kan bruges hver for sig. Et samlet designprogram med et fast materiale- og klimapanel er fortsat under udvikling. Vi har endnu ikke gennemført en førstegangsprøve med en ny bruger, som følger hele startvejen uden hjælp.
 
