@@ -2,7 +2,9 @@
 
 Her finder du Fremtidens Tegnestues åbne bøger, materialedata og beregningseksempler. Du kan læse og hente dem **uden en GitHub-konto**. Du behøver ikke installere et program for at begynde.
 
-[Til forsiden](README.md) · [Se alle bøger](bogserie/README.md)
+[Åbn værktøjerne på websiden](https://fremtidenstegnestue.github.io/open-source/) · [Se alle bøger](https://fremtidenstegnestue.github.io/open-source/#boeger)
+
+Websiden er indgangen for arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre med en byggeopgave. Her kan du begynde med materialer, en vinduestegning, et regneeksempel eller en bog. Vejledningen nedenfor hjælper dig også, hvis du vil bruge filerne her på GitHub.
 
 ## Brug materialerne med det samme
 
@@ -10,9 +12,9 @@ Her finder du Fremtidens Tegnestues åbne bøger, materialedata og beregningseks
 
 ## Prøv noget med det samme
 
-- **Find navnet på en bygningsdel:** [Åbn det illustrerede vindue](transformation-og-genbrug/fagordbog/vindue/README.md). Se tegningen, vælg et ord, og følg henvisningen til forklaringen og originalkilden.
-- **Læs en bog:** [Åbn bogoversigten](bogserie/README.md), og vælg **Læs** ved en titel. PDF'en åbnes eller bliver hentet til din computer eller telefon. **Tryk** er den særlige fil til trykkeriet.
-- **Forstå et klimaregnestykke:** [Læs eksemplet med betonpladen](materialer/examples/integrated-workflow/README.md). Du kan se, hvad ændret tykkelse gør ved vægt og produktionsklima, uden at køre beregningen selv.
+- **Find navnet på en bygningsdel:** [Åbn det illustrerede vindue på websiden](https://fremtidenstegnestue.github.io/open-source/vinduet.html). Se tegningen, vælg en del, og følg henvisningen til forklaringen og originalkilden.
+- **Læs en bog:** [Åbn bøgerne på websiden](https://fremtidenstegnestue.github.io/open-source/#boeger), og vælg en titel. PDF'en åbnes eller bliver hentet til din computer eller telefon. Skal bogen til trykkeriet, findes særskilte **Tryk**-filer i [den fulde bogoversigt](bogserie/README.md).
+- **Forstå et klimaregnestykke:** [Læs eksemplet med betonpladen på websiden](https://fremtidenstegnestue.github.io/open-source/regneeksempel.html). Du kan se, hvad ændret tykkelse gør ved masse og produktionsklima, uden at køre beregningen selv.
 
 Brug browserens tilbageknap, når du vil tilbage. Links i teksten viser videre til næste emne eller til den kilde, forklaringen bygger på.
 
@@ -27,7 +29,7 @@ Når du åbner en tekstside, kan filnavnet slutte på **.md**. Det er en alminde
 ## Find det rigtige sted
 
 - **Bygninger, genbrug og detaljer:** [Håndbogen](transformation-og-genbrug/haandbog/README.md), [fagordbogen](transformation-og-genbrug/fagordbog/OVERSIGT.md) og [træsamlingerne](transformation-og-genbrug/traesamlinger/README.md).
-- **Materialetal og beregninger:** [Den korte materialeguide](materialer/docs/KOM-GODT-I-GANG.md). Den begynder med læsning og går videre til egne opslag, når du er klar. Egne opslag kræver Python på en computer; guiden viser forudsætninger og kommandoer.
+- **Materialetal og beregninger:** [Browseropslaget](https://fremtidenstegnestue.github.io/open-source/#materialer) virker uden installation. [Den korte materialeguide](materialer/docs/KOM-GODT-I-GANG.md) viser derudover opsætning og forudsætninger for det større lokale datagrundlag og beregningsværktøjerne.
 - **Alle bøger samlet:** [Bogoversigten](bogserie/README.md) indeholder læseudgaver og trykfiler.
 - **Kode og forbedringer:** [Bidragsguiden](CONTRIBUTING.md) viser, hvordan du deler en erfaring, melder en fejl eller udvikler videre.
 

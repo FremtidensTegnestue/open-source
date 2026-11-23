@@ -2,6 +2,8 @@
 
 **[Kom i gang i browseren — ingen installation eller konto](https://fremtidenstegnestue.github.io/open-source/).** Søg i 507 danske materialereferencer, se kilder og hent fagbøger.
 
+Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der vil undersøge et byggeri. Begynd med en konkret opgave på websiden; du behøver ikke kende GitHub for at læse, søge eller hente materialerne.
+
 [Ny på GitHub? Den korte vejledning](START-HER.md).
 
 **Hvad er værd at bevare, og hvad skal der til for at bygge videre på det?**
@@ -10,7 +12,7 @@ Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Samme
 
 ## Vælg det, du vil gøre
 
-- **Læse om bygninger og detaljer:** [Åbn håndbog, fagordbog og træsamlinger](transformation-og-genbrug/README.md). Tekster og tegninger kan læses i browseren uden installation.
+- **Forstå en bygningsdel:** [Åbn vinduestegningen med forklaringer](https://fremtidenstegnestue.github.io/open-source/vinduet.html). Vælg en del og følg kilden. Du kan også [finde en fagbog om din opgave](https://fremtidenstegnestue.github.io/open-source/#boeger).
 
 - **Finde et materialetal uden installation:** [Søg i materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer). Find en reference, se klimatal, enheder og kilder, og hent de præcise data. Første browserudgave viser 507 danske referencer fra 2025.
 
@@ -20,7 +22,7 @@ Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Samme
 
 - **Bidrage med viden, fejlrettelser eller kode:** [Brug projektet og byg videre](CONTRIBUTING.md). Start med din erfaring eller fejlbeskrivelse. Udviklerguiden viser de relevante tests.
 
-Er du her første gang, så [prøv at søge efter egetræ](https://fremtidenstegnestue.github.io/open-source/#q=egetr%C3%A6), åbn referencen og se, hvad tallene gælder for. Du kan også [følge betonpladeeksemplet](materialer/examples/integrated-workflow/README.md), som viser en ændring fra modelmål til masse og produktionsklima uden installation.
+Er du her første gang, så [prøv at søge efter egetræ](https://fremtidenstegnestue.github.io/open-source/#q=egetr%C3%A6), åbn referencen og se, hvad tallene gælder for. Du kan også [følge betonpladeeksemplet på websiden](https://fremtidenstegnestue.github.io/open-source/regneeksempel.html), som viser en ændring fra modelmål til masse og produktionsklima uden installation.
 
 Du kan læse og downloade indholdet uden GitHub-konto. En konto er nødvendig for at oprette issues, lave en fork eller sende ændringer tilbage. [Se, hvad der er afprøvet](#hvad-er-afprøvet) · [Mød tegnestuen](https://fremtidenstegnestue.dk/om).
 
