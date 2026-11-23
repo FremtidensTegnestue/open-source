@@ -27,7 +27,7 @@ Ingen testfil udføres af siden; `core.test.mjs` bruges kun ved udvikling. GitHu
 
 ## Læseveje uden GitHubs filvisning
 
-Forsiden tager udgangspunkt i opgaver for arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre med en byggesag. Den beder ikke brugeren vælge fagrolle eller oprette en konto. Materialeopslag, vinduesforklaring, et gemt regneeksempel og læse-PDF'er er de fire første indgange. Opsætning, kode og videreudvikling har en særskilt vej.
+Forsiden tager udgangspunkt i brugerens egen designopgave: ønsket forandring, aktuelle valg og deres konsekvenser for mennesker, arkitektoniske kvaliteter, ressourcer og klima. Den henvender sig til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre med en byggesag. Den beder ikke brugeren vælge fagrolle eller oprette en konto. Materialeopslag og læse-PDF'er er tilgængeligt fagligt grundlag; vinduesforklaring og det gemte regneeksempel er tydeligt valgfrie fordybelser. Ingen bestemt øvelse kræves før eget projekt. Opsætning, kode og videreudvikling har en særskilt vej.
 
 `build_browser_guides.py` genbruger de tre SVG-tegninger og de ti kildeforbundne forklaringer i fagordbogens eksisterende vinduesark. Kun indpakning og læselayout ændres; selve tegningerne og forklaringerne bevares. Regneeksemplet læser de to gemte, uafhængige referencer i `materialer/examples/integrated-workflow/` og kopierer forsøgets faktiske modelbillede. Byggeren kontrollerer den forklarede nettogeometri, masse og enheder mod referencefilerne og afviser en gemt fejlet kontrol eller uventet struktur. `--check` sammenholder alle tre afledte filer byte for byte; CI kører kontrollen.
 
@@ -35,4 +35,6 @@ At generere disse læsesider gentager ikke CAD/BIM-forsøget eller en faglig eft
 
 ## Brug direkte eller med egen AI
 
-Forsidens `#brug-ai` viser en kopierbar læseopgave med link til den almindelige vinduesside. Materialeopgaven bruger det eksisterende **Gem materialedata** for én valgt reference frem for at sende hele 4,23 MB-udtrækket til en chat. Link-/filadgang afhænger af brugerens AI; der er ikke tilføjet en chat, en ekstern AI-tjeneste eller en ny datatransmission på websiden. Den eksisterende lokale agentvej med filer, terminal og eventuelle beregningsværktøjer har særskilte forudsætninger.
+Forsidens `#brug-ai` viser en opgave, der kan tilpasses brugerens egen byggesag og designvalg. Den beder om kilder og skelnen mellem dokumenterede forhold, antagelser og spørgsmål til beregning eller faglig vurdering. Materialeopgaven bruger det eksisterende **Gem materialedata** for én valgt reference frem for at sende hele 4,23 MB-udtrækket til en chat. Link-/filadgang afhænger af brugerens AI; der er ikke tilføjet en chat, en ekstern AI-tjeneste eller en ny datatransmission på websiden. Den eksisterende lokale agentvej med filer, terminal og eventuelle beregningsværktøjer har særskilte forudsætninger.
+
+Introduktionen lover ikke en ny projektvælger eller automatisk beregning af samfundsvirkning. Det eksisterende opslag, læsestof og de afgrænsede beregninger beholder deres dokumenterede omfang.

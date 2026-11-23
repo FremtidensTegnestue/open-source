@@ -1,20 +1,24 @@
 # Fremtidens Tegnestue
 
-**[Kom i gang i browseren — ingen installation eller konto](https://fremtidenstegnestue.github.io/open-source/).** Søg i 507 danske materialereferencer, se kilder og hent fagbøger.
+**Forstå, hvad dine designvalg betyder.**
 
-Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der vil undersøge et byggeri. Begynd med en konkret opgave på websiden; du behøver ikke kende GitHub for at læse, søge eller hente materialerne.
+Åben viden og værktøjer til at undersøge, hvordan det, vi bevarer, forandrer og bygger, påvirker mennesker, ressourcer og klima. Tag udgangspunkt i din egen byggesag, undersøg mulighederne, og find grundlaget for at vælge.
 
-Brug materialet selv, eller tag din egen AI med til at forklare en tegning, forstå et materialetal og forberede spørgsmål. [Se en konkret opgave, du kan give din AI](https://fremtidenstegnestue.github.io/open-source/#brug-ai).
+**[Åbn viden og værktøjer i browseren](https://fremtidenstegnestue.github.io/open-source/)** — du kan begynde uden installation eller konto.
+
+Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der vil undersøge et byggeri. Begynd med det, du vil skabe eller forandre, de valg du står med, og de konsekvenser du har brug for at forstå. Det kan handle om brug og arkitektoniske kvaliteter, bevaring, materialer, klima, økonomi eller levetid.
+
+Brug materialet selv, eller tag din egen AI med til at udfordre mulighederne, finde kilder og opdage manglende grundlag. [Se, hvordan du kan tage udgangspunkt i din egen opgave](https://fremtidenstegnestue.github.io/open-source/#brug-ai).
 
 [Ny på GitHub? Den korte vejledning](START-HER.md).
 
-**Hvad er værd at bevare, og hvad skal der til for at bygge videre på det?**
+**Hvad vil du skabe, bevare eller forandre?**
 
 Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Sammen bygger vi de værktøjer, vi selv gerne vil have ved tegnebordet. Her deler vi vores materialedata, beregninger og en håndbog om transformation og genbrug. Du kan åbne en byggesag, se hvad beboerne oplevede, eller tage tallene med ind i din egen model.
 
-## Vælg det, du vil gøre
+## Find grundlag for dit valg
 
-- **Forstå en bygningsdel:** [Åbn vinduestegningen med forklaringer](https://fremtidenstegnestue.github.io/open-source/vinduet.html). Vælg en del og følg kilden. Du kan også [finde en fagbog om din opgave](https://fremtidenstegnestue.github.io/open-source/#boeger).
+- **Find faglig viden om din opgave:** [Læs om bygninger, genbrug og samlinger](https://fremtidenstegnestue.github.io/open-source/#boeger). Vælg den viden, der kan belyse dit designvalg. [Vinduestegningen](https://fremtidenstegnestue.github.io/open-source/vinduet.html) er et valgfrit eksempel, når en bygningsdels betegnelser er relevante.
 
 - **Finde et materialetal uden installation:** [Søg i materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer). Find en reference, se klimatal, enheder og kilder, og hent de præcise data. Første browserudgave viser 507 danske referencer fra 2025.
 
@@ -24,7 +28,7 @@ Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Samme
 
 - **Bidrage med viden, fejlrettelser eller kode:** [Brug projektet og byg videre](CONTRIBUTING.md). Start med din erfaring eller fejlbeskrivelse. Udviklerguiden viser de relevante tests.
 
-Er du her første gang, så [prøv at søge efter egetræ](https://fremtidenstegnestue.github.io/open-source/#q=egetr%C3%A6), åbn referencen og se, hvad tallene gælder for. Du kan også [følge betonpladeeksemplet på websiden](https://fremtidenstegnestue.github.io/open-source/regneeksempel.html), som viser en ændring fra modelmål til masse og produktionsklima uden installation.
+Vælg det materiale eller den viden, der er relevant for din egen opgave. Vil du først se metoden, kan du frivilligt [undersøge en egetræsreference](https://fremtidenstegnestue.github.io/open-source/#q=egetr%C3%A6) eller [følge betonpladeeksemplet](https://fremtidenstegnestue.github.io/open-source/regneeksempel.html). Eksemplerne viser deres eget afgrænsede grundlag; de er ikke nødvendige trin før dit eget projekt.
 
 Du kan læse og downloade indholdet uden GitHub-konto. En konto er nødvendig for at oprette issues, lave en fork eller sende ændringer tilbage. [Se, hvad der er afprøvet](#hvad-er-afprøvet) · [Mød tegnestuen](https://fremtidenstegnestue.dk/om).
 
