@@ -17,9 +17,9 @@ def page(title, intro, content):
     return f'''<!doctype html>
 <html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'self'; form-action 'self'">
-<title>{escape(title)} — Fremtidens Tegnestue</title><link rel="stylesheet" href="style.css"></head>
+<title>{escape(title)} — Fremtidens Tegnestue</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head>
 <body><a class="skip" href="#indhold">Gå til indhold</a>
-<header class="header wrap"><a class="brand" href="./"><span class="brand-name">Fremtidens Tegnestue</span><span class="brand-sub">Åbne værktøjer</span></a>
+<header class="header wrap"><a class="brand" href="./"><img src="favicon.svg" width="40" height="40" alt=""><span class="brand-name">Fremtidens Tegnestue</span><span class="brand-sub">Åbne værktøjer</span></a>
 <nav aria-label="Hovedmenu"><a href="./">Til forsiden</a><a href="./#materialer">Materialer</a><a href="./#boeger">Fagbøger</a></nav></header>
 <main id="indhold" class="guide wrap"><p class="eyebrow">Læs direkte i browseren</p><h1>{escape(title)}</h1><p class="lead">{intro}</p>
 {content}
