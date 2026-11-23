@@ -1,5 +1,7 @@
 # Kom hurtigt i gang med materialedata
 
+**[Begynd i browseren uden installation](https://fremtidenstegnestue.github.io/open-source/).** Her kan du søge blandt 507 danske tabel 7-referencer, åbne deres tal og kilder og gemme materialedata. Det er første browserudgave med kildedata fra 2025; det større Parquet-grundlag og beregningsværktøjet nedenfor har et andet omfang.
+
 Begynd med et færdigt eksempel. Gå videre til materialeopslag, når du vil undersøge dine egne muligheder. Du behøver først en database eller et modelprogram, når opgaven kræver det.
 
 Projektets egen kode og tekst er udgivet under [MIT](../../LICENSE). **Kildedata og tredjepartsdokumentation beholder deres egne vilkår**; se [kilder og rettigheder](../THIRD_PARTY.md).
@@ -25,7 +27,7 @@ Tallene gælder de tre dele og deres valgte generiske referencer. A1–A3 beskri
 
 ## 2. Slå materialer op uden database
 
-Parquet er et kompakt tabelformat. Du kan læse de medfølgende filer direkte med Python. **Dette er den letteste vej til egne materialeopslag.**
+Parquet er et kompakt tabelformat. Du kan læse de medfølgende filer direkte med Python. **Dette er den lette lokale vej til opslag i hele Parquet-grundlaget; browseropslaget ovenfor har et mindre, dansk referenceudsnit.**
 
 Hent projektet fra [GitHub](https://github.com/FremtidensTegnestue/open-source) via **Code → Download ZIP**, eller brug Git:
 

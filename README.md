@@ -1,6 +1,8 @@
 # Fremtidens Tegnestue
 
-**Første gang på GitHub? [Start her uden konto eller installation](START-HER.md).**
+**[Kom i gang i browseren — ingen installation eller konto](https://fremtidenstegnestue.github.io/open-source/).** Søg i 507 danske materialereferencer, se kilder og hent fagbøger.
+
+[Ny på GitHub? Den korte vejledning](START-HER.md).
 
 **Hvad er værd at bevare, og hvad skal der til for at bygge videre på det?**
 
