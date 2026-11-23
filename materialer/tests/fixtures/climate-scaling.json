@@ -1,0 +1,639 @@
+{
+  "scope": "TEST source observations; explicit independent arithmetic and rejection contracts for a single GWP module, not product approvals.",
+  "observation_defaults": {
+    "property": "gwp_total",
+    "value": 200,
+    "unit": "kg CO2-eq",
+    "module": "A1-A3",
+    "declared_unit": "1 ton",
+    "conditions": {}
+  },
+  "cases": [
+    {
+      "id": "metric-tonne",
+      "source": {},
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 100
+    },
+    {
+      "id": "original-1000kg-reference",
+      "source": {
+        "value": 859,
+        "unit": "kg CO_(2)-Äq.",
+        "module": "A1",
+        "declared_unit": "kg",
+        "conditions": {
+          "declared_amount": 1000,
+          "declared_references": [
+            {
+              "unit": "kg",
+              "amount": 1000,
+              "exchange_mean_amount": 1
+            }
+          ]
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 429.5
+    },
+    {
+      "id": "explicit-1000kg",
+      "source": {
+        "value": 859,
+        "declared_unit": "1000 kg"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 429.5
+    },
+    {
+      "id": "concrete-120mm-reference",
+      "source": {
+        "value": 241,
+        "declared_unit": "1 m³"
+      },
+      "quantity": {
+        "value": 172800000,
+        "unit": "mm³"
+      },
+      "value": 41.6448
+    },
+    {
+      "id": "steel-two-rails-reference",
+      "source": {
+        "value": 1639,
+        "declared_unit": "1 ton"
+      },
+      "quantity": {
+        "value": 12.56,
+        "unit": "kg"
+      },
+      "value": 20.58584
+    },
+    {
+      "id": "litres-to-m3",
+      "source": {
+        "value": 241,
+        "declared_unit": "1 m³"
+      },
+      "quantity": {
+        "value": 2,
+        "unit": "L"
+      },
+      "value": 0.482
+    },
+    {
+      "id": "area-cm2-to-m2",
+      "source": {
+        "value": 20,
+        "declared_unit": "10 m²"
+      },
+      "quantity": {
+        "value": 25000,
+        "unit": "cm²"
+      },
+      "value": 5
+    },
+    {
+      "id": "grams-of-co2",
+      "source": {
+        "value": 2400,
+        "unit": "g CO2-eq",
+        "declared_unit": "1 m²"
+      },
+      "quantity": {
+        "value": 3,
+        "unit": "m²"
+      },
+      "value": 7.2
+    },
+    {
+      "id": "tonnes-of-co2",
+      "source": {
+        "value": 2,
+        "unit": "t CO2-eq"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 1000
+    },
+    {
+      "id": "negative-biogenic-kept",
+      "source": {
+        "value": -200,
+        "property": "gwp_biogenic"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": -100
+    },
+    {
+      "id": "module-D-kept-separate",
+      "source": {
+        "value": -200,
+        "module": "D"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": -100
+    },
+    {
+      "id": "explicit-source-zero",
+      "source": {
+        "value": 0
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 0
+    },
+    {
+      "id": "explicit-quantity-zero",
+      "source": {},
+      "quantity": {
+        "value": 0,
+        "unit": "kg"
+      },
+      "value": 0
+    },
+    {
+      "id": "equivalent-context-units",
+      "source": {
+        "conditions": {
+          "declared_amount": 1000,
+          "declared_references": [
+            {
+              "unit": "kg",
+              "amount": 1000
+            }
+          ]
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 100
+    },
+    {
+      "id": "equivalent-BR18-context-units",
+      "source": {
+        "conditions": {
+          "reference_amount": 1000,
+          "reference_unit": "kg"
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 100
+    },
+    {
+      "id": "equivalent-multiple-source-references",
+      "source": {
+        "conditions": {
+          "declared_amount": 1000,
+          "declared_references": [
+            {
+              "unit": "kg",
+              "amount": 1000
+            },
+            {
+              "unit": "ton",
+              "amount": 1
+            }
+          ]
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 100
+    },
+    {
+      "id": "context-declared-unit-present",
+      "source": {
+        "conditions": {
+          "declared_amount": 1000,
+          "declared_unit": "kg"
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "value": 100
+    },
+    {
+      "id": "source-precision-preserved",
+      "source": {
+        "declared_unit": "0.999999999999999 kg",
+        "conditions": {
+          "reference_amount": 0.999999999999999,
+          "reference_unit": "kg"
+        }
+      },
+      "quantity": {
+        "value": 0.999999999999999,
+        "unit": "kg"
+      },
+      "value": 200
+    },
+    {
+      "id": "conflicting-declared-amount",
+      "source": {
+        "declared_unit": "1 kg",
+        "conditions": {
+          "declared_amount": 1000,
+          "declared_references": [
+            {
+              "unit": "kg",
+              "amount": 1000
+            }
+          ]
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "conflicting-BR18-reference",
+      "source": {
+        "declared_unit": "1 m³",
+        "conditions": {
+          "reference_amount": 2,
+          "reference_unit": "m³"
+        }
+      },
+      "quantity": {
+        "value": 1,
+        "unit": "m³"
+      },
+      "error": true
+    },
+    {
+      "id": "conflicting-reference-dimensions",
+      "source": {
+        "conditions": {
+          "reference_amount": 1,
+          "reference_unit": "m³"
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "conflicting-source-references",
+      "source": {
+        "conditions": {
+          "declared_references": [
+            {
+              "unit": "kg",
+              "amount": 1000
+            },
+            {
+              "unit": "kg",
+              "amount": 1
+            }
+          ]
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "context-amount-without-corroborating-ref",
+      "source": {
+        "conditions": {
+          "declared_amount": 1,
+          "declared_references": [
+            {
+              "unit": "kg",
+              "amount": 1000
+            }
+          ]
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "partial-BR18-reference",
+      "source": {
+        "conditions": {
+          "reference_amount": 1
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "declared-reference-underflows",
+      "source": {
+        "declared_unit": "5e-324 mg"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "zero-reference",
+      "source": {
+        "declared_unit": "0 kg"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "negative-reference",
+      "source": {
+        "declared_unit": "-1 kg"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "missing-source-value",
+      "source": {
+        "value": null
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "missing-module",
+      "source": {
+        "module": null
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "blank-module",
+      "source": {
+        "module": "   "
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "wrong-indicator",
+      "source": {
+        "property": "density"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "wrong-gwp-unit",
+      "source": {
+        "unit": "kg"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "negative-quantity",
+      "source": {},
+      "quantity": {
+        "value": -1,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "boolean-quantity",
+      "source": {},
+      "quantity": {
+        "value": true,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "text-quantity",
+      "source": {},
+      "quantity": {
+        "value": "500",
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "quantity-unit-mismatch",
+      "source": {},
+      "quantity": {
+        "value": 1,
+        "unit": "m³"
+      },
+      "error": true
+    },
+    {
+      "id": "R-conditioned-reference",
+      "source": {
+        "declared_unit": "1 m² with R=1 m²K/W"
+      },
+      "quantity": {
+        "value": 1,
+        "unit": "m²"
+      },
+      "error": true
+    },
+    {
+      "id": "year-conditioned-reference",
+      "source": {
+        "declared_unit": "1 m² year"
+      },
+      "quantity": {
+        "value": 1,
+        "unit": "m²"
+      },
+      "error": true
+    },
+    {
+      "id": "installation-factor-not-product",
+      "source": {
+        "declared_unit": "1 m²",
+        "conditions": {
+          "record_scope": "installation_area_reference_factor"
+        }
+      },
+      "quantity": {
+        "value": 1,
+        "unit": "m²"
+      },
+      "error": true
+    },
+    {
+      "id": "missing-amount-and-references",
+      "source": {
+        "declared_unit": "kg"
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "ambiguous-source-references",
+      "source": {
+        "declared_unit": "kg",
+        "conditions": {
+          "declared_amount": 1000,
+          "declared_references": [
+            {
+              "unit": "kg",
+              "amount": 1
+            }
+          ]
+        }
+      },
+      "quantity": {
+        "value": 500,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "numeric-overflow",
+      "source": {
+        "value": 1e+308,
+        "declared_unit": "1 kg"
+      },
+      "quantity": {
+        "value": 1e+308,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "nonzero-quantity-converts-to-zero",
+      "source": {
+        "value": 1e+308,
+        "declared_unit": "1 kg"
+      },
+      "quantity": {
+        "value": 1e-319,
+        "unit": "mg"
+      },
+      "error": true
+    },
+    {
+      "id": "negative-quantity-underflow",
+      "source": {},
+      "quantity": {
+        "value": -1e-319,
+        "unit": "mg"
+      },
+      "error": true
+    },
+    {
+      "id": "nonzero-ratio-underflow",
+      "source": {
+        "value": 1e+308,
+        "declared_unit": "1e300 kg"
+      },
+      "quantity": {
+        "value": 1e-300,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "co2-unit-conversion-underflow",
+      "source": {
+        "value": 5e-324,
+        "unit": "g CO2-eq",
+        "declared_unit": "1 kg"
+      },
+      "quantity": {
+        "value": 1e+308,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "nonzero-result-underflow",
+      "source": {
+        "value": 1e-300,
+        "declared_unit": "1 kg"
+      },
+      "quantity": {
+        "value": 1e-100,
+        "unit": "kg"
+      },
+      "error": true
+    },
+    {
+      "id": "context-unit-alias-with-whitespace",
+      "source": {
+        "declared_unit": "1 m³",
+        "conditions": {
+          "reference_amount": 1,
+          "reference_unit": " cbm "
+        }
+      },
+      "quantity": {
+        "value": 2,
+        "unit": "L"
+      },
+      "value": 0.4
+    }
+  ]
+}

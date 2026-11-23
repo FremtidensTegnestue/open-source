@@ -1,10 +1,36 @@
 # Fremtidens Tegnestue
 
-**Hvad er værd at bevare, og hvad skal der til for at bygge videre på det?**
+**Forstå, hvad dine designvalg betyder.**
+
+Åben viden og værktøjer til at undersøge, hvordan det, vi bevarer, forandrer og bygger, påvirker mennesker, ressourcer og klima. Tag udgangspunkt i din egen byggesag, undersøg mulighederne, og find grundlaget for at vælge.
+
+**[Åbn viden og værktøjer i browseren](https://fremtidenstegnestue.github.io/open-source/)** — du kan begynde uden installation eller konto.
+
+Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der vil undersøge et byggeri. Begynd med det, du vil skabe eller forandre, de valg du står med, og de konsekvenser du har brug for at forstå. Det kan handle om brug og arkitektoniske kvaliteter, bevaring, materialer, klima, økonomi eller levetid.
+
+Brug materialet selv, eller tag din egen AI med til at udfordre mulighederne, finde kilder og opdage manglende grundlag. [Se, hvordan du kan tage udgangspunkt i din egen opgave](https://fremtidenstegnestue.github.io/open-source/#brug-ai).
+
+[Ny på GitHub? Den korte vejledning](START-HER.md).
+
+**Hvad vil du skabe, bevare eller forandre?**
 
 Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Sammen bygger vi de værktøjer, vi selv gerne vil have ved tegnebordet. Her deler vi vores materialedata, beregninger og en håndbog om transformation og genbrug. Du kan åbne en byggesag, se hvad beboerne oplevede, eller tage tallene med ind i din egen model.
 
-**[Åbn håndbogen](transformation-og-genbrug/openwiki/quickstart.md)** · **[Prøv den illustrerede fagordbog](transformation-og-genbrug/fagordbog/README.md)** · **[Læs bøgerne om træsamlinger](transformation-og-genbrug/traesamlinger/README.md)** · **[Kom hurtigt i gang med materialedata](materialer/docs/KOM-GODT-I-GANG.md)** · **[Mød tegnestuen](https://fremtidenstegnestue.dk/om)**
+## Find grundlag for dit valg
+
+- **Find faglig viden om din opgave:** [Læs om bygninger, genbrug og samlinger](https://fremtidenstegnestue.github.io/open-source/#boeger). Vælg den viden, der kan belyse dit designvalg. [Vinduestegningen](https://fremtidenstegnestue.github.io/open-source/vinduet.html) er et valgfrit eksempel, når en bygningsdels betegnelser er relevante.
+
+- **Finde et materialetal uden installation:** [Søg i materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer). Find en reference, se klimatal, enheder og kilder, og hent de præcise data. Første browserudgave viser 507 danske referencer fra 2025.
+
+- **Bruge flere datakilder eller regne på egne mængder:** [Følg den korte startvejledning](materialer/docs/KOM-GODT-I-GANG.md). Opslag i det større datagrundlag og beregningsværktøjerne har deres egne installationsveje. Du kan først følge et færdigt regnestykke i browseren.
+
+- **Hente bøger til skærm eller papir:** [Find de otte bøger og deres PDF-filer](bogserie/README.md). Du skal bruge en PDF-læser. Modeller og byggeprogrammer er valgfrie.
+
+- **Bidrage med viden, fejlrettelser eller kode:** [Brug projektet og byg videre](CONTRIBUTING.md). Start med din erfaring eller fejlbeskrivelse. Udviklerguiden viser de relevante tests.
+
+Vælg det materiale eller den viden, der er relevant for din egen opgave. Vil du først se metoden, kan du frivilligt [undersøge en egetræsreference](https://fremtidenstegnestue.github.io/open-source/#q=egetr%C3%A6) eller [følge betonpladeeksemplet](https://fremtidenstegnestue.github.io/open-source/regneeksempel.html). Eksemplerne viser deres eget afgrænsede grundlag; de er ikke nødvendige trin før dit eget projekt.
+
+Du kan læse og downloade indholdet uden GitHub-konto. En konto er nødvendig for at oprette issues, lave en fork eller sende ændringer tilbage. [Se, hvad der er afprøvet](#hvad-er-afprøvet) · [Mød tegnestuen](https://fremtidenstegnestue.dk/om).
 
 ![Illustration af et gammelt trævindue på arbejdsbordet med et afmonteret hjørnebeslag og en tegning af vinduesprofilet](.github/billeder/vindue-under-reparation.webp)
 
@@ -34,8 +60,28 @@ Bruger du en AI-agent, kan du åbne projektmappen og give den en opgave på almi
 
 Har du et vindue, du gerne vil redde, en model med mangelfulde materialetal eller erfaringer fra en ombygning, som andre kunne lære af? Vi vil gerne høre, hvilken beslutning I står over for på jeres tegnestue, og se på, hvordan vi kan hjælpe.
 
-**[Tal med Thais og Mikkel om din sag](https://fremtidenstegnestue.dk/kontakt-os)** · [Del en kilde, en erfaring eller en rettelse](CONTRIBUTING.md)
+**[Tal med Thais og Mikkel om din sag](https://fremtidenstegnestue.dk/kontakt-os)** · [Bidrag med viden, rettelser eller kode](CONTRIBUTING.md)
+
+## Hvad er afprøvet?
+
+- **Håndbog, fagordbog og bøger:** Brug dem til at læse faglige forklaringer, finde originalkilder og forberede spørgsmål til et projekt. Kilder og afgrænsninger følger de enkelte opslag. Indholdet er ikke et samlet udførelses- eller dimensioneringsgrundlag.
+
+- **Materialeopslag i browseren:** Søg i de 507 referencer i BR18's generiske tabel 7 fra 2025 uden installation eller konto. Se kildens referencemængde, enheder, betingelser og klimafaser, og hent de præcise data. Tallene gælder kildens reference og vises fase for fase; de er et grundlag for videre undersøgelse af dit projekt. [Brug opslaget](https://fremtidenstegnestue.github.io/open-source/#materialer).
+
+- **Lokale materialeopslag:** Undersøg det større datagrundlag med værdier, enheder og betingelser fra flere kilder. Det første lokale opslag er testet på Windows, macOS og Linux og fra en offentlig ZIP i et nyt miljø. [Kontrolforløbet](materialer/docs/VALIDATION.md) beskriver omfanget; [startvejledningen](materialer/docs/KOM-GODT-I-GANG.md) viser opsætningen.
+
+- **Materialeberegninger:** Beregn masse, ét klimamodul eller den beskrevne træfugtbevægelse. Metoder og konkrete eksempler er kontrolleret. Et produktionsbidrag er en del af et klimaregnskab. [Metoder og forudsætninger](materialer/docs/CALCULATIONS.md).
+
+- **CAD/BIM og FieldCraft:** Gentag de dokumenterede model- og beregningsforsøg. Eksemplerne angiver deres programversioner, input og begrænsninger. Resultaterne godkender ikke automatisk en ny konstruktion. [Vælg et eksempel](materialer/examples/README.md).
+
+- **Træsamlingernes modeller:** Se former, snit og de viste montagetrin. Geometriprøver følger modellerne. Træets pasning, fastgørelser og bæreevne skal afklares for den konkrete konstruktion. [Modelkontrol](transformation-og-genbrug/traesamlinger/README.md#modelkontrol).
+
+Det er en åben vidensbase og konkrete værktøjer, som kan bruges hver for sig. Et samlet designprogram med et fast materiale- og klimapanel er fortsat under udvikling. Vi har endnu ikke gennemført en førstegangsprøve med en ny bruger, som følger hele startvejen uden hjælp.
+
+**Versioner:** Startvejledningen følger kode og data på `main`. De mærkede [programudgivelser](https://github.com/FremtidensTegnestue/open-source/releases) er faste, tidligere versioner; v0.3.0 indeholder ikke alle senere tillæg og rettelser. Hold program og data fra samme udgave sammen. [Versionsvalg og installation](materialer/docs/RUST.md#vælg-program-og-data-fra-samme-udgave).
+
+Egen kode og tekst er under [MIT](LICENSE). Kildedata og tredjepartsmateriale beholder deres egne vilkår; [kilder og rettigheder](materialer/THIRD_PARTY.md) viser forskellene. Finder du en fejl, så [beskriv opgaven og det, der skete](https://github.com/FremtidensTegnestue/open-source/issues), uden private modeller, kundedata eller nøgler.
 
 ## Bogserien
 
-Hent fagordbogen og de to illustrerede bøger om træsamlinger som [læseudgaver og trykfiler](bogserie/README.md).
+Find fem nye fagbøger om transformation og genbrug sammen med fagordbogen og de to bøger om træsamlinger. Hent alle otte som [læseudgaver og trykfiler](bogserie/README.md).

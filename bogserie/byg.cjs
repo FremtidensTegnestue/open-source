@@ -29,6 +29,8 @@ async function build() {
       const book = catalog[lang];
       const folder = path.resolve(root,book.folder);
       const page = await browser.newPage();
+      const failures = [];
+      page.on('pageerror', error => failures.push(error.message));
       await page.goto(pathToFileURL(path.join(folder, book.source)).href);
       await page.evaluate(() => document.querySelectorAll('style').forEach(el => el.remove()));
       for (const name of ['pdfcn.css','bog.css']) await page.addStyleTag({path:path.join(__dirname, name)});
@@ -37,7 +39,17 @@ async function build() {
       await page.addScriptTag({path:path.join(__dirname,'serie.js')});
       if (book.css) await page.addStyleTag({path:path.resolve(root,book.css)});
       await page.addScriptTag({path:path.resolve(root,book.layout)});
-      await page.evaluate(() => document.fonts.ready);
+      if (failures.length) throw Error(lang+': '+failures.join('; '));
+      await page.evaluate(async () => {
+        await document.fonts.ready;
+        await Promise.all([...document.images].map(image => image.decode()));
+        const sheets = document.querySelectorAll('body > section.sheet');
+        if (!sheets.length || sheets.length % 4) throw Error('Ufuldstændig bogsats');
+        for (const anchor of document.querySelectorAll('a[href^="#"]')) {
+          const id = decodeURIComponent(anchor.getAttribute('href').slice(1));
+          if (!document.getElementById(id)) throw Error('Ukendt bogside: '+id);
+        }
+      });
       const overflow = await page.evaluate(() => [...document.querySelectorAll('main')].flatMap((m,i) => {
         const rect = m.getBoundingClientRect();
         return [...m.querySelectorAll('*:not(svg):not(svg *)')].some(el => {

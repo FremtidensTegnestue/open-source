@@ -77,8 +77,23 @@ pub(super) fn mass(obs: &Value, q: &Value) -> Result<Value> {
     )
 }
 
+fn normalize_reference(amount: f64, unit: &str, dimension: &str) -> Result<Value> {
+    let unit = unit.trim();
+    let alias = match unit {
+        "qm" | "sqm" => "m2",
+        "cbm" => "m3",
+        other => other,
+    };
+    let normalized = normalize(positive(amount)?, alias, dimension)?;
+    positive(number(&normalized["value"])?)?;
+    Ok(normalized)
+}
+
 pub(super) fn basis(obs: &Value) -> Result<Value> {
     let declared = text(obs, "declared_unit")?.trim();
+    let empty_context = json!({});
+    let context = obs.get("conditions").unwrap_or(&empty_context);
+    ensure!(context.is_object(), "Reference context must be an object");
     let parts: Vec<_> = declared.split_whitespace().collect();
     let (amount, unit) = match parts.as_slice() {
         [amount, unit] => (positive(amount.parse()?)?, *unit),
@@ -97,13 +112,48 @@ pub(super) fn basis(obs: &Value) -> Result<Value> {
         }
         _ => bail!("Unsupported declared reference basis: {declared}"),
     };
-    let alias = match unit {
-        "qm" | "sqm" => "m2",
-        "cbm" => "m3",
-        other => other,
-    };
     for dim in ["mass", "volume", "area"] {
-        if let Ok(mut n) = normalize(amount, alias, dim) {
+        if let Ok(mut n) = normalize_reference(amount, unit, dim) {
+            let expected = number(&n["value"])?;
+            let confirm = |amount: f64, unit: &str| -> Result<()> {
+                let reference = normalize_reference(amount, unit, dim)?;
+                let actual = number(&reference["value"])?;
+                ensure!(
+                    (actual - expected).abs() <= actual.abs().max(expected.abs()) * 1e-12,
+                    "Source reference amounts or units conflict"
+                );
+                Ok(())
+            };
+            if !context["reference_amount"].is_null() || !context["reference_unit"].is_null() {
+                confirm(
+                    number(&context["reference_amount"])?,
+                    text(context, "reference_unit")?,
+                )?;
+            }
+            if let Some(refs) = context.get("declared_references") {
+                for reference in refs
+                    .as_array()
+                    .context("Declared references must be an array")?
+                {
+                    confirm(number(&reference["amount"])?, text(reference, "unit")?)?;
+                }
+            }
+            if !context["declared_amount"].is_null() {
+                let amount = positive(number(&context["declared_amount"])?)?;
+                if !context["declared_unit"].is_null() {
+                    confirm(amount, text(context, "declared_unit")?)?;
+                } else if let Some(refs) = context["declared_references"]
+                    .as_array()
+                    .filter(|r| !r.is_empty())
+                {
+                    ensure!(
+                        refs.iter().any(|r| r["amount"].as_f64() == Some(amount)),
+                        "Declared amount disagrees with source references"
+                    );
+                } else {
+                    confirm(amount, unit)?;
+                }
+            }
             n["source_unit"] = json!(unit);
             return Ok(n);
         }
@@ -136,21 +186,26 @@ pub(super) fn climate(obs: &Value, q: &Value) -> Result<Value> {
         other => bail!("Invalid GWP unit: {other}"),
     };
     let module = text(obs, "module")?;
+    ensure!(!module.trim().is_empty(), "Missing lifecycle module");
     ensure!(
         obs["conditions"]["record_scope"] != "installation_area_reference_factor",
         "Installation factor requires a distinct area/year method"
     );
     let declared = basis(obs)?;
-    let quantity = normalize(
-        number(&q["value"])?,
-        text(q, "unit")?,
-        text(&declared, "dimension")?,
-    )?;
+    let requested = number(&q["value"])?;
+    ensure!(requested >= 0.0, "Negative quantity");
+    let quantity = normalize(requested, text(q, "unit")?, text(&declared, "dimension")?)?;
     let amount = number(&quantity["value"])?;
     ensure!(amount >= 0.0, "Negative quantity");
     let ratio = amount / positive(number(&declared["value"])?)?;
+    let source_value = number(&obs["value"])?;
+    let value = product(product(source_value, factor)?, ratio)?;
+    ensure!(
+        value != 0.0 || source_value == 0.0 || requested == 0.0,
+        "Nonzero climate contribution is outside the supported numeric range"
+    );
     Ok(
-        json!({"status":"ok","value":product(product(number(&obs["value"])?,factor)?,ratio)?,"unit":"kg CO2-eq","module":module,
+        json!({"status":"ok","value":value,"unit":"kg CO2-eq","module":module,
         "indicator":obs["property"],"indicator_method":obs["method"],"method":{"id":"climate.declared_reference_scaling.v1"},
         "inputs":{"quantity":quantity,"source_observation":obs,"declared_basis":declared,"scaling_factor":ratio,"numerator_conversion_factor":factor}}),
     )
@@ -211,6 +266,33 @@ pub fn calculate(db: &Connection, req: &Value) -> Result<Value> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn shared_climate_scaling_contract() {
+        let fixture: Value =
+            serde_json::from_str(include_str!("../../tests/fixtures/climate-scaling.json"))
+                .unwrap();
+        for case in fixture["cases"].as_array().unwrap() {
+            let mut source = fixture["observation_defaults"].clone();
+            for (key, value) in case["source"].as_object().unwrap() {
+                source[key] = value.clone();
+            }
+            let result = climate(&source, &case["quantity"]);
+            if case["error"] == true {
+                assert!(result.is_err(), "{} accepted: {result:?}", case["id"]);
+            } else {
+                let value = result.unwrap_or_else(|e| panic!("{}: {e}", case["id"]));
+                let actual = value["value"].as_f64().unwrap();
+                let expected = case["value"].as_f64().unwrap();
+                assert!(
+                    (actual - expected).abs() <= 1e-12_f64.max(expected.abs() * 1e-12),
+                    "{}: {actual} != {expected}",
+                    case["id"]
+                );
+                assert_eq!(value["module"], source["module"]);
+                assert_eq!(value["indicator"], source["property"]);
+            }
+        }
+    }
     #[test]
     fn reference_mass_uses_declared_amount_and_module() {
         let mut obs = json!({"property":"gwp_total","value":859,"unit":"kg CO_(2) eq","module":"A1","declared_unit":"kg","conditions":{"declared_amount":1000,"declared_references":[{"unit":"kg","amount":1000}]}});

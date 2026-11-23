@@ -6,6 +6,10 @@
 
 Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, studerende og udviklere.
 
+**[Brug materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/)** — 507 danske referencer med tal, enheder og kilder. Ingen installation eller konto.
+
+[Første gang på GitHub? Begynd her](../START-HER.md).
+
 [De 169 materialefelter](docs/MATERIALEFELTER.md) · [Kom hurtigt i gang](docs/KOM-GODT-I-GANG.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
 
 </div>
@@ -39,16 +43,18 @@ En CLI bygget fra `main` kan også **undersøge reparation og adskillelse**: for
 
 [Undersøgelse af 1to10](docs/1TO10.md) samler afprøvet læring om materialelag, detaljetegning og analyse samt grænserne for kildekontrollen. [Otte supplerende inspirationskilder](docs/DESIGN-REFERENCES.md) giver forslag til næste arbejdsgangsprøve.
 
-Du behøver ikke kende AI eller kunne programmere for at læse eksemplerne. På din egen computer kan du bruge Rust-programmet til at gentage beregningerne. [Følg guiden til installation og første opslag](docs/RUST.md).
+Du kan læse eksemplerne uden AI eller programmering. Til egne første opslag er den letteste vej det færdige Python-script, som læser Parquet direkte uden database. Rust-programmet bruges, når du vil beregne eller bruge de nyere tillæg. [Vælg dit trin i startvejledningen](docs/KOM-GODT-I-GANG.md).
 
 ## Start dér, hvor du er
 
 | Du vil … | Start her |
 | --- | --- |
-| Gennemgå en lille hylde fra materialetal til statik | [Hyldens masse, produktionsklima og nedbøjning](examples/hyldekonsol/README.md) |
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
+| Slå et materiale op uden at bygge en database | [Færdigt Python-opslag i Parquet](docs/KOM-GODT-I-GANG.md#2-slå-materialer-op-uden-database) |
+| Gennemgå en lille hylde fra materialetal til statik | [Hyldens masse, produktionsklima og nedbøjning](examples/hyldekonsol/README.md) |
 | Have en AI-agent til at hjælpe | [Materialevalget i SolidCraft og BIMCraft](examples/unified-workflow/README.md) |
-| Søge og beregne selv | [Installation og dine første kommandoer](docs/RUST.md) |
+| Beregne eller bruge de nyere datatillæg | [Rust-installation og beregninger](docs/RUST.md) |
+| Udvikle programmet eller bidrage med en kilde | [Bidragsguide, kode og tests](CONTRIBUTING.md) |
 | Bruge datasættet i egne analyser | [Dataformater, indhold og versioner](data/README.md) |
 | Forstå ord som EPD, BIM, CLI og MCP | [Ordliste](docs/ORDLISTE.md) |
 | Se afprøvningen på et rigtigt byggeri | [Lisbjerg Bakke](reports/lisbjerg-bakke/README.md) |

@@ -2,6 +2,8 @@
 
 Hvor skal grænsen mellem to hjem gå? På Strandhøjsvej 31 i Charlottenlund prøvede ejerne først at dele en villa mellem etagerne. Knap 30 år senere bad de om at flytte grænsen, så hver husstand fik sin egen del af bygningsanlægget og sin egen grund. Begge opdelinger kan følges i Gentofte Kommunes sagsakter. Huset fra 1893 havde en tidligere stald og var usædvanligt stort. Erfaringen kan især bruges til at sammenligne *måder at dele på*. [Gentofte Kommune, Byplanudvalgets referat, 31. oktober 2011, punkt 1, s. 3–4](https://gentofte.dk/media/3xaa02bp/by-refaa20111031.pdf#page=3)
 
+**Hvis en arkiv-PDF ikke åbner:** De fem direkte WebLager-downloads gav 404 ved kontrollen 23. november 2026. Kildehenvisningerne med sagsnumre og sidetal er bevaret. Gå via [Gentofte Kommunes vejledning til byggesagsarkivet](https://gentofte.dk/bolig-og-by/byggeri-og-byplanlaegning/find-tegninger-og-lokalplaner/), og søg på Strandhøjsvej 31, Charlottenlund. Kommunen beskriver også, hvordan man får hjælp til manglende eller låste sager. Adgang til de enkelte akter er ikke genbekræftet her.
+
 ## Hvad stod der, og hvad blev bygget?
 
 | Tidspunkt | Dokumenteret tilstand eller beslutning |

@@ -1,0 +1,33 @@
+name: Hjælp, fejl eller forslag
+description: Fortæl os, hvad du ville gøre, og hvor du gik i stå.
+title: "[Spørgsmål] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Du behøver ikke kende programmering for at skrive her. Beskriv din opgave med dine egne ord.
+        Alt her er offentligt. Undlad kundedata, private modeller og adgangsnøgler.
+  - type: textarea
+    id: opgave
+    attributes:
+      label: Hvad ville du gøre?
+      placeholder: Fx hente en bog eller finde et tal for et materiale.
+    validations:
+      required: true
+  - type: input
+    id: side
+    attributes:
+      label: Hvilken side eller fil brugte du?
+      description: Indsæt gerne et link, hvis du har det.
+  - type: textarea
+    id: resultat
+    attributes:
+      label: Hvad skete der, eller hvad foreslår du?
+      description: Kopiér gerne en fejlbesked. Du må også skrive, hvad der var svært at forstå.
+    validations:
+      required: true
+  - type: input
+    id: enhed
+    attributes:
+      label: Telefon eller computer? Hvilken browser eller hvilket program?
+      description: Udfyld kun, hvis det har betydning for dit spørgsmål.

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Åben viden og værktøjer til at undersøge dine designvalg og deres betydning for mennesker, ressourcer og klima. Brug dem selv eller med din egen AI.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>Åbne værktøjer — Fremtidens Tegnestue</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#materialer">Gå til materialeopslag</a>
+<header class="header wrap">
+  <a class="brand" href="./" aria-label="Fremtidens Tegnestue, åbne værktøjer"><img src="favicon.svg" width="40" height="40" alt=""><span class="brand-name">Fremtidens Tegnestue</span><span class="brand-sub">Åbne værktøjer</span></a>
+  <nav aria-label="Hovedmenu"><a href="#laes">Viden og værktøjer</a><a href="#materialer">Materialer</a><a href="#om">Om værktøjerne</a></nav>
+</header>
+<main>
+  <section class="intro wrap" aria-labelledby="headline">
+    <h1 id="headline">Forstå, hvad dine designvalg betyder.</h1>
+    <p class="lead">Åben viden og værktøjer til at undersøge, hvordan det, vi bevarer, forandrer og bygger, påvirker mennesker, ressourcer og klima.</p>
+    <ol aria-label="Spørgsmål til din designopgave"><li>Hvad vil du skabe eller forandre?</li><li>Hvilke valg står du med?</li><li>Hvilke konsekvenser har de?</li></ol>
+    <p>Tag udgangspunkt i din egen byggesag, undersøg mulighederne, og find grundlaget for at vælge.</p>
+    <p class="with-ai">Brug materialet selv, eller <a href="#brug-ai">tag din egen AI med som hjælp</a>. Du kan begynde her uden installation eller konto.</p>
+  </section>
+  <section id="laes" class="reading tasks wrap" aria-labelledby="reading-title">
+    <h2 id="reading-title">Find grundlag for dit valg</h2>
+    <div class="reading-grid">
+      <a class="task-card" href="#boeger"><span class="reading-kind">Viden om bygninger og mennesker</span><h3>Undersøg brug, bevaring og forandring</h3><p>Find fagbøger om bygninger, genbrug og samlinger. Brug dem til at undersøge din opgave og de kvaliteter, du vil bevare eller skabe.</p><span class="task-action">Find relevant læsestof</span></a>
+      <a class="task-card" href="#materialer"><span class="reading-kind">Materialer og klima</span><h3>Undersøg materialernes grundlag</h3><p>Find materialetal, enheder og kilder. Se, hvad klimatallet gælder for, før du bruger det i dit eget projekt.</p><span class="task-action">Åbn materialeopslaget</span></a>
+      <a class="task-card" href="regneeksempel.html"><span class="reading-kind">Valgfrit regneeksempel</span><h3>Følg en ændring fra mål til klimatal</h3><p>Se metoden i et gemt eksempel med en betonplade. Følg mængderne, kilderne og det afgrænsede produktionsbidrag.</p><span class="task-action">Se regneeksemplet</span></a>
+      <a class="task-card" href="vinduet.html"><span class="reading-kind">Valgfrit detaljeeksempel</span><h3>Forstå en bygningsdel</h3><p>Brug vinduestegningen, når du har brug for at forstå delene og finde ordene til at beskrive dem.</p><span class="task-action">Se vinduesforklaringen</span></a>
+    </div>
+  </section>
+  <section id="materialer" class="workspace wrap" aria-labelledby="search-title">
+    <div class="search-panel">
+      <div class="section-heading"><h2 id="search-title">Find et materiale</h2><span class="scope">507 danske referencer · kildeudgave 2025</span></div>
+      <form id="search-form" role="search">
+        <label for="query">Hvad vil du undersøge?</label>
+        <div class="search-line"><input type="search" id="query" name="q" placeholder="Fx træ, isolering eller beton" aria-describedby="search-help" autocomplete="off" disabled><button type="submit" id="search-button" disabled>Søg materialer</button></div>
+        <p id="search-help" class="muted">Søg på materiale eller bygningsdel. Du behøver ikke kende et varenummer.</p>
+      </form>
+      <div class="examples" aria-label="Prøv et materiale"><span>Prøv fx</span><button type="button" data-query="egetræ" disabled>Egetræ</button><button type="button" data-query="isolering" disabled>Isolering</button><button type="button" data-query="beton" disabled>Beton</button></div>
+      <p id="load-status" role="status">Henter materialerne…</p><button id="retry" type="button" class="secondary" hidden>Prøv at hente igen</button>
+      <noscript><p>Opslaget kræver JavaScript i browseren. Du kan stadig <a href="#boeger">læse bøgerne</a>, <a href="vinduet.html">undersøge vinduet</a> og <a href="regneeksempel.html">følge et færdigt regnestykke</a>.</p></noscript>
+    </div>
+    <section id="results" aria-labelledby="results-title" hidden>
+      <div class="results-heading"><h2 id="results-title" tabindex="-1">Søgeresultater</h2><p id="result-count" role="status"></p><button id="new-search" class="secondary" type="button">Ny søgning</button></div>
+      <p id="empty" hidden>Ingen af de 507 referencer matcher din søgning. Prøv et kortere ord. Det betyder ikke, at materialet ikke findes — denne første browserudgave dækker kun den danske referencetabel.</p>
+      <ul id="result-list" class="result-list"></ul>
+      <button id="more" class="secondary" type="button" hidden>Vis flere materialer</button>
+    </section>
+    <section id="detail" class="detail" aria-labelledby="material-title" hidden></section>
+  </section>
+  <section id="boeger" class="books wrap" aria-labelledby="books-title"><h2 id="books-title">Hent en fagbog.</h2><p>Vælg en titel. Den færdige læseudgave åbnes eller hentes som PDF, uden at du skal finde rundt i projektmapper.</p><ul><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/fagordbog/fagordbog.pdf?raw=true">Byggeriets illustrerede fagordbog <span>(PDF)</span></a></li><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/traesamlinger/danske/bog.pdf?raw=true">Danske træsamlinger <span>(PDF)</span></a></li><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/traesamlinger/japanske/bog.pdf?raw=true">Japanske træsamlinger <span>(PDF)</span></a></li><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/boeger/laes-et-hus/bog.pdf?raw=true">Læs et hus <span>(PDF)</span></a></li><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/boeger/byg-videre/bog.pdf?raw=true">Byg videre på huset <span>(PDF)</span></a></li><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/boeger/vinduet/bog.pdf?raw=true">Vinduet der blev siddende <span>(PDF)</span></a></li><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/boeger/vandets-vej/bog.pdf?raw=true">Vandets vej gennem huset <span>(PDF)</span></a></li><li><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/boeger/doerens-liv/bog.pdf?raw=true">En dør får et nyt liv <span>(PDF)</span></a></li></ul></section>
+  <section id="brug-ai" class="about wrap" aria-labelledby="ai-title">
+    <h2 id="ai-title">Brug din egen AI som hjælp.</h2>
+    <p>Du kan læse, søge og hente materialet selv. Du kan også tage en tekst, tegning eller et materialetal med til den AI, du allerede bruger, og få hjælp til at forstå det og stille spørgsmål.</p>
+    <h3>Begynd med din egen designopgave</h3>
+    <p>Tilpas teksten til din byggesag, og kopiér den til din AI:</p>
+    <blockquote class="reference-note ai-prompt">Jeg arbejder med [min byggesag] og overvejer [mit designvalg]. Jeg vil bevare eller skabe [vigtige kvaliteter]. Hjælp mig med at undersøge mulighederne og deres relevante konsekvenser for brugere, arkitektur, ressourcer, klima, økonomi og levetid. Find relevant viden på <a href="./">https://fremtidenstegnestue.github.io/open-source/</a> og i det materiale, jeg deler. Vis kilderne. Skeln mellem dokumenterede forhold, antagelser og spørgsmål, der kræver beregning eller faglig vurdering. Sig, hvad du ikke kan læse, eller hvor grundlaget mangler.</blockquote>
+    <p>Kan din AI ikke åbne linket, kan du kopiere den relevante tekst eller vedhæfte en hentet PDF, hvis din AI understøtter filer.</p>
+    <h3>Vil du forstå et materialetal?</h3>
+    <p>Vælg først et materiale i <a href="#materialer">opslaget</a>, og brug <strong>Gem materialedata</strong>. Giv den hentede fil til din AI, og bed den forklare værdierne med enhed, referencemængde, klimafase og kilde. Bed den holde manglende data og nul adskilt og vise faserne hver for sig.</p>
+    <p>AI kan hjælpe med at læse og forberede spørgsmål. Kontrollér svaret mod kilderne; det faglige valg og ansvar ligger fortsat hos dig og de relevante fagpersoner.</p>
+    <p><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/materialer/docs/KOM-GODT-I-GANG.md#brug-en-ai-agent">Bruger du en AI-agent med adgang til lokale filer og beregningsværktøjer? Se den særskilte vejledning.</a></p>
+  </section>
+  <section id="om" class="about wrap" aria-labelledby="about-title">
+    <h2 id="about-title">Designvalg hænger sammen.</h2>
+    <p>Det, vi bygger, former rum, hverdagsliv og muligheder for andre. Materialer og konstruktioner har også betydning for ressourceforbrug, klima, økonomi, vedligehold og levetid. Undersøg de hensyn, der er relevante for din opgave.</p>
+    <p>Nogle spørgsmål kan undersøges med data og beregninger. Andre kræver viden om stedet, menneskers erfaringer og faglig vurdering. Her finder du grundlag til undersøgelsen; eksemplerne angiver, hvad de faktisk dokumenterer.</p>
+    <p class="audience">Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der arbejder med byggeri. Opgaverne er fælles på tværs af fag og kan bruges til at forberede materialevalg og spørgsmål til en byggesag.</p>
+    <div class="about-grid"><div><p>Dette er en første browserudgave af Fremtidens Tegnestues åbne materialeværktøjer. Opslaget viser de 507 referencer i BR18’s generiske tabel 7 fra 2025. Det er et afgrænset udsnit af projektets større datagrundlag.</p><p>Du ser kildens værdier. Opslaget omregner dem ikke, vælger ikke et produkt og beregner ikke en hel bygnings klimaaftryk. Aktuelle produkter, sammenlignelighed og egnethed til dit projekt skal undersøges særskilt.</p></div><div><h3>Spørgsmål eller noget, der driller?</h3><p>Fortæl, hvad du ville gøre, og hvor du gik i stå. Du behøver ikke kende programmering for at spørge.</p><a href="https://fremtidenstegnestue.dk/kontakt-os">Kontakt Fremtidens Tegnestue</a><p class="muted">Søgningen foregår i din browser. Denne side har ingen brugerlogin, analyseværktøjer eller indsamling af dine søgeord. GitHubs hosting har sine egne driftsvilkår.</p></div></div>
+  </section>
+  <section class="advanced wrap"><details><summary>Vil du regne på egne mængder, bruge modeller eller bidrage?</summary><p>Materialeberegninger, modelprogrammer og adgang til det større datagrundlag har deres egne installationsveje. Vejledningerne angiver forudsætninger, versioner og konkrete eksempler.</p><p><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/materialer/docs/KOM-GODT-I-GANG.md">Se beregnings- og installationsvejledningen på GitHub</a></p><p><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/CONTRIBUTING.md">Bidrag med faglig viden, en fejlmelding eller kode</a></p><p>Det samlede designforløb med model, materialevalg, pris og klima er under udvikling. De offentlige eksempler beskriver deres eget kontrolomfang.</p></details></section>
+</main>
+<footer class="footer wrap"><p>Fremtidens Tegnestue · Åbne værktøjer</p><div><a href="https://github.com/FremtidensTegnestue/open-source">Kode og videreudvikling</a><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/materialer/THIRD_PARTY.md">Kilder og rettigheder</a><a href="https://fremtidenstegnestue.dk">Tegnestuen</a></div><p class="muted">Vores kode og egne tekster er under MIT. Kildedata og andres materiale beholder deres egne vilkår.</p></footer>
+</body>
+</html>

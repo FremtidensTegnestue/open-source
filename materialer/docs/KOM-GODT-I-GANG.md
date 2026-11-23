@@ -1,5 +1,7 @@
 # Kom hurtigt i gang med materialedata
 
+**[Begynd i browseren uden installation](https://fremtidenstegnestue.github.io/open-source/).** Her kan du søge blandt 507 danske tabel 7-referencer, åbne deres tal og kilder og gemme materialedata. Det er første browserudgave med kildedata fra 2025; det større Parquet-grundlag og beregningsværktøjet nedenfor har et andet omfang.
+
 Begynd med et færdigt eksempel. Gå videre til materialeopslag, når du vil undersøge dine egne muligheder. Du behøver først en database eller et modelprogram, når opgaven kræver det.
 
 Projektets egen kode og tekst er udgivet under [MIT](../../LICENSE). **Kildedata og tredjepartsdokumentation beholder deres egne vilkår**; se [kilder og rettigheder](../THIRD_PARTY.md).
@@ -10,7 +12,7 @@ Projektets egen kode og tekst er udgivet under [MIT](../../LICENSE). **Kildedata
 | --- | --- | --- | --- | --- |
 | [1. Læs eksemplet](#1-læs-eksemplet) | Forstå model → mængde → kilde → resultat | 10 min | Ingen lokal installation | Browser |
 | [2. Slå materialer op](#2-slå-materialer-op-uden-database) | Se værdier, enheder og kilder direkte fra Parquet | 10 min efter download | Ca. 91 MB Parquet, plus projekt og Python-miljø | Python 3.11+ og pyarrow |
-| [3. Brug beregningsværktøjet](#3-brug-beregningsværktøjet-efter-behov) | Aktuelle dataudgaver, beregninger og kontrol | Afhænger af installation og maskine | Ca. 9 GB til grundbasen, plus byggeplads og tillæg | Rust 1.95+ og Cargo, eller den dokumenterede Linux-udgivelse |
+| [3. Brug beregningsværktøjet](#3-brug-beregningsværktøjet-efter-behov) | Aktuelle dataudgaver, beregninger og kontrol | Afhænger af installation og maskine | Ca. 9 GB til grundbasen, plus byggeplads og tillæg | Rust 1.95+ og Cargo |
 | [4. Brug en model](#4-brug-en-model-valgfrit) | Hent mængder fra SolidCraft eller BIMCraft | Efter behov | Afhænger af model og program | Modelprogrammernes CLI’er installeres separat |
 
 Pladstallene beskriver dataene, ikke hele installationen. En Git-kopi henter også dokumenter og eksempler; Python-pakker, Rust-kompilering og midlertidige databaseindeks kræver ekstra plads. Vi angiver derfor ikke 10 GB som et sikkert samlet minimum.
@@ -25,7 +27,7 @@ Tallene gælder de tre dele og deres valgte generiske referencer. A1–A3 beskri
 
 ## 2. Slå materialer op uden database
 
-Parquet er et kompakt tabelformat. Du kan læse de medfølgende filer direkte med Python. **Dette er den letteste vej til egne materialeopslag.**
+Parquet er et kompakt tabelformat. Du kan læse de medfølgende filer direkte med Python. **Dette er den lette lokale vej til opslag i hele Parquet-grundlaget; browseropslaget ovenfor har et mindre, dansk referenceudsnit.**
 
 Hent projektet fra [GitHub](https://github.com/FremtidensTegnestue/open-source) via **Code → Download ZIP**, eller brug Git:
 
@@ -60,6 +62,12 @@ python scripts/opslag_parquet.py beton
 python scripts/opslag_parquet.py egetræ
 ```
 
+### Se, om dit første opslag virker
+
+Ved `egetræ` skal du finde **`br18:t7:G0407:row260`**, med navnet »Træ, egetræ (12% fugt / 10,7% H2O)«. Dets densitetsobservation har `value: 716.8` og `unit: kg/m³`. Kilden er BR18's generiske tabel 7 fra 2025, celle `Sheet1!K260:L260`; URL og rettigheder vises nederst. Det er denne references tal, ikke en kontrol af dit eget træprodukt.
+
+Du ser også klimaværdier for flere livscyklusmoduler. De vises hver for sig og bliver ikke automatisk summeret. Et negativt produktionstal for træ er ikke en komplet klimaberegning.
+
 Du skal ikke skrive et script selv, bygge SQLite eller hente nye originalkilder. Opslaget læser kun `data/parquet/` og foretager ingen beregning eller enhedsomregning.
 
 Det viser højst fem navnetræf, et afgrænset uddrag på højst 12 observationer og kilderne til netop disse observationer. Et navnetræf er en kandidat, ikke et godkendt produktmatch. Vælg et konkret ID fra listen, når du vil undersøge én post nærmere:
@@ -87,6 +95,16 @@ Parquet-grundlaget indeholder cirka **1,99 millioner observationer**, heraf cirk
 
 Direkte Parquet-opslag læser **ikke de nyere tillæg**, fx ekstra mekanik-, levetids- og driftsdata. Den aktuelle Rust-udgave kombinerer grundlaget med de offentlige tillæg; se [dataudgaven og optællingerne](../data/releases/mechanics-2026-11-20.json). Danske produktdeklarationer fra EPD Danmark distribueres ikke som åbne produktdata i Git; de kan indsamles lokalt efter den særskilte vejledning.
 
+### Hvis du går i stå
+
+| Det, du ser | Næste handling |
+| --- | --- |
+| `Mangler pyarrow` | Kør installationen med samme `python`, som du bruger til opslaget. På Windows kan du bruge `.\.venv\Scripts\python.exe` til begge kommandoer. |
+| `can't open file` eller »filen findes ikke« | Kontrollér, at terminalen står i `materialer`, og at `scripts/opslag_parquet.py` findes i din download. |
+| `Ingen træf` | Prøv et kortere navn eller det konkrete ID ovenfor. Mange kildenavne er på engelsk eller tysk; søgningen oversætter dem ikke. |
+
+Virker det stadig ikke, så [opret et issue](https://github.com/FremtidensTegnestue/open-source/issues) med kommandoen, fejlteksten, dit operativsystem og resultatet af `python --version`. Undlad kundedata, adgangsnøgler og private modeller. Du kan fortsat læse eksemplet fra trin 1 i browseren.
+
 ## 3. Brug beregningsværktøjet efter behov
 
 Vælg den aktuelle [Rust-guide](RUST.md), når du vil bruge de samlede data, beregne et bidrag eller kontrollere et modelgrundlag. Fra mappen `materialer`, med Rust 1.95+ og Cargo installeret:
@@ -98,7 +116,7 @@ ft-materials status
 ft-materials search egetræ --limit 5
 ```
 
-Dette trin bygger og aktiverer en lokal dataudgave. Grundbasen fylder omkring 9 GB; beregn ekstra plads til kompilering, indeks og tillæg. Rust-guiden beskriver også de færdige Linux-programmer og dataudgavernes identitet. Brug en motor bygget fra samme checkout som dataene til de nyeste tillæg; et program fra en ældre udgivelse dækker ikke automatisk den aktuelle dataudgave.
+Dette trin bygger og aktiverer en lokal dataudgave. Grundbasen fylder omkring 9 GB; beregn ekstra plads til kompilering, indeks og tillæg. Rust-guiden skelner mellem [aktuel kode og de tidligere Linux-udgivelser](RUST.md#vælg-program-og-data-fra-samme-udgave). Brug en motor bygget fra samme checkout som dataene til de nyeste tillæg; et program fra en ældre udgivelse dækker ikke automatisk den aktuelle dataudgave.
 
 Den [detaljerede Python-vej fra v0.1](PYTHON-V01.md) er bevaret til det historiske forløb. Den gendanner Parquet-grundbasen og giver ikke automatisk samme tillæg og metoder som den aktuelle Rust-motor.
 
@@ -106,9 +124,13 @@ Den [detaljerede Python-vej fra v0.1](PYTHON-V01.md) er bevaret til det historis
 
 SolidCraft og BIMCraft installeres separat. Du kan begynde med [det gennemførte modelforløb](../examples/unified-workflow/README.md) eller [den afgrænsede facadeprøve](../examples/facade/README.md). De er eksempler med konkrete bindinger og begrænsninger.
 
-Betonpladeeksemplet er afprøvet med SolidCraft CLI 0.44.0 og BIMCraft CLI 0.12.0. Kontrollér den CLI, terminalen faktisk vælger; en opdateret app kan eksistere ved siden af en ældre terminalinstallation. FieldCraft er et separat program til de dokumenterede statiske delundersøgelser, fx [bjælkeeksemplet](../examples/beam-study/README.md). Der følger ikke adaptere til Revit, ArchiCAD eller Rhino med denne integration.
+Betonpladeeksemplet er afprøvet med SolidCraft CLI 0.44.0 og BIMCraft CLI 0.12.0. Kontrollér den CLI, terminalen faktisk vælger; en opdateret app kan eksistere ved siden af en ældre terminalinstallation. FieldCraft er et separat program til de dokumenterede statiske delundersøgelser, fx [hyldeeksemplet](../examples/hyldekonsol/README.md) og [den afgrænsede bjælkeundersøgelse](../examples/beam-study/README.md). Der følger ikke adaptere til Revit, ArchiCAD eller Rhino med denne integration.
 
 ## Brug en AI-agent
+
+Vil du have hjælp til at undersøge dine designvalg eller forstå det tilhørende materiale? [Tag din egen AI med på websiden](https://fremtidenstegnestue.github.io/open-source/#brug-ai). Du kan give den læsesidens link, kopieret tekst eller filen fra **Gem materialedata**; det afhænger af dens adgang til links og filer. Det kræver ingen lokal beregningsopsætning.
+
+Til større dataopslag og beregninger gælder forudsætningerne nedenfor.
 
 Åbn mappen `materialer` i en agent med adgang til lokale filer og terminal. Du kan begynde med:
 

@@ -1,6 +1,9 @@
 """Keep the lightweight lookup bounded and source-bound, including non-numeric data."""
 import contextlib
+import hashlib
 import io
+import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -72,6 +75,49 @@ class ParquetLookupTests(unittest.TestCase):
         result = subprocess.run([sys.executable, '-S', str(Path(opslag_parquet.__file__)), '--help'],
                                 capture_output=True, text=True, check=True)
         self.assertIn('--material-id', result.stdout)
+
+
+class ShippedParquetTests(unittest.TestCase):
+    """Exercise the public beginner path against the files a download includes."""
+
+    def test_all_shipped_parquet_files_match_the_manifest(self):
+        manifest = json.loads((opslag_parquet.ROOT / 'manifest.json').read_text(encoding='utf-8'))
+        for item in manifest['files']:
+            with self.subTest(file=item['path']):
+                path = opslag_parquet.ROOT / item['path']
+                self.assertEqual(path.stat().st_size, item['bytes'])
+                self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), item['sha256'])
+                self.assertEqual(pq.read_metadata(path).num_rows, item['rows'])
+
+    def test_oak_reference_keeps_its_unit_module_and_source(self):
+        result = opslag_parquet.lookup(opslag_parquet.ROOT, material_id='br18:t7:G0407:row260')
+        rows = {row['id']: row for row in result['observations']}
+        density = rows['br18:t7:G0407:row260:mass']
+        self.assertEqual(density['value'], 716.8)
+        self.assertEqual(density['unit'], 'kg/m³')
+        gwp = rows['br18:t7:G0407:row260:gwp:A1-A3']
+        self.assertAlmostEqual(gwp['value'], -1008.75834622427)
+        self.assertEqual(gwp['declared_unit'], '1 m³')
+        self.assertEqual(gwp['module'], 'A1-A3')
+        self.assertEqual(gwp['source_locator'], 'Sheet1!E260')
+        self.assertEqual(gwp['source_id'], 'br18:source:table-7-2025.xlsx')
+        self.assertEqual([s['id'] for s in result['sources']], [gwp['source_id']])
+        self.assertTrue(result['sources'][0]['url'].startswith('https://'))
+        self.assertTrue(result['sources'][0]['license_status'])
+
+    def test_documented_cli_works_outside_the_project(self):
+        env = dict(os.environ, PYTHONUTF8='1')
+        with tempfile.TemporaryDirectory() as folder:
+            for args, expected in [(['egetræ'], 'br18:t7:G0407:row260'),
+                                   (['beton'], 'afgrænset uddrag'),
+                                   (['--material-id', 'br18:t7:G0407:row260'], '716.8'),
+                                   (['ft-no-match-81'], 'Ingen træf')]:
+                with self.subTest(args=args):
+                    result = subprocess.run([sys.executable, str(Path(opslag_parquet.__file__)), *args],
+                                            cwd=folder, env=env, encoding='utf-8',
+                                            capture_output=True, check=True)
+                    self.assertIn(expected, result.stdout)
+            self.assertEqual(list(Path(folder).iterdir()), [])
 
 
 if __name__ == '__main__':
