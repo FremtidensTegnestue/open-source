@@ -1,16 +1,24 @@
-# Ny her? Begynd med én lille opgave
+# Ny her? Begynd med din egen designopgave
 
-Her finder du Fremtidens Tegnestues åbne bøger, materialedata og beregningseksempler. Du kan læse og hente dem **uden en GitHub-konto**. Du behøver ikke installere et program for at begynde.
+**Forstå, hvad dine designvalg betyder.** Her finder du åben viden og værktøjer til at undersøge, hvordan det, vi bevarer, forandrer og bygger, påvirker mennesker, ressourcer og klima.
+
+Begynd med tre spørgsmål:
+
+1. Hvad vil du skabe eller forandre?
+2. Hvilke valg står du med?
+3. Hvilke konsekvenser har du brug for at forstå?
+
+Brug bøger, materialetal og de afgrænsede beregningseksempler, når de er relevante for din opgave. Kilder, antagelser og åbne spørgsmål er en del af grundlaget. Du kan læse og hente materialet **uden en GitHub-konto** og begynde uden installation.
 
 [Åbn værktøjerne på websiden](https://fremtidenstegnestue.github.io/open-source/) · [Se alle bøger](https://fremtidenstegnestue.github.io/open-source/#boeger)
 
-Websiden er indgangen for arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre med en byggeopgave. Her kan du begynde med materialer, en vinduestegning, et regneeksempel eller en bog. Vejledningen nedenfor hjælper dig også, hvis du vil bruge filerne her på GitHub.
+Websiden er indgangen for arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre med en byggeopgave. Her kan du finde viden om din opgave, undersøge materialetal eller vælge et eksempel til fordybelse. Vejledningen nedenfor hjælper dig også, hvis du vil bruge filerne her på GitHub.
 
 ## Brug materialerne med det samme
 
 **[Åbn materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/).** Søg fx på egetræ eller isolering, vælg et materiale og se tal, referenceenhed og kilde. Du behøver ikke installere Python eller kende GitHub. Første browserudgave viser de 507 referencer fra den danske tabel 7 fra 2025; den er ikke hele projektets datalager eller en komplet klimaberegner.
 
-## Prøv noget med det samme
+## Vælg en relevant fordybelse
 
 - **Find navnet på en bygningsdel:** [Åbn det illustrerede vindue på websiden](https://fremtidenstegnestue.github.io/open-source/vinduet.html). Se tegningen, vælg en del, og følg henvisningen til forklaringen og originalkilden.
 - **Læs en bog:** [Åbn bøgerne på websiden](https://fremtidenstegnestue.github.io/open-source/#boeger), og vælg en titel. PDF'en åbnes eller bliver hentet til din computer eller telefon. Skal bogen til trykkeriet, findes særskilte **Tryk**-filer i [den fulde bogoversigt](bogserie/README.md).
@@ -20,7 +28,7 @@ Brug browserens tilbageknap, når du vil tilbage. Links i teksten viser videre t
 
 ## Tag din egen AI med
 
-Du kan bruge materialet direkte eller få din egen AI til at hjælpe med at læse, forklare og stille spørgsmål. [Åbn AI-vejledningen på websiden](https://fremtidenstegnestue.github.io/open-source/#brug-ai), og prøv opgaven om vinduet.
+Du kan bruge materialet direkte eller få din egen AI til at hjælpe med at læse, forklare og stille spørgsmål. [Åbn AI-vejledningen på websiden](https://fremtidenstegnestue.github.io/open-source/#brug-ai), og tilpas opgaven til den byggesag og de valg, du står med.
 
 Giv din AI et link til læsesiden, relevant kopieret tekst eller en hentet PDF/materialefil. Det afhænger af din AIs muligheder, hvad den kan læse; en chat har ikke automatisk adgang til lokale filer eller beregningsværktøjer. Bed den vise kilder og sige, hvis grundlaget mangler. Kontrollér svaret mod materialet.
 

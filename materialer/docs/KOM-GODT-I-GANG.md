@@ -128,7 +128,7 @@ Betonpladeeksemplet er afprøvet med SolidCraft CLI 0.44.0 og BIMCraft CLI 0.12.
 
 ## Brug en AI-agent
 
-Vil du først have hjælp til at læse en tegning eller forstå et materialetal? [Tag din egen AI med på websiden](https://fremtidenstegnestue.github.io/open-source/#brug-ai). Du kan give den læsesidens link, kopieret tekst eller filen fra **Gem materialedata**; det afhænger af dens adgang til links og filer. Det kræver ingen lokal beregningsopsætning.
+Vil du have hjælp til at undersøge dine designvalg eller forstå det tilhørende materiale? [Tag din egen AI med på websiden](https://fremtidenstegnestue.github.io/open-source/#brug-ai). Du kan give den læsesidens link, kopieret tekst eller filen fra **Gem materialedata**; det afhænger af dens adgang til links og filer. Det kræver ingen lokal beregningsopsætning.
 
 Til større dataopslag og beregninger gælder forudsætningerne nedenfor.
 
