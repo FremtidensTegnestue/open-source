@@ -2,7 +2,9 @@
 
 Hvad kan en bygning blive til med det, der allerede er der? Vi vil undersøge, hvordan danske arkitekter kan ombygge boliger, passe på deres kvaliteter og bruge bygningen og dens dele længere. Genbrug hører med både på stedet og på tværs af bygninger. Nye materialer og teknologier hører også med, når de løser et konkret problem som træk, varmetab eller manglende tilgængelighed.
 
-**[Åbn håndbogen for arkitekter, bygherrer og beboere](openwiki/quickstart.md)** · [Drøft de første spørgsmål](debat.md) · [Læs oplægget om vinduer](oplaeg/vinduer.md)
+**[Åbn håndbogen for arkitekter, bygherrer og beboere](haandbog/README.md)** · [Drøft de første spørgsmål](debat.md) · [Læs oplægget om vinduer](oplaeg/vinduer.md)
+
+Er GitHub nyt for dig? [Den korte begynderguide](../START-HER.md) viser, hvordan du læser, finder rundt og henter en bog.
 
 **[Se danske bygninger før og efter transformation](atlas/README.md)**. Find plantegninger fra husopdelinger, regnskaber for genbrugsdele, observationer efter års drift og erfaringer fra både tilbageflyttede og fraflyttede beboere.
 

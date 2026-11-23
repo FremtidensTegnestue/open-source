@@ -6,6 +6,8 @@
 
 Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, studerende og udviklere.
 
+[Første gang på GitHub? Begynd her](../START-HER.md).
+
 [De 169 materialefelter](docs/MATERIALEFELTER.md) · [Kom hurtigt i gang](docs/KOM-GODT-I-GANG.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)
 
 </div>

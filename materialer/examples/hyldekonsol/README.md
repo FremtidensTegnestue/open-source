@@ -42,7 +42,7 @@ I forsøg B regner vi desuden på hyldens egenvægt. De 22,34 N fordeles jævnt 
 | Største forskydningsspænding i rektangulært snit | 0,250 MPa | 0,306 MPa |
 | Nedbøjning ved den frie ende | 0,857 mm | 0,929 mm |
 
-Du kan efterregne forsøg A med en lommeregner. Et rektangulært tværsnit med bredde *b* og lodret højde *h* har inertimoment *I = bh³/12*, her 2.500 mm⁴. Med *F* = 50 N, *L* = 300 mm og stålets elasticitetsmodul *E* = 210.000 N/mm² bliver momentet *FL*, bøjespændingen *FLh/(2I)* og nedbøjningen *FL³/(3EI)*. For forsøg B lægges bidraget fra den jævnt fordelte last til. [MIT OpenCourseWare, bjælker med en punktlast eller fordelt last](https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/f9a4d5764b9b0f51ffaacbdf69f7aed8_emech10_04.pdf)
+Du kan efterregne forsøg A med en lommeregner. Et rektangulært tværsnit med bredde *b* og lodret højde *h* har inertimoment *I = bh³/12*, her 2.500 mm⁴. Med *F* = 50 N, *L* = 300 mm og stålets elasticitetsmodul *E* = 210.000 N/mm² bliver momentet *FL*, bøjespændingen *FLh/(2I)* og nedbøjningen *FL³/(3EI)*. For forsøg B lægges bidraget fra den jævnt fordelte last til. [MIT OpenCourseWare, bjælker med en punktlast eller fordelt last, trykt s. 268 / PDF-side 6](https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/resources/emech10_04/)
 
 ## Kontrollér resultatet med FieldCraft
 

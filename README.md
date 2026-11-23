@@ -1,5 +1,7 @@
 # Fremtidens Tegnestue
 
+**Første gang på GitHub? [Start her uden konto eller installation](START-HER.md).**
+
 **Hvad er værd at bevare, og hvad skal der til for at bygge videre på det?**
 
 Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Sammen bygger vi de værktøjer, vi selv gerne vil have ved tegnebordet. Her deler vi vores materialedata, beregninger og en håndbog om transformation og genbrug. Du kan åbne en byggesag, se hvad beboerne oplevede, eller tage tallene med ind i din egen model.
