@@ -47,6 +47,8 @@ def references():
         if rows['ConcretePanel']['volume_m3'] != area * expected_thickness / 1000:
             raise ValueError('Recorded concrete quantity does not match the explained net geometry')
         for part, row in rows.items():
+            if part != 'ConcretePanel' and row['volume_m3'] != Decimal('0.0008'):
+                raise ValueError('Recorded rail quantity does not match the explained geometry')
             density = Decimal('2246') if part == 'ConcretePanel' else Decimal('7850')
             if row['mass_kg'] != row['volume_m3'] * density:
                 raise ValueError('Recorded mass does not match the density in the explanation')
