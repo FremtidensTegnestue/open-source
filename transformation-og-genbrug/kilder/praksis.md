@@ -1,6 +1,8 @@
 # Originaler til byggesagerne og praksiskapitlerne
 
-Kontrolleret 19. november 2026. Hvert link åbner den offentlige kilde. Den samme PDF kan bruges til forskellige beslutninger. De mere præcise sidetal ved de enkelte udsagn står i kapitlerne. Meddelelser fra BBR kan ændre sig, når registeret opdateres. Byggesagsarkiver kan kræve login til de underliggende bilag. [Gå til byggesagerne](../praksis/README.md) · [Kontrolsummer og hentede udgaver](hentet.tsv)
+Kontrolleret 19. november 2026. Henvisningerne peger på de offentlige kilder; se den nyere adgangsnote nedenfor. Den samme PDF kan bruges til forskellige beslutninger. De mere præcise sidetal ved de enkelte udsagn står i kapitlerne. Meddelelser fra BBR kan ændre sig, når registeret opdateres. Byggesagsarkiver kan kræve login til de underliggende bilag. [Gå til byggesagerne](../praksis/README.md) · [Kontrolsummer og hentede udgaver](hentet.tsv)
+
+**Hvis en arkiv-PDF ikke åbner:** De fem direkte WebLager-downloads gav 404 ved kontrollen 23. november 2026. Kildehenvisningerne med sagsnumre og sidetal er bevaret. Gå via [Gentofte Kommunes vejledning til byggesagsarkivet](https://gentofte.dk/bolig-og-by/byggeri-og-byplanlaegning/find-tegninger-og-lokalplaner/), og søg på Strandhøjsvej 31, Charlottenlund. Kommunen beskriver også, hvordan man får hjælp til manglende eller låste sager. Adgang til de enkelte akter er ikke genbekræftet her.
 
 ## Husdeling i Gentofte
 

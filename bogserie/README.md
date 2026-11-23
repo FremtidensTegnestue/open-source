@@ -1,5 +1,9 @@
 # Fremtidens Tegnestues bogserie
 
+Vælg **Læs** for at åbne eller hente en færdig PDF til skærm og almindelig læsning. Vælg **Tryk** til trykkeriets særlige fil med udfald. Du behøver ikke bygge bøgerne eller installere udviklingsprogrammer for at læse dem.
+
+[Ny på GitHub? Sådan henter du en bog](../START-HER.md#hent-en-fil-eller-hele-pakken) · [Til forsiden](../README.md)
+
 | Bog | Læseudgave | Trykfil |
 | --- | --- | --- |
 | Byggeriets illustrerede fagordbog · 80 sider | [Læs](../transformation-og-genbrug/fagordbog/fagordbog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/fagordbog/tryk.pdf?raw=true) |
@@ -12,6 +16,9 @@
 | En dør får et nyt liv · 32 sider | [Læs](../transformation-og-genbrug/boeger/doerens-liv/bog.pdf?raw=true) | [Tryk](../transformation-og-genbrug/boeger/doerens-liv/tryk.pdf?raw=true) |
 
 Se [hvilket hus og hvilke spørgsmål de fem nye bøger følger](../transformation-og-genbrug/boeger/README.md).
+
+<details>
+<summary>Til forfattere og udviklere: seriens sats og bygning</summary>
 
 ## Sådan hænger bindene sammen
 
@@ -35,3 +42,5 @@ CHROMIUM=/sti/til/chromium node bogserie/byg.cjs
 ```
 
 Den første kommando bygger fagordbogen. Den anden bygger hele kataloget. Bygningen kontrollerer, at satsen holder sig inden for siden, og skriver to filer fra de samme sider. Læseudgaven beskæres til 170 × 240 mm. Trykfilen leveres i læserækkefølge med 3 mm udfald hele vejen rundt. Se et opslag og omslaget som prøvetryk på det valgte papir. Ved et separat limbundet omslag afhænger rygbredden af papiret og sidetallet.
+
+</details>

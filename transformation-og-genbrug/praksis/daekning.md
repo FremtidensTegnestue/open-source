@@ -2,6 +2,8 @@
 
 En arkitekt i Præstø kan finde erfaringer med gamle fundamenter på blød bund. En andelsforening på Amager kan finde en måling af lyd ved et forsatsvindue. De to sager giver forskellig sikkerhed om næste beslutning. Brug tabellerne til at finde en lignende bygning og se, hvem der faktisk har undersøgt spørgsmålet. [Realdania By & Byg, Støberihallerne, PDF s. 17](https://realdaniabyogbygklubben.dk/media/qrzpskgz/transformation.pdf?fm=pdf#page=17) · [Silent City, målinger i A/B Christiansport](https://roligbolig.dk/cases/case-a-b-christiansport/)
 
+**Arkivlinks:** For WebLager-tegningerne fra Gentofte gælder [adgangsnoten i husdelingskapitlet](husdeling.md).
+
 ## Hvad er talt med?
 
 **Kontrolleret 19. november 2026.** Den geografiske optælling bruger en fast liste på 17 steder. Den omfatter alle 14 i [håndbogens projektkapitel](../haandbog/projekter.md), de tre [gennemgående sager](README.md) og Seminariebyen fra [atlasset](../atlas/bygninger.md). Ryesgade optræder i to indgange og tælles én gang. Et donorsted tælles særskilt, hvis spørgsmålet er, hvor en bestemt bygningsdel kommer fra. Det indgår ikke automatisk som en ny byggesag i denne optælling. De øvrige eksempler og værktøjer bruges i tabellerne over ejerformer og faser nedenfor.
