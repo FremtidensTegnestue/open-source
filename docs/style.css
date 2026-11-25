@@ -602,3 +602,18 @@ font-size:.9rem}
 .books ul{
 grid-template-columns:1fr}
 }
+
+/* The source values and the user's quantity stay visibly distinct. */
+.quantity-calculation{border-block:1px solid var(--line);padding-block:1.5rem;margin-block:1.5rem}
+.quantity-calculation input{width:min(100%,22rem);min-height:48px;border:1px solid var(--outline);padding:.65rem .8rem;border-radius:2px;background:white;color:var(--ink)}
+.quantity-calculation input[aria-invalid=true]{border-color:#963d26}
+.quantity-calculation form .muted{margin:.5rem 0 1rem}
+.quantity-error{color:#873820;margin-top:.5rem}
+.books li h3{font-size:1.05rem;margin:0}
+.books li p{font-size:.95rem;color:var(--muted);margin:0 0 1rem}
+.books>p:last-child{margin-top:1.5rem}
+@media(max-width:400px){
+.climate-grid{grid-template-columns:1fr}
+.phase:nth-child(n){border-right:0;border-bottom:1px solid var(--line)}
+.phase:last-child{border-bottom:0}
+}

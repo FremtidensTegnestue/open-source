@@ -35,6 +35,45 @@ export function referenceLabel(row) {
   const unit = match[2].replace('with R=1 m²K/W','ved varmemodstand R = 1 m²K/W');
   return `For ${amount.approximate ? '≈ ' : ''}${amount.text} ${unit}`;
 }
+// A deliberately narrow calculation in the source's own unit. Qualified
+// insulation and annual installation references need a different method.
+export function quantityBasis(record) {
+  const rows = record.observations.filter(row => row.property === 'global_warming_potential');
+  if (rows.length !== PHASES.length || PHASES.some(([module]) => rows.filter(row => row.module === module).length !== 1)) throw new Error('Klimafaserne mangler eller er gentaget.');
+  let reference;
+  for (const row of rows) {
+    const context = conditions(row);
+    if (context.record_scope === 'installation_area_reference_factor') throw new Error('Denne reference gælder opvarmet etageareal og år. Den kræver en særskilt beregningsmetode.');
+    if (row.declared_unit?.includes('with R=')) throw new Error('Denne isoleringsreference gælder en bestemt varmemodstand. Tykkelse og varmeegenskaber skal afklares før en mængdeberegning.');
+    const match = row.declared_unit?.match(/^(\d+(?:\.\d+)?) (kg|ton|m|m²|m³|stk)$/);
+    if (!match || context.record_scope !== 'official_material_or_construction_reference' || row.unit !== 'kg CO2-eq') throw new Error('Denne reference har særlige enheder eller betingelser, som den enkle beregning ikke understøtter.');
+    const amount = Number(match[1]), unit = match[2];
+    if (!Number.isFinite(amount) || amount <= 0 || context.reference_amount !== amount || context.reference_unit !== unit) throw new Error('Kildens referencemængde og enhed stemmer ikke overens.');
+    if (context.declared_amount !== undefined || context.declared_references !== undefined) throw new Error('Referencen kræver en udvidet kontrol af sit beregningsgrundlag.');
+    if (reference && (reference.amount !== amount || reference.unit !== unit)) throw new Error('Klimafaserne gælder forskellige referencemængder.');
+    if (row.value !== null && (typeof row.value !== 'number' || !Number.isFinite(row.value))) throw new Error('Kilden har en ugyldig klimaværdi.');
+    reference = {amount,unit};
+  }
+  return reference;
+}
+export function parseQuantity(raw) {
+  if (typeof raw !== 'string' || !/^(?:\d+(?:[.,]\d*)?|[.,]\d+)$/.test(raw.trim())) throw new Error('Skriv en mængde på 0 eller mere, fx 2,5. Brug ingen tusindtalsseparator.');
+  const value = Number(raw.trim().replace(',','.'));
+  if (!Number.isFinite(value) || (value === 0 && /[1-9]/.test(raw))) throw new Error('Mængden er uden for det understøttede talområde.');
+  return value;
+}
+export function quantityResult(record, value) {
+  const reference = quantityBasis(record);
+  if (typeof value !== 'number' || !Number.isFinite(value) || value < 0) throw new Error('Mængden skal være et endeligt tal på 0 eller mere.');
+  const factor = value / reference.amount;
+  if (!Number.isFinite(factor) || (factor === 0 && value !== 0)) throw new Error('Mængden er uden for det understøttede talområde.');
+  const phases = PHASES.map(([module]) => {
+    const row = observation(record,module), result = row.value === null ? null : row.value * factor;
+    if (result !== null && (!Number.isFinite(result) || (result === 0 && row.value !== 0 && value !== 0))) throw new Error('Resultatet er uden for det understøttede talområde.');
+    return {module,value:result === 0 ? 0 : result,unit:'kg CO2-eq',observation_id:row.id,source_id:row.source_id};
+  });
+  return {method:'single_reference_quantity.v1',formula:'source_value × quantity / reference_amount',quantity:{value,unit:reference.unit},reference,scaling_factor:factor,phases,scope:'Én uændret materialereference, fase for fase. Ingen samlet bygnings-LCA eller teknisk egnethedsvurdering.'};
+}
 export function safeURL(raw) {
   try {const url = new URL(raw);return ['https:','http:'].includes(url.protocol) ? url.href : null;} catch {return null;}
 }

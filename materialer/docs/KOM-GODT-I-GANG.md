@@ -1,8 +1,8 @@
 # Kom hurtigt i gang med materialedata
 
-**[Begynd i browseren uden installation](https://fremtidenstegnestue.github.io/open-source/).** Her kan du søge blandt 507 danske tabel 7-referencer, åbne deres tal og kilder og gemme materialedata. Det er første browserudgave med kildedata fra 2025; det større Parquet-grundlag og beregningsværktøjet nedenfor har et andet omfang.
+**[Begynd i browseren uden installation](https://fremtidenstegnestue.github.io/open-source/#materialer).** Her kan du søge blandt 507 danske tabel 7-referencer, åbne deres tal og kilder og gemme materialedata. Du kan også beregne fasebidraget for din egen mængde for 447 af de 507 referencer, i kildens egen enhed, og gemme beregningen med kilder. Særlige isolerings-, installations- og dimensionsreferencer har en forklaring, når metoden ikke kan bruges. Kildedataene er fra 2025; det større Parquet-grundlag og Rust-værktøjet nedenfor har et andet omfang.
 
-Begynd med et færdigt eksempel. Gå videre til materialeopslag, når du vil undersøge dine egne muligheder. Du behøver først en database eller et modelprogram, når opgaven kræver det.
+Vælg den vej, der hjælper med din egen opgave. Det færdige eksempel er en valgfri forklaring af metoden. De lokale installationstrin nedenfor er til det større datagrundlag, egne modeller og beregningsværktøjerne.
 
 Projektets egen kode og tekst er udgivet under [MIT](../../LICENSE). **Kildedata og tredjepartsdokumentation beholder deres egne vilkår**; se [kilder og rettigheder](../THIRD_PARTY.md).
 
@@ -29,7 +29,7 @@ Tallene gælder de tre dele og deres valgte generiske referencer. A1–A3 beskri
 
 Parquet er et kompakt tabelformat. Du kan læse de medfølgende filer direkte med Python. **Dette er den lette lokale vej til opslag i hele Parquet-grundlaget; browseropslaget ovenfor har et mindre, dansk referenceudsnit.**
 
-Hent projektet fra [GitHub](https://github.com/FremtidensTegnestue/open-source) via **Code → Download ZIP**, eller brug Git:
+[Hent projektet som ZIP](https://github.com/FremtidensTegnestue/open-source/archive/refs/heads/main.zip), pak det ud, og åbn mappen **open-source-main/materialer**. [Downloadhjælpen](../../START-HER.md#hent-en-fil-eller-hele-pakken) forklarer filerne. Bruger du Git, kan du i stedet skrive:
 
 ```sh
 git clone https://github.com/FremtidensTegnestue/open-source.git
