@@ -8,6 +8,8 @@ Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, stud
 
 **[Brug materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer)** — 507 danske referencer med tal, enheder og kilder. For 447 referencer kan du også beregne et bidrag for din mængde i kildens egen enhed. Ingen installation eller konto.
 
+[Sammenlign isolering ved samme areal og isoleringsevne](https://fremtidenstegnestue.github.io/open-source/#isolering) — særskilt metode for 13 referencer, med separate klimafaser og synlige afgrænsninger. [Materialekort og nye kilder](https://fremtidenstegnestue.github.io/open-source/#materialevalg).
+
 [Første gang på GitHub? Begynd her](../START-HER.md).
 
 [De 169 materialefelter](docs/MATERIALEFELTER.md) · [Kom hurtigt i gang](docs/KOM-GODT-I-GANG.md) · [Se et gennemført eksempel](examples/integrated-workflow/README.md) · [Alle data](data/README.md) · [Ordliste](docs/ORDLISTE.md)

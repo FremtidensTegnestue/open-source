@@ -42,3 +42,19 @@ Introduktionen lover ikke en ny projektvælger eller automatisk beregning af sam
 ## Afprøv mængdeberegningen
 
 Kør `node --test docs/core.test.mjs` fra repositoryets rod. Prøverne dækker de 447 understøttede referencer, fem referencebeløb tæt på 1, dansk decimalkomma, nul, negative kildeværdier, manglende værdier, referencekonflikter og afvisning af ugyldige tal, over-/underløb og særlige referencegrundlag. I browseren kontrolleres også materialeskift, nulstilling, fejlretning, tastatur, smal visning og download af både kildedata og beregning. Ingen manglende værdi må blive nul; ingen moduler summeres.
+
+## Isoleringsvalg og materialekort
+
+`#isolering` bruger `insulation.mjs` til 13 eksplicit afgrænsede homogene BR18-tabel 7-referencer: otte plade-/fleksible og fem løsuld-/granulatreferencer. Den tidligere enkeltmængdemetode er uændret; dette er en særskilt metode for et udvalg af de 38 R-normaliserede referencer.
+
+Den deklarerede reference er 1 m² ved R = 1 m²K/W. Skalering pr. modul er `kildetal × areal_m2 × R_m2K_W`. Det er lineær skalering af det angivne generiske referencegrundlag, ikke en ny produkt-EPD eller en beregning af tykkelse, energiforbrug eller U-værdi. Fælles form og R er ikke teknisk ligestilling. Trykfaste, beklædte, akustik- og rørsystemer er udeladt fra dette forløb. Ingen varmeledningsevne eller densitet gættes. Areal må være nul; R skal være positiv. Ukendt forbliver ukendt, også ved nul areal. Modul D og forskellen B minus A vises fasevis; ingen total eller automatisk vinder.
+
+Metoden kræver præcist navnematch i den gennemgåede liste, fire unikke moduler og overensstemmende referencefelter i alle fire kildeobservationer. Konflikter, ukendte profiler og numeriske over-/underløb afvises. `compareInsulation` muterer ikke kildereferencerne. Ugyldige eller tomme input fjerner tidligere resultater og download. Gem sammenligning inkluderer input, metodeversion, udgavens Parquet-manifesthash og begge uændrede kildepakker. Gamle downloads genberegnes ikke automatisk. Beregningen foregår lokalt i JavaScript; Rust-motorens beregningskontrakt er ikke udvidet.
+
+Kontroleksempel: 20 m² ved R5 giver 100 referenceenheder. D1535 giver A1–A3 = 59,015 og C4 = 1,804 kg CO₂e. D1627 giver A1–A3 = −214,2 og C3 = 322,3 kg CO₂e. De negative produktionstal er ikke et samlet negativt livscyklusresultat. Testene efterprøver alle fire moduler og forskelle, uafhængig areal-/R-skalering, samme valg, nul, manglende data og ændret referencegrundlag. Før ændring af listen skal den konkrete references funktion og skalerbarhed gennemgås; undlad at tilføje alle R-referencer via et navnefilter.
+
+Kilder til enhedsgrundlaget: [BR18 tabel 7](https://www.bygningsreglementet.dk/Bilag/B2/Bilag_2/Tabel_7) og [officiel vejledning, afsnit 1.5](https://www.bygningsreglementet.dk/tekniske-bestemmelser/11/brv/bygningers-klimapaavirkning-1-juli-2025/kap-1_5/). JSON-filen og alle oprindelige kildetal er uændrede.
+
+`#materialevalg` viser korte, redaktionelle kort om biobaseret isolering, ålegræs til akustik, en konkret linoliemalings-EPD og bevaring. [BUILD 2026:25](https://vbn.aau.dk/da/publications/innovationsbehov-for-biobaseret-byggeri/) begrunder de dokumentationsspørgsmål, der skal afklares; rapporten er ikke en produktgodkendelse. [MD-23213-EN_rev2](https://www.epddanmark.dk/media/ncmh1zig/md-23213-en_rev2.pdf) omfatter én liter udendørs maling i én farve; den linkes som original og bruges ikke som generisk beregningsfaktor. Kildernes fulde PDF'er eller nye EPD-tal redistribueres ikke.
+
+`#nyt` adskiller ændring af visning/metode fra dataudgave og tilbyder kontakt samt den eksisterende GitHub-hjælpeformular. Nye kilder skal kontrolleres for repræsentativitet, moduler, udgave og viderebrugsret før publicering. Der er ikke tilføjet en API, en server, en kontaktformular med datalagring eller en automatisk opdateringstjeneste.

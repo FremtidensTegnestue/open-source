@@ -7,7 +7,11 @@ export function findMaterials(records, query) {
   const words = normalize(query).trim().split(/\s+/).filter(Boolean);
   return records.filter(({material:m}) => {
     const text = normalize([m.name,GROUPS[m.category] || '',m.id].join(' '));
-    return words.every(word => text.includes(word));
+    return words.every(word => {
+      if (word==='tang') return /\balegraes\b|\btang\b/.test(text);
+      if (word==='cellulose' || word==='celluloseisolering') return text.includes('papiruld') || text.includes(word);
+      return text.includes(word);
+    });
   }).sort((a,b) => a.material.name.localeCompare(b.material.name,'da'));
 }
 export function observation(record, module) {
@@ -16,7 +20,8 @@ export function observation(record, module) {
 export function numberLabel(row) {
   if (!row || row.value === null || row.value === undefined || !Number.isFinite(row.value)) return {text:'Ikke oplyst',approximate:false};
   const rounded = Number(row.value.toPrecision(6));
-  return {text:new Intl.NumberFormat('da-DK',{maximumSignificantDigits:6}).format(row.value),approximate:rounded !== row.value};
+  const scientific=Math.abs(row.value)>=1e9 || (row.value!==0 && Math.abs(row.value)<1e-6);
+  return {text:new Intl.NumberFormat('da-DK',{maximumSignificantDigits:6,...(scientific ? {notation:'scientific'} : {})}).format(row.value),approximate:rounded !== row.value};
 }
 export function unitLabel(unit) {
   if (unit === 'kg CO2-eq') return 'kg CO₂e';
@@ -44,7 +49,7 @@ export function quantityBasis(record) {
   for (const row of rows) {
     const context = conditions(row);
     if (context.record_scope === 'installation_area_reference_factor') throw new Error('Denne reference gælder opvarmet etageareal og år. Den kræver en særskilt beregningsmetode.');
-    if (row.declared_unit?.includes('with R=')) throw new Error('Denne isoleringsreference gælder en bestemt varmemodstand. Tykkelse og varmeegenskaber skal afklares før en mængdeberegning.');
+    if (row.declared_unit?.includes('with R=')) throw new Error('Denne isoleringsreference gælder en bestemt varmemodstand. Areal alene er derfor ikke et tilstrækkeligt beregningsgrundlag.');
     const match = row.declared_unit?.match(/^(\d+(?:\.\d+)?) (kg|ton|m|m²|m³|stk)$/);
     if (!match || context.record_scope !== 'official_material_or_construction_reference' || row.unit !== 'kg CO2-eq') throw new Error('Denne reference har særlige enheder eller betingelser, som den enkle beregning ikke understøtter.');
     const amount = Number(match[1]), unit = match[2];

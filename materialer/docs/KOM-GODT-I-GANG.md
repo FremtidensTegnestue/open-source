@@ -2,6 +2,8 @@
 
 **[Begynd i browseren uden installation](https://fremtidenstegnestue.github.io/open-source/#materialer).** Her kan du søge blandt 507 danske tabel 7-referencer, åbne deres tal og kilder og gemme materialedata. Du kan også beregne fasebidraget for din egen mængde for 447 af de 507 referencer, i kildens egen enhed, og gemme beregningen med kilder. Særlige isolerings-, installations- og dimensionsreferencer har en forklaring, når metoden ikke kan bruges. Kildedataene er fra 2025; det større Parquet-grundlag og Rust-værktøjet nedenfor har et andet omfang.
 
+**[Undersøg to isoleringsvalg ved samme areal og isoleringsevne](https://fremtidenstegnestue.github.io/open-source/#isolering).** Et særskilt browserforløb kan skalere 13 udvalgte R-normaliserede referencer. Du kan se forskellen fase for fase og gemme begge kildegrundlag. R gælder isoleringslaget; brand, fugt, lyd, montage og egnethed skal afklares for det konkrete projekt. [Materialekort og nye kilder](https://fremtidenstegnestue.github.io/open-source/#materialevalg) · [Opdateringer og bidrag](https://fremtidenstegnestue.github.io/open-source/#nyt).
+
 Vælg den vej, der hjælper med din egen opgave. Det færdige eksempel er en valgfri forklaring af metoden. De lokale installationstrin nedenfor er til det større datagrundlag, egne modeller og beregningsværktøjerne.
 
 Projektets egen kode og tekst er udgivet under [MIT](../../LICENSE). **Kildedata og tredjepartsdokumentation beholder deres egne vilkår**; se [kilder og rettigheder](../THIRD_PARTY.md).

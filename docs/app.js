@@ -1,4 +1,5 @@
 import {GROUPS,PHASES,findMaterials,observation,numberLabel,unitLabel,referenceLabel,conditions,safeURL,validateData,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
+import {INSULATION,insulationBasis,compareInsulation} from './insulation.mjs';
 
 const $ = id => document.getElementById(id);
 let data, hits = [], shown = 12, selected = null;
@@ -36,7 +37,9 @@ function quantityCalculator(record) {
   const title=el('h3','Se bidraget for din mængde');title.id='quantity-title';section.setAttribute('aria-labelledby',title.id);section.append(title);
   let basis;
   try {basis=quantityBasis(record);} catch(error) {
-    section.append(el('p',error.message),el('p','Du kan stadig læse kildens tal og bruge Gem materialedata.','muted'));return section;
+    section.append(el('p',error.message));
+    if (INSULATION.some(item=>item.id===record.material.id)) section.append(button('Sammenlign denne isolering',()=>chooseInsulation(record)));
+    section.append(el('p','Du kan stadig læse kildens tal og bruge Gem materialedata.','muted'));return section;
   }
   section.append(el('p','Indtast en mængde af præcis den valgte materialetype og opbygning. Resultatet opdateres med det samme.'));
   const form=el('form'),input=el('input'),fieldLabel=el('label',`Din mængde i ${basis.unit}`);
@@ -107,6 +110,11 @@ function showMaterial(record, focus=false, push=false) {
   }
   if (production?.declared_unit?.includes('with R=')) section.append(el('p','Isoleringen er opgjort for den angivne varmemodstand R. Tallet gælder derfor ikke automatisk én fast tykkelse isolering.','reference-note'));
   if (c.source_comment) section.append(el('p',`Kildens bemærkning: ${c.source_comment}`,'reference-note'));
+  if (m.category==='insulation' || m.name.includes('ålegræs')) {
+    const guidance=el('details');guidance.append(el('summary','Brug og forhold du skal afklare'));
+    guidance.append(el('p',m.name.includes('ålegræs') ? 'Denne reference gælder et akustikpanel af ålegræs. Den dokumenterer ikke varmeisolering eller andre tangprodukter.' : 'Afklar materialets konkrete anvendelse, tykkelse, brand, fugt, lyd og montage. Navnet eller et lavt klimatal er ikke en dokumentation for teknisk egnethed.'));
+    guidance.append(link('Se materialekort og kilder',new URL('#materialevalg',location.href).href));section.append(guidance);
+  }
   section.append(quantityCalculator(record),el('h3','Kildens tal for referencemængden'));
   const grid = phaseGrid(PHASES.map(([module]) => observation(record,module)));
   section.append(grid,el('p','CO₂e samler påvirkningen fra forskellige drivhusgasser i én enhed. ≈ betyder, at visningen er afrundet; kildens præcise tal findes nedenfor.','muted'));
@@ -187,14 +195,85 @@ async function load() {
     const response = await fetch(new URL('materialer.json',import.meta.url));
     if (!response.ok) throw new Error('Data kunne ikke hentes');
     data = validateData(await response.json());
+    initInsulation();
     document.querySelectorAll('#search-form input,#search-form button,button[data-query]').forEach(node => node.disabled=false);
     $('load-status').textContent = 'Klar. Vælg et eksempel, eller søg med dine egne ord.';restoreAddress();
   } catch {
     data = null;selected = null;$('results').hidden = true;$('detail').hidden = true;
+    $('insulation-result').replaceChildren();$('insulation-save').hidden=true;
+    $('insulation-status').textContent='Sammenligningen er ikke tilgængelig, før materialerne er hentet.';
+    document.querySelectorAll('#insulation-form input,#insulation-form select,#insulation-form button').forEach(node=>node.disabled=true);
     $('load-status').textContent = 'Materialerne kunne ikke hentes. Kontroller forbindelsen, og prøv igen. Du kan stadig bruge læsestoffet nedenfor.';
     $('retry').hidden = false;
   }
 }
+let insulationResult=null;
+function initInsulation() {
+  // Refuse stale profile names or changed reference conditions before enabling.
+  for (const profile of INSULATION) insulationBasis(data.records.find(record=>record.material.id===profile.id));
+  document.querySelectorAll('#insulation-form input,#insulation-form select,#insulation-form button').forEach(node=>node.disabled=false);
+  fillInsulationOptions();updateInsulation();
+}
+function fillInsulationOptions() {
+  const profiles=INSULATION.filter(item=>item.form===$('insulation-form-type').value);
+  for (const id of ['insulation-a','insulation-b']) {
+    $(id).replaceChildren();
+    for (const p of profiles) {const option=el('option',p.name);option.value=p.id;$(id).append(option);}
+  }
+  $('insulation-a').value=profiles.find(p=>p.id.includes($('insulation-form-type').value==='plade' ? 'D1535:' : 'D1545:')).id;
+  $('insulation-b').value=profiles.find(p=>p.id.includes($('insulation-form-type').value==='plade' ? 'D1627:' : 'D1626:')).id;
+}
+function chooseInsulation(record) {
+  const profile=insulationBasis(record);
+  if ($('insulation-form-type').value!==profile.form) {$('insulation-form-type').value=profile.form;fillInsulationOptions();}
+  $('insulation-a').value=profile.id;updateInsulation();
+  $('isolering').scrollIntoView({block:'start'});$('insulation-a').focus({preventScroll:true});
+}
+function updateInsulation() {
+  insulationResult=null;$('insulation-result').replaceChildren();$('insulation-save').hidden=true;$('insulation-error').textContent='';
+  for(const id of ['insulation-area','insulation-r']) $(id).removeAttribute('aria-invalid');
+  if (!data) return;
+  if (!$('insulation-area').value.trim() || !$('insulation-r').value.trim()) {$('insulation-status').textContent='Angiv areal og ønsket R for at se begge muligheder.';return;}
+  let field='insulation-area';
+  try {
+    const area=parseQuantity($('insulation-area').value);field='insulation-r';
+    const resistance=parseQuantity($('insulation-r').value);
+    if (resistance<=0) throw new Error('Isoleringsevnen R skal være større end 0 m²K/W.');
+    field=null;
+    const a=data.records.find(record=>record.material.id===$('insulation-a').value),b=data.records.find(record=>record.material.id===$('insulation-b').value);
+    insulationResult=compareInsulation(a,b,area,resistance);
+    $('insulation-status').textContent=`Samme areal: ${label({value:area})} m². Samme isoleringsevne: R = ${label({value:resistance})} m²K/W. Ingen samlet vinder udpeges.`;
+    const names=el('div',undefined,'comparison-names');
+    for (const [i,record] of [a,b].entries()) {
+      const name=el('div');name.append(el('h3',`${i===0 ? 'A' : 'B'} · ${record.material.name}`),button('Se reference og kilde',()=>{showMaterial(record,true,true);},'secondary'));names.append(name);
+    }
+    $('insulation-result').append(names);
+    if (insulationResult.variants.some(v=>v.phases.some(p=>p.module!=='D' && p.value!==null && p.value<0))) $('insulation-result').append(el('p','Negative produktionstal kan modsvares af påvirkninger efter brug. Læs alle viste faser; et minustal er ikke et samlet negativt klimaaftryk.','notice'));
+    for (const [i,[module,name]] of PHASES.entries()) {
+      const section=el('section',undefined,'comparison-phase');section.append(el('h3',`${name} · ${module}`));
+      const list=el('dl');
+      for (const [title,row] of [['A',insulationResult.variants[0].phases[i]],['B',insulationResult.variants[1].phases[i]],['Forskel B minus A',insulationResult.differences[i]]]) {
+        const cell=el('div');cell.append(el('dt',title),el('dd',label(row)),el('p','kg CO₂e','muted'));list.append(cell);
+      }
+      section.append(list);$('insulation-result').append(section);
+    }
+    $('insulation-result').append(el('p','En negativ forskel betyder, at B er lavere i den pågældende fase. D vises særskilt og er ikke trukket fra. ≈ markerer afrunding; download bevarer de præcise beregnede tal.','muted'));
+    $('insulation-save').hidden=false;
+  } catch(error) {
+    insulationResult=null;$('insulation-result').replaceChildren();$('insulation-save').hidden=true;
+    if(field) $(field).setAttribute('aria-invalid','true');
+    $('insulation-error').textContent=error.message;$('insulation-status').textContent='Ret indtastningen. Den tidligere sammenligning er fjernet.';
+  }
+}
+$('insulation-form').addEventListener('submit',event=>{event.preventDefault();updateInsulation();});
+for(const id of ['insulation-area','insulation-r']) $(id).addEventListener('input',updateInsulation);
+for(const id of ['insulation-a','insulation-b']) $(id).addEventListener('change',updateInsulation);
+$('insulation-form-type').addEventListener('change',()=>{fillInsulationOptions();updateInsulation();});
+$('insulation-clear').addEventListener('click',()=>{$('insulation-area').value='';$('insulation-r').value='';updateInsulation();$('insulation-area').focus();});
+$('insulation-save').addEventListener('click',()=>{
+  if(!insulationResult) return;
+  downloadJSON({schema_version:1,tool_version:'browser-insulation-1',data_scope:data.scope,parquet_manifest_sha256:data.parquet_manifest_sha256,calculation:insulationResult,source_records:insulationResult.variants.map(v=>materialExport(data.records.find(r=>r.material.id===v.material_id))),method_url:'https://fremtidenstegnestue.github.io/open-source/#isolering-metode'},'isoleringssammenligning');
+});
 $('search-form').addEventListener('submit',event => {event.preventDefault();if(data) search();});
 for (const b of document.querySelectorAll('button[data-query]')) b.addEventListener('click',() => {$('query').value=b.dataset.query;search();});
 $('more').addEventListener('click',() => {shown+=12;renderResults();});

@@ -17,14 +17,14 @@ margin:0;
 background:var(--surface);
 color:var(--ink);
 font:1rem/1.6 Arial,Helvetica,sans-serif}
-button,input{
+button,input,select{
 font:inherit}
 a{
 color:var(--link);
 text-underline-offset:.22em}
 a:hover{
 text-decoration-thickness:2px}
-button,a,input,summary{
+button,a,input,select,summary{
 touch-action:manipulation}
 :focus-visible{
 outline:3px solid var(--link);
@@ -616,4 +616,42 @@ grid-template-columns:1fr}
 .climate-grid{grid-template-columns:1fr}
 .phase:nth-child(n){border-right:0;border-bottom:1px solid var(--line)}
 .phase:last-child{border-bottom:0}
+}
+
+/* Keep each material choice and each phase readable on its own. */
+.comparison{padding-block:2.5rem;border-block:1px solid var(--line)}
+.comparison>h2{font:normal clamp(1.625rem,3vw,2.25rem)/1.2 Arial,Helvetica,sans-serif}
+.comparison form{padding:1.5rem;background:#fff;border:1px solid var(--line)}
+.comparison-fields,.comparison-names{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}
+.comparison input,.comparison select{width:100%;min-width:0;max-width:100%;min-height:48px;padding:.65rem .8rem;border:1px solid var(--outline);border-radius:2px;background:white;color:var(--ink)}
+.comparison select{font-size:1rem}
+.comparison input[aria-invalid=true]{border-color:#963d26}
+.comparison form>.muted{margin:.7rem 0 1.5rem}
+.material-selects{margin-block:1.5rem}
+.comparison-actions{display:flex;gap:.65rem;flex-wrap:wrap}
+.comparison [role=status]{margin-block:1.5rem;font-weight:650}
+.comparison-names{margin-block:1.5rem}
+.comparison-names h3{margin-bottom:.75rem}
+.comparison-phase{border:1px solid var(--line);background:white;margin-block:1rem;padding:1.2rem}
+.comparison-phase:last-of-type{background:var(--wash)}
+.comparison-phase h3{margin-bottom:1rem}
+.comparison-phase dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:0}
+.comparison-phase dt{font-size:.95rem}
+.comparison-phase dd{font-size:1.5rem;font-weight:700;margin:.3rem 0;white-space:nowrap;font-variant-numeric:tabular-nums}
+.comparison-phase p{margin:0}
+.comparison details,#nyt details{border-block:1px solid var(--line);padding-block:1rem;margin-block:1.5rem}
+.comparison summary,#nyt summary{font-weight:650;cursor:pointer}
+.comparison details[open] summary,#nyt details[open] summary{margin-bottom:1rem}
+#nyt article{border-left:3px solid var(--link);padding-left:1.25rem}
+.knowledge-cards li{padding-top:1rem}
+@media(max-width:780px){
+.comparison-phase dl{grid-template-columns:1fr}
+.comparison-phase dl>div{display:grid;grid-template-columns:minmax(0,1fr);border-top:1px solid var(--line);padding-top:.65rem}
+}
+@media(max-width:600px){
+.comparison-fields,.comparison-names{grid-template-columns:1fr;gap:1rem}
+.comparison form{padding:1rem}
+.comparison-phase{padding:1rem}
+.comparison-phase dd{font-size:1.4rem}
+.comparison select{font-size:1rem}
 }

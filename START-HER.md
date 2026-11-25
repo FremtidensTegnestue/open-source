@@ -20,6 +20,7 @@ Websiden er indgangen for arkitekter, konstruktører, ingeniører, bygherrer, h�
 
 ## Vælg en relevant fordybelse
 
+- **Undersøg isoleringsvalg:** [Sammenlign to muligheder i browseren](https://fremtidenstegnestue.github.io/open-source/#isolering). Vælg form og to referencer, og angiv areal og ønsket isoleringsevne R. Du ser klimafaserne og forskellen med det samme og kan gemme input, resultater og kilder. Der beregnes ikke en hel konstruktion eller en fuld LCA. [Materialekortene](https://fremtidenstegnestue.github.io/open-source/#materialevalg) hjælper dig med spørgsmål om anvendelse, montage og vedligehold.
 - **Find navnet på en bygningsdel:** [Åbn det illustrerede vindue på websiden](https://fremtidenstegnestue.github.io/open-source/vinduet.html). Se tegningen, vælg en del, og følg henvisningen til forklaringen og originalkilden.
 - **Læs en bog:** [Åbn bøgerne på websiden](https://fremtidenstegnestue.github.io/open-source/#boeger), og læs den korte beskrivelse ved hver titel. Vælg den, der hjælper med din egen opgave. PDF'en åbnes eller bliver hentet til din computer eller telefon. Skal bogen til trykkeriet, findes særskilte **Tryk**-filer i [den fulde bogoversigt](bogserie/README.md).
 - **Forstå et klimaregnestykke:** [Læs eksemplet med betonpladen på websiden](https://fremtidenstegnestue.github.io/open-source/regneeksempel.html). Du kan se, hvad ændret tykkelse gør ved masse og produktionsklima, uden at køre beregningen selv.
