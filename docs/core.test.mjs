@@ -2,7 +2,50 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {normalize,findMaterials,numberLabel,unitLabel,referenceLabel,safeURL,validateData,observation,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
+import {INSULATION,insulationBasis,compareInsulation} from './insulation.mjs';
+import {FASTENERS,fastenerBasis,validateFasteners,fastenerResult} from './fasteners.mjs';
 const data = JSON.parse(readFileSync(new URL('./materialer.json',import.meta.url),'utf8'));
+const screws=JSON.parse(readFileSync(new URL('./fastgoerelser.json',import.meta.url),'utf8'));
+
+test('two separate screw sources preserve their original edition, scope and unreported modules',()=>{
+  assert.equal(validateFasteners(screws),screws);
+  assert.equal(screws.observation_count,9);
+  assert.equal(FASTENERS.length,2);
+  const galvanized=screws.records.find(r=>r.material.name==='Galvanized steel screws');
+  const stainless=screws.records.find(r=>r.material.name==='Stainless steel screws');
+  const a=fastenerResult(galvanized,2.5),b=fastenerResult(stainless,2.5);
+  assert.equal(a.phases[0].value,3.46125799354958*2.5);
+  assert.equal(b.phases[0].value,4.18348088118257*2.5);
+  assert.deepEqual(a.missing_modules,['C4']);
+  assert.deepEqual(b.missing_modules,['C3','C4']);
+  assert.equal(a.phases[3].value,0);
+  assert.equal(b.phases[3].value,null);
+  assert.equal(a.phases[5].value,-1.3690431511612*2.5);
+  assert(!('total' in a));assert.deepEqual(a.excluded_modules,['A4','A5','B1-B7']);
+  assert.equal(fastenerResult(stainless,0).phases[3].value,null);
+});
+test('screw mass calculation rejects wrong product, indicator and conflicting mass reference',()=>{
+  const base=screws.records[0];
+  for (const change of [
+    r=>r.material.name='Steel bracket',
+    r=>r.observations[0].method='GWP-fossil',
+    r=>r.observations[0].declared_unit='stk',
+    r=>r.observations[0].basis='1000 kg',
+    r=>{const c=JSON.parse(r.observations[0].conditions_json);c.declared_references[0].amount=1000;r.observations[0].conditions_json=JSON.stringify(c);},
+    r=>r.observations[0].value=NaN,
+    r=>r.observations.push(r.observations[0]),
+  ]) {const r=structuredClone(base);change(r);assert.throws(()=>fastenerBasis(r));}
+  for(const mass of [-1,NaN,Infinity,'2']) assert.throws(()=>fastenerResult(base,mass));
+  assert.throws(()=>fastenerResult(base,Number.MAX_VALUE));
+  assert.throws(()=>fastenerResult(base,Number.MIN_VALUE));
+});
+test('screw data fetch validation rejects incomplete, duplicated, re-scoped and unlicensed editions',()=>{
+  for(const change of [
+    d=>d.records.pop(),d=>d.records[1]=d.records[0],d=>d.sources.pop(),
+    d=>d.sources[0].license_status='unknown',d=>d.records[0].observations[0].module='C4',
+    d=>d.records[0].observations[0].source_id='missing',d=>d.parquet_manifest_sha256='',
+  ]) {const d=structuredClone(screws);change(d);assert.throws(()=>validateFasteners(d));}
+});
 
 test('the complete shipped excerpt resolves every material and module',() => {
   assert.equal(validateData(data),data);
@@ -93,3 +136,66 @@ test('quantity calculation refuses conflicting references, missing phases, inval
   assert.throws(()=>quantityResult(oak,Number.MAX_VALUE));
   const tiny=structuredClone(oak);observation(tiny,'C3').value=1e-300;assert.throws(()=>quantityResult(tiny,1e-100));
 });
+
+test('cellulose finds paper insulation and tang finds eelgrass without a rectangular duct',()=>{
+  assert(findMaterials(data.records,'cellulose').some(r=>r.material.name==='Papiruldsisolering, granulat'));
+  assert.deepEqual(findMaterials(data.records,'tang').map(r=>r.material.name),['Akustikpanel, ålegræs','Akustikpanel, ålegræs, brandhæmmende']);
+  assert.equal(findMaterials(data.records,'tang varmeisolering').length,0);
+});
+test('very large and tiny numbers stay legible without rounding a nonzero value to zero',()=>{
+  assert.match(numberLabel({value:1e100}).text,/E100/);
+  assert.match(numberLabel({value:1e-100}).text,/E-100/);
+  assert.notEqual(numberLabel({value:1e-100}).text,'0');
+});
+const insulation=code=>data.records.find(r=>r.material.id.includes(`:${code}:`));
+test('reviewed insulation catalogue resolves 8 slab/flexible and 5 loose-fill source references',()=>{
+  assert.equal(INSULATION.length,13);
+  assert.equal(INSULATION.filter(p=>p.form==='plade').length,8);
+  assert.equal(INSULATION.filter(p=>p.form==='loes').length,5);
+  for (const p of INSULATION) assert.equal(insulationBasis(data.records.find(r=>r.material.id===p.id)),p);
+  for (const code of ['D1555','D1550','D1553','D1623','D1628']) assert.throws(()=>insulationBasis(insulation(code)));
+});
+test('20 m² at R5 is 100 reference units: two real references and all four phase differences',()=>{
+  const result=compareInsulation(insulation('D1535'),insulation('D1627'),20,5);
+  const expectedA=[59.015,0,1.804,-2.322],expectedB=[-214.2,322.3,0.02739,-18.18],expectedDiff=[-273.215,322.3,-1.77661,-15.858];
+  for (let i=0;i<4;i++) {
+    assert(Math.abs(result.variants[0].phases[i].value-expectedA[i])<1e-10);
+    assert(Math.abs(result.variants[1].phases[i].value-expectedB[i])<1e-10);
+    assert(Math.abs(result.differences[i].value-expectedDiff[i])<1e-10);
+  }
+  assert.equal(result.scaling_factor,100);
+  assert(!('total' in result) && !('winner' in result));
+  assert.equal(result.differences[3].module,'D');
+});
+test('same reference gives zero differences; area scaling and R scaling are independent',()=>{
+  const a=insulation('D1620'),b=insulation('D1621');
+  const r=compareInsulation(a,b,7.5,4);
+  for (const p of [compareInsulation(a,b,15,4),compareInsulation(a,b,7.5,8)]) for(let i=0;i<4;i++) assert.equal(p.variants[0].phases[i].value,2*r.variants[0].phases[i].value);
+  assert(compareInsulation(a,a,20,5).differences.every(p=>p.value===0 && !Object.is(p.value,-0)));
+  assert(compareInsulation(a,b,0,5).variants.every(v=>v.phases.every(p=>p.value===0)));
+});
+test('missing source phases remain unknown, including at zero area; source records are untouched',()=>{
+  const a=structuredClone(insulation('D1535')),b=insulation('D1627'),before=JSON.stringify(b);
+  observation(a,'C4').value=null;
+  for (const area of [0,20]) {
+    const result=compareInsulation(a,b,area,5);
+    assert.equal(result.variants[0].phases[2].value,null);
+    assert.equal(result.differences[2].value,null);
+  }
+  assert.equal(JSON.stringify(b),before);
+});
+test('insulation rejects conflicts, wrong forms, incomplete phases and numeric failure',()=>{
+  const a=insulation('D1535'),b=insulation('D1627');
+  assert.throws(()=>compareInsulation(a,insulation('D1626'),20,5),/samme form/);
+  for(const [area,r] of [[-1,5],[20,0],[20,-1],[NaN,5],[20,Infinity],['20',5],[true,5],[20,'5'],[Number.MAX_VALUE,5],[1e-300,1e-300]]) assert.throws(()=>compareInsulation(a,b,area,r));
+  for(const mutate of [
+    r=>{observation(r,'C3').conditions_json=JSON.stringify({...conditionsForTest(r),reference_amount:2});},
+    r=>{observation(r,'C3').declared_unit='1 m²';},
+    r=>{observation(r,'C3').module='D';},
+    r=>{r.material.name+=' changed';},
+    r=>{observation(r,'C3').value=NaN;},
+    r=>{r.observations=r.observations.filter(p=>p.module!=='C4');},
+  ]) {const changed=structuredClone(a);mutate(changed);assert.throws(()=>compareInsulation(changed,b,20,5));}
+  const tiny=structuredClone(a);observation(tiny,'C3').value=1e-300;assert.throws(()=>compareInsulation(tiny,b,1e-100,1));
+});
+function conditionsForTest(record) {return JSON.parse(observation(record,'C3').conditions_json);}

@@ -26,6 +26,10 @@ Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Samme
 
 - **Beregne bidraget fra en materialemængde:** [Find materialet og indtast din mængde i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer). Beregningen bruger kildens egen enhed og viser faserne særskilt for de understøttede referencer.
 
+- **Sammenligne isolering:** [Undersøg to muligheder ved samme areal og isoleringsevne](https://fremtidenstegnestue.github.io/open-source/#isolering). 13 udvalgte referencer har en særskilt beregningsmetode. Se faserne, forskellen og de tekniske forhold, der stadig skal afklares. [Materialekort og nye kilder](https://fremtidenstegnestue.github.io/open-source/#materialevalg) · [Opdateringer og materialeforslag](https://fremtidenstegnestue.github.io/open-source/#nyt).
+
+- **Få skruer og samlinger med:** [Beregn skruernes bidrag ud fra nettovægt](https://fremtidenstegnestue.github.io/open-source/#fastgoerelser). To tyske generiske referencer supplerer de danske tabelværdier. Kildekort for beslag, tape og fugtvariabel membran viser, hvad der mangler, før deres klimatal kan indgå. [Grundlag og kildeudgaver](materialer/docs/sources/fastgoerelser-og-taetning.md).
+
 - **Bruge egne modeller, flere datakilder eller de lokale beregningsværktøjer:** [Følg den korte startvejledning](materialer/docs/KOM-GODT-I-GANG.md). Opslag i det større datagrundlag og beregningsværktøjerne har deres egne installationsveje. Du kan først følge et færdigt regnestykke i browseren.
 
 - **Hente bøger til skærm eller papir:** [Find de otte bøger og deres PDF-filer](bogserie/README.md). Du skal bruge en PDF-læser. Modeller og byggeprogrammer er valgfrie.
@@ -73,6 +77,8 @@ Har du et vindue, du gerne vil redde, en model med mangelfulde materialetal elle
 - **Materialeopslag i browseren:** Søg i de 507 referencer i BR18's generiske tabel 7 fra 2025 uden installation eller konto. Se kildens referencemængde, enheder, betingelser og klimafaser, og hent de præcise data. Kildens tal vises fase for fase. For 447 referencer kan du desuden indtaste din mængde i kildens egen enhed og gemme beregningen med kilder. De øvrige 60 viser en konkret begrundelse for, at den enkle metode ikke kan bruges. Det er et afgrænset materialebidrag, ikke en samlet LCA. [Brug opslaget](https://fremtidenstegnestue.github.io/open-source/#materialer).
 
 - **Lokale materialeopslag:** Undersøg det større datagrundlag med værdier, enheder og betingelser fra flere kilder. Det første lokale opslag er testet på Windows, macOS og Linux og fra en offentlig ZIP i et nyt miljø. [Kontrolforløbet](materialer/docs/VALIDATION.md) beskriver omfanget; [startvejledningen](materialer/docs/KOM-GODT-I-GANG.md) viser opsætningen.
+
+- **Isoleringssammenligning i browseren:** 13 af de R-normaliserede referencer har et særskilt forløb med samme areal og R for isoleringslaget. Resultatet er en delberegning med separate klimafaser og kildeeksport. Samme R og materialeform efterviser ikke brand, fugt, lyd, montage eller hele konstruktionens ydeevne. [Metode og kontrol](docs/README.md#isoleringsvalg-og-materialekort).
 
 - **Materialeberegninger:** Beregn masse, ét klimamodul eller den beskrevne træfugtbevægelse. Metoder og konkrete eksempler er kontrolleret. Et produktionsbidrag er en del af et klimaregnskab. [Metoder og forudsætninger](materialer/docs/CALCULATIONS.md).
 

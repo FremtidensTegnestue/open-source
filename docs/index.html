@@ -7,14 +7,14 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'">
   <title>Åbne værktøjer — Fremtidens Tegnestue</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script type="module" src="app.js"></script>
+  <link rel="stylesheet" href="style.css?v=20261125-111">
+  <script type="module" src="app.js?v=20261125-111"></script>
 </head>
 <body>
 <a class="skip" href="#materialer">Gå til materialeopslag</a>
 <header class="header wrap">
   <a class="brand" href="./" aria-label="Fremtidens Tegnestue, åbne værktøjer"><img src="favicon.svg" width="40" height="40" alt=""><span class="brand-name">Fremtidens Tegnestue</span><span class="brand-sub">Åbne værktøjer</span></a>
-  <nav aria-label="Hovedmenu"><a href="#laes">Viden og værktøjer</a><a href="#materialer">Materialer</a><a href="#om">Om værktøjerne</a></nav>
+  <nav aria-label="Hovedmenu"><a href="#laes">Viden og værktøjer</a><a href="#materialer">Materialer</a><a href="#isolering">Sammenlign isolering</a><a href="#nyt">Nyt</a></nav>
 </header>
 <main>
   <section class="intro wrap" aria-labelledby="headline">
@@ -29,6 +29,8 @@
     <div class="reading-grid">
       <a class="task-card" href="#boeger"><span class="reading-kind">Viden om bygninger og mennesker</span><h3>Undersøg brug, bevaring og forandring</h3><p>Find fagbøger om bygninger, genbrug og samlinger. Brug dem til at undersøge din opgave og de kvaliteter, du vil bevare eller skabe.</p><span class="task-action">Find relevant læsestof</span></a>
       <a class="task-card" href="#materialer"><span class="reading-kind">Materialer og klima</span><h3>Undersøg materialernes grundlag</h3><p>Find en reference, se tal og kilder, og indtast din mængde for at beregne et afgrænset materialebidrag direkte i browseren.</p><span class="task-action">Find materiale og beregn bidrag</span></a>
+      <a class="task-card" href="#isolering"><span class="reading-kind">To muligheder ved samme isoleringsevne</span><h3>Undersøg dit isoleringsvalg</h3><p>Vælg to referencer, angiv areal og isoleringsevne, og se forskellen i de enkelte klimafaser.</p><span class="task-action">Sammenlign isolering</span></a>
+      <a class="task-card" href="#materialevalg"><span class="reading-kind">Praktisk viden ved valget</span><h3>Find de spørgsmål, du skal afklare</h3><p>Undersøg biobaserede materialer, vedligehold og bevaring. Se nye produktkilder og deres afgrænsning.</p><span class="task-action">Læs materialekortene</span></a>
       <a class="task-card" href="regneeksempel.html"><span class="reading-kind">Valgfrit regneeksempel</span><h3>Følg en ændring fra mål til klimatal</h3><p>Se metoden i et gemt eksempel med en betonplade. Følg mængderne, kilderne og det afgrænsede produktionsbidrag.</p><span class="task-action">Se regneeksemplet</span></a>
       <a class="task-card" href="vinduet.html"><span class="reading-kind">Valgfrit detaljeeksempel</span><h3>Forstå en bygningsdel</h3><p>Brug vinduestegningen, når du har brug for at forstå delene og finde ordene til at beskrive dem.</p><span class="task-action">Se vinduesforklaringen</span></a>
     </div>
@@ -40,6 +42,7 @@
         <label for="query">Hvad vil du undersøge?</label>
         <div class="search-line"><input type="search" id="query" name="q" placeholder="Fx træ, isolering eller beton" aria-describedby="search-help" autocomplete="off" disabled><button type="submit" id="search-button" disabled>Søg materialer</button></div>
         <p id="search-help" class="muted">Søg på materiale eller bygningsdel. Vælg en reference for at se kilder og beregne et bidrag for din mængde, når referenceenheden er understøttet.</p>
+        <p><a href="#fastgoerelser">Leder du efter skruer, beslag eller tætning?</a> De har et særskilt forløb med andre kilder.</p>
       </form>
       <div class="examples" aria-label="Prøv et materiale"><span>Prøv fx</span><button type="button" data-query="egetræ" disabled>Egetræ</button><button type="button" data-query="isolering" disabled>Isolering</button><button type="button" data-query="beton" disabled>Beton</button></div>
       <p id="load-status" role="status">Henter materialerne…</p><button id="retry" type="button" class="secondary" hidden>Prøv at hente igen</button>
@@ -52,6 +55,85 @@
       <button id="more" class="secondary" type="button" hidden>Vis flere materialer</button>
     </section>
     <section id="detail" class="detail" aria-labelledby="material-title" hidden></section>
+  </section>
+  <section id="isolering" class="comparison wrap" aria-labelledby="insulation-title">
+    <h2 id="insulation-title">To isoleringsvalg. Samme isoleringsevne.</h2>
+    <p>Undersøg, hvad valget betyder for klimabidraget fra selve isoleringslaget. Vælg to referencer med samme form, og angiv areal og ønsket isoleringsevne — kaldet varmemodstand R.</p>
+    <form id="insulation-form">
+      <div class="comparison-fields">
+        <div><label for="insulation-area">Areal, der skal isoleres · m²</label><input id="insulation-area" type="text" inputmode="decimal" autocomplete="off" placeholder="Fx 20" aria-describedby="insulation-input-help insulation-error" disabled></div>
+        <div><label for="insulation-r">Isoleringsevne R · m²K/W</label><input id="insulation-r" type="text" inputmode="decimal" autocomplete="off" placeholder="Fx 5" aria-describedby="insulation-input-help insulation-error" disabled></div>
+      </div>
+      <p id="insulation-input-help" class="muted">R gælder kun isoleringslaget. Et større R betyder større varmemodstand. Eksemplerne i felterne er ikke et lovkrav eller et projekteringsforslag. Tykkelsen afhænger af det konkrete produkts varmeledningsevne; den beregnes ikke her.</p>
+      <label for="insulation-form-type">Hvilken form undersøger du?</label>
+      <select id="insulation-form-type" disabled><option value="plade">Plade eller fleksibel isolering</option><option value="loes">Løsuld eller granulat</option></select>
+      <div class="comparison-fields material-selects">
+        <div><label for="insulation-a">Mulighed A</label><select id="insulation-a" disabled></select></div>
+        <div><label for="insulation-b">Mulighed B</label><select id="insulation-b" disabled></select></div>
+      </div>
+      <div class="comparison-actions"><button type="submit" disabled>Vis sammenligning</button><button id="insulation-clear" type="button" class="secondary" disabled>Nulstil mængder</button></div>
+    </form>
+    <p id="insulation-error" class="quantity-error" role="alert"></p>
+    <p id="insulation-status" role="status">Henter referencerne…</p>
+    <div id="insulation-result"></div>
+    <button id="insulation-save" type="button" class="secondary" hidden>Gem sammenligning</button>
+    <p class="reference-note">Samme R er kun et fælles termisk grundlag. Brand, fugt, lyd, montage og egnethed skal undersøges for den konkrete løsning. Øvrige lag, transport, spild, montage, drift og udskiftninger er ikke med. Dette er ikke en fuld LCA eller dokumentation for en færdig konstruktion.</p>
+    <details id="isolering-metode"><summary>Beregningsgrundlag, data og afgrænsning</summary>
+      <p>De 13 udvalgte homogene isoleringsreferencer i BR18 tabel 7 har en deklareret enhed på 1 m² ved R = 1 m²K/W. Hvert modul skaleres lineært: <strong>kildens tal × dit areal i m² × dit R i m²K/W</strong>. Der bruges ingen antaget densitet eller varmeledningsevne. Metoden ændrer ikke referencens materialesammensætning.</p>
+      <p>Det er en sammenligning af generiske referencer, ikke af navngivne produkter. Udvalget omfatter otte plade-/fleksible referencer og fem løsuld-/granulatreferencer. Trykfaste produkter, rørisolering, beklædte systemer og referencer alene til akustik er ikke med i dette forløb. Fælles form er en første afgrænsning, ikke dokumenteret teknisk ligestilling.</p>
+      <p>Datagrundlag: BR18 tabel 7, kildeudgave 2025, hentet 17. november 2026. <a href="https://www.bygningsreglementet.dk/Bilag/B2/Bilag_2/Tabel_7">Se originaltabellen</a> · <a href="https://www.bygningsreglementet.dk/tekniske-bestemmelser/11/brv/bygningers-klimapaavirkning-1-juli-2025/kap-1_5/">Læs vejledningen til deklarerede enheder</a>. Metodeversion: br18_insulation_area_r.v1.</p>
+      <p>Gem sammenligning henter en JSON-fil med dine input, præcise resultater, metodeversion, dataudgavens kontrolsum og begge uændrede kildereferencer. En senere dataopdatering ændrer ikke den hentede fil. Siden gemmer ikke et projekt for dig; du kan beholde flere filer til forskellige valg og tage dem med til din egen AI.</p>
+    </details>
+  </section>
+  <section id="fastgoerelser" class="comparison wrap" aria-labelledby="fastener-title">
+    <h2 id="fastener-title">Få skruer og samlinger med</h2>
+    <p>Små dele tæller også. Her kan du beregne skruernes bidrag ud fra deres nettovægt og finde kilder til beslag og tætning.</p>
+    <p class="reference-note">To tyske generiske skruereferencer fra ÖKOBAUDAT, EN 15804+A2 / EF 3.1. De supplerer de 507 danske referencer og er ikke danske produkt-EPD'er. Korrosionsklasse, bæreevne og den nødvendige skruemængde skal afklares for samlingen; et lavere tal gør ikke skruetyperne indbyrdes udskiftelige.</p>
+    <form id="fastener-form">
+      <label for="fastener-kind">Hvilken skruetype undersøger du?</label><select id="fastener-kind" disabled></select>
+      <label for="fastener-mass">Skruernes samlede nettovægt · kg</label><input id="fastener-mass" type="text" inputmode="decimal" autocomplete="off" placeholder="Fx 2,5" aria-describedby="fastener-help fastener-error" disabled>
+      <p id="fastener-help" class="muted">Brug vægten af selve skruerne, uden kasse eller emballage. Har du kun et antal, skal du først kende nettovægten pr. skrue fra det konkrete produkt. Her omregnes ikke fra stk. Brug komma eller punktum, ingen tusindtalsseparator.</p>
+      <div class="comparison-actions"><button type="submit" disabled>Vis bidrag</button><button id="fastener-clear" class="secondary" type="button" disabled>Nulstil vægt</button></div>
+    </form>
+    <p id="fastener-error" class="quantity-error" role="alert"></p><p id="fastener-status" role="status">Henter skruereferencerne…</p>
+    <button id="fastener-retry" type="button" class="secondary" hidden>Hent skruedata igen</button>
+    <div id="fastener-result"></div><button id="fastener-save" type="button" class="secondary" hidden>Gem skrueberegning</button>
+    <details><summary>Kilde, beregning og afgrænsning</summary><div id="fastener-source"></div>
+      <p>Hver oplyst fase beregnes som kildens GWP-total pr. 1 kg × skruernes nettovægt i kg. Visningen afrundes til seks betydende cifre; ≈ markerer afrunding. Download bevarer de præcise resultater, originalværdier, referencebetingelser, kilde-ID, kontrolsummer og rettigheder. Metodeversion: oekobaudat_screw_mass.v1.</p>
+      <p>Transport til byggepladsen (A4), montage og spild (A5), brug og udskiftninger (B) er ikke tilføjet. Kildens C2-scenarie omfatter 50 km lastbiltransport efter brug og er bevaret; læg ikke samme transport til igen. D vises særskilt. Ukendte C-faser vises som »Ikke oplyst«, også ved 0 kg.</p>
+      <p>Referencerne gælder skruer, ikke søm, bolte, bjælkesko eller komplette samlinger. Medregn ikke skruerne igen, hvis de allerede er indeholdt i en valgt systemkilde. Dette er et afgrænset materialebidrag, ikke en fuld bygnings-LCA.</p>
+      <p><a href="https://www.oekobaudat.de/en/database/search.html">ÖKOBAUDAT: kilde og vilkår for uændret viderebrug</a>. Dataejer: Sphera Solutions GmbH; udgiver: BMWSB/BBSR. Kildernes egne vilkår gælder.</p>
+    </details>
+    <p><a href="#samlinger-kilder">Beslag, tape og fugtvariabel membran: se kilder og mangler</a></p>
+    <noscript><p>Skrueberegningen kræver JavaScript. Kildekortene nedenfor kan læses uden.</p></noscript>
+  </section>
+  <section id="materialevalg" class="books wrap" aria-labelledby="choices-title">
+    <h2 id="choices-title">Viden, du kan bruge ved materialevalget</h2>
+    <p>Begynd med den funktion, materialet skal løse. Kortene hjælper dig med at finde kilder og stille de næste spørgsmål. De er ikke tekniske godkendelser.</p>
+    <ul class="knowledge-cards">
+      <li><h3>Biobaseret isolering</h3><p>Træfiber, hamp, kork, græs og papiruld findes allerede i opslaget. Undersøg egnet anvendelse, byggefugt, tæthed, brand og lyd sammen med klima. Indhent konkrete produkt- og montageoplysninger, før en reference bliver til et produktvalg.</p><p><a href="#isolering">Undersøg to isoleringsvalg</a> · <a href="https://vbn.aau.dk/da/publications/innovationsbehov-for-biobaseret-byggeri/">BUILD 2026:25: dokumentationsbehov</a></p></li>
+      <li><h3>Ålegræs: begynd med funktionen</h3><p>Vores to ålegræsreferencer gælder akustikpaneler. Et akustikpanel dokumenterer ikke varmeisolering. Afklar produktvariant, brandbehandling, fastgørelse og mulighed for at tage panelerne ned igen.</p><p><a href="#q=%C3%A5legr%C3%A6s">Se ålegræsreferencerne</a></p></li>
+      <li><h3>Linoliemaling: en konkret produktkilde</h3><p>EPD MD-23213-EN_rev2 gælder 1 liter udendørs maling i farve 84/Ordkløveri. Den er revideret 2. april 2025 og gyldig til 16. april 2029. Andre pigmenter kan ændre resultatet. Afklar overflade, lag og senere vedligehold.</p><p>Kilden er et supplement til undersøgelsen. Dens klimatal er ikke indlæst som generelle malingsdata i browseren.</p><p><a href="https://www.epddanmark.dk/media/ncmh1zig/md-23213-en_rev2.pdf">Læs produktets originale EPD (PDF)</a></p></li>
+      <li><h3>Bevar, reparer eller skift?</h3><p>Undersøg først eksisterende dele og deres tilstand. Beskriv, hvad der bliver siddende, hvad der repareres, og hvad der tilføjes. Sammenhold nødvendig funktion og levetid; medtag også adgang og retablering. En ukendt post har ikke et klimaaftryk på nul.</p><p><a href="vinduet.html">Undersøg vinduets dele</a> · <a href="https://github.com/FremtidensTegnestue/open-source/blob/main/transformation-og-genbrug/boeger/vinduet/bog.pdf?raw=true">Læs bevaringseksemplet (PDF)</a></p></li>
+    </ul>
+    <h3 id="samlinger-kilder">Kilder til samlinger og tætning</h3>
+    <p>Kilderne nedenfor er gennemgået, men deres klimatal er endnu ikke indlæst i browserberegningen. Produktmatch, systemgrænser og vilkår for offentlig dataviderebrug skal være afklaret først. De tælles derfor ikke med som nul eller som færdige beregningsposter.</p>
+    <ul class="knowledge-cards">
+      <li><h3>Træbeslag · bjælkesko BSIN</h3><p>Producenten angiver vægt og montage for hver variant. Connectors-EPD'en EPD-SST-20240583-IBC1-EN gælder 1 kg installerede beslag og et gennemsnit af producentens beslaggruppe. Udgivet 4. marts 2025, gyldig til 3. marts 2030.</p><p>Vælg variant og antal, kontrollér nettovægt, og afklar, om søm eller skruer er indeholdt i klimagrundlaget. En generisk skruefaktor må ikke bruges som beslagfaktor. Kontroller også ETA, underlag, korrosion og samlingens kræfter.</p><p><a href="https://www.strongtie.dk/da-DK/produkter/bjaelkesko-bsin">Variant, vægt og montage hos producenten</a> · <a href="https://ssttoolbox.widen.net/s/z6wdqnlhdr/epd-certificate-sst-connectors">Læs den originale Connectors-EPD</a></p></li>
+      <li><h3>Lufttætning · TESCON VANA tape</h3><p>EPD-IES-0017291, version 1. oktober 2026, gyldig til 6. december 2029. Enheden er 1 m² tape med tilhørende emballage; et antal meter er derfor utilstrækkeligt uden tapebredden. Produktets nettomasse og masse med emballage er forskellige.</p><p>Afklar underlag, klæbeevne, primer og den konkrete detalje. EPD'en har et A5-bidrag; det må ikke lægges til igen som samme montage/emballage. Gulvlimningstape er ikke automatisk lufttætningstape.</p><p><a href="https://proclima-pdm.moll-group.eu/documents/TESVAN/epd/epd.pdf">Læs den originale TESCON VANA-EPD (PDF)</a> · <a href="https://int.proclima.com/company/sustainability/epd">Producentens produkt- og EPD-oversigt</a></p></li>
+      <li><h3>Fugtvariabel membran · INTELLO</h3><p>EPD-IES-0017286, version 1. oktober 2026, gyldig til 6. december 2029. Enheden er 1 m² INTELLO med tilhørende emballage. INTELLO og INTELLO PLUS er forskellige produktkilder.</p><p>Fugtvariabel funktion er dokumenteret for dette produkt; en generisk PE-/PA-dampspærre dokumenterer ikke samme funktion. Afklar fugtforløb, samlinger, gennemføringer og tilhørende tape/klæber. EPD'en inkluderer emballageforhold i A1–A3; kildens faseplacering skal bevares.</p><p><a href="https://proclima-pdm.moll-group.eu/documents/INT/epd/epd.pdf">Læs den originale INTELLO-EPD (PDF)</a> · <a href="https://int.proclima.com/company/sustainability/epd">Producentens produkt- og EPD-oversigt</a></p></li>
+    </ul>
+    <p class="muted">Kortene er redaktionelt gennemgået 25. november 2026. BUILD-rapporten beskriver behov for dokumentation; den er ikke en samling færdiggodkendte konstruktioner. Kildernes egne rettigheder gælder fortsat.</p>
+  </section>
+  <section id="nyt" class="about wrap" aria-labelledby="updates-title">
+    <h2 id="updates-title">Hvad er nyt — og hvad bygger det på?</h2>
+    <article><h3><time datetime="2026-11-25">25. november 2026</time> · Forstå facadens lag</h3><p>En egen tegningsprøve viser fem modellerede lag hver for sig og samlet i snit. Mobiludgave, A3-PDF og redigerbare SVG-filer er tilgængelige. De manglende isolerings-, membran- og samlingsdetaljer er synlige. Det er en gemt forklaring, ikke en færdig væg eller en live beregningskobling.</p><p><a href="facaden.html">Se facadens lag og hent tegningerne</a>.</p></article>
+    <article><h3><time datetime="2026-11-25">25. november 2026</time> · Skruer, beslag og tætning</h3><p>To særskilte ÖKOBAUDAT-skruereferencer kan beregnes ud fra nettovægt i kg. Produktion og slutmoduler vises fase for fase med præcise kilder i den gemte fil. Manglende faser er synlige. Tre kildekort viser grundlaget og de åbne spørgsmål for bjælkesko, tape og fugtvariabel membran. Deres klimatal er endnu ikke indlæst. BR18-opslagets 507 referencer og grunddatabasen er uændrede.</p></article>
+    <article><h3><time datetime="2026-11-25">25. november 2026</time> · Isoleringsvalg og materialekort</h3><p>Ny sammenligning af 13 isoleringsreferencer ved samme areal og R. Faserne og forskellen mellem A og B vises særskilt. Nye materialekort samler spørgsmål om anvendelse, vedligehold og bevaring. Søgning på cellulose finder også papiruld, og tang finder ålegræs uden at ramme ordet rektangulær.</p><p>De 507 referencer og alle kildetal er uændrede. Beregningsmetoden er ny; den eksisterende mængdeberegning for 447 referencer bevares. Der er ikke tilføjet produkt-EPD-tal, aktuelle priser eller en fuld bygnings-LCA. Kildedata er fra 2025; datoen her er ikke en ny udgivelsesdato for dataene.</p></article>
+    <details><summary>Sådan håndterer vi nye kilder og rettelser</summary><p>Nye bidrag gennemgås for enhed, produktvariant, klimafaser, metode, dato og rettigheder. En rettelse skal forklare, hvilke resultater den kan påvirke. Gemte beregningsfiler bevarer deres data og metode; brugeren vælger, om de skal genberegnes med en ny udgave.</p><p>EPD Danmark beskriver en vej til digitale EPD'er via ECO Portal. Automatisk integration og offentlig viderebrug kræver afklaring af adgang og licens. Der er ikke oprettet en løbende API-forbindelse her. <a href="https://www.epddanmark.dk/om-epd-er/digitale-epd-er/">Læs om digitale EPD'er</a>.</p></details>
+    <h3>Mangler du et materiale, eller har du fundet en fejl?</h3>
+    <p>Skriv materialets eller produktets navn, hvad du vil bruge det til, og vedlæg gerne et link til kilden. Ved fejl: skriv, hvad du indtastede, hvad du forventede, og hvad der skete. Send ikke fortrolige projektoplysninger.</p>
+    <p><a href="https://fremtidenstegnestue.dk/kontakt-os">Send forslag eller fejl til Fremtidens Tegnestue</a> · <a href="https://github.com/FremtidensTegnestue/open-source/issues/new?template=hjaelp.yml">Brug GitHub, hvis du foretrækker det</a></p>
   </section>
   <section id="boeger" class="books wrap" aria-labelledby="books-title">
     <h2 id="books-title">Find viden til din opgave</h2>
@@ -86,7 +168,7 @@
     <p>Det, vi bygger, former rum, hverdagsliv og muligheder for andre. Materialer og konstruktioner har også betydning for ressourceforbrug, klima, økonomi, vedligehold og levetid. Undersøg de hensyn, der er relevante for din opgave.</p>
     <p>Nogle spørgsmål kan undersøges med data og beregninger. Andre kræver viden om stedet, menneskers erfaringer og faglig vurdering. Her finder du grundlag til undersøgelsen; eksemplerne angiver, hvad de faktisk dokumenterer.</p>
     <p class="audience">Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der arbejder med byggeri. Opgaverne er fælles på tværs af fag og kan bruges til at forberede materialevalg og spørgsmål til en byggesag.</p>
-    <div class="about-grid"><div><p>Dette er en første browserudgave af Fremtidens Tegnestues åbne materialeværktøjer. Opslaget viser de 507 referencer i BR18’s generiske tabel 7 fra 2025. Det er et afgrænset udsnit af projektets større datagrundlag.</p><p>Du kan se kildens værdier og beregne et bidrag for din egen mængde i samme referenceenhed. Den enkle beregning omfatter 447 af de 507 referencer; særlige isolerings-, installations- og dimensionsreferencer kræver en anden metode. Der vælges ikke automatisk et produkt, og en hel bygnings klimaaftryk beregnes ikke. Egnethed og sammenlignelighed skal undersøges for dit projekt.</p></div><div><h3>Spørgsmål eller noget, der driller?</h3><p>Fortæl, hvad du ville gøre, og hvor du gik i stå. Du behøver ikke kende programmering for at spørge.</p><a href="https://fremtidenstegnestue.dk/kontakt-os">Kontakt Fremtidens Tegnestue</a><p class="muted">Søgningen foregår i din browser. Denne side har ingen brugerlogin, analyseværktøjer eller indsamling af dine søgeord. GitHubs hosting har sine egne driftsvilkår.</p></div></div>
+    <div class="about-grid"><div><p>Dette er en første browserudgave af Fremtidens Tegnestues åbne materialeværktøjer. Opslaget viser de 507 referencer i BR18’s generiske tabel 7 fra 2025. Det er et afgrænset udsnit af projektets større datagrundlag.</p><p>Du kan se kildens værdier og beregne et bidrag for din egen mængde i samme referenceenhed. Den enkle beregning omfatter 447 referencer. <a href="#isolering">Isoleringsforløbet</a> har en særskilt metode for 13 udvalgte referencer ved samme areal og R; øvrige særlige enheder kræver en anden metode. Der vælges ikke automatisk et produkt, og en hel bygnings klimaaftryk beregnes ikke. Egnethed og sammenlignelighed skal undersøges for dit projekt.</p></div><div><h3>Spørgsmål eller noget, der driller?</h3><p>Fortæl, hvad du ville gøre, og hvor du gik i stå. Du behøver ikke kende programmering for at spørge.</p><a href="https://fremtidenstegnestue.dk/kontakt-os">Kontakt Fremtidens Tegnestue</a><p class="muted">Søgningen foregår i din browser. Denne side har ingen brugerlogin, analyseværktøjer eller indsamling af dine søgeord. GitHubs hosting har sine egne driftsvilkår.</p></div></div>
   </section>
   <section class="advanced wrap" id="egne-modeller"><h2>Vil du arbejde videre med din egen model?</h2><p>Til en enkelt materialemængde kan du bruge <a href="#materialer">beregningen her på siden</a>. Til CAD/BIM-modeller, flere datakilder og mere omfattende beregninger bruger du de lokale programmer.</p><details><summary>Se, hvad den lokale opsætning kræver</summary><p>Du skal kunne installere programmer og bruge en terminal. Den aktuelle beregner bygges med Rust og Cargo og bruger cirka 9 GB til grunddatabasen, plus plads til programmer og tillæg. Vejledningen forklarer versioner, opsætning og eksempler. Opslaget og mængdeberegningen her på siden kræver ingen af delene.</p><p><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/materialer/docs/KOM-GODT-I-GANG.md">Se beregnings- og installationsvejledningen på GitHub</a></p><p><a href="https://github.com/FremtidensTegnestue/open-source/blob/main/CONTRIBUTING.md">Bidrag med faglig viden, en fejlmelding eller kode</a></p><p>Det samlede designforløb med model, materialevalg, pris og klima er under udvikling. De offentlige eksempler beskriver deres eget kontrolomfang.</p></details></section>
 </main>
