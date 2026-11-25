@@ -16,15 +16,19 @@ Websiden er indgangen for arkitekter, konstruktører, ingeniører, bygherrer, h�
 
 ## Brug materialerne med det samme
 
-**[Åbn materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/).** Søg fx på egetræ eller isolering, vælg et materiale og se tal, referenceenhed og kilde. Du behøver ikke installere Python eller kende GitHub. Første browserudgave viser de 507 referencer fra den danske tabel 7 fra 2025; den er ikke hele projektets datalager eller en komplet klimaberegner.
+**[Åbn materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer).** Søg fx på egetræ eller isolering, vælg et materiale og se tal, referenceenhed og kilde. Du behøver ikke installere Python eller kende GitHub. Browserudgaven viser de 507 referencer fra den danske tabel 7 fra 2025. For 447 af dem kan du skrive din mængde i feltet **Se bidraget for din mængde** og se fasebidragene med det samme. **Gem beregning** henter mængde, resultat og kilder som én fil. De øvrige referencer forklarer, hvorfor deres særlige enheder kræver en anden metode. Dette er et afgrænset materialebidrag; flere poster og livscyklusfaser kræves til en hel bygnings LCA.
 
 ## Vælg en relevant fordybelse
 
 - **Find navnet på en bygningsdel:** [Åbn det illustrerede vindue på websiden](https://fremtidenstegnestue.github.io/open-source/vinduet.html). Se tegningen, vælg en del, og følg henvisningen til forklaringen og originalkilden.
-- **Læs en bog:** [Åbn bøgerne på websiden](https://fremtidenstegnestue.github.io/open-source/#boeger), og vælg en titel. PDF'en åbnes eller bliver hentet til din computer eller telefon. Skal bogen til trykkeriet, findes særskilte **Tryk**-filer i [den fulde bogoversigt](bogserie/README.md).
+- **Læs en bog:** [Åbn bøgerne på websiden](https://fremtidenstegnestue.github.io/open-source/#boeger), og læs den korte beskrivelse ved hver titel. Vælg den, der hjælper med din egen opgave. PDF'en åbnes eller bliver hentet til din computer eller telefon. Skal bogen til trykkeriet, findes særskilte **Tryk**-filer i [den fulde bogoversigt](bogserie/README.md).
 - **Forstå et klimaregnestykke:** [Læs eksemplet med betonpladen på websiden](https://fremtidenstegnestue.github.io/open-source/regneeksempel.html). Du kan se, hvad ændret tykkelse gør ved masse og produktionsklima, uden at køre beregningen selv.
 
 Brug browserens tilbageknap, når du vil tilbage. Links i teksten viser videre til næste emne eller til den kilde, forklaringen bygger på.
+
+## Når du vil regne videre på egne modeller
+
+Den enkle mængdeberegning ovenfor virker uden installation. Vil du hente mængder fra CAD/BIM eller bruge det større datagrundlag, kræver det lokale programmer og en terminal. Den aktuelle Rust-beregner kræver Rust/Cargo og cirka 9 GB til grundbasen, plus yderligere plads. [Se den lokale opsætning og dens forudsætninger](materialer/docs/KOM-GODT-I-GANG.md#vælg-dit-næste-trin). Du behøver kun denne vej, når din opgave kræver den.
 
 ## Tag din egen AI med
 

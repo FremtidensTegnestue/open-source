@@ -1,4 +1,4 @@
-import {GROUPS,PHASES,findMaterials,observation,numberLabel,unitLabel,referenceLabel,conditions,safeURL,validateData} from './core.mjs';
+import {GROUPS,PHASES,findMaterials,observation,numberLabel,unitLabel,referenceLabel,conditions,safeURL,validateData,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
 
 const $ = id => document.getElementById(id);
 let data, hits = [], shown = 12, selected = null;
@@ -21,6 +21,46 @@ function button(text,handler,className='secondary') {
 function label(row) {
   const n = numberLabel(row);
   return (n.approximate ? '≈ ' : '') + n.text;
+}
+function phaseGrid(rows) {
+  const grid=el('div',undefined,'climate-grid');
+  for(const [module,name] of PHASES) {
+    const row=rows.find(row=>row?.module===module),phase=el('div',undefined,'phase');
+    phase.append(el('h3',name),el('p',module,'module'),el('p',label(row),'value'),el('p',unitLabel(row?.unit),'unit'));
+    grid.append(phase);
+  }
+  return grid;
+}
+function quantityCalculator(record) {
+  const section=el('section',undefined,'quantity-calculation');
+  const title=el('h3','Se bidraget for din mængde');title.id='quantity-title';section.setAttribute('aria-labelledby',title.id);section.append(title);
+  let basis;
+  try {basis=quantityBasis(record);} catch(error) {
+    section.append(el('p',error.message),el('p','Du kan stadig læse kildens tal og bruge Gem materialedata.','muted'));return section;
+  }
+  section.append(el('p','Indtast en mængde af præcis den valgte materialetype og opbygning. Resultatet opdateres med det samme.'));
+  const form=el('form'),input=el('input'),fieldLabel=el('label',`Din mængde i ${basis.unit}`);
+  input.id='quantity-value';input.type='text';input.inputMode='decimal';input.autocomplete='off';input.placeholder='Fx 2,5';input.setAttribute('aria-describedby','quantity-help quantity-error');fieldLabel.htmlFor=input.id;
+  const help=el('p',`Enheden er låst til kildens ${basis.unit}. Brug komma eller punktum som decimaltegn og ingen tusindtalsseparator. Størrelse, tykkelse og andre betingelser i referencen bevares.`,'muted');help.id='quantity-help';
+  const error=el('p',undefined,'quantity-error');error.id='quantity-error';error.setAttribute('role','alert');
+  const status=el('p','Indtast en mængde for at se dit beregnede bidrag.','muted');status.setAttribute('role','status');
+  const output=el('div');output.hidden=true;
+  const save=button('Gem beregning',()=>downloadJSON({...materialExport(record),calculation:result},record.material.id+'-beregning'));
+  let result=null;
+  function update() {
+    result=null;output.replaceChildren();output.hidden=true;error.textContent='';input.removeAttribute('aria-invalid');
+    if (!input.value.trim()) {status.textContent='Indtast en mængde for at se dit beregnede bidrag.';return;}
+    try {
+      result=quantityResult(record,parseQuantity(input.value));
+      status.textContent=`Beregnet for ${label(result.quantity)} ${basis.unit} af den valgte reference.`;
+      if (result.phases.some(phase=>phase.module!=='D' && phase.value<0)) output.append(el('p','Et negativt bidrag i én fase betyder ikke, at materialets samlede klimaaftryk er negativt.','notice'));
+      output.append(phaseGrid(result.phases),el('p','Faserne vises hver for sig. D er ikke trukket fra. Transport, spild, montage, drift og udskiftninger er ikke tilføjet; dette er et afgrænset materialebidrag.','muted'));
+      const method=el('details');method.append(el('summary','Sådan er din mængde beregnet'),el('p',`Kildens tal × ${String(result.quantity.value).replace('.',',')} / ${String(basis.amount).replace('.',',')}. Enhed: ${basis.unit}. Ingen enhedsomregning eller ændring af produktets egenskaber.`));
+      output.append(method,save,el('p','Gemmer din mængde, de beregnede faser og kildens uændrede data som en JSON-fil.','muted'));output.hidden=false;
+    } catch(problem) {input.setAttribute('aria-invalid','true');error.textContent=problem.message;status.textContent='Der vises ingen beregning for denne mængde.';}
+  }
+  input.addEventListener('input',update);form.addEventListener('submit',event=>{event.preventDefault();update();});
+  form.append(fieldLabel,input,help,error);section.append(form,status,output);return section;
 }
 function updateAddress(id=null, push=false) {
   const params = new URLSearchParams();
@@ -67,12 +107,8 @@ function showMaterial(record, focus=false, push=false) {
   }
   if (production?.declared_unit?.includes('with R=')) section.append(el('p','Isoleringen er opgjort for den angivne varmemodstand R. Tallet gælder derfor ikke automatisk én fast tykkelse isolering.','reference-note'));
   if (c.source_comment) section.append(el('p',`Kildens bemærkning: ${c.source_comment}`,'reference-note'));
-  const grid = el('div',undefined,'climate-grid');
-  for (const [module,name] of PHASES) {
-    const row = observation(record,module), phase = el('div',undefined,'phase');
-    phase.append(el('h3',name),el('p',module,'module'),el('p',label(row),'value'),el('p',unitLabel(row?.unit),'unit'));
-    grid.append(phase);
-  }
+  section.append(quantityCalculator(record),el('h3','Kildens tal for referencemængden'));
+  const grid = phaseGrid(PHASES.map(([module]) => observation(record,module)));
   section.append(grid,el('p','CO₂e samler påvirkningen fra forskellige drivhusgasser i én enhed. ≈ betyder, at visningen er afrundet; kildens præcise tal findes nedenfor.','muted'));
   if (record.observations.some(row => row.value !== null && row.value < 0)) section.append(el('p','Et minustal i ét modul betyder ikke, at materialets samlede klimaaftryk er negativt. Modul D vises særskilt og er ikke trukket fra de øvrige tal.','notice'));
   section.append(el('p','Her vises produktion og tre efterfølgende moduler. Andre livscyklusfaser er ikke med i dette opslag. Tallene er ikke et samlet klimaregnskab og bør ikke rangordnes uden samme funktion, mængde og beregningsgrundlag.','muted'));
@@ -120,13 +156,17 @@ function closeMaterial() {
   const target = [...document.querySelectorAll('button[data-material]')].find(button => button.dataset.material === id);
   (target || $('query')).focus();$('results').scrollIntoView({block:'start'});
 }
+function materialExport(record) {
+  const sourceIds = new Set(record.observations.map(row => row.source_id));
+  for (const row of record.observations) if (conditions(row).basis_source_id) sourceIds.add(conditions(row).basis_source_id);
+  return {scope:data.scope,parquet_manifest_sha256:data.parquet_manifest_sha256,...record,sources:data.sources.filter(source => sourceIds.has(source.id))};
+}
+function downloadJSON(value,name) {
+  const url = URL.createObjectURL(new Blob([JSON.stringify(value,null,2)+'\n'],{type:'application/json'}));
+  const a = el('a');a.href = url;a.download = name.replace(/[^a-zA-Z0-9-]/g,'-')+'.json';document.body.append(a);a.click();a.remove();setTimeout(() => URL.revokeObjectURL(url),1000);
+}
 function downloadMaterial() {
-  if (!selected) return;
-  const sourceIds = new Set(selected.observations.map(row => row.source_id));
-  for (const row of selected.observations) if (conditions(row).basis_source_id) sourceIds.add(conditions(row).basis_source_id);
-  const exported = {scope:data.scope,parquet_manifest_sha256:data.parquet_manifest_sha256,...selected,sources:data.sources.filter(source => sourceIds.has(source.id))};
-  const url = URL.createObjectURL(new Blob([JSON.stringify(exported,null,2)+'\n'],{type:'application/json'}));
-  const a = el('a');a.href = url;a.download = selected.material.id.replace(/[^a-zA-Z0-9-]/g,'-')+'.json';document.body.append(a);a.click();a.remove();setTimeout(() => URL.revokeObjectURL(url),1000);
+  if (selected) downloadJSON(materialExport(selected),selected.material.id);
 }
 function restoreAddress(focus=false) {
   if (!data) return;

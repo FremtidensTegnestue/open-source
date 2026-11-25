@@ -10,7 +10,7 @@ Alle er velkomne til at bruge og videreudvikle vores egen kode. Den og vores egn
 | Fortælle, hvor du gik i stå, eller foreslå en forbedring | [Opret et issue](https://github.com/FremtidensTegnestue/open-source/issues). Skriv, hvad du ville gøre, og hvad der skete. |
 | Udvikle programmet eller bidrage med en kilde | [Bidragsguiden med Python- og Rust-tests](materialer/CONTRIBUTING.md) |
 
-Du kan læse eksemplerne i browseren uden installation. Brug af materialeopslag og beregninger kræver de værktøjer, startvejledningen angiver; der kræves ingen betalt AI-tjeneste.
+Du kan læse, slå materialer op og beregne et afgrænset bidrag for din mængde i [browseren](https://fremtidenstegnestue.github.io/open-source/#materialer) uden installation. Egne CAD/BIM-modeller og de større lokale beregningsforløb kræver de værktøjer, startvejledningen angiver. Der kræves ingen betalt AI-tjeneste.
 
 Du kan eksperimentere i din egen kopi. Vil du sende en ændring tilbage, så lav en **fork** (din kopi på GitHub), arbejd i en **gren** (en særskilt udgave af ændringen), og åbn en **pull request** (et forslag om at tage ændringen ind i den fælles version). Beskriv problemet, ændringen og hvordan du har kontrolleret den. Bidrag gennemgås, før de bliver del af den fælles version. Du kan også begynde med den [danske formular til hjælp, fejl og forslag](https://github.com/FremtidensTegnestue/open-source/issues/new/choose), uden at ændre nogen filer.
 

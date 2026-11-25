@@ -6,7 +6,7 @@ Den offentlige side publiceres fra denne mappe med GitHub Pages. Den virker uden
 
 `materialer.json` er et reproducerbart, uændret udsnit af repoets Parquet-grundlag: alle 507 BR18-tabel 7-referencer fra 2025 med 2.535 observationer, kontekst og kilder. JSON-omformningen omregner ingen enhed eller værdi. Installationers 15 areal-/år-referencer holdes adskilt fra vare- og materialemængder. Datakildernes registrerede rettigheder bevares; MIT omfatter ikke automatisk dataene. Se [kilder og rettigheder](../materialer/THIRD_PARTY.md).
 
-Dette er første browseropslag, ikke hele datalageret, aktuelle produktanbefalinger, en projektberegner, en komplet LCA eller en implementering af Rust-motoren i browseren. Moduler vises hver for sig. Seks betydende cifre bruges i den store talvisning, og en afrunding markeres med ≈. Kildens præcise tal og alle felter kan ses eller hentes separat. Ingen automatisk vinder udpeges.
+Browseren kan nu skalere én valgt materialereference til brugerens egen mængde. `quantityBasis` kræver overensstemmende referenceangivelser i alle fire faser og tillader kun kildens egne kg, ton, m, m², m³ eller stk. 447 referencer er understøttet; 38 R-normaliserede isoleringsreferencer, 15 areal-/år-installationsreferencer og 7 ekstra dimensionsbundne referencer afvises med forklaring. Der konverteres ikke mellem enheder. Kildedata ændres ikke, og en gemt beregning har sin egen `calculation` ved siden af de oprindelige data. Dette er ikke hele datalageret, aktuelle produktanbefalinger, en projektberegner, en komplet LCA eller en implementering af Rust-motoren i browseren. Moduler vises hver for sig. Seks betydende cifre bruges i den store talvisning, og en afrunding markeres med ≈. Kildens præcise tal og alle felter kan ses eller hentes separat. Ingen automatisk vinder udpeges.
 
 ## Vedligehold
 
@@ -38,3 +38,7 @@ At generere disse læsesider gentager ikke CAD/BIM-forsøget eller en faglig eft
 Forsidens `#brug-ai` viser en opgave, der kan tilpasses brugerens egen byggesag og designvalg. Den beder om kilder og skelnen mellem dokumenterede forhold, antagelser og spørgsmål til beregning eller faglig vurdering. Materialeopgaven bruger det eksisterende **Gem materialedata** for én valgt reference frem for at sende hele 4,23 MB-udtrækket til en chat. Link-/filadgang afhænger af brugerens AI; der er ikke tilføjet en chat, en ekstern AI-tjeneste eller en ny datatransmission på websiden. Den eksisterende lokale agentvej med filer, terminal og eventuelle beregningsværktøjer har særskilte forudsætninger.
 
 Introduktionen lover ikke en ny projektvælger eller automatisk beregning af samfundsvirkning. Det eksisterende opslag, læsestof og de afgrænsede beregninger beholder deres dokumenterede omfang.
+
+## Afprøv mængdeberegningen
+
+Kør `node --test docs/core.test.mjs` fra repositoryets rod. Prøverne dækker de 447 understøttede referencer, fem referencebeløb tæt på 1, dansk decimalkomma, nul, negative kildeværdier, manglende værdier, referencekonflikter og afvisning af ugyldige tal, over-/underløb og særlige referencegrundlag. I browseren kontrolleres også materialeskift, nulstilling, fejlretning, tastatur, smal visning og download af både kildedata og beregning. Ingen manglende værdi må blive nul; ingen moduler summeres.

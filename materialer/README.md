@@ -6,7 +6,7 @@
 
 Et åbent projekt fra **Fremtidens Tegnestue** til arkitekter, ingeniører, studerende og udviklere.
 
-**[Brug materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/)** — 507 danske referencer med tal, enheder og kilder. Ingen installation eller konto.
+**[Brug materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer)** — 507 danske referencer med tal, enheder og kilder. For 447 referencer kan du også beregne et bidrag for din mængde i kildens egen enhed. Ingen installation eller konto.
 
 [Første gang på GitHub? Begynd her](../START-HER.md).
 
@@ -33,12 +33,13 @@ Du kan allerede:
 
 Bygger du CLI’et fra `main`, kan du også undersøge, hvilke dele der skal tages af eller erstattes ved en reparation. De to vindueseksempler viser, hvordan den samme Rust-beregner finder klimabidragene for de tilførte produkter. [Prøv reparation og adskillelse](docs/DISASSEMBLY.md).
 
-Du kan læse eksemplerne uden AI eller programmering. Til egne første opslag er den letteste vej det færdige Python-script, som læser Parquet direkte uden database. Rust-programmet bruges, når du vil beregne eller bruge de nyere tillæg. [Vælg dit trin i startvejledningen](docs/KOM-GODT-I-GANG.md).
+Du kan læse, slå op og beregne et afgrænset materialebidrag i browseren uden AI eller programmering. Vil du søge i hele Parquet-grundlaget, kan det færdige Python-script læse det direkte uden database. Rust-programmet bruges til de lokale beregningsforløb og de nyere tillæg. [Vælg dit trin i startvejledningen](docs/KOM-GODT-I-GANG.md).
 
 ## Start dér, hvor du er
 
 | Du vil … | Start her |
 | --- | --- |
+| Slå materialer op og beregne et bidrag uden installation | [Browseropslaget og din mængde](https://fremtidenstegnestue.github.io/open-source/#materialer) |
 | Forstå idéen uden at installere noget | [Testmodellen og dens resultater](examples/integrated-workflow/README.md) |
 | Slå et materiale op uden at bygge en database | [Færdigt Python-opslag i Parquet](docs/KOM-GODT-I-GANG.md#2-slå-materialer-op-uden-database) |
 | Gennemgå en lille hylde fra materialetal til statik | [Hyldens masse, produktionsklima og nedbøjning](examples/hyldekonsol/README.md) |

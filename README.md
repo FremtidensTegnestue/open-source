@@ -4,7 +4,9 @@
 
 Åben viden og værktøjer til at undersøge, hvordan det, vi bevarer, forandrer og bygger, påvirker mennesker, ressourcer og klima. Tag udgangspunkt i din egen byggesag, undersøg mulighederne, og find grundlaget for at vælge.
 
-**[Åbn viden og værktøjer i browseren](https://fremtidenstegnestue.github.io/open-source/)** — du kan begynde uden installation eller konto.
+## [Åbn viden og værktøjer i browseren →](https://fremtidenstegnestue.github.io/open-source/)
+
+Læs, søg og beregn et materialebidrag uden installation eller konto. GitHub samler filerne og den åbne kode; hjemmesiden viser den enkle vej ind.
 
 Til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre, der vil undersøge et byggeri. Begynd med det, du vil skabe eller forandre, de valg du står med, og de konsekvenser du har brug for at forstå. Det kan handle om brug og arkitektoniske kvaliteter, bevaring, materialer, klima, økonomi eller levetid.
 
@@ -22,7 +24,9 @@ Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Samme
 
 - **Finde et materialetal uden installation:** [Søg i materialeopslaget i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer). Find en reference, se klimatal, enheder og kilder, og hent de præcise data. Første browserudgave viser 507 danske referencer fra 2025.
 
-- **Bruge flere datakilder eller regne på egne mængder:** [Følg den korte startvejledning](materialer/docs/KOM-GODT-I-GANG.md). Opslag i det større datagrundlag og beregningsværktøjerne har deres egne installationsveje. Du kan først følge et færdigt regnestykke i browseren.
+- **Beregne bidraget fra en materialemængde:** [Find materialet og indtast din mængde i browseren](https://fremtidenstegnestue.github.io/open-source/#materialer). Beregningen bruger kildens egen enhed og viser faserne særskilt for de understøttede referencer.
+
+- **Bruge egne modeller, flere datakilder eller de lokale beregningsværktøjer:** [Følg den korte startvejledning](materialer/docs/KOM-GODT-I-GANG.md). Opslag i det større datagrundlag og beregningsværktøjerne har deres egne installationsveje. Du kan først følge et færdigt regnestykke i browseren.
 
 - **Hente bøger til skærm eller papir:** [Find de otte bøger og deres PDF-filer](bogserie/README.md). Du skal bruge en PDF-læser. Modeller og byggeprogrammer er valgfrie.
 
@@ -66,7 +70,7 @@ Har du et vindue, du gerne vil redde, en model med mangelfulde materialetal elle
 
 - **Håndbog, fagordbog og bøger:** Brug dem til at læse faglige forklaringer, finde originalkilder og forberede spørgsmål til et projekt. Kilder og afgrænsninger følger de enkelte opslag. Indholdet er ikke et samlet udførelses- eller dimensioneringsgrundlag.
 
-- **Materialeopslag i browseren:** Søg i de 507 referencer i BR18's generiske tabel 7 fra 2025 uden installation eller konto. Se kildens referencemængde, enheder, betingelser og klimafaser, og hent de præcise data. Tallene gælder kildens reference og vises fase for fase; de er et grundlag for videre undersøgelse af dit projekt. [Brug opslaget](https://fremtidenstegnestue.github.io/open-source/#materialer).
+- **Materialeopslag i browseren:** Søg i de 507 referencer i BR18's generiske tabel 7 fra 2025 uden installation eller konto. Se kildens referencemængde, enheder, betingelser og klimafaser, og hent de præcise data. Kildens tal vises fase for fase. For 447 referencer kan du desuden indtaste din mængde i kildens egen enhed og gemme beregningen med kilder. De øvrige 60 viser en konkret begrundelse for, at den enkle metode ikke kan bruges. Det er et afgrænset materialebidrag, ikke en samlet LCA. [Brug opslaget](https://fremtidenstegnestue.github.io/open-source/#materialer).
 
 - **Lokale materialeopslag:** Undersøg det større datagrundlag med værdier, enheder og betingelser fra flere kilder. Det første lokale opslag er testet på Windows, macOS og Linux og fra en offentlig ZIP i et nyt miljø. [Kontrolforløbet](materialer/docs/VALIDATION.md) beskriver omfanget; [startvejledningen](materialer/docs/KOM-GODT-I-GANG.md) viser opsætningen.
 
