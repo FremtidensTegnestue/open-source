@@ -28,6 +28,8 @@ Byggeren afviser et ændret referenceomfang. En ny kildeudgave kræver bevidst a
 
 Ingen testfil udføres af siden; `core.test.mjs` bruges kun ved udvikling. GitHub Pages læser HTML/CSS/JS/JSON direkte; ingen database eller motor aktiveres ved besøg.
 
+Søgningen viser navne, der begynder med den samlede søgetekst, før navne med alle søgeord som hele ord, derefter delord og til sidst træf kun via materialegruppe, ID eller de eksisterende synonymer. Ved delord prioriteres den direkte matchende materialegruppe, så fx fabriksbeton i gruppen Beton kommer før træbeton-akustikpaneler. Der sorteres dansk alfabetisk inden for hver prioritet. Alle søgeord skal fortsat findes efter den eksisterende matchregel; rækkefølgen ændrer ikke kildedata eller antallet af træf. Det er navnematch, ikke rangering efter klima, pris eller teknisk egnethed. Ved ændret søgekode versioneres både indgangsscriptet og dets berørte modulimport, så en tidligere cached modulfil ikke fastholder den gamle rækkefølge.
+
 ## Læseveje uden GitHubs filvisning
 
 Forsiden tager udgangspunkt i brugerens egen designopgave: ønsket forandring, aktuelle valg og deres konsekvenser for mennesker, arkitektoniske kvaliteter, ressourcer og klima. Den henvender sig til arkitekter, konstruktører, ingeniører, bygherrer, håndværkere og andre med en byggesag. Den beder ikke brugeren vælge fagrolle eller oprette en konto. Materialeopslag og læse-PDF'er er tilgængeligt fagligt grundlag; vinduesforklaring og det gemte regneeksempel er tydeligt valgfrie fordybelser. Ingen bestemt øvelse kræves før eget projekt. Opsætning, kode og videreudvikling har en særskilt vej.

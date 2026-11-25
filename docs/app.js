@@ -1,4 +1,4 @@
-import {GROUPS,PHASES,findMaterials,observation,numberLabel,unitLabel,referenceLabel,conditions,safeURL,validateData,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
+import {GROUPS,PHASES,findMaterials,observation,numberLabel,unitLabel,referenceLabel,conditions,safeURL,validateData,quantityBasis,parseQuantity,quantityResult} from './core.mjs?v=20261125-116-2';
 import {INSULATION,insulationBasis,compareInsulation} from './insulation.mjs';
 import {FASTENERS,FASTENER_PHASES,validateFasteners,fastenerResult} from './fasteners.mjs';
 

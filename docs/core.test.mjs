@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {normalize,findMaterials,numberLabel,unitLabel,referenceLabel,safeURL,validateData,observation,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
+import {GROUPS,normalize,findMaterials,numberLabel,unitLabel,referenceLabel,safeURL,validateData,observation,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
 import {INSULATION,insulationBasis,compareInsulation} from './insulation.mjs';
 import {FASTENERS,fastenerBasis,validateFasteners,fastenerResult} from './fasteners.mjs';
 const data = JSON.parse(readFileSync(new URL('./materialer.json',import.meta.url),'utf8'));
@@ -58,6 +58,28 @@ test('Danish and keyboard-friendly spellings find the same oak; material groups 
   assert(findMaterials(data.records,'egetræ').some(r=>r.material.id==='br18:t7:G0407:row260'));
   assert.equal(findMaterials(data.records,'isolering').filter(r=>r.material.category==='insulation').length,68);
   assert.equal(findMaterials(data.records,'ft-no-material-89').length,0);
+});
+test('concrete names precede compounds and category-only matches in the shipped data',() => {
+  const results=findMaterials(data.records,'beton');
+  const concrete=results.findIndex(r=>r.material.name.startsWith('Beton'));
+  const woodConcrete=results.findIndex(r=>r.material.name.includes('træbeton'));
+  assert.equal(concrete,0);
+  assert(woodConcrete>concrete);
+  assert(results.findLastIndex(r=>r.material.category==='concrete' && normalize(r.material.name).includes('beton'))<woodConcrete);
+  const expected=data.records.filter(r=>normalize([r.material.name,GROUPS[r.material.category] || '',r.material.id].join(' ')).includes('beton'));
+  assert.deepEqual(new Set(results.map(r=>r.material.id)),new Set(expected.map(r=>r.material.id)));
+});
+test('search ranks name prefix, whole name word, compound and group hit; ties stay Danish alphabetical',() => {
+  const records=['Akustikpanel, træbeton','Beton z','Bakkemørtel','Armeret beton','Beton a','Fabriksbeton'].map((name,i)=>({material:{name,id:String(i),category:name.includes('træbeton')?'wood':'concrete'}}));
+  const before=structuredClone(records);
+  assert.deepEqual(findMaterials(records,'BETON').map(r=>r.material.name),['Beton a','Beton z','Armeret beton','Fabriksbeton','Akustikpanel, træbeton','Bakkemørtel']);
+  assert.deepEqual(records,before);
+  assert.deepEqual(findMaterials(records,'  ').map(r=>r.material.name),records.map(r=>r.material.name).sort((a,b)=>a.localeCompare(b,'da')));
+});
+test('whole-word ranking handles punctuation, Danish spelling and multiple search words',() => {
+  const records=['Installation, 30','Plade, stål (30)','Stål 30','Stål, kvalitetsklasse 30'].map((name,i)=>({material:{name,id:String(i),category:'other'}}));
+  assert.deepEqual(findMaterials(records,'STÅL 30').map(r=>r.material.name),['Stål 30','Plade, stål (30)','Stål, kvalitetsklasse 30','Installation, 30']);
+  assert.deepEqual(findMaterials(records,'stal 30'),findMaterials(records,'stål 30'));
 });
 test('missing, zero and negative numbers stay distinct; rounding is announced',() => {
   assert.deepEqual(numberLabel({value:null}),{text:'Ikke oplyst',approximate:false});

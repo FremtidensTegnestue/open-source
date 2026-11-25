@@ -5,6 +5,17 @@ export function normalize(text) {
 }
 export function findMaterials(records, query) {
   const words = normalize(query).trim().split(/\s+/).filter(Boolean);
+  const rank = ({material:m}) => {
+    const name = normalize(m.name);
+    if (name.startsWith(words.join(' '))) return 0;
+    const nameWords = name.split(/[^\p{L}\p{N}]+/u);
+    if (words.every(word => nameWords.includes(word))) return 1;
+    if (words.every(word => name.includes(word))) {
+      const group = normalize(GROUPS[m.category] || '');
+      return words.includes(group) ? 2 : 3;
+    }
+    return 4; // Hits only through a material group, ID or existing synonym.
+  };
   return records.filter(({material:m}) => {
     const text = normalize([m.name,GROUPS[m.category] || '',m.id].join(' '));
     return words.every(word => {
@@ -12,7 +23,7 @@ export function findMaterials(records, query) {
       if (word==='cellulose' || word==='celluloseisolering') return text.includes('papiruld') || text.includes(word);
       return text.includes(word);
     });
-  }).sort((a,b) => a.material.name.localeCompare(b.material.name,'da'));
+  }).sort((a,b) => rank(a)-rank(b) || a.material.name.localeCompare(b.material.name,'da'));
 }
 export function observation(record, module) {
   return record.observations.find(row => row.property === 'global_warming_potential' && row.module === module);
