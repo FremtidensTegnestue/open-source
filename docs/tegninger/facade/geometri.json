@@ -1,0 +1,407 @@
+{
+  "id": "facade-01-graphic-R01",
+  "date": "2026-11-25",
+  "units": "mm",
+  "scope": "Gemte retvinklede facadelegemer fra en målt lokal SolidCraft-prøve; ingen komplet væg eller ydeevneeftervisning.",
+  "source_measurement_sha256": "3eb10163c316918e462f48c583f57a6dc882013ec9270ee4bbb12ebb7d451c7d",
+  "crop_mm": {
+    "x": [
+      0,
+      720
+    ],
+    "z": [
+      0,
+      900
+    ]
+  },
+  "layers": [
+    {
+      "number": 1,
+      "id": "wood",
+      "name": "Træbeklædning",
+      "depth_mm": 22
+    },
+    {
+      "number": 2,
+      "id": "vent",
+      "name": "Lægter",
+      "section_mm": [
+        28,
+        45
+      ]
+    },
+    {
+      "number": 3,
+      "id": "windboard",
+      "name": "Vindplade",
+      "depth_mm": 12
+    },
+    {
+      "number": 4,
+      "id": "frame",
+      "name": "Træskelet",
+      "section_mm": [
+        45,
+        145
+      ]
+    },
+    {
+      "number": 5,
+      "id": "plywood",
+      "name": "Krydsfiner",
+      "depth_mm": 22
+    }
+  ],
+  "displayed_boxes": [
+    {
+      "name": "F56_Krydsfiner",
+      "group": 5,
+      "min": [
+        0.0,
+        145.0,
+        0.0
+      ],
+      "max": [
+        720,
+        167.0,
+        900
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          167.0,
+          2400.0
+        ],
+        "min": [
+          0.0,
+          145.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Vindplade",
+      "group": 3,
+      "min": [
+        0.0,
+        -12.0,
+        0.0
+      ],
+      "max": [
+        720,
+        0.0,
+        900
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          0.0,
+          2400.0
+        ],
+        "min": [
+          0.0,
+          -12.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Stolpe_0",
+      "group": 4,
+      "min": [
+        0.0,
+        0.0,
+        45.0
+      ],
+      "max": [
+        45.0,
+        145.0,
+        900
+      ],
+      "original_bbox": {
+        "max": [
+          45.0,
+          145.0,
+          2355.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Vent_0",
+      "group": 2,
+      "min": [
+        0.0,
+        -40.0,
+        0.0
+      ],
+      "max": [
+        45.0,
+        -12.0,
+        900
+      ],
+      "original_bbox": {
+        "max": [
+          45.0,
+          -12.0,
+          2400.0
+        ],
+        "min": [
+          0.0,
+          -40.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Stolpe_1",
+      "group": 4,
+      "min": [
+        588.75,
+        0.0,
+        45.0
+      ],
+      "max": [
+        633.75,
+        145.0,
+        900
+      ],
+      "original_bbox": {
+        "max": [
+          633.75,
+          145.0,
+          2355.0
+        ],
+        "min": [
+          588.75,
+          0.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Vent_1",
+      "group": 2,
+      "min": [
+        588.75,
+        -40.0,
+        0.0
+      ],
+      "max": [
+        633.75,
+        -12.0,
+        900
+      ],
+      "original_bbox": {
+        "max": [
+          633.75,
+          -12.0,
+          2400.0
+        ],
+        "min": [
+          588.75,
+          -40.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Rem_0",
+      "group": 4,
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        720,
+        145.0,
+        45.0
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          145.0,
+          45.0
+        ],
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Braet_0",
+      "group": 1,
+      "min": [
+        0.0,
+        -62.0,
+        1.0
+      ],
+      "max": [
+        720,
+        -40.0,
+        149.0
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          -40.0,
+          149.0
+        ],
+        "min": [
+          0.0,
+          -62.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Braet_1",
+      "group": 1,
+      "min": [
+        0.0,
+        -62.0,
+        151.0
+      ],
+      "max": [
+        720,
+        -40.0,
+        299.0
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          -40.0,
+          299.0
+        ],
+        "min": [
+          0.0,
+          -62.0,
+          151.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Braet_2",
+      "group": 1,
+      "min": [
+        0.0,
+        -62.0,
+        301.0
+      ],
+      "max": [
+        720,
+        -40.0,
+        449.0
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          -40.0,
+          449.0
+        ],
+        "min": [
+          0.0,
+          -62.0,
+          301.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Braet_3",
+      "group": 1,
+      "min": [
+        0.0,
+        -62.0,
+        451.0
+      ],
+      "max": [
+        720,
+        -40.0,
+        599.0
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          -40.0,
+          599.0
+        ],
+        "min": [
+          0.0,
+          -62.0,
+          451.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Braet_4",
+      "group": 1,
+      "min": [
+        0.0,
+        -62.0,
+        601.0
+      ],
+      "max": [
+        720,
+        -40.0,
+        749.0
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          -40.0,
+          749.0
+        ],
+        "min": [
+          0.0,
+          -62.0,
+          601.0
+        ]
+      }
+    },
+    {
+      "name": "F56_Braet_5",
+      "group": 1,
+      "min": [
+        0.0,
+        -62.0,
+        751.0
+      ],
+      "max": [
+        720,
+        -40.0,
+        899.0
+      ],
+      "original_bbox": {
+        "max": [
+          2400.0,
+          -40.0,
+          899.0
+        ],
+        "min": [
+          0.0,
+          -62.0,
+          751.0
+        ]
+      }
+    }
+  ],
+  "exploded_view": "Hvert lag er forskudt600mm ekstra i tegningens y-retning; præsentation, ikke fysiske afstande.",
+  "section": {
+    "scale": 0.5,
+    "actual_depth_mm": 229,
+    "paper_depth_mm": 114.5
+  },
+  "open": [
+    "Isolering, membraner, inddækninger og fastgørelsesdetaljer mangler i det viste modeludsnit.",
+    "Ingen ny termisk, fugt-, brand-, montage- eller statisk eftervisning.",
+    "Fysisk papirprøve og uafhængig brugeraccept er åbne."
+  ],
+  "rights": "Egne tegninger og modeludsnit. Ingen tredjeparts-PDF er indlæst eller kopieret."
+}

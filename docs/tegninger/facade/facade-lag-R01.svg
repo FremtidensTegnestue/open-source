@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="420mm" viewBox="0 0 297 420"><rect width="297" height="420" fill="white"/>
+<text x="20" y="19" font-family="Helvetica,Arial,sans-serif" font-size="2.9986" font-weight="700" text-anchor="start" fill="#6D746B">FREMTIDENS TEGNESTUE</text>
+<text x="277" y="19" font-family="Helvetica,Arial,sans-serif" font-size="2.9986" font-weight="400" text-anchor="end" fill="#6D746B">TEGNINGSPRØVE 01</text>
+<path d="M 20.0000,25.0000 L 277.0000,25.0000" fill="none" stroke="#B5BAAF" stroke-width="0.13"/>
+<text x="20" y="42" font-family="Helvetica,Arial,sans-serif" font-size="9.8778" font-weight="700" text-anchor="start" fill="#252823">Forstå facaden.</text>
+<text x="20" y="53" font-family="Helvetica,Arial,sans-serif" font-size="3.8806" font-weight="400" text-anchor="start" fill="#252823">Fem modellerede lag, læst udefra og ind.</text>
+<text x="20" y="64" font-family="Helvetica,Arial,sans-serif" font-size="2.9986" font-weight="400" text-anchor="start" fill="#6D746B">FACADE-01  /  TRÆVARIANT 22 MM  /  GRAFISK R01</text>
+<path d="M 210.4900,161.5760 L 252.2500,184.6160 L 252.2500,124.3160 L 210.4900,101.2760 Z" fill="#F4F1EA" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 252.2500,184.6160 L 253.7900,183.9120 L 253.7900,123.6120 L 252.2500,124.3160 Z" fill="#DED6C6" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 210.4900,101.2760 L 252.2500,124.3160 L 253.7900,123.6120 L 212.0300,100.5720 Z" fill="#FBF9F5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 158.3400,182.4010 L 160.9500,183.8410 L 160.9500,126.5560 L 158.3400,125.1160 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 160.9500,183.8410 L 171.1000,179.2010 L 171.1000,121.9160 L 160.9500,126.5560 Z" fill="#DFCCAF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 158.3400,125.1160 L 160.9500,126.5560 L 171.1000,121.9160 L 168.4900,120.4760 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 158.3400,185.4160 L 200.1000,208.4560 L 200.1000,205.4410 L 158.3400,182.4010 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 200.1000,208.4560 L 210.2500,203.8160 L 210.2500,200.8010 L 200.1000,205.4410 Z" fill="#DFCCAF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 158.3400,182.4010 L 200.1000,205.4410 L 210.2500,200.8010 L 168.4900,177.7610 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 192.4875,201.2410 L 195.0975,202.6810 L 195.0975,145.3960 L 192.4875,143.9560 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 195.0975,202.6810 L 205.2475,198.0410 L 205.2475,140.7560 L 195.0975,145.3960 Z" fill="#DFCCAF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 192.4875,143.9560 L 195.0975,145.3960 L 205.2475,140.7560 L 202.6375,139.3160 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 115.5000,205.0000 L 157.2600,228.0400 L 157.2600,167.7400 L 115.5000,144.7000 Z" fill="#F0F2ED" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 157.2600,228.0400 L 158.1000,227.6560 L 158.1000,167.3560 L 157.2600,167.7400 Z" fill="#D5DACF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 115.5000,144.7000 L 157.2600,167.7400 L 158.1000,167.3560 L 116.3400,144.3160 Z" fill="#F7F8F5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 71.5400,225.0960 L 74.1500,226.5360 L 74.1500,166.2360 L 71.5400,164.7960 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 74.1500,226.5360 L 76.1100,225.6400 L 76.1100,165.3400 L 74.1500,166.2360 Z" fill="#E4D1B7" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 71.5400,164.7960 L 74.1500,166.2360 L 76.1100,165.3400 L 73.5000,163.9000 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 105.6875,243.9360 L 108.2975,245.3760 L 108.2975,185.0760 L 105.6875,183.6360 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 108.2975,245.3760 L 110.2575,244.4800 L 110.2575,184.1800 L 108.2975,185.0760 Z" fill="#E4D1B7" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 105.6875,183.6360 L 108.2975,185.0760 L 110.2575,184.1800 L 107.6475,182.7400 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,194.6830 L 69.7600,217.7230 L 69.7600,207.8070 L 28.0000,184.7670 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 69.7600,217.7230 L 71.3000,217.0190 L 71.3000,207.1030 L 69.7600,207.8070 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,184.7670 L 69.7600,207.8070 L 71.3000,207.1030 L 29.5400,184.0630 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,204.7330 L 69.7600,227.7730 L 69.7600,217.8570 L 28.0000,194.8170 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 69.7600,227.7730 L 71.3000,227.0690 L 71.3000,217.1530 L 69.7600,217.8570 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,194.8170 L 69.7600,217.8570 L 71.3000,217.1530 L 29.5400,194.1130 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,214.7830 L 69.7600,237.8230 L 69.7600,227.9070 L 28.0000,204.8670 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 69.7600,237.8230 L 71.3000,237.1190 L 71.3000,227.2030 L 69.7600,227.9070 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,204.8670 L 69.7600,227.9070 L 71.3000,227.2030 L 29.5400,204.1630 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,224.8330 L 69.7600,247.8730 L 69.7600,237.9570 L 28.0000,214.9170 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 69.7600,247.8730 L 71.3000,247.1690 L 71.3000,237.2530 L 69.7600,237.9570 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,214.9170 L 69.7600,237.9570 L 71.3000,237.2530 L 29.5400,214.2130 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,234.8830 L 69.7600,257.9230 L 69.7600,248.0070 L 28.0000,224.9670 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 69.7600,257.9230 L 71.3000,257.2190 L 71.3000,247.3030 L 69.7600,248.0070 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,224.9670 L 69.7600,248.0070 L 71.3000,247.3030 L 29.5400,224.2630 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,244.9330 L 69.7600,267.9730 L 69.7600,258.0570 L 28.0000,235.0170 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 69.7600,267.9730 L 71.3000,267.2690 L 71.3000,257.3530 L 69.7600,258.0570 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,235.0170 L 69.7600,258.0570 L 71.3000,257.3530 L 29.5400,234.3130 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 28.0000,184.7000 L 24.0000,178.7000" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="22.2" cy="176.2" r="2.6" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="22.2" y="177.172" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">01</text>
+<path d="M 71.5400,164.7960 L 67.5400,158.7960" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="65.74000000000001" cy="156.296" r="2.6" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="65.74000000000001" y="157.268" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">02</text>
+<path d="M 115.5000,144.7000 L 111.5000,138.7000" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="109.70000000000002" cy="136.2" r="2.6" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="109.70000000000002" y="137.172" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">03</text>
+<path d="M 158.3400,125.1160 L 154.3400,119.1160" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="152.54" cy="116.61599999999999" r="2.6" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="152.54" y="117.58799999999998" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">04</text>
+<path d="M 210.4900,101.2760 L 206.4900,95.2760" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="204.69" cy="92.77599999999998" r="2.6" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="204.69" y="93.74799999999998" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">05</text>
+<text x="20" y="271" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="700" text-anchor="start" fill="#6D746B">UDE</text>
+<text x="258" y="91" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="700" text-anchor="end" fill="#6D746B">INDE</text>
+<text x="20" y="283" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">Rumligt modeludsnit. Lagene er trukket fra hinanden; mellemrummene er grafiske.</text>
+<path d="M 20.0000,292.0000 L 277.0000,292.0000" fill="none" stroke="#B5BAAF" stroke-width="0.13"/>
+<text x="20" y="304" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="700" text-anchor="start" fill="#252823">LAG OG FUNKTION</text>
+<circle cx="23" cy="315" r="2.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="23" y="315.972" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">01</text>
+<text x="30" y="316" font-family="Helvetica,Arial,sans-serif" font-size="3.7042" font-weight="700" text-anchor="start" fill="#252823">Træbeklædning</text>
+<text x="30" y="321" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">22 mm · yderste bræddelag</text>
+<circle cx="23" cy="327" r="2.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="23" y="327.972" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">02</text>
+<text x="30" y="328" font-family="Helvetica,Arial,sans-serif" font-size="3.7042" font-weight="700" text-anchor="start" fill="#252823">Lægter</text>
+<text x="30" y="333" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">28 × 45 mm · afstand bag beklædningen</text>
+<circle cx="23" cy="339" r="2.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="23" y="339.972" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">03</text>
+<text x="30" y="340" font-family="Helvetica,Arial,sans-serif" font-size="3.7042" font-weight="700" text-anchor="start" fill="#252823">Vindplade</text>
+<text x="30" y="345" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">12 mm · ydre pladelag</text>
+<circle cx="23" cy="351" r="2.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="23" y="351.972" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">04</text>
+<text x="30" y="352" font-family="Helvetica,Arial,sans-serif" font-size="3.7042" font-weight="700" text-anchor="start" fill="#252823">Træskelet</text>
+<text x="30" y="357" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">45 × 145 mm · stolper og rem</text>
+<circle cx="23" cy="363" r="2.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="23" y="363.972" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">05</text>
+<text x="30" y="364" font-family="Helvetica,Arial,sans-serif" font-size="3.7042" font-weight="700" text-anchor="start" fill="#252823">Krydsfiner</text>
+<text x="30" y="369" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">22 mm · indvendigt pladelag</text>
+<text x="155" y="304" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="700" text-anchor="start" fill="#252823">SAMLET VED EN STOLPE</text>
+<text x="155" y="311" font-family="Helvetica,Arial,sans-serif" font-size="2.9986" font-weight="400" text-anchor="start" fill="#6D746B">Vandret snit 1:2 ved udskrift i 100 %</text>
+<rect x="155.0" y="319" width="11.0" height="22.5" fill="#F4EEE5"/>
+<rect x="166.0" y="319" width="14.0" height="22.5" fill="#F4EEE5"/>
+<rect x="180.0" y="319" width="6.0" height="22.5" fill="#F0F2ED"/>
+<rect x="186.0" y="319" width="72.5" height="22.5" fill="#F4EEE5"/>
+<rect x="258.5" y="319" width="11.0" height="22.5" fill="#F4F1EA"/>
+<path d="M 155.0000,319.0000 L 269.5000,319.0000 L 269.5000,341.5000 L 155.0000,341.5000 L 155.0000,319.0000" fill="none" stroke="#20201E" stroke-width="0.5"/>
+<path d="M 166.0000,319.0000 L 166.0000,341.5000" fill="none" stroke="#20201E" stroke-width="0.5"/>
+<path d="M 180.0000,319.0000 L 180.0000,341.5000" fill="none" stroke="#20201E" stroke-width="0.5"/>
+<path d="M 186.0000,319.0000 L 186.0000,341.5000" fill="none" stroke="#20201E" stroke-width="0.5"/>
+<path d="M 258.5000,319.0000 L 258.5000,341.5000" fill="none" stroke="#20201E" stroke-width="0.5"/>
+<path d="M 160.5000,342.3000 L 160.5000,346.5000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<circle cx="160.5" cy="349.5" r="2.2" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="160.5" y="350.472" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">01</text>
+<path d="M 173.0000,342.3000 L 173.0000,346.5000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<circle cx="173.0" cy="349.5" r="2.2" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="173.0" y="350.472" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">02</text>
+<path d="M 183.0000,342.3000 L 183.0000,346.5000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<circle cx="183.0" cy="349.5" r="2.2" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="183.0" y="350.472" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">03</text>
+<path d="M 222.2500,342.3000 L 222.2500,346.5000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<circle cx="222.25" cy="349.5" r="2.2" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="222.25" y="350.472" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">04</text>
+<path d="M 264.0000,342.3000 L 264.0000,346.5000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<circle cx="264.0" cy="349.5" r="2.2" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="264.0" y="350.472" font-family="Helvetica,Arial,sans-serif" font-size="2.8575" font-weight="700" text-anchor="middle" fill="#8D603A">05</text>
+<path d="M 155.0000,315.0000 L 269.5000,315.0000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<path d="M 154.2000,316.0000 L 155.8000,314.0000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<path d="M 268.7000,316.0000 L 270.3000,314.0000" fill="none" stroke="#41433D" stroke-width="0.13"/>
+<text x="212.25" y="313" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="middle" fill="#252823">229 mm</text>
+<text x="155" y="359" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">Samme numre i snit og rumlig tegning.</text>
+<text x="155" y="365" font-family="Helvetica,Arial,sans-serif" font-size="2.9986" font-weight="400" text-anchor="start" fill="#6D746B">Modelmål - ikke en færdig vægprojektering.</text>
+<path d="M 20.0000,380.0000 L 277.0000,380.0000" fill="none" stroke="#B5BAAF" stroke-width="0.13"/>
+<text x="20" y="389" font-family="Helvetica,Arial,sans-serif" font-size="2.9986" font-weight="700" text-anchor="start" fill="#252823">DET VISER PRØVEN ENDNU IKKE</text>
+<text x="20" y="396" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">Isolering, membraner, inddækninger og fastgørelsesdetaljer er ikke med i dette modeludsnit.</text>
+<text x="20" y="402" font-family="Helvetica,Arial,sans-serif" font-size="3.1750" font-weight="400" text-anchor="start" fill="#6D746B">Åbninger og samlinger skal eftervises særskilt. Grafisk prøve - ikke til udførelse.</text>
+<text x="20" y="412" font-family="Helvetica,Arial,sans-serif" font-size="2.8222" font-weight="400" text-anchor="start" fill="#6D746B">Kilde: målt facadeprøve 112 / træ 22 mm. Egne tegninger. 25.11.2026.</text>
+<text x="277" y="412" font-family="Helvetica,Arial,sans-serif" font-size="2.8222" font-weight="400" text-anchor="end" fill="#6D746B">A3  /  R01</text>
+</svg>

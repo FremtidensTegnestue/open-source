@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="332mm" viewBox="0 0 180 332"><rect width="180" height="332" fill="white"/>
+<text x="10" y="13" font-family="Helvetica,Arial,sans-serif" font-size="3.5278" font-weight="700" text-anchor="start" fill="#6D746B">FREMTIDENS TEGNESTUE</text>
+<text x="10" y="28" font-family="Helvetica,Arial,sans-serif" font-size="9.1722" font-weight="700" text-anchor="start" fill="#252823">Forstå facaden.</text>
+<text x="10" y="39" font-family="Helvetica,Arial,sans-serif" font-size="5.2917" font-weight="400" text-anchor="start" fill="#252823">Fem lag. Udefra og ind.</text>
+<path d="M 137.6283,99.9559 L 165.6075,115.3927 L 165.6075,74.9917 L 137.6283,59.5549 Z" fill="#F4F1EA" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 165.6075,115.3927 L 166.6393,114.9210 L 166.6393,74.5200 L 165.6075,74.9917 Z" fill="#DED6C6" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 137.6283,59.5549 L 165.6075,74.9917 L 166.6393,74.5200 L 138.6601,59.0832 Z" fill="#FBF9F5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 102.6878,113.9087 L 104.4365,114.8735 L 104.4365,76.4925 L 102.6878,75.5277 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 104.4365,114.8735 L 111.2370,111.7647 L 111.2370,73.3837 L 104.4365,76.4925 Z" fill="#DFCCAF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 102.6878,75.5277 L 104.4365,76.4925 L 111.2370,73.3837 L 109.4883,72.4189 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 102.6878,115.9287 L 130.6670,131.3655 L 130.6670,129.3455 L 102.6878,113.9087 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 130.6670,131.3655 L 137.4675,128.2567 L 137.4675,126.2367 L 130.6670,129.3455 Z" fill="#DFCCAF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 102.6878,113.9087 L 130.6670,129.3455 L 137.4675,126.2367 L 109.4883,110.7999 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 125.5666,126.5315 L 127.3153,127.4963 L 127.3153,89.1153 L 125.5666,88.1505 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 127.3153,127.4963 L 134.1158,124.3875 L 134.1158,86.0065 L 127.3153,89.1153 Z" fill="#DFCCAF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 125.5666,88.1505 L 127.3153,89.1153 L 134.1158,86.0065 L 132.3671,85.0417 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 73.9850,129.0500 L 101.9642,144.4868 L 101.9642,104.0858 L 73.9850,88.6490 Z" fill="#F0F2ED" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 101.9642,144.4868 L 102.5270,144.2295 L 102.5270,103.8285 L 101.9642,104.0858 Z" fill="#D5DACF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 73.9850,88.6490 L 101.9642,104.0858 L 102.5270,103.8285 L 74.5478,88.3917 Z" fill="#F7F8F5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 44.5318,142.5143 L 46.2805,143.4791 L 46.2805,103.0781 L 44.5318,102.1133 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 46.2805,143.4791 L 47.5937,142.8788 L 47.5937,102.4778 L 46.2805,103.0781 Z" fill="#E4D1B7" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 44.5318,102.1133 L 46.2805,103.0781 L 47.5937,102.4778 L 45.8450,101.5130 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 67.4106,155.1371 L 69.1593,156.1019 L 69.1593,115.7009 L 67.4106,114.7361 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 69.1593,156.1019 L 70.4725,155.5016 L 70.4725,115.1006 L 69.1593,115.7009 Z" fill="#E4D1B7" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 67.4106,114.7361 L 69.1593,115.7009 L 70.4725,115.1006 L 68.7238,114.1358 Z" fill="#FAF7F2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,122.1376 L 43.3392,137.5744 L 43.3392,130.9307 L 15.3600,115.4939 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 43.3392,137.5744 L 44.3710,137.1027 L 44.3710,130.4590 L 43.3392,130.9307 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,115.4939 L 43.3392,130.9307 L 44.3710,130.4590 L 16.3918,115.0222 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,128.8711 L 43.3392,144.3079 L 43.3392,137.6642 L 15.3600,122.2274 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 43.3392,144.3079 L 44.3710,143.8362 L 44.3710,137.1925 L 43.3392,137.6642 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,122.2274 L 43.3392,137.6642 L 44.3710,137.1925 L 16.3918,121.7557 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,135.6046 L 43.3392,151.0414 L 43.3392,144.3977 L 15.3600,128.9609 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 43.3392,151.0414 L 44.3710,150.5697 L 44.3710,143.9260 L 43.3392,144.3977 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,128.9609 L 43.3392,144.3977 L 44.3710,143.9260 L 16.3918,128.4892 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,142.3381 L 43.3392,157.7749 L 43.3392,151.1312 L 15.3600,135.6944 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 43.3392,157.7749 L 44.3710,157.3032 L 44.3710,150.6595 L 43.3392,151.1312 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,135.6944 L 43.3392,151.1312 L 44.3710,150.6595 L 16.3918,135.2227 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,149.0716 L 43.3392,164.5084 L 43.3392,157.8647 L 15.3600,142.4279 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 43.3392,164.5084 L 44.3710,164.0367 L 44.3710,157.3930 L 43.3392,157.8647 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,142.4279 L 43.3392,157.8647 L 44.3710,157.3930 L 16.3918,141.9562 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,155.8051 L 43.3392,171.2419 L 43.3392,164.5982 L 15.3600,149.1614 Z" fill="#F4EEE5" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 43.3392,171.2419 L 44.3710,170.7702 L 44.3710,164.1265 L 43.3392,164.5982 Z" fill="#E8D8C2" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,149.1614 L 43.3392,164.5982 L 44.3710,164.1265 L 16.3918,148.6897 Z" fill="#F9F5EF" stroke="#30312D" stroke-width="0.25"/>
+<path d="M 15.3600,115.4490 L 12.3600,110.4490" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="10.86" cy="107.449" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="10.86" y="108.829" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">01</text>
+<path d="M 44.5318,102.1133 L 41.5318,97.1133" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="40.031800000000004" cy="94.11331999999999" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="40.031800000000004" y="95.49331999999998" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">02</text>
+<path d="M 73.9850,88.6490 L 70.9850,83.6490" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="69.48500000000001" cy="80.649" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="69.48500000000001" y="82.029" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">03</text>
+<path d="M 102.6878,75.5277 L 99.6878,70.5277" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="98.18780000000001" cy="67.52771999999999" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="98.18780000000001" y="68.90771999999998" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">04</text>
+<path d="M 137.6283,59.5549 L 134.6283,54.5549" fill="none" stroke="#8D603A" stroke-width="0.13"/>
+<circle cx="133.12830000000002" cy="51.55491999999999" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="133.12830000000002" y="52.93491999999999" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">05</text>
+<text x="10" y="181" font-family="Helvetica,Arial,sans-serif" font-size="4.2333" font-weight="400" text-anchor="start" fill="#6D746B">Lagene er trukket fra hinanden.</text>
+<path d="M 10.0000,188.0000 L 170.0000,188.0000" fill="none" stroke="#B5BAAF" stroke-width="0.13"/>
+<circle cx="14" cy="199.5" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="14" y="200.88" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">01</text>
+<text x="23" y="201" font-family="Helvetica,Arial,sans-serif" font-size="6.3500" font-weight="700" text-anchor="start" fill="#252823">Træbeklædning 22 mm</text>
+<text x="23" y="208" font-family="Helvetica,Arial,sans-serif" font-size="4.9389" font-weight="400" text-anchor="start" fill="#6D746B">Yderste bræddelag.</text>
+<circle cx="14" cy="219.5" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="14" y="220.88" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">02</text>
+<text x="23" y="221" font-family="Helvetica,Arial,sans-serif" font-size="6.3500" font-weight="700" text-anchor="start" fill="#252823">Lægter 28 × 45 mm</text>
+<text x="23" y="228" font-family="Helvetica,Arial,sans-serif" font-size="4.9389" font-weight="400" text-anchor="start" fill="#6D746B">Afstand bag beklædningen.</text>
+<circle cx="14" cy="239.5" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="14" y="240.88" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">03</text>
+<text x="23" y="241" font-family="Helvetica,Arial,sans-serif" font-size="6.3500" font-weight="700" text-anchor="start" fill="#252823">Vindplade 12 mm</text>
+<text x="23" y="248" font-family="Helvetica,Arial,sans-serif" font-size="4.9389" font-weight="400" text-anchor="start" fill="#6D746B">Ydre pladelag.</text>
+<circle cx="14" cy="259.5" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="14" y="260.88" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">04</text>
+<text x="23" y="261" font-family="Helvetica,Arial,sans-serif" font-size="6.3500" font-weight="700" text-anchor="start" fill="#252823">Træskelet 45 × 145 mm</text>
+<text x="23" y="268" font-family="Helvetica,Arial,sans-serif" font-size="4.9389" font-weight="400" text-anchor="start" fill="#6D746B">Stolper og rem.</text>
+<circle cx="14" cy="279.5" r="3.5" fill="white" stroke="#8D603A" stroke-width=".13"/>
+<text x="14" y="280.88" font-family="Helvetica,Arial,sans-serif" font-size="4.0569" font-weight="700" text-anchor="middle" fill="#8D603A">05</text>
+<text x="23" y="281" font-family="Helvetica,Arial,sans-serif" font-size="6.3500" font-weight="700" text-anchor="start" fill="#252823">Krydsfiner 22 mm</text>
+<text x="23" y="288" font-family="Helvetica,Arial,sans-serif" font-size="4.9389" font-weight="400" text-anchor="start" fill="#6D746B">Indvendigt pladelag.</text>
+<path d="M 10.0000,297.0000 L 170.0000,297.0000" fill="none" stroke="#B5BAAF" stroke-width="0.13"/>
+<text x="10" y="307" font-family="Helvetica,Arial,sans-serif" font-size="4.5861" font-weight="700" text-anchor="start" fill="#252823">Grafisk prøve af den eksisterende model.</text>
+<text x="10" y="315" font-family="Helvetica,Arial,sans-serif" font-size="4.2333" font-weight="400" text-anchor="start" fill="#6D746B">Isolering, membraner og samlinger mangler.</text>
+<text x="10" y="324" font-family="Helvetica,Arial,sans-serif" font-size="3.7042" font-weight="400" text-anchor="start" fill="#6D746B">Ikke til udførelse. Facade-01 · R01 · 25.11.2026</text>
+</svg>

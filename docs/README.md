@@ -1,5 +1,7 @@
 # Browserindgangen
 
+[Facadens lag](facaden.html) er en egen gemt tegningsprøve med særskilt mobilkomposition og A3-snit. [Geometri, SVG-kilder og grafiske krav](tegninger/facade/README.md) følger med. Den er ikke en live SolidCraft-kobling, beregner eller komplet vægprojektering. Prøvens mangler og åbne papir-/brugeraccept fremgår på læsesiden.
+
 Den offentlige side publiceres fra denne mappe med GitHub Pages. Den virker uden konto, installation, eksterne scriptbiblioteker eller en FT-server. Søgningen kører i browseren. Søgetekst og valgt materiale gemmes kun i URL-fragmentet og sendes ikke af siden som en søgeforespørgsel til en server. GitHubs hosting har egne vilkår og driftslogs.
 
 ## Data og afgrænsning
