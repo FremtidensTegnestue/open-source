@@ -625,6 +625,9 @@ grid-template-columns:1fr}
 .comparison-fields,.comparison-names{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}
 .comparison input,.comparison select{width:100%;min-width:0;max-width:100%;min-height:48px;padding:.65rem .8rem;border:1px solid var(--outline);border-radius:2px;background:white;color:var(--ink)}
 .comparison select{font-size:1rem}
+#fastener-form select{margin-bottom:1rem}
+#fastener-result .climate-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:780px){#fastener-result .climate-grid{grid-template-columns:1fr}}
 .comparison input[aria-invalid=true]{border-color:#963d26}
 .comparison form>.muted{margin:.7rem 0 1.5rem}
 .material-selects{margin-block:1.5rem}

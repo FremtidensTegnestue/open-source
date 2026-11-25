@@ -3,7 +3,49 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {normalize,findMaterials,numberLabel,unitLabel,referenceLabel,safeURL,validateData,observation,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
 import {INSULATION,insulationBasis,compareInsulation} from './insulation.mjs';
+import {FASTENERS,fastenerBasis,validateFasteners,fastenerResult} from './fasteners.mjs';
 const data = JSON.parse(readFileSync(new URL('./materialer.json',import.meta.url),'utf8'));
+const screws=JSON.parse(readFileSync(new URL('./fastgoerelser.json',import.meta.url),'utf8'));
+
+test('two separate screw sources preserve their original edition, scope and unreported modules',()=>{
+  assert.equal(validateFasteners(screws),screws);
+  assert.equal(screws.observation_count,9);
+  assert.equal(FASTENERS.length,2);
+  const galvanized=screws.records.find(r=>r.material.name==='Galvanized steel screws');
+  const stainless=screws.records.find(r=>r.material.name==='Stainless steel screws');
+  const a=fastenerResult(galvanized,2.5),b=fastenerResult(stainless,2.5);
+  assert.equal(a.phases[0].value,3.46125799354958*2.5);
+  assert.equal(b.phases[0].value,4.18348088118257*2.5);
+  assert.deepEqual(a.missing_modules,['C4']);
+  assert.deepEqual(b.missing_modules,['C3','C4']);
+  assert.equal(a.phases[3].value,0);
+  assert.equal(b.phases[3].value,null);
+  assert.equal(a.phases[5].value,-1.3690431511612*2.5);
+  assert(!('total' in a));assert.deepEqual(a.excluded_modules,['A4','A5','B1-B7']);
+  assert.equal(fastenerResult(stainless,0).phases[3].value,null);
+});
+test('screw mass calculation rejects wrong product, indicator and conflicting mass reference',()=>{
+  const base=screws.records[0];
+  for (const change of [
+    r=>r.material.name='Steel bracket',
+    r=>r.observations[0].method='GWP-fossil',
+    r=>r.observations[0].declared_unit='stk',
+    r=>r.observations[0].basis='1000 kg',
+    r=>{const c=JSON.parse(r.observations[0].conditions_json);c.declared_references[0].amount=1000;r.observations[0].conditions_json=JSON.stringify(c);},
+    r=>r.observations[0].value=NaN,
+    r=>r.observations.push(r.observations[0]),
+  ]) {const r=structuredClone(base);change(r);assert.throws(()=>fastenerBasis(r));}
+  for(const mass of [-1,NaN,Infinity,'2']) assert.throws(()=>fastenerResult(base,mass));
+  assert.throws(()=>fastenerResult(base,Number.MAX_VALUE));
+  assert.throws(()=>fastenerResult(base,Number.MIN_VALUE));
+});
+test('screw data fetch validation rejects incomplete, duplicated, re-scoped and unlicensed editions',()=>{
+  for(const change of [
+    d=>d.records.pop(),d=>d.records[1]=d.records[0],d=>d.sources.pop(),
+    d=>d.sources[0].license_status='unknown',d=>d.records[0].observations[0].module='C4',
+    d=>d.records[0].observations[0].source_id='missing',d=>d.parquet_manifest_sha256='',
+  ]) {const d=structuredClone(screws);change(d);assert.throws(()=>validateFasteners(d));}
+});
 
 test('the complete shipped excerpt resolves every material and module',() => {
   assert.equal(validateData(data),data);

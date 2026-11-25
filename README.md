@@ -28,6 +28,8 @@ Vi er arkitekt Thais Espersen og systemudvikler Mikkel Freltoft Krogsholm. Samme
 
 - **Sammenligne isolering:** [Undersøg to muligheder ved samme areal og isoleringsevne](https://fremtidenstegnestue.github.io/open-source/#isolering). 13 udvalgte referencer har en særskilt beregningsmetode. Se faserne, forskellen og de tekniske forhold, der stadig skal afklares. [Materialekort og nye kilder](https://fremtidenstegnestue.github.io/open-source/#materialevalg) · [Opdateringer og materialeforslag](https://fremtidenstegnestue.github.io/open-source/#nyt).
 
+- **Få skruer og samlinger med:** [Beregn skruernes bidrag ud fra nettovægt](https://fremtidenstegnestue.github.io/open-source/#fastgoerelser). To tyske generiske referencer supplerer de danske tabelværdier. Kildekort for beslag, tape og fugtvariabel membran viser, hvad der mangler, før deres klimatal kan indgå. [Grundlag og kildeudgaver](materialer/docs/sources/fastgoerelser-og-taetning.md).
+
 - **Bruge egne modeller, flere datakilder eller de lokale beregningsværktøjer:** [Følg den korte startvejledning](materialer/docs/KOM-GODT-I-GANG.md). Opslag i det større datagrundlag og beregningsværktøjerne har deres egne installationsveje. Du kan først følge et færdigt regnestykke i browseren.
 
 - **Hente bøger til skærm eller papir:** [Find de otte bøger og deres PDF-filer](bogserie/README.md). Du skal bruge en PDF-læser. Modeller og byggeprogrammer er valgfrie.

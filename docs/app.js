@@ -1,5 +1,6 @@
 import {GROUPS,PHASES,findMaterials,observation,numberLabel,unitLabel,referenceLabel,conditions,safeURL,validateData,quantityBasis,parseQuantity,quantityResult} from './core.mjs';
 import {INSULATION,insulationBasis,compareInsulation} from './insulation.mjs';
+import {FASTENERS,FASTENER_PHASES,validateFasteners,fastenerResult} from './fasteners.mjs';
 
 const $ = id => document.getElementById(id);
 let data, hits = [], shown = 12, selected = null;
@@ -23,9 +24,9 @@ function label(row) {
   const n = numberLabel(row);
   return (n.approximate ? '≈ ' : '') + n.text;
 }
-function phaseGrid(rows) {
+function phaseGrid(rows,phases=PHASES) {
   const grid=el('div',undefined,'climate-grid');
-  for(const [module,name] of PHASES) {
+  for(const [module,name] of phases) {
     const row=rows.find(row=>row?.module===module),phase=el('div',undefined,'phase');
     phase.append(el('h3',name),el('p',module,'module'),el('p',label(row),'value'),el('p',unitLabel(row?.unit),'unit'));
     grid.append(phase);
@@ -279,5 +280,60 @@ for (const b of document.querySelectorAll('button[data-query]')) b.addEventListe
 $('more').addEventListener('click',() => {shown+=12;renderResults();});
 $('retry').addEventListener('click',load);
 $('new-search').addEventListener('click',() => {$('query').focus({preventScroll:true});$('materialer').scrollIntoView({block:'start'});});
+let fastenersData=null, screwResult=null;
+function updateFastener() {
+  screwResult=null;$('fastener-result').replaceChildren();$('fastener-save').hidden=true;
+  $('fastener-error').textContent='';$('fastener-mass').removeAttribute('aria-invalid');
+  if(!fastenersData) return;
+  const record=fastenersData.records.find(r=>r.material.id===$('fastener-kind').value);
+  const source=fastenersData.sources.find(s=>s.id===record.material.source_id);
+  const sourceBox=$('fastener-source');sourceBox.replaceChildren();
+  sourceBox.append(el('p',`Originalnavn: ${record.material.name}. ÖKOBAUDAT / Sphera Solutions GmbH. Udgave 20.26.070 · tysk generisk reference · referenceår 2023 · datagyldighed til 2026.`),link('Åbn den præcise kildereference',source.url));
+  if (!$('fastener-mass').value.trim()) {$('fastener-status').textContent='Indtast skruernes nettovægt for at se bidraget.';return;}
+  try {
+    screwResult=fastenerResult(record,parseQuantity($('fastener-mass').value));
+    $('fastener-status').textContent=`${FASTENERS.find(p=>p.id===record.material.id).label} · ${label(screwResult.quantity)} kg nettovægt.`;
+    $('fastener-result').append(phaseGrid(screwResult.phases,FASTENER_PHASES),el('p',`Ikke oplyst i denne reference: ${screwResult.missing_modules.join(', ')}. Manglende faser er ikke sat til nul. D er ikke trukket fra.`,'notice'));
+    const exact=el('details'),list=el('ul');exact.append(el('summary','Se kildens præcise tal pr. 1 kg'));
+    for(const [module] of FASTENER_PHASES) {
+      const row=record.observations.find(r=>r.module===module);
+      list.append(el('li',`${module}: ${row ? row.value_text ?? 'Ikke oplyst' : 'Ikke oplyst'}${row ? ` ${row.unit}` : ''}`));
+    }
+    exact.append(list);$('fastener-result').append(exact);$('fastener-save').hidden=false;
+  } catch(error) {
+    $('fastener-mass').setAttribute('aria-invalid','true');$('fastener-error').textContent=error.message;
+    $('fastener-status').textContent='Ret nettovægten. Den tidligere beregning er fjernet.';
+  }
+}
+async function loadFasteners() {
+  fastenersData=null;screwResult=null;$('fastener-result').replaceChildren();$('fastener-source').replaceChildren();$('fastener-save').hidden=true;$('fastener-retry').hidden=true;$('fastener-error').textContent='';
+  document.querySelectorAll('#fastener-form input,#fastener-form select,#fastener-form button').forEach(n=>n.disabled=true);
+  $('fastener-status').textContent='Henter skruereferencerne…';
+  try {
+    const response=await fetch(new URL('fastgoerelser.json',import.meta.url));
+    if(!response.ok) throw new Error('Skruedata kunne ikke hentes.');
+    fastenersData=validateFasteners(await response.json());
+    $('fastener-kind').replaceChildren();
+    for(const profile of FASTENERS) {const option=el('option',profile.label);option.value=profile.id;$('fastener-kind').append(option);}
+    document.querySelectorAll('#fastener-form input,#fastener-form select,#fastener-form button').forEach(n=>n.disabled=false);
+    updateFastener();
+  } catch {
+    fastenersData=null;$('fastener-result').replaceChildren();$('fastener-save').hidden=true;
+    $('fastener-status').textContent='Skruedata kunne ikke hentes eller godkendes. Der vises ingen beregning. Prøv igen; kildekortene kan stadig læses.';
+    $('fastener-retry').hidden=false;
+  }
+}
+$('fastener-form').addEventListener('submit',event=>{event.preventDefault();updateFastener();});
+$('fastener-mass').addEventListener('input',updateFastener);
+$('fastener-kind').addEventListener('change',updateFastener);
+$('fastener-clear').addEventListener('click',()=>{$('fastener-mass').value='';updateFastener();$('fastener-mass').focus();});
+$('fastener-retry').addEventListener('click',loadFasteners);
+$('fastener-save').addEventListener('click',()=>{
+  if(!screwResult || !fastenersData) return;
+  const record=fastenersData.records.find(r=>r.material.id===screwResult.material_id);
+  downloadJSON({schema_version:1,tool_version:'browser-fasteners-1',scope:fastenersData.scope,parquet_manifest_sha256:fastenersData.parquet_manifest_sha256,
+    calculation:screwResult,source_record:record,sources:fastenersData.sources.filter(s=>s.id===record.material.source_id)},'skruer-beregning');
+});
 window.addEventListener('popstate',() => restoreAddress(true));
 load();
+loadFasteners();
